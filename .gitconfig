@@ -3,3 +3,5 @@
 	email = mr.kumar.abhishek@email.com
 [credential]
 	helper = cache --timeout=3600
+[core]
+	editor = vim
