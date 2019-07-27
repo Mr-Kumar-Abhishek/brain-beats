@@ -2,7 +2,8 @@
 // where the node app starts
 
 // init project
-var http = require('http');
+const http = require('http');
+const https = require('https');
 var debug = require('debug')('test');
 var express = require('express');
 var normalizePort = require( 'normalize-port' );
