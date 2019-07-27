@@ -5,7 +5,7 @@
     "display" : "standalone",
     "orientation" : "portrait-primary",
     "lang" : "English",
-    "icons" : [
+    "icons" : [{
       "src": "https://res.cloudinary.com/mr-kumar-abhishek/image/upload/c_scale,h_128,w_128/v1564221902/brain-beats/mandala-1757304_1280.png",
       "sizes": "128x128",
       "type": "image/png"
@@ -29,5 +29,6 @@
       "src": "https://res.cloudinary.com/mr-kumar-abhishek/image/upload/c_scale,h_512,w_512/v1564221902/brain-beats/mandala-1757304_1280.png",
       "sizes": "512x512",
       "type": "image/png"
-    }]}
+    }]
+}
 
