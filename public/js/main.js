@@ -7,5 +7,4 @@ var oscillator = audioCtx.createOscillator();
 oscillator.type = 'sine';
 oscillator.frequency.setValueAtTime(24, audioCtx.currentTime); // value in hertz
 oscillator.connect(audioCtx.destination);
-oscillator.start();
 
