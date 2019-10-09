@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "express": "^4.16.4",
-    "normalize-port": "^1.0.0"
+    "normalize-port": "^1.0.0",
+    "tone": "^13.8.25"
   },
   "engines": {
     "node": "^10.16.x"
