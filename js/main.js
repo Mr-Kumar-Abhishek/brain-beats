@@ -130,7 +130,7 @@ function warning(whichy){
        alert("Lower your volume !!");
        break;
     case 1:
-       alert("use headphones !");
+       alert("Lower your volume and use headphones !");
        break;
   }   
 }
