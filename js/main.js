@@ -5,13 +5,13 @@ var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
 var oscillator;
 
-var flag = 0;
+var solfeggio_flag = 0;
 
-function play_sample(freq) {
+function play_solfeggio(freq) {
 
-  if (flag == 0){
+  if (solfeggio_flag == 0){
   
-   flag = 1;
+   solfeggio_flag = 1;
    oscillator = audioCtx.createOscillator();
 
    oscillator.type = 'sine';
@@ -19,14 +19,14 @@ function play_sample(freq) {
    oscillator.connect(audioCtx.destination);
    oscillator.start();
   }else {
-    stop_sample();
-    play_sample(freq);
+    stop_solfeggio();
+    play_solfeggio(freq);
   }
 }
 
-function stop_sample(){
-  if (flag == 1){
-    flag = 0;
+function stop_solfeggio(){
+  if (solfeggio_flag == 1){
+    solfeggio_flag = 0;
     oscillator.stop(); 
   }
 }
