@@ -4,9 +4,8 @@
     <script src="js/pwabuilder-sw-register.js"></script>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Brain Beats | Brainwave Entertainment </title>
-    <meta name="description" content="Brain Beats is an brainwave entertainment portal with containing programs of solfeggio frequency, binaural beats and monaural beats. Isochronic tones are comming soon as well." />
-    <meta name="keywords" content="solfeggio frequency, solfeggio, brainwave, entertainment, binaural beats, monaural beats, monaural, binaural, beats" >
+    <title>Monaural Beats |Brain Beats | Brainwave Entertainment</title>
+    <meta name="description" content="" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -67,88 +66,53 @@
               >Monaural Beats</a
             >
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="monaural-beats-generator.html"
-              >Monaural Beats Generator</a
-            >
-          </li>
         </ul>
       </div>
     </nav>
+
     <div class="container-fluid">
       <div class="row">
         <div class="col">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Solfeggio Frequency</h5>
+              <h5 class="card-title">6 hz - Monaural Beats</h5>
               <div class="row">
                 <div class="col text-left">
-                  <p class="card-text">
-                    Base Tones used by monks to meditate via tibetian singing
-                    bowl.
-                  </p>
-                </div>
-                <div class="col text-right">
-                  <a
-                    href="solfeggio-frequency.html"
-                    class="btn btn-primary text-white"
-                  >
-                    &gt;&gt;
-                  </a>
+                  <div class="card-text">
+                    <form>
+                      <div class="row">
+                        <div class="col">
+                          <input
+                            id="freq1"
+                            type="number"
+                            class="form-control"
+                            placeholder="1st frequency"
+                          />
+                        </div>
+                        <div class="col">
+                          <input
+                            id="freq2"
+                            type="number"
+                            class="form-control"
+                            placeholder="2nd Frequency"
+                          />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Binaural Beats</h5>
               <div class="row">
-                <div class="col text-left">
-                  <p class="card-text">
-                    Binaural beats are auditory illusion perceived when two
-                    different pure-tone sine waves are presented to a listener
-                    dichotically. These are used in modern meditations.
-                  </p>
-                </div>
                 <div class="col text-right">
-                  <a
-                    href="binaural-base-beats.html"
-                    class="btn btn-primary text-white"
+                  <button
+                    onclick="play_monaural(4, 10);"
+                    class="btn btn-primary"
                   >
-                    &gt;&gt;
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Monaural Beats</h5>
-              <div class="row">
-                <div class="col text-left">
-                  <p class="card-text">
-                    Monaural brainwave entrainment is a single pulsing beat,
-                    which is also used for meditation. It is created by the
-                    convergence of two tones emanating from a single speaker.
-                  </p>
-                </div>
-                <div class="col text-right">
-                  <a
-                    href="monaural-base-beats.html"
-                    class="btn btn-primary text-white"
-                  >
-                    &gt;&gt;
-                  </a>
+                    Play
+                  </button>
+                  <button onclick="stop_monaural();" class="btn btn-secondary">
+                    Stop
+                  </button>
                 </div>
               </div>
             </div>
