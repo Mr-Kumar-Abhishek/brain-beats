@@ -46,9 +46,8 @@ function play_monaural(freq1, freq2){
     monaural_oscillator_1.start();
     monaural_oscillator_2.start();
   }else {
-    monaural_stop();
-    
-    
+    stop_monaural();
+    play_monaural(freq1, freq2);
   }
 }
 
