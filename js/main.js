@@ -18,6 +18,9 @@ function play_sample(freq) {
    oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
    oscillator.connect(audioCtx.destination);
    oscillator.start();
+  }else {
+    stop_sample();
+    play_sample(freq);
   }
 }
 
