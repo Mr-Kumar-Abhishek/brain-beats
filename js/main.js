@@ -123,3 +123,7 @@ function play_binaural_generator(){
   var freq2 = $("#freq2").val();
   play_binaural(freq1, freq2);
 }
+
+function warning(){
+  alert("Lo")
+}
