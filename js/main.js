@@ -111,3 +111,9 @@ function stop_binaural(){
     binaural_oscillator_1.stop();
   }
 }
+
+function play_monaural_generator(){
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  play_monaural(freq1, freq2);
+}
