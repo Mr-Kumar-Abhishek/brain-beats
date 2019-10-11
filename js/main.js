@@ -5,12 +5,12 @@ var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
 var oscillator;
 
-function play_sample() {
+function play_sample(freq) {
 
  oscillator = audioCtx.createOscillator();
 
  oscillator.type = 'sine';
- oscillator.frequency.setValueAtTime(24, audioCtx.currentTime); // value in hertz
+ oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
  oscillator.connect(audioCtx.destination);
  oscillator.start();
 }
