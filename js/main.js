@@ -6,6 +6,8 @@ var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 var oscillator;
 var monaural_oscillator_1;
 var monaural_oscillator_2;
+var binaural_oscillator_1;
+var binaural_oscillator_2;
 
 var solfeggio_flag = 0;
 var monaural_flag = 0;
@@ -49,6 +51,10 @@ function play_monaural(freq1, freq2){
     stop_monaural();
     play_monaural(freq1, freq2);
   }
+}
+
+function start_binaural(freq1, freq2){
+  
 }
 
 function stop_solfeggio(){
