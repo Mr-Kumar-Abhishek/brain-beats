@@ -124,6 +124,13 @@ function play_binaural_generator(){
   play_binaural(freq1, freq2);
 }
 
-function warning(){
-  alert("Lower your volume !!");
+function warning(whichy){
+  switch(whichy) {
+    case 0: 
+       alert("Lower your volume !!");
+       break;
+    case 1:
+       alert("use headphones !");
+       break;
+  }   
 }
