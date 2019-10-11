@@ -5,16 +5,23 @@ var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
 var oscillator;
 
+var flag = 1;
+
 function play_sample(freq) {
 
- oscillator = audioCtx.createOscillator();
+  if (flag = 1){
+  
 
- oscillator.type = 'sine';
- oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
- oscillator.connect(audioCtx.destination);
- oscillator.start();
+   oscillator = audioCtx.createOscillator();
+
+   oscillator.type = 'sine';
+   oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
+   oscillator.connect(audioCtx.destination);
+   oscillator.start();
+  }
 }
 
 function stop_sample(){
  oscillator.stop();
+  
 }
