@@ -85,28 +85,28 @@
         <div class="col">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Monaural Beats Generator</h5>
+              <h5 class="card-title">Binaural Beats Generator</h5>
               <div class="row">
                 <div class="col text-left">
                   <div class="card-text">
                     <form>
                       <div class="form-row">
                         <div class="form-group col">
-                          <label for="freq1">1st Frequency</label>
+                          <label for="freq1">Left Ear Frequency</label>
                           <input
                             id="freq1"
                             type="number"
                             class="form-control"
-                            placeholder="1st frequency"
+                            placeholder="Left Ear frequency"
                           />
                         </div>
                         <div class="form-group col">
-                          <label for="freq2">2nd frequency</label>
+                          <label for="freq2">Right Ear frequency</label>
                           <input
                             id="freq2"
                             type="number"
                             class="form-control"
-                            placeholder="2nd Frequency"
+                            placeholder="Right Frequency"
                           />
                         </div>
                       </div>
@@ -117,12 +117,12 @@
               <div class="row">
                 <div class="col text-right">
                   <button
-                    onclick="play_monaural_generator();"
+                    onclick="play_binaural_generator();"
                     class="btn btn-primary"
                   >
                     Play
                   </button>
-                  <button onclick="stop_monaural();" class="btn btn-secondary">
+                  <button onclick="stop_binaural();" class="btn btn-secondary">
                     Stop
                   </button>
                 </div>
