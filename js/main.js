@@ -11,7 +11,9 @@ var binaural_oscillator_2;
 
 var solfeggio_flag = 0;
 var monaural_flag = 0;
-var oscillator_type = 'sine'
+var binaural_flag = 0;
+
+var oscillator_type = 'sine';
 
 function play_solfeggio(freq) {
 
@@ -54,6 +56,31 @@ function play_monaural(freq1, freq2){
 }
 
 function start_binaural(freq1, freq2){
+    if (binaural_flag == 0){
+    binaural_flag = 1;
+    
+    binaural_oscillator_1 = audioCtx.createOscillator();
+    binaural_oscillator_2 = audioCtx.createOscillator();
+    var pannerNode_1 = audioCtx.createPanner();
+    var pannerNode_2 = audioCtx.createPanner();
+      
+    binaural_oscillator_1.type = oscillator_type;
+    binaural_oscillator_2.type = oscillator_type;
+    
+    binaural_oscillator_1.frequency.setValueAtTime(freq1, audioCtx.currentTime);
+    binaural_oscillator_2.frequency.setValueAtTime(freq2, audioCtx.currentTime);
+    
+    binaural_oscillator_1.connect(pannerNode_1);
+    binaural_oscillator_2.connect(pannerNode_2);
+    
+    pannerNode_1.connect(audioCtx.destination);
+    pannerNode_2.connect(audioCtx.destination);
+    binaural_oscillator_1.start();
+    binaural_oscillator_2.start();
+  }else {
+    stop_binaural();
+    play_binaural(freq1, freq2);
+  }
   
 }
 
