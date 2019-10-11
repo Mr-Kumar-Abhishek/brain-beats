@@ -125,5 +125,5 @@ function play_binaural_generator(){
 }
 
 function warning(){
-  alert("Lo")
+  alert("Lower your volume !!");
 }
