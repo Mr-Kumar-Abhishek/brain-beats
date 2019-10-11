@@ -55,7 +55,7 @@ function play_monaural(freq1, freq2){
   }
 }
 
-function start_binaural(freq1, freq2){
+function play_binaural(freq1, freq2){
     if (binaural_flag == 0){
     binaural_flag = 1;
     
@@ -96,5 +96,13 @@ function stop_monaural(){
     monaural_flag = 0;
     monaural_oscillator_2.stop();
     monaural_oscillator_1.stop();
+  }
+}
+
+function stop_binaural(){
+  if(binaural_flag == 1){
+    binaural_flag = 0;
+    binaural_oscillator_2.stop();
+    binaural_oscillator_1.stop();
   }
 }
