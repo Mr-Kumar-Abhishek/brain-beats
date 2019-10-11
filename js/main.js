@@ -5,13 +5,13 @@ var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
 var oscillator;
 
-var flag = 1;
+var flag = 0;
 
 function play_sample(freq) {
 
-  if (flag = 1){
+  if (flag == 0){
   
-
+   flag = 1;
    oscillator = audioCtx.createOscillator();
 
    oscillator.type = 'sine';
@@ -22,6 +22,8 @@ function play_sample(freq) {
 }
 
 function stop_sample(){
- oscillator.stop();
-  
+  if (flag == 1){
+    flag = 0;
+    oscillator.stop(); 
+  }
 }
