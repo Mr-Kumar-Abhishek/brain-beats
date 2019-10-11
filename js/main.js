@@ -69,12 +69,17 @@ function play_binaural(freq1, freq2){
     
     binaural_oscillator_1.frequency.setValueAtTime(freq1, audioCtx.currentTime);
     binaural_oscillator_2.frequency.setValueAtTime(freq2, audioCtx.currentTime);
-    
+          
     binaural_oscillator_1.connect(pannerNode_1);
     binaural_oscillator_2.connect(pannerNode_2);
     
     pannerNode_1.connect(audioCtx.destination);
     pannerNode_2.connect(audioCtx.destination);
+    
+               
+    pannerNode_1.setPosition(-1, 0, 0);
+    pannerNode_2.setPosition(1, 0, 0);
+      
     binaural_oscillator_1.start();
     binaural_oscillator_2.start();
   }else {
