@@ -17,6 +17,8 @@
   z-index: 1;
   width: 100%;
   bottom: 1px;
+  right: 1px;
+  margin-top: 0;
 }
 
 .volume-inner-box {
