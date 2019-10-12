@@ -1,13 +1,15 @@
+// This is the service worker with the Cache-first network
+
+// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
 
 // Check compatibility for the browser we're running this in
-// alert("service worker register ran !!!")
 if ("serviceWorker" in navigator) {
   if (navigator.serviceWorker.controller) {
     console.log("[PWA Builder] active service worker found, no need to register");
   } else {
     // Register the service worker
     navigator.serviceWorker
-      .register("js/pwabuilder-sw.js", {
+      .register("pwabuilder-sw.js", {
         scope: "./"
       })
       .then(function (reg) {
@@ -15,4 +17,3 @@ if ("serviceWorker" in navigator) {
       });
   }
 }
-
