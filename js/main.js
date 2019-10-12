@@ -97,6 +97,8 @@ function play_binaural(freq1, freq2){
     volume_1.connect(audioCtx.destination);
     volume_2.connect(audioCtx.destination);
       
+    pannerNode_1.setPosition(-1, 0, 0);
+    pannerNode_2.setPosition(1, 0, 0);
     
     volume_1.gain.value = volume_gain;
     volume_2.gain.value = volume_gain;
