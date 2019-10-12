@@ -27,9 +27,12 @@
 
 .range-slider {
   margin: 60px 0 0 0%;
-  background: #70a7a7;
+  background: #699c9c;
   border-radius: 5px;
   padding: 10px;
+  -webkit-box-shadow: -2px 0px 20px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 0px 20px -4px rgba(0,0,0,0.75);
+  box-shadow: -2px 0px 20px -4px rgba(0,0,0,0.75);
 }
 
 .range-slider {
