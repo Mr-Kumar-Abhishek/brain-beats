@@ -13,7 +13,7 @@
 }
 
 .volume-box {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   width: 100%;
   bottom: 1px;
@@ -29,6 +29,7 @@
   margin: 60px 0 0 0%;
   background: #70a7a7;
   border-radius: 5px;
+  padding: 10px;
 }
 
 .range-slider {
