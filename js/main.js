@@ -8,7 +8,6 @@ var monaural_oscillator_1;
 var monaural_oscillator_2;
 var binaural_oscillator_1;
 var binaural_oscillator_2;
-var volume_gain = volume_set();
 var solfeggio_flag = 0;
 var monaural_flag = 0;
 var binaural_flag = 0;
@@ -16,8 +15,10 @@ var binaural_flag = 0;
 var oscillator_type = 'sine';
 
 function volume_set(){
-  var user_volume = $("#volume").val() / 10;
-  return user_volume;
+  var user_volume = $("#volume").val();
+  console.log ("User volume" + user_volume);
+  var prog_volume = user_volume/10;
+  return prog_volume;
 }
 
 function play_solfeggio(freq) {
@@ -33,7 +34,7 @@ function play_solfeggio(freq) {
    oscillator.connect(volume);
    oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
    volume.connect(audioCtx.destination);
-   volume.gain.value = volume_gain;
+   volume.gain.value = volume_set();
    oscillator.start();
   }else {
     stop_solfeggio();
@@ -63,8 +64,8 @@ function play_monaural(freq1, freq2){
     volume_1.connect(audioCtx.destination);
     volume_2.connect(audioCtx.destination);
     
-    volume_1.gain.value = volume_gain;
-    volume_2.gain.value = volume_gain;
+    volume_1.gain.value = volume_set();
+    volume_2.gain.value = volume_set();
     
     monaural_oscillator_1.start();
     monaural_oscillator_2.start();
@@ -105,8 +106,8 @@ function play_binaural(freq1, freq2){
     pannerNode_1.setPosition(-1, 0, 0);
     pannerNode_2.setPosition(1, 0, 0);
     
-    volume_1.gain.value = volume_gain;
-    volume_2.gain.value = volume_gain;
+    volume_1.gain.value = volume_set();
+    volume_2.gain.value = volume_set();
     
     binaural_oscillator_1.start();
     binaural_oscillator_2.start();
