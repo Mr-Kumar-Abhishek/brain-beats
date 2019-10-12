@@ -21,7 +21,7 @@ var oscillator_type = 'sine';
 
 function volume_set(){
   var user_volume = $("#volume").val();
-  console.log ("User volume" + user_volume);
+  console.log ("User volume " + user_volume);
   var prog_volume = user_volume/10;
   return prog_volume;
 }
@@ -204,17 +204,26 @@ var rangeSlider = function(){
 rangeSlider();
 
 function live_volume_set(){
+  console.log("live volume ran");
   
   if(solfeggio_flag == 1){
-   stop_solfeggio();
-   play_soffeggio(solfeggio_freq); 
     
-  }else if (monaural_flagg == 1){
+   stop_solfeggio();
+   play_solfeggio(solfeggio_freq); 
+    
+  }else if (monaural_flag == 1){
     
     stop_monaural();
-    play_monural(beat_freq_1, beat_freq_2);
+    play_monaural(beat_freq_1, beat_freq_2);
     
-  }else if ()
+  }else if (binaural_flag == 1){
+    
+    stop_binaural();
+    play_binaural(beat_freq_1, beat_freq_2);
+    
+  }
   
 }
-$("#volume").change(live_volume_set());
+$("#volume").change(function(){
+  live_volume_set();
+});
