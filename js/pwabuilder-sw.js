@@ -17,7 +17,11 @@ const precacheFiles = [
   "js/plugins.js",
   "js/plugins.js",
   "js/main.js",
-  "css/main.css"
+  "css/main.css",
+  "js/jquery-3.3.1.slim.min.js",
+  "js/popper.min.js",
+  "js/bootstrap.min.js",
+  "js/plugins.js"
 ];
 
 self.addEventListener("install", function(event) {
