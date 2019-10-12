@@ -8,9 +8,14 @@ var monaural_oscillator_1;
 var monaural_oscillator_2;
 var binaural_oscillator_1;
 var binaural_oscillator_2;
+
 var solfeggio_flag = 0;
 var monaural_flag = 0;
 var binaural_flag = 0;
+
+var solfeggio_freq;
+var beat_freq_1;
+var beat_freq_2
 
 var oscillator_type = 'sine';
 
@@ -22,7 +27,9 @@ function volume_set(){
 }
 
 function play_solfeggio(freq) {
-
+ 
+  solfeggio_freq = freq;
+  
   if (solfeggio_flag == 0){
   
    solfeggio_flag = 1;
@@ -43,6 +50,10 @@ function play_solfeggio(freq) {
 }
 
 function play_monaural(freq1, freq2){
+  
+  beat_freq_1 = freq1;
+  beat_freq_2 = freq2;
+  
   if (monaural_flag == 0){
     monaural_flag = 1;
     
@@ -77,6 +88,10 @@ function play_monaural(freq1, freq2){
 }
 
 function play_binaural(freq1, freq2){
+  
+    beat_freq_1 = freq1;
+    beat_freq_2 = freq2;
+  
     if (binaural_flag == 0){
     binaural_flag = 1;
     
@@ -187,3 +202,19 @@ var rangeSlider = function(){
 };
 
 rangeSlider();
+
+function live_volume_set(){
+  
+  if(solfeggio_flag == 1){
+   stop_solfeggio();
+   play_soffeggio(solfeggio_freq); 
+    
+  }else if (monaural_flagg == 1){
+    
+    stop_monaural();
+    play_monural(beat_freq_1, beat_freq_2);
+    
+  }else if ()
+  
+}
+$("#volume").change(live_volume_set());
