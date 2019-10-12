@@ -22,7 +22,7 @@ var oscillator_type = 'sine';
 function volume_set(){
   var user_volume = $("#volume").val();
   console.log ("User volume " + user_volume);
-  var prog_volume = user_volume/10;
+  var prog_volume = user_volume/100;
   return prog_volume;
 }
 
