@@ -1,3 +1,7 @@
+.container-fluid {
+  margin-bottom: 200px;  
+}
+
 .text-white {
   font-color: #fff;
 }
