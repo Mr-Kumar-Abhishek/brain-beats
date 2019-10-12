@@ -178,14 +178,15 @@
       <div class="volume-inner-box">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-6 offset-md-6">
+            <div class="col-md-6 offset-md-6 col-sm-12">
               <!-- partial:index.partial.html -->
-              <p>
-                <b><i>Volume:</i></b>
-              </p>
               
               <div class="range-slider">
-                <input
+                <p>
+                  <b><i>Volume:</i></b>
+                </p>
+                <div class="text-center">
+                <input id="volume"
                   class="range-slider__range"
                   type="range"
                   value="5"
@@ -193,6 +194,7 @@
                   max="10"
                 />
                 <span class="range-slider__value">0</span>
+                </div>
               </div>
             </div>
           </div>

@@ -8,12 +8,17 @@ var monaural_oscillator_1;
 var monaural_oscillator_2;
 var binaural_oscillator_1;
 var binaural_oscillator_2;
-var volume_gain = 0.5;
+var volume_gain = volume_set();
 var solfeggio_flag = 0;
 var monaural_flag = 0;
 var binaural_flag = 0;
 
 var oscillator_type = 'sine';
+
+function volume_set(){
+  var user_volume = $("#volume").val() / 10;
+  return user_volume;
+}
 
 function play_solfeggio(freq) {
 
