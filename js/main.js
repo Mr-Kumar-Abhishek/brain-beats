@@ -8,7 +8,8 @@ var monaural_oscillator_1;
 var monaural_oscillator_2;
 var binaural_oscillator_1;
 var binaural_oscillator_2;
-
+var volume;
+var volume_gain = 0.5;
 var solfeggio_flag = 0;
 var monaural_flag = 0;
 var binaural_flag = 0;
@@ -23,8 +24,12 @@ function play_solfeggio(freq) {
    oscillator = audioCtx.createOscillator();
 
    oscillator.type = 'sine';
+    
+   volume = audioCtx.createGain();
+   oscillator.connect(volume);
    oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
-   oscillator.connect(audioCtx.destination);
+   volume.connect(audioCtx.destination);
+   volume.gain.value = volume_gain;
    oscillator.start();
   }else {
     stop_solfeggio();
@@ -42,9 +47,14 @@ function play_monaural(freq1, freq2){
     monaural_oscillator_1.type = oscillator_type;
     monaural_oscillator_2.type = oscillator_type;
     
+    volume = audioCtx.createGain();
+    monaural_oscillator_1.connect(volume);
+    monaural_oscillator_2.connect(volume);
+
     monaural_oscillator_1.frequency.setValueAtTime(freq1, audioCtx.currentTime);
     monaural_oscillator_2.frequency.setValueAtTime(freq2, audioCtx.currentTime);
     
+    volume.connect(audioCtx.destination);
     monaural_oscillator_1.connect(audioCtx.destination);
     monaural_oscillator_2.connect(audioCtx.destination);
     monaural_oscillator_1.start();
