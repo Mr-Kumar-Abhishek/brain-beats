@@ -2,8 +2,8 @@
   font-color: #fff;
 }
 
-button {
-  margin-top: 5px;
+.btn {
+  margin-top: 10px;
   width: 80px;
   height: 40px;
 }
