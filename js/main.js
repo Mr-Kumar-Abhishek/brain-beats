@@ -223,6 +223,8 @@ function live_volume_set(){
     
   }
   
+}
+  
 
   
 $("#volume").change(function(){
