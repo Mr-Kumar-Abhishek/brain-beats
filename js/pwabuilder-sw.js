@@ -34,7 +34,10 @@ self.addEventListener("install", function(event) {
   event.waitUntil(
     caches.open(CACHE).then(function(cache) {
       console.log("[PWA Builder] Caching pages during install");
-      return cache.addAll(precacheFiles);
+      return cache
+        .addAll(precacheFiles)
+        .then(() => console.log("Assets added to cache"))
+        .catch(err => console.log("Error while fetching assets", err));
     })
   );
 });
