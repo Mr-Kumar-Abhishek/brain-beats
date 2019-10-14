@@ -226,7 +226,16 @@ function live_volume_set(){
 }
   
 
+
+var bufferSize = 4096;
+var whiteNoise = audioContext.createScriptProcessor(bufferSize, 1, 1);
+
+function play_white_noise() {
+  
+}
   
 $("#volume").change(function(){
   live_volume_set();
 });
+
+
