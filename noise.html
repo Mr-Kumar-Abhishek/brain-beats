@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <script src="js/pwabuilder-sw-register.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Scientific Noise | Brain Beats | Brainwave Entertainment</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Brain Beats</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="solfeggio-frequency.html"
+              >Solfeggio Frequency</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="binaural-base-beats.html"
+              >Binaural Beats</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="monaural-base-beats.html"
+              >Monaural Beats</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="monaural-beats-generator.html"
+              >Monaural Beats Generator</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="binaural-beats-generator.html"
+              >Binaural Beats Generator</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      
+      
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">174 hz - Solfeggio Frequency</h5>
+              <div class="row">
+                <div class="col text-left">
+                  <p class="card-text">
+                    Gives the body a sense of security, safety and love. It also
+                    enourages the cells to do their best. This frequency tends to
+                    reduce pain overtime
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col text-right">
+                  <button
+                    onclick="play_solfeggio(174);"
+                    class="btn btn-primary"
+                  >
+                    Play
+                  </button>
+                  <button onclick="stop_solfeggio();" class="btn btn-secondary">
+                    Stop
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      
+      
+    </div>
+
+    <div class="volume-box">
+      <div class="volume-inner-box">
+        <!-- partial:index.partial.html -->
+
+        <div class="range-slider">
+          <p>
+            <b><i>Volume:</i></b>
+          </p>
+          <div class="text-center">
+            <input
+              id="volume"
+              class="range-slider__range"
+              type="range"
+              value="1"
+              min="0"
+              max="100"
+            />
+            <span class="range-slider__value">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
