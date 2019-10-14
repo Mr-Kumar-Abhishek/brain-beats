@@ -8,14 +8,22 @@ var monaural_oscillator_1;
 var monaural_oscillator_2;
 var binaural_oscillator_1;
 var binaural_oscillator_2;
+var white_noise;
+var pink_noise;
+var brown_noise;
 
 var solfeggio_flag = 0;
 var monaural_flag = 0;
 var binaural_flag = 0;
+var white_flag = 0;
+var pink_flag = 0
+var brown_flag = 0;
 
 var solfeggio_freq;
 var beat_freq_1;
 var beat_freq_2
+
+var bufferSize = 4096;
 
 var oscillator_type = 'sine';
 
@@ -227,11 +235,17 @@ function live_volume_set(){
   
 
 
-var bufferSize = 4096;
-var whiteNoise = audioContext.createScriptProcessor(bufferSize, 1, 1);
+
 
 function play_white_noise() {
-  
+  white_noise = audioCtx.createScriptProcessor(bufferSize, 1, 1);  
+  white_noise.onaudioprocess = function(e) {
+    var output = e.outputBuffer.getChannelData(0);
+    for (var i = 0; i < bufferSize; i++) {
+        output[i] = Math.random() * 2 - 1;
+    }
+  }
+  white_noise.connect(audioCtx.destination);
 }
   
 $("#volume").change(function(){
