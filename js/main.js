@@ -8,16 +8,10 @@ var monaural_oscillator_1;
 var monaural_oscillator_2;
 var binaural_oscillator_1;
 var binaural_oscillator_2;
-var white_noise;
-var pink_noise;
-var brown_noise;
 
 var solfeggio_flag = 0;
 var monaural_flag = 0;
 var binaural_flag = 0;
-var white_flag = 0;
-var pink_flag = 0
-var brown_flag = 0;
 
 var solfeggio_freq;
 var beat_freq_1;
@@ -232,17 +226,7 @@ function live_volume_set(){
   }
   
 }
-  
-
-
-
-
-function play_white_noise() {
-  await audioContext.audioWorklet.addModule('white-noise-processor.js')
-  const whiteNoiseNode = new AudioWorkletNode(audioContext, 'white-noise-processor')
-  whiteNoiseNode.connect(audioContext.destination)
-}
-  
+    
 $("#volume").change(function(){
   live_volume_set();
 });
