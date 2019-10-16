@@ -8,6 +8,7 @@ var monaural_oscillator_1;
 var monaural_oscillator_2;
 var binaural_oscillator_1;
 var binaural_oscillator_2;
+var NoiseNode;
 
 var solfeggio_flag = 0;
 var monaural_flag = 0;
@@ -172,9 +173,18 @@ function play_binaural_generator(){
 }
 
 function play_white_noise(){
-  audioCtx.audioWorklet.addModule('white-noise-processor.js')
-  var whiteNoiseNode = new AudioWorkletNode(audioCtx, 'white-noise-processor')
-  whiteNoiseNode.connect(audioCtx.destination)
+        audioCtx.audioWorklet.addModule('noise-generator.js');
+        
+        const noiseGenerator = new AudioWorkletNode(context, 'noise-generator');
+        noiseGenerator.connect(context.destination);
+
+        // Connect the oscillator to 'amplitude' AudioParam.
+        const paramAmp = noiseGenerator.parameters.get('amplitude');
+        modulator.connect(modGain).connect(paramAmp);
+
+        modulator.frequency.value = 0.5;
+        modGain.gain.value = 0.75;
+        modulator.start();
 }
 
 function warning(whichy){
@@ -238,3 +248,4 @@ $("#volume").change(function(){
 });
 
 
+$(play_white_noise());
