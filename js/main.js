@@ -173,18 +173,23 @@ function play_binaural_generator(){
 }
 
 function play_white_noise(){
-        audioCtx.audioWorklet.addModule('noise-generator.js');
-        
-        const noiseGenerator = new AudioWorkletNode(context, 'noise-generator');
-        noiseGenerator.connect(context.destination);
-
-        // Connect the oscillator to 'amplitude' AudioParam.
-        const paramAmp = noiseGenerator.parameters.get('amplitude');
-        modulator.connect(modGain).connect(paramAmp);
-
-        modulator.frequency.value = 0.5;
-        modGain.gain.value = 0.75;
-        modulator.start();
+          
+         console.log("white noise ran !!")
+         oscillator = audioCtx.createOscillator();
+         oscillator.type = 'sine';
+         var volume = audioCtx.createGain();
+         oscillator.connect(volume);
+         oscillator.frequency.setValueAtTime(30, audioCtx.currentTime); // value in hertz
+         var whiteModule = audioCtx.audioWorklet.addModule('noise-generator.js');
+  
+         
+         volume.gain.value = volume_set();
+         oscillator.start();
+    
+        const noiseGenerator = new AudioWorkletNode(audioCtx, 'noise-generator');
+        volume.connect(audioCtx.destination);
+  
+        oscillator.start();
 }
 
 function warning(whichy){
