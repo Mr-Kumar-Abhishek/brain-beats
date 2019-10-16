@@ -238,14 +238,9 @@ function live_volume_set(){
 
 
 function play_white_noise() {
-  white_noise = audioCtx.createScriptProcessor(bufferSize, 1, 1);  
-  white_noise.onaudioprocess = function(e) {
-    var output = e.outputBuffer.getChannelData(0);
-    for (var i = 0; i < bufferSize; i++) {
-        output[i] = Math.random() * 2 - 1;
-    }
-  }
-  white_noise.connect(audioCtx.destination);
+  await audioContext.audioWorklet.addModule('white-noise-processor.js')
+  const whiteNoiseNode = new AudioWorkletNode(audioContext, 'white-noise-processor')
+  whiteNoiseNode.connect(audioContext.destination)
 }
   
 $("#volume").change(function(){
