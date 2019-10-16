@@ -231,5 +231,3 @@ $("#volume").change(function(){
   live_volume_set();
 });
 
-
-$(play_white_noise());
