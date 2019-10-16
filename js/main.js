@@ -17,6 +17,8 @@ var solfeggio_freq;
 var beat_freq_1;
 var beat_freq_2
 
+var bufferSize = 4096;
+
 var oscillator_type = 'sine';
 
 function volume_set(){
@@ -224,9 +226,8 @@ function live_volume_set(){
   }
   
 }
-  
-
-  
+    
 $("#volume").change(function(){
   live_volume_set();
 });
+
