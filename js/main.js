@@ -171,6 +171,12 @@ function play_binaural_generator(){
   play_binaural(freq1, freq2);
 }
 
+function play_white_noise(){
+  audioCtx.audioWorklet.addModule('white-noise-processor.js')
+  var whiteNoiseNode = new AudioWorkletNode(audioCtx, 'white-noise-processor')
+  whiteNoiseNode.connect(audioCtx.destination)
+}
+
 function warning(whichy){
   switch(whichy) {
     case 0: 
