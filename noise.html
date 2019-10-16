@@ -73,32 +73,22 @@
     </nav>
 
     <div class="container-fluid">
-      
-      
       <div class="row">
         <div class="col">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">174 hz - Solfeggio Frequency</h5>
+              <h5 class="card-title">White Noise</h5>
               <div class="row">
                 <div class="col text-left">
                   <p class="card-text">
-                    Gives the body a sense of security, safety and love. It also
-                    enourages the cells to do their best. This frequency tends to
-                    reduce pain overtime
+                    White noise, used for various ear therapies. Blocks noises.
                   </p>
                 </div>
               </div>
               <div class="row">
                 <div class="col text-right">
-                  <button
-                    onclick="white_noiser()"
-                    class="btn btn-primary"
-                  >
-                    Play
-                  </button>
-                  <button onclick="stop_solfeggio();" class="btn btn-secondary">
-                    Stop
+                  <button id="#white-demo" class="btn btn-primary">
+                    White Noise
                   </button>
                 </div>
               </div>
@@ -107,29 +97,50 @@
         </div>
       </div>
 
-      
-      
-      
-    </div>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">White Noise</h5>
+              <div class="row">
+                <div class="col text-left">
+                  <p class="card-text">
+                    Pink noise, used for various ear therapies. Blocks noises.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col text-right">
+                  <button id="#pink-demo" class="btn btn-primary">
+                    Pink Noise
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <div class="volume-box">
-      <div class="volume-inner-box">
-        <!-- partial:index.partial.html -->
-
-        <div class="range-slider">
-          <p>
-            <b><i>Volume:</i></b>
-          </p>
-          <div class="text-center">
-            <input
-              id="volume"
-              class="range-slider__range"
-              type="range"
-              value="1"
-              min="0"
-              max="100"
-            />
-            <span class="range-slider__value">0</span>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">White Noise</h5>
+              <div class="row">
+                <div class="col text-left">
+                  <p class="card-text">
+                    Brown noise, used for various ear therapies. Blocks noises.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col text-right">
+                  <button id="#brown-demo" class="btn btn-primary">
+                    Pink Noise
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -140,7 +151,44 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/noiser.js"></script>
+    <script>
+      var audioContext = new (window.webkitAudioContext || window.AudioContext)();
+
+      var whiteNoise = audioContext.createWhiteNoise();
+      var whiteGain = audioContext.createGain();
+      whiteGain.gain.value = 0;
+      whiteNoise.connect(whiteGain);
+      whiteGain.connect(audioContext.destination);
+
+      var pinkNoise = audioContext.createPinkNoise();
+      var pinkGain = audioContext.createGain();
+      pinkGain.gain.value = 0;
+      pinkNoise.connect(pinkGain);
+      pinkGain.connect(audioContext.destination);
+
+      var brownNoise = audioContext.createBrownNoise();
+      var brownGain = audioContext.createGain();
+      brownGain.gain.value = 0;
+      brownNoise.connect(brownGain);
+      brownGain.connect(audioContext.destination);
+
+      var toggleDemo = function(text, gain) {
+          var handler = function(e) {
+              if (gain.gain.value == 0.0) {
+                  $(e.target).text("Stop");
+                  gain.gain.value = 0.3;
+              } else {
+                  $(e.target).text(text);
+                  gain.gain.value = 0.0;
+              }
+          };
+          return handler;
+      };
+
+      $("#white-demo").click(toggleDemo("White Noise", whiteGain));
+      $("#pink-demo").click(toggleDemo("Pink Noise", pinkGain));
+      $("#brown-demo").click(toggleDemo("Brown Noise", brownGain));
+    </script>
   </body>
 </html>
