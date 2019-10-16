@@ -8,7 +8,6 @@ var monaural_oscillator_1;
 var monaural_oscillator_2;
 var binaural_oscillator_1;
 var binaural_oscillator_2;
-var NoiseNode;
 
 var solfeggio_flag = 0;
 var monaural_flag = 0;
@@ -170,26 +169,6 @@ function play_binaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
   play_binaural(freq1, freq2);
-}
-
-function play_white_noise(){
-          
-         console.log("white noise ran !!")
-         oscillator = audioCtx.createOscillator();
-         oscillator.type = 'sine';
-         var volume = audioCtx.createGain();
-         oscillator.connect(volume);
-         oscillator.frequency.setValueAtTime(30, audioCtx.currentTime); // value in hertz
-         var whiteModule = audioCtx.audioWorklet.addModule('noise-generator.js');
-  
-         
-         volume.gain.value = volume_set();
-         oscillator.start();
-    
-        const noiseGenerator = new AudioWorkletNode(audioCtx, 'noise-generator');
-        volume.connect(audioCtx.destination);
-  
-        oscillator.start();
 }
 
 function warning(whichy){
