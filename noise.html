@@ -87,8 +87,11 @@
               </div>
               <div class="row">
                 <div class="col text-right">
-                  <button id="#white-demo" class="btn btn-primary">
-                    White Noise
+                  <button onclick="set_white(0.3)" class="btn btn-primary">
+                    Play
+                  </button>
+                  <button onclick="set();" class="btn btn-secondary">
+                    Stop
                   </button>
                 </div>
               </div>
@@ -157,38 +160,33 @@
 
       var whiteNoise = audioContext.createWhiteNoise();
       var whiteGain = audioContext.createGain();
-      whiteGain.gain.value = 0;
+      whiteGain.gain.value = 0.0;
       whiteNoise.connect(whiteGain);
       whiteGain.connect(audioContext.destination);
 
       var pinkNoise = audioContext.createPinkNoise();
       var pinkGain = audioContext.createGain();
-      pinkGain.gain.value = 0;
+      pinkGain.gain.value = 0.0;
       pinkNoise.connect(pinkGain);
       pinkGain.connect(audioContext.destination);
 
       var brownNoise = audioContext.createBrownNoise();
       var brownGain = audioContext.createGain();
-      brownGain.gain.value = 0;
+      brownGain.gain.value = 0.0;
       brownNoise.connect(brownGain);
       brownGain.connect(audioContext.destination);
-
-      var toggleDemo = function(text, gain) {
-          var handler = function(e) {
-              if (gain.gain.value == 0.0) {
-                  $(e.target).text("Stop");
-                  gain.gain.value = 0.3;
-              } else {
-                  $(e.target).text(text);
-                  gain.gain.value = 0.0;
-              }
-          };
-          return handler;
-      };
-
-      $("#white-demo").click(toggleDemo("White Noise", whiteGain));
-      $("#pink-demo").click(toggleDemo("Pink Noise", pinkGain));
-      $("#brown-demo").click(toggleDemo("Brown Noise", brownGain));
+      
+      function set_brown(val){
+        brownGain.gain.value = val;
+      }
+      
+      function set_white(val){
+        whiteGain.gain.value = val;
+      }
+      
+      function set_pink(val){
+        pinkGain.gain.value = val;
+      }
     </script>
   </body>
 </html>
