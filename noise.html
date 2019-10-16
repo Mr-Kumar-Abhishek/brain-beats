@@ -68,6 +68,11 @@
               >Binaural Beats Generator</a
             >
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="noise.html"
+              >Colours of Noise</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
@@ -81,7 +86,9 @@
               <div class="row">
                 <div class="col text-left">
                   <p class="card-text">
-                    White noise, used for various ear therapies. Blocks noises.
+                    White noise is process with flat frequency spectrum when it
+                    is plotted in a linear function of frequency. It is used in
+                    treatment of tinnitus. It is also very good for masking background sounds.
                   </p>
                 </div>
               </div>
@@ -108,7 +115,8 @@
               <div class="row">
                 <div class="col text-left">
                   <p class="card-text">
-                    Pink noise, used for various ear therapies. Blocks noises.
+                    The frequency of pink noise is linear in logarithmic scale.
+                    It used in treatment of hyperacusis and tinnitus.
                   </p>
                 </div>
               </div>
@@ -135,7 +143,10 @@
               <div class="row">
                 <div class="col text-left">
                   <p class="card-text">
-                    Brown noise, used for various ear therapies. Blocks noises.
+                    Brown noise, or brownian noise refers to a power density
+                    which increases 6 dB per octave with increasing frequency.
+                    Benefits associated while listening to it are relaxation,
+                    improved focus, and of course, sleep improvement.
                   </p>
                 </div>
               </div>
@@ -162,7 +173,8 @@
     <script src="js/plugins.js"></script>
     <script src="js/noiser.js"></script>
     <script>
-      var audioContext = new (window.webkitAudioContext || window.AudioContext)();
+      var audioContext = new (window.webkitAudioContext ||
+        window.AudioContext)();
 
       var whiteNoise = audioContext.createWhiteNoise();
       var whiteGain = audioContext.createGain();
@@ -181,16 +193,16 @@
       brownGain.gain.value = 0.0;
       brownNoise.connect(brownGain);
       brownGain.connect(audioContext.destination);
-      
-      function set_brown(val){
+
+      function set_brown(val) {
         brownGain.gain.value = val;
       }
-      
-      function set_white(val){
+
+      function set_white(val) {
         whiteGain.gain.value = val;
       }
-      
-      function set_pink(val){
+
+      function set_pink(val) {
         pinkGain.gain.value = val;
       }
     </script>
