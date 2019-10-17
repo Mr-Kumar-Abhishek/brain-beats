@@ -16,6 +16,10 @@
   margin-top: 10px;
 }
 
+.nav-link{
+  font-size: 18px;
+}
+
 .volume-box {
   position: fixed;
   z-index: 1;
