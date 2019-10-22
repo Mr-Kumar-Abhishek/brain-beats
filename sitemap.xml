@@ -8,32 +8,37 @@
 
 <url>
   <loc>https://brain-beats.netlify.com/</loc>
-  <lastmod>2019-10-11T11:43:33+00:00</lastmod>
+  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://brain-beats.netlify.com/solfeggio-frequency.html</loc>
-  <lastmod>2019-10-11T11:43:33+00:00</lastmod>
+  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://brain-beats.netlify.com/binaural-base-beats.html</loc>
-  <lastmod>2019-10-11T11:43:33+00:00</lastmod>
+  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://brain-beats.netlify.com/monaural-base-beats.html</loc>
-  <lastmod>2019-10-11T11:43:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://brain-beats.netlify.com/monaural-beats-generator.html</loc>
-  <lastmod>2019-10-11T11:43:33+00:00</lastmod>
+  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://brain-beats.netlify.com/binaural-beats-generator.html</loc>
-  <lastmod>2019-10-11T11:43:33+00:00</lastmod>
+  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brain-beats.netlify.com/monaural-beats-generator.html</loc>
+  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brain-beats.netlify.com/noise.html</loc>
+  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
