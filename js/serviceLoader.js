@@ -8,4 +8,4 @@ window.addEventListener('load', ()=>{
       console.log("Service Worker Registration Failed");
     }
   }
-}
+});
