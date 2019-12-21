@@ -8,7 +8,8 @@ const staticAssets = [
     './js/plugins.js',
     './js/popper.min.js',
     './css/main.css',
-    './css/normalize.min.css'
+    './css/normalize.min.css',
+    './css/bootstrap.min.css'
 ];
 
 self.addEventListener('install', async event => {
