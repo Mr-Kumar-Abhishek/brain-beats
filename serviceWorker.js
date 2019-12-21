@@ -1,5 +1,6 @@
 const staticAssets = [
-    './'
+    './'.
+    './index.html'
 ];
 
 self.addEventListener('install', async event => {
