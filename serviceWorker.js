@@ -22,7 +22,8 @@ const staticAssets = [
     './google7484c80835cfba45.html ',
     './LICENSE',
     './css-range-slider-license.txt',
-    './sitemap.xml'
+    './sitemap.xml',
+    './serviceWorker.js'
 ];
 
 self.addEventListener('install', async event => {
