@@ -15,7 +15,7 @@ const staticAssets = [
   './js/popper.min.js',
   './js/bootstrap.min.js',
   './js/plugins.js',
-  'normalize.min.css'
+  './normalize.min.css'
 ];
 
 self.addEventListener('install', async event => {
