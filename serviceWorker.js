@@ -12,7 +12,17 @@ const staticAssets = [
     './css/bootstrap.min.css',
     './noise.html',
     './binaural-base-beats.html',
-    './binaural-beats-generator.html'
+    './binaural-beats-generator.html',
+    './monaural-base-beats.html',
+    './monaural-beats-generator.html',
+    './solfeggio-frequency.html',
+    './noiser.js-license',
+    './robots.txt',
+    './BingSiteAuth.xml',
+    './google7484c80835cfba45.html ',
+    '.LICENSE',
+    './css-range-slider-license.txt',
+    './sitemap.xml'
 ];
 
 self.addEventListener('install', async event => {
