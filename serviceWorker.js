@@ -1,6 +1,7 @@
 const staticAssets = [
     './',
-    './js/serviceLoader.js'
+    './js/serviceLoader.js',
+    './noise.html'
 ];
 
 self.addEventListener('install', async event => {
