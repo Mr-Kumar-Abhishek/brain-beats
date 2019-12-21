@@ -20,7 +20,7 @@ const staticAssets = [
     './robots.txt',
     './BingSiteAuth.xml',
     './google7484c80835cfba45.html ',
-    '.LICENSE',
+    './LICENSE',
     './css-range-slider-license.txt',
     './sitemap.xml'
 ];
