@@ -11,7 +11,8 @@ const staticAssets = [
     './css/normalize.min.css',
     './css/bootstrap.min.css',
     './noise.html',
-    './binaural-base-beats.html'
+    './binaural-base-beats.html',
+    './binaural-beats-generator.html'
 ];
 
 self.addEventListener('install', async event => {
