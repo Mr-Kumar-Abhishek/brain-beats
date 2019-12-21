@@ -1,7 +1,12 @@
 const staticAssets = [
     './',
     './js/serviceLoader.js',
-    './js/main.js'
+    './js/main.js',
+    './js/bootstrap.min.js',
+    './js/jquery-3.3.1.slim.min.js',
+    './js/noiser.js',
+    './js/plugins.js',
+    './js/popper.min.js'
 ];
 
 self.addEventListener('install', async event => {
