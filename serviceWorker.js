@@ -6,7 +6,8 @@ const staticAssets = [
     './js/jquery-3.3.1.slim.min.js',
     './js/noiser.js',
     './js/plugins.js',
-    './js/popper.min.js'
+    './js/popper.min.js',
+    './css/main.css'
 ];
 
 self.addEventListener('install', async event => {
