@@ -1,21 +1,5 @@
 const staticAssets = [
-    './',
-  './index.html',
-  './solfeggio-frequency.html',
-  './monaural-base-beats.html',
-  './monaural-beats-generator.html',
-  './binaural-beats-generator.html',
-  './binaural-base-beats.html',
-  './google7484c80835cfba45.html',
-  './LICENSE',
-  './README.md',
-  './js/main.js',
-  './css/main.css',
-  './js/jquery-3.3.1.slim.min.js',
-  './js/popper.min.js',
-  './js/bootstrap.min.js',
-  './js/plugins.js',
-  './normalize.min.css'
+    './'
 ];
 
 self.addEventListener('install', async event => {
