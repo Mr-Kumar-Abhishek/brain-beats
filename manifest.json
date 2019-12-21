@@ -1,7 +1,7 @@
 {"name" : "brain beats",
     "short_name" : "brain beats",
     "description" : "A guided meditation app.",
-    "start_url" : "https://brain-beats.netlify.com/",
+    "start_url" : ".",
     "display" : "standalone",
     "orientation" : "portrait-primary",
     "lang" : "English",
