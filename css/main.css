@@ -8,6 +8,8 @@
 
 .btn {
   margin-top: 10px;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
   width: 80px;
   height: 40px;
 }
