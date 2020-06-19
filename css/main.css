@@ -29,6 +29,10 @@
   bottom: 1px;
   right: 1px;
   margin-top: 0;
+  height: 8rem;
+  opacity: 1;
+  border: solid;
+  background: white;
 }
 
 .volume-inner-box {

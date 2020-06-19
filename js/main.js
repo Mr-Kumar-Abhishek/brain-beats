@@ -231,3 +231,5 @@ $("#volume").change(function(){
   live_volume_set();
 });
 
+$("#volume").inputSpinner();
+
