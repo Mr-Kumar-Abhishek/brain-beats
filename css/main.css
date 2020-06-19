@@ -24,6 +24,7 @@
 
 .volume-box {
   position: fixed;
+  padding: 1rem;
   z-index: 1;
   width: 100%;
   bottom: 1px;
@@ -31,9 +32,16 @@
   margin-top: 0;
   height: 8rem;
   opacity: 1;
-  border: solid;
+  border-radius: 10px;
   background: white;
   text-align: center;
+  -webkit-box-shadow: -6px -4px 18px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -6px -4px 18px 0px rgba(0,0,0,0.75);
+  box-shadow: -6px -4px 18px 0px rgba(0,0,0,0.75);
+}
+
+input[inputmode="decimal"] {
+  margin-top: 0.6rem;
 }
 
 .volume-inner-box {
