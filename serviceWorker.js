@@ -8,7 +8,6 @@ const staticAssets = [
     './js/plugins.js',
     './js/popper.min.js',
     './css/main.css',
-    './css/bootstrap.min.css',
     './noise.html',
     './binaural-base-beats.html',
     './binaural-beats-generator.html',
