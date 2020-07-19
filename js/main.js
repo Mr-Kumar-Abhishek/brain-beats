@@ -204,6 +204,11 @@ function play_binaural_generator(){
   play_binaural(freq1, freq2);
 }
 
+function play_pure_tone_generator(){
+  var tone_freq = $("#freq").val();
+  play_pure_tone(tone_freq);
+}
+
 function warning(whichy){
   switch(whichy) {
     case 0: 
