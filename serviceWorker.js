@@ -11,6 +11,8 @@ const staticAssets = [
     './monaural-base-beats.html',
     './monaural-beats-generator.html',
     './solfeggio-frequency.html',
+    './pure-tones.html',
+    './pure-tone-generator.html',
     './noiser.js-license',
     './robots.txt',
     './BingSiteAuth.xml',
