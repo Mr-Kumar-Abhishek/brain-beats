@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <script src="./js/serviceLoader.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>
+      Monaural Beats Generator | Brain Beats | Brainwave Entertainment
+    </title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta
+      name="description"
+      content="Monaural Beats generator is tool which generates custom monaural beats by having the input of individial frequency values."
+    />
+    <meta
+      name="keywords"
+      content="pure tones, brainwave, entertainment, monaural beats, monaural, binaural, beats"
+    />
+    <meta name="robot" content="index, follow" />
+    <meta
+      name="subject"
+      content="Monaural Beats | Brain Beats | Brainwave Entertainment"
+    />
+    <meta name="author" content="Abhishek Kumar" />
+    <meta name="coverage" content="Worldwide" />
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="target" content="all" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Brain Beats | Monaural Beats"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta
+      name="application-name"
+      content="Brain Beats | Monaural Beats Generator"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="brain beats | Monaural Beats Generator"
+    />
+    <meta
+      name="twitter:description"
+      content="Monaural Beats generator is tool which generates custom monaural beats by having the input of individial frequency values."
+    />
+    <meta property="og:title" content="brain beats | Monaural beats" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://brain-beats.netlify.app/monaural-beats-generator.html"
+    />
+
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">Brain Beats</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="solfeggio-frequency.html"
+              >Solfeggio Frequency</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pure-tones.html"
+              >Pure Tones</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Beats
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="binaural-base-beats.html"
+                >Binaural Beats</a
+              >
+              <a class="dropdown-item" href="monaural-base-beats.html"
+                >Monaural Beats</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown2"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Generators
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item" href="binaural-beats-generator.html"
+                >Binaural Beats Generator</a
+              >
+              <a class="dropdown-item" href="monaural-beats-generator.html"
+                >Monaural Beats Generator</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="noise.html">Colours of Noise</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://paypal.me/369kumar">Donate</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Pure Tone Generator</h5>
+              <div class="row">
+                <div class="col text-left">
+                  <div class="card-text">
+                    <form>
+                      <div class="form-row">
+                        <div class="form-group col">
+                          <label for="freq">Frequency</label>
+                          <input
+                            id="freq"
+                            type="number"
+                            class="form-control"
+                            placeholder="Frequency"
+                            min="0"
+                          />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col text-right">
+                  <button
+                    onclick="play_pure_tone_generator();"
+                    class="btn btn-primary"
+                  >
+                    Play
+                  </button>
+                  <button onclick="stop_pure_tone();" class="btn btn-secondary">
+                    Stop
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="volume-box">
+        <p>
+          <b><i>volume</i></b>
+        </p>
+        <div class="text-center">
+          <input id="volume" type="number" value="1" min="0" max="100" />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="./js/plugins.js"></script>
+    <script src="https://unpkg.com/bootstrap-input-spinner@1.13.9/src/bootstrap-input-spinner.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-70747360-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-70747360-2");
+    </script>
+  </body>
+</html>
