@@ -8,14 +8,17 @@ var monaural_oscillator_1;
 var monaural_oscillator_2;
 var binaural_oscillator_1;
 var binaural_oscillator_2;
+var pure_tone_oscillator;
 
 var solfeggio_flag = 0;
 var monaural_flag = 0;
 var binaural_flag = 0;
+var pure_tone_flag = 0;
 
 var solfeggio_freq;
 var beat_freq_1;
 var beat_freq_2
+var pure_tone_freq;
 
 var bufferSize = 4096;
 
@@ -49,6 +52,29 @@ function play_solfeggio(freq) {
     stop_solfeggio();
     play_solfeggio(freq);
   }
+}
+
+function play_pure_tone(freq) {
+  pure_tone_freq = freq;
+
+  if (pure_tone_flag == 0 ) {
+    pure_tone_flag = 1;
+    pure_tone_oscillator = audioCtx.createOscillator();
+
+    pure_tone_oscillator.type = oscillator_type;
+    
+   var volume = audioCtx.createGain();
+   pure_tone_oscillator.connect(volume);
+   pure_tone_oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
+   volume.connect(audioCtx.destination);
+   volume.gain.value = volume_set();
+   pure_tone_oscillator.start();
+
+  }else {
+    stop_pure_tone();
+    play_pure_tone(freq);
+  }
+
 }
 
 function play_monaural(freq1, freq2){
@@ -143,6 +169,13 @@ function stop_solfeggio(){
   }
 }
 
+function stop_pure_tone() {
+  if(pure_tone_flag == 1){
+    pure_tone_flag = 0;
+    pure_tone_oscillator.stop();
+  }
+}
+
 function stop_monaural(){
   if(monaural_flag == 1){
     monaural_flag = 0;
@@ -223,6 +256,9 @@ function live_volume_set(){
     stop_binaural();
     play_binaural(beat_freq_1, beat_freq_2);
     
+  }else if (pure_tone_flag == 1){
+    stop_pure_tone();
+    play_pure_tone(pure_tone_freq);
   }
   
 }
