@@ -41,6 +41,14 @@
   <lastmod>2019-10-22T02:20:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
-
+<url>
+  <loc>https://brain-beats.netlify.app/pure-tones.html</loc>
+  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brain-beats.netlify.app/pure-tone-generator.html</loc>
+  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 </urlset>
