@@ -1,11 +1,11 @@
 class PinkNoiseProcessor extends AudioWorkletProcessor {
     process (inputs, outputs, parameters) {
       const output = outputs[0];
-      var b0, b1, b2, b3, b4, b5, b6;
+      let b0, b1, b2, b3, b4, b5, b6;
       b0 = b1 = b2 = b3 = b4 = b5 = b6 = 0.0;
       output.forEach(channel => {
         for (let i = 0; i < channel.length; i++) {
-            var white = Math.random() * 2 - 1;
+            let white = Math.random() * 2 - 1;
             b0 = 0.99886 * b0 + white * 0.0555179;
             b1 = 0.99332 * b1 + white * 0.0750759;
             b2 = 0.96900 * b2 + white * 0.1538520;
