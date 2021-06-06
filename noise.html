@@ -161,10 +161,10 @@
               </div>
               <div class="row">
                 <div class="col text-right">
-                  <button onclick="set_white(0.3)" class="btn btn-primary">
+                  <button onclick="white_noise_process(0.3)" class="btn btn-primary">
                     Play
                   </button>
-                  <button onclick="set_white(0.0);" class="btn btn-secondary">
+                  <button onclick="stopWhiteNoise();" class="btn btn-secondary">
                     Stop
                   </button>
                 </div>
@@ -189,10 +189,10 @@
               </div>
               <div class="row">
                 <div class="col text-right">
-                  <button onclick="set_pink(0.3)" class="btn btn-primary">
+                  <button onclick="pink_noise_process(0.3)" class="btn btn-primary">
                     Play
                   </button>
-                  <button onclick="set_pink(0.0);" class="btn btn-secondary">
+                  <button onclick="stopPinkNoise()" class="btn btn-secondary">
                     Stop
                   </button>
                 </div>
@@ -219,10 +219,10 @@
               </div>
               <div class="row">
                 <div class="col text-right">
-                  <button onclick="set_brown(0.3)" class="btn btn-primary">
+                  <button onclick="brown_noise_process(0.3)" class="btn btn-primary">
                     Play
                   </button>
-                  <button onclick="set_brown(0.0);" class="btn btn-secondary">
+                  <button onclick="stopBrownNoise()" class="btn btn-secondary">
                     Stop
                   </button>
                 </div>
@@ -238,40 +238,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script src="js/plugins.js"></script>
-    <script src="js/noiser.js"></script>
+    <script src="noise-processor/noise-processor.js"></script>
     <script>
-      var audioContext = new (window.webkitAudioContext ||
-        window.AudioContext)();
-
-      var whiteNoise = audioContext.createWhiteNoise();
-      var whiteGain = audioContext.createGain();
-      whiteGain.gain.value = 0.0;
-      whiteNoise.connect(whiteGain);
-      whiteGain.connect(audioContext.destination);
-
-      var pinkNoise = audioContext.createPinkNoise();
-      var pinkGain = audioContext.createGain();
-      pinkGain.gain.value = 0.0;
-      pinkNoise.connect(pinkGain);
-      pinkGain.connect(audioContext.destination);
-
-      var brownNoise = audioContext.createBrownNoise();
-      var brownGain = audioContext.createGain();
-      brownGain.gain.value = 0.0;
-      brownNoise.connect(brownGain);
-      brownGain.connect(audioContext.destination);
-
-      function set_brown(val) {
-        brownGain.gain.value = val;
-      }
-
       function set_white(val) {
-        whiteGain.gain.value = val;
+        whiteNoiseNodeGain.gain.value = val;
       }
 
-      function set_pink(val) {
-        pinkGain.gain.value = val;
-      }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
