@@ -14,6 +14,7 @@ var solfeggio_flag = 0;
 var monaural_flag = 0;
 var binaural_flag = 0;
 var pure_tone_flag = 0;
+var isochronic_flag = 0;
 
 var solfeggio_freq;
 var beat_freq_1;
