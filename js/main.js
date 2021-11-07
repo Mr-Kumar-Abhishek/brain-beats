@@ -84,7 +84,7 @@ function play_isochronic(freq1, freq2){
   isochronic_freq_1 = freq1;
   isochronic_freq_2 = freq2;
 
-  if (isochronic_flag = 0 ) {
+  if (isochronic_flag == 0 ) {
     
     isochronic_flag = 1;
 
@@ -221,7 +221,7 @@ function stop_isochronic() {
   if(isochronic_flag == 1){
     isochronic_flag = 0;
   }
-  
+
   console.log("Stop Isochronic ran");
 }
 
