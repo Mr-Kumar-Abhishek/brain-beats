@@ -84,8 +84,10 @@ function play_isochronic(freq1, freq2){
   isochronic_freq_1 = freq1;
   isochronic_freq_2 = freq2;
 
-  if (isochronic_flag = 1 ) {
-  
+  if (isochronic_flag = 0 ) {
+    
+    isochronic_flag = 1;
+    
     console.log("Isochronic Carrier frequency ")
     console.log(isochronic_freq_1);
     console.log("Isochronc Frequency ");
