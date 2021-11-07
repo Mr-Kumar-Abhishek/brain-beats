@@ -208,6 +208,7 @@ function stop_binaural(){
 
 function stop_isochronic() {
 
+  console.log("Stop Isochronic ran");
 }
 
 function play_monaural_generator(){
