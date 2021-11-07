@@ -87,7 +87,7 @@ function play_isochronic(freq1, freq2){
   if (isochronic_flag = 0 ) {
     
     isochronic_flag = 1;
-    
+
     console.log("Isochronic Carrier frequency ")
     console.log(isochronic_freq_1);
     console.log("Isochronc Frequency ");
@@ -275,8 +275,14 @@ function live_volume_set(){
     play_binaural(beat_freq_1, beat_freq_2);
     
   }else if (pure_tone_flag == 1){
+    
     stop_pure_tone();
     play_pure_tone(pure_tone_freq);
+  
+  } else if (isochronic_flag) {
+    
+    stop_isochronic();
+    play_isochronic(isochronic_freq_1, isochronic_freq_2);
   }
   
 }
