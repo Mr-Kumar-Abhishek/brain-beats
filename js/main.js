@@ -9,6 +9,7 @@ var monaural_oscillator_2;
 var binaural_oscillator_1;
 var binaural_oscillator_2;
 var pure_tone_oscillator;
+var isochronic_oscillator;
 
 var solfeggio_flag = 0;
 var monaural_flag = 0;
@@ -26,6 +27,7 @@ var isochronic_freq_2;
 var bufferSize = 4096;
 
 var oscillator_type = 'sine';
+var isochronic_flipper = 0;
 
 function volume_set(){
   var user_volume = $("#volume").val();
@@ -80,6 +82,32 @@ function play_pure_tone(freq) {
 
 }
 
+function isochronic_flip(freq1, freq2) {
+
+  console.log("isochronic flip ran");
+  if (isochronic_flipper == 0) {
+    isochronic_flipper = 1;
+
+    console.log("Isochornic flipper turned on.");
+    isochronic_oscillator = audioCtx.createOscillator();
+    isochronic_oscillator.type = oscillator_type;
+
+    var volume = audioCtx.createGain();
+
+    isochronic_oscillator.connect(volume);
+    isochronic_oscillator.frequency.setValueAtTime(freq1, audioCtx.currentTime);
+
+    volume.connect(audioCtx.destination);
+    volume.gain.value = volume_set();
+    isochronic_oscillator.start();
+    setTimeout(isochronic_flip(freq1, freq2), 1000/freq2);
+  }else {
+    isochronic_flipper = 0;
+    console.log("isochronic flipper turned off");
+    isochronic_oscillator.stop();
+    setTimeout(isochronic_flip(freq1, freq2), 1000/freq2);
+  }
+}
 function play_isochronic(freq1, freq2){
   
   isochronic_freq_1 = freq1;
@@ -88,6 +116,8 @@ function play_isochronic(freq1, freq2){
   if (isochronic_flag == 0 ) {
     
     isochronic_flag = 1;
+    
+    isochronic_flip(isochronic_freq_1, isochronic_freq_2);
 
     console.log("Isochronic Carrier frequency ");
     console.log(isochronic_freq_1);
