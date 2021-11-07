@@ -80,15 +80,23 @@ function play_pure_tone(freq) {
 }
 
 function play_isochronic(freq1, freq2){
-
+  
   isochronic_freq_1 = freq1;
   isochronic_freq_2 = freq2;
 
-  console.log("Isochronic Carrier frequency ")
-  console.log(isochronic_freq_1);
-  console.log("Isochronc Frequency ");
-  console.log(isochronic_freq_2);
-
+  if (isochronic_flag = 1 ) {
+  
+    console.log("Isochronic Carrier frequency ")
+    console.log(isochronic_freq_1);
+    console.log("Isochronc Frequency ");
+    console.log(isochronic_freq_2);   
+  
+  } else {
+  
+    stop_isochronic();
+    play_isochronic(freq1, freq2);
+ 
+  }
 }
 
 function play_monaural(freq1, freq2){
