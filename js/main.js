@@ -19,6 +19,8 @@ var solfeggio_freq;
 var beat_freq_1;
 var beat_freq_2
 var pure_tone_freq;
+var isochronic_freq_1;
+var isochronic_freq_2;
 
 var bufferSize = 4096;
 
@@ -74,6 +76,18 @@ function play_pure_tone(freq) {
     stop_pure_tone();
     play_pure_tone(freq);
   }
+
+}
+
+function play_isochronic(freq1, freq2){
+
+  isochronic_freq_1 = freq1;
+  isochronic_freq_2 = freq2;
+
+  console.log("Isochronic Carrier frequency ")
+  console.log(isochronic_freq_1);
+  console.log("Isochronc Frequency ");
+  console.log(isochronic_freq_2);
 
 }
 
@@ -192,6 +206,10 @@ function stop_binaural(){
   }
 }
 
+function stop_isochronic() {
+
+}
+
 function play_monaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
@@ -207,6 +225,12 @@ function play_binaural_generator(){
 function play_pure_tone_generator(){
   var tone_freq = $("#freq").val();
   play_pure_tone(tone_freq);
+}
+
+function play_isochronic_generator(){
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  play_isochronic(freq1, freq2);
 }
 
 function warning(whichy){
