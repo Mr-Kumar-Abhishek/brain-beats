@@ -218,6 +218,10 @@ function stop_binaural(){
 
 function stop_isochronic() {
 
+  if(isochronic_flag == 1){
+    isochronic_flag = 0;
+  }
+  
   console.log("Stop Isochronic ran");
 }
 
