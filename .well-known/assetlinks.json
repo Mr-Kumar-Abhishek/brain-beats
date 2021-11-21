@@ -14,5 +14,13 @@
       "package_name": "app.netlify.brain_beats.twa",
       "sha256_cert_fingerprints": ["11:6B:8C:05:CE:22:D5:B5:93:C1:76:83:20:D0:DA:32:D3:8C:C2:35:B9:6E:C8:BB:63:B3:71:35:CE:E5:14:94"]
     }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.detwbb",
+      "sha256_cert_fingerprints": ["5D:B0:71:18:64:A7:6A:EA:3D:52:80:6B:77:ED:23:CF:C2:FD:8D:BF:FC:6F:9D:01:CF:FD:2A:02:FF:C8:64:9A"]
+    }
   }  
 ]
