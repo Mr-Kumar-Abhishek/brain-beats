@@ -5,6 +5,8 @@
     "display" : "standalone",
     "orientation" : "portrait-primary",
     "lang" : "English",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
     "icons" : [{
       "src": "https://res.cloudinary.com/mr-kumar-abhishek/image/upload/c_scale,h_128,w_128/v1564221902/brain-beats/mandala-1757304_1280.png",
       "sizes": "128x128",
