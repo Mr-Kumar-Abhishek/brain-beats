@@ -4,7 +4,7 @@
     "target": {
       "namespace": "android_app",
       "package_name": "xyz.appmaker.detwbb",
-      "sha256_cert_fingerprints": ["5D:B0:71:18:64:A7:6A:EA:3D:52:80:6B:77:ED:23:CF:C2:FD:8D:BF:FC:6F:9D:01:CF:FD:2A:02:FF:C8:64:9A"]
+      "sha256_cert_fingerprints": ["42:A1:01:C0:0A:6F:0A:AD:DA:1C:97:2E:5B:0D:89:2F:18:A9:BC:6A:81:64:60:3E:5C:71:8A:61:12:F7:82:05"]
     }
   }
 ]
