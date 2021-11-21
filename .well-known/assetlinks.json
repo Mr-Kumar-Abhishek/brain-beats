@@ -3,8 +3,16 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "xyz.appmaker.detwbb",
+      "package_name": "app.netlify.brain_beats.twa",
       "sha256_cert_fingerprints": ["42:A1:01:C0:0A:6F:0A:AD:DA:1C:97:2E:5B:0D:89:2F:18:A9:BC:6A:81:64:60:3E:5C:71:8A:61:12:F7:82:05"]
     }
-  }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.netlify.brain_beats.twa",
+      "sha256_cert_fingerprints": ["11:6B:8C:05:CE:22:D5:B5:93:C1:76:83:20:D0:DA:32:D3:8C:C2:35:B9:6E:C8:BB:63:B3:71:35:CE:E5:14:94"]
+    }
+  }  
 ]
