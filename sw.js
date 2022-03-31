@@ -17,7 +17,7 @@ if (workbox) {
             ]
         })
     );
-    /* Make your JS and CSS âš¡ fast by returning the assets from the cache,
+    /* Make your JS and CSS as fast by returning the assets from the cache,
   while making sure they are updated in the background for the next use.
   */
     workbox.routing.registerRoute(
@@ -47,5 +47,5 @@ and control a web page as soon as possible
 workbox.core.skipWaiting();
     workbox.core.clientsClaim();
 } else {
-    console.log("Oops! Workbox didn't load ðŸ‘º");
+    console.log("Oops! Workbox didn't load");
 }
