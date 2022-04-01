@@ -35,7 +35,7 @@ if (workbox) {
         new workbox.strategies.CacheFirst({
             cacheName: "google-fonts",
             plugins: [
-                new workbox.cacheableResponse.ExpirationPlugin({
+                new workbox.cacheableResponse.CacheableResponsePlugin({
                     statuses: [0, 200],
                 }),
             ],
