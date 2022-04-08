@@ -260,6 +260,12 @@ function play_pure_tone_generator(){
   play_pure_tone(tone_freq);
 }
 
+function play_sq_monaural_generator(){
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  play_sq_monaural(freq1, freq2);
+}
+
 function warning(whichy){
   switch(whichy) {
     case 0: 
