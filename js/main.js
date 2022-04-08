@@ -291,9 +291,11 @@ function live_volume_set(){
     play_binaural(beat_freq_1, beat_freq_2);
     
   }else if (pure_tone_flag == 1){
+    
     stop_pure_tone();
     play_pure_tone(pure_tone_freq);
-  }else if (monaural_flag == 1){
+
+  }else if (sq_monaural_flag == 1){
     
     stop_sq_monaural();
     play_sq_monaural(beat_freq_1, beat_freq_2);
