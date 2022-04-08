@@ -9,15 +9,18 @@ var monaural_oscillator_2;
 var binaural_oscillator_1;
 var binaural_oscillator_2;
 var pure_tone_oscillator;
+var sq_monaural_oscillator_1;
+var sq_monaural_oscillator_2;
 
 var solfeggio_flag = 0;
 var monaural_flag = 0;
 var binaural_flag = 0;
 var pure_tone_flag = 0;
+var sq_monaural_flag = 0;
 
 var solfeggio_freq;
 var beat_freq_1;
-var beat_freq_2
+var beat_freq_2;
 var pure_tone_freq;
 
 var bufferSize = 4096;
@@ -115,6 +118,45 @@ function play_monaural(freq1, freq2){
   }
 }
 
+
+function play_sq_monaural(freq1, freq2){
+  
+  beat_freq_1 = freq1;
+  beat_freq_2 = freq2;
+  
+  if (sq_monaural_flag == 0){
+    sq_monaural_flag = 1;
+    
+    sq_monaural_oscillator_1 = audioCtx.createOscillator();
+    sq_monaural_oscillator_2 = audioCtx.createOscillator();
+    
+    sq_monaural_oscillator_1.type = 'square';
+    sq_monaural_oscillator_2.type = 'square';
+    
+    var volume_1 = audioCtx.createGain();
+    var volume_2 = audioCtx.createGain();
+    
+    sq_monaural_oscillator_1.connect(volume_1);
+    sq_monaural_oscillator_2.connect(volume_2);
+
+    sq_monaural_oscillator_1.frequency.setValueAtTime(freq1, audioCtx.currentTime);
+    sq_monaural_oscillator_2.frequency.setValueAtTime(freq2, audioCtx.currentTime);
+    
+    volume_1.connect(audioCtx.destination);
+    volume_2.connect(audioCtx.destination);
+    
+    volume_1.gain.value = volume_set();
+    volume_2.gain.value = volume_set();
+    
+    sq_monaural_oscillator_1.start();
+    sq_monaural_oscillator_2.start();
+    
+  }else {
+    stop_sq_monaural();
+    play_sq_monaural(freq1, freq2);
+  }
+}
+
 function play_binaural(freq1, freq2){
   
     beat_freq_1 = freq1;
@@ -192,6 +234,15 @@ function stop_binaural(){
   }
 }
 
+
+function stop_sq_monaural(){
+  if(sq_monaural_flag == 1){
+    sq_monaural_flag = 0;
+    sq_monaural_oscillator_2.stop();
+    sq_monaural_oscillator_1.stop();
+  }
+}
+
 function play_monaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
@@ -242,6 +293,11 @@ function live_volume_set(){
   }else if (pure_tone_flag == 1){
     stop_pure_tone();
     play_pure_tone(pure_tone_freq);
+  }else if (monaural_flag == 1){
+    
+    stop_sq_monaural();
+    play_sq_monaural(beat_freq_1, beat_freq_2);
+    
   }
   
 }
