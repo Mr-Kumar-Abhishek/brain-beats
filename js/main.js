@@ -40,7 +40,7 @@ function play_solfeggio(freq) {
    solfeggio_flag = 1;
    oscillator = audioCtx.createOscillator();
 
-   oscillator.type = 'sine';
+   oscillator.type = oscillator_type;
     
    var volume = audioCtx.createGain();
    oscillator.connect(volume);
