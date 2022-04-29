@@ -1,4 +1,9 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
+importScripts('/js/workbox/workbox-v6.5.3/workbox-sw.js');
+
+workbox.setConfig({
+    modulePathPrefix: '/js/workbox/workbox-v6.5.3/',
+  });
+
 if (workbox) {
     console.log("Yay! Workbox is loaded !");
     workbox.precaching.precacheAndRoute([]);
