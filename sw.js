@@ -49,7 +49,7 @@ if (workbox) {
 /* Install a new service worker and have it update
 and control a web page as soon as possible
 */
-workbox.core.skipWaiting();
+self.skipWaiting();
     workbox.core.clientsClaim();
 } else {
     console.log("Oops! Workbox didn't load");
