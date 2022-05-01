@@ -8,32 +8,32 @@
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
     "icons" : [{
-      "src": "https://res.cloudinary.com/mr-kumar-abhishek/image/upload/c_scale,h_128,w_128/v1564221902/brain-beats/mandala-1757304_1280.png",
+      "src": "./img/128x128-mandala-1757304_1280.png",
       "sizes": "128x128",
       "type": "image/png",
       "purpose": "any"
     }, {
-      "src": "https://res.cloudinary.com/mr-kumar-abhishek/image/upload/c_scale,h_144,w_144/v1564221902/brain-beats/mandala-1757304_1280.png",
+      "src": "./img/144x144-mandala-1757304_1280.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any"
     }, {
-      "src": "https://res.cloudinary.com/mr-kumar-abhishek/image/upload/c_scale,h_152,w_152/v1564221902/brain-beats/mandala-1757304_1280.png",
+      "src": "./img/152x152-mandala-1757304_1280.png",
       "sizes": "152x152",
       "type": "image/png",
       "purpose": "any"
     }, {
-      "src": "https://res.cloudinary.com/mr-kumar-abhishek/image/upload/c_scale,h_192,w_192/v1564221902/brain-beats/mandala-1757304_1280.png",
+      "src": "./img/192x192-mandala-1757304_1280.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     }, {
-      "src": "https://res.cloudinary.com/mr-kumar-abhishek/image/upload/c_scale,h_256,w_256/v1564221902/brain-beats/mandala-1757304_1280.png",
+      "src": "./img/256x256-mandala-1757304_1280.png",
       "sizes": "256x256",
       "type": "image/png",
       "purpose": "any"
     }, {
-      "src": "https://res.cloudinary.com/mr-kumar-abhishek/image/upload/c_scale,h_512,w_512/v1564221902/brain-beats/mandala-1757304_1280.png",
+      "src": "./img/512x512-mandala-1757304_1280.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
