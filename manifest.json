@@ -39,7 +39,7 @@
       "purpose": "any"
     },
     {
-      "src": "https://res.cloudinary.com/mr-kumar-abhishek/image/upload/v1637472883/brain-beats/maskable_icon.png",
+      "src": "./img/maskable_icon.png",
       "sizes": "196x196",
       "type": "image/png",
       "purpose": "maskable"
