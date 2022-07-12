@@ -172,95 +172,36 @@
       </div>
     </nav>
     
-    <div class="container-fluid fluidaner">
-      
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">White Noise</h5>
-              <div class="row">
-                <div class="col text-left">
-                  <p class="card-text">
-                    White noise is process with flat frequency spectrum when it
-                    is plotted in a linear function of frequency. It is used in
-                    treatment of tinnitus. It is also very good for masking
-                    background sounds.
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col text-end">
-                  <button onclick="white_noise_process(0.3)" class="btn btn-primary">
-                    Play
-                  </button>
-                  <button onclick="stopWhiteNoise();" class="btn btn-secondary">
-                    Stop
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="container-fluid fluidaner noiseraner">
 
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Pink Noise</h5>
-              <div class="row">
-                <div class="col text-left">
-                  <p class="card-text">
-                    The frequency of pink noise is linear in logarithmic scale.
-                    It used in treatment of hyperacusis and tinnitus.
-                  </p>
+      <template class="data-user-noise">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">  </h5>
+                <div class="row">
+                  <div class="col text-left">
+                    <p class="card-text">
+                      
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col text-end">
-                  <button onclick="pink_noise_process(0.3)" class="btn btn-primary">
-                    Play
-                  </button>
-                  <button onclick="stopPinkNoise()" class="btn btn-secondary">
-                    Stop
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Brown Noise</h5>
-              <div class="row">
-                <div class="col text-left">
-                  <p class="card-text">
-                    Brown noise, or brownian noise refers to a power density
-                    which increases 6 dB per octave with increasing frequency.
-                    Benefits associated while listening to it are relaxation,
-                    improved focus, and of course, sleep improvement.
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col text-end">
-                  <button onclick="brown_noise_process(0.3)" class="btn btn-primary">
-                    Play
-                  </button>
-                  <button onclick="stopBrownNoise()" class="btn btn-secondary">
-                    Stop
-                  </button>
+                <div class="row">
+                  <div class="col text-end">
+                    <button class="btn btn-primary play">
+                      Play
+                    </button>
+                    <button class="btn btn-secondary stop">
+                      Stop
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div>  
+      </template>
     </div>
 
     <script src="./js/jquery-3.6.0.slim.min.js" ></script>
@@ -269,16 +210,30 @@
     <script src="./js/plugins.js"></script>
     <script src="./noise-processor/noise-processor.js"></script>
     <script>
-      function set_white(val) {
-        whiteNoiseNodeGain.gain.value = val;
-      }
+      console.log("search is accessed");
+      const dataUserNoise = document.querySelector(".data-user-noise");
+      const dataNoiseraner = document.querySelector(".noiseraner")
 
+    fetch("./json/noise.json")
+      .then(res => res.json())
+      .then(data => {
+        data.forEach(noisePreset => {
+        const noises = dataUserNoise.content.cloneNode(true).children[0];
+        const noiseTitle = noises.querySelector(".card-title");
+        const noiseDescription = noises.querySelector(".card-text");
+        const noisePlay = noises.querySelector(".play");
+        const noiseStop = noises.querySelector(".stop");
+        noiseTitle.textContent = noisePreset.noise_name;
+        noiseDescription.textContent = noisePreset.noise_description;
+        noisePlay.setAttribute("onclick", noisePreset.noise_start);
+        noiseStop.setAttribute("onclick", noisePreset.noise_stop);
+        dataNoiseraner.append(noises);
+        console.log(noisePreset.noise_name);
+        });
+      });
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-70747360-2"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70747360-2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
