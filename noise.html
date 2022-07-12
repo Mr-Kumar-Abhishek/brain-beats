@@ -168,7 +168,7 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex"> <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search"></form>
+          <form action="#" class="d-flex"> <input class="form-control mr-2 searching" type="search" placeholder="Search" aria-label="Search"></form>
         </div>
       </div>
     </nav>
@@ -213,12 +213,26 @@
     <script>
       console.log("search is accessed");
       const dataUserNoise = document.querySelector(".data-user-noise");
-      const dataNoiseraner = document.querySelector(".noiseraner")
+      const dataNoiseraner = document.querySelector(".noiseraner");
+      const searchInput = document.querySelector(".searching");
+
+
+      let nPresets = [];
+      searchInput.addEventListener("input", (e)=> {
+        const value  = e.target.value.toLowerCase(); 
+        nPresets.forEach(nPreset => {
+           console.log(nPreset);
+          const isVisible = nPreset.nTitle.toLowerCase().includes(value) || nPreset.nDesc.toLowerCase().includes(value);
+          nPreset.element.classList.toggle("d-none", !isVisible)
+        });
+        ;
+        console.log(nPresets);
+      });
 
     fetch("./json/noise.json")
       .then(res => res.json())
       .then(data => {
-        data.forEach(noisePreset => {
+       nPresets = data.map(noisePreset => {
         const noises = dataUserNoise.content.cloneNode(true).children[0];
         const noiseTitle = noises.querySelector(".card-title");
         const noiseDescription = noises.querySelector(".card-text");
@@ -230,6 +244,7 @@
         noiseStop.setAttribute("onclick", noisePreset.noise_stop);
         dataNoiseraner.append(noises);
         console.log(noisePreset.noise_name);
+        return {nTitle: noisePreset.noise_name, nDesc: noisePreset.noise_description, element: noises};
         });
       });
     </script>
