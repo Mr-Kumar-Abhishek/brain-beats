@@ -225,8 +225,6 @@
           const isVisible = nPreset.nTitle.toLowerCase().includes(value) || nPreset.nDesc.toLowerCase().includes(value);
           nPreset.element.classList.toggle("d-none", !isVisible)
         });
-        ;
-        console.log(nPresets);
       });
 
     fetch("./json/noise.json")
