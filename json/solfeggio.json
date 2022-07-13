@@ -1,0 +1,17 @@
+[ 
+   {
+    "solfeggio_name": "174 hz - Solfeggio Frequency",
+    "solfeggio_description": "Gives the body a sense of security, safety and love. It also enourages the cells to do their best. This frequency tends to reduce pain overtime",
+    "solfeggio_start": "play_solfeggio(174);"
+   },
+   {
+    "solfeggio_name": "285 hz - Solfeggio Frequency",
+    "solfeggio_description": " Influences all the energy fields and sends a message to our body to restructure itself. Overtime it leaves the body rejuvinated and energized.",
+    "solfeggio_start": "play_solfeggio(285);"
+   },
+   {
+    "solfeggio_name": "396 Hz - solfeggio frequency",
+    "solfeggio_description": "This releases us from guilt and fear. One of basic obstacle to realization is guilt. This frequency liberates all the energy and enables achievement of goals in most direct way. This is associated with root chakra or muladhara chakra.",
+    "solfeggio_start": "play_solfeggio(396);"
+   }
+]
