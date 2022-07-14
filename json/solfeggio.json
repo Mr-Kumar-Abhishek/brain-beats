@@ -98,5 +98,10 @@
       "solfeggio_name": "1740 Hz - solfeggio frequency",
       "solfeggio_description": "Solfeggio frequency associated with chakra of upper homes. It is also called homes in the mountains. This chakra can easily be put into balance. It is a good chakra for balancing one's ego and for building one's opportunity to be reincarnated in higher worlds. This chakra is associated with heavenly sources of wealth and abundance. It connected with indian deity brahama. ",
       "solfeggio_start": "play_solfeggio(1740);"
+   },
+   {
+      "solfeggio_name": "1851 Hz - solfeggio frequency",
+      "solfeggio_description": "Solfeggio frequency associated with chakra of alchemy. It rules over alchemical transmutations, rule of eternal change, metamorphosis and transformation. It teaches us that everything is a constant change. It rules over appearance and dissapearance on micro-level. It is the consciousness of the quantum world and teleportation.",
+      "solfeggio_start": "play_solfeggio(1851);"
    }
 ]
