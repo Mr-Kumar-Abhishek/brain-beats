@@ -58,5 +58,10 @@
       "solfeggio_name": "852 Hz - solfeggio frequency",
       "solfeggio_description": "Increases the ability to see through the illusions of our life, such as hidden agendas of people, places and things. It raises our awareness and returns us to spiritual order. This is associated with third eye or ajna chakra.",
       "solfeggio_start": "play_solfeggio(852);"
+   },
+   {
+      "solfeggio_name": "963 Hz - solfeggio frequency",
+      "solfeggio_description": " Connects us with the spirit of the world and enables direct experience. It familiarizes with non-vibrational energy of the the spiritual world. This is associated with crown chakra or sahasara chakra.",
+      "solfeggio_start": "play_solfeggio(963);"
    }
 ]
