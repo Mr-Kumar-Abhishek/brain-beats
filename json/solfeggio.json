@@ -83,6 +83,11 @@
       "solfeggio_name": "1407 Hz - solfeggio frequency",
       "solfeggio_description": "Solfeggio frequency associated with galactic chakra. This is considered a channel of prophecy. It governs the ability to transcend space and time and allows access to Akashic Records also known as universes cosmic 'book of life'. It is experienced as extreems of positives and negatives. It can take from months to years to master this and many get stuck here. It is also associated with shamic and yogic powers such as soul travelling and telekinesis.",
       "solfeggio_start": "play_solfeggio(1407);"
+   },
+   {
+      "solfeggio_name": "1518 Hz - solfeggio frequency",
+      "solfeggio_description": "Solfeggio frequency associated with universal chakra. It is known as the chakra of universal consciousness which allows you to transcend the mundane to reach enlightment and commune with the devine. Its the halo of the enlightened one. It is the krishna's love. It is also the christ's consciousness. Mastering of lower chakras are important before practicing this. Especially the galactic chakra.",
+      "solfeggio_start": "play_solfeggio(1518);"
    }
 
 ]
