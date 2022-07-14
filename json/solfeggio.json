@@ -73,5 +73,10 @@
       "solfeggio_name": "1185 Hz - solfeggio frequency",
       "solfeggio_description": "Solfeggio frequency associated with moon chakra or lunar chakra or bindu chakra. This chakra brings in love, sensitivity, creativity, feminity and anima. It is the main center of karmic understanding and channelling that governs intelligence, communication with spirit guides ( angles, fairies etc.) and funnels information about incarnations. It is also fountain of youth, vitality and health. It is also known as mouth of god in some tradations.",
       "solfeggio_start": "play_solfeggio(1185);"
+   },
+   {
+      "solfeggio_name": "1296 Hz - solfeggio frequency",
+      "solfeggio_description": "Solfeggio frequency associated with solar chakra. It is also called the stellar gateway. Its the masculine energy which governs the ability to live your dreams. This chakra helps you focus your will and removes blockages and gives your existance a purpose. It plays an important role in shaping our destiny and devine creativity.",
+      "solfeggio_start": "play_solfeggio(1296);"
    }
 ]
