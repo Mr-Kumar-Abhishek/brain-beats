@@ -231,18 +231,18 @@
       .then(res => res.json())
       .then(data => {
        nPresets = data.map(noisePreset => {
-        const noises = dataUserNoise.content.cloneNode(true).children[0];
-        const noiseTitle = noises.querySelector(".card-title");
-        const noiseDescription = noises.querySelector(".card-text");
-        const noisePlay = noises.querySelector(".play");
-        const noiseStop = noises.querySelector(".stop");
+        const noiseNode = dataUserNoise.content.cloneNode(true).children[0];
+        const noiseTitle = noiseNode.querySelector(".card-title");
+        const noiseDescription = noiseNode.querySelector(".card-text");
+        const noisePlay = noiseNode.querySelector(".play");
+        const noiseStop = noiseNode.querySelector(".stop");
         noiseTitle.textContent = noisePreset.noise_name;
         noiseDescription.textContent = noisePreset.noise_description;
         noisePlay.setAttribute("onclick", noisePreset.noise_start);
         noiseStop.setAttribute("onclick", noisePreset.noise_stop);
-        dataNoiseraner.append(noises);
+        dataNoiseraner.append(noiseNode);
         console.log(noisePreset.noise_name);
-        return {nTitle: noisePreset.noise_name, nDesc: noisePreset.noise_description, element: noises};
+        return {nTitle: noisePreset.noise_name, nDesc: noisePreset.noise_description, element: noiseNode};
         });
       });
     </script>
