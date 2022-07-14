@@ -61,7 +61,12 @@
    },
    {
       "solfeggio_name": "963 Hz - solfeggio frequency",
-      "solfeggio_description": " Connects us with the spirit of the world and enables direct experience. It familiarizes with non-vibrational energy of the the spiritual world. This is associated with crown chakra or sahasara chakra.",
+      "solfeggio_description": "Connects us with the spirit of the world and enables direct experience. It familiarizes with non-vibrational energy of the the spiritual world. This is associated with crown chakra or sahasara chakra.",
       "solfeggio_start": "play_solfeggio(963);"
+   },
+   {
+      "solfeggio_name": "1074 Hz - solfeggio frequency",
+      "solfeggio_description": "Solfeggio frequency associated with upper earth chakra or global chakra. Upper earth chakra is associated with duality and recconnection. It gives higher connection awareness of communication, new ideas, friendship, love and compassion. If this is not balanced, one could be more prone to the shadow of her/his ego. This is the chakra of whole human aura. Also called the the connection star or soul star. It acts in pair with the lower earth chakra which harnesses all the pieces of human puzzle, from DNA to bone and blood.",
+      "solfeggio_start": "play_solfeggio(1074);"
    }
 ]
