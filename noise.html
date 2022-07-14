@@ -173,7 +173,7 @@
       </div>
     </nav>
     
-    <div class="container-fluid fluidaner noiseraner">
+    <div class="container-fluid fluidaner noiseContainer">
 
       <template class="data-user-noise">
         <div class="row">
@@ -213,7 +213,7 @@
     <script>
       console.log("search is accessed");
       const dataUserNoise = document.querySelector(".data-user-noise");
-      const dataNoiseraner = document.querySelector(".noiseraner");
+      const dataNoiseContainer = document.querySelector(".noiseContainer");
       const searchInput = document.querySelector(".searching");
 
 
@@ -240,7 +240,7 @@
         noiseDescription.textContent = noisePreset.noise_description;
         noisePlay.setAttribute("onclick", noisePreset.noise_start);
         noiseStop.setAttribute("onclick", noisePreset.noise_stop);
-        dataNoiseraner.append(noiseNode);
+        dataNoiseContainer.append(noiseNode);
         console.log(noisePreset.noise_name);
         return {nTitle: noisePreset.noise_name, nDesc: noisePreset.noise_description, element: noiseNode};
         });
