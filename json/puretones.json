@@ -11,7 +11,12 @@
    },
    {
       "puretone_name": "144 hz - Pure Tone",
-      "puretone_description": "  Pure Tone for relief from major headaches and migranes. Use big headphones and comfortable volume.",
+      "puretone_description": "Pure Tone for relief from major headaches and migranes. Use big headphones and comfortable volume.",
       "puretone_start": "play_pure_tone(144);"
-     }
+   },
+   {
+      "puretone_name": "172.06 hz - Pure Tone",
+      "puretone_description": "It Resonates with the Platonic year which is about 26,000 years. Musical note is F. Aura color is purple-violet. Positive effects are being joyful, cheerful, spiritual. Linked with Sahasrar/Crown chakra and has clarity of spirit, cosmic unity on highest levels. Medicinal benefits is that it acts as antidepressant. Has a lot of significance in chinese culture.",
+      "puretone_start": "play_pure_tone(172.06);"
+   }
 ]
