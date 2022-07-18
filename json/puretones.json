@@ -33,5 +33,10 @@
       "puretone_name": "288 hz - Pure Tone",
       "puretone_description": "Pure Tone for meditation of Svadhishthana (or sacral chakra ). This chakra will give inner strength to manage eating disorders, kidney problems, urinary tract infections, chronic lower back pain, infertility, gynocological problems, dysfunctional mestrual cycles, problems with intestine, spleen and gall bladder. This Sacral chakra preset helps clearing eating disorders, addictions, low self confidence, depedency issues, low libido and unbalanced emotions. Sacral chakra is associated with emotions, feeling, relationships, ceativity and fantasies.",
       "puretone_start": "play_pure_tone(288);"
+   },
+   {
+      "puretone_name": "295.8 hz - Pure Tone",
+      "puretone_description": "Pure for viceral fat reduction. Must be listened while working out (including walking).",
+      "puretone_start": "play_pure_tone(295.8);"
    }
 ]
