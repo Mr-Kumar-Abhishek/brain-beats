@@ -63,5 +63,10 @@
       "puretone_name": "420.82 hz - Pure Tone",
       "puretone_description": "Pure tone for meditation on moon chakra or lunar chakra or bindu chakra. This chakra is associated with love, sensitivity, creativity, feminity and anima. This preset is aimed of getting physical enhancements from this chakra which brings good health, vitality, and youth.  It is the center of karmic understanding, and channeling it governs intelligence. It funnels informations about incarnations and spirit guides.",
       "puretone_start": "play_pure_tone(420.82);"
+   },
+   {
+      "puretone_name": "426.7 hz - Pure Tone",
+      "puretone_description": "Pure tone for meditation on Brow chakra (Third Eye), Ajna. Meditation on this chakra tries to remove eye problems, glaucoma, ear problems and hearing difficulties, spinal conditions, and scalp/hair issues. It also tries to deal with headaches and migraines, nightmares, seizures, neurological disorders, personality disorders and neuroses, learning difficulties, and hallucinations.",
+      "puretone_start": "play_pure_tone(426.7);"
    }
 ]
