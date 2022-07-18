@@ -58,5 +58,10 @@
       "puretone_name": "416 hz - Pure Tone",
       "puretone_description": "Pure tone for meditation on psychic central chakra [Phase 1]. [13:1]. Musical note is Ab. This frequency is associated with Iron mineral nutrient.",
       "puretone_start": "play_pure_tone(416);"
+   },
+   {
+      "puretone_name": "420.82 hz - Pure Tone",
+      "puretone_description": "Pure tone for meditation on moon chakra or lunar chakra or bindu chakra. This chakra is associated with love, sensitivity, creativity, feminity and anima. This preset is aimed of getting physical enhancements from this chakra which brings good health, vitality, and youth.  It is the center of karmic understanding, and channeling it governs intelligence. It funnels informations about incarnations and spirit guides.",
+      "puretone_start": "play_pure_tone(420.82);"
    }
 ]
