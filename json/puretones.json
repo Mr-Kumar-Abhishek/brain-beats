@@ -73,5 +73,10 @@
       "puretone_name": "439 hz - Pure Tone",
       "puretone_description": "Pure tone for meditation on crown Chakra (sahasrar) [Flavour 1]. Aura color is violet. Tone is 'Eee'. Musical note is 'B'. (Old musical diantonic scale.) This crown chakra is meant for physical enhancements such as it gives strength against light sensitivity, headaches, dementia, auto-immune discorders, neurological disorders. Gives a boost to entire mental, physical and spiritual health for the brain. Gives control over depression, confusion, loss of faith, mental disconnection, dementia, epilepsy, schizophrenia.",
       "puretone_start": "play_pure_tone(439);"
+   },
+   {
+      "puretone_name": "444 hz - Pure Tone",
+      "puretone_description": "This tone is used by king David in the psalms. Many groups gravitate to this frequency. This is the key to open doors of heaven that no man can open. The feeling attributed to this tone are joy, peace and a sense of security. It helps to align with nature. It is pleasing to mind and body. Has a sense of peace and is emotionally uplifting. Helps to feel secure and opens heavenly portals. Floating in space, the frequency of angels. Old Musical note A.",
+      "puretone_start": "play_pure_tone(444);"
    }
 ]
