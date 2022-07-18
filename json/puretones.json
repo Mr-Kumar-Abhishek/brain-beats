@@ -68,5 +68,10 @@
       "puretone_name": "426.7 hz - Pure Tone",
       "puretone_description": "Pure tone for meditation on Brow chakra (Third Eye), Ajna. Meditation on this chakra tries to remove eye problems, glaucoma, ear problems and hearing difficulties, spinal conditions, and scalp/hair issues. It also tries to deal with headaches and migraines, nightmares, seizures, neurological disorders, personality disorders and neuroses, learning difficulties, and hallucinations.",
       "puretone_start": "play_pure_tone(426.7);"
+   },
+   {
+      "puretone_name": "439 hz - Pure Tone",
+      "puretone_description": "Pure tone for meditation on crown Chakra (sahasrar) [Flavour 1]. Aura color is violet. Tone is 'Eee'. Musical note is 'B'. (Old musical diantonic scale.) This crown chakra is meant for physical enhancements such as it gives strength against light sensitivity, headaches, dementia, auto-immune discorders, neurological disorders. Gives a boost to entire mental, physical and spiritual health for the brain. Gives control over depression, confusion, loss of faith, mental disconnection, dementia, epilepsy, schizophrenia.",
+      "puretone_start": "play_pure_tone(439);"
    }
 ]
