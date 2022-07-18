@@ -22,6 +22,11 @@
    {
       "puretone_name": "210.42 hz - Pure Tone",
       "puretone_description": "Synodic Moon Frequency. Musical Note is G#. Aura color is orange. Associated with Svadisthan Chakra. It regulates menstruation and rectifies disturbances in gland and lymph system. Other minor effects include simulation of sexual energy and supports erotic communication. (It is designed for females.)",
-      "puretone_start": "play_pure_tone(210.42 hz);"
+      "puretone_start": "play_pure_tone(210.42);"
+   },
+   {
+      "puretone_name": "256 hz - Pure Tone",
+      "puretone_description": "Pure Tone for root chakra (muladhara) for meditation. Physical enhancement by muladahara, gives strength for lower back pain, scaitica, varicose viens, constipation, diarrhea, rectal or anal problems, problems with groin, hips, legs, knees, calves, ankles and feet. It is related to survival, security and being closest to earth. Associated with colour red and the element earth. It rests at the base of the spine. It tries to remove loneliness, insecurities, feeling ungrounded, unconfidence, abandonment, indecisiveness, depressed states, anxious states, addictions, phobias and obsessions.",
+      "puretone_start": "play_pure_tone(256);"
    }
 ]
