@@ -41,7 +41,12 @@
    },
    {
       "puretone_name": "341 hz - Pure Tone",
-      "puretone_description": "Pure tone for meditation on Anahata chakra (heart chakra). It tries to remove apathetic nature, faithlessness, unforgiving nature, hopelessness,  distrustfulness, uncommittedness, and detachment.It gives strength, against pneumonia, asthema, breast problems, respiratory problems, upper-back pain, shoulder and upper arm pain, and also premature aging. It tries to remove apathetic nature, faithlessness, unforgiving nature, hopelessness,  distrustfulness, uncommittedness, and detachment.",
+      "puretone_description": "Pure tone for meditation on Anahata chakra (heart chakra). It tries to remove apathetic nature, faithlessness, unforgiving nature, hopelessness,  distrustfulness, uncommittedness, and detachment. It gives strength, against pneumonia, asthema, breast problems, respiratory problems, upper-back pain, shoulder and upper arm pain, and also premature aging. It tries to remove apathetic nature, faithlessness, unforgiving nature, hopelessness,  distrustfulness, uncommittedness, and detachment.",
       "puretone_start": "play_pure_tone(341);"
+   },
+   {
+      "puretone_name": "341.3 hz - Pure Tone",
+      "puretone_description": "Pure tone for meditation on Anahata chakra (heart chakra)[2nd flavor]. It tries to remove apathetic nature, faithlessness, unforgiving nature, hopelessness,  distrustfulness, uncommittedness, and detachment. It gives strength against pneumonia, asthema, breast problems, respiratory problems, upper-back pain, shoulder and upper arm pain, and also premature aging. It tries to remove apathetic nature, faithlessness, unforgiving nature, hopelessness,  distrustfulness, uncommittedness, and detachment.",
+      "puretone_start": "play_pure_tone(341.3);"
    }
 ]
