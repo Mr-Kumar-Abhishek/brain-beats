@@ -103,5 +103,10 @@
       "puretone_name": "880 hz - Pure Tone",
       "puretone_description": "This is associated with Frontal Lobes. It effects the seventh sense, final decision. Its the higher octave of 13.8. It is also used on Allergies, Sinusitis. It is used on sinus infections/head colds with 728hz,784hz and 464hz. Commonly used 'cure-all' Rife Frequency.",
       "puretone_start": "play_pure_tone(880);"
+   },
+   {
+      "puretone_name": "888 hz - Pure Tone",
+      "puretone_description": "This is the angel healing frequency. A trip to infinite possibilites. For meditation beyond space and time. For manisfestation and abundance.",
+      "puretone_start": "play_pure_tone(888);"
    }
 ]
