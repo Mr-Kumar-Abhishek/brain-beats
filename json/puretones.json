@@ -88,5 +88,10 @@
       "puretone_name": "727 hz - Pure Tone",
       "puretone_description": "Mostly used on Allergies, Sinusitis. Commonly used as 'cure-all' Rife frequency.",
       "puretone_start": "play_pure_tone(727);"
+   },
+   {
+      "puretone_name": "787 hz - Pure Tone",
+      "puretone_description": "Associated with eyes, gives a higher visualization effect. Its the higher octave of 12.3. It used to treat Allergies, Sinusitis. Commonly used 'cure-all' Rife frequency.",
+      "puretone_start": "play_pure_tone(787);"
    }
 ]
