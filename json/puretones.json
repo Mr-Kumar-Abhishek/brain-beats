@@ -128,5 +128,10 @@
       "puretone_name": "4096 hz - Pure Tone",
       "puretone_description": "Pure Tone for Galactic chakra. This is considered a channel of prophecy. It governs the ability to transcend space and time and allows access to Akashic Records also known as universes cosmic 'book of life'. It is experienced as extreems of positives and negatives. It can take from months to years to master this and many get stuck here. It is also associated with shamic and yogic powers such as soul travelling and telekinesis.",
       "puretone_start": "play_pure_tone(4096);"
+   },
+   {
+      "puretone_name": "5000 hz - Pure Tone",
+      "puretone_description": "Commonly used 'cure-all' Rife frequency. it is used on allergies, sinus infections/head colds - <strong>short use only -- long exposures destroy red blood cells.</strong>",
+      "puretone_start": "play_pure_tone(5000);"
    }
 ]
