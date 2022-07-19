@@ -133,5 +133,10 @@
       "puretone_name": "5000 hz - Pure Tone",
       "puretone_description": "Commonly used 'cure-all' Rife frequency. it is used on allergies, sinus infections/head colds - <strong>short use only -- long exposures destroy red blood cells.</strong>",
       "puretone_start": "play_pure_tone(5000);"
+   },
+   {
+      "puretone_name": "8192 hz - Pure Tone",
+      "puretone_description": "Pure Tone for Universal chakra. It is known as the chakra of universal consciousness which allows you to transcend the mundane to reach enlightment and commune with the devine. Its the halo of the enlightened one. It is the krishna's love. It is also the christ's consciousness. Mastering of lower chakras are important before practicing this. Especially the galactic chakra.",
+      "puretone_start": "play_pure_tone(8192);"
    }
 ]
