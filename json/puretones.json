@@ -93,5 +93,15 @@
       "puretone_name": "787 hz - Pure Tone",
       "puretone_description": "Associated with eyes, gives a higher visualization effect. Its the higher octave of 12.3. It used to treat Allergies, Sinusitis. Commonly used 'cure-all' Rife frequency.",
       "puretone_start": "play_pure_tone(787);"
+   },
+   {
+      "puretone_name": "800 hz - Pure Tone",
+      "puretone_description": "'Cure all' rife frequency, targets all body parts at moderate levels.",
+      "puretone_start": "play_pure_tone(800);"
+   },
+   {
+      "puretone_name": "880 hz - Pure Tone",
+      "puretone_description": "This is associated with Frontal Lobes. It effects the seventh sense, final decision. Its the higher octave of 13.8. It is also used on Allergies, Sinusitis. It is used on sinus infections/head colds with 728hz,784hz and 464hz. Commonly used 'cure-all' Rife Frequency.",
+      "puretone_start": "play_pure_tone(880);"
    }
 ]
