@@ -118,5 +118,10 @@
       "puretone_name": "1024 hz - Pure Tone",
       "puretone_description": "Pure tone for global chakra or upper earth chakra [Phase 1]. Opens all chakra of the body, namely, Muldhara, Svadisthana, Manipura, Anahata, Vishudha, Ajna (third eye), shahasrara. This is aimed at physical strength from all basic chakras. It acts in pair with lower earth chakra and which harnesses all the pieces of human puzzle from DNA to blood and bone. This is the chakra of whole human aura.",
       "puretone_start": "play_pure_tone(1024);"
+   },
+   {
+      "puretone_name": "2048 hz - Pure Tone",
+      "puretone_description": "Pure Tone for Solar chakra. It is also called the stellar gateway. Its the masculine energy which governs the ability to live your dreams. This chakra helps you focus your will and removes blockages and gives your existance a purpose. It plays an important role in shaping our destiny and devine creativity.",
+      "puretone_start": "play_pure_tone(2048);"
    }
 ]
