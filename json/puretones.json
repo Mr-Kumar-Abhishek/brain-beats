@@ -81,7 +81,12 @@
    },
    {
       "puretone_name": "480 hz - Pure Tone",
-      "puretone_description": "Pure tone for meditation on crown Chakra (sahasrar) [Flavour 2]. Musical note is "B". This frequency is associated with Phosphorous & Zinc mineral nutrients. This crown chakra is meant for physical enhancements such as it gives strength against light sensitivity, headaches, dementia, auto-immune discorders, neurological disorders. Gives a boost to entire mental, physical and spiritual health for the brain. Gives control over depression, confusion, loss of faith, mental disconnection, dementia, epilepsy, schizophrenia.",
+      "puretone_description": "Pure tone for meditation on crown Chakra (sahasrar) [Flavour 2]. Musical note is 'B'. This frequency is associated with Phosphorous & Zinc mineral nutrients. This crown chakra is meant for physical enhancements such as it gives strength against light sensitivity, headaches, dementia, auto-immune discorders, neurological disorders. Gives a boost to entire mental, physical and spiritual health for the brain. Gives control over depression, confusion, loss of faith, mental disconnection, dementia, epilepsy, schizophrenia.",
       "puretone_start": "play_pure_tone(480);"
+   },
+   {
+      "puretone_name": "727 hz - Pure Tone",
+      "puretone_description": "Mostly used on Allergies, Sinusitis. Commonly used as 'cure-all' Rife frequency.",
+      "puretone_start": "play_pure_tone(727);"
    }
 ]
