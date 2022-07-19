@@ -406,7 +406,7 @@
                     problems with intestine, spleen and gall bladder. This Sacral chakra 
                     preset helps clearing eating disorders, addictions, low self confidence, 
                     depedency issues, low libido and unbalanced emotions. Sacral chakra is 
-                    associated with emotions, feeling, relationships, ceativity and fantasies.
+                    associated with emotions, feeling, relationships, ceativity and fantasies
                   </p>
                 </div>
               </div>
@@ -500,7 +500,7 @@
         <div class="col">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">341.3 hz - Pure Tone</h5>
+              <h5 class="card-title"> 341.3 hz - Pure Tone</h5>
               <div class="row">
                 <div class="col text-left">
                   <p class="card-text">
@@ -1182,15 +1182,50 @@
         </div>
       </div>
 
-      <div class="volume-box">
-        <p>
-          <b><i>volume</i></b>
-        </p>
-        <div class="text-center">
-          <input id="volume" type="number" value="1" min="0" max="100" />
+      <template>
+
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"> 10000 hz - Pure Tone</h5>
+                <div class="row">
+                  <div class="col text-left">
+                    <p class="card-text">
+                      Commonly used "cure-all" Rife frequency. It is used to treat
+                      alcoholism, allergies, headaches.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-end">
+                    <button
+                      onclick="play_pure_tone(10000);"
+                      class="btn btn-primary"
+                    >
+                      Play
+                    </button>
+                    <button onclick="stop_pure_tone();" class="btn btn-secondary">
+                      Stop
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+
+      </template>
   
+    </div>
+
+    <div class="volume-box">
+      <p>
+        <b><i>volume</i></b>
+      </p>
+      <div class="text-center">
+        <input id="volume" type="number" value="1" min="0" max="100" />
+      </div>
     </div>
 
     <script src="./js/jquery-3.6.0.slim.min.js" ></script>
