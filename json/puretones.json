@@ -123,5 +123,10 @@
       "puretone_name": "2048 hz - Pure Tone",
       "puretone_description": "Pure Tone for Solar chakra. It is also called the stellar gateway. Its the masculine energy which governs the ability to live your dreams. This chakra helps you focus your will and removes blockages and gives your existance a purpose. It plays an important role in shaping our destiny and devine creativity.",
       "puretone_start": "play_pure_tone(2048);"
+   },
+   {
+      "puretone_name": "4096 hz - Pure Tone",
+      "puretone_description": "Pure Tone for Galactic chakra. This is considered a channel of prophecy. It governs the ability to transcend space and time and allows access to Akashic Records also known as universes cosmic 'book of life'. It is experienced as extreems of positives and negatives. It can take from months to years to master this and many get stuck here. It is also associated with shamic and yogic powers such as soul travelling and telekinesis.",
+      "puretone_start": "play_pure_tone(4096);"
    }
 ]
