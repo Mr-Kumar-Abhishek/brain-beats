@@ -13,5 +13,10 @@
     "binaural_name": "0.20 hz Binaural Beats over Solfeggio 396 hz",
     "binaural_description": "Binaural Beats for relief from post-traumatics[Phase 1].",
     "binaural_start": "play_binaural(396, 396.20);"
+   },
+   {
+    "binaural_name": "0.26 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": " Binaural beats for relief in dental pain and gum inflamation (go see a dentist if you are using this).  [Phase 1] Switch to monaural if this doesn't work.",
+    "binaural_start": "play_binaural(174, 174.26);"
    }
 ]
