@@ -33,5 +33,10 @@
     "binaural_name": "0.28 hz Binaural Beats over Solfeggio 285 hz",
     "binaural_description": "Relief from Arthritis [Phase 2].",
     "binaural_start": "play_binaural(285, 285.28);"
+   },
+   {
+    "binaural_name": "0.5 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "Very relaxing against headaches [Phase 1]. To be used for relief from lower back pain [Phase 1]. Thyroid[Phase 1], reproductive [Phase 1] and excretory stimulant [Phase 1]. Whole brain toner[Phase 1].",
+    "binaural_start": "play_binaural(174, 174.5);"
    }
 ]
