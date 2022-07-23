@@ -5,9 +5,9 @@
     "binaural_start": "play_binaural(417, 417.15);"
    },
    {
-    "binaural_name": "Pink Noise",
-    "binaural_description": "The frequency of pink noise is linear in logarithmic scale. It used in treatment of hyperacusis and tinnitus.",
-    "binaural_start": "pink_binaural_process(0.3);"
+    "binaural_name": "0.15 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Binaural Beats for relief from depression [Phase 2]. This is for major depression [Phase 2]. Range Binaurals are comming soon which will be more effective.",
+    "binaural_start": "play_binaural(963, 963.15);"
    },
    {
     "binaural_name": "Brown Noise",
