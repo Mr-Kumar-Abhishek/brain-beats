@@ -28,5 +28,10 @@
     "binaural_name": "0.28 hz Binaural Beats over Solfeggio 174 hz",
     "binaural_description": "Relief from Arthritis [Phase 1].",
     "binaural_start": "play_binaural(174, 174.28);"
+   },
+   {
+    "binaural_name": "0.28 hz Binaural Beats over Solfeggio 285 hz",
+    "binaural_description": "Relief from Arthritis [Phase 2].",
+    "binaural_start": "play_binaural(285, 285.28);"
    }
 ]
