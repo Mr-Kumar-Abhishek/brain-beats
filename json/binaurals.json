@@ -58,5 +58,10 @@
     "binaural_name": "0.5 hz Binaural Beats over Solfeggio 852 hz",
     "binaural_description": "Very relaxing against headaches [Phase 2]. Whole brain toner [Phase 2].",
     "binaural_start": "play_binaural(852, 852.5);"
+   },
+   {
+    "binaural_name": "0.5 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Very relaxing against headaches [Phase 3]. Whole brain toner [Phase 3].",
+    "binaural_start": "play_binaural(963, 963.5);"
    }
 ]
