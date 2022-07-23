@@ -10,8 +10,8 @@
     "binaural_start": "play_binaural(963, 963.15);"
    },
    {
-    "binaural_name": "Brown Noise",
-    "binaural_description": "Brown noise, or brownian noise refers to a power density which increases 6 dB per octave with increasing frequency. Benefits associated while listening to it are relaxation, improved focus, and of course, sleep improvement.",
-    "binaural_start": "brown_binaural_process(0.3);"
+    "binaural_name": "0.20 hz Binaural Beats over Solfeggio 396 hz",
+    "binaural_description": "Binaural Beats for relief from post-traumatics[Phase 1].",
+    "binaural_start": "play_binaural(396, 396.20);"
    }
 ]
