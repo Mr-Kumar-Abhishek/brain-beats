@@ -43,5 +43,10 @@
     "binaural_name": "0.5 hz Binaural Beats over Solfeggio 396 hz",
     "binaural_description": "To be used for relief from lower back pain [Phase 2]. Reproductive [Phase 2] and excretory stimulant [Phase 2].",
     "binaural_start": "play_binaural(396, 396.5);"
+   },
+   {
+    "binaural_name": "0.5 hz Binaural Beats over Solfeggio 417 hz",
+    "binaural_description": "Reproductive stimulant [Phase 2].To be used for relief from lower back pain [Phase 3].",
+    "binaural_start": "play_binaural(417, 417.5);"
    }
 ]
