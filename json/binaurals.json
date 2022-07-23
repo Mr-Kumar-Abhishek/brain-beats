@@ -23,5 +23,10 @@
     "binaural_name": "0.26 hz Binaural Beats over Solfeggio 741 hz",
     "binaural_description": "Binaural beats for relief in dental pain and gum inflamation (go see a dentist if you are using this). [Phase 2] Switch to monaural if this doesn't work.",
     "binaural_start": "play_binaural(741, 741.26);"
+   },
+   {
+    "binaural_name": "0.28 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "Relief from Arthritis [Phase 1].",
+    "binaural_start": "play_binaural(174, 174.28);"
    }
 ]
