@@ -73,5 +73,10 @@
     "binaural_name": "1 hz Binaural Beats over Solfeggio 174 hz",
     "binaural_description": "Binaural beats for pituitary stimulation [Phase 1] to release growth hormone for healing",
     "binaural_start": "play_binaural(174, 175);"
+   },
+   {
+    "binaural_name": "1 hz Binaural Beats over Solfeggio 285 hz",
+    "binaural_description": "Binaural beats for pituitary stimulation [Phase 3] to release growth hormone for regeneration and growth.",
+    "binaural_start": "play_binaural(285, 286);"
    }
 ]
