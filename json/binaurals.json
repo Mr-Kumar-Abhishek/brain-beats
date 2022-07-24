@@ -188,5 +188,10 @@
     "binaural_name": "4 hz Binaural Beats over Solfeggio 639 hz",
     "binaural_description": "Binaural beats for seduction [Phase 2] of heart. <strong> It should not be used in public places if you value your security from strangers. </strong>",
     "binaural_start": "play_binaural(639, 643);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 741 hz",
+    "binaural_description": "Binaural beats for telepathy [Phase 1]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly. Enkephalins, Extrasensory perception [Phase 1]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2].",
+    "binaural_start": "play_binaural(741, 745);"
    }
 ]
