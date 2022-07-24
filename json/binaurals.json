@@ -217,6 +217,11 @@
    {
     "binaural_name": "5 hz Binaural Beats over Solfeggio 174 hz",
     "binaural_description": "pain-relief [Phase 1] (beta endorphin increases upto 10-50% as per report). If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced.(not good).",
-    "binaural_start": "play_binaural(174, 179)"
+    "binaural_start": "play_binaural(174, 179);"
+   },
+   {
+    "binaural_name": "5 hz Binaural Beats over Solfeggio 285 hz",
+    "binaural_description": "pain-relief [Phase 2] (beta endorphin increases upto 10-50% as per report). Unusual problem solving [Phase 3] (reduced sleep needed). Theta sounds replacing need for extensive dreaming [Phase 3], relaxed states [Phase 3]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
+    "binaural_start": "play_binaural(285, 290);"
    }
 ]
