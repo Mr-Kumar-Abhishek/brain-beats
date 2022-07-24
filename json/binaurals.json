@@ -208,5 +208,15 @@
     "binaural_name": "4 hz Binaural Beats over Solfeggio 963 hz",
     "binaural_description": "Binaural beats for telepathy [Phase 3]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
     "binaural_start": "play_binaural(963, 967);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Binaural beats for telepathy [Phase 3]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
+    "binaural_start": "play_binaural(963, 967);"
+   },
+   {
+    "binaural_name": "5 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "pain-relief [Phase 1] (beta endorphin increases upto 10-50% as per report). If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced.(not good).",
+    "binaural_start": "play_binaural(174, 179)"
    }
 ]
