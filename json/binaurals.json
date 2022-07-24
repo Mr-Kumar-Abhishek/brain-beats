@@ -133,5 +133,10 @@
     "binaural_name": "3.5 hz Binaural Beats over Solfeggio 396 hz",
     "binaural_description": "Binaural beats for relief from anxiety [Phase 1, 2nd flavor] via root chakra or muladhara. The lower earth resonance [Phase 3 ] or hell resonance [Phase 3].",
     "binaural_start": "play_binaural(396, 399.5);"
+   },
+   {
+    "binaural_name": "3.5 hz Binaural Beats over Solfeggio 528 hz",
+    "binaural_description": "Binaural beats for DNA stimulation [Phase 3].",
+    "binaural_start": "play_binaural(528, 531.5);"
    }
 ]
