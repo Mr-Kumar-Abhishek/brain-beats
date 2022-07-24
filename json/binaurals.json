@@ -263,5 +263,10 @@
     "binaural_name": "5.8 hz Binaural Beats over Solfeggio 963 hz",
     "binaural_description": "Binaural beats for reduction in Absent-mindedness [Phase 2].",
     "binaural_start": "play_binaural(963, 968.3);"
+   },
+   {
+    "binaural_name": "6 hz Binaural Beats over 417 hz solfeggio",
+    "binaural_description": "Binaural beats for reduction in unwillingness to do work due to past memories. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
+    "binaural_start": "play_binaural(417, 423);"
    }
 ]
