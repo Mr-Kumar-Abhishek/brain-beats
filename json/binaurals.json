@@ -153,5 +153,10 @@
     "binaural_name": "3.5 hz Binaural Beats over Solfeggio 963 hz",
     "binaural_description": "Binaural beats for feeling with unity everything [Phase 2], accelerated language retention [Phase 3], enhancement of receptivity relief from depression [Phase 2].",
     "binaural_start": "play_binaural(963, 966.5);"
+   },
+   {
+    "binaural_name": "3.6 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "Binaural beats for remedy for irritability in body.",
+    "binaural_start": "play_binaural(174, 177.6);"
    }
 ]
