@@ -178,5 +178,10 @@
     "binaural_name": "4 hz Binaural Beats over Solfeggio 396 hz",
     "binaural_description": "Binaural beats for seduction [Phase 3] of whole being. <strong> It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people. </strong>",
     "binaural_start": "play_binaural(396, 400);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 417 hz",
+    "binaural_description": "Binaural beats for seduction [Phase 1] of sacral intuition. <strong> It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people.</strong>",
+    "binaural_start": "play_binaural(417, 421);"
    }
 ]
