@@ -113,5 +113,10 @@
     "binaural_name": "2.4 hz Binaural Beats over Solfeggio 285 hz",
     "binaural_description": "Binaural beats for deep sleep [Phase 1]. Heal tissues while sleeping.",
     "binaural_start": "play_binaural(285, 287.4);"
+   },
+   {
+    "binaural_name": "2.4 hz Binaural Beats over Solfeggio 528 hz",
+    "binaural_description": "Binaural beats for deep sleep [Phase 2].",
+    "binaural_start": "play_binaural(528, 530.4);"
    }
 ]
