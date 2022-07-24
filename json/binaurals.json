@@ -173,5 +173,10 @@
     "binaural_name": "4 hz Binaural Beats over Solfeggio 285 hz",
     "binaural_description": "Binaural beats for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed [Phase 2]. Telepathy [Phase 4]. Seduction [Phase 4]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 4]. Power Nap [Phase 1].",
     "binaural_start": "play_binaural(285, 289);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 396 hz",
+    "binaural_description": "Binaural beats for seduction [Phase 3] of whole being. <strong> It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people. </strong>",
+    "binaural_start": "play_binaural(396, 400);"
    }
 ]
