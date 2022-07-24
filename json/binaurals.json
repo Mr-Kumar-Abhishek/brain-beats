@@ -233,5 +233,10 @@
     "binaural_name": "5 hz Binaural Beats over Solfeggio 963 hz",
     "binaural_description": "Unusual problem solving [Phase 2] (reduced sleep needed), theta sounds replacing need for extensive dreaming [Phase 2], relaxed states [Phase 2]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
     "binaural_start": "play_binaural(963, 968);"
+   },
+   {
+    "binaural_name": "5.8 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "Binaural beats for reduction in Fear [phase 1]",
+    "binaural_start": "play_binaural(174, 179.8);"
    }
 ]
