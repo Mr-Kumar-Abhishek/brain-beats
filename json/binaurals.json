@@ -118,5 +118,10 @@
     "binaural_name": "2.4 hz Binaural Beats over Solfeggio 528 hz",
     "binaural_description": "Binaural beats for deep sleep [Phase 2].",
     "binaural_start": "play_binaural(528, 530.4);"
+   },
+   {
+    "binaural_name": "3.5 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "whole being regeneration [Phase 1]. Lower Earth Resonance [Phase 1] or hell resonance [Phase 1]. DNA stimulation [Phase 1].",
+    "binaural_start": "play_binaural(174, 177.5);"
    }
 ]
