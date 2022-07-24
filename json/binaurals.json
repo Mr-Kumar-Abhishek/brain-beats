@@ -138,5 +138,10 @@
     "binaural_name": "3.5 hz Binaural Beats over Solfeggio 528 hz",
     "binaural_description": "Binaural beats for DNA stimulation [Phase 3].",
     "binaural_start": "play_binaural(528, 531.5);"
+   },
+   {
+    "binaural_name": "3.5 hz Binaural Beats over Solfeggio 741 hz",
+    "binaural_description": "Binaural beats for relief from anxiety [Phase 2, 2nd flavor] via throat chakra (visuddha). Accelerated language retention [Phase 1]",
+    "binaural_start": "play_binaural(741, 744.5);"
    }
 ]
