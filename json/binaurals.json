@@ -243,5 +243,10 @@
     "binaural_name": "5.8 hz Binaural Beats over Solfeggio 396 hz",
     "binaural_description": "Binaural beats for reduction in Fear [Phase 2].",
     "binaural_start": "play_binaural(396, 401.8);"
+   },
+   {
+    "binaural_name": "5.8 hz Binaural Beats over Solfeggio 528 hz",
+    "binaural_description": "Binaural beats for reduction in Fear[Phase 3].",
+    "binaural_start": "play_binaural(528, 533.8);"
    }
 ]
