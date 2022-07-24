@@ -103,5 +103,10 @@
     "binaural_name": "1.2 hz Binaural Beats over Solfeggio 852 hz",
     "binaural_description": "Binaural beats for relief from minor headaches [Phase 2]. Switch Phase 3 after sometime.",
     "binaural_start": "play_binaural(852, 853.2);"
+   },
+   {
+    "binaural_name": "1.2 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Binaural beats for relief from minor headaches [Phase 3].",
+    "binaural_start": "play_binaural(963, 964.2);"
    }
 ]
