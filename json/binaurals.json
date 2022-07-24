@@ -258,5 +258,10 @@
     "binaural_name": "5.8 hz Binaural Beats over Solfeggio 852 hz",
     "binaural_description": "Binaural beats for reduction in Dizziness [Phase 2]. Reduction in Absent-mindedness [Phase 1].",
     "binaural_start": "play_binaural(852, 857.8);"
+   },
+   {
+    "binaural_name": "5.8 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Binaural beats for reduction in Absent-mindedness [Phase 2].",
+    "binaural_start": "play_binaural(963, 968.3);"
    }
 ]
