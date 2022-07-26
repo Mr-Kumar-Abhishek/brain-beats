@@ -268,5 +268,10 @@
     "binaural_name": "6 hz Binaural Beats over 417 hz solfeggio",
     "binaural_description": "Binaural beats for reduction in unwillingness to do work due to past memories. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
     "binaural_start": "play_binaural(417, 423);"
+   },
+   {
+    "binaural_name": "6 hz Binaural Beats over 639 hz solfeggio",
+    "binaural_description": "Binarual beats for getting out of hypnosis and bringing clarity [Phase 2]. Must be used during sleep otherwise it may bring  in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
+    "binaural_start": "play_binaural(639, 645);"
    }
 ]
