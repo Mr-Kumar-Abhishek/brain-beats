@@ -393,5 +393,10 @@
       "binaural_name": "8.5 hz Binaural Beats over 963 hz solfeggio",
       "binaural_description": "Binaural beats for reduction in general mental stress",
       "binaural_start": "play_binaural(963, 971.5);"
+   },
+   {
+      "binaural_name": "9 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Opening of Sacral Chakra or Svadhisthana chakra [ Phase 1 ]. Enhanced body parts are Gonads [Phase 1]  and Reproductive System [ Phase 1 ]. Positive Effects on relationships [Phase 1] and Sexuality [ Phase 1 ]. Awareness of causes of body imbalance and means for balance [ Phase 1 ].  Blind person phantom touch reading (somatosensory cortex) [Phase 1].",
+      "binaural_start": "play_binaural(174, 183);"
    }
 ]
