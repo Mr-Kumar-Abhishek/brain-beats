@@ -348,5 +348,10 @@
       "binaural_name": "8.3 hz Binaural Beats over 852 hz solfeggio",
       "binaural_description": "Pick up visual images of mental objects. Clairvoyance. Monroe Focus 12.",
       "binaural_start": "play_binaural(852, 860.3);"
+   },
+   {
+      "binaural_name": "8.4 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Binaural beats for reduction in anxiety caused due to survival issues. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the binaural beat generator.",
+      "binaural_start": "play_binaural(174, 182.4);"
    }
 ]
