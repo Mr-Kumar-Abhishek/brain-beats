@@ -293,5 +293,10 @@
       "binaural_name": "6 hz Binaural Beats over 963 hz solfeggio",
       "binaural_description": "Binaural beats for active learning and retention. Must be balanced Phase 1  of increased clarity binaural beats (6 hz) if things seem unclear and decisions and theories are made with wrong assumption. Must be used during sleep otherwise it will bring in depression and confusion.",
       "binaural_start": "play_binaural(963, 969);"
+   },
+   {
+      "binaural_name": "7 hz Binaural Beats over 285 hz solfeggio",
+      "binaural_description": "Enhanced bone growth. <strong> Can also resonate and rupture organs at excessive intensity. </strong> Used as a treatment of sleep disturbances [Phase 1].",
+      "binaural_start": "play_binaural(285, 292);"
    }
 ]
