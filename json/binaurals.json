@@ -333,5 +333,10 @@
       "binaural_name": "7.83 hz Binaural Beats over 741 hz solfeggio",
       "binaural_description": "Binaural Beats for Anti-Jet Lag [Phase 4]",
       "binaural_start": "play_binaural(741, 748.83);"
+   },
+   {
+      "binaural_name": "7.83 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Binaural Beats for  Anti-Jet Lag [Phase 5]. Pituitary Stimulation to release growth horomone [Phase 3]. Anti-mind (perception) control [Phase 1]",
+      "binaural_start": "play_binaural(852, 859.83);"
    }
 ]
