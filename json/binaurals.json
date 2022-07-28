@@ -375,8 +375,8 @@
       "binaural_start": "play_binaural(963, 971.4);"
    },
    {
-      "binaural_name": "8.4 hz Binaural Beats over 963 hz solfeggio",
-      "binaural_description": "Binaural beats for reduction in anxiety [Phase 3, falvor 1] caused by critical problems. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the binaural beat generator.",
-      "binaural_start": "play_binaural(741, 749.4);"
+      "binaural_name": "8.5 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Binuaral beats for better physical stress tolerance.",
+      "binaural_start": "play_binaural(174, 182.5);"
    }
 ]
