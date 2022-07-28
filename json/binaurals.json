@@ -303,5 +303,10 @@
       "binaural_name": "7 hz Binaural Beats over 852 hz solfeggio",
       "binaural_description": "Mental vision and astral projection vision [Phase 3], bending of objects [Phase 1], psychic vision for psychic surgery [Phase 1], Increased Reaction Time [Phase 1], Mass aggregate frequency [Phase 1]. It can deaggregate matter [Phase 1]. <strong> Can also resonate and rupture organs at excessive intensity. </strong> Used as a treatment of sleep disturbances[Phase 2].",
       "binaural_start": "play_binaural(852, 859);"
+   },
+   {
+      "binaural_name": "7 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Mental and astral projection [Phase 4], bending of objects [Phase 2], psychic surgery [Phase 2], Increased Reaction Time [Phase 2], Mass aggregate frequency [Phase 2]. It can deaggregate matter [Phase 2]. <strong> Can also resonate and rupture organs at excessive intensity. </strong> Used as a treatment of sleep disturbances [Phase 3].",
+      "binaural_start": "play_binaural(963, 970);"
    }
 ]
