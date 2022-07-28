@@ -323,5 +323,10 @@
       "binaural_name": "7.83 hz Binaural Beats over 396 hz solfeggio",
       "binaural_description": "Binaural Beats for Earth resonance [Phase 3], grounding [Phase 3] (Lower earth chakra [Phase 3] ), Primary Schumann Resonance [Phase 3], Anti-Jet Lag [Phase 3].",
       "binaural_start": "play_binaural(396, 403.83);"
+   },
+   {
+      "binaural_name": "7.83 hz Binaural Beats over 639 hz solfeggio",
+      "binaural_description": "Binaural Beats for anti-mind (feelings) control [Phase 2].",
+      "binaural_start": "play_binaural(639, 646.83);"
    }
 ]
