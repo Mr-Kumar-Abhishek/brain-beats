@@ -353,5 +353,10 @@
       "binaural_name": "8.4 hz Binaural Beats over 174 hz solfeggio",
       "binaural_description": "Binaural beats for reduction in anxiety caused due to survival issues. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the binaural beat generator.",
       "binaural_start": "play_binaural(174, 182.4);"
+   },
+   {
+      "binaural_name": "8.4 hz Binaural Beats over 396 hz solfeggio",
+      "binaural_description": "Binaural beats for reduction in general anxiety [Phase 1, flavor 1]. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the binaural beat generator.",
+      "binaural_start": "play_binaural(396, 404.4);"
    }
 ]
