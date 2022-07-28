@@ -363,5 +363,10 @@
       "binaural_name": "8.4 hz Binaural Beats over 639 hz solfeggio",
       "binaural_description": "Binarual beats for reduction in social anxiety. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the binaural beat generator",
       "binaural_start": "play_binaural(639, 647.4);"
+   },
+   {
+      "binaural_name": "8.4 hz Binaural Beats over 741 hz solfeggio",
+      "binaural_description": "Binaural beats for reduction in general anxiety [Phase 2 , flavor 1]. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the binaural beat generator.",
+      "binaural_start": "play_binaural(741, 749.4);"
    }
 ]
