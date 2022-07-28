@@ -378,5 +378,10 @@
       "binaural_name": "8.5 hz Binaural Beats over 174 hz solfeggio",
       "binaural_description": "Binuaral beats for better physical stress tolerance.",
       "binaural_start": "play_binaural(174, 182.5);"
+   },
+   {
+      "binaural_name": "8.5 hz Binaural Beats over 285 hz solfeggio",
+      "binaural_description": "Binaural beats for reduction in physical stress",
+      "binaural_start": "play_binaural(285, 293.5);"
    }
 ]
