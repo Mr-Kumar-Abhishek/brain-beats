@@ -343,5 +343,10 @@
       "binaural_name": "7.83 hz Binaural Beats over 963 hz solfeggio",
       "binaural_description": "Binaural Beats for anti-mind (thoughts) control [Phase 3].",
       "binaural_start": "play_binaural(963, 970.83);"
+   },
+   {
+      "binaural_name": "8.3 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Pick up visual images of mental objects. Clairvoyance. Monroe Focus 12.",
+      "binaural_start": "play_binaural(852, 860.3);"
    }
 ]
