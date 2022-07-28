@@ -308,5 +308,10 @@
       "binaural_name": "7 hz Binaural Beats over 963 hz solfeggio",
       "binaural_description": "Mental and astral projection [Phase 4], bending of objects [Phase 2], psychic surgery [Phase 2], Increased Reaction Time [Phase 2], Mass aggregate frequency [Phase 2]. It can deaggregate matter [Phase 2]. <strong> Can also resonate and rupture organs at excessive intensity. </strong> Used as a treatment of sleep disturbances [Phase 3].",
       "binaural_start": "play_binaural(963, 970);"
+   },
+   {
+      "binaural_name": "7.83 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Binaural Beats for Earth resonance [Phase 1], grounding [Phase 1] (Lower earth chakra), Primary Schumann Resonance [Phase 1], Anti-Jet Lag [Phase 1]. Improved Stress Tolarance [Phase 1]. Pituitary Stimulation to release growth horomone [Phase 1]. The earth's natural brainwave [Phase 1].",
+      "binaural_start": "play_binaural(174, 181.83);"
    }
 ]
