@@ -403,5 +403,10 @@
       "binaural_name": "9 hz Binaural Beats over 417 hz solfeggio",
       "binaural_description": "Opening of Sacral Chakra or Svadhisthana chakra [ Phase 2 ]. Enhanced body parts are Gonads [Phase 2] and Reproductive System [ Phase 2 ]. Positive Effects on relationships [Phase 2] and Sexuality [ Phase 2 ]. Awareness of causes of body imbalance and means for balance [ Phase 2 ].  Blind person phantom touch reading (somatosensory cortex) [Phase 2].",
       "binaural_start": "play_binaural(417, 426);"
+   },
+   {
+      "binaural_name": "10 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Binaural beats associated with solar plexus chakra (manipura) [Phase 1]. Spiritual Wisdom [Phase 1], Self-Healing [ Phase 1 ]. Enhanced Body parts Pancreas [Phase 1], Stomach [Phase 1], Liver [Phase 1], Gall Bladder [Phase 1], Nervous System [Phase 1]. Enhanced release of serotonin [Phase 1]. Mood elevator [Phase 1]. Acts as ananalgesic [Phase 1]. Used during nicotine withrawal [Phase 1]. Clarity [Phase 1], Normacy [Phase 1], Anti-Convlelsant [Phase 1], Circadian Rhythm Resync [Phase 1]. Motor impulse co-ordination [ Phase 1 ] (Motor Control Cortex).  Learning a foreign language [Phase 1 ], Sleep Spindles [Phase 1], Centering [ Phase 1 ]. Increased Alertness [ Phase 1 ]. Increased in norepinephrine [ Phase 1 ]. Decreased Melatonin [Phase 1]. Sense of well being [Phase 1]. Decreased Pain [Phase 1]. Increased beta-endorphines [Phase 1]. Adrenal Stimulant [Phase 1]. Treatment of Attention Deficit Disorder [ Phase 1 ] and hyperactivity [ Phase 1 ]. Treatment for closed head injury [ Phase 1 ]. Berger Rhythm. Used on Headaches [Phase 1]. Ligament Healing [ Phase 1] ",
+      "binaural_start": "play_binaural(174, 184);"
    }
 ]
