@@ -388,5 +388,10 @@
       "binaural_name": "8.5 hz Binaural Beats over 639 hz solfeggio",
       "binaural_description": "Binuaral beats for reduction in stress caused due social situations.",
       "binaural_start": "play_binaural(639, 647.5);"
+   },
+   {
+      "binaural_name": "8.5 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Binaural beats for reduction in general mental stress",
+      "binaural_start": "play_binaural(963, 971.5);"
    }
 ]
