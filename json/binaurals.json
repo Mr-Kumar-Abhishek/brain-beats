@@ -408,5 +408,10 @@
       "binaural_name": "10 hz Binaural Beats over 174 hz solfeggio",
       "binaural_description": "Binaural beats associated with solar plexus chakra (manipura) [Phase 1]. Spiritual Wisdom [Phase 1], Self-Healing [ Phase 1 ]. Enhanced Body parts Pancreas [Phase 1], Stomach [Phase 1], Liver [Phase 1], Gall Bladder [Phase 1], Nervous System [Phase 1]. Enhanced release of serotonin [Phase 1]. Mood elevator [Phase 1]. Acts as ananalgesic [Phase 1]. Used during nicotine withrawal [Phase 1]. Clarity [Phase 1], Normacy [Phase 1], Anti-Convlelsant [Phase 1], Circadian Rhythm Resync [Phase 1]. Motor impulse co-ordination [ Phase 1 ] (Motor Control Cortex).  Learning a foreign language [Phase 1 ], Sleep Spindles [Phase 1], Centering [ Phase 1 ]. Increased Alertness [ Phase 1 ]. Increased in norepinephrine [ Phase 1 ]. Decreased Melatonin [Phase 1]. Sense of well being [Phase 1]. Decreased Pain [Phase 1]. Increased beta-endorphines [Phase 1]. Adrenal Stimulant [Phase 1]. Treatment of Attention Deficit Disorder [ Phase 1 ] and hyperactivity [ Phase 1 ]. Treatment for closed head injury [ Phase 1 ]. Berger Rhythm. Used on Headaches [Phase 1]. Ligament Healing [ Phase 1] ",
       "binaural_start": "play_binaural(174, 184);"
+   },
+   {
+      "binaural_name": "10 hz Binaural Beats over 285 hz solfeggio",
+      "binaural_description": " Self-Healing [ Phase 2]. Enhanced Body parts Pancreas [Phase 3], Stomach [Phase 3], Liver [Phase 3], Gall Bladder [Phase 3], Nervous System [Phase 2]. Enhanced release of serotonin [Phase 4]. Mood elevator [Phase 4]. Acts as ananalgesic [Phase 2]. Used during nicotine withrawal [Phase 5]. Anti-Convlelsant [Phase 5], Circadian Rhythm Resync [Phase 4]. Motor impulse co-ordination [ Phase 2 ] (Motor Control Cortex). Increased in norepinephrine [ Phase 5 ]. Decreased Melatonin [Phase 4]. Decreased Pain [Phase 2]. Increased beta-endorphines [Phase 4]. Adrenal Stimulant [Phase 3].  Treatment for closed head injury [ Phase 4 ]. Berger Rhythm. Used on Headaches [Phase 4]. Ligament Healing [ Phase 2].",
+      "binaural_start": "play_binaural(285, 295);"
    }
 ]
