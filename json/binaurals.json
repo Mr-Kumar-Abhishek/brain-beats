@@ -411,7 +411,12 @@
    },
    {
       "binaural_name": "10 hz Binaural Beats over 285 hz solfeggio",
-      "binaural_description": " Self-Healing [ Phase 2]. Enhanced Body parts Pancreas [Phase 3], Stomach [Phase 3], Liver [Phase 3], Gall Bladder [Phase 3], Nervous System [Phase 2]. Enhanced release of serotonin [Phase 4]. Mood elevator [Phase 4]. Acts as ananalgesic [Phase 2]. Used during nicotine withrawal [Phase 5]. Anti-Convlelsant [Phase 5], Circadian Rhythm Resync [Phase 4]. Motor impulse co-ordination [ Phase 2 ] (Motor Control Cortex). Increased in norepinephrine [ Phase 5 ]. Decreased Melatonin [Phase 4]. Decreased Pain [Phase 2]. Increased beta-endorphines [Phase 4]. Adrenal Stimulant [Phase 3].  Treatment for closed head injury [ Phase 4 ]. Berger Rhythm. Used on Headaches [Phase 4]. Ligament Healing [ Phase 2].",
+      "binaural_description": "Self-Healing [ Phase 2]. Enhanced Body parts Pancreas [Phase 3], Stomach [Phase 3], Liver [Phase 3], Gall Bladder [Phase 3], Nervous System [Phase 2]. Enhanced release of serotonin [Phase 4]. Mood elevator [Phase 4]. Acts as ananalgesic [Phase 2]. Used during nicotine withrawal [Phase 5]. Anti-Convlelsant [Phase 5], Circadian Rhythm Resync [Phase 4]. Motor impulse co-ordination [ Phase 2 ] (Motor Control Cortex). Increased in norepinephrine [ Phase 5 ]. Decreased Melatonin [Phase 4]. Decreased Pain [Phase 2]. Increased beta-endorphines [Phase 4]. Adrenal Stimulant [Phase 3].  Treatment for closed head injury [ Phase 4 ]. Berger Rhythm. Used on Headaches [Phase 4]. Ligament Healing [ Phase 2].",
       "binaural_start": "play_binaural(285, 295);"
+   },
+   {
+      "binaural_name": "10 hz Binaural Beats over 528 hz solfeggio",
+      "binaural_description": " Binaural beats associated with solar plexus chakra (manipura) [Phase 2]. Spiritual Wisdom [Phase 2], Self-Healing [ Phase 2 ]. Enhanced Body parts Pancreas [Phase 2], Stomach [Phase 2], Liver [Phase 2], Gall Bladder [Phase 2]. Clarity [Phase 2], Normacy [Phase 2]. Sense of well being [Phase 2]. Adrenal Stimulant [Phase 2].",
+      "binaural_start": "play_binaural(528, 538);"
    }
 ]
