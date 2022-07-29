@@ -533,5 +533,10 @@
       "binaural_name": "20 hz Binaural Beats over 285 hz solfeggio",
       "binaural_description": "Binaural beats for removing fatigue as it energizes. <strong> It should not to be used during labour as it causes distress. </strong> Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). Commonly used 'cure-all' Rife Frequency [Phase 3].",
       "binaural_start": "play_binaural(285, 305);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 417 hz solfeggio",
+      "binaural_description": "Binaural Beats for imposing sub-conscious commands to another's sacral intuition (The thought center of sacral intuition). <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_start": "play_binaural(417, 427);"
    }
 ]
