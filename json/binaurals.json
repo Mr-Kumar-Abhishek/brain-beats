@@ -576,7 +576,12 @@
    },
    {
       "binaural_name": "83 hz Binaural Beats over 174 hz solfeggio",
-      "binaural_description": " Opens third eye for some people. Associated with Ajna Chakra [Phase 1, 1st flavor].",
+      "binaural_description": "Opens third eye for some people. Associated with Ajna Chakra [Phase 1, 1st flavor].",
       "binaural_start": "play_binaural(174, 257);"
+   },
+   {
+      "binaural_name": "83 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Opens third eye for some people. Associated with Ajna Chakra [Phase 2, 1st flavor]",
+      "binaural_start": "play_binaural(852, 935);"
    }
 ]
