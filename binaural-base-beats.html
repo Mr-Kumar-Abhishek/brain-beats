@@ -233,6 +233,38 @@
     <script src="./js/bootstrap-input-spinner.js"></script>
     <script src="./js/main.js"></script>
     <script>
+      const dataUserBinaurals = document.querySelector(".data-user-binaurals");
+      const dataBinauralContainer = document.querySelector(".binauralContainer");
+      const searchInput = document.querySelector(".searching");
+
+      let bPresets = [];
+
+      searchInput.addEventListener("input", (e)=> {
+        const value  = e.target.value.toLowerCase();
+        bPresets.forEach(bPreset => {
+          const isVisible = bPreset.bTitle.toLowerCase().includes(value) || bPreset.bDesc.toLowerCase().includes(value);
+          bPreset.element.classList.toggle("d-none", !isVisible)
+        });
+      });
+
+    fetch("./json/binaurals.json")
+      .then(res => res.json())
+      .then(data => {
+       bPresets = data.map(binauralPreset => {
+        const binauralNode = dataUserBinaurals.content.cloneNode(true).children[0];
+        const binauralTitle = binauralNode.querySelector(".card-title");
+        const binauralDescription = binauralNode.querySelector(".card-text");
+        const binauralPlay = binauralNode.querySelector(".play");
+        binauralTitle.textContent = binauralPreset.binaural_name;
+        binauralDescription.textContent = binauralPreset.binaural_description;
+        binauralPlay.setAttribute("onclick", binauralPreset.binaural_start);
+        dataBinauralContainer.append(binauralNode);
+        console.log(binauralNode);
+        return {bTitle: binauralPreset.binaural_name, bDesc: binauralPreset.binaural_description, element: binauralNode};
+        });
+      });
+    </script>
+    <script>
       $(warning(1));
     </script>
   </body>
