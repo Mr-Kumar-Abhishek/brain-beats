@@ -463,5 +463,10 @@
       "binaural_name": "12.3 hz Binaural Beats over 787 hz Rife",
       "binaural_description": "Associated with eyes. It gives better visualization [Phase 3].",
       "binaural_start": "play_binaural(787, 799.3);"
+   },
+   {
+      "binaural_name": "12.3 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Associated with eyes. It gives better visualization [Phase 2].",
+      "binaural_start": "play_binaural(852, 864.3);"
    }
 ]
