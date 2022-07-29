@@ -1,0 +1,587 @@
+[ 
+   {
+    "binaural_name": "0.15 hz Binaural Beats over Solfeggio 417 hz",
+    "binaural_description": "Binaural Beats for relief from depression [Phase 1] due to past events. This is for mild depression[Phase 1]. Range Binaurals for it are comming soon which will be more effective.",
+    "binaural_start": "play_binaural(417, 417.15);"
+   },
+   {
+    "binaural_name": "0.15 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Binaural Beats for relief from depression [Phase 2]. This is for major depression [Phase 2]. Range Binaurals are comming soon which will be more effective.",
+    "binaural_start": "play_binaural(963, 963.15);"
+   },
+   {
+    "binaural_name": "0.20 hz Binaural Beats over Solfeggio 396 hz",
+    "binaural_description": "Binaural Beats for relief from post-traumatics[Phase 1].",
+    "binaural_start": "play_binaural(396, 396.20);"
+   },
+   {
+    "binaural_name": "0.26 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": " Binaural beats for relief in dental pain and gum inflamation (go see a dentist if you are using this).  [Phase 1] Switch to monaural if this doesn't work.",
+    "binaural_start": "play_binaural(174, 174.26);"
+   },
+   {
+    "binaural_name": "0.26 hz Binaural Beats over Solfeggio 741 hz",
+    "binaural_description": "Binaural beats for relief in dental pain and gum inflamation (go see a dentist if you are using this). [Phase 2] Switch to monaural if this doesn't work.",
+    "binaural_start": "play_binaural(741, 741.26);"
+   },
+   {
+    "binaural_name": "0.28 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "Relief from Arthritis [Phase 1].",
+    "binaural_start": "play_binaural(174, 174.28);"
+   },
+   {
+    "binaural_name": "0.28 hz Binaural Beats over Solfeggio 285 hz",
+    "binaural_description": "Relief from Arthritis [Phase 2].",
+    "binaural_start": "play_binaural(285, 285.28);"
+   },
+   {
+    "binaural_name": "0.5 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "Very relaxing against headaches [Phase 1]. To be used for relief from lower back pain [Phase 1]. Thyroid[Phase 1], reproductive [Phase 1] and excretory stimulant [Phase 1]. Whole brain toner[Phase 1].",
+    "binaural_start": "play_binaural(174, 174.5);"
+   },
+   {
+    "binaural_name": "0.5 hz Binaural Beats over Solfeggio 396 hz",
+    "binaural_description": "To be used for relief from lower back pain [Phase 2]. Reproductive [Phase 2] and excretory stimulant [Phase 2].",
+    "binaural_start": "play_binaural(396, 396.5);"
+   },
+   {
+    "binaural_name": "0.5 hz Binaural Beats over Solfeggio 417 hz",
+    "binaural_description": "Reproductive stimulant [Phase 2].To be used for relief from lower back pain [Phase 3].",
+    "binaural_start": "play_binaural(417, 417.5);"
+   },
+   {
+    "binaural_name": "0.5 hz Binaural Beats over Solfeggio 741 hz",
+    "binaural_description": "Thyroid stimulant [Phase 2]",
+    "binaural_start": "play_binaural(741, 741.5);"
+   },
+   {
+    "binaural_name": "0.5 hz Binaural Beats over Solfeggio 852 hz",
+    "binaural_description": "Very relaxing against headaches [Phase 2]. Whole brain toner [Phase 2].",
+    "binaural_start": "play_binaural(852, 852.5);"
+   },
+   {
+    "binaural_name": "0.5 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Very relaxing against headaches [Phase 3]. Whole brain toner [Phase 3].",
+    "binaural_start": "play_binaural(963, 963.5);"
+   },
+   {
+    "binaural_name": "0.9 hz Binaural Beats over Solfeggio 639 hz",
+    "binaural_description": "Binaural beats for Euphoria induction between friends family and partners.",
+    "binaural_start": "play_binaural(639, 639.9);"
+   },
+   {
+    "binaural_name": "1 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "Binaural beats for pituitary stimulation [Phase 1] to release growth hormone for healing",
+    "binaural_start": "play_binaural(174, 175);"
+   },
+   {
+    "binaural_name": "1 hz Binaural Beats over Solfeggio 285 hz",
+    "binaural_description": "Binaural beats for pituitary stimulation [Phase 3] to release growth hormone for regeneration and growth.",
+    "binaural_start": "play_binaural(285, 286);"
+   },
+   {
+    "binaural_name": "1 hz Binaural Beats over Solfeggio 639 hz",
+    "binaural_description": "Binaural beats for over-all view of inter-relationships and its reconnection.",
+    "binaural_start": "play_binaural(639, 640);"
+   },
+   {
+    "binaural_name": "1 hz Binaural Beats over Solfeggio 741 hz",
+    "binaural_description": "Binaural beats for balance and harmony.",
+    "binaural_start": "play_binaural(741, 742);"
+   },
+   {
+    "binaural_name": "1 hz Binaural Beats over Solfeggio 852 hz",
+    "binaural_description": "Binaural beats for pituitary stimulation [Phase 2] to release growth hormone.",
+    "binaural_start": "play_binaural(852, 856);"
+   },
+   {
+    "binaural_name": "1.2 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "Binaural beats for relief from minor headaches [Phase 1]. Switch to 2nd Phase after sometime.",
+    "binaural_start": "play_binaural(174, 175.2);"
+   },
+   {
+    "binaural_name": "1.2 hz Binaural Beats over Solfeggio 852 hz",
+    "binaural_description": "Binaural beats for relief from minor headaches [Phase 2]. Switch Phase 3 after sometime.",
+    "binaural_start": "play_binaural(852, 853.2);"
+   },
+   {
+    "binaural_name": "1.2 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Binaural beats for relief from minor headaches [Phase 3].",
+    "binaural_start": "play_binaural(963, 964.2);"
+   },
+   {
+    "binaural_name": "2.4 hz Binaural Beats over Solfeggio 285 hz",
+    "binaural_description": "Binaural beats for deep sleep [Phase 1]. Heal tissues while sleeping.",
+    "binaural_start": "play_binaural(285, 287.4);"
+   },
+   {
+    "binaural_name": "2.4 hz Binaural Beats over Solfeggio 528 hz",
+    "binaural_description": "Binaural beats for deep sleep [Phase 2].",
+    "binaural_start": "play_binaural(528, 530.4);"
+   },
+   {
+    "binaural_name": "3.5 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "whole being regeneration [Phase 1]. Lower Earth Resonance [Phase 1] or hell resonance [Phase 1]. DNA stimulation [Phase 1].",
+    "binaural_start": "play_binaural(174, 177.5);"
+   },
+   {
+    "binaural_name": "3.5 hz Binaural Beats over Solfeggio 285 hz",
+    "binaural_description": "Binaural beats for whole being regeneration [Phase 2]. Lower Earth resonance [Phase 2] or Hell Resonance [Phase 2]. DNA stimulation [ Phase 2].",
+    "binaural_start": "play_binaural(285, 288.5);"
+   },
+   {
+    "binaural_name": "3.5 hz Binaural Beats over Solfeggio 396 hz",
+    "binaural_description": "Binaural beats for relief from anxiety [Phase 1, 2nd flavor] via root chakra or muladhara. The lower earth resonance [Phase 3 ] or hell resonance [Phase 3].",
+    "binaural_start": "play_binaural(396, 399.5);"
+   },
+   {
+    "binaural_name": "3.5 hz Binaural Beats over Solfeggio 528 hz",
+    "binaural_description": "Binaural beats for DNA stimulation [Phase 3].",
+    "binaural_start": "play_binaural(528, 531.5);"
+   },
+   {
+    "binaural_name": "3.5 hz Binaural Beats over Solfeggio 741 hz",
+    "binaural_description": "Binaural beats for relief from anxiety [Phase 2, 2nd flavor] via throat chakra (visuddha). Accelerated language retention [Phase 1]",
+    "binaural_start": "play_binaural(741, 744.5);"
+   },
+   {
+    "binaural_name": "3.5 hz Binaural Beats over Solfeggio 852 hz",
+    "binaural_description": "Binaural beats for feeling with unity everything [Phase 1], accelerated language retention [Phase 2], enhancement of receptivity relief from depression [Phase 1].",
+    "binaural_start": "play_binaural(852, 855.5);"
+   },
+   {
+    "binaural_name": "3.5 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Binaural beats for feeling with unity everything [Phase 2], accelerated language retention [Phase 3], enhancement of receptivity relief from depression [Phase 2].",
+    "binaural_start": "play_binaural(963, 966.5);"
+   },
+   {
+    "binaural_name": "3.6 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "Binaural beats for remedy for irritability in body.",
+    "binaural_start": "play_binaural(174, 177.6);"
+   },
+   {
+    "binaural_name": "3.6 hz Binaural Beats over Solfeggio 639 hz",
+    "binaural_description": "Binaural beats for remedy for irritability in social situations.",
+    "binaural_start": "play_binaural(639, 642.6);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "Binaural beats for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed [Phase 1]. Schizophrenia patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 3].",
+    "binaural_start": "play_binaural(174, 178);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 285 hz",
+    "binaural_description": "Binaural beats for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed [Phase 2]. Telepathy [Phase 4]. Seduction [Phase 4]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 4]. Power Nap [Phase 1].",
+    "binaural_start": "play_binaural(285, 289);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 396 hz",
+    "binaural_description": "Binaural beats for seduction [Phase 3] of whole being. <strong> It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people. </strong>",
+    "binaural_start": "play_binaural(396, 400);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 417 hz",
+    "binaural_description": "Binaural beats for seduction [Phase 1] of sacral intuition. <strong> It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people.</strong>",
+    "binaural_start": "play_binaural(417, 421);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 639 hz",
+    "binaural_description": "Binaural beats for seduction [Phase 2] of heart. <strong> It should not be used in public places if you value your security from strangers. </strong>",
+    "binaural_start": "play_binaural(639, 643);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 741 hz",
+    "binaural_description": "Binaural beats for telepathy [Phase 1]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly. Enkephalins, Extrasensory perception [Phase 1]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2].",
+    "binaural_start": "play_binaural(741, 745);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 852 hz",
+    "binaural_description": "Binaural beats for telepathy [Phase 2]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 1]. Enkephalins, Extrasensory perception [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2]",
+    "binaural_start": "play_binaural(852, 856);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 852 hz",
+    "binaural_description": "Binaural beats for telepathy [Phase 2]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 1]. Enkephalins, Extrasensory perception [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2]",
+    "binaural_start": "play_binaural(852, 856);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Binaural beats for telepathy [Phase 3]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
+    "binaural_start": "play_binaural(963, 967);"
+   },
+   {
+    "binaural_name": "4 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Binaural beats for telepathy [Phase 3]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
+    "binaural_start": "play_binaural(963, 967);"
+   },
+   {
+    "binaural_name": "5 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "pain-relief [Phase 1] (beta endorphin increases upto 10-50% as per report). If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced.(not good).",
+    "binaural_start": "play_binaural(174, 179);"
+   },
+   {
+    "binaural_name": "5 hz Binaural Beats over Solfeggio 285 hz",
+    "binaural_description": "pain-relief [Phase 2] (beta endorphin increases upto 10-50% as per report). Unusual problem solving [Phase 3] (reduced sleep needed). Theta sounds replacing need for extensive dreaming [Phase 3], relaxed states [Phase 3]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
+    "binaural_start": "play_binaural(285, 290);"
+   },
+   {
+    "binaural_name": "5 hz Binaural Beats over Solfeggio 852 hz",
+    "binaural_description": "Unusual problem solving [Phase 1] (reduced sleep needed), theta sounds replacing need for extensive dreaming [Phase 1], relaxed states [Phase 1]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
+    "binaural_start": "play_binaural(852, 857);"
+   },
+   {
+    "binaural_name": "5 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Unusual problem solving [Phase 2] (reduced sleep needed), theta sounds replacing need for extensive dreaming [Phase 2], relaxed states [Phase 2]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
+    "binaural_start": "play_binaural(963, 968);"
+   },
+   {
+    "binaural_name": "5.8 hz Binaural Beats over Solfeggio 174 hz",
+    "binaural_description": "Binaural beats for reduction in Fear [phase 1]",
+    "binaural_start": "play_binaural(174, 179.8);"
+   },
+   {
+    "binaural_name": "5.8 hz Binaural Beats over Solfeggio 396 hz",
+    "binaural_description": "Binaural beats for reduction in Fear [Phase 2].",
+    "binaural_start": "play_binaural(396, 401.8);"
+   },
+   {
+    "binaural_name": "5.8 hz Binaural Beats over Solfeggio 528 hz",
+    "binaural_description": "Binaural beats for reduction in Fear[Phase 3].",
+    "binaural_start": "play_binaural(528, 533.8);"
+   },
+   {
+    "binaural_name": "5.8 hz Binaural Beats over Solfeggio 741 hz",
+    "binaural_description": "Binaural beats for reduction in Dizziness [Phase 1].",
+    "binaural_start": "play_binaural(741, 746.8);"
+   },
+   {
+    "binaural_name": "5.8 hz Binaural Beats over Solfeggio 852 hz",
+    "binaural_description": "Binaural beats for reduction in Dizziness [Phase 2]. Reduction in Absent-mindedness [Phase 1].",
+    "binaural_start": "play_binaural(852, 857.8);"
+   },
+   {
+    "binaural_name": "5.8 hz Binaural Beats over Solfeggio 963 hz",
+    "binaural_description": "Binaural beats for reduction in Absent-mindedness [Phase 2].",
+    "binaural_start": "play_binaural(963, 968.3);"
+   },
+   {
+    "binaural_name": "6 hz Binaural Beats over 417 hz solfeggio",
+    "binaural_description": "Binaural beats for reduction in unwillingness to do work due to past memories. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
+    "binaural_start": "play_binaural(417, 423);"
+   },
+   {
+    "binaural_name": "6 hz Binaural Beats over 639 hz solfeggio",
+    "binaural_description": "Binarual beats for getting out of hypnosis and bringing clarity [Phase 2]. Must be used during sleep otherwise it may bring  in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
+    "binaural_start": "play_binaural(639, 645);"
+   },
+   {
+    "binaural_name": "6 hz Binaural Beats over 852 hz solfeggio",
+    "binaural_description": "Binaural beats for increased clarity and getting out of hypnosis. [Phase 1]. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
+    "binaural_start": "play_binaural(852, 858);"
+   },
+   {
+    "binaural_name": "6 hz Binaural Beats over 963 hz solfeggio",
+    "binaural_description": "Binaural beats for active learning and retention. Must be balanced Phase 1 of increased clarity binaural beats (6 hz) if things seem unclear and decisions and theories are made with wrong assumption. Must be used during sleep otherwise it will bring in depression and confusion.",
+    "binaural_start": "play_binaural(963, 969);"
+   },
+   {
+    "binaural_name": "6.30 hz Binaural Beats over 852 hz solfeggio",
+    "binaural_description": "Binaural beats for Mental vision and astral projection vision [Phase 1]. Might also experience accelerated learning and increased retention. Minor effects include reduction in anger and irritability.",
+    "binaural_start": "play_binaural(852, 858.30);"
+   },
+   {
+      "binaural_name": "6 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Binaural beats for active learning and retention. Must be balanced Phase 1  of increased clarity binaural beats (6 hz) if things seem unclear and decisions and theories are made with wrong assumption. Must be used during sleep otherwise it will bring in depression and confusion.",
+      "binaural_start": "play_binaural(963, 969);"
+   },
+   {
+      "binaural_name": "7 hz Binaural Beats over 285 hz solfeggio",
+      "binaural_description": "Enhanced bone growth. <strong> Can also resonate and rupture organs at excessive intensity. </strong> Used as a treatment of sleep disturbances [Phase 1].",
+      "binaural_start": "play_binaural(285, 292);"
+   },
+   {
+      "binaural_name": "7 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Mental vision and astral projection vision [Phase 3], bending of objects [Phase 1], psychic vision for psychic surgery [Phase 1], Increased Reaction Time [Phase 1], Mass aggregate frequency [Phase 1]. It can deaggregate matter [Phase 1]. <strong> Can also resonate and rupture organs at excessive intensity. </strong> Used as a treatment of sleep disturbances[Phase 2].",
+      "binaural_start": "play_binaural(852, 859);"
+   },
+   {
+      "binaural_name": "7 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Mental and astral projection [Phase 4], bending of objects [Phase 2], psychic surgery [Phase 2], Increased Reaction Time [Phase 2], Mass aggregate frequency [Phase 2]. It can deaggregate matter [Phase 2]. <strong> Can also resonate and rupture organs at excessive intensity. </strong> Used as a treatment of sleep disturbances [Phase 3].",
+      "binaural_start": "play_binaural(963, 970);"
+   },
+   {
+      "binaural_name": "7.83 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Binaural Beats for Earth resonance [Phase 1], grounding [Phase 1] (Lower earth chakra), Primary Schumann Resonance [Phase 1], Anti-Jet Lag [Phase 1]. Improved Stress Tolarance [Phase 1]. Pituitary Stimulation to release growth horomone [Phase 1]. The earth's natural brainwave [Phase 1].",
+      "binaural_start": "play_binaural(174, 181.83);"
+   },
+   {
+      "binaural_name": "7.83 hz Binaural Beats over 285 hz solfeggio",
+      "binaural_description": "Binaural Beats for Earth resonance [Phase 2], grounding [Phase 2] (Lower earth chakra [Phase 2] ), Primary Schumann Resonance [Phase 2], Anti-Jet Lag [Phase 2]. Improved Stress Tolarance [Phase 2]. Pituitary Stimulation to release growth horomone [Phase 2]. It helps with development of muscles, recovering from injuries. It has rejuvination effects. It's your classic earth resonance frequency, It sometimes leaves the subjects feeling revitalized like they have spent a day in the country. Has accelerated healing. The earth's natural brainwave [Phase 2].",
+      "binaural_start": "play_binaural(285, 292.83);"
+   },
+   {
+      "binaural_name": "7.83 hz Binaural Beats over 396 hz solfeggio",
+      "binaural_description": "Binaural Beats for Earth resonance [Phase 3], grounding [Phase 3] (Lower earth chakra [Phase 3] ), Primary Schumann Resonance [Phase 3], Anti-Jet Lag [Phase 3].",
+      "binaural_start": "play_binaural(396, 403.83);"
+   },
+   {
+      "binaural_name": "7.83 hz Binaural Beats over 639 hz solfeggio",
+      "binaural_description": "Binaural Beats for anti-mind (feelings) control [Phase 2].",
+      "binaural_start": "play_binaural(639, 646.83);"
+   },
+   {
+      "binaural_name": "7.83 hz Binaural Beats over 741 hz solfeggio",
+      "binaural_description": "Binaural Beats for Anti-Jet Lag [Phase 4]",
+      "binaural_start": "play_binaural(741, 748.83);"
+   },
+   {
+      "binaural_name": "7.83 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Binaural Beats for  Anti-Jet Lag [Phase 5]. Pituitary Stimulation to release growth horomone [Phase 3]. Anti-mind (perception) control [Phase 1]",
+      "binaural_start": "play_binaural(852, 859.83);"
+   },
+   {
+      "binaural_name": "7.83 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Binaural Beats for anti-mind (thoughts) control [Phase 3].",
+      "binaural_start": "play_binaural(963, 970.83);"
+   },
+   {
+      "binaural_name": "8.3 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Pick up visual images of mental objects. Clairvoyance. Monroe Focus 12.",
+      "binaural_start": "play_binaural(852, 860.3);"
+   },
+   {
+      "binaural_name": "8.4 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Binaural beats for reduction in anxiety caused due to survival issues. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the binaural beat generator.",
+      "binaural_start": "play_binaural(174, 182.4);"
+   },
+   {
+      "binaural_name": "8.4 hz Binaural Beats over 396 hz solfeggio",
+      "binaural_description": "Binaural beats for reduction in general anxiety [Phase 1, flavor 1]. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the binaural beat generator.",
+      "binaural_start": "play_binaural(396, 404.4);"
+   },
+   {
+      "binaural_name": "8.4 hz Binaural Beats over 639 hz solfeggio",
+      "binaural_description": "Binarual beats for reduction in social anxiety. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the binaural beat generator",
+      "binaural_start": "play_binaural(639, 647.4);"
+   },
+   {
+      "binaural_name": "8.4 hz Binaural Beats over 741 hz solfeggio",
+      "binaural_description": "Binaural beats for reduction in general anxiety [Phase 2 , flavor 1]. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the binaural beat generator.",
+      "binaural_start": "play_binaural(741, 749.4);"
+   },
+   {
+      "binaural_name": "8.4 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Binaural beats for reduction in anxiety [Phase 3, falvor 1] caused by critical problems. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the binaural beat generator.",
+      "binaural_start": "play_binaural(963, 971.4);"
+   },
+   {
+      "binaural_name": "8.5 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Binuaral beats for better physical stress tolerance.",
+      "binaural_start": "play_binaural(174, 182.5);"
+   },
+   {
+      "binaural_name": "8.5 hz Binaural Beats over 285 hz solfeggio",
+      "binaural_description": "Binaural beats for reduction in physical stress",
+      "binaural_start": "play_binaural(285, 293.5);"
+   },
+   {
+      "binaural_name": "8.5 hz Binaural Beats over 639 hz solfeggio",
+      "binaural_description": "Binuaral beats for reduction in stress caused due social situations.",
+      "binaural_start": "play_binaural(639, 647.5);"
+   },
+   {
+      "binaural_name": "8.5 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Binaural beats for reduction in general mental stress",
+      "binaural_start": "play_binaural(963, 971.5);"
+   },
+   {
+      "binaural_name": "9 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Opening of Sacral Chakra or Svadhisthana chakra [ Phase 1 ]. Enhanced body parts are Gonads [Phase 1]  and Reproductive System [ Phase 1 ]. Positive Effects on relationships [Phase 1] and Sexuality [ Phase 1 ]. Awareness of causes of body imbalance and means for balance [ Phase 1 ].  Blind person phantom touch reading (somatosensory cortex) [Phase 1].",
+      "binaural_start": "play_binaural(174, 183);"
+   },
+   {
+      "binaural_name": "9 hz Binaural Beats over 417 hz solfeggio",
+      "binaural_description": "Opening of Sacral Chakra or Svadhisthana chakra [ Phase 2 ]. Enhanced body parts are Gonads [Phase 2] and Reproductive System [ Phase 2 ]. Positive Effects on relationships [Phase 2] and Sexuality [ Phase 2 ]. Awareness of causes of body imbalance and means for balance [ Phase 2 ].  Blind person phantom touch reading (somatosensory cortex) [Phase 2].",
+      "binaural_start": "play_binaural(417, 426);"
+   },
+   {
+      "binaural_name": "10 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Binaural beats associated with solar plexus chakra (manipura) [Phase 1]. Spiritual Wisdom [Phase 1], Self-Healing [ Phase 1 ]. Enhanced Body parts Pancreas [Phase 1], Stomach [Phase 1], Liver [Phase 1], Gall Bladder [Phase 1], Nervous System [Phase 1]. Enhanced release of serotonin [Phase 1]. Mood elevator [Phase 1]. Acts as ananalgesic [Phase 1]. Used during nicotine withrawal [Phase 1]. Clarity [Phase 1], Normacy [Phase 1], Anti-Convlelsant [Phase 1], Circadian Rhythm Resync [Phase 1]. Motor impulse co-ordination [ Phase 1 ] (Motor Control Cortex).  Learning a foreign language [Phase 1 ], Sleep Spindles [Phase 1], Centering [ Phase 1 ]. Increased Alertness [ Phase 1 ]. Increased in norepinephrine [ Phase 1 ]. Decreased Melatonin [Phase 1]. Sense of well being [Phase 1]. Decreased Pain [Phase 1]. Increased beta-endorphines [Phase 1]. Adrenal Stimulant [Phase 1]. Treatment of Attention Deficit Disorder [ Phase 1 ] and hyperactivity [ Phase 1 ]. Treatment for closed head injury [ Phase 1 ]. Berger Rhythm. Used on Headaches [Phase 1]. Ligament Healing [ Phase 1] ",
+      "binaural_start": "play_binaural(174, 184);"
+   },
+   {
+      "binaural_name": "10 hz Binaural Beats over 285 hz solfeggio",
+      "binaural_description": "Self-Healing [ Phase 2]. Enhanced Body parts Pancreas [Phase 3], Stomach [Phase 3], Liver [Phase 3], Gall Bladder [Phase 3], Nervous System [Phase 2]. Enhanced release of serotonin [Phase 4]. Mood elevator [Phase 4]. Acts as ananalgesic [Phase 2]. Used during nicotine withrawal [Phase 5]. Anti-Convlelsant [Phase 5], Circadian Rhythm Resync [Phase 4]. Motor impulse co-ordination [ Phase 2 ] (Motor Control Cortex). Increased in norepinephrine [ Phase 5 ]. Decreased Melatonin [Phase 4]. Decreased Pain [Phase 2]. Increased beta-endorphines [Phase 4]. Adrenal Stimulant [Phase 3].  Treatment for closed head injury [ Phase 4 ]. Berger Rhythm. Used on Headaches [Phase 4]. Ligament Healing [ Phase 2].",
+      "binaural_start": "play_binaural(285, 295);"
+   },
+   {
+      "binaural_name": "10 hz Binaural Beats over 528 hz solfeggio",
+      "binaural_description": "Binaural beats associated with solar plexus chakra (manipura) [Phase 2]. Spiritual Wisdom [Phase 2], Self-Healing [ Phase 2 ]. Enhanced Body parts Pancreas [Phase 2], Stomach [Phase 2], Liver [Phase 2], Gall Bladder [Phase 2]. Clarity [Phase 2], Normacy [Phase 2]. Sense of well being [Phase 2]. Adrenal Stimulant [Phase 2].",
+      "binaural_start": "play_binaural(528, 538);"
+   },
+   {
+      "binaural_name": "10 hz Binaural Beats over 741 hz solfeggio",
+      "binaural_description": "Spiritual Wisdom [Phase 3]. Used during nicotine withrawal [Phase 2]. Clarity [Phase 2], Normacy [Phase 2]. Learning a foreign language [Phase 2 ], Increased Alertness [ Phase 2 ]. Increased in norepinephrine [ Phase 2 ]. Treatment of Attention Deficit Disorder [ Phase 2 ] and hyperactivity [ Phase 2 ]. Sense of well being [Phase 3].",
+      "binaural_start": "play_binaural(741, 751);"
+   },
+   {
+      "binaural_name": "10 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Spiritual Wisdom [Phase 4]. Enhanced release of serotonin [Phase 2]. Mood elevator [Phase 2]. Used during nicotine withrawal [Phase 3]. Clarity [Phase 2], Normacy [Phase 2]. Circadian Rhythm Resync [Phase 3]. Motor impulse co-ordination [ Phase 3 ] (Motor Control Cortex).  Learning a foreign language [Phase 3], Sleep Spindles [Phase 2]. Increased Alertness [ Phase 3 ]. Increased in norepinephrine [ Phase 3 ]. Decreased Melatonin [Phase 2]. Sense of well being [Phase 4]. Increased beta-endorphines [Phase 2]. Treatment of Attention Deficit Disorder [ Phase 3 ] and hyperactivity [ Phase 3 ]. Treatment for closed head injury [ Phase 2 ]. Berger Rhythm. Used on Headaches [Phase 3].",
+      "binaural_start": "play_binaural(852, 862);"
+   },
+   {
+      "binaural_name": "10 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Spiritual Wisdom [Phase 5]. Enhanced release of serotonin [Phase 3]. Mood elevator [Phase 3]. Used during nicotine withrawal [Phase 4]. Clarity [Phase 3], Normacy [Phase 3]. Circadian Rhythm Resync [Phase 4]. Motor impulse co-ordination [ Phase 4 ] (Motor Control Cortex).  Learning a foreign language [Phase 4], Sleep Spindles [Phase 3]. Increased Alertness [ Phase 4 ]. Increased in norepinephrine [ Phase 4 ]. Decreased Melatonin [Phase 3]. Sense of well being [Phase 5]. Increased beta-endorphines [Phase 2]. Treatment of Attention Deficit Disorder [ Phase 4 ] and hyperactivity [ Phase 4 ]. Treatment for closed head injury [ Phase 3 ]. Berger Rhythm. Used on Headaches [Phase 4].",
+      "binaural_start": "play_binaural(963, 973);"
+   },
+   {
+      "binaural_name": "10.5 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Binaural beats associated with Heart chakra [Phase 1]. Aura influence is green. Its for healing of body [Phase 1], mind [Phase 1] and body unity [Phase 1]. Used in firewalking [Phase 1]. Potent stabilizer [Phase 1] and stimulating for the immunity [Phase 1], valuable in convalescence. Relaxed alertness [Phase 1], contemplation [Phase 1], body healing [Phase 1], mind over matter [Phase 1]. Lowering Blood Pressure [Phase 1].  Enhanced body parts are Thymus [Phase 1], Heart [Phase 1], Blood, Circulatory System [Phase 1]. Has positive effects such as Love for Life, love for self, others [Phase 1]. Musical note is F.",
+      "binaural_start": "play_binaural(174, 184.5);"
+   },
+   {
+      "binaural_name": "10.5 hz Binaural Beats over 639 hz solfeggio",
+      "binaural_description": "Binaural beats associated with Heart chakra [Phase 2] (This is post tuning of heart chakra once activated). Healing of body, mind and body unity [Phase 2]. Used in firewalking [Phase 2]. Aura influence is green. It has positive effects like having Love for Life, love for self, others [Phase 2]. Musical note is F. Gives relaxed alertness [Phase 2], contemplation [Phase 2], body healing [Phase 2], mind over matter [Phase 2]. This is a potent stabilizer and is simulating for immunity [Phase 2]. Valuable in convalescence. Lowering of Blood Pressure [Phase 2]. Enhanced body parts are Thymus [Phase 2], Heart [Phase 2], Blood [Phase 2], Circulatory System [Phase 2].",
+      "binaural_start": "play_binaural(639, 649.5);"
+   },
+   {
+      "binaural_name": "12 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "For opening of throat chakra / Vishuddha chakra [Phase 1]. Musical Note is G. Aura color is blue. Centering mental stabilty [Phase 1], transistional point and time accelerater [ Phase 1 ]. Upper earth resonance frequency [Phase 1] via Hercules. Enhanced body parts are Thyroid [ Phase 1 ], Lungs [ Phase 1 ], Vocal Cords [ Phase 1 ].",
+      "binaural_start": "play_binaural(174, 186);"
+   },
+   {
+      "binaural_name": "12 hz Binaural Beats over 741 hz solfeggio",
+      "binaural_description": "For opening of throat chakra / Vishuddha chakra [Phase 2]. Gives expresssion of self in society. Musical Note is G. Aura color is blue. It stimulates mental clarity. Gives cleverness in general and presence of mind in conversations. Centering mental stabilty [Phase 2], transistional point and time accelerater [Phase 2]. Doorway to all other frequencies. Upper earth resonance frequency [Phase 2] via Hercules. Enhanced body parts are Thyroid [Phase 2], Lungs [Phase 2], Vocal Cords [Phase 2]. Also good for absorbing information passively during conversations to think about it later.",
+      "binaural_start": "play_binaural(741, 753);"
+   },
+   {
+      "binaural_name": "12.3 hz Binaural Beats over 285 hz solfeggio",
+      "binaural_description": "Associated with eyes. It gives better visualization [Phase 1].",
+      "binaural_start": "play_binaural(285, 297.3);"
+   },
+   {
+      "binaural_name": "12.3 hz Binaural Beats over 787 hz Rife",
+      "binaural_description": "Associated with eyes. It gives better visualization [Phase 3].",
+      "binaural_start": "play_binaural(787, 799.3);"
+   },
+   {
+      "binaural_name": "12.3 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Associated with eyes. It gives better visualization [Phase 2].",
+      "binaural_start": "play_binaural(852, 864.3);"
+   },
+   {
+      "binaural_name": "13 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "This is associated with Ajna chakra (3rd eye) [Phase 1, 2nd flavor]. Aura color is indigo or violet. Enhanced body parts are Pituitary, Lower Brain, Left Eye, Ears, Nose, Nervous System. It gives Visualization, Conceptualization. Musical note is A.",
+      "binaural_start": "play_binaural(174, 187);"
+   },
+   {
+      "binaural_name": "13 hz Binaural Beats over 741 hz solfeggio",
+      "binaural_description": "Post tuning of throat chakra, improvements in verbal communication.",
+      "binaural_start": "play_binaural(741, 754);"
+   },
+   {
+      "binaural_name": "13 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "This is associated with Ajna chakra (3rd eye) [Phase 2, 2nd flavor]. Aura color is indigo or violet. Enhanced body parts are Pituitary,Lower Brain, Left Eye, Ears, Nose, Nervous System. It gives Visualization, Conceptualization. Musical note is A.",
+      "binaural_start": "play_binaural(852, 865);"
+   },
+   {
+      "binaural_name": "13.8 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "This is associated with Frontal Lobes. It effects the seventh sense, final decision. [Phase 1]",
+      "binaural_start": "play_binaural(852, 865.8);"
+   },
+   {
+      "binaural_name": "13.8 hz Binaural Beats over 880 hz Rife",
+      "binaural_description": "This is associated with Frontal Lobes. It effects the seventh sense, final decision. [Phase 2]",
+      "binaural_start": "play_binaural(880, 893.8);"
+   },
+   {
+      "binaural_name": "14 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Binaural beats for studying [Phase 1]. It keeps subjects awake and alert, keeps concentration on tasks. Also good for learning and absorbing information passively when you are planning to think about it later. Enhanced logical, analytical, intellectual thinking. Provides starting point for the mind to do calculations, linear logical analyses and other highly structured functions. Minor improvements in communication.",
+      "binaural_start": "play_binaural(852, 866);"
+   },
+   {
+      "binaural_name": "14 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Binaural beats for studying [Phase 2]. It keeps subjects awake and alert, keeps concentration on tasks. Also good for learning and absorbing information passively when you are planning to think about it later.  Enhanced logical, analytical, intellectual thinking. Provides starting point for the mind to do calculations, linear logical analyses and other highly structured functions. Minor improvements in communication.",
+      "binaural_start": "play_binaural(963, 977);"
+   },
+   {
+      "binaural_name": "15 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Binaural Beats for opening of Crown Chakra (Sahasrara) [Phase 1]. The color is white or voilet depending on the individual. Enhanced body parts are Pineal Gland [Phase 1], Upper Brain [Phase 1], Right Eye [Phase 1]. It helps with capilary formation[Phase 1], fibroblast proliferation [Phase 1], and decreases skin necorosis [Phase 1].",
+      "binaural_start": "play_binaural(174, 189);"
+   },
+   {
+      "binaural_name": "15 hz Binaural Beats over 285 hz solfeggio",
+      "binaural_description": "Enhanced body parts are Pineal Gland [Phase 4], Upper Brain [Phase 4], Right Eye [Phase 4]. It helps with capilary formation[Phase 2], fibroblast proliferation [Phase 2], and decreases skin necorosis [Phase 2].",
+      "binaural_start": "play_binaural(285, 300);"
+   },
+   {
+      "binaural_name": "15 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Enhanced body parts are Pineal Gland [Phase 3], Upper Brain [Phase 3], Right Eye [Phase 3].",
+      "binaural_start": "play_binaural(852, 867);"
+   },
+   {
+      "binaural_name": "15 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Binaural Beats for opening of Crown Chakra (Sahasrara) [Phase 2]. The color is white or voilet depending on the individual. Enhanced body parts are Pineal Gland [Phase 2], Upper Brain [Phase 2], Right Eye [Phase 2]. It helps with capilary formation[Phase 3], fibroblast proliferation [Phase 3], and decreases skin necorosis [Phase 3].",
+      "binaural_start": "play_binaural(963, 978);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 1], sinus infection [Phase 1], head cold [Phase 1], headache [Phase 1]. Commonly used 'cure-all' Rife Frequency [Phase 1]. <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_start": "play_binaural(174, 194);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 285 hz solfeggio",
+      "binaural_description": "Binaural beats for removing fatigue as it energizes. <strong> It should not to be used during labour as it causes distress. </strong> Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). Commonly used 'cure-all' Rife Frequency [Phase 3].",
+      "binaural_start": "play_binaural(285, 305);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 417 hz solfeggio",
+      "binaural_description": "Binaural Beats for imposing sub-conscious commands to another's sacral intuition (The thought center of sacral intuition). <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_start": "play_binaural(417, 427);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 528 hz solfeggio",
+      "binaural_description": "Binaural Beats for Adrenal Stimulant. <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_start": "play_binaural(528, 548);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 639 hz solfeggio",
+      "binaural_description": "Binaural Beats for imposing sub-conscious commands to another (The thought center of feelings). <strong> It should not to be used during labour as it causes distress.",
+      "binaural_start": "play_binaural(639, 659);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Stimulation of pineal gland. Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 3], sinus infection [Phase 3], head cold [Phase 3],headache [Phase 3]. Commonly used 'cure-all' Rife Frequency [Phase 1]. <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_start": "play_binaural(852, 872);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Binaural Beats for imposing sub-conscious commands to another (The primary thought center). <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_start": "play_binaural(963, 983);"
+   },
+   {
+      "binaural_name": "33 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Initiates Christ consciousness and hypersensitivity. Pyramid frequency (inside), Schumann Resonance (5th frequency of 7).",
+      "binaural_start": "play_binaural(963, 996);"
+   },
+   {
+      "binaural_name": "40 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Sounds at this frequency is used for Alzheimer's therapy [Phase 1] studies  to stimulate an increased neural response and fight symptoms of dementia. This binaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance.  <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5486945/' title='science of 40 hz'>  Read more here,</a> however, the research article has been retracted except for therapy of Alzheimer's",
+      "binaural_start": "play_binaural(852, 892);"
+   },
+   {
+      "binaural_name": "40 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Sounds at this frequency is used for Alzheimer's therapy [Phase 2] studies to stimulate an increased neural response and fight symptoms of dementia. This binaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance.  <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5486945/' title='science of 40 hz'> Read more here,</a>  however, the research article has been retracted except for therapy of Alzheimer's",
+      "binaural_start": "play_binaural(963, 1003);"
+   },
+   {
+      "binaural_name": "83 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Opens third eye for some people. Associated with Ajna Chakra [Phase 1, 1st flavor].",
+      "binaural_start": "play_binaural(174, 257);"
+   },
+   {
+      "binaural_name": "83 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Opens third eye for some people. Associated with Ajna Chakra [Phase 2, 1st flavor]",
+      "binaural_start": "play_binaural(852, 935);"
+   }
+]
