@@ -538,5 +538,10 @@
       "binaural_name": "20 hz Binaural Beats over 417 hz solfeggio",
       "binaural_description": "Binaural Beats for imposing sub-conscious commands to another's sacral intuition (The thought center of sacral intuition). <strong> It should not to be used during labour as it causes distress. </strong>",
       "binaural_start": "play_binaural(417, 427);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 528 hz solfeggio",
+      "binaural_description": "Binaural Beats for Adrenal Stimulant. <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_start": "play_binaural(528, 548);"
    }
 ]
