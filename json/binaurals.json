@@ -433,5 +433,10 @@
       "binaural_name": "10 hz Binaural Beats over 963 hz solfeggio",
       "binaural_description": "Spiritual Wisdom [Phase 5]. Enhanced release of serotonin [Phase 3]. Mood elevator [Phase 3]. Used during nicotine withrawal [Phase 4]. Clarity [Phase 3], Normacy [Phase 3]. Circadian Rhythm Resync [Phase 4]. Motor impulse co-ordination [ Phase 4 ] (Motor Control Cortex).  Learning a foreign language [Phase 4], Sleep Spindles [Phase 3]. Increased Alertness [ Phase 4 ]. Increased in norepinephrine [ Phase 4 ]. Decreased Melatonin [Phase 3]. Sense of well being [Phase 5]. Increased beta-endorphines [Phase 2]. Treatment of Attention Deficit Disorder [ Phase 4 ] and hyperactivity [ Phase 4 ]. Treatment for closed head injury [ Phase 3 ]. Berger Rhythm. Used on Headaches [Phase 4].",
       "binaural_start": "play_binaural(963, 973);"
+   },
+   {
+      "binaural_name": "10.5 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Binaural beats associated with Heart chakra [Phase 1]. Aura influence is green. Its for healing of body [Phase 1], mind [Phase 1] and body unity [Phase 1]. Used in firewalking [Phase 1]. Potent stabilizer [Phase 1] and stimulating for the immunity [Phase 1], valuable in convalescence. Relaxed alertness [Phase 1], contemplation [Phase 1], body healing [Phase 1], mind over matter [Phase 1]. Lowering Blood Pressure [Phase 1].  Enhanced body parts are Thymus [Phase 1], Heart [Phase 1], Blood, Circulatory System [Phase 1]. Has positive effects such as Love for Life, love for self, others [Phase 1]. Musical note is F.",
+      "binaural_start": "play_binaural(174, 184.5);"
    }
 ]
