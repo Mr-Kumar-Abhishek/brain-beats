@@ -523,5 +523,10 @@
       "binaural_name": "15 hz Binaural Beats over 963 hz solfeggio",
       "binaural_description": "Binaural Beats for opening of Crown Chakra (Sahasrara) [Phase 2]. The color is white or voilet depending on the individual. Enhanced body parts are Pineal Gland [Phase 2], Upper Brain [Phase 2], Right Eye [Phase 2]. It helps with capilary formation[Phase 3], fibroblast proliferation [Phase 3], and decreases skin necorosis [Phase 3].",
       "binaural_start": "play_binaural(963, 978);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 1], sinus infection [Phase 1], head cold [Phase 1], headache [Phase 1]. Commonly used 'cure-all' Rife Frequency [Phase 1]. <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_start": "play_binaural(174, 194);"
    }
 ]
