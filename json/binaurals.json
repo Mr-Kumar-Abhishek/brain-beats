@@ -548,5 +548,10 @@
       "binaural_name": "20 hz Binaural Beats over 639 hz solfeggio",
       "binaural_description": "Binaural Beats for imposing sub-conscious commands to another (The thought center of feelings). <strong> It should not to be used during labour as it causes distress.",
       "binaural_start": "play_binaural(639, 659);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Stimulation of pineal gland. Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 3], sinus infection [Phase 3], head cold [Phase 3],headache [Phase 3]. Commonly used 'cure-all' Rife Frequency [Phase 1]. <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_start": "play_binaural(852, 872);"
    }
 ]
