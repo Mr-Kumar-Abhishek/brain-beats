@@ -443,5 +443,10 @@
       "binaural_name": "10.5 hz Binaural Beats over 639 hz solfeggio",
       "binaural_description": "Binaural beats associated with Heart chakra [Phase 2] (This is post tuning of heart chakra once activated). Healing of body, mind and body unity [Phase 2]. Used in firewalking [Phase 2]. Aura influence is green. It has positive effects like having Love for Life, love for self, others [Phase 2]. Musical note is F. Gives relaxed alertness [Phase 2], contemplation [Phase 2], body healing [Phase 2], mind over matter [Phase 2]. This is a potent stabilizer and is simulating for immunity [Phase 2]. Valuable in convalescence. Lowering of Blood Pressure [Phase 2]. Enhanced body parts are Thymus [Phase 2], Heart [Phase 2], Blood [Phase 2], Circulatory System [Phase 2].",
       "binaural_start": "play_binaural(639, 649.5);"
+   },
+   {
+      "binaural_name": "12 hz Binaural Beats over 174 hz solfeggio",
+      "binaural_description": "For opening of throat chakra / Vishuddha chakra [Phase 1]. Musical Note is G. Aura color is blue. Centering mental stabilty [Phase 1], transistional point and time accelerater [ Phase 1 ]. Upper earth resonance frequency [Phase 1] via Hercules. Enhanced body parts are Thyroid [ Phase 1 ], Lungs [ Phase 1 ], Vocal Cords [ Phase 1 ].",
+      "binaural_start": "play_binaural(174, 186);"
    }
 ]
