@@ -513,5 +513,10 @@
       "binaural_name": "15 hz Binaural Beats over 285 hz solfeggio",
       "binaural_description": "Enhanced body parts are Pineal Gland [Phase 4], Upper Brain [Phase 4], Right Eye [Phase 4]. It helps with capilary formation[Phase 2], fibroblast proliferation [Phase 2], and decreases skin necorosis [Phase 2].",
       "binaural_start": "play_binaural(285, 300);"
+   },
+   {
+      "binaural_name": "15 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Enhanced body parts are Pineal Gland [Phase 3], Upper Brain [Phase 3], Right Eye [Phase 3].",
+      "binaural_start": "play_binaural(852, 867);"
    }
 ]
