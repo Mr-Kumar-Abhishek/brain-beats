@@ -483,5 +483,10 @@
       "binaural_name": "13 hz Binaural Beats over 852 hz solfeggio",
       "binaural_description": "This is associated with Ajna chakra (3rd eye) [Phase 2, 2nd flavor]. Aura color is indigo or violet. Enhanced body parts are Pituitary,Lower Brain, Left Eye, Ears, Nose, Nervous System. It gives Visualization, Conceptualization. Musical note is A.",
       "binaural_start": "play_binaural(852, 865);"
+   },
+   {
+      "binaural_name": "13.8 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "This is associated with Frontal Lobes. It effects the seventh sense, final decision. [Phase 1]",
+      "binaural_start": "play_binaural(852, 865.8);"
    }
 ]
