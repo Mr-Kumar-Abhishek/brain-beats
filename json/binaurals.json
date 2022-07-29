@@ -503,5 +503,10 @@
       "binaural_name": "14 hz Binaural Beats over 963 hz solfeggio",
       "binaural_description": "Binaural beats for studying [Phase 2]. It keeps subjects awake and alert, keeps concentration on tasks. Also good for learning and absorbing information passively when you are planning to think about it later.  Enhanced logical, analytical, intellectual thinking. Provides starting point for the mind to do calculations, linear logical analyses and other highly structured functions. Minor improvements in communication.",
       "binaural_start": "play_binaural(963, 977);"
+   },
+   {
+      "binaural_name": "15 hz Binaural Beats over 174 hz solfeggio.",
+      "binaural_description": "Binaural Beats for opening of Crown Chakra (Sahasrara) [Phase 1]. The color is white or voilet depending on the individual. Enhanced body parts are Pineal Gland [Phase 1], Upper Brain [Phase 1], Right Eye [Phase 1]. It helps with capilary formation[Phase 1], fibroblast proliferation [Phase 1], and decreases skin necorosis [Phase 1].",
+      "binaural_start": "play_binaural(174, 189);"
    }
 ]
