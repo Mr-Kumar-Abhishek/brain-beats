@@ -543,5 +543,10 @@
       "binaural_name": "20 hz Binaural Beats over 528 hz solfeggio",
       "binaural_description": "Binaural Beats for Adrenal Stimulant. <strong> It should not to be used during labour as it causes distress. </strong>",
       "binaural_start": "play_binaural(528, 548);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 639 hz solfeggio",
+      "binaural_description": "Binaural Beats for imposing sub-conscious commands to another (The thought center of feelings). <strong> It should not to be used during labour as it causes distress.",
+      "binaural_start": "play_binaural(639, 659);"
    }
 ]
