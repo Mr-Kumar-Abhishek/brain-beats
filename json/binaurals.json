@@ -563,5 +563,10 @@
       "binaural_name": "33 hz Binaural Beats over 963 hz solfeggio",
       "binaural_description": "Initiates Christ consciousness and hypersensitivity. Pyramid frequency (inside), Schumann Resonance (5th frequency of 7).",
       "binaural_start": "play_binaural(963, 996);"
+   },
+   {
+      "binaural_name": "40 hz Binaural Beats over 852 hz solfeggio",
+      "binaural_description": "Sounds at this frequency is used for Alzheimer's therapy [Phase 1] studies  to stimulate an increased neural response and fight symptoms of dementia. This binaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance.  <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5486945/' title='science of 40 hz'>  Read more here,</a> however, the research article has been retracted except for therapy of Alzheimer's",
+      "binaural_start": "play_binaural(852, 892);"
    }
 ]
