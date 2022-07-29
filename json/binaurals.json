@@ -528,5 +528,10 @@
       "binaural_name": "20 hz Binaural Beats over 174 hz solfeggio",
       "binaural_description": "Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 1], sinus infection [Phase 1], head cold [Phase 1], headache [Phase 1]. Commonly used 'cure-all' Rife Frequency [Phase 1]. <strong> It should not to be used during labour as it causes distress. </strong>",
       "binaural_start": "play_binaural(174, 194);"
+   },
+   {
+      "binaural_name": "20 hz Binaural Beats over 285 hz solfeggio",
+      "binaural_description": "Binaural beats for removing fatigue as it energizes. <strong> It should not to be used during labour as it causes distress. </strong> Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). Commonly used 'cure-all' Rife Frequency [Phase 3].",
+      "binaural_start": "play_binaural(285, 305);"
    }
 ]
