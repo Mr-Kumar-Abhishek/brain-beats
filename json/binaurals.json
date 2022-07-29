@@ -498,5 +498,10 @@
       "binaural_name": "14 hz Binaural Beats over 852 hz solfeggio",
       "binaural_description": "Binaural beats for studying [Phase 1]. It keeps subjects awake and alert, keeps concentration on tasks. Also good for learning and absorbing information passively when you are planning to think about it later. Enhanced logical, analytical, intellectual thinking. Provides starting point for the mind to do calculations, linear logical analyses and other highly structured functions. Minor improvements in communication.",
       "binaural_start": "play_binaural(852, 866);"
+   },
+   {
+      "binaural_name": "14 hz Binaural Beats over 963 hz solfeggio",
+      "binaural_description": "Binaural beats for studying [Phase 2]. It keeps subjects awake and alert, keeps concentration on tasks. Also good for learning and absorbing information passively when you are planning to think about it later.  Enhanced logical, analytical, intellectual thinking. Provides starting point for the mind to do calculations, linear logical analyses and other highly structured functions. Minor improvements in communication.",
+      "binaural_start": "play_binaural(963, 977);"
    }
 ]
