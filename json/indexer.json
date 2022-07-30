@@ -1,20 +1,17 @@
 [ 
    {
-    "noise_name": "White Noise",
-    "noise_description": "White noise is process with flat frequency spectrum when it is plotted in a linear function of frequency. It is used in treatment of tinnitus. It is also very good for masking background sounds.",
-    "noise_start": "white_noise_process(0.3);",
-    "noise_stop": "stopWhiteNoise();"
+    "section_name": "White Noise",
+    "section_description": "White noise is process with flat frequency spectrum when it is plotted in a linear function of frequency. It is used in treatment of tinnitus. It is also very good for masking background sounds.",
+    "section_link": "white_section_process(0.3);"
    },
    {
-    "noise_name": "Pink Noise",
-    "noise_description": "The frequency of pink noise is linear in logarithmic scale. It used in treatment of hyperacusis and tinnitus.",
-    "noise_start": "pink_noise_process(0.3);",
-    "noise_stop": "stopPinkNoise();"
+    "section_name": "Pink Noise",
+    "section_description": "The frequency of pink noise is linear in logarithmic scale. It used in treatment of hyperacusis and tinnitus.",
+    "section_link": "pink_section_process(0.3);"
    },
    {
-    "noise_name": "Brown Noise",
-    "noise_description": "Brown noise, or brownian noise refers to a power density which increases 6 dB per octave with increasing frequency. Benefits associated while listening to it are relaxation, improved focus, and of course, sleep improvement.",
-    "noise_start": "brown_noise_process(0.3);",
-    "noise_stop": "stopBrownNoise();"
+    "section_name": "Brown Noise",
+    "section_description": "Brown noise, or brownian noise refers to a power density which increases 6 dB per octave with increasing frequency. Benefits associated while listening to it are relaxation, improved focus, and of course, sleep improvement.",
+    "section_link": "brown_section_process(0.3);"
    }
 ]
