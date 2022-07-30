@@ -211,7 +211,6 @@
     <script src="./js/plugins.js"></script>
     <script src="./noise-processor/noise-processor.js"></script>
     <script>
-      console.log("search is accessed");
       const dataUserNoise = document.querySelector(".data-user-noise");
       const dataNoiseContainer = document.querySelector(".noiseContainer");
       const searchInput = document.querySelector(".searching");
@@ -241,7 +240,6 @@
         noisePlay.setAttribute("onclick", noisePreset.noise_start);
         noiseStop.setAttribute("onclick", noisePreset.noise_stop);
         dataNoiseContainer.append(noiseNode);
-        console.log(noisePreset.noise_name);
         return {nTitle: noisePreset.noise_name, nDesc: noisePreset.noise_description, element: noiseNode};
         });
       });
