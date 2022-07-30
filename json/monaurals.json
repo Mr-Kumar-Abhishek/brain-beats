@@ -566,13 +566,18 @@
    },
    {
       "monaural_name": "40 hz Monaural Beats over 852 hz solfeggio",
-      "monaural_description": "Sounds at this frequency is used for Alzheimer's therapy [Phase 1] studies  to stimulate an increased neural response and fight symptoms of dementia. This Monaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance.  <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5486945/' title='science of 40 hz'>  Read more here,</a> however, the research article has been retracted except for therapy of Alzheimer's",
+      "monaural_description": "Sounds at this frequency is used for Alzheimer's therapy [Phase 1] studies  to stimulate an increased neural response and fight symptoms of dementia. This Monaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. ",
       "monaural_start": "play_monaural(852, 892);"
    },
    {
       "monaural_name": "40 hz Monaural Beats over 963 hz solfeggio",
-      "monaural_description": "Sounds at this frequency is used for Alzheimer's therapy [Phase 2] studies to stimulate an increased neural response and fight symptoms of dementia. This Monaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance.  <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5486945/' title='science of 40 hz'> Read more here,</a>  however, the research article has been retracted except for therapy of Alzheimer's",
+      "monaural_description": "Sounds at this frequency is used for Alzheimer's therapy [Phase 2] studies to stimulate an increased neural response and fight symptoms of dementia. This Monaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. ",
       "monaural_start": "play_monaural(963, 1003);"
+   },
+   {
+      "monaural_name": "40 hz Monaural Beats between pure tone 984 hz and pure tone 1024 hz",
+      "monaural_description": "Sounds at this frequency is used for Alzheimer's therapy [Phase 3] studies to stimulate an increased neural response and fight symptoms of dementia. This Monaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. ",
+      "monaural_start": "play_monaural(984, 1024);"
    },
    {
       "monaural_name": "83 hz Monaural Beats over 174 hz solfeggio",
