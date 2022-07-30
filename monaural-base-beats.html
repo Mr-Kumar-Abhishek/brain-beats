@@ -4251,6 +4251,37 @@
     <script src="./js/plugins.js"></script>
     <script src="./js/bootstrap-input-spinner.js"></script>
     <script src="./js/main.js"></script>
-    
+    <script>
+      const dataUserMonaurals = document.querySelector(".data-user-monaurals");
+      const dataMonauralContainer = document.querySelector(".monauralContainer");
+      const searchInput = document.querySelector(".searching");
+
+      let mPresets = [];
+
+      searchInput.addEventListener("input", (e)=> {
+        const value  = e.target.value.toLowerCase();
+        mPresets.forEach(mPreset => {
+          const isVisible = mPreset.mTitle.toLowerCase().includes(value) || mPreset.mDesc.toLowerCase().includes(value);
+          mPreset.element.classList.toggle("d-none", !isVisible)
+        });
+      });
+
+    fetch("./json/monaurals.json")
+      .then(res => res.json())
+      .then(data => {
+       mPresets = data.map(monauralPreset => {
+        const monauralNode = dataUserMonaurals.content.cloneNode(true).children[0];
+        const monauralTitle = monauralNode.querySelector(".card-title");
+        const monauralDescription = monauralNode.querySelector(".card-text");
+        const monauralPlay = monauralNode.querySelector(".play");
+        monauralTitle.textContent = monauralPreset.monaural_name;
+        monauralDescription.textContent = monauralPreset.monaural_description;
+        monauralPlay.setAttribute("onclick", monauralPreset.monaural_start);
+        dataMonauralContainer.append(monauralNode);
+        console.log(monauralNode);
+        return {mTitle: monauralPreset.monaural_name, mDesc: monauralPreset.monaural_description, element: monauralNode};
+        });
+      });
+    </script>    
   </body>
 </html>
