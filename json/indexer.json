@@ -1,17 +1,17 @@
 [ 
    {
-    "section_name": "White Noise",
-    "section_description": "White noise is process with flat frequency spectrum when it is plotted in a linear function of frequency. It is used in treatment of tinnitus. It is also very good for masking background sounds.",
-    "section_link": "white_section_process(0.3);"
+    "section_name": "Noise Colours",
+    "section_description": "Noise colors refers to the power spectrum of noise signals. These are used for treating various ear and hearing issues.",
+    "section_link": "noise.html"
    },
    {
-    "section_name": "Pink Noise",
-    "section_description": "The frequency of pink noise is linear in logarithmic scale. It used in treatment of hyperacusis and tinnitus.",
-    "section_link": "pink_section_process(0.3);"
+    "section_name": "Solfeggio Frequency",
+    "section_description": "Base Tones used by monks to meditate via tibetian singing bowl. These include classical tibetian singing bowl frequencies to meditate to.",
+    "section_link": "solfeggio-frequency.html"
    },
    {
-    "section_name": "Brown Noise",
-    "section_description": "Brown noise, or brownian noise refers to a power density which increases 6 dB per octave with increasing frequency. Benefits associated while listening to it are relaxation, improved focus, and of course, sleep improvement.",
-    "section_link": "brown_section_process(0.3);"
+    "section_name": "Pure Tones",
+    "section_description": "A pure tone is a sound with a sinusoidal waveform. Apart from Solfeggio Frequencies, modern meditators also use pure tones to meditate. Some of these frequencies have positive effects on body even without subjects meditating.",
+    "section_link": "pure-tones.html"
    }
 ]
