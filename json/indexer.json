@@ -13,5 +13,10 @@
     "section_name": "Pure Tones",
     "section_description": "A pure tone is a sound with a sinusoidal waveform. Apart from Solfeggio Frequencies, modern meditators also use pure tones to meditate. Some of these frequencies have positive effects on body even without subjects meditating.",
     "section_link": "pure-tones.html"
+   },
+   {
+    "section_name": "Binaural Beats",
+    "section_description": "Binaural beats are auditory illusion perceived when two different pure-tone sine waves are presented to a listener dichotically. These are used in modern meditations.",
+    "section_link": "binaural-base-beats.html"
    }
 ]
