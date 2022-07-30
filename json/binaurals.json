@@ -176,17 +176,17 @@
    },
    {
     "binaural_name": "4 hz Binaural Beats over Solfeggio 396 hz",
-    "binaural_description": "Binaural beats for seduction [Phase 3] of whole being. <strong> It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people. </strong>",
+    "binaural_description": "Binaural beats for seduction [Phase 3] of whole being.   It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people.  ",
     "binaural_start": "play_binaural(396, 400);"
    },
    {
     "binaural_name": "4 hz Binaural Beats over Solfeggio 417 hz",
-    "binaural_description": "Binaural beats for seduction [Phase 1] of sacral intuition. <strong> It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people.</strong>",
+    "binaural_description": "Binaural beats for seduction [Phase 1] of sacral intuition.   It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people. ",
     "binaural_start": "play_binaural(417, 421);"
    },
    {
     "binaural_name": "4 hz Binaural Beats over Solfeggio 639 hz",
-    "binaural_description": "Binaural beats for seduction [Phase 2] of heart. <strong> It should not be used in public places if you value your security from strangers. </strong>",
+    "binaural_description": "Binaural beats for seduction [Phase 2] of heart.   It should not be used in public places if you value your security from strangers.  ",
     "binaural_start": "play_binaural(639, 643);"
    },
    {
@@ -296,17 +296,17 @@
    },
    {
       "binaural_name": "7 hz Binaural Beats over 285 hz solfeggio",
-      "binaural_description": "Enhanced bone growth. <strong> Can also resonate and rupture organs at excessive intensity. </strong> Used as a treatment of sleep disturbances [Phase 1].",
+      "binaural_description": "Enhanced bone growth.   Can also resonate and rupture organs at excessive intensity.   Used as a treatment of sleep disturbances [Phase 1].",
       "binaural_start": "play_binaural(285, 292);"
    },
    {
       "binaural_name": "7 hz Binaural Beats over 852 hz solfeggio",
-      "binaural_description": "Mental vision and astral projection vision [Phase 3], bending of objects [Phase 1], psychic vision for psychic surgery [Phase 1], Increased Reaction Time [Phase 1], Mass aggregate frequency [Phase 1]. It can deaggregate matter [Phase 1]. <strong> Can also resonate and rupture organs at excessive intensity. </strong> Used as a treatment of sleep disturbances[Phase 2].",
+      "binaural_description": "Mental vision and astral projection vision [Phase 3], bending of objects [Phase 1], psychic vision for psychic surgery [Phase 1], Increased Reaction Time [Phase 1], Mass aggregate frequency [Phase 1]. It can deaggregate matter [Phase 1].   Can also resonate and rupture organs at excessive intensity.   Used as a treatment of sleep disturbances[Phase 2].",
       "binaural_start": "play_binaural(852, 859);"
    },
    {
       "binaural_name": "7 hz Binaural Beats over 963 hz solfeggio",
-      "binaural_description": "Mental and astral projection [Phase 4], bending of objects [Phase 2], psychic surgery [Phase 2], Increased Reaction Time [Phase 2], Mass aggregate frequency [Phase 2]. It can deaggregate matter [Phase 2]. <strong> Can also resonate and rupture organs at excessive intensity. </strong> Used as a treatment of sleep disturbances [Phase 3].",
+      "binaural_description": "Mental and astral projection [Phase 4], bending of objects [Phase 2], psychic surgery [Phase 2], Increased Reaction Time [Phase 2], Mass aggregate frequency [Phase 2]. It can deaggregate matter [Phase 2].   Can also resonate and rupture organs at excessive intensity.   Used as a treatment of sleep disturbances [Phase 3].",
       "binaural_start": "play_binaural(963, 970);"
    },
    {
@@ -526,37 +526,37 @@
    },
    {
       "binaural_name": "20 hz Binaural Beats over 174 hz solfeggio",
-      "binaural_description": "Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 1], sinus infection [Phase 1], head cold [Phase 1], headache [Phase 1]. Commonly used 'cure-all' Rife Frequency [Phase 1]. <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_description": "Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 1], sinus infection [Phase 1], head cold [Phase 1], headache [Phase 1]. Commonly used 'cure-all' Rife Frequency [Phase 1].   It should not to be used during labour as it causes distress.  ",
       "binaural_start": "play_binaural(174, 194);"
    },
    {
       "binaural_name": "20 hz Binaural Beats over 285 hz solfeggio",
-      "binaural_description": "Binaural beats for removing fatigue as it energizes. <strong> It should not to be used during labour as it causes distress. </strong> Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). Commonly used 'cure-all' Rife Frequency [Phase 3].",
+      "binaural_description": "Binaural beats for removing fatigue as it energizes.   It should not to be used during labour as it causes distress.   Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). Commonly used 'cure-all' Rife Frequency [Phase 3].",
       "binaural_start": "play_binaural(285, 305);"
    },
    {
       "binaural_name": "20 hz Binaural Beats over 417 hz solfeggio",
-      "binaural_description": "Binaural Beats for imposing sub-conscious commands to another's sacral intuition (The thought center of sacral intuition). <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_description": "Binaural Beats for imposing sub-conscious commands to another's sacral intuition (The thought center of sacral intuition).   It should not to be used during labour as it causes distress.  ",
       "binaural_start": "play_binaural(417, 427);"
    },
    {
       "binaural_name": "20 hz Binaural Beats over 528 hz solfeggio",
-      "binaural_description": "Binaural Beats for Adrenal Stimulant. <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_description": "Binaural Beats for Adrenal Stimulant.   It should not to be used during labour as it causes distress.  ",
       "binaural_start": "play_binaural(528, 548);"
    },
    {
       "binaural_name": "20 hz Binaural Beats over 639 hz solfeggio",
-      "binaural_description": "Binaural Beats for imposing sub-conscious commands to another (The thought center of feelings). <strong> It should not to be used during labour as it causes distress.",
+      "binaural_description": "Binaural Beats for imposing sub-conscious commands to another (The thought center of feelings).   It should not to be used during labour as it causes distress.",
       "binaural_start": "play_binaural(639, 659);"
    },
    {
       "binaural_name": "20 hz Binaural Beats over 852 hz solfeggio",
-      "binaural_description": "Stimulation of pineal gland. Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 3], sinus infection [Phase 3], head cold [Phase 3],headache [Phase 3]. Commonly used 'cure-all' Rife Frequency [Phase 1]. <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_description": "Stimulation of pineal gland. Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 3], sinus infection [Phase 3], head cold [Phase 3],headache [Phase 3]. Commonly used 'cure-all' Rife Frequency [Phase 1].   It should not to be used during labour as it causes distress.  ",
       "binaural_start": "play_binaural(852, 872);"
    },
    {
       "binaural_name": "20 hz Binaural Beats over 963 hz solfeggio",
-      "binaural_description": "Binaural Beats for imposing sub-conscious commands to another (The primary thought center). <strong> It should not to be used during labour as it causes distress. </strong>",
+      "binaural_description": "Binaural Beats for imposing sub-conscious commands to another (The primary thought center).   It should not to be used during labour as it causes distress.  ",
       "binaural_start": "play_binaural(963, 983);"
    },
    {
