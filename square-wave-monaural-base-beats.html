@@ -4198,7 +4198,7 @@
         </div>
       </div>
     -->
-      <template class="data-user-sq-monaural">
+      <template class="data-user-sq-monaurals">
 
 
         <div class="row">
@@ -4254,5 +4254,39 @@
     <script src="./js/plugins.js"></script>
     <script src="./js/bootstrap-input-spinner.js"></script>
     <script src="./js/main.js"></script>
+    <script>
+      const dataUserSqMonaurals = document.querySelector(".data-user-sq-monaurals");
+      const dataSqMonauralContainer = document.querySelector(".sq-monaural-container");
+      const searchInput = document.querySelector(".searching");
+
+      let sqmPresets = [];
+
+      searchInput.addEventListener("input", (e)=> {
+        const value  = e.target.value.toLowerCase();
+        sqmPresets.forEach(sqmPreset => {
+          const isVisible = sqmPreset.sqmTitle.toLowerCase().includes(value) || sqmPreset.sqmDesc.toLowerCase().includes(value);
+          sqmPreset.element.classList.toggle("d-none", !isVisible)
+        });
+      });
+
+    fetch("./json/sq_monaurals.json")
+      .then(res => res.json())
+      .then(data => {
+       sqmPresets = data.map(sqmonauralPreset => {
+        console.log(sqmonauralPreset);
+        const sqmonauralNode = dataUserSqMonaurals.content.cloneNode(true).children[0];
+        const sqmonauralTitle = sqmonauralNode.querySelector(".card-title");
+        const sqmonauralDescription = sqmonauralNode.querySelector(".card-text");
+        const sqmonauralPlay = sqmonauralNode.querySelector(".play");
+        sqmonauralTitle.textContent = sqmonauralPreset.sq_monaural_name;
+        // console.log(sqmonauralTitle);
+        sqmonauralDescription.textContent = sqmonauralPreset.sq_monaural_description;
+        sqmonauralPlay.setAttribute("onclick", sqmonauralPreset.sq_monaural_start);
+        dataSqMonauralContainer.append(sqmonauralNode);
+       // console.log(sqmonauralNode);
+        return {sqmTitle: sqmonauralPreset.sq_monaural_name, sqmDesc: sqmonauralPreset.sq_monaural_description, element: sqmonauralNode};
+        });
+      });
+    </script>
   </body>
 </html>
