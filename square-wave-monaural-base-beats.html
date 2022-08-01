@@ -172,7 +172,7 @@
               </ul>
             </li>
           </ul>
-          <form action="#" class="d-flex"> <input class="form-control mr-2 searching" type="search" placeholder="Search this page" aria-label="Search"></form>
+          <form action="#" id="search-form" class="d-flex"> <input class="form-control mr-2 searching" type="search" placeholder="Search this page" aria-label="Search"></form>
         </div>
       </div>
     </nav>
@@ -4285,6 +4285,10 @@
        // console.log(sqmonauralNode);
         return {sqmTitle: sqmonauralPreset.sq_monaural_name, sqmDesc: sqmonauralPreset.sq_monaural_description, element: sqmonauralNode};
         });
+      });
+
+      $("#search-form").submit(function(e) {
+        e.preventDefault();
       });
     </script>
   </body>
