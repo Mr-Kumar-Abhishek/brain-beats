@@ -168,7 +168,7 @@
               </ul>
             </li>
           </ul>
-          <form action="#" class="d-flex"> <input class="form-control mr-2 searching" type="search" placeholder="Search this page" aria-label="Search"></form>
+          <form action="#" id="search-form" class="d-flex"> <input class="form-control mr-2 searching" type="search" placeholder="Search this page" aria-label="Search"></form>
         </div>
       </div>
     </nav>
@@ -242,6 +242,10 @@
         dataNoiseContainer.append(noiseNode);
         return {nTitle: noisePreset.noise_name, nDesc: noisePreset.noise_description, element: noiseNode};
         });
+      });
+
+      $("#search-form").submit(function(e) {
+        e.preventDefault();
       });
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
