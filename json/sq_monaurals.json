@@ -290,11 +290,6 @@
     "sq_monaural_start": "play_sq_monaural(852, 858.30);"
    },
    {
-      "sq_monaural_name": "6 hz Square Wave Monaural Beats over 963 hz solfeggio",
-      "sq_monaural_description": "Square Wave Monaural Beats for active learning and retention. Must be balanced Phase 1  of increased clarity Square Wave Monaural Beats (6 hz) if things seem unclear and decisions and theories are made with wrong assumption. Must be used during sleep otherwise it will bring in depression and confusion.",
-      "sq_monaural_start": "play_sq_monaural(963, 969);"
-   },
-   {
       "sq_monaural_name": "7 hz Square Wave Monaural Beats over 285 hz solfeggio",
       "sq_monaural_description": "Enhanced bone growth. Can also resonate and rupture organs at excessive intensity. Used as a treatment of sleep disturbances [Phase 1].",
       "sq_monaural_start": "play_sq_monaural(285, 292);"
