@@ -205,11 +205,6 @@
     "monaural_start": "play_monaural(963, 967);"
    },
    {
-    "monaural_name": "4 hz Monaural Beats over Solfeggio 963 hz",
-    "monaural_description": "Monaural beats for telepathy [Phase 3]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
-    "monaural_start": "play_monaural(963, 967);"
-   },
-   {
     "monaural_name": "5 hz Monaural Beats over Solfeggio 174 hz",
     "monaural_description": "pain-relief [Phase 1] (beta endorphin increases upto 10-50% as per report). If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced.(not good).",
     "monaural_start": "play_monaural(174, 179);"
