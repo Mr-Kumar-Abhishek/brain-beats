@@ -200,16 +200,6 @@
     "sq_monaural_start": "play_sq_monaural(852, 856);"
    },
    {
-    "sq_monaural_name": "4 hz Square Wave Monaural Beats over Solfeggio 852 hz",
-    "sq_monaural_description": "Square Wave Monaural Beats for telepathy [Phase 2]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 1]. Enkephalins, Extrasensory perception [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2]",
-    "sq_monaural_start": "play_sq_monaural(852, 856);"
-   },
-   {
-    "sq_monaural_name": "4 hz Square Wave Monaural Beats over Solfeggio 963 hz",
-    "sq_monaural_description": "Square Wave Monaural Beats for telepathy [Phase 3]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
-    "sq_monaural_start": "play_sq_monaural(963, 967);"
-   },
-   {
     "sq_monaural_name": "4 hz Square Wave Monaural Beats over Solfeggio 963 hz",
     "sq_monaural_description": "Square Wave Monaural Beats for telepathy [Phase 3]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
     "sq_monaural_start": "play_sq_monaural(963, 967);"
