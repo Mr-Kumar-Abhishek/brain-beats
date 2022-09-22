@@ -200,16 +200,6 @@
     "binaural_start": "play_binaural(852, 856);"
    },
    {
-    "binaural_name": "4 hz Binaural Beats over Solfeggio 852 hz",
-    "binaural_description": "Binaural beats for telepathy [Phase 2]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 1]. Enkephalins, Extrasensory perception [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2]",
-    "binaural_start": "play_binaural(852, 856);"
-   },
-   {
-    "binaural_name": "4 hz Binaural Beats over Solfeggio 963 hz",
-    "binaural_description": "Binaural beats for telepathy [Phase 3]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
-    "binaural_start": "play_binaural(963, 967);"
-   },
-   {
     "binaural_name": "4 hz Binaural Beats over Solfeggio 963 hz",
     "binaural_description": "Binaural beats for telepathy [Phase 3]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
     "binaural_start": "play_binaural(963, 967);"
@@ -281,7 +271,7 @@
    },
    {
     "binaural_name": "6 hz Binaural Beats over 963 hz solfeggio",
-    "binaural_description": "Binaural beats for active learning and retention. Must be balanced Phase 1 of increased clarity binaural beats (6 hz) if things seem unclear and decisions and theories are made with wrong assumption. Must be used during sleep otherwise it will bring in depression and confusion.",
+    "binaural_description": "Bina6 hz Binauralural beats for active learning and retention. Must be balanced Phase 1 of increased clarity binaural beats (6 hz) if things seem unclear and decisions and theories are made with wrong assumption. Must be used during sleep otherwise it will bring in depression and confusion.",
     "binaural_start": "play_binaural(963, 969);"
    },
    {
