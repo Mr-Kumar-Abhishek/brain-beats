@@ -131,7 +131,7 @@
    },
    {
       "puretone_name": "5000 hz - Pure Tone",
-      "puretone_description": "Commonly used 'cure-all' Rife frequency. it is used on allergies, sinus infections/head colds - <strong>short use only -- long exposures destroy red blood cells.</strong>",
+      "puretone_description": "Commonly used 'cure-all' Rife frequency. it is used on allergies, sinus infections/head colds - short use only -- long exposures destroy red blood cells.",
       "puretone_start": "play_pure_tone(5000);"
    },
    {
