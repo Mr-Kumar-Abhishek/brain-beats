@@ -34,29 +34,6 @@ function volume_set(){
   return prog_volume;
 }
 
-function play_solfeggio(freq) {
- 
-  solfeggio_freq = freq;
-  
-  if (solfeggio_flag == 0){
-  
-   solfeggio_flag = 1;
-   oscillator = audioCtx.createOscillator();
-
-   oscillator.type = oscillator_type;
-    
-   var volume = audioCtx.createGain();
-   oscillator.connect(volume);
-   oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
-   volume.connect(audioCtx.destination);
-   volume.gain.value = volume_set();
-   oscillator.start();
-  }else {
-    stop_solfeggio();
-    play_solfeggio(freq);
-  }
-}
-
 function play_single_tone(freq) {
   single_tone_freq = freq;
 
