@@ -8,20 +8,20 @@ var monaural_oscillator_1;
 var monaural_oscillator_2;
 var binaural_oscillator_1;
 var binaural_oscillator_2;
-var pure_tone_oscillator;
+var single_tone_oscillator;
 var sq_monaural_oscillator_1;
 var sq_monaural_oscillator_2;
 
 var solfeggio_flag = 0;
 var monaural_flag = 0;
 var binaural_flag = 0;
-var pure_tone_flag = 0;
+var single_tone_flag = 0;
 var sq_monaural_flag = 0;
 
 var solfeggio_freq;
 var beat_freq_1;
 var beat_freq_2;
-var pure_tone_freq;
+var single_tone_freq;
 
 var bufferSize = 4096;
 
@@ -57,25 +57,25 @@ function play_solfeggio(freq) {
   }
 }
 
-function play_pure_tone(freq) {
-  pure_tone_freq = freq;
+function play_single_tone(freq) {
+  single_tone_freq = freq;
 
-  if (pure_tone_flag == 0 ) {
-    pure_tone_flag = 1;
-    pure_tone_oscillator = audioCtx.createOscillator();
+  if (single_tone_flag == 0 ) {
+    single_tone_flag = 1;
+    single_tone_oscillator = audioCtx.createOscillator();
 
-    pure_tone_oscillator.type = oscillator_type;
+    single_tone_oscillator.type = oscillator_type;
     
    var volume = audioCtx.createGain();
-   pure_tone_oscillator.connect(volume);
-   pure_tone_oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
+   single_tone_oscillator.connect(volume);
+   single_tone_oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
    volume.connect(audioCtx.destination);
    volume.gain.value = volume_set();
-   pure_tone_oscillator.start();
+   single_tone_oscillator.start();
 
   }else {
-    stop_pure_tone();
-    play_pure_tone(freq);
+    stop_single_tone();
+    play_single_tone(freq);
   }
 
 }
@@ -211,10 +211,10 @@ function stop_solfeggio(){
   }
 }
 
-function stop_pure_tone() {
-  if(pure_tone_flag == 1){
-    pure_tone_flag = 0;
-    pure_tone_oscillator.stop();
+function stop_single_tone() {
+  if(single_tone_flag == 1){
+    single_tone_flag = 0;
+    single_tone_oscillator.stop();
   }
 }
 
@@ -255,9 +255,9 @@ function play_binaural_generator(){
   play_binaural(freq1, freq2);
 }
 
-function play_pure_tone_generator(){
+function play_single_tone_generator(){
   var tone_freq = $("#freq").val();
-  play_pure_tone(tone_freq);
+  play_single_tone(tone_freq);
 }
 
 function play_sq_monaural_generator(){
@@ -296,10 +296,10 @@ function live_volume_set(){
     stop_binaural();
     play_binaural(beat_freq_1, beat_freq_2);
     
-  }else if (pure_tone_flag == 1){
+  }else if (single_tone_flag == 1){
     
-    stop_pure_tone();
-    play_pure_tone(pure_tone_freq);
+    stop_single_tone();
+    play_single_tone(single_tone_freq);
 
   }else if (sq_monaural_flag == 1){
     
