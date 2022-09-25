@@ -3,16 +3,9 @@ var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
 // create Oscillator node
 
-var oscillator;
 var double_tone_oscillator_1;
 var double_tone_oscillator_2;
-var monaural_oscillator_1;
-var monaural_oscillator_2;
-var binaural_oscillator_1;
-var binaural_oscillator_2;
 var single_tone_oscillator;
-var sq_monaural_oscillator_1;
-var sq_monaural_oscillator_2;
 
 var monaural_flag = 0;
 var binaural_flag = 0;
