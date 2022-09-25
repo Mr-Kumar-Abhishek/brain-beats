@@ -118,29 +118,7 @@ function play_sq_monaural(freq1, freq2){
   if (sq_monaural_flag == 0){
     sq_monaural_flag = 1;
     
-    sq_monaural_oscillator_1 = audioCtx.createOscillator();
-    sq_monaural_oscillator_2 = audioCtx.createOscillator();
-    
-    sq_monaural_oscillator_1.type = 'square';
-    sq_monaural_oscillator_2.type = 'square';
-    
-    var volume_1 = audioCtx.createGain();
-    var volume_2 = audioCtx.createGain();
-    
-    sq_monaural_oscillator_1.connect(volume_1);
-    sq_monaural_oscillator_2.connect(volume_2);
-
-    sq_monaural_oscillator_1.frequency.setValueAtTime(freq1, audioCtx.currentTime);
-    sq_monaural_oscillator_2.frequency.setValueAtTime(freq2, audioCtx.currentTime);
-    
-    volume_1.connect(audioCtx.destination);
-    volume_2.connect(audioCtx.destination);
-    
-    volume_1.gain.value = volume_set();
-    volume_2.gain.value = volume_set();
-    
-    sq_monaural_oscillator_1.start();
-    sq_monaural_oscillator_2.start();
+    play_double_tone(beat_freq_1, beat_freq_2, 'square', 'monaural');
     
   }else {
     stop_sq_monaural();
@@ -281,8 +259,7 @@ function stop_binaural(){
 function stop_sq_monaural(){
   if(sq_monaural_flag == 1){
     sq_monaural_flag = 0;
-    sq_monaural_oscillator_2.stop();
-    sq_monaural_oscillator_1.stop();
+    stop_double_tone();
   }
 }
 
