@@ -4,6 +4,8 @@ var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 // create Oscillator node
 
 var oscillator;
+var double_tone_oscillator_1;
+var double_tone_oscillator_2;
 var monaural_oscillator_1;
 var monaural_oscillator_2;
 var binaural_oscillator_1;
@@ -27,6 +29,7 @@ var single_tone_freq;
 var bufferSize = 4096;
 
 var oscillator_type = 'sine';
+var deviation_type = 'binaural';
 
 function volume_set(){
   var user_volume = $("#volume").val();
@@ -212,6 +215,66 @@ function play_binaural(freq1, freq2){
     play_binaural(freq1, freq2);
   }
   
+}
+
+function play_double_tone (freq1, freq2, form, deviation) {
+  if (double_tone_flag = 0) {
+    double_tone_flag = 1;
+
+    beat_freq_1 = freq1;
+    beat_freq_2 = freq2;
+    deviation_type = deviation;
+    oscillator_type = form
+    double_tone_oscillator_1 = audioCtx.createOscillator();
+    double_tone_oscillator_2 = audioCtx.createOscillator();
+    
+    var pannerNode_1 = audioCtx.createPanner();
+    var pannerNode_2 = audioCtx.createPanner();
+      
+    double_tone_oscillator_1.type = double_tone_oscillator_2.type = oscillator_type;
+
+    
+    double_tone_oscillator_1.frequency.setValueAtTime(freq1, audioCtx.currentTime);
+    double_tone_oscillator_2.frequency.setValueAtTime(freq2, audioCtx.currentTime);
+    
+    var volume_1 = audioCtx.createGain();
+    var volume_2 = audioCtx.createGain();
+    
+    double_tone_oscillator_1.connect(pannerNode_1);
+    double_tone_oscillator_2.connect(pannerNode_2);
+      
+    pannerNode_1.connect(volume_1);
+    pannerNode_2.connect(volume_2);
+    
+    volume_1.connect(audioCtx.destination);
+    volume_2.connect(audioCtx.destination);
+    
+    if (deviation == "binaural") {
+      pannerNode_1.setPosition(-1, 0, 0);
+      pannerNode_2.setPosition(1, 0, 0);
+    } else if (deviation == "monaural") {
+      pannerNode_1.setPosition(0, 0, 0);
+      pannerNode_2.setPosition(0, 0, 0);
+    }
+    
+    volume_1.gain.value = volume_set();
+    volume_2.gain.value = volume_set();
+    
+    double_tone_oscillator_1.start();
+    double_tone_oscillator_2.start();
+
+  } else {
+    stop_double_tone()
+    play_double_tone(beat_freq1, beat_freq2, oscillator_type, deviation_type);
+  }
+}
+
+function stop_double_tone() {
+  if(double_tone_flag == 1){
+    double_tone_flag = 0;
+    double_tone_oscillator_1.stop();
+    double_tone_oscillator_2.stop();
+  }
 }
 
 function stop_single_tone() {
