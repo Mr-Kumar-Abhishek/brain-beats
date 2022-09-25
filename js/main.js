@@ -56,6 +56,7 @@ function play_single_tone(freq) {
 
 }
 
+
 function play_monaural(freq1, freq2){
   
   beat_freq_1 = freq1;
@@ -178,13 +179,6 @@ function play_binaural(freq1, freq2){
     play_binaural(freq1, freq2);
   }
   
-}
-
-function stop_solfeggio(){
-  if (solfeggio_flag == 1){
-    solfeggio_flag = 0;
-    oscillator.stop(); 
-  }
 }
 
 function stop_single_tone() {
