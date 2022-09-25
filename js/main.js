@@ -46,6 +46,7 @@ function play_solfeggio(freq) {
 }
 
 function stop_solfeggio(){
+  solfeggio_flag = 0;
   stop_single_tone();
 }
 
