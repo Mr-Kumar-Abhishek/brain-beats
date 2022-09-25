@@ -17,6 +17,7 @@ var sq_monaural_oscillator_2;
 var monaural_flag = 0;
 var binaural_flag = 0;
 var pure_tone_flag = 0;
+var double_tone_flag = 0;
 var single_tone_flag = 0;
 var solfeggio_flag = 0;
 var sq_monaural_flag = 0;
@@ -100,30 +101,7 @@ function play_monaural(freq1, freq2){
   
   if (monaural_flag == 0){
     monaural_flag = 1;
-    
-    monaural_oscillator_1 = audioCtx.createOscillator();
-    monaural_oscillator_2 = audioCtx.createOscillator();
-    
-    monaural_oscillator_1.type = oscillator_type;
-    monaural_oscillator_2.type = oscillator_type;
-    
-    var volume_1 = audioCtx.createGain();
-    var volume_2 = audioCtx.createGain();
-    
-    monaural_oscillator_1.connect(volume_1);
-    monaural_oscillator_2.connect(volume_2);
-
-    monaural_oscillator_1.frequency.setValueAtTime(freq1, audioCtx.currentTime);
-    monaural_oscillator_2.frequency.setValueAtTime(freq2, audioCtx.currentTime);
-    
-    volume_1.connect(audioCtx.destination);
-    volume_2.connect(audioCtx.destination);
-    
-    volume_1.gain.value = volume_set();
-    volume_2.gain.value = volume_set();
-    
-    monaural_oscillator_1.start();
-    monaural_oscillator_2.start();
+    play_double_tone(beat_freq_1, beat_freq_2, 'sine', 'monaural');
     
   }else {
     stop_monaural();
@@ -218,7 +196,7 @@ function play_binaural(freq1, freq2){
 }
 
 function play_double_tone (freq1, freq2, form, deviation) {
-  if (double_tone_flag = 0) {
+  if (double_tone_flag == 0) {
     double_tone_flag = 1;
 
     beat_freq_1 = freq1;
@@ -265,7 +243,7 @@ function play_double_tone (freq1, freq2, form, deviation) {
 
   } else {
     stop_double_tone()
-    play_double_tone(beat_freq1, beat_freq2, oscillator_type, deviation_type);
+    play_double_tone(beat_freq_1, beat_freq_2, oscillator_type, deviation_type);
   }
 }
 
@@ -287,8 +265,7 @@ function stop_single_tone() {
 function stop_monaural(){
   if(monaural_flag == 1){
     monaural_flag = 0;
-    monaural_oscillator_2.stop();
-    monaural_oscillator_1.stop();
+    stop_double_tone();
   }
 }
 
