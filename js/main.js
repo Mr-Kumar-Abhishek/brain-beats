@@ -29,8 +29,8 @@ var single_tone_freq;
 
 var bufferSize = 4096;
 
-var oscillator_type = 'sine';
-var deviation_type = 'binaural';
+var oscillator_type = 'sine'; // default values
+var deviation_type = 'binaural'; // default values
 
 function volume_set(){
   var user_volume = $("#volume").val();
@@ -133,38 +133,8 @@ function play_binaural(freq1, freq2){
   
     if (binaural_flag == 0){
     binaural_flag = 1;
-    
-    binaural_oscillator_1 = audioCtx.createOscillator();
-    binaural_oscillator_2 = audioCtx.createOscillator();
-    var pannerNode_1 = audioCtx.createPanner();
-    var pannerNode_2 = audioCtx.createPanner();
-      
-    binaural_oscillator_1.type = oscillator_type;
-    binaural_oscillator_2.type = oscillator_type;
-    
-    binaural_oscillator_1.frequency.setValueAtTime(freq1, audioCtx.currentTime);
-    binaural_oscillator_2.frequency.setValueAtTime(freq2, audioCtx.currentTime);
-    
-    var volume_1 = audioCtx.createGain();
-    var volume_2 = audioCtx.createGain();
-    
-    binaural_oscillator_1.connect(pannerNode_1);
-    binaural_oscillator_2.connect(pannerNode_2);
-      
-    pannerNode_1.connect(volume_1);
-    pannerNode_2.connect(volume_2);
-    
-    volume_1.connect(audioCtx.destination);
-    volume_2.connect(audioCtx.destination);
-      
-    pannerNode_1.setPosition(-1, 0, 0);
-    pannerNode_2.setPosition(1, 0, 0);
-    
-    volume_1.gain.value = volume_set();
-    volume_2.gain.value = volume_set();
-    
-    binaural_oscillator_1.start();
-    binaural_oscillator_2.start();
+     
+    play_double_tone(beat_freq_1, beat_freq_2, 'sine', 'binaural');
       
   }else {
     stop_binaural();
@@ -250,11 +220,9 @@ function stop_monaural(){
 function stop_binaural(){
   if(binaural_flag == 1){
     binaural_flag = 0;
-    binaural_oscillator_2.stop();
-    binaural_oscillator_1.stop();
+    stop_double_tone()
   }
 }
-
 
 function stop_sq_monaural(){
   if(sq_monaural_flag == 1){
