@@ -277,7 +277,7 @@ function play_binaural_generator(){
 
 function play_single_tone_generator(){
   var tone_freq = $("#freq").val();
-  play_single_tone(tone_freq);
+  play_pure_tone(tone_freq);
 }
 
 function play_sq_monaural_generator(){
