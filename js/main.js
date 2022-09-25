@@ -12,13 +12,12 @@ var single_tone_oscillator;
 var sq_monaural_oscillator_1;
 var sq_monaural_oscillator_2;
 
-var solfeggio_flag = 0;
 var monaural_flag = 0;
 var binaural_flag = 0;
 var single_tone_flag = 0;
 var sq_monaural_flag = 0;
 
-var solfeggio_freq;
+
 var beat_freq_1;
 var beat_freq_2;
 var single_tone_freq;
