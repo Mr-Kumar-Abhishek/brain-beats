@@ -15,6 +15,7 @@ var sq_monaural_oscillator_2;
 var monaural_flag = 0;
 var binaural_flag = 0;
 var single_tone_flag = 0;
+var solfeggio_flag = 0;
 var sq_monaural_flag = 0;
 
 
@@ -31,6 +32,20 @@ function volume_set(){
   console.log ("User volume " + user_volume);
   var prog_volume = user_volume/100;
   return prog_volume;
+}
+
+function play_solfeggio(freq) {
+  if (solfeggio_flag == 0 ){
+    solfeggio_flag == 1;
+    play_single_tone(freq);
+  }else {
+    stop_solfeggio();
+    play_solfeggio(freq);
+  }
+}
+
+function stop_solfeggio(){
+  stop_single_tone();
 }
 
 function play_single_tone(freq) {
