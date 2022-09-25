@@ -169,11 +169,11 @@ function play_double_tone (freq1, freq2, form, deviation) {
     volume_2.connect(audioCtx.destination);
     
     if (deviation == "binaural") {
-      pannerNode_1.setPosition(-1, 0, 0);
-      pannerNode_2.setPosition(1, 0, 0);
+      pannerNode_1.positionX.setValueAtTime(-1, audioCtx.currentTime);
+      pannerNode_2.positionX.setValueAtTime(1, audioCtx.currentTime);
     } else if (deviation == "monaural") {
-      pannerNode_1.setPosition(0, 0, 0);
-      pannerNode_2.setPosition(0, 0, 0);
+      pannerNode_1.positionX.setValueAtTime(0, audioCtx.currentTime);;
+      pannerNode_2.positionX.setValueAtTime(0, audioCtx.currentTime);;
     }
     
     volume_1.gain.value = volume_set();
