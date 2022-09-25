@@ -14,6 +14,7 @@ var sq_monaural_oscillator_2;
 
 var monaural_flag = 0;
 var binaural_flag = 0;
+var pure_tone_flag = 0;
 var single_tone_flag = 0;
 var solfeggio_flag = 0;
 var sq_monaural_flag = 0;
@@ -45,6 +46,22 @@ function play_solfeggio(freq) {
 }
 
 function stop_solfeggio(){
+  stop_single_tone();
+}
+
+function play_pure_tone(freq) {
+ if (pure_tone_flag == 0) {
+  pure_tone_flag = 1;
+  play_single_tone(freq);
+ }else {
+
+  stop_pure_tone()
+  play_pure_tone(freq);
+ }
+}
+
+function stop_pure_tone() {
+  pure_tone_flag = 0;
   stop_single_tone();
 }
 
