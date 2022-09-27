@@ -1,5 +1,11 @@
-# brain-beats [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/369kumar/)
+#Brain Beats
 
-This "probably" will induce desired brainwaves in future. 
+Brain Beats is a web app which is utilised to produce sounds that will help change the brainwaves of brain. These sounds are utilized for meditation, getting sleep or even getting relief from physical problems such headaches. 
 
+Currently, the web app has 5 types of sounds that are:
 
+* Colours of Noise
+* Solfeggio Frequencies
+* Binaural Beats
+* Monaural Beats
+* Square Wave Monaural Beats
