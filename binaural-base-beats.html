@@ -177,16 +177,14 @@
       </div>
     </nav>
   
-    <div class="container-fluid fluidaner binauralContainer">
+    <div class="container-fluid fluidaner data-container">
 
-      <template class="data-user-binaurals">
+      <template class="data-cards">
         <div class="row">
           <div class="col">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">
-                  
-                </h5>
+                <h5 class="card-title">  </h5>
                 <div class="row">
                   <div class="col text-left">
                     <p class="card-text">
@@ -196,13 +194,10 @@
                 </div>
                 <div class="row">
                   <div class="col text-end">
-                    <button
-                      onclick=""
-                      class="btn btn-primary play"
-                    >
+                    <button class="btn btn-primary play">
                       Play
                     </button>
-                    <button onclick="stop_binaural();" class="btn btn-secondary">
+                    <button class="btn btn-secondary stop">
                       Stop
                     </button>
                   </div>
@@ -210,9 +205,8 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>  
       </template>
-
     </div>
 
     <div class="volume-box">
@@ -223,7 +217,9 @@
           <input id="volume" type="number" value="1" min="0" max="100" />
       </div>
     </div>
-   
+    <script>
+      const jsonData = "./json/binaurals.json";
+    </script>
 
     <script src="./js/jquery-3.6.0.slim.min.js" ></script>
     
@@ -232,41 +228,7 @@
     <script src="./js/plugins.js"></script>
     <script src="./js/bootstrap-input-spinner.js"></script>
     <script src="./js/main.js"></script>
-    <script>
-      const dataUserBinaurals = document.querySelector(".data-user-binaurals");
-      const dataBinauralContainer = document.querySelector(".binauralContainer");
-      const searchInput = document.querySelector(".searching");
-
-      let bPresets = [];
-
-      searchInput.addEventListener("input", (e)=> {
-        const value  = e.target.value.toLowerCase();
-        bPresets.forEach(bPreset => {
-          const isVisible = bPreset.bTitle.toLowerCase().includes(value) || bPreset.bDesc.toLowerCase().includes(value);
-          bPreset.element.classList.toggle("d-none", !isVisible)
-        });
-      });
-
-    fetch("./json/binaurals.json")
-      .then(res => res.json())
-      .then(data => {
-       bPresets = data.map(binauralPreset => {
-        const binauralNode = dataUserBinaurals.content.cloneNode(true).children[0];
-        const binauralTitle = binauralNode.querySelector(".card-title");
-        const binauralDescription = binauralNode.querySelector(".card-text");
-        const binauralPlay = binauralNode.querySelector(".play");
-        binauralTitle.textContent = binauralPreset.binaural_name;
-        binauralDescription.textContent = binauralPreset.binaural_description;
-        binauralPlay.setAttribute("onclick", binauralPreset.binaural_start);
-        dataBinauralContainer.append(binauralNode);
-        console.log(binauralNode);
-        return {bTitle: binauralPreset.binaural_name, bDesc: binauralPreset.binaural_description, element: binauralNode};
-        });
-      });
-      $("#search-form").submit(function(e) {
-        e.preventDefault();
-      });
-    </script>
+    <script src="./js/data.js"></script>
     <script>
       $(warning(1));
     </script>
