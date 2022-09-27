@@ -177,18 +177,14 @@
       </div>
     </nav>
 
-    <div class="container-fluid fluidaner monauralContainer">
+    <div class="container-fluid fluidaner data-container">
 
-      <template class="data-user-monaurals">
-
-
+      <template class="data-cards">
         <div class="row">
           <div class="col">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">
-                  
-                </h5>
+                <h5 class="card-title">  </h5>
                 <div class="row">
                   <div class="col text-left">
                     <p class="card-text">
@@ -198,13 +194,10 @@
                 </div>
                 <div class="row">
                   <div class="col text-end">
-                    <button
-                      onclick=""
-                      class="btn btn-primary play"
-                    >
+                    <button class="btn btn-primary play">
                       Play
                     </button>
-                    <button onclick="stop_monaural();" class="btn btn-secondary">
+                    <button class="btn btn-secondary stop">
                       Stop
                     </button>
                   </div>
@@ -212,10 +205,8 @@
               </div>
             </div>
           </div>
-        </div>
-
+        </div>  
       </template>
-
     </div>
 
     <div class="volume-box">
@@ -227,45 +218,16 @@
       </div>
     </div>
 
+    <script>
+      const jsonData = "./json/monaurals.json";
+    </script>
+
     <script src="./js/jquery-3.6.0.slim.min.js" ></script>
     <script src="./js/bootstrap.bundle.min.js" ></script>
 
     <script src="./js/plugins.js"></script>
     <script src="./js/bootstrap-input-spinner.js"></script>
-    <script src="./js/main.js"></script>
-    <script>
-      const dataUserMonaurals = document.querySelector(".data-user-monaurals");
-      const dataMonauralContainer = document.querySelector(".monauralContainer");
-      const searchInput = document.querySelector(".searching");
-
-      let mPresets = [];
-
-      searchInput.addEventListener("input", (e)=> {
-        const value  = e.target.value.toLowerCase();
-        mPresets.forEach(mPreset => {
-          const isVisible = mPreset.mTitle.toLowerCase().includes(value) || mPreset.mDesc.toLowerCase().includes(value);
-          mPreset.element.classList.toggle("d-none", !isVisible)
-        });
-      });
-
-    fetch("./json/monaurals.json")
-      .then(res => res.json())
-      .then(data => {
-       mPresets = data.map(monauralPreset => {
-        const monauralNode = dataUserMonaurals.content.cloneNode(true).children[0];
-        const monauralTitle = monauralNode.querySelector(".card-title");
-        const monauralDescription = monauralNode.querySelector(".card-text");
-        const monauralPlay = monauralNode.querySelector(".play");
-        monauralTitle.textContent = monauralPreset.monaural_name;
-        monauralDescription.textContent = monauralPreset.monaural_description;
-        monauralPlay.setAttribute("onclick", monauralPreset.monaural_start);
-        dataMonauralContainer.append(monauralNode);
-        return {mTitle: monauralPreset.monaural_name, mDesc: monauralPreset.monaural_description, element: monauralNode};
-        });
-      });
-      $("#search-form").submit(function(e) {
-        e.preventDefault();
-      });
-    </script>    
+    <script src="./js/main.js"></script> 
+    <script src="./js/data.js"></script>
   </body>
 </html>
