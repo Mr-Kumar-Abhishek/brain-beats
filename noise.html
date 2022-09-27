@@ -205,49 +205,17 @@
       </template>
     </div>
 
+    <script>
+      const jsonData = "./json/noise.json";
+    </script>
+
     <script src="./js/jquery-3.6.0.slim.min.js" ></script>
     <script src="./js/bootstrap.bundle.min.js" ></script>
 
     <script src="./js/plugins.js"></script>
     <script src="./noise-processor/noise-processor.js"></script>
-    <script>
-      const dataCards = document.querySelector(".data-cards");
-      const dataContainer = document.querySelector(".data-container");
-      const searchInput = document.querySelector(".searching");
+    <script src="./js/data.js"></script>
 
-
-      let dPresets = [];
-      searchInput.addEventListener("input", (e)=> {
-        const value  = e.target.value.toLowerCase(); 
-        dPresets.forEach(dPreset => {
-           console.log(dPreset);
-          const isVisible = dPreset.dTitle.toLowerCase().includes(value) || dPreset.dDesc.toLowerCase().includes(value);
-          dPreset.element.classList.toggle("d-none", !isVisible)
-        });
-      });
-
-    fetch("./json/noise.json")
-      .then(res => res.json())
-      .then(data => {
-       dPresets = data.map(dataPreset => {
-        const dataNode = dataCards.content.cloneNode(true).children[0];
-        const dataTitle = dataNode.querySelector(".card-title");
-        const dataDescription = dataNode.querySelector(".card-text");
-        const dataPlay = dataNode.querySelector(".play");
-        const dataStop = dataNode.querySelector(".stop");
-        dataTitle.textContent = dataPreset.data_name;
-        dataDescription.textContent = dataPreset.data_description;
-        dataPlay.setAttribute("onclick", dataPreset.data_start);
-        dataStop.setAttribute("onclick", dataPreset.data_stop);
-        dataContainer.append(dataNode);
-        return {dTitle: dataPreset.data_name, dDesc: dataPreset.data_description, element: dataNode};
-        });
-      });
-
-      $("#search-form").submit(function(e) {
-        e.preventDefault();
-      });
-    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70747360-2"></script>
     <script>
