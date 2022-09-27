@@ -13,7 +13,7 @@ searchInput.addEventListener("input", (e)=> {
   });
 });
 
-fetch("./json/indexer.json")
+fetch(jsonData)
 .then(res => res.json())
 .then(data => {
  iSections = data.map(indexSection => {
