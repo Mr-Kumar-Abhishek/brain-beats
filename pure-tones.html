@@ -175,16 +175,14 @@
       </div>
     </nav>
   
-    <div class="container-fluid fluidaner puretoneContainer">      
+    <div class="container-fluid fluidaner data-container">
 
-
-      <template class="data-user-puretone">
-
+      <template class="data-cards">
         <div class="row">
           <div class="col">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title"> </h5>
+                <h5 class="card-title">  </h5>
                 <div class="row">
                   <div class="col text-left">
                     <p class="card-text">
@@ -194,13 +192,10 @@
                 </div>
                 <div class="row">
                   <div class="col text-end">
-                    <button
-                      onclick=""
-                      class="btn btn-primary play"
-                    >
+                    <button class="btn btn-primary play">
                       Play
                     </button>
-                    <button onclick="stop_pure_tone();" class="btn btn-secondary stop">
+                    <button class="btn btn-secondary stop">
                       Stop
                     </button>
                   </div>
@@ -208,11 +203,10 @@
               </div>
             </div>
           </div>
-        </div>
-
+        </div>  
       </template>
-  
     </div>
+
 
     <div class="volume-box">
       <p>
@@ -223,46 +217,17 @@
       </div>
     </div>
 
+
+    <script>
+      const jsonData = "./json/puretones.json";
+    </script>
+
     <script src="./js/jquery-3.6.0.slim.min.js" ></script>
     <script src="./js/bootstrap.bundle.min.js" ></script>
 
     <script src="./js/plugins.js"></script>
     <script src="./js/bootstrap-input-spinner.js"></script>
     <script src="./js/main.js"></script>
-    <script>
-      const dataUserPureTone = document.querySelector(".data-user-puretone");
-      const dataPureToneContainer = document.querySelector(".puretoneContainer");
-      const searchInput = document.querySelector(".searching");
-
-      let pPresets = [];
-
-      searchInput.addEventListener("input", (e)=> {
-        const value  = e.target.value.toLowerCase();
-        pPresets.forEach(pPreset => {
-          const isVisible = pPreset.pTitle.toLowerCase().includes(value) || pPreset.pDesc.toLowerCase().includes(value);
-          pPreset.element.classList.toggle("d-none", !isVisible)
-        });
-      });
-
-    fetch("./json/puretones.json")
-      .then(res => res.json())
-      .then(data => {
-       pPresets = data.map(pureTonePreset => {
-        const pureToneNode = dataUserPureTone.content.cloneNode(true).children[0];
-        const pureToneTitle = pureToneNode.querySelector(".card-title");
-        const pureToneDescription = pureToneNode.querySelector(".card-text");
-        const pureTonePlay = pureToneNode.querySelector(".play");
-        pureToneTitle.textContent = pureTonePreset.puretone_name;
-        pureToneDescription.textContent = pureTonePreset.puretone_description;
-        pureTonePlay.setAttribute("onclick", pureTonePreset.puretone_start);
-        dataPureToneContainer.append(pureToneNode);
-        return {pTitle: pureTonePreset.puretone_name, pDesc: pureTonePreset.puretone_description, element: pureToneNode};
-        });
-      });
-
-      $("#search-form").submit(function(e) {
-        e.preventDefault();
-      });
-    </script>
+    <script src="./js/data.js"></script>
   </body>
 </html>
