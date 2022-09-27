@@ -1,4 +1,4 @@
-#Brain Beats
+# Brain Beats
 
 Brain Beats is a web app which is utilised to produce sounds that will help change the brainwaves of brain. These sounds are utilized for meditation, getting sleep or even getting relief from physical problems such headaches. 
 
