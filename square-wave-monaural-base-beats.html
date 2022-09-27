@@ -177,17 +177,14 @@
       </div>
     </nav>
    
-    <div class="container-fluid fluidaner sqMonauralContainer">
-      
-      <template class="data-user-sq-monaurals">
+    <div class="container-fluid fluidaner data-container">
 
+      <template class="data-cards">
         <div class="row">
           <div class="col">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">
-                  
-                </h5>
+                <h5 class="card-title">  </h5>
                 <div class="row">
                   <div class="col text-left">
                     <p class="card-text">
@@ -197,13 +194,10 @@
                 </div>
                 <div class="row">
                   <div class="col text-end">
-                    <button
-                      onclick=""
-                      class="btn btn-primary play"
-                    >
+                    <button class="btn btn-primary play">
                       Play
                     </button>
-                    <button onclick="stop_sq_monaural();" class="btn btn-secondary">
+                    <button class="btn btn-secondary stop">
                       Stop
                     </button>
                   </div>
@@ -211,11 +205,7 @@
               </div>
             </div>
           </div>
-        </div>
-
-
-
-
+        </div>  
       </template>
     </div>
 
@@ -228,49 +218,17 @@
       </div>
     </div>
 
+    <script>
+      const jsonData = "./json/sq_monaurals.json";
+    </script>
+
     <script src="./js/jquery-3.6.0.slim.min.js" ></script>
     <script src="./js/bootstrap.bundle.min.js" ></script>
 
     <script src="./js/plugins.js"></script>
     <script src="./js/bootstrap-input-spinner.js"></script>
     <script src="./js/main.js"></script>
-    <script>
-      const dataUserSqMonaurals = document.querySelector(".data-user-sq-monaurals");
-      const dataSqMonauralContainer = document.querySelector(".sqMonauralContainer");
-      const searchInput = document.querySelector(".searching");
+    <script src="./js/data.js"></script>
 
-      let sqmPresets = [];
-
-      searchInput.addEventListener("input", (e)=> {
-        const value  = e.target.value.toLowerCase();
-        sqmPresets.forEach(sqmPreset => {
-          const isVisible = sqmPreset.sqmTitle.toLowerCase().includes(value) || sqmPreset.sqmDesc.toLowerCase().includes(value);
-          sqmPreset.element.classList.toggle("d-none", !isVisible)
-        });
-      });
-
-    fetch("./json/sq_monaurals.json")
-      .then(res => res.json())
-      .then(data => {
-       sqmPresets = data.map(sqmonauralPreset => {
-        console.log(sqmonauralPreset);
-        const sqmonauralNode = dataUserSqMonaurals.content.cloneNode(true).children[0];
-        const sqmonauralTitle = sqmonauralNode.querySelector(".card-title");
-        const sqmonauralDescription = sqmonauralNode.querySelector(".card-text");
-        const sqmonauralPlay = sqmonauralNode.querySelector(".play");
-        sqmonauralTitle.textContent = sqmonauralPreset.sq_monaural_name;
-        // console.log(sqmonauralTitle);
-        sqmonauralDescription.textContent = sqmonauralPreset.sq_monaural_description;
-        sqmonauralPlay.setAttribute("onclick", sqmonauralPreset.sq_monaural_start);
-        dataSqMonauralContainer.append(sqmonauralNode);
-       // console.log(sqmonauralNode);
-        return {sqmTitle: sqmonauralPreset.sq_monaural_name, sqmDesc: sqmonauralPreset.sq_monaural_description, element: sqmonauralNode};
-        });
-      });
-
-      $("#search-form").submit(function(e) {
-        e.preventDefault();
-      });
-    </script>
   </body>
 </html>
