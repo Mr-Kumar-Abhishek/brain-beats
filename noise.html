@@ -173,9 +173,9 @@
       </div>
     </nav>
     
-    <div class="container-fluid fluidaner noiseContainer">
+    <div class="container-fluid fluidaner data-container">
 
-      <template class="data-user-noise">
+      <template class="data-cards">
         <div class="row">
           <div class="col">
             <div class="card">
@@ -211,36 +211,36 @@
     <script src="./js/plugins.js"></script>
     <script src="./noise-processor/noise-processor.js"></script>
     <script>
-      const dataUserNoise = document.querySelector(".data-user-noise");
-      const dataNoiseContainer = document.querySelector(".noiseContainer");
+      const dataCards = document.querySelector(".data-cards");
+      const dataContainer = document.querySelector(".data-container");
       const searchInput = document.querySelector(".searching");
 
 
-      let nPresets = [];
+      let dPresets = [];
       searchInput.addEventListener("input", (e)=> {
         const value  = e.target.value.toLowerCase(); 
-        nPresets.forEach(nPreset => {
-           console.log(nPreset);
-          const isVisible = nPreset.nTitle.toLowerCase().includes(value) || nPreset.nDesc.toLowerCase().includes(value);
-          nPreset.element.classList.toggle("d-none", !isVisible)
+        dPresets.forEach(dPreset => {
+           console.log(dPreset);
+          const isVisible = dPreset.dTitle.toLowerCase().includes(value) || dPreset.dDesc.toLowerCase().includes(value);
+          dPreset.element.classList.toggle("d-none", !isVisible)
         });
       });
 
     fetch("./json/noise.json")
       .then(res => res.json())
       .then(data => {
-       nPresets = data.map(noisePreset => {
-        const noiseNode = dataUserNoise.content.cloneNode(true).children[0];
-        const noiseTitle = noiseNode.querySelector(".card-title");
-        const noiseDescription = noiseNode.querySelector(".card-text");
-        const noisePlay = noiseNode.querySelector(".play");
-        const noiseStop = noiseNode.querySelector(".stop");
-        noiseTitle.textContent = noisePreset.noise_name;
-        noiseDescription.textContent = noisePreset.noise_description;
-        noisePlay.setAttribute("onclick", noisePreset.noise_start);
-        noiseStop.setAttribute("onclick", noisePreset.noise_stop);
-        dataNoiseContainer.append(noiseNode);
-        return {nTitle: noisePreset.noise_name, nDesc: noisePreset.noise_description, element: noiseNode};
+       dPresets = data.map(dataPreset => {
+        const dataNode = dataCards.content.cloneNode(true).children[0];
+        const dataTitle = dataNode.querySelector(".card-title");
+        const dataDescription = dataNode.querySelector(".card-text");
+        const dataPlay = dataNode.querySelector(".play");
+        const dataStop = dataNode.querySelector(".stop");
+        dataTitle.textContent = dataPreset.noise_name;
+        dataDescription.textContent = dataPreset.noise_description;
+        dataPlay.setAttribute("onclick", dataPreset.noise_start);
+        dataStop.setAttribute("onclick", dataPreset.noise_stop);
+        dataContainer.append(dataNode);
+        return {dTitle: dataPreset.noise_name, dDesc: dataPreset.noise_description, element: dataNode};
         });
       });
 
