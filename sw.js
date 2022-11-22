@@ -8,7 +8,7 @@ if (workbox) {
     console.log("Yay! Workbox is loaded !");
     workbox.precaching.precacheAndRoute([]);
 /*  cache images in the e.g others folder; edit to other folders you got
-   and config in the sw-config.js file
+   and config in the sw.js file
     */
     workbox.routing.registerRoute(
         /(.*)others(.*)\.(?:png|gif|jpg)/,
@@ -26,8 +26,8 @@ if (workbox) {
   while making sure they are updated in the background for the next use.
   */
     workbox.routing.registerRoute(
-    // cache js, css, scc files
-        /.*\.(?:css|js|scss|)/,
+    // cache js, css, scss, json files
+        /.*\.(?:css|js|scss|json|)/,
         // use cache but update in the background ASAP
         new workbox.strategies.StaleWhileRevalidate({
             // use a custom cache name
