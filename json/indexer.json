@@ -1,32 +1,38 @@
-[ 
+[
    {
-    "section_name": "Noise Colours",
-    "section_description": "Noise colors refers to the power spectrum of noise signals. These are used for treating various ear and hearing issues.",
-    "section_link": "noise.html"
+      "section_name":"Noise Colours",
+      "section_description":"Noise colors refers to the power spectrum of noise signals. These are used for treating various ear and hearing issues.",
+      "section_link":"noise.html",
+      "data_id":"nnwwl3jco"
    },
    {
-    "section_name": "Solfeggio Frequency",
-    "section_description": "Base Tones used by monks to meditate via tibetian singing bowl. These include classical tibetian singing bowl frequencies to meditate to.",
-    "section_link": "solfeggio-frequency.html"
+      "section_name":"Solfeggio Frequency",
+      "section_description":"Base Tones used by monks to meditate via tibetian singing bowl. These include classical tibetian singing bowl frequencies to meditate to.",
+      "section_link":"solfeggio-frequency.html",
+      "data_id":"cmxyewjco"
    },
    {
-    "section_name": "Pure Tones",
-    "section_description": "A pure tone is a sound with a sinusoidal waveform. Apart from Solfeggio Frequencies, modern meditators also use pure tones to meditate. Some of these frequencies have positive effects on body even without subjects meditating.",
-    "section_link": "pure-tones.html"
+      "section_name":"Pure Tones",
+      "section_description":"A pure tone is a sound with a sinusoidal waveform. Apart from Solfeggio Frequencies, modern meditators also use pure tones to meditate. Some of these frequencies have positive effects on body even without subjects meditating.",
+      "section_link":"pure-tones.html",
+      "data_id":"t2lk3bz3q"
    },
    {
-    "section_name": "Binaural Beats",
-    "section_description": "Binaural beats are auditory illusion perceived when two different pure-tone sine waves are presented to a listener dichotically. These are used in modern meditations.",
-    "section_link": "binaural-base-beats.html"
+      "section_name":"Binaural Beats",
+      "section_description":"Binaural beats are auditory illusion perceived when two different pure-tone sine waves are presented to a listener dichotically. These are used in modern meditations.",
+      "section_link":"binaural-base-beats.html",
+      "data_id":"do761xtxq"
    },
    {
-    "section_name": "Monaural Beats",
-    "section_description": "Monaural Beats are a single pulsing beat,which is also used for meditation. It is created by the convergence of two tones emanating from a single speaker.",
-    "section_link": "monaural-base-beats.html"
+      "section_name":"Monaural Beats",
+      "section_description":"Monaural Beats are a single pulsing beat,which is also used for meditation. It is created by the convergence of two tones emanating from a single speaker.",
+      "section_link":"monaural-base-beats.html",
+      "data_id":"u8j71847r"
    },
    {
-    "section_name": "Square Wave Monaural Beats",
-    "section_description": "Square wave monaural beat is a single pulsing beat in square wave (a non-sinusoidal periodic waveform) which is also used for meditation. It is created by the convergence of two square wave with duty cycle of 50% emanating from a single speaker. Very less is known about these sounds. Feedback from users are requested.",
-    "section_link": "square-wave-monaural-base-beats.html"
+      "section_name":"Square Wave Monaural Beats",
+      "section_description":"Square wave monaural beat is a single pulsing beat in square wave (a non-sinusoidal periodic waveform) which is also used for meditation. It is created by the convergence of two square wave with duty cycle of 50% emanating from a single speaker. Very less is known about these sounds. Feedback from users are requested.",
+      "section_link":"square-wave-monaural-base-beats.html",
+      "data_id":"ahie7rt6e"
    }
 ]
