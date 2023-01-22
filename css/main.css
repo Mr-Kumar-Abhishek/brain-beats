@@ -44,6 +44,22 @@ input[inputmode="decimal"] {
   margin-top: 0.6rem;
 }
 
+.fav, .faved {
+  font-size: 2rem;
+  color: rgb(233, 48, 94);
+  cursor: pointer;
+}
+
+.fav:hover:before,
+.faved:before {
+  content: ' \2665';
+  
+}
+
+.faved:hover:before {
+  content: ' \2661';
+}
+
 @media only screen and (min-width: 720px) {
   .volume-box {
     width: 540px;
