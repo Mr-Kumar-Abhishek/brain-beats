@@ -26,6 +26,12 @@ fetch(jsonData)
   sectionDescription.textContent = indexSection.section_description;
   sectionLink.setAttribute("href", indexSection.section_link);
   sectionID.setAttribute("id", indexSection.data_id);
+  console.log(favorites);
+  // add class 'faved' to each favorite
+  if (favorites.includes(sectionID.id)) {
+    sectionID.classList.add("faved");
+    console.log(sectionID);
+  }
   dataSectionContainer.append(sectionNode);
   return {iTitle: indexSection.section_name, iDesc: indexSection.section_description, element: sectionNode};
   });
