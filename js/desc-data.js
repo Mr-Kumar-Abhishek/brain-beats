@@ -1,3 +1,6 @@
+// get favorites from local storage or empty array
+var favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+
 const dataUserIndex = document.querySelector(".data-user-index");
 const dataSectionContainer = document.querySelector(".sectionContainer");
 const searchInput = document.querySelector(".searching");
@@ -39,3 +42,5 @@ fetch(jsonData)
 $("#search-form").submit(function(e) {
   e.preventDefault();
 });
+
+const eventer = dataSectionContainer;
