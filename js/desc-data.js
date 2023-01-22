@@ -30,7 +30,6 @@ fetch(jsonData)
   // add class 'faved' to each favorite
   if (favorites.includes(sectionID.id)) {
     sectionID.classList.add("faved");
-    console.log(sectionID);
   }
   dataSectionContainer.append(sectionNode);
   return {iTitle: indexSection.section_name, iDesc: indexSection.section_description, element: sectionNode};
