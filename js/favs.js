@@ -5,7 +5,7 @@ favorites.forEach(function(favorite) {
   document.getElementById(favorite).className = 'fav';
 });
 // register click event listener
-document.querySelector('.list').addEventListener('click', function(e) {
+document.querySelector('.sectionContainer').addEventListener('click', function(e) {
   var id = e.target.id,
       item = e.target,
       index = favorites.indexOf(id);
