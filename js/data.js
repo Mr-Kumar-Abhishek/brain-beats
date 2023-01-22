@@ -22,10 +22,12 @@ fetch(jsonData)
   const dataDescription = dataNode.querySelector(".card-text");
   const dataPlay = dataNode.querySelector(".play");
   const dataStop = dataNode.querySelector(".stop");
+  const dataID = dataNode.querySelector(".fav");
   dataTitle.textContent = dataPreset.data_name;
   dataDescription.textContent = dataPreset.data_description;
   dataPlay.setAttribute("onclick", dataPreset.data_start);
   dataStop.setAttribute("onclick", dataPreset.data_stop);
+  dataID.setAttribute("id", dataPreset.data_id);
   dataContainer.append(dataNode);
   return {dTitle: dataPreset.data_name, dDesc: dataPreset.data_description, element: dataNode};
   });
