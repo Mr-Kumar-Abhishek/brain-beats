@@ -1,9 +1,6 @@
 // get favorites from local storage or empty array
 var favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-// add class 'fav' to each favorite
-favorites.forEach(function(favorite) {
-  $("#" + favorite).addClass("faved");
-});
+
 // register click event listener
 document.querySelector('.sectionContainer').addEventListener('click', function(e) {
   var item = $(e.target);
