@@ -29,8 +29,8 @@ fetch(jsonData)
   dataStop.setAttribute("onclick", dataPreset.data_stop);
   dataID.setAttribute("id", dataPreset.data_id);
   if (favorites.includes(dataID.id)) {
-    element.classList.add("faved");
-    }
+    dataID.classList.add("faved");
+  }
   dataContainer.append(dataNode);
   return {dTitle: dataPreset.data_name, dDesc: dataPreset.data_description, element: dataNode};
   });
