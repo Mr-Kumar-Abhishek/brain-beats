@@ -21,9 +21,11 @@ fetch(jsonData)
   const sectionTitle = sectionNode.querySelector(".card-title");
   const sectionDescription = sectionNode.querySelector(".card-text");
   const sectionLink = sectionNode.querySelector(".linker");
+  const sectionID = sectionNode.querySelector(".fav");
   sectionTitle.textContent = indexSection.section_name;
   sectionDescription.textContent = indexSection.section_description;
   sectionLink.setAttribute("href", indexSection.section_link);
+  sectionID.setAttribute("id", indexSection.data_id);
   dataSectionContainer.append(sectionNode);
   return {iTitle: indexSection.section_name, iDesc: indexSection.section_description, element: sectionNode};
   });
