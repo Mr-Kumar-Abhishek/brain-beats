@@ -1,8 +1,6 @@
-// get favorites from local storage or empty array
-var favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
 // register click event listener
-document.querySelector('.sectionContainer').addEventListener('click', function(e) {
+eventer.addEventListener('click', function(e) {
   var item = $(e.target);
   var id = item.attr("id");
   var index = favorites.indexOf(id);
