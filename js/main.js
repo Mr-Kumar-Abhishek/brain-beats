@@ -255,6 +255,8 @@ function play_pink_noise() {
   }
 }
 
+
+
 function stop_double_tone() {
   if(double_tone_flag == 1){
     double_tone_flag = 0;
@@ -295,6 +297,12 @@ function stop_white_noise() {
   white_noise_flag = 0;
   white_noise_node.stop();
   white_noise_volume.disconnect(audioCtx.destination);
+}
+
+function stop_pink_noise() {
+  pink_noise_flag = 0;
+  pink_noise_node.stop();
+  pink_noise_volume.disconnect(audioCtx.destination);
 }
 
 function play_monaural_generator(){
