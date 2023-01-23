@@ -33,8 +33,17 @@ var white_noise_volume;
 var pink_noise_node;
 var pink_noise_volume;
 
-var brown_noise_node;
-var brown_noise_volume;
+
+var audioContext;
+var whiteNoiseNode;
+var whiteNoiseNodeGain;
+var pinkNoiseNode;
+var pinkNoiseNodeGain;
+var brownNoiseNode;
+var brownNoiseNodeGain;
+var boolWhite = 0;
+var boolPink = 0;
+var boolBrown = 0;
 
 
 var oscillator_type = 'sine'; // default values
@@ -258,28 +267,23 @@ function play_pink_noise() {
   }
 }
 
-function play_brown_noise() {
-  if (brown_noise_flag == 0) {
-      brown_noise_flag = 1;
-      var bufferSize = 4096;
-      var brownNoiseBuffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
-      var output = brownNoiseBuffer.getChannelData(0);
-      var lastOut = 0.0;
-      for (var i = 0; i < bufferSize; i++) {
-          var white = Math.random() * 2 - 1;
-          output[i] = (lastOut + (0.02 * white)) / 1.02;
-          lastOut = output[i];
-        }
-        brown_noise_node = audioCtx.createBufferSource();
-        brown_noise_node.buffer = brownNoiseBuffer;
-        brown_noise_volume = audioCtx.createGain();
-        brown_noise_node.connect(brown_noise_volume);
-        brown_noise_volume.connect(audioCtx.destination);
-        brown_noise_volume.gain.value = volume_set();
-        brown_noise_node.start();
-  } else {
-        stop_brown_noise();
-        play_brown_noise();
+async function play_brown_noise() {
+  if(boolBrown == 0) {
+      boolBrown = 1;
+      audioContext = audioCtx;
+      await audioContext.audioWorklet.addModule('noise-processor/brown-noise-processor.js');
+      brownNoiseNode = new AudioWorkletNode(audioContext, 'brown-noise-processor');
+      brownNoiseNodeGain = audioContext.createGain();
+      brownNoiseNodeGain.gain.value = volume_set();
+      brownNoiseNode.connect(brownNoiseNodeGain);
+      brownNoiseNodeGain.connect(audioContext.destination);
+  }
+}
+
+function stop_brown_noise() {
+  if(boolBrown == 1) {
+      boolBrown = 0;
+      brownNoiseNodeGain.disconnect();
   }
 }
 
@@ -329,12 +333,6 @@ function stop_pink_noise() {
   pink_noise_flag = 0;
   pink_noise_node.stop();
   pink_noise_volume.disconnect(audioCtx.destination);
-}
-
-function stop_brown_noise() {
-  brown_noise_flag = 0;
-  brown_noise_node.stop();
-  brown_noise_volume.disconnect(audioCtx.destination);
 }
 
 function play_monaural_generator(){
