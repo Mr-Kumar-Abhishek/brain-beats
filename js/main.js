@@ -278,23 +278,31 @@ function live_volume_set(){
     
   }else if (monaural_flag == 1){
     
-    stop_monaural();
-    play_monaural(beat_freq_1, beat_freq_2);
+    if(volume_1.gain.value != undefined && volume_2.gain.value != undefined) {
+      volume_1.gain.value = volume_set();
+      volume_2.gain.value = volume_set();
+     } 
     
   }else if (binaural_flag == 1){
     
-    stop_binaural();
-    play_binaural(beat_freq_1, beat_freq_2);
+    if(volume_1.gain.value != undefined && volume_2.gain.value != undefined) {
+      volume_1.gain.value = volume_set();
+      volume_2.gain.value = volume_set();
+     }
     
   }else if (single_tone_flag == 1){
-    
-    stop_single_tone();
-    play_single_tone(single_tone_freq);
+
+    if(volume_1.gain.value != undefined && volume_2.gain.value != undefined) {
+      volume_1.gain.value = volume_set();
+      volume_2.gain.value = volume_set();
+    }
 
   }else if (sq_monaural_flag == 1){
     
-    stop_sq_monaural();
-    play_sq_monaural(beat_freq_1, beat_freq_2);
+    if(volume_1.gain.value != undefined && volume_2.gain.value != undefined) {
+      volume_1.gain.value = volume_set();
+      volume_2.gain.value = volume_set();
+     }
     
   }
   
