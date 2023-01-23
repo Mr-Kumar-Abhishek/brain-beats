@@ -14,17 +14,25 @@ var double_tone_flag = 0;
 var single_tone_flag = 0;
 var solfeggio_flag = 0;
 var sq_monaural_flag = 0;
+var white_noise_flag = 0;
+var pink_noise_flag = 0;
 
 var volume;
 var volume_1;
 var volume_2;
-
 
 var beat_freq_1;
 var beat_freq_2;
 var single_tone_freq;
 
 var bufferSize = 4096;
+
+var white_noise_node;
+var white_noise_volume;
+
+var pink_noise_node;
+var pink_noise_volume;
+
 
 var oscillator_type = 'sine'; // default values
 var deviation_type = 'binaural'; // default values
@@ -192,6 +200,61 @@ function play_double_tone (freq1, freq2, form, deviation) {
   }
 }
 
+function play_white_noise() {
+  if (white_noise_flag == 0) {
+      white_noise_flag = 1;
+      bufferSize = 4096;
+      var whiteNoiseBuffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+      var output = whiteNoiseBuffer.getChannelData(0);
+      for (var i = 0; i < bufferSize; i++) {
+          output[i] = Math.random() * 2 - 1;
+      }
+      white_noise_node = audioCtx.createBufferSource();
+      white_noise_node.buffer = whiteNoiseBuffer;
+      white_noise_volume = audioCtx.createGain();
+      white_noise_node.connect(white_noise_volume);
+      white_noise_volume.connect(audioCtx.destination);
+      white_noise_volume.gain.value = volume_set();
+      white_noise_node.start();
+  } else {
+      stop_white_noise();
+      play_white_noise();
+  }
+}
+
+function play_pink_noise() {
+  if (pink_noise_flag == 0) {
+      pink_noise_flag = 1;
+      bufferSize = 4096;
+      var pinkNoiseBuffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+      var output = pinkNoiseBuffer.getChannelData(0);
+      var b0, b1, b2, b3, b4, b5, b6;
+      b0 = b1 = b2 = b3 = b4 = b5 = b6 = 0.0;
+      for (var i = 0; i < bufferSize; i++) {
+          var white = Math.random() * 2 - 1;
+          b0 = 0.99886 * b0 + white * 0.0555179;
+          b1 = 0.99332 * b1 + white * 0.0750759;
+          b2 = 0.96900 * b2 + white * 0.1538520;
+          b3 = 0.86650 * b3 + white * 0.3104856;
+          b4 = 0.55000 * b4 + white * 0.5329522;
+          b5 = -0.7616 * b5 - white * 0.0168980;
+          output[i] = b0 + b1 + b2 + b3 + b4 + b5 + b6 + white * 0.5362;
+          output[i] *= 0.11; // (roughly) compensate for gain
+          b6 = white * 0.115926;
+      }
+      pink_noise_node = audioCtx.createBufferSource();
+      pink_noise_node.buffer = pinkNoiseBuffer;
+      pink_noise_volume = audioCtx.createGain();
+      pink_noise_node.connect(pink_noise_volume);
+      pink_noise_volume.connect(audioCtx.destination);
+      pink_noise_volume.gain.value = volume_set();
+      pink_noise_node.start();
+  } else {
+      stop_pink_noise();
+      play_pink_noise();
+  }
+}
+
 function stop_double_tone() {
   if(double_tone_flag == 1){
     double_tone_flag = 0;
@@ -226,6 +289,12 @@ function stop_sq_monaural(){
     sq_monaural_flag = 0;
     stop_double_tone();
   }
+}
+
+function stop_white_noise() {
+  white_noise_flag = 0;
+  white_noise_node.stop();
+  white_noise_volume.disconnect(audioCtx.destination);
 }
 
 function play_monaural_generator(){
