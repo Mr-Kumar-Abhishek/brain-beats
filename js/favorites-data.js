@@ -38,6 +38,8 @@ jsonDataArray.forEach(jsonData => {
       dataContainer.append(dataNode);
       return {dTitle: dataPreset.data_name, dDesc: dataPreset.data_description, element: dataNode};
     }));
+    dPresets = dPresets.filter(dPreset => favorites.includes(dPreset.element.querySelector(".fav").id));
+    dPresets.forEach(dPreset => dataContainer.append(dPreset.element));
   });
 });
 
