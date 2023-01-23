@@ -31,14 +31,14 @@ var deviation_type = 'binaural'; // default values
 
 function volume_set(){
   var user_volume = $("#volume").val();
-  console.log ("User volume " + user_volume);
+//  console.log ("User volume " + user_volume);
   var prog_volume = user_volume/100;
   return prog_volume;
 }
 
 function play_solfeggio(freq) {
   if (solfeggio_flag == 0 ){
-    solfeggio_flag == 1;
+    solfeggio_flag = 1;
     play_single_tone(freq);
   }else {
     stop_solfeggio();
@@ -272,9 +272,9 @@ function live_volume_set(){
   console.log("live volume ran");
   
   if(solfeggio_flag == 1){
-    
-   stop_solfeggio();
-   play_solfeggio(solfeggio_freq); 
+   if(volume.gain.value != undefined) {
+    volume.gain.value = volume_set();
+   } 
     
   }else if (monaural_flag == 1){
     
