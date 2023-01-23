@@ -15,6 +15,10 @@ var single_tone_flag = 0;
 var solfeggio_flag = 0;
 var sq_monaural_flag = 0;
 
+var volume;
+var volume_1;
+var volume_2;
+
 
 var beat_freq_1;
 var beat_freq_2;
@@ -72,7 +76,7 @@ function play_single_tone(freq) {
 
     single_tone_oscillator.type = oscillator_type;
     
-   var volume = audioCtx.createGain();
+   volume = audioCtx.createGain();
    single_tone_oscillator.connect(volume);
    single_tone_oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
    volume.connect(audioCtx.destination);
@@ -156,8 +160,8 @@ function play_double_tone (freq1, freq2, form, deviation) {
     double_tone_oscillator_1.frequency.setValueAtTime(freq1, audioCtx.currentTime);
     double_tone_oscillator_2.frequency.setValueAtTime(freq2, audioCtx.currentTime);
     
-    var volume_1 = audioCtx.createGain();
-    var volume_2 = audioCtx.createGain();
+    volume_1 = audioCtx.createGain();
+    volume_2 = audioCtx.createGain();
     
     double_tone_oscillator_1.connect(pannerNode_1);
     double_tone_oscillator_2.connect(pannerNode_2);
