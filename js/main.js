@@ -212,25 +212,16 @@ function play_double_tone (freq1, freq2, form, deviation) {
   }
 }
 
-function play_white_noise() {
-  if (white_noise_flag == 0) {
-      white_noise_flag = 1;
-      bufferSize = 4096;
-      var whiteNoiseBuffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
-      var output = whiteNoiseBuffer.getChannelData(0);
-      for (var i = 0; i < bufferSize; i++) {
-          output[i] = Math.random() * 2 - 1;
-      }
-      white_noise_node = audioCtx.createBufferSource();
-      white_noise_node.buffer = whiteNoiseBuffer;
-      white_noise_volume = audioCtx.createGain();
-      white_noise_node.connect(white_noise_volume);
-      white_noise_volume.connect(audioCtx.destination);
-      white_noise_volume.gain.value = volume_set();
-      white_noise_node.start();
-  } else {
-      stop_white_noise();
-      play_white_noise();
+async function play_white_noise() {
+  if (boolWhite == 0) {
+    boolWhite = 1;
+    audioContext = new AudioContext();
+    await audioContext.audioWorklet.addModule('noise-processor/white-noise-processor.js');
+    whiteNoiseNode = new AudioWorkletNode(audioContext, 'white-noise-processor');
+    whiteNoiseNodeGain = audioContext.createGain();
+    whiteNoiseNodeGain.gain.value = volume_set();
+    whiteNoiseNode.connect(whiteNoiseNodeGain);
+    whiteNoiseNodeGain.connect(audioContext.destination);
   }
 }
 
@@ -257,13 +248,6 @@ async function play_brown_noise() {
       brownNoiseNodeGain.gain.value = volume_set();
       brownNoiseNode.connect(brownNoiseNodeGain);
       brownNoiseNodeGain.connect(audioContext.destination);
-  }
-}
-
-function stop_brown_noise() {
-  if(boolBrown == 1) {
-      boolBrown = 0;
-      brownNoiseNodeGain.disconnect();
   }
 }
 
@@ -304,15 +288,23 @@ function stop_sq_monaural(){
 }
 
 function stop_white_noise() {
-  white_noise_flag = 0;
-  white_noise_node.stop();
-  white_noise_volume.disconnect(audioCtx.destination);
+  if (boolWhite == 1 ) {
+    boolWhite = 0;
+    whiteNoiseNodeGain.disconnect();
+  }
 }
 
 function stop_pink_noise() {
   if (boolPink == 1 ){
     boolPink = 0;
     pinkNoiseNodeGain.disconnect();
+  }
+}
+
+function stop_brown_noise() {
+  if(boolBrown == 1) {
+      boolBrown = 0;
+      brownNoiseNodeGain.disconnect();
   }
 }
 
