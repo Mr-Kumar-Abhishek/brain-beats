@@ -214,7 +214,7 @@ function play_double_tone (freq1, freq2, form, deviation) {
     double_tone_oscillator_2.start();
 
   } else {
-    stop_double_tone()
+    stop_double_tone();
     play_double_tone(beat_freq_1, beat_freq_2, oscillator_type, deviation_type);
   }
 }
