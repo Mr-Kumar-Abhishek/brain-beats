@@ -79,7 +79,7 @@ function play_pure_tone(freq) {
   play_single_tone(freq);
  }else {
 
-  stop_pure_tone()
+  stop_pure_tone();
   play_pure_tone(freq);
  }
 }
@@ -174,7 +174,7 @@ function play_double_tone (freq1, freq2, form, deviation) {
     beat_freq_1 = freq1;
     beat_freq_2 = freq2;
     deviation_type = deviation;
-    oscillator_type = form
+    oscillator_type = form;
     double_tone_oscillator_1 = audioCtx.createOscillator();
     double_tone_oscillator_2 = audioCtx.createOscillator();
     
@@ -203,8 +203,8 @@ function play_double_tone (freq1, freq2, form, deviation) {
       pannerNode_1.positionX.setValueAtTime(-1, audioCtx.currentTime);
       pannerNode_2.positionX.setValueAtTime(1, audioCtx.currentTime);
     } else if (deviation == "monaural") {
-      pannerNode_1.positionX.setValueAtTime(0, audioCtx.currentTime);;
-      pannerNode_2.positionX.setValueAtTime(0, audioCtx.currentTime);;
+      pannerNode_1.positionX.setValueAtTime(0, audioCtx.currentTime);
+      pannerNode_2.positionX.setValueAtTime(0, audioCtx.currentTime);
     }
     
     volume_1.gain.value = volume_set();
@@ -286,7 +286,7 @@ function stop_monaural(){
 function stop_binaural(){
   if(binaural_flag == 1){
     binaural_flag = 0;
-    stop_double_tone()
+    stop_double_tone();
   }
 }
 
