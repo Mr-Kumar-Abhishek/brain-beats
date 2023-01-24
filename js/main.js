@@ -270,7 +270,7 @@ function play_pink_noise() {
 async function play_brown_noise() {
   if(boolBrown == 0) {
       boolBrown = 1;
-      audioContext = audioCtx;
+      audioContext = new AudioContext();
       await audioContext.audioWorklet.addModule('noise-processor/brown-noise-processor.js');
       brownNoiseNode = new AudioWorkletNode(audioContext, 'brown-noise-processor');
       brownNoiseNodeGain = audioContext.createGain();
