@@ -58,6 +58,7 @@ function volume_set(){
 
 function play_solfeggio(freq) {
   if (solfeggio_flag == 0 ){
+    stop_all();
     solfeggio_flag = 1;
     play_single_tone(freq);
   }else {
@@ -73,6 +74,7 @@ function stop_solfeggio(){
 
 function play_pure_tone(freq) {
  if (pure_tone_flag == 0) {
+  stop_all();
   pure_tone_flag = 1;
   play_single_tone(freq);
  }else {
@@ -91,6 +93,7 @@ function play_single_tone(freq) {
   single_tone_freq = freq;
 
   if (single_tone_flag == 0 ) {
+    stop_all();
     single_tone_flag = 1;
     single_tone_oscillator = audioCtx.createOscillator();
 
@@ -117,6 +120,7 @@ function play_monaural(freq1, freq2){
   beat_freq_2 = freq2;
   
   if (monaural_flag == 0){
+    stop_all();
     monaural_flag = 1;
     play_double_tone(beat_freq_1, beat_freq_2, 'sine', 'monaural');
     
@@ -133,6 +137,7 @@ function play_sq_monaural(freq1, freq2){
   beat_freq_2 = freq2;
   
   if (sq_monaural_flag == 0){
+    stop_all();
     sq_monaural_flag = 1;
     
     play_double_tone(beat_freq_1, beat_freq_2, 'square', 'monaural');
@@ -149,6 +154,7 @@ function play_binaural(freq1, freq2){
     beat_freq_2 = freq2;
   
     if (binaural_flag == 0){
+    stop_all();
     binaural_flag = 1;
      
     play_double_tone(beat_freq_1, beat_freq_2, 'sine', 'binaural');
@@ -162,6 +168,7 @@ function play_binaural(freq1, freq2){
 
 function play_double_tone (freq1, freq2, form, deviation) {
   if (double_tone_flag == 0) {
+    stop_all();
     double_tone_flag = 1;
 
     beat_freq_1 = freq1;
@@ -214,6 +221,7 @@ function play_double_tone (freq1, freq2, form, deviation) {
 
 async function play_white_noise() {
   if (boolWhite == 0) {
+    stop_all();
     boolWhite = 1;
     audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/white-noise-processor.js');
@@ -227,6 +235,7 @@ async function play_white_noise() {
 
 async function play_pink_noise() {
   if (boolPink == 0 ){
+    stop_all();
     boolPink = 1;
     audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/pink-noise-processor.js');
@@ -240,6 +249,7 @@ async function play_pink_noise() {
 
 async function play_brown_noise() {
   if(boolBrown == 0) {
+      stop_all();
       boolBrown = 1;
       audioContext = new AudioContext();
       await audioContext.audioWorklet.addModule('noise-processor/brown-noise-processor.js');
@@ -372,3 +382,15 @@ $("#volume").change(function(){
 
 $("#volume").inputSpinner();
 
+function stop_all() {
+  if (boolWhite == 1 ) { stop_white_noise(); }
+  if (boolPink == 1 ) { stop_pink_noise(); }
+  if (boolBrown == 1 ) { stop_brown_noise(); }
+  if (solfeggio_flag == 1 ) { stop_solfeggio(); }
+  if (pure_tone_flag == 1 ) { stop_pure_tone(); }
+  if (binaural_flag == 1 ) { stop_binaural(); }
+  if (monaural_flag == 1 ) { stop_monaural (); }
+  if (sq_monaural_flag == 1 ) { stop_sq_monaural(); }
+  if (single_tone_flag == 1 ) { stop_single_tone(); }
+  if (double_tone_flag == 1 ) { stop_double_tone(); }
+}
