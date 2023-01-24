@@ -373,6 +373,18 @@ function live_volume_set(){
       volume_1.gain.value = volume_set();
       volume_2.gain.value = volume_set();
      }  
+  }else if (boolWhite == 1 ) {
+    if(whiteNoiseNodeGain.gain.value != undefined ) {
+      whiteNoiseNodeGain.gain.value = volume_set();
+    }
+  }else if (boolPink == 1 ) {
+    if (pinkNoiseNodeGain.gain.value != undefined) {
+      pinkNoiseNodeGain.gain.value = volume_set();
+    }
+  }else if (boolBrown == 1) {
+    if (brownNoiseNodeGain.gain.value != undefined) {
+      brownNoiseNodeGain.gain.value = volume_set();
+    }
   }
 }
     
