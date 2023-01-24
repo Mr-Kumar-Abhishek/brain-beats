@@ -361,7 +361,7 @@ function warning(whichy){
 function live_volume_set(){
   console.log("live volume ran");
   
-  if(solfeggio_flag == 1 || single_tone_flag == 1){
+  if(solfeggio_flag == 1 || single_tone_flag == 1 || pure_tone_flag  == 1 ){
    if(volume.gain.value != undefined) {
     volume.gain.value = volume_set();
    } 
