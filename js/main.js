@@ -395,7 +395,7 @@ $("#volume").change(function(){
 $("#volume").inputSpinner();
 
 function stop_all() {
-  if (boolWhite == 1 ) { stop_white_noise(); }
+ /* if (boolWhite == 1 ) { stop_white_noise(); }
   if (boolPink == 1 ) { stop_pink_noise(); }
   if (boolBrown == 1 ) { stop_brown_noise(); }
   if (solfeggio_flag == 1 ) { stop_solfeggio(); }
@@ -404,5 +404,5 @@ function stop_all() {
   if (monaural_flag == 1 ) { stop_monaural (); }
   if (sq_monaural_flag == 1 ) { stop_sq_monaural(); }
   if (single_tone_flag == 1 ) { stop_single_tone(); }
-  if (double_tone_flag == 1 ) { stop_double_tone(); }
+  if (double_tone_flag == 1 ) { stop_double_tone(); } */
 }
