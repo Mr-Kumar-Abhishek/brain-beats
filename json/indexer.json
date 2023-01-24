@@ -34,5 +34,11 @@
       "section_description":"Square wave monaural beat is a single pulsing beat in square wave (a non-sinusoidal periodic waveform) which is also used for meditation. It is created by the convergence of two square wave with duty cycle of 50% emanating from a single speaker. Very less is known about these sounds. Feedback from users are requested.",
       "section_link":"square-wave-monaural-base-beats.html",
       "data_id":"ahie7rt6e"
+   },
+   {
+      "section_name":"Favorite Presets",
+      "section_description":"Here is the collection of all the sound presets (playable sound cards) which you have liked in brain beats. Keep in mind that if you haven't like any sounds this section will be empty.",
+      "section_link":"favorites.html",
+      "data_id":"0gjbjz4swx"
    }
 ]
