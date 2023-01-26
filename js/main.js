@@ -65,7 +65,7 @@ function play_solfeggio(freq) {
   }else {
     stop_solfeggio();
     play_solfeggio(freq);
-  }  });
+  }
 }
 
 function stop_solfeggio(){
