@@ -44,6 +44,7 @@ var brownNoiseNodeGain;
 var boolWhite = 0;
 var boolPink = 0;
 var boolBrown = 0;
+var notification;
 
 
 var oscillator_type = 'sine'; // default values
@@ -57,7 +58,21 @@ function volume_set(){
 }
 
 function play_solfeggio(freq) {
-  play_solfeggio_nt(freq);
+  Notification.requestPermission().then(function(permission) {
+    if (permission === "granted") {
+      console.log("reached granted permission!");
+      notification = new Notification("Brain Beats Playing", {
+        body: "Brain Beats Playing Sofeggio Frequency"
+      });
+      play_solfeggio_nt(freq);
+      notification.addEventListener('close', (event) => {
+        stop_solfeggio();
+      });
+    } else {
+      console.log("Didn't get permission!!");
+      play_solfeggio_nt(freq);
+    }
+  });
 }
 
 function play_solfeggio_nt(freq) {
