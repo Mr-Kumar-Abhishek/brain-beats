@@ -89,6 +89,9 @@ function play_solfeggio_nt(freq) {
 function stop_solfeggio(){
   solfeggio_flag = 0;
   stop_single_tone();
+  if(notification){
+    notification.close();
+  }
 }
 
 function play_pure_tone(freq) {
