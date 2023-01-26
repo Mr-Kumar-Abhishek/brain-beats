@@ -57,6 +57,10 @@ function volume_set(){
 }
 
 function play_solfeggio(freq) {
+  play_solfeggio_nt(freq);
+}
+
+function play_solfeggio_nt(freq) {
   if (solfeggio_flag == 0 ){
     stop_all();
     solfeggio_flag = 1;
