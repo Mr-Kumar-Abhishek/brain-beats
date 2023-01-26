@@ -58,24 +58,6 @@ function volume_set(){
 }
 
 function play_solfeggio(freq) {
-  Notification.requestPermission().then(function(permission) {
-    if (permission === "granted") {
-      console.log("reached granted permission!");
-      notification = new Notification("Brain Beats Playing", {
-        body: "Brain Beats Playing Sofeggio Frequency"
-      });
-      play_solfeggio_nt(freq);
-      notification.addEventListener('close', (event) => {
-        stop_solfeggio();
-      });
-    } else {
-      console.log("Didn't get permission!!");
-      play_solfeggio_nt(freq);
-    }
-  });
-}
-
-function play_solfeggio_nt(freq) {
   if (solfeggio_flag == 0 ){
     stop_all();
     solfeggio_flag = 1;
@@ -83,15 +65,12 @@ function play_solfeggio_nt(freq) {
   }else {
     stop_solfeggio();
     play_solfeggio(freq);
-  }
+  }  });
 }
 
 function stop_solfeggio(){
   solfeggio_flag = 0;
   stop_single_tone();
-  if(notification){
-    notification.close();
-  }
 }
 
 function play_pure_tone(freq) {
