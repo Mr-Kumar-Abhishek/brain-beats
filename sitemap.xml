@@ -6,59 +6,72 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 
+
 <url>
   <loc>https://brain-beats.netlify.app/</loc>
-  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://brain-beats.netlify.app/index.html</loc>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://brain-beats.netlify.app/solfeggio-frequency.html</loc>
-  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://brain-beats.netlify.app/binaural-base-beats.html</loc>
-  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://brain-beats.netlify.app/monaural-base-beats.html</loc>
-  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://brain-beats.netlify.app/binaural-beats-generator.html</loc>
-  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://brain-beats.netlify.app/monaural-beats-generator.html</loc>
-  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://brain-beats.netlify.app/noise.html</loc>
-  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://brain-beats.netlify.app/pure-tones.html</loc>
-  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://brain-beats.netlify.app/pure-tone-generator.html</loc>
-  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
+  <loc>https://brain-beats.netlify.app/binaural-base-beats.html</loc>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brain-beats.netlify.app/monaural-base-beats.html</loc>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://brain-beats.netlify.app/square-wave-monaural-base-beats.html</loc>
-  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brain-beats.netlify.app/pure-tone-generator.html</loc>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brain-beats.netlify.app/binaural-beats-generator.html</loc>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brain-beats.netlify.app/monaural-beats-generator.html</loc>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://brain-beats.netlify.app/square-wave-monaural-beats-generator.html</loc>
-  <lastmod>2019-10-22T02:20:46+00:00</lastmod>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://brain-beats.netlify.app/noise.html</loc>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brain-beats.netlify.app/favorites.html</loc>
+  <lastmod>2023-02-04T10:11:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
