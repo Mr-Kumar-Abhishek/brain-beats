@@ -390,6 +390,13 @@
       "data_start":"play_monaural(852, 858.30);",
       "data_stop":"stop_monaural();",
       "data_id":"mjpef02a4"
+   },   
+   {
+      "data_name":"6.5 hz Monaural Beats over 888 hz Pure Tone",
+      "data_description":"Monaural Beats for Reality Shifting [flavor 2]. Center for theta brainwave frequency range [Last Phase]. Around this frequency there is frontal lobe or brain entrainment of two hemisphere. ",
+      "data_start":"play_monaural(888, 894.5);",
+      "data_stop":"stop_monaural();",
+      "data_id":"n0crqfuu0p"
    },
    {
       "data_name":"7 hz Monaural Beats over 285 hz solfeggio",
