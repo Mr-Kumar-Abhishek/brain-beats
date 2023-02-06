@@ -7,6 +7,13 @@
       "data_id":"luq902d0un"
    },
    {
+      "data_name":"0.1 hz Binaural Beats over Solfeggio 285 hz",
+      "data_description":"Binaural Beats for Organ and muscle resonances [Phase 2]. Good for building muscles. To be used during excercise and sleep.",
+      "data_start":"play_binaural(285, 285.1);",
+      "data_stop":"stop_binaural();",
+      "data_id":"dcpn82qv4p"
+   },
+   {
       "data_name":"0.15 hz Binaural Beats over Solfeggio 417 hz",
       "data_description":"Binaural Beats for relief from depression [Phase 1] due to past events. This is for mild depression[Phase 1]. Range Binaurals for it are comming soon which will be more effective.",
       "data_start":"play_binaural(417, 417.15);",
