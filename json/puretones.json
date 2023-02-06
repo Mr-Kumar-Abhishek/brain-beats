@@ -126,6 +126,13 @@
       "data_id":"h2hl9tjtq"
    },
    {
+      "data_name":"777 hz - Pure Tone",
+      "data_description":"Angelic frequency for luck and abundance. This is the frequency for free spirit, joy and celebrations. It lets go of internal blocks, limitations and obstacle.",
+      "data_start":"play_pure_tone(777);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"fktjuti4gj"
+   },
+   {
       "data_name":"787 hz - Pure Tone",
       "data_description":"Associated with eyes, gives a higher visualization effect. Its the higher octave of 12.3. It used to treat Allergies, Sinusitis. Commonly used 'cure-all' Rife frequency.",
       "data_start":"play_pure_tone(787);",
