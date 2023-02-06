@@ -7,6 +7,13 @@
       "data_id":"gtozkhl4xr"
    },
    {
+      "data_name":"0.1 hz Monaural Beats over Solfeggio 285 hz",
+      "data_description":"Monaural Beats for Organ and muscle resonances [Phase 2]. Good for building muscles. To be used during excercise and sleep.",
+      "data_start":"play_monaural(285, 285.1);",
+      "data_stop":"stop_monaural();",
+      "data_id":"hvgium6w3v"
+   },
+   {
       "data_name":"0.15 hz Monaural Beats over Solfeggio 417 hz",
       "data_description":"Monaural Beats for relief from depression [Phase 1] due to past events. This is for mild depression[Phase 1]. Range Monaurals for it are comming soon which will be more effective.",
       "data_start":"play_monaural(417, 417.15);",
