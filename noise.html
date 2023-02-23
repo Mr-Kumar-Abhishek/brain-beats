@@ -79,24 +79,31 @@
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Brain Beats</a>
+        <a class="navbar-brand" href="/">Brain Beats</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link"  href="solfeggio-frequency.html"
-              >Solfeggio Frequency</a
-            >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pure-tones.html"
-              >Pure Tones</a
-            >
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sine wave tones
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                <li>
+                  <a class="dropdown-item" href="solfeggio-frequency.html"
+                    >Solfeggio Frequency</a
+                  >
+                </li>
+                <li>
+                <a class="dropdown-item" href="pure-tones.html"
+                  >Pure Tones</a
+                >
+                </li>
+              </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -148,13 +155,10 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="noise.html">Colours of Noise</a>
+              <a class="nav-link" href="noise.html">Colours of Noise</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="favorites.html">Favorites</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://ko-fi.com/brainbeats">Give Coffee</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -171,6 +175,11 @@
                   >Chat</a
                 >
                 </li>
+                <li>
+                  <a class="dropdown-item" href="https://ko-fi.com/brainbeats"
+                  >Give Coffee</a
+                >
+                </li>
               </ul>
             </li>
           </ul>
@@ -178,7 +187,7 @@
         </div>
       </div>
     </nav>
-    
+      
     <div class="container-fluid fluidaner data-container">
 
       <template class="data-cards">
