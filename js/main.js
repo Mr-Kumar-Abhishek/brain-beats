@@ -392,7 +392,6 @@ function warning(whichy){
 
 
 function toggle_volume(){
-  console.log("toggle volume called.");
   if (isochronic_flag == 1) {
     if (volume.gain.value == 0) {
       volume.gain.value = volume_set();
