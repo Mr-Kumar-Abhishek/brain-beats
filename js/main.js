@@ -46,6 +46,7 @@ var boolWhite = 0;
 var boolPink = 0;
 var boolBrown = 0;
 var notification;
+var toggler;
 
 
 var oscillator_type = 'sine'; // default values
@@ -227,6 +228,15 @@ function play_isochronic(freq1, freq2) {
     beat_freq_1 = freq1;
     beat_freq_2 = freq2;
     console.log("Playing isochronic at " + freq1 + " " + freq2 + " At beat " + beat_freq_1 + " " + beat_freq_2);
+    single_tone_oscillator = audioCtx.createOscillator();
+    single_tone_oscillator.type = "square";
+    volume = audioCtx.createGain();
+    single_tone_oscillator.connect(volume);
+    single_tone_oscillator.frequency.setValueAtTime(freq1, audioCtx.currentTime); // value in hertz
+    volume.connect(audioCtx.destination);
+    volume.gain.value = volume_set();
+    single_tone_oscillator.start();
+    toggler = window.setInterval(toggle_volume, (1000/(freq2*2)));
   }else {
     stop_isochronic();
     play_isochronic(beat_freq_1, beat_freq_2);
@@ -335,7 +345,9 @@ function stop_brown_noise() {
 function stop_isochronic() {
   if (isochronic_flag == 1) {
     isochronic_flag = 0;
-    console.log("isocrhronic stopped.");
+    clearInterval(toggler);
+    stop_single_tone();
+    console.log("isochronic stopped.");
   }
 }
 
@@ -385,6 +397,17 @@ function warning(whichy){
   }   
 }
 
+
+function toggle_volume(){
+  console.log("toggle volume called.");
+  if (isochronic_flag == 1) {
+    if (volume.gain.value == 0) {
+      volume.gain.value = volume_set();
+    } else {
+      volume.gain.value = 0;
+    }  
+  }
+}
 
 function live_volume_set(){
   console.log("live volume ran");
