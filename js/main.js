@@ -13,6 +13,7 @@ var pure_tone_flag = 0;
 var double_tone_flag = 0;
 var single_tone_flag = 0;
 var solfeggio_flag = 0;
+var isochronic_flag = 0;
 var sq_monaural_flag = 0;
 var white_noise_flag = 0;
 var pink_noise_flag = 0;
