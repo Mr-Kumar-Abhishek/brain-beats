@@ -220,6 +220,16 @@ function play_double_tone (freq1, freq2, form, deviation) {
   }
 }
 
+function play_isochronic(freq1, freq2) {
+  if (isochronic_flag == 0) {
+    isochronic_flag = 1;
+    console.log("Playing isochronic at " + freq1 + " " + freq2);
+  }else {
+    stop_isochronic();
+    play_isochronic(beat_freq_1, beat_freq_2);
+  }
+}
+
 async function play_white_noise() {
   if (boolWhite == 0) {
     stop_all();
