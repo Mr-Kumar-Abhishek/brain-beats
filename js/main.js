@@ -226,10 +226,10 @@ function play_isochronic(freq1, freq2) {
   if (isochronic_flag == 0) {
     isochronic_flag = 1;
     beat_freq_1 = freq1;
-    beat_freq_2 = freq2;
+    beat_freq_2 = freq2 - freq1;
     console.log("Playing isochronic at " + freq1 + " " + freq2 + " At beat " + beat_freq_1 + " " + beat_freq_2);
     play_single_tone(freq1, "square");
-    toggler = window.setInterval(toggle_volume, (1000/(freq2*2)));
+    toggler = window.setInterval(toggle_volume, (1000/(beat_freq_2*2)));
   }else {
     stop_isochronic();
     play_isochronic(beat_freq_1, beat_freq_2);
