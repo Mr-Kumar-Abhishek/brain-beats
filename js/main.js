@@ -319,6 +319,14 @@ function stop_brown_noise() {
   }
 }
 
+function stop_isochronic() {
+  if (isochronic_flag == 1) {
+    isochronic_flag = 0;
+    console.log("isocrhronic stopped.");
+  }
+}
+
+
 function play_monaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
