@@ -354,7 +354,7 @@ function play_binaural_generator(){
 
 function play_isochronic_generator(){
   var freq1 = $("#freq1").val();
-  var freq2 = $("freq2").val();
+  var freq2 = $("#freq2").val();
   play_isochronic(freq1, freq2);
 }
 
