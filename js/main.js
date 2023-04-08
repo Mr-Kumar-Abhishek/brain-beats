@@ -17,6 +17,7 @@ var isochronic_flag = 0;
 var sq_monaural_flag = 0;
 var white_noise_flag = 0;
 var pink_noise_flag = 0;
+var toggle_flag = 0;
 
 var volume;
 var volume_1;
@@ -47,6 +48,7 @@ var boolPink = 0;
 var boolBrown = 0;
 var notification;
 var toggler;
+
 
 
 var oscillator_type = 'sine'; // default values
@@ -393,10 +395,12 @@ function warning(whichy){
 
 function toggle_volume(){
   if (isochronic_flag == 1) {
-    if (volume.gain.value == 0) {
+    if ( toggle_flag == 0) {
+      toggle_flag = 1;
       volume.gain.value = volume_set();
     } else {
       volume.gain.value = 0;
+      toggle_flag = 0;
     }  
   }
 }
