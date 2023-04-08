@@ -232,7 +232,7 @@ function play_isochronic(freq1, freq2) {
     toggler = window.setInterval(toggle_volume, (1000/(beat_freq_2*2)));
   }else {
     stop_isochronic();
-    play_isochronic(beat_freq_1, beat_freq_2);
+    play_isochronic(freq1, freq2);
   }
 }
 
