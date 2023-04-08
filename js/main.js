@@ -399,7 +399,7 @@ function toggle_volume(){
       toggle_flag = 1;
       volume.gain.value = volume_set();
     } else {
-      volume.gain.value = 0;
+      volume.gain.value = 0.01;
       toggle_flag = 0;
     }  
   }
