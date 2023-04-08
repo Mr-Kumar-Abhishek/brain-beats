@@ -223,7 +223,9 @@ function play_double_tone (freq1, freq2, form, deviation) {
 function play_isochronic(freq1, freq2) {
   if (isochronic_flag == 0) {
     isochronic_flag = 1;
-    console.log("Playing isochronic at " + freq1 + " " + freq2);
+    beat_freq_1 = freq1;
+    beat_freq_2 = freq2;
+    console.log("Playing isochronic at " + freq1 + " " + freq2 + " At beat " + beat_freq_1 + " " + beat_freq_2);
   }else {
     stop_isochronic();
     play_isochronic(beat_freq_1, beat_freq_2);
@@ -347,6 +349,12 @@ function play_binaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
   play_binaural(freq1, freq2);
+}
+
+function play_isochronic_generator(){
+  var freq1 = $("#freq1").val();
+  var freq2 = $("freq2").val();
+  play_isochronic(freq1, freq2);
 }
 
 function play_pure_tone_generator(){
