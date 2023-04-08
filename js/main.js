@@ -92,7 +92,7 @@ function stop_pure_tone() {
   stop_single_tone();
 }
 
-function play_single_tone(freq) {
+function play_single_tone(freq, oscillator_type) {
   single_tone_freq = freq;
 
   if (single_tone_flag == 0 ) {
@@ -228,14 +228,7 @@ function play_isochronic(freq1, freq2) {
     beat_freq_1 = freq1;
     beat_freq_2 = freq2;
     console.log("Playing isochronic at " + freq1 + " " + freq2 + " At beat " + beat_freq_1 + " " + beat_freq_2);
-    single_tone_oscillator = audioCtx.createOscillator();
-    single_tone_oscillator.type = "square";
-    volume = audioCtx.createGain();
-    single_tone_oscillator.connect(volume);
-    single_tone_oscillator.frequency.setValueAtTime(freq1, audioCtx.currentTime); // value in hertz
-    volume.connect(audioCtx.destination);
-    volume.gain.value = volume_set();
-    single_tone_oscillator.start();
+    play_single_tone(freq1, "square");
     toggler = window.setInterval(toggle_volume, (1000/(freq2*2)));
   }else {
     stop_isochronic();
