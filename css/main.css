@@ -22,7 +22,7 @@
   margin-top: 20px;
 }
 
-.volume-box {
+.volume-box, .colorOption {
   position: fixed;
   padding: 1rem;
   z-index: 1;
@@ -61,7 +61,7 @@ input[inputmode="decimal"] {
 }
 
 @media only screen and (min-width: 720px) {
-  .volume-box {
+  .volume-box, .colorOption {
     width: 540px;
   }
 }
