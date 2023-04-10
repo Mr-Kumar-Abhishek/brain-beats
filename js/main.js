@@ -63,6 +63,8 @@ var deviation_type = 'binaural'; // default values
   
 
 function start_dreamachine(freq) {
+  if(dreamachine_flag == 0 ) {
+    dreamachine_flag = 1;
       // Add the flicker class to the body element
     body.classList.add("flicker");
 
@@ -77,7 +79,10 @@ function start_dreamachine(freq) {
       cards[i].classList.add("flicker");
       cards[i].style.animationDuration = duration + "s";
     }
-
+  }else {
+    stop_dreamachine();
+    start_dreamachine(freq);
+  }
 }
 
 function stop_dreamachine() {
