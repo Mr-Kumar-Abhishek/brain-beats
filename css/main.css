@@ -60,6 +60,16 @@ input[inputmode="decimal"] {
   
 }
 
+@keyframes flicker {
+  0% { background-color: white; color: black; }
+  50% { background-color: black; color: white; }
+}
+
+.flicker {
+  animation: flicker 0.01s infinite;
+}
+
+
 @media only screen and (min-width: 720px) {
   .volume-box {
     width: 540px;
