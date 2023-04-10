@@ -18,7 +18,7 @@ searchInput.addEventListener("input", (e)=> {
 
 fetch(jsonData)
 .then(res => res.json())
-.then(data => {stop_binaural
+.then(data => {
  dPresets = data.map(dataPreset => {
   const dataNode = dataCards.content.cloneNode(true).children[0];
   const dataTitle = dataNode.querySelector(".card-title");
