@@ -12,13 +12,13 @@ searchInput.addEventListener("input", (e)=> {
   dPresets.forEach(dPreset => {
      console.log(dPreset);
     const isVisible = dPreset.dTitle.toLowerCase().includes(value) || dPreset.dDesc.toLowerCase().includes(value);
-    dPreset.element.classList.toggle("d-none", !isVisible)
+    dPreset.element.classList.toggle("d-none", !isVisible);
   });
 });
 
 fetch(jsonData)
 .then(res => res.json())
-.then(data => {
+.then(data => {stop_binaural
  dPresets = data.map(dataPreset => {
   const dataNode = dataCards.content.cloneNode(true).children[0];
   const dataTitle = dataNode.querySelector(".card-title");
