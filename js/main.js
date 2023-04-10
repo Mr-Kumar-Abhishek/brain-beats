@@ -35,7 +35,6 @@ var white_noise_volume;
 var pink_noise_node;
 var pink_noise_volume;
 
-
 var audioContext;
 var whiteNoiseNode;
 var whiteNoiseNodeGain;
@@ -53,6 +52,48 @@ var toggler;
 
 var oscillator_type = 'sine'; // default values
 var deviation_type = 'binaural'; // default values
+
+  // Get the body element
+  var body = document.querySelector("body");
+
+  var cards = document.querySelectorAll(".card");
+
+  // Define a variable to store the animation duration
+  var duration = 0.01;
+  
+
+function start_dreamachine(freq) {
+      // Add the flicker class to the body element
+    body.classList.add("flicker");
+
+    // Calculate the animation duration in seconds
+    duration = 1 / freq;
+
+    // Set the animation duration property on the body element
+    body.style.animationDuration = duration + "s";
+    
+    for (var i = 0; i < cards.length; i++) {
+      // Add the class "flicker" to each element
+      cards[i].classList.add("flicker");
+      cards[i].style.animationDuration = duration + "s";
+    }
+
+}
+
+function stop_dreamachine() {
+  // Remove the flicker class from the body element
+  body.classList.remove("flicker");
+  for (var i = 0; i < cards.length; i++) {
+    // Add the class "flicker" to each element
+    cards[i].classList.remove("flicker");
+  }
+
+}
+
+function start_dreamachine_generator(){
+  var dream_freq = $("#freq").val();
+  start_dreamachine(dream_freq);
+}
 
 function volume_set(){
   var user_volume = $("#volume").val();
