@@ -18,6 +18,7 @@ var sq_monaural_flag = 0;
 var white_noise_flag = 0;
 var pink_noise_flag = 0;
 var toggle_flag = 0;
+var dreamachine_flag = 0;
 
 var volume;
 var volume_1;
@@ -86,13 +87,15 @@ function start_dreamachine(freq) {
 }
 
 function stop_dreamachine() {
-  // Remove the flicker class from the body element
+  if(dreamachine_flag == 1 ){
+  dreamachine_flag = 0;
+    // Remove the flicker class from the body element
   body.classList.remove("flicker");
   for (var i = 0; i < cards.length; i++) {
     // Add the class "flicker" to each element
     cards[i].classList.remove("flicker");
   }
-
+  }
 }
 
 function start_dreamachine_generator(){
