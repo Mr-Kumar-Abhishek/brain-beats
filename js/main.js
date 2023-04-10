@@ -430,6 +430,9 @@ function warning(whichy){
     case 1:
        alert("Lower your volume and use headphones !");
        break;
+    case 3:
+      alert("Sit in a dark room. Set the desired frequency, play the dreamachine generator and CLOSE YOUR EYES!");
+      break;
   }   
 }
 
