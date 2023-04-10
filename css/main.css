@@ -69,6 +69,10 @@ input[inputmode="decimal"] {
   animation: flicker 0.01s infinite;
 }
 
+.card {
+  background: inherit;
+}
+
 
 @media only screen and (min-width: 720px) {
   .volume-box {
