@@ -98,46 +98,11 @@
       "data_id":"4tlocv51i"
    },
    {
-      "data_name":"5.8 hz Dreamachine Beats over Solfeggio 174 hz",
-      "data_description":"Dreamachine beats for reduction in Fear [phase 1]",
-      "data_start":"start_dreamachine(174, 179.8);",
+      "data_name":"5.8 hz Dreamachine Beats",
+      "data_description":"Dreamachine beats for reduction in Fear and Dizziness. Reduction in Absent-mindedness ",
+      "data_start":"start_dreamachine(5.8);",
       "data_stop":"stop_dreamachine();",
       "data_id":"jxghb8dqd"
-   },
-   {
-      "data_name":"5.8 hz Dreamachine Beats over Solfeggio 396 hz",
-      "data_description":"Dreamachine beats for reduction in Fear [Phase 2].",
-      "data_start":"start_dreamachine(396, 401.8);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"2kuzaslfu"
-   },
-   {
-      "data_name":"5.8 hz Dreamachine Beats over Solfeggio 528 hz",
-      "data_description":"Dreamachine beats for reduction in Fear[Phase 3].",
-      "data_start":"start_dreamachine(528, 533.8);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"jco4k5xfr"
-   },
-   {
-      "data_name":"5.8 hz Dreamachine Beats over Solfeggio 741 hz",
-      "data_description":"Dreamachine beats for reduction in Dizziness [Phase 1].",
-      "data_start":"start_dreamachine(741, 746.8);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"2rmk4t86h"
-   },
-   {
-      "data_name":"5.8 hz Dreamachine Beats over Solfeggio 852 hz",
-      "data_description":"Dreamachine beats for reduction in Dizziness [Phase 2]. Reduction in Absent-mindedness [Phase 1].",
-      "data_start":"start_dreamachine(852, 857.8);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"garrhdqif"
-   },
-   {
-      "data_name":"5.8 hz Dreamachine Beats over Solfeggio 963 hz",
-      "data_description":"Dreamachine beats for reduction in Absent-mindedness [Phase 2].",
-      "data_start":"start_dreamachine(963, 968.3);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"ixcq4ttc6"
    },
    {
       "data_name":"6 hz Dreamachine Beats over 417 hz solfeggio",
