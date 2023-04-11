@@ -126,25 +126,10 @@
       "data_id":"dvm8wya33u"
    },
    {
-      "data_name":"7 hz Dreamachine Beats over 285 hz solfeggio",
-      "data_description":"Enhanced bone growth.   Can also resonate and rupture organs at excessive intensity.   Used as a treatment of sleep disturbances [Phase 1].",
-      "data_start":"start_dreamachine(285, 292);",
-      "data_stop":"stop_dreamachine();",
+      "data_name":"7 hz Dreamachine Beats",
+      "data_description":"Enhanced bone growth. Used as a treatment of sleep disturbances. Mental vision and astral projection vision, bending of objects, psychic vision for psychic surgery, Increased Reaction Time, Mass aggregate frequency. It can deaggregate matter",
+      "data_start":"start_dreamachine(7);",
       "data_id":"risc6ebpi"
-   },
-   {
-      "data_name":"7 hz Dreamachine Beats over 852 hz solfeggio",
-      "data_description":"Mental vision and astral projection vision [Phase 3], bending of objects [Phase 1], psychic vision for psychic surgery [Phase 1], Increased Reaction Time [Phase 1], Mass aggregate frequency [Phase 1]. It can deaggregate matter [Phase 1].   Can also resonate and rupture organs at excessive intensity.   Used as a treatment of sleep disturbances[Phase 2].",
-      "data_start":"start_dreamachine(852, 859);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"48a65om2h"
-   },
-   {
-      "data_name":"7 hz Dreamachine Beats over 963 hz solfeggio",
-      "data_description":"Mental and astral projection [Phase 4], bending of objects [Phase 2], psychic surgery [Phase 2], Increased Reaction Time [Phase 2], Mass aggregate frequency [Phase 2]. It can deaggregate matter [Phase 2].   Can also resonate and rupture organs at excessive intensity.   Used as a treatment of sleep disturbances [Phase 3].",
-      "data_start":"start_dreamachine(963, 970);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"hgncftoan"
    },
    {
       "data_name":"7.83 hz Dreamachine Beats over 174 hz solfeggio",
