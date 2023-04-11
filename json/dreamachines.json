@@ -106,31 +106,10 @@
    },
    {
       "data_name":"6 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for reduction in unwillingness to do work due to past memories. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
+      "data_description":"Dreamachine beats for reduction in unwillingness to do work due to past memories. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects. For getting out of hypnosis and bringing clarity. For active learning and retention. ",
       "data_start":"start_dreamachine(417, 423);",
       "data_stop":"stop_dreamachine();",
       "data_id":"x9q7ruki5"
-   },
-   {
-      "data_name":"6 hz Dreamachine Beats over 639 hz solfeggio",
-      "data_description":"Binarual beats for getting out of hypnosis and bringing clarity [Phase 2]. Must be used during sleep otherwise it may bring  in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
-      "data_start":"start_dreamachine(639, 645);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"rg3m2e7sy"
-   },
-   {
-      "data_name":"6 hz Dreamachine Beats over 852 hz solfeggio",
-      "data_description":"Dreamachine beats for increased clarity and getting out of hypnosis. [Phase 1]. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
-      "data_start":"start_dreamachine(852, 858);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"ssb9sa8h8"
-   },
-   {
-      "data_name":"6 hz Dreamachine Beats over 963 hz solfeggio",
-      "data_description":"6 hz Dreamachine beats for active learning and retention. Must be balanced Phase 1 of increased clarity Dreamachine beats (6 hz) if things seem unclear and decisions and theories are made with wrong assumption. Must be used during sleep otherwise it will bring in depression and confusion.",
-      "data_start":"start_dreamachine(963, 969);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"9uch0l9gi"
    },
    {
       "data_name":"6.30 hz Dreamachine Beats over 852 hz solfeggio",
@@ -140,9 +119,9 @@
       "data_id":"2kactjxzk"
    },   
    {
-      "data_name":"6.5 hz Dreamachine Beats over 888 hz Pure Tone",
-      "data_description":"Dreamachine Beats for Reality Shifting [flavor 2]. Center for theta brainwave frequency range [Last Phase]. Around this frequency there is frontal lobe or brain entrainment of two hemisphere. ",
-      "data_start":"start_dreamachine(888, 894.5);",
+      "data_name":"6.5 hz Dreamachine Beats",
+      "data_description":"Dreamachine Beats for Reality Shifting. Center for theta brainwave frequency range. Around this frequency there is frontal lobe or brain entrainment of two hemisphere. ",
+      "data_start":"start_dreamachine(6.5);",
       "data_stop":"stop_dreamachine();",
       "data_id":"dvm8wya33u"
    },
