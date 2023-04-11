@@ -77,74 +77,18 @@
       "data_id":"676rh9wdy"
    },
    {
-      "data_name":"3.6 hz Dreamachine Beats over Solfeggio 174 hz",
-      "data_description":"Dreamachine beats for remedy for irritability in body.",
-      "data_start":"start_dreamachine(174, 177.6);",
+      "data_name":"3.6 hz Dreamachine Beats",
+      "data_description":"Dreamachine beats for remedy for irritability",
+      "data_start":"start_dreamachine(3.6);",
       "data_stop":"stop_dreamachine();",
       "data_id":"oz1f976gv"
    },
    {
-      "data_name":"3.6 hz Dreamachine Beats over Solfeggio 639 hz",
-      "data_description":"Dreamachine beats for remedy for irritability in social situations.",
-      "data_start":"start_dreamachine(639, 642.6);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"75ejrpsyb"
-   },
-   {
-      "data_name":"4 hz Dreamachine Beats over Solfeggio 174 hz",
-      "data_description":"Dreamachine beats for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed [Phase 1]. Schizophrenia patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 3].",
-      "data_start":"start_dreamachine(174, 178);",
+      "data_name":"4 hz Dreamachine Beats",
+      "data_description":"Dreamachine beats for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed. Schizophrenia patients have reported hearing of less hallucinatory voices after listening to these beats regularly. Power Nap. Seduction. Telepathy. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake). It is associated with object naming which is an important aspect of memory. Catecholamines, which is vital for memory and learning, responds at around 4 HZ",
+      "data_start":"start_dreamachine(4);",
       "data_stop":"stop_dreamachine();",
       "data_id":"ugzck7omr"
-   },
-   {
-      "data_name":"4 hz Dreamachine Beats over Solfeggio 285 hz",
-      "data_description":"Dreamachine beats for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed [Phase 2]. Telepathy [Phase 4]. Seduction [Phase 4]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 4]. Power Nap [Phase 1].",
-      "data_start":"start_dreamachine(285, 289);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"ltuszuzpy"
-   },
-   {
-      "data_name":"4 hz Dreamachine Beats over Solfeggio 396 hz",
-      "data_description":"Dreamachine beats for seduction [Phase 3] of whole being.   It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people.  ",
-      "data_start":"start_dreamachine(396, 400);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"u9pusdm6e"
-   },
-   {
-      "data_name":"4 hz Dreamachine Beats over Solfeggio 417 hz",
-      "data_description":"Dreamachine beats for seduction [Phase 1] of sacral intuition.   It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people. ",
-      "data_start":"start_dreamachine(417, 421);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"jm5i5qddl"
-   },
-   {
-      "data_name":"4 hz Dreamachine Beats over Solfeggio 639 hz",
-      "data_description":"Dreamachine beats for seduction [Phase 2] of heart.   It should not be used in public places if you value your security from strangers.  ",
-      "data_start":"start_dreamachine(639, 643);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"o9kawg302"
-   },
-   {
-      "data_name":"4 hz Dreamachine Beats over Solfeggio 741 hz",
-      "data_description":"Dreamachine beats for telepathy [Phase 1]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly. Enkephalins, Extrasensory perception [Phase 1]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2].",
-      "data_start":"start_dreamachine(741, 745);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"haachkc6j"
-   },
-   {
-      "data_name":"4 hz Dreamachine Beats over Solfeggio 852 hz",
-      "data_description":"Dreamachine beats for telepathy [Phase 2]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 1]. Enkephalins, Extrasensory perception [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2]",
-      "data_start":"start_dreamachine(852, 856);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"hbbc93ln4"
-   },
-   {
-      "data_name":"4 hz Dreamachine Beats over Solfeggio 963 hz",
-      "data_description":"Dreamachine beats for telepathy [Phase 3]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
-      "data_start":"start_dreamachine(963, 967);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"n6twfa6j2"
    },
    {
       "data_name":"5 hz Dreamachine Beats over Solfeggio 174 hz",
