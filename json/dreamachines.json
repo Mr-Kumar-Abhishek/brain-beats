@@ -112,9 +112,9 @@
       "data_id":"x9q7ruki5"
    },
    {
-      "data_name":"6.30 hz Dreamachine Beats over 852 hz solfeggio",
-      "data_description":"Dreamachine beats for Mental vision and astral projection vision [Phase 1]. Might also experience accelerated learning and increased retention. Minor effects include reduction in anger and irritability.",
-      "data_start":"start_dreamachine(852, 858.30);",
+      "data_name":"6.30 hz Dreamachine Beats",
+      "data_description":"Dreamachine beats for Mental vision and astral projection vision. Might also experience accelerated learning and increased retention. Minor effects include reduction in anger and irritability.",
+      "data_start":"start_dreamachine(6.3);",
       "data_stop":"stop_dreamachine();",
       "data_id":"2kactjxzk"
    },   
