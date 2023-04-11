@@ -49,7 +49,7 @@
       "data_id":"cybck7m8b"
    },
    {
-      "data_name":"1 hz Dreamachine Beats over Solfeggio 174 hz",
+      "data_name":"1 hz Dreamachine Beats",
       "data_description":"Dreamachine beats for pituitary stimulation to release growth hormone for healing, regeneration and growth. Over-all view of inter-relationships and its reconnection. For balance and harmony.",
       "data_start":"start_dreamachine(1);",
       "data_stop":"stop_dreamachine();",
@@ -70,53 +70,11 @@
       "data_id":"p3s8wnrl3"
    },
    {
-      "data_name":"3.5 hz Dreamachine Beats over Solfeggio 174 hz",
-      "data_description":"whole being regeneration [Phase 1]. Lower Earth Resonance [Phase 1] or hell resonance [Phase 1]. DNA stimulation [Phase 1].",
-      "data_start":"start_dreamachine(174, 177.5);",
+      "data_name":"3.5 hz Dreamachine Beats",
+      "data_description":"whole being regeneration. Lower Earth Resonance or hell resonance. DNA stimulation. For relief from anxiety [2nd flavor]. Accelerated language retention. For feeling with unity everything. Enhancement of receptivity relief from depression ",
+      "data_start":"start_dreamachine(3.5);",
       "data_stop":"stop_dreamachine();",
       "data_id":"676rh9wdy"
-   },
-   {
-      "data_name":"3.5 hz Dreamachine Beats over Solfeggio 285 hz",
-      "data_description":"Dreamachine beats for whole being regeneration [Phase 2]. Lower Earth resonance [Phase 2] or Hell Resonance [Phase 2]. DNA stimulation [ Phase 2].",
-      "data_start":"start_dreamachine(285, 288.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"biue5ioiz"
-   },
-   {
-      "data_name":"3.5 hz Dreamachine Beats over Solfeggio 396 hz",
-      "data_description":"Dreamachine beats for relief from anxiety [Phase 1, 2nd flavor] via root chakra or muladhara. The lower earth resonance [Phase 3 ] or hell resonance [Phase 3].",
-      "data_start":"start_dreamachine(396, 399.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"e6p2pw2jk"
-   },
-   {
-      "data_name":"3.5 hz Dreamachine Beats over Solfeggio 528 hz",
-      "data_description":"Dreamachine beats for DNA stimulation [Phase 3].",
-      "data_start":"start_dreamachine(528, 531.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"2vtp6ugkq"
-   },
-   {
-      "data_name":"3.5 hz Dreamachine Beats over Solfeggio 741 hz",
-      "data_description":"Dreamachine beats for relief from anxiety [Phase 2, 2nd flavor] via throat chakra (visuddha). Accelerated language retention [Phase 1]",
-      "data_start":"start_dreamachine(741, 744.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"p53150msc"
-   },
-   {
-      "data_name":"3.5 hz Dreamachine Beats over Solfeggio 852 hz",
-      "data_description":"Dreamachine beats for feeling with unity everything [Phase 1], accelerated language retention [Phase 2], enhancement of receptivity relief from depression [Phase 1].",
-      "data_start":"start_dreamachine(852, 855.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"57c4xsf65"
-   },
-   {
-      "data_name":"3.5 hz Dreamachine Beats over Solfeggio 963 hz",
-      "data_description":"Dreamachine beats for feeling with unity everything [Phase 2], accelerated language retention [Phase 3], enhancement of receptivity relief from depression [Phase 2].",
-      "data_start":"start_dreamachine(963, 966.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"2b32jy4d1"
    },
    {
       "data_name":"3.6 hz Dreamachine Beats over Solfeggio 174 hz",
