@@ -91,32 +91,11 @@
       "data_id":"ugzck7omr"
    },
    {
-      "data_name":"5 hz Dreamachine Beats over Solfeggio 174 hz",
-      "data_description":"pain-relief [Phase 1] (beta endorphin increases upto 10-50% as per report). If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced.(not good).",
-      "data_start":"start_dreamachine(174, 179);",
+      "data_name":"5 hz Dreamachine Beats",
+      "data_description":"pain-relief (beta endorphin increases upto 10-50% as per report). If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced.(not good). Unusual problem solving (reduced sleep needed), theta sounds replacing need for extensive dreaming, relaxed states",
+      "data_start":"start_dreamachine(5);",
       "data_stop":"stop_dreamachine();",
       "data_id":"4tlocv51i"
-   },
-   {
-      "data_name":"5 hz Dreamachine Beats over Solfeggio 285 hz",
-      "data_description":"pain-relief [Phase 2] (beta endorphin increases upto 10-50% as per report). Unusual problem solving [Phase 3] (reduced sleep needed). Theta sounds replacing need for extensive dreaming [Phase 3], relaxed states [Phase 3]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
-      "data_start":"start_dreamachine(285, 290);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"q4wz0gxdc"
-   },
-   {
-      "data_name":"5 hz Dreamachine Beats over Solfeggio 852 hz",
-      "data_description":"Unusual problem solving [Phase 1] (reduced sleep needed), theta sounds replacing need for extensive dreaming [Phase 1], relaxed states [Phase 1]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
-      "data_start":"start_dreamachine(852, 857);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"5nc1yl489"
-   },
-   {
-      "data_name":"5 hz Dreamachine Beats over Solfeggio 963 hz",
-      "data_description":"Unusual problem solving [Phase 2] (reduced sleep needed), theta sounds replacing need for extensive dreaming [Phase 2], relaxed states [Phase 2]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
-      "data_start":"start_dreamachine(963, 968);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"b617mysk1"
    },
    {
       "data_name":"5.8 hz Dreamachine Beats over Solfeggio 174 hz",
