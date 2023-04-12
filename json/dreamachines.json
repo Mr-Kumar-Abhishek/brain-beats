@@ -340,47 +340,5 @@
       "data_start":"start_dreamachine(963, 983);",
       "data_stop":"stop_dreamachine();",
       "data_id":"av2j1ii1m"
-   },
-   {
-      "data_name":"33 hz Dreamachine Beats over 963 hz solfeggio",
-      "data_description":"Initiates Christ consciousness and hypersensitivity. Pyramid frequency (inside), Schumann Resonance (5th frequency of 7).",
-      "data_start":"start_dreamachine(963, 996);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"3do4ltotx"
-   },
-   {
-      "data_name":"40 hz Dreamachine Beats over 852 hz solfeggio",
-      "data_description":"Sounds at this frequency is used for Alzheimer's therapy [Phase 1] studies  to stimulate an increased neural response and fight symptoms of dementia. This Dreamachine beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. ",
-      "data_start":"start_dreamachine(852, 892);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"npc1cabhx"
-   },
-   {
-      "data_name":"40 hz Dreamachine Beats over 963 hz solfeggio",
-      "data_description":"Sounds at this frequency is used for Alzheimer's therapy [Phase 2] studies to stimulate an increased neural response and fight symptoms of dementia. This Dreamachine beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. ",
-      "data_start":"start_dreamachine(963, 1003);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"sy59tzm36"
-   },
-   {
-      "data_name":"40 hz Dreamachine Beats between pure tone 984 hz and pure tone 1024 hz",
-      "data_description":"Sounds at this frequency is used for Alzheimer's therapy [Phase 3] studies to stimulate an increased neural response and fight symptoms of dementia. This Dreamachine beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. This special preset is also linked to cerebral cortex which increases intelligence over time. Also this balances all the 7 major spiritual chakras",
-      "data_start":"start_dreamachine(984, 1024);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"7mc22gixo"
-   },
-   {
-      "data_name":"83 hz Dreamachine Beats over 174 hz solfeggio",
-      "data_description":"Opens third eye for some people. Associated with Ajna Chakra [Phase 1, 1st flavor].",
-      "data_start":"start_dreamachine(174, 257);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"vywrjcer4"
-   },
-   {
-      "data_name":"83 hz Dreamachine Beats over 852 hz solfeggio",
-      "data_description":"Opens third eye for some people. Associated with Ajna Chakra [Phase 2, 1st flavor]",
-      "data_start":"start_dreamachine(852, 935);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"vc5vh6m66"
    }
 ]
