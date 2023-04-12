@@ -218,7 +218,7 @@
    {
       "data_name":"14 hz Dreamachine Beats",
       "data_description":"Dreamachine beats for studying. It keeps subjects awake and alert, keeps concentration on tasks. Also good for learning and absorbing information passively when you are planning to think about it later. Enhanced logical, analytical, intellectual thinking. Provides starting point for the mind to do calculations, linear logical analyses and other highly structured functions. Minor improvements in communication.",
-      "data_start":"start_dreamachine(852, 866);",
+      "data_start":"start_dreamachine(14);",
       "data_stop":"stop_dreamachine();",
       "data_id":"9l09bbdir"
    },
