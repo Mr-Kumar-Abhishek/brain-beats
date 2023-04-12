@@ -209,18 +209,11 @@
       "data_id":"eytdrexg7"
    },
    {
-      "data_name":"13.8 hz Dreamachine Beats over 852 hz solfeggio",
+      "data_name":"13.8 hz Dreamachine Beats",
       "data_description":"This is associated with Frontal Lobes. It effects the seventh sense, final decision. [Phase 1]",
-      "data_start":"start_dreamachine(852, 865.8);",
+      "data_start":"start_dreamachine(13.8);",
       "data_stop":"stop_dreamachine();",
       "data_id":"y6jcjgv5y"
-   },
-   {
-      "data_name":"13.8 hz Dreamachine Beats over 880 hz Rife",
-      "data_description":"This is associated with Frontal Lobes. It effects the seventh sense, final decision. [Phase 2]",
-      "data_start":"start_dreamachine(880, 893.8);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"qssvmla76"
    },
    {
       "data_name":"14 hz Dreamachine Beats over 852 hz solfeggio",
