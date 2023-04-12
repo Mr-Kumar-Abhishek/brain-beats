@@ -139,9 +139,9 @@
       "data_id":"o6c7yh1mu"
    },
    {
-      "data_name":"8.3 hz Dreamachine Beats over 852 hz solfeggio",
+      "data_name":"8.3 hz Dreamachine Beats",
       "data_description":"Pick up visual images of mental objects. Clairvoyance. Monroe Focus 12.",
-      "data_start":"start_dreamachine(852, 860.3);",
+      "data_start":"start_dreamachine(8.3);",
       "data_stop":"stop_dreamachine();",
       "data_id":"63xqxlg9g"
    },
