@@ -223,32 +223,11 @@
       "data_id":"9l09bbdir"
    },
    {
-      "data_name":"15 hz Dreamachine Beats over 174 hz solfeggio",
-      "data_description":"Dreamachine Beats for opening of Crown Chakra (Sahasrara) [Phase 1]. The color is white or voilet depending on the individual. Enhanced body parts are Pineal Gland [Phase 1], Upper Brain [Phase 1], Right Eye [Phase 1]. It helps with capilary formation[Phase 1], fibroblast proliferation [Phase 1], and decreases skin necorosis [Phase 1].",
+      "data_name":"15 hz Dreamachine Beats",
+      "data_description":"Dreamachine Beats for opening of Crown Chakra (Sahasrara). The color is white or voilet depending on the individual. Enhanced body parts are Pineal Gland, Upper Brain, Right Eye. It helps with capilary formation, fibroblast proliferation, and decreases skin necorosis.",
       "data_start":"start_dreamachine(174, 189);",
       "data_stop":"stop_dreamachine();",
       "data_id":"onljrlw1f"
-   },
-   {
-      "data_name":"15 hz Dreamachine Beats over 285 hz solfeggio",
-      "data_description":"Enhanced body parts are Pineal Gland [Phase 4], Upper Brain [Phase 4], Right Eye [Phase 4]. It helps with capilary formation[Phase 2], fibroblast proliferation [Phase 2], and decreases skin necorosis [Phase 2].",
-      "data_start":"start_dreamachine(285, 300);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"9wwl1efqq"
-   },
-   {
-      "data_name":"15 hz Dreamachine Beats over 852 hz solfeggio",
-      "data_description":"Enhanced body parts are Pineal Gland [Phase 3], Upper Brain [Phase 3], Right Eye [Phase 3].",
-      "data_start":"start_dreamachine(852, 867);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"n9ja3xih5"
-   },
-   {
-      "data_name":"15 hz Dreamachine Beats over 963 hz solfeggio",
-      "data_description":"Dreamachine Beats for opening of Crown Chakra (Sahasrara) [Phase 2]. The color is white or voilet depending on the individual. Enhanced body parts are Pineal Gland [Phase 2], Upper Brain [Phase 2], Right Eye [Phase 2]. It helps with capilary formation[Phase 3], fibroblast proliferation [Phase 3], and decreases skin necorosis [Phase 3].",
-      "data_start":"start_dreamachine(963, 978);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"ispg1i4nb"
    },
    {
       "data_name":"20 hz Dreamachine Beats over 174 hz solfeggio",
