@@ -132,53 +132,11 @@
       "data_id":"risc6ebpi"
    },
    {
-      "data_name":"7.83 hz Dreamachine Beats over 174 hz solfeggio",
-      "data_description":"Dreamachine Beats for Earth resonance [Phase 1], grounding [Phase 1] (Lower earth chakra), Primary Schumann Resonance [Phase 1], Anti-Jet Lag [Phase 1]. Improved Stress Tolarance [Phase 1]. Pituitary Stimulation to release growth horomone [Phase 1]. The earth's natural brainwave [Phase 1].",
-      "data_start":"start_dreamachine(174, 181.83);",
+      "data_name":"7.83 hz Dreamachine Beats",
+      "data_description":"Dreamachine Beats for Earth resonance, grounding (Lower earth chakra), Primary Schumann Resonance, Anti-Jet Lag. Improved Stress Tolarance. Pituitary Stimulation to release growth horomone. The earth's natural brainwave. Pituitary Stimulation to release growth horomone. It helps with development of muscles, recovering from injuries. It has rejuvination effects. It's your classic earth resonance frequency, It sometimes leaves the subjects feeling revitalized like they have spent a day in the country. Has accelerated healing. For anti-mind control.",
+      "data_start":"start_dreamachine(7.83);",
       "data_stop":"stop_dreamachine();",
       "data_id":"o6c7yh1mu"
-   },
-   {
-      "data_name":"7.83 hz Dreamachine Beats over 285 hz solfeggio",
-      "data_description":"Dreamachine Beats for Earth resonance [Phase 2], grounding [Phase 2] (Lower earth chakra [Phase 2] ), Primary Schumann Resonance [Phase 2], Anti-Jet Lag [Phase 2]. Improved Stress Tolarance [Phase 2]. Pituitary Stimulation to release growth horomone [Phase 2]. It helps with development of muscles, recovering from injuries. It has rejuvination effects. It's your classic earth resonance frequency, It sometimes leaves the subjects feeling revitalized like they have spent a day in the country. Has accelerated healing. The earth's natural brainwave [Phase 2].",
-      "data_start":"start_dreamachine(285, 292.83);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"4chq3u1d2"
-   },
-   {
-      "data_name":"7.83 hz Dreamachine Beats over 396 hz solfeggio",
-      "data_description":"Dreamachine Beats for Earth resonance [Phase 3], grounding [Phase 3] (Lower earth chakra [Phase 3] ), Primary Schumann Resonance [Phase 3], Anti-Jet Lag [Phase 3].",
-      "data_start":"start_dreamachine(396, 403.83);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"nb2g3oxvt"
-   },
-   {
-      "data_name":"7.83 hz Dreamachine Beats over 639 hz solfeggio",
-      "data_description":"Dreamachine Beats for anti-mind (feelings) control [Phase 2].",
-      "data_start":"start_dreamachine(639, 646.83);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"73ycfy4iq"
-   },
-   {
-      "data_name":"7.83 hz Dreamachine Beats over 741 hz solfeggio",
-      "data_description":"Dreamachine Beats for Anti-Jet Lag [Phase 4]",
-      "data_start":"start_dreamachine(741, 748.83);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"2e1rhiave"
-   },
-   {
-      "data_name":"7.83 hz Dreamachine Beats over 852 hz solfeggio",
-      "data_description":"Dreamachine Beats for  Anti-Jet Lag [Phase 5]. Pituitary Stimulation to release growth horomone [Phase 3]. Anti-mind (perception) control [Phase 1]",
-      "data_start":"start_dreamachine(852, 859.83);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"oontrvlct"
-   },
-   {
-      "data_name":"7.83 hz Dreamachine Beats over 963 hz solfeggio",
-      "data_description":"Dreamachine Beats for anti-mind (thoughts) control [Phase 3].",
-      "data_start":"start_dreamachine(963, 970.83);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"qgo8wovny"
    },
    {
       "data_name":"8.3 hz Dreamachine Beats over 852 hz solfeggio",
