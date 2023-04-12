@@ -195,25 +195,11 @@
       "data_id":"sqdbb5m4a"
    },
    {
-      "data_name":"12.3 hz Dreamachine Beats over 285 hz solfeggio",
-      "data_description":"Associated with eyes. It gives better visualization [Phase 1].",
-      "data_start":"start_dreamachine(285, 297.3);",
+      "data_name":"12.3 hz Dreamachine Beats",
+      "data_description":"Associated with eyes. It gives better visualization.",
+      "data_start":"start_dreamachine(12.3);",
       "data_stop":"stop_dreamachine();",
       "data_id":"3qfvhoyjr"
-   },
-   {
-      "data_name":"12.3 hz Dreamachine Beats over 787 hz Rife",
-      "data_description":"Associated with eyes. It gives better visualization [Phase 3].",
-      "data_start":"start_dreamachine(787, 799.3);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"6qtscbqvi"
-   },
-   {
-      "data_name":"12.3 hz Dreamachine Beats over 852 hz solfeggio",
-      "data_description":"Associated with eyes. It gives better visualization [Phase 2].",
-      "data_start":"start_dreamachine(852, 864.3);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"k203bgpa4"
    },
    {
       "data_name":"13 hz Dreamachine Beats over 174 hz solfeggio",
