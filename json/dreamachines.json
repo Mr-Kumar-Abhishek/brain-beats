@@ -146,67 +146,18 @@
       "data_id":"63xqxlg9g"
    },
    {
-      "data_name":"8.4 hz Dreamachine Beats over 174 hz solfeggio",
-      "data_description":"Dreamachine beats for reduction in anxiety caused due to survival issues. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the Dreamachine beat generator.",
-      "data_start":"start_dreamachine(174, 182.4);",
+      "data_name":"8.4 hz Dreamachine Beats",
+      "data_description":"Dreamachine beats for reduction in anxiety. A much higher level exists in 8.5 hz can be done by constructing this in the Dreamachine generator.",
+      "data_start":"start_dreamachine(8.4);",
       "data_stop":"stop_dreamachine();",
       "data_id":"gzadiw2g0"
    },
    {
-      "data_name":"8.4 hz Dreamachine Beats over 396 hz solfeggio",
-      "data_description":"Dreamachine beats for reduction in general anxiety [Phase 1, flavor 1]. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the Dreamachine beat generator.",
-      "data_start":"start_dreamachine(396, 404.4);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"d2zv2vrrd"
-   },
-   {
-      "data_name":"8.4 hz Dreamachine Beats over 639 hz solfeggio",
-      "data_description":"Binarual beats for reduction in social anxiety. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the Dreamachine beat generator",
-      "data_start":"start_dreamachine(639, 647.4);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"57ksdyok1"
-   },
-   {
-      "data_name":"8.4 hz Dreamachine Beats over 741 hz solfeggio",
-      "data_description":"Dreamachine beats for reduction in general anxiety [Phase 2 , flavor 1]. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the Dreamachine beat generator.",
-      "data_start":"start_dreamachine(741, 749.4);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"a1o441ztg"
-   },
-   {
-      "data_name":"8.4 hz Dreamachine Beats over 963 hz solfeggio",
-      "data_description":"Dreamachine beats for reduction in anxiety [Phase 3, falvor 1] caused by critical problems. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the Dreamachine beat generator.",
-      "data_start":"start_dreamachine(963, 971.4);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"ayqifn8lj"
-   },
-   {
-      "data_name":"8.5 hz Dreamachine Beats over 174 hz solfeggio",
-      "data_description":"Binuaral beats for better physical stress tolerance.",
-      "data_start":"start_dreamachine(174, 182.5);",
+      "data_name":"8.5 hz Dreamachine Beats",
+      "data_description":"Dreamachine beats for better stress tolerance.",
+      "data_start":"start_dreamachine(8.5);",
       "data_stop":"stop_dreamachine();",
       "data_id":"7iet48r7h"
-   },
-   {
-      "data_name":"8.5 hz Dreamachine Beats over 285 hz solfeggio",
-      "data_description":"Dreamachine beats for reduction in physical stress",
-      "data_start":"start_dreamachine(285, 293.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"y5yf649e9"
-   },
-   {
-      "data_name":"8.5 hz Dreamachine Beats over 639 hz solfeggio",
-      "data_description":"Binuaral beats for reduction in stress caused due social situations.",
-      "data_start":"start_dreamachine(639, 647.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"ftg8xd78u"
-   },
-   {
-      "data_name":"8.5 hz Dreamachine Beats over 963 hz solfeggio",
-      "data_description":"Dreamachine beats for reduction in general mental stress",
-      "data_start":"start_dreamachine(963, 971.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"3to8relrb"
    },
    {
       "data_name":"9 hz Dreamachine Beats over 174 hz solfeggio",
