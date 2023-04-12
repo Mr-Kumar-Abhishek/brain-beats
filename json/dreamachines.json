@@ -1,239 +1,239 @@
 [
    {
-      "data_name":"0.1 hz Dreamachine Beats",
-      "data_description":"Dreamachine Beats for Organ and muscle resonances. Good for building muscles. To be used during excercise and sleep.",
-      "data_start":"start_dreamachine(0.1);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"luq902d0un"
+     "data_name": "0.1 hz Dreamachine Beats",
+     "data_description": "Dreamachine Beats for Organ and muscle resonances. Good for building muscles. To be used during excercise and sleep.",
+     "data_start": "start_dreamachine(0.1);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "t8u9tjx47"
    },
    {
-      "data_name":"0.15 hz Dreamachine Beats",
-      "data_description":"Dreamachine Beats for relief from depression due to past events. This is for mild depression. Range Dreamachines for it are comming soon which will be more effective.",
-      "data_start":"start_dreamachine(0.15);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"uf07weww3"
+     "data_name": "0.15 hz Dreamachine Beats",
+     "data_description": "Dreamachine Beats for relief from depression due to past events. This is for mild depression. Range Dreamachines for it are comming soon which will be more effective.",
+     "data_start": "start_dreamachine(0.15);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "dwu0hubnb"
    },
    {
-      "data_name":"0.20 hz Dreamachine Beats",
-      "data_description":"Dreamachine Beats for relief from post-traumatics.",
-      "data_start":"start_dreamachine(0.20);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"ugl5mdwwp"
+     "data_name": "0.20 hz Dreamachine Beats",
+     "data_description": "Dreamachine Beats for relief from post-traumatics.",
+     "data_start": "start_dreamachine(0.20);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "mczkb9eh6"
    },
    {
-      "data_name":"0.26 hz Dreamachine Beats",
-      "data_description":" Dreamachine beats for relief in dental pain and gum inflamation (go see a dentist if you are using this).",
-      "data_start":"start_dreamachine(0.26);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"bs6zggyq1"
+     "data_name": "0.26 hz Dreamachine Beats",
+     "data_description": " Dreamachine beats for relief in dental pain and gum inflamation (go see a dentist if you are using this).",
+     "data_start": "start_dreamachine(0.26);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "exyauxt86"
    },
    {
-      "data_name":"0.28 hz Dreamachine Beats",
-      "data_description":"Relief from Arthritis.",
-      "data_start":"start_dreamachine(0.28);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"lxw8zm2cc"
+     "data_name": "0.28 hz Dreamachine Beats",
+     "data_description": "Relief from Arthritis.",
+     "data_start": "start_dreamachine(0.28);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "jp4ugg8xf"
    },
    {
-      "data_name":"0.5 hz Dreamachine Beats",
-      "data_description":"Very relaxing against headaches. To be used for relief from lower back pain. Thyroid, reproductive and excretory stimulant. Whole brain toner.",
-      "data_start":"start_dreamachine(0.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"g5gtumsps"
+     "data_name": "0.5 hz Dreamachine Beats",
+     "data_description": "Very relaxing against headaches. To be used for relief from lower back pain. Thyroid, reproductive and excretory stimulant. Whole brain toner.",
+     "data_start": "start_dreamachine(0.5);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "4z4edr66e"
    },
    {
-      "data_name":"0.9 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for Euphoria induction between friends family and partners.",
-      "data_start":"start_dreamachine(0.9);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"cybck7m8b"
+     "data_name": "0.9 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats for Euphoria induction between friends family and partners.",
+     "data_start": "start_dreamachine(0.9);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "k9vsjgd8q"
    },
    {
-      "data_name":"1 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for pituitary stimulation to release growth hormone for healing, regeneration and growth. Over-all view of inter-relationships and its reconnection. For balance and harmony.",
-      "data_start":"start_dreamachine(1);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"qqnhi11sb"
+     "data_name": "1 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats for pituitary stimulation to release growth hormone for healing, regeneration and growth. Over-all view of inter-relationships and its reconnection. For balance and harmony.",
+     "data_start": "start_dreamachine(1);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "75p56pmfi"
    },
    {
-      "data_name":"1.2 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for relief from minor headaches.",
-      "data_start":"start_dreamachine(1.2);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"8x53kvyf0"
+     "data_name": "1.2 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats for relief from minor headaches.",
+     "data_start": "start_dreamachine(1.2);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "j5arlnle5"
    },
    {
-      "data_name":"2.4 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for deep. Heal tissues while sleeping.",
-      "data_start":"start_dreamachine(2.4);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"p3s8wnrl3"
+     "data_name": "2.4 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats for deep. Heal tissues while sleeping.",
+     "data_start": "start_dreamachine(2.4);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "s4ja53ote"
    },
    {
-      "data_name":"3.5 hz Dreamachine Beats",
-      "data_description":"whole being regeneration. Lower Earth Resonance or hell resonance. DNA stimulation. For relief from anxiety [2nd flavor]. Accelerated language retention. For feeling with unity everything. Enhancement of receptivity relief from depression ",
-      "data_start":"start_dreamachine(3.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"676rh9wdy"
+     "data_name": "3.5 hz Dreamachine Beats",
+     "data_description": "whole being regeneration. Lower Earth Resonance or hell resonance. DNA stimulation. For relief from anxiety [2nd flavor]. Accelerated language retention. For feeling with unity everything. Enhancement of receptivity relief from depression ",
+     "data_start": "start_dreamachine(3.5);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "ay5ajonei"
    },
    {
-      "data_name":"3.6 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for remedy for irritability",
-      "data_start":"start_dreamachine(3.6);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"oz1f976gv"
+     "data_name": "3.6 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats for remedy for irritability",
+     "data_start": "start_dreamachine(3.6);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "p96h0l6u1"
    },
    {
-      "data_name":"4 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed. Schizophrenia patients have reported hearing of less hallucinatory voices after listening to these beats regularly. Power Nap. Seduction. Telepathy. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake). It is associated with object naming which is an important aspect of memory. Catecholamines, which is vital for memory and learning, responds at around 4 HZ",
-      "data_start":"start_dreamachine(4);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"ugzck7omr"
+     "data_name": "4 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed. Schizophrenia patients have reported hearing of less hallucinatory voices after listening to these beats regularly. Power Nap. Seduction. Telepathy. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake). It is associated with object naming which is an important aspect of memory. Catecholamines, which is vital for memory and learning, responds at around 4 HZ",
+     "data_start": "start_dreamachine(4);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "ikkck0zpp"
    },
    {
-      "data_name":"5 hz Dreamachine Beats",
-      "data_description":"pain-relief (beta endorphin increases upto 10-50% as per report). If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced.(not good). Unusual problem solving (reduced sleep needed), theta sounds replacing need for extensive dreaming, relaxed states",
-      "data_start":"start_dreamachine(5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"4tlocv51i"
+     "data_name": "5 hz Dreamachine Beats",
+     "data_description": "pain-relief (beta endorphin increases upto 10-50% as per report). If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced.(not good). Unusual problem solving (reduced sleep needed), theta sounds replacing need for extensive dreaming, relaxed states",
+     "data_start": "start_dreamachine(5);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "uhq8ro36v"
    },
    {
-      "data_name":"5.8 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for reduction in Fear and Dizziness. Reduction in Absent-mindedness ",
-      "data_start":"start_dreamachine(5.8);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"jxghb8dqd"
+     "data_name": "5.8 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats for reduction in Fear and Dizziness. Reduction in Absent-mindedness ",
+     "data_start": "start_dreamachine(5.8);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "sxh2v6rsv"
    },
    {
-      "data_name":"6 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for reduction in unwillingness to do work due to past memories. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects. For getting out of hypnosis and bringing clarity. For active learning and retention. ",
-      "data_start":"start_dreamachine(417, 423);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"x9q7ruki5"
+     "data_name": "6 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats for reduction in unwillingness to do work due to past memories. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects. For getting out of hypnosis and bringing clarity. For active learning and retention. ",
+     "data_start": "start_dreamachine(417, 423);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "oi53lioo6"
    },
    {
-      "data_name":"6.30 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for Mental vision and astral projection vision. Might also experience accelerated learning and increased retention. Minor effects include reduction in anger and irritability.",
-      "data_start":"start_dreamachine(6.3);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"2kactjxzk"
-   },   
-   {
-      "data_name":"6.5 hz Dreamachine Beats",
-      "data_description":"Dreamachine Beats for Reality Shifting. Center for theta brainwave frequency range. Around this frequency there is frontal lobe or brain entrainment of two hemisphere. ",
-      "data_start":"start_dreamachine(6.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"dvm8wya33u"
+     "data_name": "6.30 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats for Mental vision and astral projection vision. Might also experience accelerated learning and increased retention. Minor effects include reduction in anger and irritability.",
+     "data_start": "start_dreamachine(6.3);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "o5rcb3wg1"
    },
    {
-      "data_name":"7 hz Dreamachine Beats",
-      "data_description":"Enhanced bone growth. Used as a treatment of sleep disturbances. Mental vision and astral projection vision, bending of objects, psychic vision for psychic surgery, Increased Reaction Time, Mass aggregate frequency. It can deaggregate matter",
-      "data_start":"start_dreamachine(7);",
-      "data_id":"risc6ebpi"
+     "data_name": "6.5 hz Dreamachine Beats",
+     "data_description": "Dreamachine Beats for Reality Shifting. Center for theta brainwave frequency range. Around this frequency there is frontal lobe or brain entrainment of two hemisphere. ",
+     "data_start": "start_dreamachine(6.5);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "bijwmo7g7"
    },
    {
-      "data_name":"7.83 hz Dreamachine Beats",
-      "data_description":"Dreamachine Beats for Earth resonance, grounding (Lower earth chakra), Primary Schumann Resonance, Anti-Jet Lag. Improved Stress Tolarance. Pituitary Stimulation to release growth horomone. The earth's natural brainwave. Pituitary Stimulation to release growth horomone. It helps with development of muscles, recovering from injuries. It has rejuvination effects. It's your classic earth resonance frequency, It sometimes leaves the subjects feeling revitalized like they have spent a day in the country. Has accelerated healing. For anti-mind control.",
-      "data_start":"start_dreamachine(7.83);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"o6c7yh1mu"
+     "data_name": "7 hz Dreamachine Beats",
+     "data_description": "Enhanced bone growth. Used as a treatment of sleep disturbances. Mental vision and astral projection vision, bending of objects, psychic vision for psychic surgery, Increased Reaction Time, Mass aggregate frequency. It can deaggregate matter",
+     "data_start": "start_dreamachine(7);",
+     "data_id": "w2tr2dsc0"
    },
    {
-      "data_name":"8.3 hz Dreamachine Beats",
-      "data_description":"Pick up visual images of mental objects. Clairvoyance. Monroe Focus 12.",
-      "data_start":"start_dreamachine(8.3);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"63xqxlg9g"
+     "data_name": "7.83 hz Dreamachine Beats",
+     "data_description": "Dreamachine Beats for Earth resonance, grounding (Lower earth chakra), Primary Schumann Resonance, Anti-Jet Lag. Improved Stress Tolarance. Pituitary Stimulation to release growth horomone. The earth's natural brainwave. Pituitary Stimulation to release growth horomone. It helps with development of muscles, recovering from injuries. It has rejuvination effects. It's your classic earth resonance frequency, It sometimes leaves the subjects feeling revitalized like they have spent a day in the country. Has accelerated healing. For anti-mind control.",
+     "data_start": "start_dreamachine(7.83);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "zj1qofhcx"
    },
    {
-      "data_name":"8.4 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for reduction in anxiety. A much higher level exists in 8.5 hz can be done by constructing this in the Dreamachine generator.",
-      "data_start":"start_dreamachine(8.4);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"gzadiw2g0"
+     "data_name": "8.3 hz Dreamachine Beats",
+     "data_description": "Pick up visual images of mental objects. Clairvoyance. Monroe Focus 12.",
+     "data_start": "start_dreamachine(8.3);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "7ixz2xmh6"
    },
    {
-      "data_name":"8.5 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for better stress tolerance.",
-      "data_start":"start_dreamachine(8.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"7iet48r7h"
+     "data_name": "8.4 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats for reduction in anxiety. A much higher level exists in 8.5 hz can be done by constructing this in the Dreamachine generator.",
+     "data_start": "start_dreamachine(8.4);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "mssm297w3"
    },
    {
-      "data_name":"9 hz Dreamachine Beats",
-      "data_description":"Opening of Sacral Chakra or Svadhisthana chakra. Enhanced body parts are Gonads and Reproductive System. Positive Effects on relationships and Sexuality. Awareness of causes of body imbalance and means for balance.  Blind person phantom touch reading (somatosensory cortex).",
-      "data_start":"start_dreamachine(9);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"8cxkcdwn0"
+     "data_name": "8.5 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats for better stress tolerance.",
+     "data_start": "start_dreamachine(8.5);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "3xswl41sc"
    },
    {
-      "data_name":"10 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats associated with solar plexus chakra (manipura). Spiritual Wisdom, Self-Healing. Enhanced Body parts Pancreas, Stomach, Liver, Gall Bladder, Nervous System. Enhanced release of serotonin. Mood elevator. Acts as ananalgesic. Used during nicotine withrawal. Clarity, Normacy, Anti-Convlelsant, Circadian Rhythm Resync. Motor impulse co-ordination (Motor Control Cortex).  Learning a foreign language, Sleep Spindles, Centering. Increased Alertness. Increased in norepinephrine. Decreased Melatonin. Sense of well being. Decreased Pain. Increased beta-endorphines. Adrenal Stimulant. Treatment of Attention Deficit Disorder  and hyperactivity. Treatment for closed head injury. Berger Rhythm. Used on Headaches. Ligament Healing. Sense of well being.",
-      "data_start":"start_dreamachine(10);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"h1et86pdm"
+     "data_name": "9 hz Dreamachine Beats",
+     "data_description": "Opening of Sacral Chakra or Svadhisthana chakra. Enhanced body parts are Gonads and Reproductive System. Positive Effects on relationships and Sexuality. Awareness of causes of body imbalance and means for balance.  Blind person phantom touch reading (somatosensory cortex).",
+     "data_start": "start_dreamachine(9);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "k2h2wdlt5"
    },
    {
-      "data_name":"10.5 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats associated with Heart chakra. Aura influence is green. Its for healing of body, mind and body unity. Used in firewalking. Potent stabilizer and stimulating for the immunity, valuable in convalescence. Relaxed alertness, contemplation, body healing, mind over matter. Lowering Blood Pressure. This is a potent stabilizer and is simulating for immunity. Valuable in convalescence. Lowering of Blood Pressure. Enhanced body parts are Thymus, Heart, Blood, Circulatory System. Has positive effects such as Love for Life, love for self, others. Musical note is F. Mind over matter",
-      "data_start":"start_dreamachine(10.5);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"jzpsntj2r"
+     "data_name": "10 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats associated with solar plexus chakra (manipura). Spiritual Wisdom, Self-Healing. Enhanced Body parts Pancreas, Stomach, Liver, Gall Bladder, Nervous System. Enhanced release of serotonin. Mood elevator. Acts as ananalgesic. Used during nicotine withrawal. Clarity, Normacy, Anti-Convlelsant, Circadian Rhythm Resync. Motor impulse co-ordination (Motor Control Cortex).  Learning a foreign language, Sleep Spindles, Centering. Increased Alertness. Increased in norepinephrine. Decreased Melatonin. Sense of well being. Decreased Pain. Increased beta-endorphines. Adrenal Stimulant. Treatment of Attention Deficit Disorder  and hyperactivity. Treatment for closed head injury. Berger Rhythm. Used on Headaches. Ligament Healing. Sense of well being.",
+     "data_start": "start_dreamachine(10);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "b6rdarfkw"
    },
    {
-      "data_name":"12 hz Dreamachine Beats over 174 hz solfeggio",
-      "data_description":"For opening of throat chakra / Vishuddha chakra [Phase 1]. Musical Note is G. Aura color is blue. Centering mental stabilty [Phase 1], transistional point and time accelerater [ Phase 1 ]. Upper earth resonance frequency [Phase 1] via Hercules. Enhanced body parts are Thyroid [ Phase 1 ], Lungs [ Phase 1 ], Vocal Cords [ Phase 1 ].",
-      "data_start":"start_dreamachine(174, 186);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"7p3jfoxnr"
+     "data_name": "10.5 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats associated with Heart chakra. Aura influence is green. Its for healing of body, mind and body unity. Used in firewalking. Potent stabilizer and stimulating for the immunity, valuable in convalescence. Relaxed alertness, contemplation, body healing, mind over matter. Lowering Blood Pressure. This is a potent stabilizer and is simulating for immunity. Valuable in convalescence. Lowering of Blood Pressure. Enhanced body parts are Thymus, Heart, Blood, Circulatory System. Has positive effects such as Love for Life, love for self, others. Musical note is F. Mind over matter",
+     "data_start": "start_dreamachine(10.5);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "o3eteinpi"
    },
    {
-      "data_name":"12 hz Dreamachine Beats",
-      "data_description":"For opening of throat chakra / Vishuddha chakra. Gives expresssion of self in society. Musical Note is G. Aura color is blue. It stimulates mental clarity. Gives cleverness in general and presence of mind in conversations. Centering mental stabilty, transistional point and time accelerater. Doorway to all other frequencies. Upper earth resonance frequency via Hercules. Enhanced body parts are Thyroid, Lungs, Vocal Cords. Also good for absorbing information passively during conversations to think about it later.",
-      "data_start":"start_dreamachine(12);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"sqdbb5m4a"
+     "data_name": "12 hz Dreamachine Beats over 174 hz solfeggio",
+     "data_description": "For opening of throat chakra / Vishuddha chakra [Phase 1]. Musical Note is G. Aura color is blue. Centering mental stabilty [Phase 1], transistional point and time accelerater [ Phase 1 ]. Upper earth resonance frequency [Phase 1] via Hercules. Enhanced body parts are Thyroid [ Phase 1 ], Lungs [ Phase 1 ], Vocal Cords [ Phase 1 ].",
+     "data_start": "start_dreamachine(174, 186);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "l86f3z0kd"
    },
    {
-      "data_name":"12.3 hz Dreamachine Beats",
-      "data_description":"Associated with eyes. It gives better visualization.",
-      "data_start":"start_dreamachine(12.3);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"3qfvhoyjr"
+     "data_name": "12 hz Dreamachine Beats",
+     "data_description": "For opening of throat chakra / Vishuddha chakra. Gives expresssion of self in society. Musical Note is G. Aura color is blue. It stimulates mental clarity. Gives cleverness in general and presence of mind in conversations. Centering mental stabilty, transistional point and time accelerater. Doorway to all other frequencies. Upper earth resonance frequency via Hercules. Enhanced body parts are Thyroid, Lungs, Vocal Cords. Also good for absorbing information passively during conversations to think about it later.",
+     "data_start": "start_dreamachine(12);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "swf2spdfi"
    },
    {
-      "data_name":"13 hz Dreamachine Beats",
-      "data_description":"This is associated with Ajna chakra (3rd eye). Aura color is indigo or violet. Enhanced body parts are Pituitary, Lower Brain, Left Eye, Ears, Nose, Nervous System. It gives Visualization, Conceptualization. Musical note is A.",
-      "data_start":"start_dreamachine(13);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"eytdrexg7"
+     "data_name": "12.3 hz Dreamachine Beats",
+     "data_description": "Associated with eyes. It gives better visualization.",
+     "data_start": "start_dreamachine(12.3);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "5ocklckxr"
    },
    {
-      "data_name":"13.8 hz Dreamachine Beats",
-      "data_description":"This is associated with Frontal Lobes. It effects the seventh sense, final decision. [Phase 1]",
-      "data_start":"start_dreamachine(13.8);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"y6jcjgv5y"
+     "data_name": "13 hz Dreamachine Beats",
+     "data_description": "This is associated with Ajna chakra (3rd eye). Aura color is indigo or violet. Enhanced body parts are Pituitary, Lower Brain, Left Eye, Ears, Nose, Nervous System. It gives Visualization, Conceptualization. Musical note is A.",
+     "data_start": "start_dreamachine(13);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "zu6ab0kbi"
    },
    {
-      "data_name":"14 hz Dreamachine Beats",
-      "data_description":"Dreamachine beats for studying. It keeps subjects awake and alert, keeps concentration on tasks. Also good for learning and absorbing information passively when you are planning to think about it later. Enhanced logical, analytical, intellectual thinking. Provides starting point for the mind to do calculations, linear logical analyses and other highly structured functions. Minor improvements in communication.",
-      "data_start":"start_dreamachine(14);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"9l09bbdir"
+     "data_name": "13.8 hz Dreamachine Beats",
+     "data_description": "This is associated with Frontal Lobes. It effects the seventh sense, final decision. [Phase 1]",
+     "data_start": "start_dreamachine(13.8);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "nrq6jghdi"
    },
    {
-      "data_name":"15 hz Dreamachine Beats",
-      "data_description":"Dreamachine Beats for opening of Crown Chakra (Sahasrara). The color is white or voilet depending on the individual. Enhanced body parts are Pineal Gland, Upper Brain, Right Eye. It helps with capilary formation, fibroblast proliferation, and decreases skin necorosis.",
-      "data_start":"start_dreamachine(15);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"onljrlw1f"
+     "data_name": "14 hz Dreamachine Beats",
+     "data_description": "Dreamachine beats for studying. It keeps subjects awake and alert, keeps concentration on tasks. Also good for learning and absorbing information passively when you are planning to think about it later. Enhanced logical, analytical, intellectual thinking. Provides starting point for the mind to do calculations, linear logical analyses and other highly structured functions. Minor improvements in communication.",
+     "data_start": "start_dreamachine(14);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "na0ic6l25"
    },
    {
-      "data_name":"20 hz Dreamachine Beats",
-      "data_description":"Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 1], sinus infection [Phase 1], head cold [Phase 1], headache [Phase 1]. Commonly used 'cure-all' Rife Frequency [Phase 1].   It should not to be used during labour as it causes distress. For removing fatigue as it energizes. For imposing sub-conscious commands to another (The primary thought center). For Adrenal Stimulant. Stimulation of pineal gland. Human Hearing Threshold. ",
-      "data_start":"start_dreamachine(20);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"1wjmtvvor"
+     "data_name": "15 hz Dreamachine Beats",
+     "data_description": "Dreamachine Beats for opening of Crown Chakra (Sahasrara). The color is white or voilet depending on the individual. Enhanced body parts are Pineal Gland, Upper Brain, Right Eye. It helps with capilary formation, fibroblast proliferation, and decreases skin necorosis.",
+     "data_start": "start_dreamachine(15);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "vkwk8a3px"
+   },
+   {
+     "data_name": "20 hz Dreamachine Beats",
+     "data_description": "Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 1], sinus infection [Phase 1], head cold [Phase 1], headache [Phase 1]. Commonly used 'cure-all' Rife Frequency [Phase 1].   It should not to be used during labour as it causes distress. For removing fatigue as it energizes. For imposing sub-conscious commands to another (The primary thought center). For Adrenal Stimulant. Stimulation of pineal gland. Human Hearing Threshold. ",
+     "data_start": "start_dreamachine(20);",
+     "data_stop": "stop_dreamachine();",
+     "data_id": "xl177nhsg"
    }
-]
+ ]
