@@ -160,18 +160,11 @@
       "data_id":"7iet48r7h"
    },
    {
-      "data_name":"9 hz Dreamachine Beats over 174 hz solfeggio",
-      "data_description":"Opening of Sacral Chakra or Svadhisthana chakra [ Phase 1 ]. Enhanced body parts are Gonads [Phase 1]  and Reproductive System [ Phase 1 ]. Positive Effects on relationships [Phase 1] and Sexuality [ Phase 1 ]. Awareness of causes of body imbalance and means for balance [ Phase 1 ].  Blind person phantom touch reading (somatosensory cortex) [Phase 1].",
-      "data_start":"start_dreamachine(174, 183);",
+      "data_name":"9 hz Dreamachine Beats",
+      "data_description":"Opening of Sacral Chakra or Svadhisthana chakra. Enhanced body parts are Gonads and Reproductive System. Positive Effects on relationships and Sexuality. Awareness of causes of body imbalance and means for balance.  Blind person phantom touch reading (somatosensory cortex).",
+      "data_start":"start_dreamachine(9);",
       "data_stop":"stop_dreamachine();",
       "data_id":"8cxkcdwn0"
-   },
-   {
-      "data_name":"9 hz Dreamachine Beats over 417 hz solfeggio",
-      "data_description":"Opening of Sacral Chakra or Svadhisthana chakra [ Phase 2 ]. Enhanced body parts are Gonads [Phase 2] and Reproductive System [ Phase 2 ]. Positive Effects on relationships [Phase 2] and Sexuality [ Phase 2 ]. Awareness of causes of body imbalance and means for balance [ Phase 2 ].  Blind person phantom touch reading (somatosensory cortex) [Phase 2].",
-      "data_start":"start_dreamachine(417, 426);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"obefb3452"
    },
    {
       "data_name":"10 hz Dreamachine Beats over 174 hz solfeggio",
