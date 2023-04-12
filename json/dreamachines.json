@@ -202,25 +202,11 @@
       "data_id":"3qfvhoyjr"
    },
    {
-      "data_name":"13 hz Dreamachine Beats over 174 hz solfeggio",
-      "data_description":"This is associated with Ajna chakra (3rd eye) [Phase 1, 2nd flavor]. Aura color is indigo or violet. Enhanced body parts are Pituitary, Lower Brain, Left Eye, Ears, Nose, Nervous System. It gives Visualization, Conceptualization. Musical note is A.",
-      "data_start":"start_dreamachine(174, 187);",
+      "data_name":"13 hz Dreamachine Beats",
+      "data_description":"This is associated with Ajna chakra (3rd eye). Aura color is indigo or violet. Enhanced body parts are Pituitary, Lower Brain, Left Eye, Ears, Nose, Nervous System. It gives Visualization, Conceptualization. Musical note is A.",
+      "data_start":"start_dreamachine(13);",
       "data_stop":"stop_dreamachine();",
       "data_id":"eytdrexg7"
-   },
-   {
-      "data_name":"13 hz Dreamachine Beats over 741 hz solfeggio",
-      "data_description":"Post tuning of throat chakra, improvements in verbal communication.",
-      "data_start":"start_dreamachine(741, 754);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"5aakwq7b2"
-   },
-   {
-      "data_name":"13 hz Dreamachine Beats over 852 hz solfeggio",
-      "data_description":"This is associated with Ajna chakra (3rd eye) [Phase 2, 2nd flavor]. Aura color is indigo or violet. Enhanced body parts are Pituitary,Lower Brain, Left Eye, Ears, Nose, Nervous System. It gives Visualization, Conceptualization. Musical note is A.",
-      "data_start":"start_dreamachine(852, 865);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"yb2d2sd8b"
    },
    {
       "data_name":"13.8 hz Dreamachine Beats over 852 hz solfeggio",
