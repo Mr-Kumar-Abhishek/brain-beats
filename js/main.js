@@ -439,8 +439,10 @@ function warning(whichy){
        alert("Lower your volume and use headphones !");
        break;
     case 3:
-      alert("Sit in a dark room. Set the desired frequency, play the dreamachine generator and CLOSE YOUR EYES!");
+      alert("Sit in a dark room. Set the desired frequency, keep it in front of your eyes, play the dreamachine generator and CLOSE YOUR EYES!");
       break;
+    case 4:
+      alert("Sit in a dark room, choose a preset, keep it in front of your eyes, play it and CLOSE YOUR EYES!")
   }   
 }
 
