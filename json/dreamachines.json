@@ -231,51 +231,9 @@
    },
    {
       "data_name":"20 hz Dreamachine Beats",
-      "data_description":"Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 1], sinus infection [Phase 1], head cold [Phase 1], headache [Phase 1]. Commonly used 'cure-all' Rife Frequency [Phase 1].   It should not to be used during labour as it causes distress.  ",
+      "data_description":"Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 1], sinus infection [Phase 1], head cold [Phase 1], headache [Phase 1]. Commonly used 'cure-all' Rife Frequency [Phase 1].   It should not to be used during labour as it causes distress. For removing fatigue as it energizes. For imposing sub-conscious commands to another (The primary thought center). For Adrenal Stimulant. Stimulation of pineal gland. Human Hearing Threshold. ",
       "data_start":"start_dreamachine(20);",
       "data_stop":"stop_dreamachine();",
       "data_id":"1wjmtvvor"
-   },
-   {
-      "data_name":"20 hz Dreamachine Beats over 285 hz solfeggio",
-      "data_description":"Dreamachine beats for removing fatigue as it energizes.   It should not to be used during labour as it causes distress.   Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). Commonly used 'cure-all' Rife Frequency [Phase 3].",
-      "data_start":"start_dreamachine(285, 305);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"1osb5mpfm"
-   },
-   {
-      "data_name":"20 hz Dreamachine Beats over 417 hz solfeggio",
-      "data_description":"Dreamachine Beats for imposing sub-conscious commands to another's sacral intuition (The thought center of sacral intuition).   It should not to be used during labour as it causes distress.  ",
-      "data_start":"start_dreamachine(417, 427);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"vc0vn16y9"
-   },
-   {
-      "data_name":"20 hz Dreamachine Beats over 528 hz solfeggio",
-      "data_description":"Dreamachine Beats for Adrenal Stimulant.   It should not to be used during labour as it causes distress.  ",
-      "data_start":"start_dreamachine(528, 548);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"vilmbfj23"
-   },
-   {
-      "data_name":"20 hz Dreamachine Beats over 639 hz solfeggio",
-      "data_description":"Dreamachine Beats for imposing sub-conscious commands to another (The thought center of feelings).   It should not to be used during labour as it causes distress.",
-      "data_start":"start_dreamachine(639, 659);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"tyt7wwed3"
-   },
-   {
-      "data_name":"20 hz Dreamachine Beats over 852 hz solfeggio",
-      "data_description":"Stimulation of pineal gland. Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 3], sinus infection [Phase 3], head cold [Phase 3],headache [Phase 3]. Commonly used 'cure-all' Rife Frequency [Phase 1].   It should not to be used during labour as it causes distress.  ",
-      "data_start":"start_dreamachine(852, 872);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"m1cr78n2f"
-   },
-   {
-      "data_name":"20 hz Dreamachine Beats over 963 hz solfeggio",
-      "data_description":"Dreamachine Beats for imposing sub-conscious commands to another (The primary thought center).   It should not to be used during labour as it causes distress.  ",
-      "data_start":"start_dreamachine(963, 983);",
-      "data_stop":"stop_dreamachine();",
-      "data_id":"av2j1ii1m"
    }
 ]
