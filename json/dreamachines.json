@@ -225,14 +225,14 @@
    {
       "data_name":"15 hz Dreamachine Beats",
       "data_description":"Dreamachine Beats for opening of Crown Chakra (Sahasrara). The color is white or voilet depending on the individual. Enhanced body parts are Pineal Gland, Upper Brain, Right Eye. It helps with capilary formation, fibroblast proliferation, and decreases skin necorosis.",
-      "data_start":"start_dreamachine(174, 189);",
+      "data_start":"start_dreamachine(15);",
       "data_stop":"stop_dreamachine();",
       "data_id":"onljrlw1f"
    },
    {
-      "data_name":"20 hz Dreamachine Beats over 174 hz solfeggio",
+      "data_name":"20 hz Dreamachine Beats",
       "data_description":"Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 1], sinus infection [Phase 1], head cold [Phase 1], headache [Phase 1]. Commonly used 'cure-all' Rife Frequency [Phase 1].   It should not to be used during labour as it causes distress.  ",
-      "data_start":"start_dreamachine(174, 194);",
+      "data_start":"start_dreamachine(20);",
       "data_stop":"stop_dreamachine();",
       "data_id":"1wjmtvvor"
    },
