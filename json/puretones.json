@@ -1,5 +1,12 @@
 [
    {
+      "data_name":"111 hz - Pure Tone",
+      "data_description":"Pure Tone for angel frequency. It helps in production of endorphines. This frequency helps in cell rejuvination and cell regeneration. By producing endorphines it relieves pain and elevates mood. Gives over all well-being, empathy, and improves focus and memory.",
+      "data_start":"play_pure_tone(111);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"376wcxdv20"
+   },
+   {
       "data_name":"126.22 hz - Pure Tone",
       "data_description":"Pure Tone for Manipura Chakra (slightly below solar plexus). This Manipura Chakra meditation has physical enhancements to give strength against digestive and intestinal disorders, indigestion, food allergies, eating disorders, poor metabolism, diabetes, obesity, eczema, acne and other stress related skin conditions. Improves lack of memory and concentration, frequent fearing, removes feeling uncentered, insomnia and eating disorders.",
       "data_start":"play_pure_tone(126.22);",
