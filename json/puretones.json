@@ -69,6 +69,14 @@
       "data_stop":"stop_pure_tone();",
       "data_id":"14ttwbjko"
    },
+
+   {
+      "data_name":"333 hz - Pure Tone",
+      "data_description":"This angel frequency can recalibrate your DNA. It opens up a new consciousness for some listeners. It is one of the most angelic as it is one of the master number. This frequency could cleanse and reprogram your mind. It literally transforms you to a new person and it exposes you to totally new life that you have prayed on that. It fills you with abundance of love, positive energy and inner peace.",
+      "data_start":"play_pure_tone(333);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"vax4p1b4ci"
+   },
    {
       "data_name":"341 hz - Pure Tone",
       "data_description":"Pure tone for meditation on Anahata chakra (heart chakra). It tries to remove apathetic nature, faithlessness, unforgiving nature, hopelessness,  distrustfulness, uncommittedness, and detachment. It gives strength, against pneumonia, asthema, breast problems, respiratory problems, upper-back pain, shoulder and upper arm pain, and also premature aging. It tries to remove apathetic nature, faithlessness, unforgiving nature, hopelessness,  distrustfulness, uncommittedness, and detachment.",
