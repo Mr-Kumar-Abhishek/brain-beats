@@ -147,6 +147,13 @@
       "data_id":"6sg0l65lq5"
    },
    {
+      "data_name":"666 hz - Pure Tone",
+      "data_description":"This angelic frequency is sometimes debated that it is related with satan or evil, it does more good than evil. It is believed that this frequency helps our mind to fix imbalances in metal states and thoughts.",
+      "data_start":"play_pure_tone(666);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"lf74ljvkif"
+   },
+   {
       "data_name":"727 hz - Pure Tone",
       "data_description":"Mostly used on Allergies, Sinusitis. Commonly used as 'cure-all' Rife frequency.",
       "data_start":"play_pure_tone(727);",
