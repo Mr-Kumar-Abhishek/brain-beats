@@ -204,7 +204,7 @@
    },
    {
       "data_name":"999 hz - Pure Tone",
-      "data_description":"This angel frequency is celestial in nature. This frequency allows you to connect and vibrate at devine energy. This is a very high frequency of energy. It is the highest frequency in the angelic realms. This represents unity, moving forward, and spiritual awareness.",
+      "data_description":"This angel frequency is celestial in nature. This frequency allows you to connect and vibrate at divine energy. This is a very high frequency of energy. It is the highest frequency in the angelic realms. This represents unity, moving forward, and spiritual awareness.",
       "data_start":"play_pure_tone(999);",
       "data_stop":"stop_pure_tone();",
       "data_id":"spkkrpy3pi"
