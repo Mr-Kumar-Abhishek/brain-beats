@@ -203,6 +203,13 @@
       "data_id":"tsdl121rh"
    },
    {
+      "data_name":"999 hz - Pure Tone",
+      "data_description":"This angel frequency is celestial in nature. This frequency allows you to connect and vibrate at devine energy. This is a very high frequency of energy. It is the highest frequency in the angelic realms. This represents unity, moving forward, and spiritual awareness.",
+      "data_start":"play_pure_tone(999);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"spkkrpy3pi"
+   },
+   {
       "data_name":"1024 hz - Pure Tone",
       "data_description":"Pure tone for global chakra or upper earth chakra [Phase 1]. Opens all chakra of the body, namely, Muldhara, Svadisthana, Manipura, Anahata, Vishudha, Ajna (third eye), shahasrara. This is aimed at physical strength from all basic chakras. It acts in pair with lower earth chakra and which harnesses all the pieces of human puzzle from DNA to blood and bone. This is the chakra of whole human aura.",
       "data_start":"play_pure_tone(1024);",
