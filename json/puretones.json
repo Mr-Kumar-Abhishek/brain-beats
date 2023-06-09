@@ -42,6 +42,13 @@
       "data_id":"o9moi622h"
    },
    {
+      "data_name":"222 hz - Pure Tone",
+      "data_description":"Angel frequency for having the ability to rejuvinate your brain and bring together lost relationship. This frequency turns your ideas into reality. If one has difficulty in concentration and focus, this frequency will bring calmness to the mind.",
+      "data_start":"play_pure_tone(222);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"yc5zw6gywp"
+   },
+   {
       "data_name":"256 hz - Pure Tone",
       "data_description":"Pure Tone for root chakra (muladhara) for meditation. Physical enhancement by muladahara, gives strength for lower back pain, scaitica, varicose viens, constipation, diarrhea, rectal or anal problems, problems with groin, hips, legs, knees, calves, ankles and feet. It is related to survival, security and being closest to earth. Associated with colour red and the element earth. It rests at the base of the spine. It tries to remove loneliness, insecurities, feeling ungrounded, unconfidence, abandonment, indecisiveness, depressed states, anxious states, addictions, phobias and obsessions.",
       "data_start":"play_pure_tone(256);",
