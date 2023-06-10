@@ -29,7 +29,7 @@
    },
    {
      "data_name":"Black Noise",
-     "data_description":"Black Noise refers to complete silence or mostly silence with bits of random noise.",
+     "data_description":"Black Noise refers to complete silence or mostly silence with bits of random noise. Its good for having sleep, those who wants complete silence.",
      "data_start":"play_black_noise();",
      "data_stop":"stop_black_noise();",
      "data_id":"4wh0sqas1b"
