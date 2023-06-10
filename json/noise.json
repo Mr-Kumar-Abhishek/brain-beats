@@ -19,5 +19,12 @@
        "data_start":"play_brown_noise();",
        "data_stop":"stop_brown_noise();",
        "data_id":"8aq6y58sd"
-    }
+    },
+    {
+      "data_name":"Red Noise",
+      "data_description":"Red noise is similar to pink noise but with different spectral content and different relationships that is, a decrease of 6.02dB per octave. Benefits associated while listening to it are improved sleep, reduced stress and anxiety, and booted productivity and creativity.",
+      "data_start":"play_red_noise();",
+      "data_stop":"stop_red_noise();",
+      "data_id":"ffm5ifcsy8"
+   }
  ]
