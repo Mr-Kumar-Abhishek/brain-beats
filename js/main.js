@@ -555,7 +555,7 @@ function stop_all() {
   if (boolPink == 1 ) { stop_pink_noise(); }
   if (boolBrown == 1 ) { stop_brown_noise(); }
   if (boolRed == 1 ) {stop_red_noise(); }
-  if (boolBlack = 1 ) {stop_black_noise(); }
+  if (boolBlack == 1 ) {stop_black_noise(); }
   if (solfeggio_flag == 1 ) { stop_solfeggio(); }
   if (pure_tone_flag == 1 ) { stop_pure_tone(); }
   if (binaural_flag == 1 ) { stop_binaural(); }
