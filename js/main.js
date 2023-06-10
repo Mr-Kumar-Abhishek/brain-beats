@@ -45,10 +45,13 @@ var brownNoiseNode;
 var brownNoiseNodeGain;
 var redNoiseNode;
 var redNoiseNodeGain;
+var blackNoiseNode;
+var blackNoiseNodeGain;
 var boolWhite = 0;
 var boolPink = 0;
 var boolBrown = 0;
 var boolRed = 0;
+var boolBlack = 0;
 var notification;
 var toggler;
 
@@ -346,6 +349,19 @@ async function play_red_noise() {
   }
 }
 
+async function play_black_noise() {
+  if (boolRed == 0) {
+    stop_all();
+    boolBlack = 1;
+    var audioContext = new AudioContext();
+    await audioContext.audioWorklet.addModule('noise-processor/black-noise-processor.js');
+    blackNoiseNode = new AudioWorkletNode(audioContext, 'black-noise-processor');
+    blackNoiseNodeGain = audioContext.createGain();
+    blackNoiseNodeGain.gain.value = volume_set();
+    blackNoiseNode.connect(blackNoiseNodeGain);
+    blackNoiseNodeGain.connect(audioContext.destination);
+  }
+}
 function stop_double_tone() {
   if(double_tone_flag == 1){
     double_tone_flag = 0;
@@ -409,6 +425,14 @@ function stop_red_noise() {
       redNoiseNodeGain.disconnect();
   }
 }
+
+function stop_black_noise() {
+  if(boolBlack == 1) {
+      boolBlack = 0;
+      blackNoiseNodeGain.disconnect();
+  }
+}
+
 function stop_isochronic() {
   if (isochronic_flag == 1) {
     isochronic_flag = 0;
@@ -512,6 +536,10 @@ function live_volume_set(){
   }else if (boolRed== 1) {
     if (redNoiseNodeGain.gain.value != undefined) {
       redNoiseNodeGain.gain.value = volume_set();
+    }
+  }else if (boolBlack== 1) {
+    if (blackNoiseNodeGain.gain.value != undefined) {
+      blackNoiseNodeGain.gain.value = volume_set();
     }
   }
 }
