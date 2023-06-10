@@ -350,7 +350,7 @@ async function play_red_noise() {
 }
 
 async function play_black_noise() {
-  if (boolRed == 0) {
+  if (boolBlack == 0) {
     stop_all();
     boolBlack = 1;
     var audioContext = new AudioContext();
