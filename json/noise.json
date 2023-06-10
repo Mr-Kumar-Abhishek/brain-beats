@@ -26,5 +26,12 @@
       "data_start":"play_red_noise();",
       "data_stop":"stop_red_noise();",
       "data_id":"ffm5ifcsy8"
-   }
+   },
+   {
+     "data_name":"Black Noise",
+     "data_description":"Black Noise refers to complete silence or mostly silence with bits of random noise.",
+     "data_start":"play_black_noise();",
+     "data_stop":"stop_black_noise();",
+     "data_id":"4wh0sqas1b"
+  }
  ]
