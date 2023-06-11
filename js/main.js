@@ -228,7 +228,6 @@ function play_binaural(freq1, freq2){
 
 function play_double_tone (freq1, freq2, form, deviation) {
   if (double_tone_flag == 0) {
-    stop_all();
     double_tone_flag = 1;
 
     beat_freq_1 = freq1;
