@@ -98,6 +98,13 @@
       "data_id":"naknevi9bc"
    },
    {
+      "data_name":"329.63 hz - Pure Tone",
+      "data_description":"Pure tone for Leo. Leo can use this for relaxation, meditation or study. Musical Note is E",
+      "data_start":"play_pure_tone(329.63);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"7ynz22jubk"
+   },
+   {
       "data_name":"333 hz - Pure Tone",
       "data_description":"This angel frequency can recalibrate your DNA. It opens up a new consciousness for some listeners. It is one of the most angelic as it is one of the master number. This frequency could cleanse and reprogram your mind. It literally transforms you to a new person and it exposes you to totally new life that you have prayed on that. It fills you with abundance of love, positive energy and inner peace.",
       "data_start":"play_pure_tone(333);",
