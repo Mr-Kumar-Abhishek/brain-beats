@@ -189,6 +189,13 @@
       "data_id":"c92kpafyu"
    },
    {
+      "data_name":"440 hz - Pure Tone",
+      "data_description":"Pure tone for capricorn. Capricorn can use this for study, meditation or relaxing. Musical Note is A",
+      "data_start":"play_pure_tone(440);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"62f5e0bzmb"
+   },
+   {
       "data_name":"444 hz - Pure Tone",
       "data_description":"This tone is used by king David in the psalms. Many groups gravitate to this frequency. This is the key to open doors of heaven that no man can open. The feeling attributed to this tone are joy, peace and a sense of security. It helps to align with nature. It is pleasing to mind and body. Has a sense of peace and is emotionally uplifting. Helps to feel secure and opens heavenly portals. Floating in space, the frequency of angels. Old Musical note A.",
       "data_start":"play_pure_tone(444);",
