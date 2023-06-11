@@ -77,6 +77,13 @@
       "data_id":"eis8iawnf"
    },
    {
+      "data_name":"293.66 hz - Pure Tone",
+      "data_description":"Pure tone for gemini. Gemini could use this for relaxation, music and study. Musical Note is D.",
+      "data_start":"play_pure_tone(293.66);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"5fcifmq4xp"
+   },
+   {
       "data_name":"295.8 hz - Pure Tone",
       "data_description":"Pure tone for viceral fat reduction. Must be listened while working out (including walking).",
       "data_start":"play_pure_tone(295.8);",
