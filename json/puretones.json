@@ -217,6 +217,13 @@
       "data_id":"tguhjtiva"
    },
    {
+      "data_name":"493.88 hz - Pure Tone",
+      "data_description":"Pure tone for Pisces. Pisces can use this for relaxation, meditation or study. Musical note B.",
+      "data_start":"play_pure_tone(493.88);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"bu6ftl4k7n"
+   },
+   {
       "data_name":"555 hz - Pure Tone",
       "data_description":"This angelic frequency is all about change. Its for a future of new creation - Whatever that might mean for you. This can destress someone in middle of the biggest crisis they have ever faced. It resets the soul and brain as it prepares for the exact moment of devine interaction.",
       "data_start":"play_pure_tone(555);",
