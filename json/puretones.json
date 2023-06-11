@@ -147,6 +147,13 @@
       "data_id":"xzvgixet1"
    },
    {
+      "data_name":"392 hz - Pure Tone",
+      "data_description":"Pure tone for scorpio. Scorpio can use this for meditation, relaxation or study. Musical note is G",
+      "data_start":"play_pure_tone(392);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"lrl9yherft"
+   },
+   {
       "data_name":"416 hz - Pure Tone",
       "data_description":"Pure tone for meditation on psychic central chakra [Phase 1]. [13:1]. Musical note is Ab. This frequency is associated with Iron mineral nutrient.",
       "data_start":"play_pure_tone(416);",
