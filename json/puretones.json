@@ -1,12 +1,5 @@
 [
    {
-      "data_name":"111 hz - Pure Tone",
-      "data_description":"Pure Tone for angel frequency. It helps in production of endorphines. This frequency helps in cell rejuvination and cell regeneration. By producing endorphines it relieves pain and elevates mood. Gives over all well-being, empathy, and improves focus and memory.",
-      "data_start":"play_pure_tone(111);",
-      "data_stop":"stop_pure_tone();",
-      "data_id":"376wcxdv20"
-   },
-   {
       "data_name":"126.22 hz - Pure Tone",
       "data_description":"Pure Tone for Manipura Chakra (slightly below solar plexus). This Manipura Chakra meditation has physical enhancements to give strength against digestive and intestinal disorders, indigestion, food allergies, eating disorders, poor metabolism, diabetes, obesity, eczema, acne and other stress related skin conditions. Improves lack of memory and concentration, frequent fearing, removes feeling uncentered, insomnia and eating disorders.",
       "data_start":"play_pure_tone(126.22);",
@@ -40,13 +33,6 @@
       "data_start":"play_pure_tone(210.42);",
       "data_stop":"stop_pure_tone();",
       "data_id":"o9moi622h"
-   },
-   {
-      "data_name":"222 hz - Pure Tone",
-      "data_description":"Angel frequency for having the ability to rejuvinate your brain and bring together lost relationship. This frequency turns your ideas into reality. If one has difficulty in concentration and focus, this frequency will bring calmness to the mind.",
-      "data_start":"play_pure_tone(222);",
-      "data_stop":"stop_pure_tone();",
-      "data_id":"yc5zw6gywp"
    },
    {
       "data_name":"256 hz - Pure Tone",
@@ -103,13 +89,6 @@
       "data_start":"play_pure_tone(329.63);",
       "data_stop":"stop_pure_tone();",
       "data_id":"7ynz22jubk"
-   },
-   {
-      "data_name":"333 hz - Pure Tone",
-      "data_description":"This angel frequency can recalibrate your DNA. It opens up a new consciousness for some listeners. It is one of the most angelic as it is one of the master number. This frequency could cleanse and reprogram your mind. It literally transforms you to a new person and it exposes you to totally new life that you have prayed on that. It fills you with abundance of love, positive energy and inner peace.",
-      "data_start":"play_pure_tone(333);",
-      "data_stop":"stop_pure_tone();",
-      "data_id":"vax4p1b4ci"
    },
    {
       "data_name":"341 hz - Pure Tone",
@@ -196,13 +175,6 @@
       "data_id":"62f5e0bzmb"
    },
    {
-      "data_name":"444 hz - Pure Tone",
-      "data_description":"This tone is used by king David in the psalms. Many groups gravitate to this frequency. This is the key to open doors of heaven that no man can open. The feeling attributed to this tone are joy, peace and a sense of security. It helps to align with nature. It is pleasing to mind and body. Has a sense of peace and is emotionally uplifting. Helps to feel secure and opens heavenly portals. Floating in space, the frequency of angels. Old Musical note A.",
-      "data_start":"play_pure_tone(444);",
-      "data_stop":"stop_pure_tone();",
-      "data_id":"vqku8941j"
-   },
-   {
       "data_name":"466.16 hz - Pure Tone",
       "data_description":"Pure tone for Aquarius. Aquarius can use this for relaxation, meditation or study. Musical Note is A#",
       "data_start":"play_pure_tone(466.16);",
@@ -224,32 +196,11 @@
       "data_id":"bu6ftl4k7n"
    },
    {
-      "data_name":"555 hz - Pure Tone",
-      "data_description":"This angelic frequency is all about change. Its for a future of new creation - Whatever that might mean for you. This can destress someone in middle of the biggest crisis they have ever faced. It resets the soul and brain as it prepares for the exact moment of devine interaction.",
-      "data_start":"play_pure_tone(555);",
-      "data_stop":"stop_pure_tone();",
-      "data_id":"6sg0l65lq5"
-   },
-   {
-      "data_name":"666 hz - Pure Tone",
-      "data_description":"This angelic frequency is sometimes debated that it is related with satan or evil, it does more good than evil. It is believed that this frequency helps our mind to fix imbalances in metal states and thoughts.",
-      "data_start":"play_pure_tone(666);",
-      "data_stop":"stop_pure_tone();",
-      "data_id":"lf74ljvkif"
-   },
-   {
       "data_name":"727 hz - Pure Tone",
       "data_description":"Mostly used on Allergies, Sinusitis. Commonly used as 'cure-all' Rife frequency.",
       "data_start":"play_pure_tone(727);",
       "data_stop":"stop_pure_tone();",
       "data_id":"h2hl9tjtq"
-   },
-   {
-      "data_name":"777 hz - Pure Tone",
-      "data_description":"Angelic frequency for luck and abundance. This is the frequency for free spirit, joy and celebrations. It lets go of internal blocks, limitations and obstacles.",
-      "data_start":"play_pure_tone(777);",
-      "data_stop":"stop_pure_tone();",
-      "data_id":"fktjuti4gj"
    },
    {
       "data_name":"787 hz - Pure Tone",
@@ -273,25 +224,11 @@
       "data_id":"ncp3qydhu"
    },
    {
-      "data_name":"888 hz - Pure Tone",
-      "data_description":"This is the angel healing frequency. A trip to infinite possibilites. For meditation beyond space and time. For manisfestation and abundance.",
-      "data_start":"play_pure_tone(888);",
-      "data_stop":"stop_pure_tone();",
-      "data_id":"y94onrht6"
-   },
-   {
       "data_name":"984 hz - Pure Tone",
       "data_description":"Pure tone associated with cerebral cortex. This increases intelligence over time.",
       "data_start":"play_pure_tone(984);",
       "data_stop":"stop_pure_tone();",
       "data_id":"tsdl121rh"
-   },
-   {
-      "data_name":"999 hz - Pure Tone",
-      "data_description":"This angel frequency is celestial in nature. This frequency allows you to connect and vibrate at divine energy. This is a very high frequency of energy. It is the highest frequency in the angelic realms. This represents unity, moving forward, and spiritual awareness.",
-      "data_start":"play_pure_tone(999);",
-      "data_stop":"stop_pure_tone();",
-      "data_id":"spkkrpy3pi"
    },
    {
       "data_name":"1024 hz - Pure Tone",
