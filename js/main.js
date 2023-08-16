@@ -19,6 +19,7 @@ var white_noise_flag = 0;
 var pink_noise_flag = 0;
 var toggle_flag = 0;
 var dreamachine_flag = 0;
+var angel_flag = 0;
 
 var volume;
 var volume_1;
@@ -98,7 +99,7 @@ function stop_dreamachine() {
     // Remove the flicker class from the body element
   body.classList.remove("flicker");
   for (var i = 0; i < cards.length; i++) {
-    // Add the class "flicker" to each element
+    // remove the class "flicker" to each element
     cards[i].classList.remove("flicker");
   }
   }
@@ -146,6 +147,22 @@ function play_pure_tone(freq) {
 
 function stop_pure_tone() {
   pure_tone_flag = 0;
+  stop_single_tone();
+}
+
+function play_angel(freq) {
+  if (angel_flag == 0 ){
+    stop_all();
+    angel_flag = 1;
+    play_single_tone(freq);
+  }else {
+    stop_angel();
+    play_angel(freq);
+  }  
+}
+
+function stop_angel(){
+  angel_flag = 0;
   stop_single_tone();
 }
 
@@ -508,7 +525,7 @@ function toggle_volume(){
 function live_volume_set(){
   console.log("live volume ran");
   
-  if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1){
+  if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1 | angel_flag == 1){
    if(volume.gain.value != undefined) {
     volume.gain.value = volume_set();
    } 
@@ -561,5 +578,6 @@ function stop_all() {
   if (monaural_flag == 1 ) { stop_monaural (); }
   if (sq_monaural_flag == 1 ) { stop_sq_monaural(); }
   if (single_tone_flag == 1 ) { stop_single_tone(); }
-  if (double_tone_flag == 1 ) { stop_double_tone(); } 
+  if (double_tone_flag == 1 ) { stop_double_tone(); }
+  if (angel_flag == 1 ) { stop_angel(); }
 }
