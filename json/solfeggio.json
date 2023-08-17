@@ -176,9 +176,16 @@
    },
    {
       "data_name":"2184 Hz - solfeggio frequency",
-      "data_description":"Solfeggio frequency associated Chakra of Holy Fire. It is a very yang chakra that looks like a living plant being burned by fire, but it also brings new life when it is balanced. It connects to the Atar and Agni, the Holy Fire. It gives many ideas, opportunities, support and clear guidance from higher powers, vivid dreams, friendship and love. It is important to work with lower, Earth chakras as well when working with this chakra, because it can easily become unbalanced. Its color is bright red and green.",
+      "data_description":"Solfeggio frequency associated with Chakra of Holy Fire. It is a very yang chakra that looks like a living plant being burned by fire, but it also brings new life when it is balanced. It connects to the Atar and Agni, the Holy Fire. It gives many ideas, opportunities, support and clear guidance from higher powers, vivid dreams, friendship and love. It is important to work with lower, Earth chakras as well when working with this chakra, because it can easily become unbalanced. Its color is bright red and green.",
       "data_start":"play_solfeggio(2184);",
       "data_stop":"stop_solfeggio();",
       "data_id":"9ccxm8ofzz"
+   },
+   {
+      "data_name":"2295 Hz - solfeggio frequency",
+      "data_description":"Solfeggio frequency associated with the Chakra of Fiery Tree. It is an 8D chakra that shows super-creativity, Love and clear guidance from higher powers. When Moses saw a burning bush, it was a sign of his 18th chakra activation. For Human races of Assiah, the Chakra of Fiery Tree connects to higher dimensional human races from Pleiades, but only when the chakra is balanced. If the chakra is unbalanced, it links to archangel Lucifer, Indian Vritra and to Carian/Avian super-civilizations. It is important to work with lower, Earth chakras as well when working with this chakra, because it can easily become unbalanced. Its color is bright red and green.",
+      "data_start":"play_solfeggio(2295);",
+      "data_stop":"stop_solfeggio();",
+      "data_id":"433d6p77hl"
    }
 ]
