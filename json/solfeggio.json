@@ -194,5 +194,12 @@
       "data_start":"play_solfeggio(2406);",
       "data_stop":"stop_solfeggio();",
       "data_id":"jbs6ev267n"
+   },
+   {
+      "data_name":"2517 Hz - solfeggio frequency",
+      "data_description":"Solfeggio frequency associated with a Chakra that is linked to the third eye, but instead of just seeing other realities, you become one with the vision and the wisdom.",
+      "data_start":"play_solfeggio(2517);",
+      "data_stop":"stop_solfeggio();",
+      "data_id":"h7y035y1nf"
    }
 ]
