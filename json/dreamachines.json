@@ -35,6 +35,13 @@
      "data_id": "jp4ugg8xf"
    },
    {
+    "data_name": "0.37 hz Dreamachine Beats",
+    "data_description": "Relief from Alcohol Addiction.",
+    "data_start": "start_dreamachine(0.37);",
+    "data_stop": "stop_dreamachine();",
+    "data_id": "hfj7ba2t9z"
+   },
+   {
      "data_name": "0.5 hz Dreamachine Beats",
      "data_description": "Very relaxing against headaches. To be used for relief from lower back pain. Thyroid, reproductive and excretory stimulant. Whole brain toner.",
      "data_start": "start_dreamachine(0.5);",
