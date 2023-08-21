@@ -63,6 +63,13 @@
       "data_id":"ez9zuguzx"
    },
    {
+      "data_name":"0.37 hz Binaural Beats over Solfeggio 174 hz",
+      "data_description":"Relief from Alcohol Addiction [Phase 1, Flavor 1].",
+      "data_start":"play_binaural(174, 174.37);",
+      "data_stop":"stop_binaural();",
+      "data_id":"m84auq77at"
+   },
+   {
       "data_name":"0.5 hz Binaural Beats over Solfeggio 174 hz",
       "data_description":"Very relaxing against headaches [Phase 1]. To be used for relief from lower back pain [Phase 1]. Thyroid[Phase 1], reproductive [Phase 1] and excretory stimulant [Phase 1]. Whole brain toner[Phase 1].",
       "data_start":"play_binaural(174, 174.5);",
