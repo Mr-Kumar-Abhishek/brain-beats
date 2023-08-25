@@ -236,20 +236,39 @@
               <div class="row">
                 <div class="col text-left">
                   <div class="card-text">
-                    <form>
-                      <div class="row">
-                        <div class="form-group col">
-                          <label for="freq">Frequency</label>
+                    <form id="freq-form">
+                      <div class="row" id="freq-row-0">
+                        <div class="form-group col-10">
+                          <label for="freq-0">Frequency</label>
                           <input
-                            id="freq"
+                            id="freq-0"
                             type="number"
                             class="form-control"
                             placeholder="Frequency"
                             min="0"
                           />
                         </div>
+                        <div class="form-group col-2">
+                          <label for="remove-0">&nbsp;</label>
+                          <button
+                            id="remove-0"
+                            type="button"
+                            class="form-control btn btn-danger"
+                            onclick="remove_freq_field(0);"
+                          >
+                            Remove
+                          </button>
+                        </div>
                       </div>
                     </form>
+                    <button
+                      id="add-freq-btn"
+                      type="button"
+                      class="btn btn-success mt-3"
+                      onclick="add_freq_field();"
+                    >
+                      Add Frequency
+                    </button>
                   </div>
                 </div>
               </div>
@@ -271,6 +290,7 @@
         </div>
       </div>
 
+
       <div class="volume-box">
         <p>
           <b><i>volume</i></b>
@@ -287,5 +307,79 @@
     <script src="./js/plugins.js"></script>
     <script src="./js/bootstrap-input-spinner.js"></script>
     <script src="./js/main.js"></script>
+    <script>
+       // A global variable to keep track of the number of frequency fields
+      var freq_count = 1;
+
+      // A function to add a new frequency field to the form
+      function add_freq_field() {
+        // Create a new div element for the frequency field
+        var freq_div = document.createElement("div");
+        freq_div.className = "row";
+        freq_div.id = "freq-row-" + freq_count;
+
+        // Create a new input element for the frequency value
+        var freq_input = document.createElement("input");
+        freq_input.id = "freq-" + freq_count;
+        freq_input.type = "number";
+        freq_input.className = "form-control";
+        freq_input.placeholder = "Frequency";
+        freq_input.min = "0";
+
+        // Create a new label element for the frequency input
+        var freq_label = document.createElement("label");
+        freq_label.htmlFor = "freq-" + freq_count;
+        freq_label.textContent = "Frequency";
+
+        // Create a new button element for removing the frequency field
+        var remove_btn = document.createElement("button");
+        remove_btn.id = "remove-" + freq_count;
+        remove_btn.type = "button";
+        remove_btn.className = "form-control btn btn-danger";
+        remove_btn.textContent = "Remove";
+        remove_btn.onclick = function () {
+          remove_freq_field(freq_count);
+        };
+
+        // Create a new label element for the remove button
+        var remove_label = document.createElement("label");
+        remove_label.htmlFor = "remove-" + freq_count;
+        remove_label.textContent = "\u00a0"; // Non-breaking space
+
+        // Create two new div elements for the form group columns
+        var input_col = document.createElement("div");
+        input_col.className = "form-group col-10";
+        var btn_col = document.createElement("div");
+        btn_col.className = "form-group col-2";
+
+        // Append the input and label elements to the input column
+        input_col.appendChild(freq_label);
+        input_col.appendChild(freq_input);
+
+        // Append the button and label elements to the button column
+        btn_col.appendChild(remove_label);
+        btn_col.appendChild(remove_btn);
+
+        // Append the two columns to the frequency field div
+        freq_div.appendChild(input_col);
+        freq_div.appendChild(btn_col);
+
+        // Append the frequency field div to the form element
+        var form_element = document.getElementById("freq-form");
+        form_element.appendChild(freq_div);
+
+        // Increment the frequency count by one
+        freq_count++;
+      }
+
+      // A function to remove a frequency field from the form
+      function remove_freq_field(index) {
+        // Get the frequency field div element by its id
+        var freq_div = document.getElementById("freq-row-" + index);
+
+        // Remove the frequency field div element from its parent node
+        freq_div.parentNode.removeChild(freq_div);
+      }
+    </script>
   </body>
 </html>
