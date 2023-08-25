@@ -6,6 +6,7 @@ var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 var double_tone_oscillator_1;
 var double_tone_oscillator_2;
 var single_tone_oscillator;
+var rife_oscillators;
 
 var monaural_flag = 0;
 var binaural_flag = 0;
@@ -393,6 +394,36 @@ function play_rife_monaural_generator(){
   // Pass the array as an argument to play_pure_tone
   // play_pure_tone(tone_freq_array);
     console.log(tone_freq_array);
+    play_rife_monaural(tone_freq_array);
+
+}
+
+function play_rife_monaural(tone_freq_array) {
+  
+  volume = audioCtx.createGain();
+  volume.gain.value = volume_set();
+  volume.connect(audioCtx.destination); // connect to speakers
+
+  // create an array of frequencies to play
+  // tone_freq_array = [440, 550, 660, 770];
+
+  // create an array of oscillators
+  rife_oscillators = [];
+
+  // loop through the frequencies and create oscillators
+  for (var i = 0; i < tone_freq_array.length; i++) {
+  // create oscillator node
+    var oscillator = audioCtx.createOscillator();
+    oscillator.type = oscillator_type; // set waveform type to sine
+    oscillator.frequency.value = tone_freq_array[i]; // set frequency in hertz
+    oscillator.connect(volume); // connect to gain node
+    rife_oscillators.push(oscillator); // add to array 
+  }
+
+  for (var i = 0; i < rife_oscillators.length; i++) {
+    rife_oscillators[i].start();
+  }
+
 }
 
 function stop_double_tone() {
@@ -475,6 +506,11 @@ function stop_isochronic() {
   }
 }
 
+function stop_rife(){
+  for (var i = 0; i < rife_oscillators.length; i++) {
+    rife_oscillators[i].stop();
+  }
+}
 
 function play_monaural_generator(){
   var freq1 = $("#freq1").val();
