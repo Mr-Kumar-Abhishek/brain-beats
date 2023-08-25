@@ -378,6 +378,23 @@ async function play_black_noise() {
     blackNoiseNodeGain.connect(audioContext.destination);
   }
 }
+
+function play_rife_monaural_generator(){
+  // Create an empty array to store the frequency values
+  var tone_freq_array = [];
+
+  // Loop through all the input elements with id starting with "freq-"
+  $("input[id^='freq-']").each(function(){
+    // Get the value of each input element and push it to the array
+    var tone_freq = $(this).val();
+    tone_freq_array.push(tone_freq);
+  });
+
+  // Pass the array as an argument to play_pure_tone
+  // play_pure_tone(tone_freq_array);
+    console.log(tone_freq_array);
+}
+
 function stop_double_tone() {
   if(double_tone_flag == 1){
     double_tone_flag = 0;
