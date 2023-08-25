@@ -54,6 +54,7 @@ var boolPink = 0;
 var boolBrown = 0;
 var boolRed = 0;
 var boolBlack = 0;
+var boolRifeMonaural = 0;
 var notification;
 var toggler;
 
@@ -399,31 +400,35 @@ function play_rife_monaural_generator(){
 }
 
 function play_rife_monaural(tone_freq_array) {
-  
-  volume = audioCtx.createGain();
-  volume.gain.value = volume_set();
-  volume.connect(audioCtx.destination); // connect to speakers
+    if (boolRifeMonaural == 0) {
+      boolRifeMonaural = 1;
+      volume = audioCtx.createGain();
+      volume.gain.value = volume_set();
+      volume.connect(audioCtx.destination); // connect to speakers
 
-  // create an array of frequencies to play
-  // tone_freq_array = [440, 550, 660, 770];
+      // create an array of frequencies to play
+      // tone_freq_array = [440, 550, 660, 770];
 
-  // create an array of oscillators
-  rife_oscillators = [];
+      // create an array of oscillators
+      rife_oscillators = [];
 
-  // loop through the frequencies and create oscillators
-  for (var i = 0; i < tone_freq_array.length; i++) {
-  // create oscillator node
-    var oscillator = audioCtx.createOscillator();
-    oscillator.type = oscillator_type; // set waveform type to sine
-    oscillator.frequency.value = tone_freq_array[i]; // set frequency in hertz
-    oscillator.connect(volume); // connect to gain node
-    rife_oscillators.push(oscillator); // add to array 
-  }
+      // loop through the frequencies and create oscillators
+      for (var i = 0; i < tone_freq_array.length; i++) {
+      // create oscillator node
+        var oscillator = audioCtx.createOscillator();
+        oscillator.type = oscillator_type; // set waveform type to sine
+        oscillator.frequency.value = tone_freq_array[i]; // set frequency in hertz
+        oscillator.connect(volume); // connect to gain node
+        rife_oscillators.push(oscillator); // add to array 
+      }
 
-  for (var i = 0; i < rife_oscillators.length; i++) {
-    rife_oscillators[i].start();
-  }
-
+      for (var i = 0; i < rife_oscillators.length; i++) {
+        rife_oscillators[i].start();
+      }
+    } else {
+      stop_rife();
+      play_rife_monaural(rife_oscillators);
+    }
 }
 
 function stop_double_tone() {
@@ -578,8 +583,9 @@ function toggle_volume(){
 function live_volume_set(){
   console.log("live volume ran");
   
-  if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1 | angel_flag == 1){
+  if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1 | angel_flag == 1 | boolRifeMonaural == 1){
    if(volume.gain.value != undefined) {
+    console.log("segi section")
     volume.gain.value = volume_set();
    } 
     
@@ -610,7 +616,7 @@ function live_volume_set(){
     if (blackNoiseNodeGain.gain.value != undefined) {
       blackNoiseNodeGain.gain.value = volume_set();
     }
-  }
+  } 
 }
     
 $("#volume").change(function(){
