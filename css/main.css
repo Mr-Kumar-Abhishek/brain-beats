@@ -40,9 +40,6 @@
   box-shadow: -6px -4px 18px 0px rgba(0,0,0,0.75);
 }
 
-input[inputmode="decimal"] {
-  margin-top: 0.6rem;
-}
 
 .fav, .faved {
   font-size: 2rem;
