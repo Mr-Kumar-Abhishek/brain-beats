@@ -389,9 +389,7 @@
         remove_btn.type = "button";
         remove_btn.className = "form-control btn btn-danger";
         remove_btn.textContent = "Remove";
-        remove_btn.onclick = function () {
-          remove_freq_field(freq_count);
-        };
+        remove_btn.setAttribute("onclick", "remove_freq_field(" + freq_count +")");
         // Create a new label element for the remove button
         var remove_label = document.createElement("label");
         remove_label.htmlFor = "remove-" + freq_count;
