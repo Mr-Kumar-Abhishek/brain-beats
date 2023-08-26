@@ -428,6 +428,18 @@
           // Increment the frequency count by one
           freq_count++;
       }
+
+        // A function to remove a frequency field from the form
+      function remove_freq_field(index) {
+        // Get the frequency div element by its id
+        var freq_div= document.getElementById("freq-row-"+index);
+        // Remove the frequency div from its parent node
+        if (freq_div) {
+          freq_div.parentNode.removeChild(freq_div);
+        }
+      }
+
+      
    </script>
 
   </body>
