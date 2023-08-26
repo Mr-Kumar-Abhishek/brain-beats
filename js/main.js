@@ -29,6 +29,7 @@ var volume_2;
 var beat_freq_1;
 var beat_freq_2;
 var single_tone_freq;
+let tone_freq_array;
 
 var bufferSize = 4096;
 
@@ -383,7 +384,7 @@ async function play_black_noise() {
 
 function play_rife_monaural_generator(){
   // Create an empty array to store the frequency values
-  var tone_freq_array = [];
+  tone_freq_array = [];
 
   // Loop through all the input elements with id starting with "freq-"
   $("input[id^='freq-']").each(function(){
@@ -400,16 +401,14 @@ function play_rife_monaural_generator(){
 }
 
 function play_rife_monaural(tone_freq_array) {
+    console.log("Play rife monaural");
+    console.log(tone_freq_array);
     if (boolRifeMonaural == 0) {
       boolRifeMonaural = 1;
       volume = audioCtx.createGain();
       volume.gain.value = volume_set();
       volume.connect(audioCtx.destination); // connect to speakers
 
-      // create an array of frequencies to play
-      // tone_freq_array = [440, 550, 660, 770];
-
-      // create an array of oscillators
       rife_oscillators = [];
 
       // loop through the frequencies and create oscillators
@@ -427,7 +426,7 @@ function play_rife_monaural(tone_freq_array) {
       }
     } else {
       stop_rife();
-      play_rife_monaural(rife_oscillators);
+      play_rife_monaural(tone_freq_array);
     }
 }
 
@@ -515,6 +514,7 @@ function stop_rife(){
   for (var i = 0; i < rife_oscillators.length; i++) {
     rife_oscillators[i].stop();
   }
+  boolRifeMonaural = 0;
 }
 
 function play_monaural_generator(){
