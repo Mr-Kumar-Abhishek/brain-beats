@@ -354,19 +354,19 @@
         x_input.id = "x-" + freq_count;
         x_input.type = "number";
         x_input.className = "form-control";
-        x_input.placeholder = "X coordinate";
+        x_input.placeholder = "X";
         // Create a new input element for the y-coordinate value
         var y_input = document.createElement("input");
         y_input.id = "y-" + freq_count;
         y_input.type = "number";
         y_input.className = "form-control";
-        y_input.placeholder = "Y coordinate";
+        y_input.placeholder = "Y";
         // Create a new input element for the z-coordinate value
         var z_input = document.createElement("input");
         z_input.id = "z-" + freq_count;
         z_input.type = "number";
         z_input.className = "form-control";
-        z_input.placeholder = "Z coordinate";
+        z_input.placeholder = "Z";
         // Create a new label element for the frequency input
         var freq_label = document.createElement("label");
         freq_label.htmlFor = "freq-" + freq_count;
@@ -398,15 +398,15 @@
         remove_label.textContent = "\u00a0"; // Non-breaking space
         // Create six new div elements for the form group columns
         var freq_col= document.createElement("div");
-        freq_col.className= "form-group col-2";
+        freq_col.className= "form-group col-4";
         var x_col= document.createElement("div");
-        x_col.className= "form-group col-2";
+        x_col.className= "form-group col-1";
         var y_col= document.createElement("div");
-        y_col.className= "form-group col-2";
+        y_col.className= "form-group col-1";
         var z_col= document.createElement("div");
-        z_col.className= "form-group col-2";
+        z_col.className= "form-group col-1";
         var btn_col= document.createElement("div");
-        btn_col.className= "form-group col-2";
+        btn_col.className= "form-group col-4";
         // Append the input and label elements to the corresponding columns
         freq_col.appendChild(freq_label);
         freq_col.appendChild(freq_input);
