@@ -227,7 +227,7 @@
     </nav>
      
     <div class="container-fluid fluidaner">
-      
+    
       <div class="row">
         <div class="col">
           <div class="card">
@@ -238,7 +238,7 @@
                   <div class="card-text">
                     <form id="freq-form">
                       <div class="row" id="freq-row-0">
-                        <div class="form-group col-xxl-11 col-xl-10 col-lg-9 col-md-8 col-sm-7 col-6">
+                        <div class="form-group col-4">
                           <label for="freq-0">Frequency</label>
                           <input
                             id="freq-0"
@@ -248,14 +248,43 @@
                             min="0"
                           />
                         </div>
-                        <div class="form-group col-xl-2 col-lg-3 col-md-4 col-sm-5 col-6">
-                          <label for="remove-0">&nbsp;</label>
+                        <div class="form-group col-1">
+                          <label for="x-0">X</label>
+                          <input
+                            id="x-0"
+                            type="number"
+                            class="form-control"
+                            placeholder="X coordinate"
+                          />
+                        </div>
+                        <div class="form-group col-1">
+                          <label for="y-0">Y</label>
+                          <input
+                            id="y-0"
+                            type="number"
+                            class="form-control"
+                            placeholder="Y coordinate"
+                          />
+                        </div>
+                        <div class="form-group  col-1">
+                          <label for="z-0">Z</label>
+                          <input
+                            id="z-0"
+                            type="number"
+                            class="form-control"
+                            placeholder="Z coordinate"
+                          />
+                        </div>
+                        <div class="form-group col-4">
+                          <label for="remove-0"> </label>
                           <button
                             id="remove-0"
                             type="button"
                             class="form-control btn btn-danger"
                             onclick="remove_freq_field(0);"
-                          >Remove</button>
+                          >
+                            Remove
+                          </button>
                         </div>
                       </div>
                     </form>
@@ -273,12 +302,12 @@
               <div class="row">
                 <div class="col text-end">
                   <button
-                    onclick="play_rife_monaural_generator();"
-                    class="btn btn-play-stop btn-primary"
+                    onclick="play_pure_tone_generator();"
+                    class="btn btn-primary"
                   >
                     Play
                   </button>
-                  <button onclick="stop_rife();" class="btn btn-play-stop btn-secondary">
+                  <button onclick="stop_pure_tone();" class="btn btn-secondary">
                     Stop
                   </button>
                 </div>
@@ -287,7 +316,6 @@
           </div>
         </div>
       </div>
-
 
       <div class="volume-box">
         <p>
