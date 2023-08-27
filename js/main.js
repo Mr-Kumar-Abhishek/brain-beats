@@ -497,7 +497,9 @@ function play_rife_monaural(tone_freq_array) {
     for (var i = 0; i < tone_freq_array.length; i++) {
       var panner = audioCtx.createPanner();
       panner.panningModel = "HRTF";
-      panner.setPosition(x_values[i], y_values[i], z_values[i]);
+      panner.positionX.setValueAtTime(x_values[i], audioCtx.currentTime);
+      panner.positionY.setValueAtTime(y_values[i], audioCtx.currentTime);
+      panner.positionZ.setValueAtTime(z_values[i], audioCtx.currentTime);
       panners.push(panner);
     }
 
