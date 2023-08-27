@@ -408,25 +408,18 @@ function play_rife_monaural(tone_freq_array) {
     console.log(tone_freq_array);
     if (boolRifeMonaural == 0) {
       boolRifeMonaural = 1;
-      volume = audioCtx.createGain();
-      volume.gain.value = volume_set();
-      volume.connect(audioCtx.destination); // connect to speakers
+      
+      var x_values = [];
+      var y_vlaues = [];
+      var z_values = [];
 
-      rife_oscillators = [];
-
-      // loop through the frequencies and create oscillators
       for (var i = 0; i < tone_freq_array.length; i++) {
-      // create oscillator node
-        var oscillator = audioCtx.createOscillator();
-        oscillator.type = oscillator_type; // set waveform type to sine
-        oscillator.frequency.value = tone_freq_array[i]; // set frequency in hertz
-        oscillator.connect(volume); // connect to gain node
-        rife_oscillators.push(oscillator); // add to array 
+        x_values.push(0);
+        y_values.push(0);
+        z_values.push(0);
       }
 
-      for (var i = 0; i < rife_oscillators.length; i++) {
-        rife_oscillators[i].start();
-      }
+      play_rife_3d(tone_freq_array, x_values, y_values, z_values);
     } else {
       stop_rife();
       play_rife_monaural(tone_freq_array);
