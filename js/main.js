@@ -491,17 +491,12 @@ function play_rife_3d(tone_freq_array, x_values, y_values, z_values) {
   // Check if there are any valid frequency values
   if (tone_freq_array.length > 0) {
 
-    volume = audioCtx.createGain();
-    volume.gain.value = volume_set();
-    volume.connect(audioCtx.destination);
-
     // Create an array of oscillators for each frequency value
     rife_oscillators = [];
     for (var i = 0; i < tone_freq_array.length; i++) {
       var oscillator = audioCtx.createOscillator();
       oscillator.type = oscillator_type;
       oscillator.frequency.value = tone_freq_array[i];
-      oscillator.connect(volume); // connect volume
       rife_oscillators.push(oscillator);
     }
 
@@ -521,10 +516,14 @@ function play_rife_3d(tone_freq_array, x_values, y_values, z_values) {
       rife_oscillators[i].connect(panners[i]);
     }
 
+    volume = audioCtx.createGain();
+
     // Connect each panner to the destination
     for (var i = 0; i < tone_freq_array.length; i++) {
-      panners[i].connect(audioCtx.destination);
+      panners[i].connect(volume);
     }
+
+    volume.connect(audioCtx.destination);
 
     // Start each oscillator
     for (var i = 0; i < tone_freq_array.length; i++) {
