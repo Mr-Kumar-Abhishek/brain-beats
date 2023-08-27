@@ -56,6 +56,7 @@ var boolBrown = 0;
 var boolRed = 0;
 var boolBlack = 0;
 var boolRifeMonaural = 0;
+var boolRife3D = 0;
 
 var notification;
 var toggler;
@@ -523,17 +524,6 @@ function play_rife_monaural(tone_freq_array) {
   }
 }
 
- function stop_rife_3d() {
-  // Check if there is an audio context and oscillators stored in global variables
-  if (audioCtx && rife_oscillators) {
-
-    // Stop each oscillator
-    for (var i = 0; i < rife_oscillators.length; i++) {
-      rife_oscillators[i].stop();
-    }
-
-  }
-}
 
 function stop_double_tone() {
   if(double_tone_flag == 1){
@@ -627,10 +617,16 @@ function stop_rife(){
   
 }
 
+function stop_rife_3d() {
+  stop_rife();
+  boolRife3D = 0;
+}
+
 function stop_rife_monaural() {
   stop_rife();
   boolRifeMonaural = 0;
 }
+
 function play_monaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
