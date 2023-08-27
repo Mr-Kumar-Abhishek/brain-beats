@@ -525,6 +525,8 @@ function play_rife_3d(tone_freq_array, x_values, y_values, z_values) {
 
     volume.connect(audioCtx.destination);
 
+    volume.gain.value = volume_set();
+    
     // Start each oscillator
     for (var i = 0; i < tone_freq_array.length; i++) {
       rife_oscillators[i].start();
