@@ -616,8 +616,13 @@ function stop_isochronic() {
 }
 
 function stop_rife(){
-  for (var i = 0; i < rife_oscillators.length; i++) {
-    rife_oscillators[i].stop();
+   // Check if there is an audio context and oscillators stored in global variables
+   if (audioCtx && rife_oscillators) {
+
+    // Stop each oscillator
+    for (var i = 0; i < rife_oscillators.length; i++) {
+      rife_oscillators[i].stop();
+    }
   }
   boolRifeMonaural = 0;
 }
