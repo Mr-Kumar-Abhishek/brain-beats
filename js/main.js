@@ -487,51 +487,54 @@ function play_rife_monaural(tone_freq_array) {
         }
       }
 
-      // Check if there are any valid frequency values
-      if (tone_freq_array.length > 0) {
-
-        // Create an array of oscillators for each frequency value
-        rife_oscillators = [];
-        for (var i = 0; i < tone_freq_array.length; i++) {
-          var oscillator = audioCtx.createOscillator();
-          oscillator.type = oscillator_type;
-          oscillator.frequency.value = tone_freq_array[i];
-          rife_oscillators.push(oscillator);
-        }
-
-        // Create an array of panners for each coordinate value
-        var panners = [];
-        for (var i = 0; i < tone_freq_array.length; i++) {
-          var panner = audioCtx.createPanner();
-          panner.panningModel = panning_model; 
-          panner.positionX.setValueAtTime(x_values[i], audioCtx.currentTime);
-          panner.positionY.setValueAtTime(y_values[i], audioCtx.currentTime);
-          panner.positionZ.setValueAtTime(z_values[i], audioCtx.currentTime);
-          panners.push(panner);
-        }
-
-        // Connect each oscillator to its corresponding panner
-        for (var i = 0; i < tone_freq_array.length; i++) {
-          rife_oscillators[i].connect(panners[i]);
-        }
-
-        // Connect each panner to the destination
-        for (var i = 0; i < tone_freq_array.length; i++) {
-          panners[i].connect(audioCtx.destination);
-        }
-
-        // Start each oscillator
-        for (var i = 0; i < tone_freq_array.length; i++) {
-          rife_oscillators[i].start();
-        }
-
-      }
+      play_rife_3d(tone_freq_array, x_values, y_values, z_values);
   }else {
     stop_rife_3d();
     play_rife_3d_generator();
   }
 }
 
+function play_rife_3d(tone_freq_array, x_values, y_values, z_values) {
+  // Check if there are any valid frequency values
+  if (tone_freq_array.length > 0) {
+
+    // Create an array of oscillators for each frequency value
+    rife_oscillators = [];
+    for (var i = 0; i < tone_freq_array.length; i++) {
+      var oscillator = audioCtx.createOscillator();
+      oscillator.type = oscillator_type;
+      oscillator.frequency.value = tone_freq_array[i];
+      rife_oscillators.push(oscillator);
+    }
+
+    // Create an array of panners for each coordinate value
+    var panners = [];
+    for (var i = 0; i < tone_freq_array.length; i++) {
+      var panner = audioCtx.createPanner();
+      panner.panningModel = panning_model; 
+      panner.positionX.setValueAtTime(x_values[i], audioCtx.currentTime);
+      panner.positionY.setValueAtTime(y_values[i], audioCtx.currentTime);
+      panner.positionZ.setValueAtTime(z_values[i], audioCtx.currentTime);
+      panners.push(panner);
+    }
+
+    // Connect each oscillator to its corresponding panner
+    for (var i = 0; i < tone_freq_array.length; i++) {
+      rife_oscillators[i].connect(panners[i]);
+    }
+
+    // Connect each panner to the destination
+    for (var i = 0; i < tone_freq_array.length; i++) {
+      panners[i].connect(audioCtx.destination);
+    }
+
+    // Start each oscillator
+    for (var i = 0; i < tone_freq_array.length; i++) {
+      rife_oscillators[i].start();
+    }
+
+  }
+}
 
 function stop_double_tone() {
   if(double_tone_flag == 1){
