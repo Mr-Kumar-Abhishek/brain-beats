@@ -525,6 +525,24 @@ function play_rife_monaural(tone_freq_array) {
   }
 }
 
+ // A function to stop the pure tone generator
+ function stop_rife_3d() {
+  // Check if there is an audio context and oscillators stored in global variables
+  if (window.audio_context && window.oscillators) {
+
+    // Stop each oscillator
+    for (var i = 0; i < window.oscillators.length; i++) {
+      window.oscillators[i].stop();
+    }
+
+     // Close the audio context
+     window.audio_context.close();
+
+     // Clear the global variables
+     window.audio_context = null;
+     window.oscillators = null;
+  }
+}
 
 function stop_double_tone() {
   if(double_tone_flag == 1){
