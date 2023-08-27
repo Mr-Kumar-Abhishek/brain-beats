@@ -484,12 +484,12 @@ function play_rife_monaural(tone_freq_array) {
   if (tone_freq_array.length > 0) {
 
     // Create an array of oscillators for each frequency value
-    oscillators = [];
+    rife_oscillators = [];
     for (var i = 0; i < tone_freq_array.length; i++) {
       var oscillator = audioCtx.createOscillator();
       oscillator.type = oscillator_type;
       oscillator.frequency.value = tone_freq_array[i];
-      oscillators.push(oscillator);
+      rife_oscillators.push(oscillator);
     }
 
     // Create an array of panners for each coordinate value
@@ -503,7 +503,7 @@ function play_rife_monaural(tone_freq_array) {
 
     // Connect each oscillator to its corresponding panner
     for (var i = 0; i < tone_freq_array.length; i++) {
-      oscillators[i].connect(panners[i]);
+      rife_oscillators[i].connect(panners[i]);
     }
 
     // Connect each panner to the destination
@@ -513,22 +513,20 @@ function play_rife_monaural(tone_freq_array) {
 
     // Start each oscillator
     for (var i = 0; i < tone_freq_array.length; i++) {
-      oscillators[i].start();
+      rife_oscillators[i].start();
     }
 
-     // Store the audio context and the oscillators in global variables
-     window.oscillators = oscillators;
   }
 }
 
  // A function to stop the pure tone generator
  function stop_rife_3d() {
   // Check if there is an audio context and oscillators stored in global variables
-  if (audioCtx && window.oscillators) {
+  if (audioCtx && rife_oscillators) {
 
     // Stop each oscillator
-    for (var i = 0; i < window.oscillators.length; i++) {
-      window.oscillators[i].stop();
+    for (var i = 0; i < rife_oscillators.length; i++) {
+      rife_oscillators[i].stop();
     }
 
      // Close the audio context
@@ -536,7 +534,7 @@ function play_rife_monaural(tone_freq_array) {
 
      // Clear the global variables
      audioCtx = null;
-     window.oscillators = null;
+     rife_oscillators = null;
   }
 }
 
