@@ -421,7 +421,7 @@ function play_rife_monaural(tone_freq_array) {
 
       play_rife_3d(tone_freq_array, x_values, y_values, z_values);
     } else {
-      stop_rife();
+      stop_rife_monaural();
       play_rife_monaural(tone_freq_array);
     }
 }
