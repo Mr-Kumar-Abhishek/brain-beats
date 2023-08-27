@@ -61,7 +61,8 @@ var boolRife3D = 0;
 var notification;
 var toggler;
 
-
+// A global variable to keep track of the number of frequency fields  
+var freq_count = 1;
 
 var oscillator_type = 'sine'; // default values
 var deviation_type = 'binaural'; // default values
