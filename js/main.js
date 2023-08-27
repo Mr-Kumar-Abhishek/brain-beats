@@ -56,6 +56,7 @@ var boolBrown = 0;
 var boolRed = 0;
 var boolBlack = 0;
 var boolRifeMonaural = 0;
+
 var notification;
 var toggler;
 
@@ -63,6 +64,7 @@ var toggler;
 
 var oscillator_type = 'sine'; // default values
 var deviation_type = 'binaural'; // default values
+var panning_model = 'HRTF'; // used in binaural and 3D sounds
 
   // Get the body element
   var body = document.querySelector("body");
@@ -496,7 +498,7 @@ function play_rife_monaural(tone_freq_array) {
     var panners = [];
     for (var i = 0; i < tone_freq_array.length; i++) {
       var panner = audioCtx.createPanner();
-      panner.panningModel = "HRTF";
+      panner.panningModel = panning_model; 
       panner.positionX.setValueAtTime(x_values[i], audioCtx.currentTime);
       panner.positionY.setValueAtTime(y_values[i], audioCtx.currentTime);
       panner.positionZ.setValueAtTime(z_values[i], audioCtx.currentTime);
