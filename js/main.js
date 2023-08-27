@@ -624,9 +624,13 @@ function stop_rife(){
       rife_oscillators[i].stop();
     }
   }
-  boolRifeMonaural = 0;
+  
 }
 
+function stop_rife_monaural() {
+  stop_rife();
+  boolRifeMonaural = 0;
+}
 function play_monaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
