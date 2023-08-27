@@ -531,12 +531,6 @@ function play_rife_monaural(tone_freq_array) {
       rife_oscillators[i].stop();
     }
 
-     // Close the audio context
-     audioCtx.close();
-
-     // Clear the global variables
-     audioCtx = null;
-     rife_oscillators = null;
   }
 }
 
