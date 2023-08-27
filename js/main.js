@@ -487,7 +487,7 @@ function play_rife_monaural(tone_freq_array) {
     oscillators = [];
     for (var i = 0; i < tone_freq_array.length; i++) {
       var oscillator = audioCtx.createOscillator();
-      oscillator.type = "sine";
+      oscillator.type = oscillator_type;
       oscillator.frequency.value = tone_freq_array[i];
       oscillators.push(oscillator);
     }
