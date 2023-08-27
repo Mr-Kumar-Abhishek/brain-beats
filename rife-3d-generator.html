@@ -238,14 +238,15 @@
                   <div class="card-text">
                     <form id="freq-form">
                       <div class="row" id="freq-row-0">
-                        <div class="form-group col-4">
+                        <div class="form-group col-5">
                           <label for="freq-0">Frequency</label>
                           <input
                             id="freq-0"
                             type="number"
                             class="form-control"
                             placeholder="Frequency"
-                            min="0"
+                            min="20"
+                            max="22000" 
                           />
                         </div>
                         <div class="form-group col-1">
@@ -255,6 +256,8 @@
                             type="number"
                             class="form-control"
                             placeholder="X coordinate"
+                            min="-1"
+                            max="1"
                           />
                         </div>
                         <div class="form-group col-1">
@@ -264,6 +267,8 @@
                             type="number"
                             class="form-control"
                             placeholder="Y coordinate"
+                            min="-1"
+                            max="1"
                           />
                         </div>
                         <div class="form-group  col-1">
@@ -273,6 +278,8 @@
                             type="number"
                             class="form-control"
                             placeholder="Z coordinate"
+                            min="-1"
+                            max="1"
                           />
                         </div>
                         <div class="form-group col-4">
@@ -348,25 +355,36 @@
         freq_input.type = "number";
         freq_input.className = "form-control";
         freq_input.placeholder = "Frequency";
-        freq_input.min = "0";
+        freq_input.min = "20";
+        freq_input.max = "22000"
+        
         // Create a new input element for the x-coordinate value
         var x_input = document.createElement("input");
         x_input.id = "x-" + freq_count;
         x_input.type = "number";
         x_input.className = "form-control";
         x_input.placeholder = "X";
+        x_input.min = "-1";
+        x_input.max = "1";
+
         // Create a new input element for the y-coordinate value
         var y_input = document.createElement("input");
         y_input.id = "y-" + freq_count;
         y_input.type = "number";
         y_input.className = "form-control";
         y_input.placeholder = "Y";
+        y_input.min = "-1";
+        y_input.max = "1";
+
         // Create a new input element for the z-coordinate value
         var z_input = document.createElement("input");
         z_input.id = "z-" + freq_count;
         z_input.type = "number";
         z_input.className = "form-control";
         z_input.placeholder = "Z";
+        z_input.min = "-1";
+        z_input.max = "1";
+
         // Create a new label element for the frequency input
         var freq_label = document.createElement("label");
         freq_label.htmlFor = "freq-" + freq_count;
