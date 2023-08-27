@@ -435,92 +435,100 @@ function play_rife_monaural(tone_freq_array) {
 
  // A function to play the pure tone generator
  function play_rife_3d_generator() {
-  // Get the frequency values from the input elements
-  tone_freq_array = [];
-  for (var i=0; i<freq_count; i++) {
-    var freq_input= document.getElementById("freq-"+i);
-    if (freq_input) {
-      var freq_value= parseFloat(freq_input.value);
-      if (!isNaN(freq_value) && freq_value > 0) {
-        tone_freq_array.push(freq_value);
+
+  if ( boolRife3D == 0 ) {
+    boolRife3D = 1;
+      
+      // Get the frequency values from the input elements
+      tone_freq_array = [];
+      for (var i=0; i<freq_count; i++) {
+        var freq_input= document.getElementById("freq-"+i);
+        if (freq_input) {
+          var freq_value= parseFloat(freq_input.value);
+          if (!isNaN(freq_value) && freq_value > 0) {
+            tone_freq_array.push(freq_value);
+          }
+        }
       }
-    }
-  }
 
-  // Get the x-coordinate values from the input elements
-  var x_values= [];
-  for (var i=0; i<freq_count; i++) {
-    var x_input= document.getElementById("x-"+i);
-    if (x_input) {
-      var x_value= parseFloat(x_input.value);
-      if (!isNaN(x_value)) {
-        x_values.push(x_value);
+      // Get the x-coordinate values from the input elements
+      var x_values= [];
+      for (var i=0; i<freq_count; i++) {
+        var x_input= document.getElementById("x-"+i);
+        if (x_input) {
+          var x_value= parseFloat(x_input.value);
+          if (!isNaN(x_value)) {
+            x_values.push(x_value);
+          }
+        }
       }
-    }
-  }
 
-  // Get the y-coordinate values from the input elements
-  var y_values= [];
-  for (var i=0; i<freq_count; i++) {
-    var y_input= document.getElementById("y-"+i);
-    if (y_input) {
-      var y_value= parseFloat(y_input.value);
-      if (!isNaN(y_value)) {
-        y_values.push(y_value);
+      // Get the y-coordinate values from the input elements
+      var y_values= [];
+      for (var i=0; i<freq_count; i++) {
+        var y_input= document.getElementById("y-"+i);
+        if (y_input) {
+          var y_value= parseFloat(y_input.value);
+          if (!isNaN(y_value)) {
+            y_values.push(y_value);
+          }
+        }
       }
-    }
-  }
 
-  // Get the z-coordinate values from the input elements
-  var z_values= [];
-  for (var i=0; i<freq_count; i++) {
-    var z_input= document.getElementById("z-"+i);
-    if (z_input) {
-      var z_value= parseFloat(z_input.value);
-      if (!isNaN(z_value)) {
-        z_values.push(z_value);
+      // Get the z-coordinate values from the input elements
+      var z_values= [];
+      for (var i=0; i<freq_count; i++) {
+        var z_input= document.getElementById("z-"+i);
+        if (z_input) {
+          var z_value= parseFloat(z_input.value);
+          if (!isNaN(z_value)) {
+            z_values.push(z_value);
+          }
+        }
       }
-    }
-  }
 
-  // Check if there are any valid frequency values
-  if (tone_freq_array.length > 0) {
+      // Check if there are any valid frequency values
+      if (tone_freq_array.length > 0) {
 
-    // Create an array of oscillators for each frequency value
-    rife_oscillators = [];
-    for (var i = 0; i < tone_freq_array.length; i++) {
-      var oscillator = audioCtx.createOscillator();
-      oscillator.type = oscillator_type;
-      oscillator.frequency.value = tone_freq_array[i];
-      rife_oscillators.push(oscillator);
-    }
+        // Create an array of oscillators for each frequency value
+        rife_oscillators = [];
+        for (var i = 0; i < tone_freq_array.length; i++) {
+          var oscillator = audioCtx.createOscillator();
+          oscillator.type = oscillator_type;
+          oscillator.frequency.value = tone_freq_array[i];
+          rife_oscillators.push(oscillator);
+        }
 
-    // Create an array of panners for each coordinate value
-    var panners = [];
-    for (var i = 0; i < tone_freq_array.length; i++) {
-      var panner = audioCtx.createPanner();
-      panner.panningModel = panning_model; 
-      panner.positionX.setValueAtTime(x_values[i], audioCtx.currentTime);
-      panner.positionY.setValueAtTime(y_values[i], audioCtx.currentTime);
-      panner.positionZ.setValueAtTime(z_values[i], audioCtx.currentTime);
-      panners.push(panner);
-    }
+        // Create an array of panners for each coordinate value
+        var panners = [];
+        for (var i = 0; i < tone_freq_array.length; i++) {
+          var panner = audioCtx.createPanner();
+          panner.panningModel = panning_model; 
+          panner.positionX.setValueAtTime(x_values[i], audioCtx.currentTime);
+          panner.positionY.setValueAtTime(y_values[i], audioCtx.currentTime);
+          panner.positionZ.setValueAtTime(z_values[i], audioCtx.currentTime);
+          panners.push(panner);
+        }
 
-    // Connect each oscillator to its corresponding panner
-    for (var i = 0; i < tone_freq_array.length; i++) {
-      rife_oscillators[i].connect(panners[i]);
-    }
+        // Connect each oscillator to its corresponding panner
+        for (var i = 0; i < tone_freq_array.length; i++) {
+          rife_oscillators[i].connect(panners[i]);
+        }
 
-    // Connect each panner to the destination
-    for (var i = 0; i < tone_freq_array.length; i++) {
-      panners[i].connect(audioCtx.destination);
-    }
+        // Connect each panner to the destination
+        for (var i = 0; i < tone_freq_array.length; i++) {
+          panners[i].connect(audioCtx.destination);
+        }
 
-    // Start each oscillator
-    for (var i = 0; i < tone_freq_array.length; i++) {
-      rife_oscillators[i].start();
-    }
+        // Start each oscillator
+        for (var i = 0; i < tone_freq_array.length; i++) {
+          rife_oscillators[i].start();
+        }
 
+      }
+  }else {
+    stop_rife_3d();
+    play_rife_3d_generator();
   }
 }
 
