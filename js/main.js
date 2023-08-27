@@ -483,13 +483,10 @@ function play_rife_monaural(tone_freq_array) {
   // Check if there are any valid frequency values
   if (tone_freq_array.length > 0) {
 
-    // Create a new audio context
-    var audio_context = new AudioContext();
-
     // Create an array of oscillators for each frequency value
-    var oscillators = [];
+    oscillators = [];
     for (var i = 0; i < tone_freq_array.length; i++) {
-      var oscillator = audio_context.createOscillator();
+      var oscillator = audioCtx.createOscillator();
       oscillator.type = "sine";
       oscillator.frequency.value = tone_freq_array[i];
       oscillators.push(oscillator);
@@ -498,7 +495,7 @@ function play_rife_monaural(tone_freq_array) {
     // Create an array of panners for each coordinate value
     var panners = [];
     for (var i = 0; i < tone_freq_array.length; i++) {
-      var panner = audio_context.createPanner();
+      var panner = audioCtx.createPanner();
       panner.panningModel = "HRTF";
       panner.setPosition(x_values[i], y_values[i], z_values[i]);
       panners.push(panner);
@@ -511,7 +508,7 @@ function play_rife_monaural(tone_freq_array) {
 
     // Connect each panner to the destination
     for (var i = 0; i < tone_freq_array.length; i++) {
-      panners[i].connect(audio_context.destination);
+      panners[i].connect(audioCtx.destination);
     }
 
     // Start each oscillator
@@ -520,7 +517,6 @@ function play_rife_monaural(tone_freq_array) {
     }
 
      // Store the audio context and the oscillators in global variables
-     window.audio_context = audio_context;
      window.oscillators = oscillators;
   }
 }
@@ -528,7 +524,7 @@ function play_rife_monaural(tone_freq_array) {
  // A function to stop the pure tone generator
  function stop_rife_3d() {
   // Check if there is an audio context and oscillators stored in global variables
-  if (window.audio_context && window.oscillators) {
+  if (audioCtx && window.oscillators) {
 
     // Stop each oscillator
     for (var i = 0; i < window.oscillators.length; i++) {
@@ -536,10 +532,10 @@ function play_rife_monaural(tone_freq_array) {
     }
 
      // Close the audio context
-     window.audio_context.close();
+     audioCtx.close();
 
      // Clear the global variables
-     window.audio_context = null;
+     audioCtx = null;
      window.oscillators = null;
   }
 }
