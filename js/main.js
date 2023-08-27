@@ -508,6 +508,7 @@ function play_rife_3d(tone_freq_array, x_values, y_values, z_values) {
       var oscillator = audioCtx.createOscillator();
       oscillator.type = oscillator_type;
       oscillator.frequency.value = tone_freq_array[i];
+      oscillator.connect(volume); // connect volume
       rife_oscillators.push(oscillator);
     }
 
@@ -708,7 +709,7 @@ function toggle_volume(){
 function live_volume_set(){
   console.log("live volume ran");
   
-  if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1 | angel_flag == 1 || boolRifeMonaural == 1 || boolRife3D){
+  if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1 | angel_flag == 1 || boolRifeMonaural == 1 || boolRife3D == 1 ){
    if(volume.gain.value != undefined) {
     console.log("segi section")
     volume.gain.value = volume_set();
