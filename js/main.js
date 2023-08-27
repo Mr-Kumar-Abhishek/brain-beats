@@ -498,6 +498,10 @@ function play_rife_3d(tone_freq_array, x_values, y_values, z_values) {
   // Check if there are any valid frequency values
   if (tone_freq_array.length > 0) {
 
+    volume = audioCtx.createGain();
+    volume.gain.value = volume_set();
+    volume.connect(audioCtx.destination);
+
     // Create an array of oscillators for each frequency value
     rife_oscillators = [];
     for (var i = 0; i < tone_freq_array.length; i++) {
