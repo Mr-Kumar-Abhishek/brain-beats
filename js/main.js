@@ -523,7 +523,6 @@ function play_rife_monaural(tone_freq_array) {
   }
 }
 
- // A function to stop the pure tone generator
  function stop_rife_3d() {
   // Check if there is an audio context and oscillators stored in global variables
   if (audioCtx && rife_oscillators) {
