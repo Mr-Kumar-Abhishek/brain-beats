@@ -410,7 +410,7 @@ function play_rife_monaural(tone_freq_array) {
       boolRifeMonaural = 1;
       
       var x_values = [];
-      var y_vlaues = [];
+      var y_values = [];
       var z_values = [];
 
       for (var i = 0; i < tone_freq_array.length; i++) {
