@@ -433,13 +433,13 @@ function play_rife_monaural(tone_freq_array) {
  // A function to play the pure tone generator
  function play_rife_3d_generator() {
   // Get the frequency values from the input elements
-  var freq_values= [];
+  tone_freq_array = [];
   for (var i=0; i<freq_count; i++) {
     var freq_input= document.getElementById("freq-"+i);
     if (freq_input) {
       var freq_value= parseFloat(freq_input.value);
       if (!isNaN(freq_value) && freq_value > 0) {
-        freq_values.push(freq_value);
+        tone_freq_array.push(freq_value);
       }
     }
   }
@@ -481,23 +481,23 @@ function play_rife_monaural(tone_freq_array) {
   }
 
   // Check if there are any valid frequency values
-  if (freq_values.length > 0) {
+  if (tone_freq_array.length > 0) {
 
     // Create a new audio context
     var audio_context = new AudioContext();
 
     // Create an array of oscillators for each frequency value
     var oscillators = [];
-    for (var i = 0; i < freq_values.length; i++) {
+    for (var i = 0; i < tone_freq_array.length; i++) {
       var oscillator = audio_context.createOscillator();
       oscillator.type = "sine";
-      oscillator.frequency.value = freq_values[i];
+      oscillator.frequency.value = tone_freq_array[i];
       oscillators.push(oscillator);
     }
 
     // Create an array of panners for each coordinate value
     var panners = [];
-    for (var i = 0; i < freq_values.length; i++) {
+    for (var i = 0; i < tone_freq_array.length; i++) {
       var panner = audio_context.createPanner();
       panner.panningModel = "HRTF";
       panner.setPosition(x_values[i], y_values[i], z_values[i]);
@@ -505,17 +505,17 @@ function play_rife_monaural(tone_freq_array) {
     }
 
     // Connect each oscillator to its corresponding panner
-    for (var i = 0; i < freq_values.length; i++) {
+    for (var i = 0; i < tone_freq_array.length; i++) {
       oscillators[i].connect(panners[i]);
     }
 
     // Connect each panner to the destination
-    for (var i = 0; i < freq_values.length; i++) {
+    for (var i = 0; i < tone_freq_array.length; i++) {
       panners[i].connect(audio_context.destination);
     }
 
     // Start each oscillator
-    for (var i = 0; i < freq_values.length; i++) {
+    for (var i = 0; i < tone_freq_array.length; i++) {
       oscillators[i].start();
     }
 
