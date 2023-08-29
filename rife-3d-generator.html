@@ -258,7 +258,8 @@
                             class="form-control"
                             placeholder="X"
                             min="-1"
-                            max="1"
+                            max="1" 
+                            step="0.01"
                           />
                         </div>
                         <div class="form-group col-1">
@@ -269,7 +270,8 @@
                             class="form-control"
                             placeholder="Y"
                             min="-1"
-                            max="1"
+                            max="1"  
+                            step="0.01"
                           />
                         </div>
                         <div class="form-group  col-1">
@@ -280,7 +282,8 @@
                             class="form-control"
                             placeholder="Z"
                             min="-1"
-                            max="1"
+                            max="1" 
+                            step="0.01"
                           />
                         </div>
                         <div class="form-group col-xxl-1 col-xl-2 col-lg-3 col-4">
@@ -356,8 +359,8 @@
         freq_input.className = "form-control";
         freq_input.placeholder = "Frequency";
         freq_input.min = "20";
-        freq_input.max = "22000"
-        freq_input.step = "0.01"
+        freq_input.max = "22000";
+        freq_input.step = "0.01";
         
         // Create a new input element for the x-coordinate value
         var x_input = document.createElement("input");
@@ -367,6 +370,7 @@
         x_input.placeholder = "X";
         x_input.min = "-1";
         x_input.max = "1";
+        x_input.step = "0.01";
 
         // Create a new input element for the y-coordinate value
         var y_input = document.createElement("input");
@@ -376,6 +380,7 @@
         y_input.placeholder = "Y";
         y_input.min = "-1";
         y_input.max = "1";
+        y_input.step = "0.01";
 
         // Create a new input element for the z-coordinate value
         var z_input = document.createElement("input");
@@ -385,6 +390,7 @@
         z_input.placeholder = "Z";
         z_input.min = "-1";
         z_input.max = "1";
+        z_input.step = "0.01";
 
         // Create a new label element for the frequency input
         var freq_label = document.createElement("label");
