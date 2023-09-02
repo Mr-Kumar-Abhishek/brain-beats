@@ -57,6 +57,7 @@ var boolRed = 0;
 var boolBlack = 0;
 var boolRifeMonaural = 0;
 var boolRife3D = 0;
+var boolRife3Dauto = 0;
 var x_value;
 var y_values;
 var z_values;
@@ -458,18 +459,26 @@ function distributePoints(n) {
 
 
 function play_rife_3d_auto(tone_freq_array) {
-  var auto_matrix = distributePoints(tone_freq_array.length);
 
-  console.log(auto_matrix);
+  if (boolRife3Dauto ==  0 ) {
 
-  x_values = auto_matrix[0];
-  y_values = auto_matrix[1];
-  z_values = auto_matrix[2];
+  
+    var auto_matrix = distributePoints(tone_freq_array.length);
 
-  console.log(x_values);
-  console.log(y_values);
-  console.log(z_values);
-  play_rife_3d(tone_freq_array, x_values, y_values, z_values);
+    console.log(auto_matrix);
+
+    x_values = auto_matrix[0];
+    y_values = auto_matrix[1];
+    z_values = auto_matrix[2];
+
+    console.log(x_values);
+    console.log(y_values);
+    console.log(z_values);
+    play_rife_3d(tone_freq_array, x_values, y_values, z_values);
+  } else {
+    stop_rife_3d_auto();
+    play_rife_3d_auto(tone_freq_array);
+  }
 }
 
 
@@ -704,6 +713,11 @@ function stop_rife_3d() {
 function stop_rife_monaural() {
   stop_rife();
   boolRifeMonaural = 0;
+}
+
+function stop_rife_3d_auto() {
+  stop_rife();
+  boolRife3Dauto = 0;
 }
 
 function play_monaural_generator(){
