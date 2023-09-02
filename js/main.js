@@ -408,8 +408,6 @@ function play_rife_monaural_generator(){
 }
 
 function play_rife_monaural(tone_freq_array) {
-    console.log("Play rife monaural");
-    console.log(tone_freq_array);
     if (boolRifeMonaural == 0) {
       boolRifeMonaural = 1;
       
@@ -485,7 +483,6 @@ function play_rife_monaural(tone_freq_array) {
 }
 
 function play_rife_3d(tone_freq_array, x_values, y_values, z_values) {
-
   if (boolRife3D == 0 ) {
     boolRife3D = 1;
   
