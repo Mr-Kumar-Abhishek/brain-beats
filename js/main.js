@@ -760,4 +760,6 @@ function stop_all() {
   if (single_tone_flag == 1 ) { stop_single_tone(); }
   if (double_tone_flag == 1 ) { stop_double_tone(); }
   if (angel_flag == 1 ) { stop_angel(); }
+  if (boolRife3D == 1) { stop_rife_3d(); }
+  if (boolRifeMonaural == 1 ) { stop_rife_monaural(); } 
 }
