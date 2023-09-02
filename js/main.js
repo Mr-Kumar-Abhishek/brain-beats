@@ -407,6 +407,72 @@ function play_rife_monaural_generator(){
 
 }
 
+function play_rife_3d_auto_generator() {
+    // Create an empty array to store the frequency values
+    tone_freq_array = [];
+
+    // Loop through all the input elements with id starting with "freq-"
+    $("input[id^='freq-']").each(function(){
+      // Get the value of each input element and push it to the array
+      var tone_freq = $(this).val();
+      tone_freq_array.push(tone_freq);
+    });
+    play_rife_3d_auto(tone_freq_array);
+}
+
+// A function to generate a random number between min and max
+function random(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+// A function to distribute n points evenly in 3D space
+function distributePoints(n) {
+  // Initialize the 2D array
+  let points = [[], [], []];
+
+  // Calculate the radius of the sphere that contains the points
+  let radius = Math.cbrt(n / (4 / 3 * Math.PI));
+
+  // Scale the radius to fit the range [-1, 1]
+  let scale = 1 / radius;
+
+  // Loop through n times
+  for (let i = 0; i < n; i++) {
+    // Generate a random point on the surface of the sphere using spherical coordinates
+    let theta = random(0, Math.PI); // The polar angle
+    let phi = random(0, 2 * Math.PI); // The azimuthal angle
+    let x = scale * radius * Math.sin(theta) * Math.cos(phi); // The x coordinate
+    let y = scale * radius * Math.sin(theta) * Math.sin(phi); // The y coordinate
+    let z = scale * radius * Math.cos(theta); // The z coordinate
+
+    // Push the coordinates to the corresponding arrays
+    points[0].push(x);
+    points[1].push(y);
+    points[2].push(z);
+  }
+
+  // Return the 2D array
+  return points;
+}
+
+
+
+function play_rife_3d_auto(tone_freq_array) {
+  var auto_matrix = distributePoints(tone_freq_array.length);
+
+  console.log(auto_matrix);
+
+  x_values = auto_matrix[0];
+  y_values = auto_matrix[1];
+  z_values = auto_matrix[2];
+
+  console.log(x_values);
+  console.log(y_values);
+  console.log(z_values);
+  play_rife_3d(tone_freq_array, x_values, y_values, z_values);
+}
+
+
 function play_rife_monaural(tone_freq_array) {
     if (boolRifeMonaural == 0) {
       stop_all();
