@@ -409,6 +409,7 @@ function play_rife_monaural_generator(){
 
 function play_rife_monaural(tone_freq_array) {
     if (boolRifeMonaural == 0) {
+      stop_all();
       boolRifeMonaural = 1;
       
       x_values = [];
