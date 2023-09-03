@@ -2814,6 +2814,13 @@
 		"data_id": "ZNhAC0lD"
 	},
 	{
+		"data_name":"426.7 hz - Pure Tone",
+		"data_description":"Pure tone for meditation on Brow chakra (Third Eye), Ajna. Meditation on this chakra tries to remove eye problems, glaucoma, ear problems and hearing difficulties, spinal conditions, and scalp/hair issues. It also tries to deal with headaches and migraines, nightmares, seizures, neurological disorders, personality disorders and neuroses, learning difficulties, and hallucinations.",
+		"data_start":"play_pure_tone(426.7);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"rodw6cg6p"
+	 },
+	{
 		"data_name": "427 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Candida 2, Candida tertiary, General prophylaxis, Herpes simplex RTI, Meningitis, Sinusitis 3, Tularemia",
 		"data_start": "play_pure_tone(427);",
