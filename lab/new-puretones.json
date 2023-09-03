@@ -2261,6 +2261,13 @@
 		"data_id": "F594LeRQ"
 	},
 	{
+		"data_name":"341.3 hz - Pure Tone",
+		"data_description":"Pure tone for meditation on Anahata chakra (heart chakra)[2nd flavor]. It tries to remove apathetic nature, faithlessness, unforgiving nature, hopelessness,  distrustfulness, uncommittedness, and detachment. It gives strength against pneumonia, asthema, breast problems, respiratory problems, upper-back pain, shoulder and upper arm pain, and also premature aging. It tries to remove apathetic nature, faithlessness, unforgiving nature, hopelessness,  distrustfulness, uncommittedness, and detachment.",
+		"data_start":"play_pure_tone(341.3);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"hcrkvvhht"
+	},
+	{
 		"data_name": "342 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from ALS 4, Bronchiectasis, Fluor Alb, Measles, Measles rubeola, Measles w vaccine, Multiple sclerosis v, Tuberculosis aviare",
 		"data_start": "play_pure_tone(342);",
