@@ -8,7 +8,7 @@
 },
 {
    "data_name": "20.5 hz - Pure Tone",
-   "data_description": "Pure Tone for mental relief from Regeneration and healing 1",
+   "data_description": "Pure Tone for mental relief and Regeneration and healing 1",
    "data_start": "play_pure_tone(20.5);",
    "data_stop": "stop_pure_tone();",
    "data_id": "tGNplBuu"
