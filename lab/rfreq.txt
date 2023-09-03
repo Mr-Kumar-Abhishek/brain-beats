@@ -756,8 +756,6 @@ Corn_smut - 546, 1642, 289
 
 Coronavirus_SARS - 9918, 9740, 4959, 4870, 2479.5, 2435, 1394.7, 1369.6, 1239.7, 1217.5, 774.8, 760.9, 619.9, 608.7, 464.9, 456.5, 309.9, 304.4, 155, 152.2
 
-Corynebacterium_diptheriae (use Diptheria)
-
 Corynebacterium_diptheriae_HC - 17027.18, 847.73
 
 Corynebacterium_xerosis_HC - 15732.71, 783.29
