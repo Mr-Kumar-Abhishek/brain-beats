@@ -2443,6 +2443,13 @@
 		"data_id": "u7zs2PU9"
 	},
 	{
+		"data_name":"369.99 hz - Pure Tone",
+		"data_description":"Pure tone for Libra. Libra can use this for study, relaxation or meditation. Musical Note is F#.",
+		"data_start":"play_pure_tone(369.99);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"iae4mljd7d"
+	},
+	{
 		"data_name": "370 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Herpes type 2 comp, Herpes type 2A secondary",
 		"data_start": "play_pure_tone(370);",
