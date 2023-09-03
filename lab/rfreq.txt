@@ -754,8 +754,6 @@ Corallinus - 533
 
 Corn_smut - 546, 1642, 289
 
-Coronavirus_COVID-19 (aka Wuhan virus, SARS-CoV-2. Mar 2020 addendum: Electroherbalism does not have a tested set for this new strain. Contact www.dnafrequencies.com, a website with which Electroherbalism has no affiliation, to purchase a frequency set which is computed based on the genome sequence. Other possible helpful frequencies include the following. For pad devices: 364000, 363000, 363500, 364500, 365000, 412500. For plasma tube audio range devices, these are converted using the e^6 method: 902.27, 899.79, 901.03, 903.51, 904.74, 1022.49. Can also try scan from 5000-5600 in 3 Hz increments (at 10 seconds per step) or Influenza_overnight_TR, which is a very long 8 hour set that combines the sets from many strains of influenza, and try to determine which frequencies are the most useful.)
-
 Coronavirus_SARS - 9918, 9740, 4959, 4870, 2479.5, 2435, 1394.7, 1369.6, 1239.7, 1217.5, 774.8, 760.9, 619.9, 608.7, 464.9, 456.5, 309.9, 304.4, 155, 152.2
 
 Corynebacterium_diptheriae (use Diptheria)
