@@ -2317,6 +2317,13 @@
 		"data_id": "ZiOe56xw"
 	},
 	{
+		"data_name":"349.23 hz - Pure Tone",
+		"data_description":"Pure tone for Virgo. Virgo can use this for study, relaxation or meditation. Musical Note is F.",
+		"data_start":"play_pure_tone(349.23);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"xzyccsiyul"
+	},
+	{
 		"data_name": "350 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Crohns and other bowel problems v, Eye disorders, Eyesight sharpen, Geotrichum candidum, Influenza Bach Poly, Influenza virus 1991 1992 secondary, Nigrospora spp, Vision poor, Visual acuity",
 		"data_start": "play_pure_tone(350);",
