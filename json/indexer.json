@@ -48,6 +48,18 @@
       "data_id":"9w9yhzlxvg"
    },
    {
+      "section_name":"3D rife machine",
+      "section_description":"These are 3D rife frequency presets. Each Ailment has a set of frequencies it responds to which provides mental relief. All frequency in each preset is automagically set 3D co-ordinates so that they will never resonate with each other and are played simulatanously. So relief is faster without being too invasive.",
+      "section_link":"3d-rife-machine.html",
+      "data_id":"jums8zpj9y"
+   },
+   {
+      "section_name":"Monaural rife machine",
+      "section_description":"These are monaural rife frequency presets. Each Ailment has a set of frequencies it responds to which provides mental relief. All frequency in each preset are played simulatanously. So relief is faster.",
+      "section_link":"monaural-rife-machine.html",
+      "data_id":"22snvx71ky"
+   },
+   {
       "section_name":"Dreamachine",
       "section_description":"A dreamachine is a system that creates flickering light patterns that can induce visual hallucinations or altered states of consciousness in people who close their eyes and sit near it.",
       "section_link":"dreamachine-presets.html",
