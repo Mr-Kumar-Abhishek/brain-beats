@@ -1064,6 +1064,13 @@
 		"data_id": "9T7VA3Xx"
 	},
 	{
+		"data_name":"172.06 hz - Pure Tone",
+		"data_description":"It Resonates with the Platonic year which is about 26,000 years. Musical note is F. Aura color is purple-violet. Positive effects are being joyful, cheerful, spiritual. Linked with Sahasrar/Crown chakra and has clarity of spirit, cosmic unity on highest levels. Medicinal benefits is that it acts as antidepressant. Has a lot of significance in chinese culture.",
+		"data_start":"play_pure_tone(172.06);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"bklqdog5l"
+	},
+	{
 		"data_name": "173 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Cholesterinum, Crohns and other bowel problems v, Warts verruca",
 		"data_start": "play_pure_tone(173);",
