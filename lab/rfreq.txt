@@ -18,8 +18,6 @@ Actinobacillus (a potentially pathogenic bacteria found in mammals, 773*, 776*, 
 
 Actinomyces_israelii (a bacterium normally found in the bowel and throat that can cause deep, pus filled holes in tissue. Also see Streptothrix, 222*, 262*, 488*, 567*, 7880*) - 23, 222, 262, 2154, 465, 488, 567, 7880, 10000, 787, 747, 727, 20, 660, 690, 160, 73, 1.1
 
-Actinomycosis (use Streptothrix)
-
 Acupuncture_disturbance_field (scar focus) - 5.9
 
 Acute_pain - 3000, 95, 10000, 1550, 802, 880, 787, 727, 690, 666
@@ -55,8 +53,6 @@ Agyfla_HC - 3534.88, 175.99
 AIDS_1 (not for use in U.S. see HIV) - 2489, 465, 727, 787, 880, 1550, 1500, 1.2, 31000, 31750, 34750
 
 AIDS_2 - 1.44, 1550, 1500, 249, 418, 727, 787, 880, 2489, 3100, 3175, 3475
-
-AIDS_Kaposis_sarcoma (use Cancer_Kaposis_sarcoma)
 
 AIDS_secondary (use 1113 for 12 min, 2128 for 16 min, 6121 for 21 min, 33 for 1 min) - 1113, 2128, 6121, 33
 
@@ -98,10 +94,6 @@ Amoeba (a single celled, sometimes infectious microorganism) - 310, 333, 532, 73
 
 Amoeba_hepar_abcess (liver abcess caused by amoebic infection) - 344, 605, 510, 943
 
-Amoebic_dysentery (use Entamoeba histolytica)
-
-Amyotropic_lateral_sclerosis (use ALS)
-
 Anal_itching (also use Parasites enterobiasis and see Parasites general set) - 10000, 880, 787, 760, 727, 465, 125, 120, 95, 72, 444, 1865, 20, 773, 826, 827, 835, 4152
 
 Anaphylaxis - 10000
@@ -121,8 +113,6 @@ Anosmia (loss of smell) - 20, 10000
 Anthrax (also see Bacillus_anthracis_HC) - 4000, 16655, 1370, 1365, 930, 900, 768, 633, 500, 420, 414, 400, 273, 224, 129
 
 Anthrax_1 - 644, 643, 642, 639, 638, 637, 634, 633, 632, 629, 628, 627, 624, 623, 622
-
-Antiseptic (use General antiseptic)
 
 Anxiety_1 (General anxiety disorder. Use 1.5 for 3 min, 6.8, 7.8 for 5 min, 95 for 3 min, 10000 for 5 min) - 1.5, 6.8, 7.8, 95, 10000
 
@@ -180,8 +170,6 @@ Asthma_2 (all frequencies for 5 min) - 1234, 3672, 7346, 727, 787, 880, 10000, 4
 
 Asthma_v - 3125, 3124, 890, 886, 871, 822, 782, 756, 712, 665, 633, 521, 515, 487, 434, 411, 322, 263, 172, 128
 
-Astrocytoma (use Cancer, astrocytoma)
-
 Ataxia (incoordination of muscles. Slow results in some cases) - 2720, 2170, 1800, 1600, 1500, 880, 787, 776, 727, 650, 625, 600, 444, 1865, 125, 95, 72, 20
 
 Ataxia_spastic - 9.19, 8.25, 7.69
@@ -191,10 +179,6 @@ Atherosclerosis (commonly present microbes in plaque are herpes zoster and Chlam
 Athletes_foot (also see Epidermophyton floccinum, Tinea, and Trichophyton rubrum freqs. Use all freqs for 5 min) - 20, 379, 727, 787, 880, 5000, 644, 766, 464, 802, 1552, 9999, 752, 923, 3176, 304
 
 Atmenic_Alb - 562
-
-Attention_Deficit_Disorder (Probably important to avoid preservatives, aspartame, dyes, MSG, and other potential toxins, plus limit sugar and starches but ensure adequate protein and good oils in the diet. Try Shigella, Chlamydia pneum., and General antiseptic)
-
-Autism (must do mercury and aluminum detox if a problem. Try Measles_w_vaccine.)
 
 Autointoxication - 522, 146, 1550, 10000, 800, 880, 787, 727, 20
 
@@ -241,8 +225,6 @@ Bacterium_coli_commune_combination - 282, 333, 413, 957, 1320, 1722
 Bacteroides_fragilis (use with Parasites ascaris set) - 633, 634, 635, 636, 637
 
 Bacteroides_fragilis_HC - 16180.80, 16230.58, 808.07, 805.59
-
-Bad_breath (use Halitosis)
 
 Bakers_Yeast_allergy (homeopathy preparation) - 775, 843, 1000
 
@@ -296,13 +278,7 @@ Blepharisma_HC - 20238.44, 1007.61
 
 Blood_diseases - 880, 787, 727
 
-Blood_pressure_high (use Hypertension)
-
-Blood_pressure_low (use Hypotension)
-
 Blue_cohosh (a healing herb) - 364
-
-Boils (use Furunkulosis)
 
 Bone_disease_and_periodontal_disease (see Osteo freq. Use 728 for 15min. combine with adequate nutrition, especially protein and essential fatty acids, and minerals, especially calcium and magnesium) - 47.5, 1800, 1600, 650, 625, 600, 880, 787, 776, 728
 
@@ -313,8 +289,6 @@ Bone_spurs (also use mineral supplement plus high dose bromelain and water) - 1.
 Bone_trauma (cuts, fractures) - 380, 1550, 802, 10000, 880, 787, 727, 2720
 
 Bordertella_pertussis_HC - 16479.52, 820.47
-
-Borrelia (use Lyme disease)
 
 Borrelia_burgdorferi_HC (causes Lyme disease, see also Lyme_disease) - 18919.09, 941.93
 
