@@ -1757,6 +1757,13 @@
 		"data_id": "nchsFl9I"
 	},
 	{
+		"data_name":"277.18 hz - Pure Tone",
+		"data_description":"Pure Tone for Taurus. Taurus could use this for relaxation, meditation or study. Musical Note is C#",
+		"data_start":"play_pure_tone(277.18);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"0comqc0ms2"
+	},
+	{
 		"data_name": "278 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Croup, Respiratory syncytial virus, Stomatitis",
 		"data_start": "play_pure_tone(278);",
