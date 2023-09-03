@@ -11711,6 +11711,13 @@
 		"data_id": "sshgqTNZ"
 	},
 	{
+		"data_name":"4096 hz - Pure Tone",
+		"data_description":"Pure Tone for Galactic chakra. This is considered a channel of prophecy. It governs the ability to transcend space and time and allows access to Akashic Records also known as universes cosmic 'book of life'. It is experienced as extreems of positives and negatives. It can take from months to years to master this and many get stuck here. It is also associated with shamic and yogic powers such as soul travelling and telekinesis.",
+		"data_start":"play_pure_tone(4096);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"45alvjl4x"
+	},
+	{
 		"data_name": "4122 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Cryptosporidium, Parasites general alternative v",
 		"data_start": "play_pure_tone(4122);",
