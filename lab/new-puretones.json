@@ -2723,6 +2723,13 @@
 		"data_id": "BUOx6h24"
 	},
 	{
+		"data_name":"415.3 hz - Pure Tone",
+		"data_description":"Pure tone for Sagitarius. Sagitarius can use this for meditation, relaxation or study. Musical note is G#",
+		"data_start":"play_pure_tone(415.3);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"dpe5lmexd0"
+	},
+	{
 		"data_name": "417 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Bacillus Coli Rod Form, Lyme and Rocky Mtn Spotted Fever v, Rocky Mtn Spotted Fever and Lyme v, Solfeggio scale, Transformation series",
 		"data_start": "play_pure_tone(417);",
