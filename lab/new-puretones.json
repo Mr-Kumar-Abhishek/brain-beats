@@ -1281,6 +1281,13 @@
 		"data_id": "wsTnbs7L"
 	},
 	{
+		"data_name":"210.42 hz - Pure Tone",
+		"data_description":"Synodic Moon Frequency. Musical Note is G#. Aura color is orange. Associated with Svadisthan Chakra. It regulates menstruation and rectifies disturbances in gland and lymph system. Other minor effects include simulation of sexual energy and supports erotic communication. (It is designed for females.)",
+		"data_start":"play_pure_tone(210.42);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"o9moi622h"
+	},
+	{
 		"data_name": "211 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Fibropendulum",
 		"data_start": "play_pure_tone(211);",
