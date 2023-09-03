@@ -1884,10 +1884,17 @@
 	},
 	{
 		"data_name": "295.7 hz - Pure Tone",
-		"data_description": "Pure Tone for mental relief from Planetary orbits",
+		"data_description": "Pure Tone for Planetary orbits",
 		"data_start": "play_pure_tone(295.7);",
 		"data_stop": "stop_pure_tone();",
 		"data_id": "plfEmIzg"
+	},
+	{
+		"data_name":"295.8 hz - Pure Tone",
+		"data_description":"Pure tone for viceral fat reduction. Must be listened while working out (including walking).",
+		"data_start":"play_pure_tone(295.8);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"14ttwbjko"
 	},
 	{
 		"data_name": "298 hz - Pure Tone",
