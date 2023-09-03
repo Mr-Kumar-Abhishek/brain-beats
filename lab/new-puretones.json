@@ -2913,7 +2913,7 @@
 	},
 	{
 		"data_name": "439 hz - Pure Tone",
-		"data_description": "Pure Tone for mental relief from Ozaena",
+		"data_description": "Pure Tone for mental relief from Ozaena. Pure tone for meditation on crown Chakra (sahasrar) [Flavour 1]. Aura color is violet. Tone is 'Eee'. Musical note is 'B'. (Old musical diantonic scale.) This crown chakra is meant for physical enhancements such as it gives strength against light sensitivity, headaches, dementia, auto-immune discorders, neurological disorders. Gives a boost to entire mental, physical and spiritual health for the brain. Gives control over depression, confusion, loss of faith, mental disconnection, dementia, epilepsy, schizophrenia. ",
 		"data_start": "play_pure_tone(439);",
 		"data_stop": "stop_pure_tone();",
 		"data_id": "wSwKgyia"
