@@ -1645,6 +1645,13 @@
 		"data_id": "N1HQHezB"
 	},
 	{
+		"data_name":"261.63 hz - Pure Tone",
+		"data_description":"Pure Tone for Aries. Aries could use this for relaxation, meditation or study. Musical Note is C",
+		"data_start":"play_pure_tone(261.63);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"k8s8qxmzb0"
+	},
+	{
 		"data_name": "262 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Actinomyces israelii, Arthritis rheumatoid, Cyst sebaceous TR, FIV, Rheumatism, Sore throat 1, Sore throat comp, Streptothrix",
 		"data_start": "play_pure_tone(262);",
