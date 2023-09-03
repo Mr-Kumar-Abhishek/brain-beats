@@ -767,11 +767,18 @@ function warning(whichy){
       break;
     case 4:
       alert("Sit in a dark room, choose a preset, keep it in front of your eyes, play it and CLOSE YOUR EYES!")
+      break;    
     case 5:
       alert("The minimum and maximum values of x y and z co-ordinates is -1 and 1. You could use decimals. And you already know the minimum and maximum values for frequency (20 hz - 22000)");
+      break;
     case 6:
       alert("Use of headphones/earphones is required. If you don't like the auto adjustment of frequencies, stop and play again, without changing the frequencies, the brain beats will try to adjust it again.");
-    }   
+      break;
+    case 7:
+      alert("Use of headphones/earphones is required.If you don't like the auto adjustment of frequencies, stop and play again, without changing from your opted the frequencies, the brain beats will try to adjust it again.")
+      break;
+    } 
+      
 }
 
 
