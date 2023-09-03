@@ -2577,7 +2577,7 @@
 	},
 	{
 		"data_name": "392 hz - Pure Tone",
-		"data_description": "Pure Tone for mental relief from Gulf War Syndrome v, Human T lymphocyte Virus3, T-lymph virus TR",
+		"data_description": "Pure Tone for mental relief from Gulf War Syndrome v, Human T lymphocyte Virus3, T-lymph virus TR, Pure tone for scorpio. Scorpio can use this for meditation, relaxation or study. Musical note is G",
 		"data_start": "play_pure_tone(392);",
 		"data_stop": "stop_pure_tone();",
 		"data_id": "7RRQYjPU"
