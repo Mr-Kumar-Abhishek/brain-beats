@@ -890,7 +890,7 @@
 	},
 	{
 		"data_name": "144.72 hz - Pure Tone",
-		"data_description": "Pure Tone for mental relief from Planetary orbits",
+		"data_description": "Pure Tone for Planetary orbits",
 		"data_start": "play_pure_tone(144.72);",
 		"data_stop": "stop_pure_tone();",
 		"data_id": "3mdn1HiL"
