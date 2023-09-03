@@ -3339,6 +3339,13 @@
 		"data_id": "hR2lk40d"
 	},
 	{
+		"data_name":"493.88 hz - Pure Tone",
+		"data_description":"Pure tone for Pisces. Pisces can use this for relaxation, meditation or study. Musical note B.",
+		"data_start":"play_pure_tone(493.88);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"bu6ftl4k7n"
+	 },
+	{
 		"data_name": "495 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Cancer melanoma 1, Cancer melanoma 2, Lyme 1, Lyme 1, Lyme 2, Mycogone fungoides secondary, Warts general, Warts verruca",
 		"data_start": "play_pure_tone(495);",
