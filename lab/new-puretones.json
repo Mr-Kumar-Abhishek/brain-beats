@@ -7267,7 +7267,7 @@
 	},
 	{
 		"data_name": "984 hz - Pure Tone",
-		"data_description": "Pure Tone for mental relief from Cerumen, Influenza overnight TR, Influenza virus 1991 1992, Yeast general v",
+		"data_description": "Pure Tone for mental relief from Cerumen, Influenza overnight TR, Influenza virus 1991 1992, Yeast general v. Pure tone associated with cerebral cortex. This increases intelligence over time.",
 		"data_start": "play_pure_tone(984);",
 		"data_stop": "stop_pure_tone();",
 		"data_id": "R3BVIaKu"
