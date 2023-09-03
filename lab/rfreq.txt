@@ -302,8 +302,6 @@ Brachial_neuralgia - 0.5
 
 Brain_beta_stim_TR (7.83 run at duty 5, 22 and 19.5 run at duty 30 and pulse 7.83 50) - 7.83, 22, 19.5
 
-Brain_tumor (use specific type : Cancer, droglioma, astrocytoma, and or glioma)
-
 Branhamella_Moraxella_catarrhalis - 2013, 579, 581, 687, 770, 772, 775, 778, 2013
 
 Branhamella_Neisseria_catarrhalis_HC - 19715.68, 981.59
@@ -314,19 +312,11 @@ Breast_tumor_benign_TR (also include sweep from 19351.563 to 10406.25 by .03125 
 
 Breathing_deep - 1234, 3702, 3672, 7344, 7760
 
-Brights_syndrome (use Nephritis)
-
-Bronchial_asthma (use Asthma)
-
-Bronchial_pneumonia (use Pneumonia, bronchial)
-
 Bronchiectasis (chronic dilatation of the bronchi) - 342, 510, 778
 
 Bronchitis - 7344, 3672, 1234, 880, 743, 727, 683, 464, 452, 333, 72, 20, 9.39, 9.35
 
 Bronchitis_secondary - 776, 766, 688
-
-Bronchopneumonia_borinum (use Pneumonia, bronchial)
 
 Brown_recluse_spider bite (also use a lot of Echinacea and vitamin C) - 724, 884, 1830, 3260, 30008
 
@@ -336,8 +326,6 @@ Brucella_melitensis (form of Brucella found in goats and sheep) - 748, 643, 695
 
 Bruises - 9.1, 110, 10000
 
-Bubonic_plague (use Versenia pestis)
-
 Bubonic_plague_secondary_infections - 880, 787, 727, 20
 
 Bunion_pain - 20
@@ -345,10 +333,6 @@ Bunion_pain - 20
 Burns - 190, 10000, 880, 787, 727, 465, 200
 
 Bursitis (May be caused by any number of organisms and viruses; experiment with arthritis frequencies as well.) - 880, 787, 727
-
-BX_Virus (use Cancer_BX_virus)
-
-BY_Virus (use Cancer_BY_virus)
 
 Caeliacia - 674
 
@@ -369,8 +353,6 @@ Cancer_adenocarcinoma - 47, 2182, 2219, 832, 2084, 2127, 2160, 2452, 2876
 Cancer_adenoma - 433
 
 Cancer_astrocytoma (common tumor of brain and central nervous system) - 857, 9.19, 8.25, 7.69, 2170, 543, 641, 2127, 880, 690, 666
-
-Cancer_bladder_secondary (use Parasites, schistosoma)
 
 Cancer_bladder_TBC (transitional bladder carcinoma) - 642, 771, 360, 726, 724
 
@@ -406,8 +388,6 @@ Cancer_carcinoma_liver_1 - 393, 479, 520, 734, 3130
 
 Cancer_carcinoma_liver_fermentative - 214
 
-Cancer_carcinoma_liver_secondary (use Hepatitis B and Parasites, fluke, liver)
-
 Cancer_carcinoma_original_crane - 21275, 2127.5
 
 Cancer_carcinoma_scan - 728, 690, 2008, 2104, 2112, 2120, 2128, 2136, 2144, 2152, 2160, 2168, 2176, 2184, 2192, 2200, 2217, 5000, 9999, 304
@@ -415,8 +395,6 @@ Cancer_carcinoma_scan - 728, 690, 2008, 2104, 2112, 2120, 2128, 2136, 2144, 2152
 Cancer_carcinoma_uterine_fermentative - 127
 
 Cancer_cells_conidium_head - 728
-
-Cancer_cervical_secondary (use Papilloma and Herpes viruses)
 
 Cancer_droglioma (see also Cancer, glioma, astrocytoma) - 853
 
@@ -462,16 +440,6 @@ Cancer_leukemia_T_cell - 222, 262, 822, 3042, 3734
 
 Cancer_leukemia_TR - 2127, 2008, 880, 822, 787, 727, 690, 666, 590, 10000, 2008, 1850, 450, 440, 422, 428, 2030, 2030, 2030, 465, 15, 14, 6.8
 
-Cancer_liver (use Cancer, carcinoma, liver)
-
-Cancer_liver_secondary (use Hepatitis B and Parasites, fluke, liver)
-
-Cancer_lung (use Cancer, carcinoma, bronchial)
-
-Cancer_lymphogranuloma_lymphoma (use Hodgkin's disease)
-
-Cancer_lymphogranuloma_venereum_secondary (use Chlamydia trachomatis)
-
 Cancer_lymphosarcoma - 482
 
 Cancer_maintenance_secondary - 120, 250, 428, 465, 600, 626, 650, 661, 664, 667, 690, 728, 776, 784, 800, 802, 832, 880, 1489, 1550, 1600, 1865, 2000, 2012, 2100, 2170, 2490, 2730
@@ -486,8 +454,6 @@ Cancer_multiple_myeloma - 21275, 11780, 5122, 4750, 4213, 2950, 2145, 2128, 2107
 
 Cancer_mycosis_fungoides (a form of skin cancer resembling eczema) - 852
 
-Cancer_nasopharyngeal_secondary (use EBV)
-
 Cancer_neuroblastoma (exp) - 7027, 6148, 5270, 4392, 3513, 2635, 1757, 878
 
 Cancer_non_Hodgkins_1 (also use Cancer, Melanoma) - 574, 588, 666, 778, 1078, 1120, 1340, 1744, 3524, 3713
@@ -497,8 +463,6 @@ Cancer_non_Hodgkins_2 (also use Simian_virus_40) - 2008, 2004, 2012, 2116, 2128,
 Cancer_not_killed_by_2008_2128 - 2180, 2182, 2184
 
 Cancer_pain - 3000, 95, 2127, 2008, 727, 690, 666
-
-Cancer_pancreatic (use Cancer_adenocarcinoma)
 
 Cancer_plasmacytoma (a tumor with plasma cells that occurs in the bone marrow, as in multiple myeloma, or outside of the bone marrow, as in tumors of the inner organs and lining of the nose, mouth, and throat) - 475
 
@@ -516,10 +480,6 @@ Cancer_rhabdomyosarcoma_embryonal_v - 2586, 5476, 4445
 
 Cancer_sarcoma_general (BY) - 1755, 3524, 2007.5, 2005, 2015.9, 2083.8, 728, 880, 802, 785
 
-Cancer_skin (use Cancer, carcinoma, basal cell skin and specific forms)
-
-Cancer_stomach_secondary (use Helicobacter pylori)
-
 Cancer_tertiary - 20, 421, 965, 50, 383
 
 Cancrum_oris (rapidly growing oral or nasal ulcer) - 20, 727, 787, 802, 880
@@ -536,8 +496,6 @@ Candida_carcinomas - 2167, 2128, 2182, 465
 
 Candida_secondary (also use other parasite sets esp roundworm freqs if necessary) - 72, 422, 582, 727, 787, 802, 1016, 1134, 1153, 1550, 2222, 412, 543, 2128
 
-Candida_sweep_TR (sweep from 12006.25 to 12137.5 by .03125 dwell 0.5 pulse 64 75)
-
 Candida_tertiary (some causal factors) - 880, 95, 125, 20, 60, 225, 427, 240, 650, 688, 152, 442, 8146, 751, 1146
 
 Candida_tropicalis - 1403, 675, 709
@@ -548,19 +506,13 @@ Canine_parvovirus_mutant_strain - 323, 514
 
 Canine_parvovirus_type_B - 323, 535, 613, 755, 761, 764, 766, 768
 
-Canker_sore (use Stomatitis aphthous)
-
 Carbo_animalis (homeopathic remedy from animal bone charcoal) - 444
-
-Carbuncles (use Staphylococcus aureus)
 
 Cardiacedema - 9.19
 
 Carpal_tunnel_secondary (also use Arthritis) - 2008, 666
 
 Carvularia_spiratera - 879
-
-Cat_scratch_fever (use Bartonella henslae)
 
 Cataract (also use eye formula antioxidant supplement for all macular degeneration problems, use 1830 for 10 min, 1830*) - 1830, 728, 784, 787, 800, 880, 10000
 
@@ -602,8 +554,6 @@ Chaetomium_globosum (867*) - 221, 867, 102
 
 Chakra_base_root (pulse at 4Hz) - 20
 
-Chancre (use Syphilis)
-
 Chelidonium - 162
 
 Chemical_sensitivity (see also Liver support) - 727
@@ -611,10 +561,6 @@ Chemical_sensitivity (see also Liver support) - 727
 Chemtrail_detox (can also be useful for lung and sinus problems. All freqs for 5 min) - 664, 7344, 2842, 1147, 686.6, 684.1, 1113, 779.9, 829.3, 679.2, 865, 969.9, 1067, 783.6, 800.4, 1045, 1062, 673.9, 690.7
 
 Chest_infection_secondary - 72, 333, 452, 683
-
-Chicken_pox (by the time pox marks appear, the illness is resolved and the toxins are being expelled through the skin, so must be used in the early stages of flu like symptoms after exposure. Use herpes zoster.)
-
-Chillbains (use Perniosis)
 
 Chilomastix_HC (amoeba cysts) - 19367.17, 964.23, 21209.29, 1055.95
 
@@ -666,8 +612,6 @@ Clostridium_perringens_HC (spores) - 19715.68, 981.59
 
 Clostridium_septicum_HC - 18122.49, 902.27
 
-CMV (use Cytomegalovirus)
-
 Coeliacia - 154, 594, 656, 586, 668, 787, 7958, 665, 674
 
 Cold_1 (use 800 and 880 for 10 min, others for 5 min) - 5500, 4400, 802, 787, 727, 720, 552, 440, 400, 125, 72, 800, 880
@@ -689,8 +633,6 @@ Cold_and_flu_winter_01 - 959, 962
 Cold_in_head_chest (Mutates constantly; too many strains to include complete list of frequencies. See also Strep Pneumonia, Adenovirus, Rhinitis, Coronavirus, Sinusitis, Pneumonia, Chest infection, and Rhino pneumonitis sets. Use lots of echinacea at onset to prevent cell damage that prolongs healing, even if correct freqs are found.) - 10000, 7344, 4412, 3176, 2489, 1550, 880, 802, 787, 776, 766, 728, 712, 688, 683, 665, 660, 600, 444, 333, 20
 
 Cold_2005_TR - 10000, 7344, 5000, 2950, 2900, 2650, 2600, 1550, 1234, 740, 880, 787, 727, 330, 165, 82.6, 41.75, 20.87, 30
-
-Cold_sores (use Herpes Simplex I)
 
 Colic - 1550, 832, 802, 787, 727, 20
 
@@ -802,8 +744,6 @@ Cystitis_chronic (long-term inflammation of the urinary bladder and ureters) - 2
 
 Cystopyelo_nephritis (inflammation from bladder to kidney) - 1385
 
-Cysts_hydatid (use Parasites tapeworm)
-
 Cytochalasin_HC - 4530.62, 3833.60, 225.57, 190.86
 
 Cytomegalovirus (CMV, known as salivary gland virus or human herpes type 5, 2145*) - 126, 597, 629, 682, 1045, 2146, 2144, 2145, 8848, 8856
@@ -876,8 +816,6 @@ Diplococcus_diptheriae_HC - 17973.13, 894.83
 
 Diplococcus_pneumoniae_HC - 17923.34, 18172.28, 892.35, 904.74
 
-Dirofilaria_immitis (use Parasites heartworm)
-
 Disc_herniated - 727, 787, 2720, 10000
 
 Distemper - 242, 253, 254, 255, 312, 442, 551, 573, 624, 671, 712, 760, 940, 950, 1269, 1950, 8567, 660
@@ -888,19 +826,13 @@ Diverticulitis_acute (see Intestines, inflammation. All freqs for 10 min) - 120,
 
 Diverticulosis (characterized by tiny hernias of intestinal tissue protruding through the muscular wall of the colon) - 154, 934
 
-Dizziness (use Vertigo)
-
 DNA_repair (exp) - 528, 731, 732
 
 Dog_and_cat_hostility_1 - 3.6
 
 Downs_syndrome_palliative - 20
 
-Droglioma (use Cancer, droglioma)
-
 Drug_addiction - 20
-
-Duodenal_ulcer (use Ulcer, duodenal)
 
 Duodenitis - 223
 
@@ -925,12 +857,6 @@ E_coli_mutant_strain - 556, 934, 1242, 1244, 1703, 632, 634, 776
 Ear_conditions_various (discharges, tinnitus, itching, hearing loss. Also see Otitis.) - 10000, 880, 787, 727, 776, 766, 688, 683, 652, 645, 542, 535, 440, 410, 340, 201, 158, 20, 9.19
 
 Ear_fungus_1 - 854
-
-Ear_wax (use Cerumen)
-
-EBV (use Epstein-Barr Virus)
-
-Echinococcinum (use Parasites, tapeworms, echinococcinum)
 
 Echo_Virus (Endometriosis Tuberylosa, can cause a type of viral meningitis) - 922, 788, 765, 722, 625, 620, 614, 613, 612, 611, 610, 609, 608, 607, 606, 605, 604, 603, 514, 461
 
@@ -960,8 +886,6 @@ Emphysema_comp - 7344, 3672, 2838.5, 2688, 2404.2, 1234, 975, 880, 787, 777, 766
 
 Encephalitis (inflammation of the tissues of the brain and spinal cord) - 841
 
-Endocarditis (use Listeriose)
-
 Endocrine_RX_TR (includes stimulating frequencies for pineal, hypothalamus, pituitary, thyroid, adrenal, and thymus gands) - 662, 1725, 1342, 1534, 1413, 1351, 635, 763, 1335, 645, 10000
 
 Endolimax_nana_HC (trophozoites and cysts) - 19715.68, 981.59, 21508.01, 1070.82
@@ -969,8 +893,6 @@ Endolimax_nana_HC (trophozoites and cysts) - 19715.68, 981.59, 21508.01, 1070.82
 Endometriosis_1 (use 246, 800, and 1550 for 5 min) - 6766, 6672, 6641, 6578, 2150, 2128, 2082, 2013, 2008, 2003, 2000, 1850, 1550, 945, 854, 846, 830, 800, 763, 676, 651, 524, 435, 275, 246, 142
 
 Endometriosis_chronic (growth of uterine tissue outside the uterus that may cause pain, infertility, & abnormal uterine bleeding. Use with Parasites, flukes, general) - 246, 800, 1550
-
-Endometriosis_tuberylosa (use Echo virus)
 
 Energy_vitality - 9999
 
@@ -1024,8 +946,6 @@ Erythema_infectiosum (human parvovirus B19, sometimes known as Fifth disease, a 
 
 Erythema_nosodum - 9.39
 
-Escherichia_coli (use E. coli)
-
 Esophagus (constriction. Also see General antiseptic and dental freqs) - 880, 787, 727
 
 Euglena - 432, 3215, 3225, 3325, 6448
@@ -1035,8 +955,6 @@ Eustachian_tube_inflammation (also use General_Antiseptic) - 1550, 880, 802, 787
 Eye_disorders (blurred vision, cataracts, crossed eyes, diplopia, infections, etc.) - 10000, 2010, 1831, 1830, 1829, 1600, 1552, 1335, 880, 787, 727, 496, 400, 360, 350, 160, 20
 
 Eye_inflammation (also see General antiseptic) - 1.2, 80
-
-Eyelid_droop (use Ptosis)
 
 Eyes_glaucoma - 1600, 1830, 880, 787, 727
 
@@ -1090,10 +1008,6 @@ Fibropendulum - 661, 7465, 211, 233, 766
 
 Fibrosarcoma - 1744
 
-Fibrosis_lung (use Pulmonary fibrosis)
-
-Fifth_disease (use Erythema infectiosum)
-
 Fischpyrogen - 832
 
 Fissures - 787, 20, 10000
@@ -1105,10 +1019,6 @@ Fistula_ulcer (use also Staph freqs) - 880, 832, 787, 727
 FIV - 262, 323, 372, 404, 567, 712, 742, 760, 773, 916, 1103, 1132, 3701
 
 Flatulence - 1550, 880, 832, 802, 787, 727, 465
-
-Flu (use Influenza)
-
-Flukes (use Parasites, flukes)
 
 Fluor_Alb (homeopathic cell salt) - 110, 342, 420, 423, 688, 757
 
@@ -1172,23 +1082,14 @@ General_prophylaxis - 20, 64, 95, 125, 225, 427, 440, 664, 728, 784, 880, 802, 8
 
 Geotrichum_candidum (fungus found in feces and dairy products whose manifestations resemble those of candida) - 350, 355, 384, 386, 403, 404, 407, 409, 410, 412, 415, 418, 543, 544, 687, 987, 988, 737, 700
 
-German_measles (Use Measles, rubella)
-
-Giardia (use Parasites, giardia)
-
 Gingivitis (inflammation of gums. See also Dental, Dental foci, Stomatitis. Take calcium and magnesium internally and brush with CoQ10 and myrrh or goldenseal) - 1550, 880, 802, 787, 728, 726, 465, 20, 1556, 776, 465
 
-Glanders (use Pseudomonas mallei)
 
 Glandular_fever - 10000, 20
 
 Glandular_fever_thyroid ( exp) - 10000, 20, 16000
 
 Gliocladium (brain fungus) - 855, 469, 633
-
-Goiter (use Struma)
-
-Gonads_inflammation (use Orchitis)
 
 Gonorrhea - 7120, 6000, 2330, 1500, 712, 660, 600, 233, 150
 
@@ -1202,19 +1103,13 @@ Gravel_urine - 2.65, 3000, 880, 787, 727, 20
 
 Graves_disease_and_goiter - 20, 727, 787, 880
 
-Greatest_Hits (use General demo)
-
 Green_Dye - 563, 2333
-
-Grippe (use Influenza, grippe)
 
 Griseofulvin - 14338.68, 713.88
 
 Gulf_War_Syndrome_v - 7755, 6007, 5419, 2688, 1370, 1365, 975, 866, 837, 771, 714, 639, 633, 578, 533, 435, 392, 255, 253, 136
 
 Guillain_Barre_Syndrome_TR - 10000, 7344, 5000, 2950, 2900, 2650, 2600, 1550, 1234, 740, 880, 787, 727, 330, 165, 82.6, 41.75, 20.87, 30, 7344, 4412, 5000
-
-Gum_disease (use Gingivitis_Pyorrhea)
 
 Haemophilia_tonic (hereditary bleeding disorders in which the blood does not readily clot) - 778, 845, 751
 
@@ -1258,11 +1153,7 @@ Heart_tonic (lab animals only. See also Chlamydia, Staph infection, Circulatory 
 
 Heartburn_chronic (use calcium magnesium supplement and The Water Cure. Also see Staph and Strep general sets and H. pylori) - 676, 832, 2720, 2170, 2127, 1800, 1600, 1550, 802, 1500, 880, 787, 727, 685, 465, 444, 1865, 125, 95, 72, 20
 
-Heartworm (use Parasites, heartworm)
-
 Heavy_metal_toxicity_TR - 31905.6, 38014.4, 39032.6, 43644.3, 56656.4, 76677.5, 43644.3, 38014.3, 4202.3, 5333.7, 9887, 1902, 317
-
-Heel_spurs (use Bone_spurs)
 
 Helicobacter_pylori (ulcer. Run 676 for 10 min, 676*) - 2950, 2819, 2779, 2167, 880, 728, 705, 695, 676, 352, 347
 
@@ -1352,8 +1243,6 @@ Herpes_zoster_secondary - 1550, 802, 1800, 1865, 728, 2720, 2128, 5000, 464, 800
 
 Herpes_zoster_v - 7160, 3343, 2431, 2323, 1577, 1544, 40887, 958, 934, 787, 786, 738, 718, 716, 686, 668, 643, 576, 574, 573, 572, 563, 554, 542, 453, 446, 436, 425, 423, 411, 345, 333, 223, 134
 
-Hiatal_hernia (use staph and strep sets)
-
 Hiccups - 20, 10000
 
 Hip_pain (use also Arthritis) - 880, 787, 727, 20
@@ -1370,23 +1259,13 @@ HIV (see also AIDS) - 683, 714, 3554, 830, 450
 
 HIV_HC - 18172.28, 904.74
 
-Hives (use Urticaria)
-
 Hoarseness - 880, 760, 727
-
-Hodgkins_disease (use Cancer, Hodgkin's disease)
-
-Hookworm (use Parasites hookworm)
-
-Hordeolum (use Stye)
 
 Hormodendrum (a genus of fungi that includes human pathogens) - 663, 678, 695, 532, 627
 
 Hormonal_imbalances - 5.5
 
 Hot_flashes (complications) - 10000, 880, 787, 727
-
-Hot_tub_folliculitis (use Pseudomonas freqs)
 
 Household_Insect_Mix - 723, 100
 
@@ -1441,8 +1320,6 @@ Immune_system_stimulation_1 - 40.4, 40.5, 40.6, 40.7, 40.8
 Impotence (many classes. Also use Circulatory stasis) - 9.39, 2127, 2008, 465, 10000, 880, 802, 787, 727, 690, 666, 125, 95, 73, 72, 20, 650, 625, 600
 
 Incontinence_1 (use all freqs for 10 min) - 2250, 2050, 2128, 690, 666
-
-Indigestion (use Dyspepsia)
 
 Infantile_paralysis (also use Polio) - 1500, 880, 787, 727, 776, 5000, 10000
 
@@ -1616,13 +1493,9 @@ Itching (pruritis. Take hot bath with a cup of apple cider vinegar afterwards. I
 
 Jaundice (see also Liver support, gallbladder, Leptospirosis, and Parasites fluke and general frequency sets) - 5000, 1600, 1550, 1500, 880, 802, 650, 625, 600, 444, 1865, 146, 250, 125, 95, 72, 20
 
-Jock_itch (use Epidermophyton floccinum)
-
 Joint_inflammation (also see Arthritis sets) - 10000
 
 Joint_pain_basic_TR (also known as Pain.Bio, run 160, 500, 1600, 5000 with pulse 4 60, 1600 500 160 with pulse 2 60, 160 324 528 with pulse 2 60 converge 1 1) - 160, 500, 1600, 5000, 324, 528
-
-Kaposis_sarcoma (use Cancer_Kaposis_sarcoma)
 
 Kidney_insufficiency - 9.2, 10, 40, 440, 1600, 1550, 1500, 880, 802, 650, 625, 600, 444, 1865, 146, 250, 125, 95, 72, 20
 
@@ -1636,8 +1509,6 @@ Kidney_tonic_general - 440, 248, 8, 880, 20, 10000, 800, 5000, 3000
 
 Kieferosteitis (a type of bone inflammation marked by enlargement and pain) - 432, 516, 384
 
-Klebsiella_pneumoniae (use Pneumoniae klebsiella)
-
 Knee_joint_pain - 1550, 880, 802, 787, 727, 28, 20, 7.69, 3, 1.2, 250, 9.6, 9.39
 
 L_lysine (stimulates) - 195.5, 391, 782, 1564.1, 3128.2, 6256.4
@@ -1645,8 +1516,6 @@ L_lysine (stimulates) - 195.5, 391, 782, 1564.1, 3128.2, 6256.4
 Lac_deflorat - 230, 371, 232, 2121
 
 Lactobacillus_acidophilus_HC - 17375.69, 865.08
-
-Lamblia (use Parasites, Giardia)
 
 Large_intestine_tonic - 8, 440, 880
 
@@ -1660,10 +1529,6 @@ Laxative_mild - 802
 
 Legionella (Legionnaires' disease, caused by a gram-negative bacteria associated with condensed or treated water that migrate to lung tissue and stimulate severe respiratory manifestations, fever, headache, abdominal pain, and may affect kidneys and liver.) - 723, 724, 897, 975, 8120, 8856, 690, 693
 
-Leiomyoma (use Fibroma)
-
-Leishman_Donovan (use Parasites, Leishmania)
-
 Leprosy - 10000, 6000, 743, 600, 252
 
 Leprosy_secondary_infection - 1600, 1550, 1500, 880, 832, 802, 787, 776, 760, 727, 700, 690, 666, 650, 625, 600, 465, 444, 20, 500, 450, 440, 428, 660
@@ -1675,8 +1540,6 @@ Leptospirosis (a spirochete bacterial disease that is spread to humans through a
 Leukocytogenesis_stimulation (see also Immune system stimulation) - 20, 727
 
 Leucocytozoon_HC - 19914.83, 991.50
-
-Leukoderma_acquired (use Vitiligo)
 
 Leukoencephalitis (inflammation of brain's white matter, usually in infants and children, but also found in horses as a result of forage poisoning) - 324, 572, 776, 934, 1079, 1111, 1333
 
@@ -1696,27 +1559,15 @@ Listeriose (a serious disease causing miscarriage, meningitis, and endocarditis 
 
 Liver_enlargement - 727, 787, 880
 
-Liver_fluke (Use Parasites, flukes)
-
-Liver_necrosis (use Listeriose, Liver support, Parasites schistosoma mansoni)
-
 Liver_stores_bile_cholesterol - 21.34
 
 Liver_support (also try E_coli, Parasites_general and Parasites_flukes_general) - 33.13, 1552, 802, 751, 331.3
 
-Lockjaw (use Tetanus)
-
 Locomotor_dysfunction_incoordination (may be slow results. See also Schumann response) - 10000, 880, 787, 776, 727, 650, 625, 600, 444, 1865, 125, 95, 72, 20
-
-Low_blood_pressure (use hypotension)
-
-Luesinum_Syphilinum (use Syphillis)
 
 Lumbago - 10000, 800, 880, 787, 727, 125, 95, 72, 444, 1865, 9.19, 8.25, 7.69, 300
 
 Lung (general) - 9, 3672
-
-Lung_abscess (use Nocardia asteroides)
 
 Lung_infection_1 - 10.3, 10.5, 11.8, 11.9, 12.1, 12.4
 
@@ -1776,13 +1627,9 @@ Lymph_support - 15.05, 10.36, 3176
 
 Lymphangitis (lymphatic vessel inflammation of humans and horses most commonly caused by strep but also by other bacteria, yeast fungus, and cancer. See also Strep General) - 880, 574, 778, 1120, 1078, 3176
 
-Lymphogranuloma (use Cancer, Hodgkin's disease)
-
 Lymphs_and_detox - 10000, 3177, 3176, 3175, 880, 787, 751, 727, 676, 635, 625, 522, 465, 444, 440, 304, 148, 146, 15.2, 15.05, 10.36, 10, 7.83, 6.3, 2.5
 
 Lymph_mover - 100000
-
-Lyssinum (use Rabies)
 
 Macular_degeneration_and_visual_acuity (use with Cataracts freqs if necessary, 1830*) - 8, 1830, 1832, 1834, 1836, 1838, 1840, 1842, 1844, 1846, 1848, 1850, 1852, 1854, 1856, 1858, 1860
 
@@ -1803,8 +1650,6 @@ Malaria_3 (all freqs 5 to 15 min each) - 880, 800, 787, 728, 20
 Malaria_Falciparum_1 - 1518, 1348, 1473, 1002, 1019
 
 Malassezia_furfur (causes tinea versicolor. See also Fungus general) - 222, 225, 491, 616, 700
-
-Mamma_fibromatosis (use Breast, fibroid cysts)
 
 Mange_follicular - 253, 693
 
@@ -1876,23 +1721,15 @@ Moles - 20, 120, 177, 600, 625, 626, 650, 659, 660, 728, 784, 880, 464
 
 Moles_1 (use 761.7 for 15 min, others for 10 min) - 761.7, 650, 625, 600, 76.2
 
-Mononucleosis (use Epstein Barr virus)
-
 Monotospora_languinosa (homeopathic remedy for fungal allergen) - 788
 
 Morbillinum - 467, 520, 1489
-
-Morbus_Parkinson (use Parkinson's disease)
 
 Morgan (bact) - 778, 784, 787, 788, 988, 726
 
 Morgellons_disease_TR - 5858.25, 5856.375, 4271.25, 4264, 330, 10000, 7344, 5000, 1550, 1234, 740, 880, 835, 787, 727, 160, 500, 1600, 5611, 4014, 3448, 3347, 3176, 2929, 2867, 2855, 2791, 2720, 2489, 2180, 1862, 1488, 880, 800, 787, 728, 665, 464, 432, 304, 120, 30, 20, 8, 920, 2016, 625
 
 Motion_sickness (also see nausea) - 10000, 5000, 648, 624, 600, 465, 440, 648, 444, 1865, 522, 190, 146, 125, 95, 72, 20
-
-Mouth_eruptions_herpes (use Herpes and Herpes Simplex I)
-
-Mouth_eruptions_white_patches (use leukoplakia)
 
 Mucocutan_perniciosis - 833, 667, 756
 
@@ -1904,11 +1741,7 @@ Mucor_racemosis (grows on decaying vegetation and bread and can cause ear infect
 
 Mucor_racemosis_secondary - 473, 686, 871, 873, 876, 878, 887, 7768, 7976, 8788, 713, 729, 731, 751, 760, 778, 1200
 
-Mucormycosis (use Zygomycosis)
-
 Mucous_membrane_inflammation_general - 380
-
-Mucoviscidosis (use Cystic fibrosis)
 
 Multiple_sclerosis_1 (use 5000 for 30min) - 5000, 4992, 23570.5, 3767, 3056.9, 2720, 2466.9, 2252.8, 2213, 2189, 2088.59, 1883, 1875, 1550, 1331, 880, 854, 840, 802, 787, 784, 728, 690, 660, 624, 620, 524, 470, 464, 430, 421, 317, 304.6, 275, 253, 241.68, 235, 224, 218, 166, 143, 80.9, 20
 
@@ -1998,17 +1831,11 @@ Nanobacteria_3 - 13543.18, 13543.89, 13544.26, 13544.49, 13546.48, 13546.88, 135
 
 Nanobacteria_sanguineum_TR - 7635.45, 6653.86, 6346.71, 5631.24, 5543.65, 2962.14, 2642.24, 1876.13, 1413.46, 1344.43, 1902, 317
 
-Nasal_infection (use Sinusitis and/or Rhinitis)
-
 Nasal_polyp (benign growth inside the nasal passage) - 542, 1436
 
 Nasturtium (a healing herb) - 143
 
 Nausea_and_cramping (also see Parasites, enterobiasis, roundworms, and Parasites, general for chronic conditions) - 72, 95, 190, 880, 832, 787, 727, 20, 4.9
-
-Nematodes (Use Parasites, nematodes)
-
-Neoplasms (Use cancer)
 
 Nephritis (kidney inflammatory disease. Also treat for stones and crystals supplementally, or nephrosis non inflammatory kidney disease) - 1550, 274, 423, 636, 688, 880, 787, 727, 10, 20, 10000, 40, 73, 465, 3000
 
@@ -2035,8 +1862,6 @@ Nocardia_asteroides (the microorganism causing Nocardiosis, an infectious pulmon
 Nocardia_asteroides_HC (found in Parkinson’s disease) - 17679.39, 880.20
 
 Nogier_frequencies - 1.14, 2.28, 4.56, 9.125, 18.25, 36.5, 73, 146, 292, 584, 1168, 2336, 4672
-
-Nose_infection_congestion (use Sinusitis and Rhinitis)
 
 Numbness (also see Circulatory stasis) - 10000, 2720, 2489, 2170, 1800, 1600, 1550, 802, 880, 787, 727, 650, 625, 600, 440, 660
 
@@ -2250,8 +2075,6 @@ Parasites_paragonimus_Westermanil_HC - 22503.75, 1120.40, 22254.82, 1108.00
 
 Parasites_passalurus_ambiguus_HC - 21956.10, 1093.13, 21756.95, 1083.21
 
-Parasites_pinworm (use Parasites, enterobiasis)
-
 Parasites_roundworms_comp - 7159, 5897, 4412, 4152, 3212, 2720, 2322, 1372, 1113, 1077, 1054, 942, 835, 827, 826, 822, 799, 776, 773, 772, 753, 752, 749, 746, 738, 732, 728, 722, 721, 698, 688, 650, 543, 541, 535, 422, 380, 332, 240, 200, 152, 128, 120, 112, 104, 101, 20
 
 Parasites_roundworms_general - 7159, 5897, 4412, 4152, 3212, 2720, 942, 835, 827, 772, 732, 721, 688, 650, 543, 422, 332, 240, 152, 128, 120, 112, 104, 20
@@ -2276,15 +2099,11 @@ Parasites_strongyloides_HC (filariform larva) - 19914.83, 991.50
 
 Parasites_strongyloides_secondary - 380, 698, 752, 776, 722, 738, 746, 1113
 
-Parasites_taenia (use Parasites, tapeworms)
-
 Parasites_tapeworms (if any of these frequencies are felt strongly, also use a good herbal antiparasitic regimen plus CoQ10 in large amounts, 187*, 5522*) - 164, 187, 453, 523, 542, 623, 843, 854, 1223, 803, 1360, 3032, 5522
 
 Parasites_tapeworms_echinococcinum (tapeworms found in dogs, wolves, cats, & rodents that can infect man, 5522*) - 164, 453, 542, 623, 5522
 
 Parasites_tapeworms_secondary - 142, 187, 624, 662
-
-Parasites_threadworms (use Parasites, strongyloides)
 
 Parasites_trichinella_spiralis_HC (found in muscle) - 20138.87, 1002.66
 
@@ -2319,8 +2138,6 @@ Parkinson_tremor_temporary_relief (use 6000 for 10 min) - 6000, 470, 130, 169
 Parkinsons_disease (a slowly progressive, degenerative, neurologic disorder, also use Mycoplasma fermentans, try Chlamydia pneumoniae, and see Nocardia asteroides freqs. Use 33 for 30 min, 33*) - 470, 693, 813, 1.1, 5000, 6000, 1131, 33
 
 Parkinsons_v - 4334, 1422, 871, 840, 827, 813, 744, 742, 733, 658, 611, 577, 569, 531, 524, 442, 314, 310, 172, 134
-
-Parrot_Fever (use Ornithosis)
 
 Parvovirus_canine - 637, 185, 323, 562, 613, 622, 1000, 4027
 
@@ -2378,17 +2195,11 @@ Pineal_gland_stimulation - 20
 
 Pingueculum (conjunctival tumors. Pingu_eculum is the medical term for a common white or yellow raised area on the conjunctiva; mostly a hint to a neurolymphatic condition.)
 
-Plague (use Bubonic plague)
-
 Planetary_orbits (brainwave freqs, from mercury to pluto) - 141.27, 221.23, 272.2, 144.72, 183.58, 295.7, 414.7, 422.8, 280.5
 
 Plantaris - 2008
 
-Plasmacytoma (use Cancer_plasmacytoma)
-
 Pleurisy (Inflammation of the lung membrane and abdominal lining) - 1550, 802, 880, 787, 776, 727, 125, 95, 72, 20, 444, 1865, 450
-
-Pneumococcus (use Streptococcus pneumoniae)
 
 Pneumocystis_carnii (fungus which causes pneumonia usually developing in the immune suppressed or in infants) - 204, 340, 742
 
@@ -2403,8 +2214,6 @@ Pneumonia_general (see also Pneumonia klebsiella, Pneumonia mycoplasma, Pneumoni
 Pneumonia_general_v - 6007, 5423, 5421, 5420, 5419, 2688, 2581, 2356, 967, 877, 838, 765, 748, 746, 568, 542, 532, 522, 520, 440
 
 Pneumonia_mycoplasma (a contagious pneumonia of children and young adults. See also Mycoplasma General) - 688, 975, 777, 2688, 660, 709.2, 2838.5
-
-Pneumonia_walking (use Pneumonia mycoplasma)
 
 Pneumoniae_klebsiella (causes an acute, bacterial pneumonia) - 840, 818, 783, 779, 776, 766, 765, 746, 413, 412
 
@@ -2428,8 +2237,6 @@ Porphyria (several rare disorders of the nervous system and skin) - 698, 780
 
 Postsurgery_detoxification (also use saunas and electrolyte replacement) - 522, 146
 
-Proctitis (use Chlamydia trachomatis)
-
 Propionibacterium_acnes (may be secondary cause of some prostate cancers. Sweep from 5996.1 to 6078.1 by 0.03125 dwell 1 pulse 64 75 plus 6046.9 for 6 min) - 6046.9
 
 Propionibacterium_acnes_HC - 19267.60, 959.28
@@ -2437,8 +2244,6 @@ Propionibacterium_acnes_HC - 19267.60, 959.28
 Prostate_adenominum - 442, 688, 1875, 748, 766
 
 Prostate_enlarged (see Prostatitis and other prostate sets and Strep general) - 2250, 2128, 2050, 920, 690, 666
-
-Prostate_hyperplasia (use Prostate_enlarged)
 
 Prostate_problems_general (see also Strep sets and practice metals avoidance) - 2720, 2128, 2008, 880, 802, 787, 728, 727, 690, 666, 465, 408, 125, 95, 72, 20, 9
 
@@ -2452,8 +2257,6 @@ Proteus_mirabilis_HC - 16131.01, 803.12
 
 Proteus_vulgaris_HC (urinary tract pathogen) - 20562.06, 16728.45, 16330.16, 1023.72, 832.86, 813.03
 
-Pruritis (use Itching)
-
 Pseudomonas_aeruginosa (bacteria causing blue pus infections found in wounds, burns, and the urinary tract, et al) - 174, 482, 785, 1132, 5311, 3965, 405, 633, 191, 178, 731, 6646, 178, 739.8, 2959.4
 
 Pseudomonas_ aeruginosa_HC (causes infection in open wounds) - 16579.09, 825.42
@@ -2463,8 +2266,6 @@ Pseudomonas_gen - 6646, 5311, 3965, 2959.4, 1273, 1132, 986, 875, 857, 785, 774,
 Pseudomonas_mallei (also called glanders bacillus. Causes glanders, a blue pus infection of the respiratory system and mouth, and transmitted occasionally to man by equine.) - 986, 737, 687, 857, 875, 1273, 501, 743, 774
 
 Pseudomonas_pyocyanea - 437
-
-Psittacosis (use Ornithosis)
 
 Psoriasis (also use Hypothyroid set and see General Parasite, ascaris, and other roundworm freqs) - 2720, 2489, 2180, 2170, 2128, 2008, 1552, 880, 800, 786, 728, 664, 304, 152, 112, 104, 100, 96, 64, 60
 
@@ -2514,8 +2315,6 @@ Regeneration_and_healing_1 - 2720, 2.0, 20.5, 3.9, 4.0, 50.5, 6.3, 148, 7.0
 
 Relaxation_to_produce - 6000, 10, 7.83
 
-Renal_calculi (use Kidney stones)
-
 Renal_excretory_insufficiency_diastolic_hypertensive (also see Kidney insufficiency) - 9.2
 
 Reproductive - 335, 536, 622, 712
@@ -2533,8 +2332,6 @@ Rheuma (watery discharge from nose or eyes) - 952, 436, 595, 775
 Rheumaticus - 333, 376, 820
 
 Rheumatism (also use Arthritis_rheumatoid) - 10000, 776, 766, 262
-
-Rheumatoid_arthritis (use Arthritis_rheumatoid)
 
 Rhinitis (runny nose, also see Sinusitis) - 20, 120, 1550, 802, 1500, 880, 787, 727, 465, 522, 146
 
@@ -2556,15 +2353,7 @@ Rocky_Mountain_spotted_fever - 375, 862, 943, 788, 468, 308
 
 Rocky_Mtn_Spotted_Fever_and_Lyme_v - 7989, 1590, 239, 846, 422, 417, 1455, 39975, 40439, 884, 797, 758, 693, 673, 577, 4870, 4880, 578, 128, 579
 
-Rosacea (use Helicobacter pylori and take enzyme supplement)
-
-Roseola (use Herpes type 6)
-
 Rotifer - 4500
-
-Rubella (use Measles_rubella)
-
-Rubeola (use Measles_rubeola)
 
 Ruko_tick - 6634, 285, 308
 
@@ -2592,8 +2381,6 @@ Salmonella_typhimurium - 693, 754, 762
 
 Salmonella_typhimurium_HC (can cause food poisoning, nervousness, apathy) - 19168.02, 19217.81, 954.32, 956.80
 
-Sanguinera (use Nanobacter)
-
 Sanguis_menst - 591
 
 Sarcocystis_HC - 22503.75, 1120.40
@@ -2604,11 +2391,7 @@ SARS_1 - 9563, 6157, 5513, 3735, 1559, 33566, 255616, 1556, 2286, 5763, 8015, 16
 
 SARS_2 - 597.68, 769.62, 689.14, 937.76, 779.5, 524.47, 1048.94, 499.25, 998.5, 778.12, 1143, 720.36, 1001.86, 648, 563, 701.6, 654.4
 
-Scabies (use Parasites_scabies and Mange_follicular)
-
 Scarlet_fever - 437, 880, 787, 727, 690, 666
-
-Schistosoma (use Parasites, schistosoma)
 
 Schizophrenia_paranoid_1 (also see Tuberculosis) - 802, 1500, 1550
 
@@ -2647,8 +2430,6 @@ Shigella_dysenteriae_HC - 19421.39, 966.93
 Shigella_flexneri_HC (causes depression) - 19616.10, 976.63
 
 Shigella_sonnei_HC (invades tumors) - 15832.29, 788.24
-
-Shingles (use Herpes zoster)
 
 Silver - 15903
 
@@ -2764,8 +2545,6 @@ Stomatitis_aphthous_v - 888, 880, 848, 846, 831, 685, 742, 734, 1043, 944, 782, 
 
 Strep_and_Staph_v - 9647, 40887, 7160, 2431, 1902, 1109, 1060, 1050, 1010, 985, 958, 935, 786, 727, 718, 686, 643, 576, 563, 542, 453, 436, 423, 411, 333, 134, 128
 
-Strep_mutans (use Strep viridans)
-
 Strep_sweep_TR (sweep for strep pneumonia, group G, and pyogenes strains. Sweep from 5632.8152 to 5763 by 0.015625 and 5763 to 6053.125 by 0.03125 for dwell 0.25 and pulse 64 75)
 
 Strep_virus - 563, 611, 727
@@ -2808,8 +2587,6 @@ Streptothrix (includes Actinomycosis, Nocardia, and Actinomyces israeli) - 10000
 
 Stroke_follow_up (ensure adequate water, minerals especially magnesium, and omega 3 intake and consider using enzymes like bromelain to inhibit clotting) - 2112, 3, 203, 1800, 880, 787, 727, 650, 625, 600, 125, 95, 72, 1865, 522, 428, 10000, 20, 2720
 
-Strongyloides (use Parasites, strongyloides)
-
 Struma (family of organisms that can infect the thyroid causing goiter. Use kelp internally. Use Struma cystica, nodosa, and parenchyme freqs.)
 
 Struma_cystica - 5311, 531, 756, 361
@@ -2834,21 +2611,15 @@ Surgery_preop_postop_prevent_infections (see also General antiseptic, Staph, and
 
 Surgical_pain_post_op - 3000, 2720, 95
 
-SV40 (use Simian_virus_40)
-
 Swelling (edema. See also Kidney insufficiency and Lymph stasis freqs) - 522, 146, 6.3, 148, 444, 440, 880, 787, 727, 20, 10000, 5000, 3000
 
 Swimmers_ear (also see Pseudomonas aeruginosa and Otitis externa. To help prevent, always disinfect and dry ears after using public pools with 40% alcohol solution such as vodka or white rum) - 728, 784, 880, 464, 174, 482, 5311
-
-Swollen_glands (use Lymph and see Mumps freq sets as appropriate)
 
 Syphilis - 6600, 789, 900, 2776, 177, 650, 625, 600, 660, 658
 
 T-lymph_virus_TR - 8225, 6353, 6230, 3806, 2664, 2432, 1675, 1230, 1220, 965, 844, 837, 776, 732, 725, 714, 646, 633, 392, 314, 245, 243, 111
 
 Tachycardia (rapid heart beat. For lab animals only. See also Heart tonic, Relaxation sets.) - 1.2
-
-Taenia (use Parasites tapeworm)
 
 Tainio_sweep (sweep from 42 to 72 Hz in small intervals, at most 1Hz, to possibly stimulate the immune system)
 
@@ -2876,12 +2647,6 @@ Thrush (use Candida and see Stomatitis freqs) - 414, 465
 
 Thymus_stimulation - 20
 
-Tinea_cruris (use Epidermophyton floccinum)
-
-Tinea_pedis (use Trichophyon mentagrophyte)
-
-Tinea_versicolor (use Malassezia furfur)
-
 Tinnitus (see also Circulatory stasis, Dental, Dental foci, General antiseptic, and Otitis freqs) - 20, 2720, 728, 784, 880
 
 Tobacco_mosaic - 233, 274, 543, 782, 1052
@@ -2904,19 +2669,13 @@ Toxoplasma_HC (human strain) - 19665.89, 979.11
 
 Toxoplasmosis (a serious, infectious disease that can be either acquired or present at birth and that is commonly contracted by handling contaminated cat litter) - 434, 852
 
-Trachoma (use Chlamydia trachomatis)
-
 Transformation_series (includes 18 ZOBET, 6 of which are the Sacred Solfeggio, 9 Activation, One KI, and the Sacred Spiral) - 9999, 147, 174, 417, 471, 714, 741, 258, 285, 528, 582, 825, 852, 369, 396, 639, 693, 936, 963, 2664, 3330, 3996, 774, 855, 1584, 1746, 2475, 2556, 9990, 144, 234, 378, 612, 991, 1604
 
 Trauma - 96, 192, 300, 760, 3000
 
-Trench_mouth (use Gingivitis)
-
 Treponema_pallidum (use also Syphilis) - 660, 902
 
 Treponema_pallidum_HC (causes syphilis) - 17276.11, 860.13
-
-Trichinosis (use Parasites_trichinosis)
 
 Trichodermia - 711
 
@@ -2996,19 +2755,11 @@ Vaccinium (a homeopathic nosode) - 476
 
 Vaginosis (non-specific infection. Also see Gardinerella, Candida, and Trichomonas) - 414, 542, 642, 652, 800, 832, 845, 866, 942, 728, 784, 880, 464
 
-Varicella (use herpes zoster)
-
 Varicoses - 1.2, 28
-
-Variola (use Smallpox)
 
 Vegetative_dystonia (involuntary muscle dysfunction) - 40
 
 Veillonella_dispar_HC - 20064.19, 998.94
-
-Vein_thrombosis (use Thrombophlebitis)
-
-Verruca (use Wart_verruca)
 
 Vertigo (also use Otitis, Meniere’s, and see General antiseptic freqs) - 60, 5.8, 4
 
@@ -3049,10 +2800,6 @@ Wheat_smut - 10163, 156, 375
 Wheat_stem_rust_1 - 643
 
 Whiplash - 20, 2720, 10000
-
-White_Blood_Cell_stimulation (use Immune system stimulation)
-
-Whooping_cough (use Pertussis)
 
 Wolhynia_fever (a Rickettsia illness, transmitted by lice, that is debilitating and conducive to relapse. Also see Rickettsia) - 547
 
