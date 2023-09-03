@@ -2325,7 +2325,7 @@
 	},
 	{
 		"data_name": "350 hz - Pure Tone",
-		"data_description": "Pure Tone for mental relief from Crohns and other bowel problems v, Eye disorders, Eyesight sharpen, Geotrichum candidum, Influenza Bach Poly, Influenza virus 1991 1992 secondary, Nigrospora spp, Vision poor, Visual acuity",
+		"data_description": "Pure Tone for mental relief from Crohns and other bowel problems v, Eye disorders, Eyesight blurring, Geotrichum candidum, Influenza Bach Poly, Influenza virus 1991 1992 secondary, Nigrospora spp, poor vision, Visual acuity. Pure tone for rose quartz. It is believed that it will elevate and harmonize heart energy center",
 		"data_start": "play_pure_tone(350);",
 		"data_stop": "stop_pure_tone();",
 		"data_id": "VywaGAfG"
