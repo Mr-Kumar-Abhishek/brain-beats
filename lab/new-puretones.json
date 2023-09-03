@@ -3136,6 +3136,13 @@
 		"data_id": "Qw5JGUfO"
 	},
 	{
+		"data_name":"466.16 hz - Pure Tone",
+		"data_description":"Pure tone for Aquarius. Aquarius can use this for relaxation, meditation or study. Musical Note is A#",
+		"data_start":"play_pure_tone(466.16);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"hfl8pfc4wc"
+	},
+	{
 		"data_name": "467 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Measles, Measles rubeola, Measles w vaccine, Morbillinum",
 		"data_start": "play_pure_tone(467);",
