@@ -9885,7 +9885,7 @@
 	},
 	{
 		"data_name": "2048 hz - Pure Tone",
-		"data_description": "Pure Tone for mental relief from Cancer, Cancer breast secondary, Cancer general 2, Cancer rhabdomyosarcoma 1, Cancer rhabdomyosarcoma embryonal",
+		"data_description": "Pure Tone for mental relief from Cancer, Cancer breast secondary, Cancer general 2, Cancer rhabdomyosarcoma 1, Cancer rhabdomyosarcoma embryonal. Pure Tone for Solar chakra. It is also called the stellar gateway. Its the masculine energy which governs the ability to live your dreams. This chakra helps you focus your will and removes blockages and gives your existance a purpose. It plays an important role in shaping our destiny and devine creativity.",
 		"data_start": "play_pure_tone(2048);",
 		"data_stop": "stop_pure_tone();",
 		"data_id": "ADXUeduF"
