@@ -71,7 +71,7 @@
 },
 {
    "data_name": "24 hz - Pure Tone",
-   "data_description": "Pure Tone for mental relief from Detox 1, Macular degeneration 1, Vitamag complete set",
+   "data_description": "Pure Tone for Detox 1, mental relief from Macular degeneration 1, Vitamag complete set",
    "data_start": "play_pure_tone(24);",
    "data_stop": "stop_pure_tone();",
    "data_id": "nYzXRtsf"
