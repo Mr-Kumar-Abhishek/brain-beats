@@ -2765,6 +2765,13 @@
 		"data_id": "ZQ0WGZ1x"
 	},
 	{
+		"data_name":"420.82 hz - Pure Tone",
+		"data_description":"Pure tone for meditation on moon chakra or lunar chakra or bindu chakra. This chakra is associated with love, sensitivity, creativity, feminity and anima. This preset is aimed of getting physical enhancements from this chakra which brings good health, vitality, and youth.  It is the center of karmic understanding, and channeling it governs intelligence. It funnels informations about incarnations and spirit guides.",
+		"data_start":"play_pure_tone(420.82);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"g6qyqgjzs"
+	},
+	{
 		"data_name": "421 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Cancer tertiary, Coxsackie B4, Influenza overnight TR, Influenza triple nosode, Multiple sclerosis 1",
 		"data_start": "play_pure_tone(421);",
