@@ -3105,5 +3105,3 @@ Yersenia_pestis_1 - 337.6
 Zearalenone_HC - 4978.71, 247.88
 
 Zygomycosis (also called mucormycosis; a serious fungal infection usually associated with uncontrolled diabetes mellitus or immunosuppressive drugs) - 942, 623, 73
-
-
