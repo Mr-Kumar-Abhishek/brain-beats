@@ -2142,6 +2142,13 @@
 		"data_id": "bH2zvRvI"
 	},
 	{
+		"data_name":"329.63 hz - Pure Tone",
+		"data_description":"Pure tone for Leo. Leo can use this for relaxation, meditation or study. Musical Note is E",
+		"data_start":"play_pure_tone(329.63);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"7ynz22jubk"
+	},
+	{
 		"data_name": "329.67 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Sterigmatocystin HC",
 		"data_start": "play_pure_tone(329.67);",
