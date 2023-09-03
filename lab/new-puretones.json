@@ -1869,6 +1869,13 @@
 		"data_id": "Uysg8AE9"
 	},
 	{
+		"data_name":"293.66 hz - Pure Tone",
+		"data_description":"Pure tone for gemini. Gemini could use this for relaxation, music and study. Musical Note is D.",
+		"data_start":"play_pure_tone(293.66);",
+		"data_stop":"stop_pure_tone();",
+		"data_id":"5fcifmq4xp"
+	 },
+	{
 		"data_name": "294 hz - Pure Tone",
 		"data_description": "Pure Tone for mental relief from Sorghum smut",
 		"data_start": "play_pure_tone(294);",
