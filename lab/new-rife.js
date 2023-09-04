@@ -676,7 +676,7 @@ function convertLineToJson(line) {
     // Remove any underscores from the bracket text and the name
     const bracketTextNoUnderscore = bracketText.replace(/_/g, ' ');
     const nameNoUnderscore = name.replace(/_/g, ' ');
-    const dataDescription = `This is Rife 3D frequencies preset for ${nameNoUnderscore}. ${bracketTextNoUnderscore} The frequencies in this preset are: ${freqs.replace(/, /g, ' hz, ')} hz`;
+    const dataDescription = `This is Rife 3D frequencies preset for ${nameNoUnderscore}. The frequencies in this preset are: ${freqs.replace(/, /g, ' hz, ')} hz`; // no bracket text
     // Split the frequencies by comma and filter out any numbers below 20 or above 22000
     const freqArray = freqs.split(', ').filter(f => f >= 20 && f <= 22000);
     // Check if the frequency array contains only one element
