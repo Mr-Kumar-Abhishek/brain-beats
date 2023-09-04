@@ -1,7 +1,7 @@
 [   
   {
     "data_name": "Most common 1 Rife Monaural frequencies",
-    "data_description": "This is Rife Monaural frequencies preset for most common 1.  The frequencies in this preset are: 880 hz, 787 hz, 727 hz, 20 hz, 10000 hz, 802 hz, 1550 hz, 7500 hz, 690 hz, 660 hz",
+    "data_description": "This is Rife Monaural frequencies preset for most common use 1.  The frequencies in this preset are: 880 hz, 787 hz, 727 hz, 20 hz, 10000 hz, 802 hz, 1550 hz, 7500 hz, 690 hz, 660 hz",
     "data_start": "play_rife_monaural([880, 787, 727, 20, 10000, 802, 1550, 7500, 690, 660]);",
     "data_stop": "stop_rife_monaural();",
     "data_id": "vq6qg3060h"
