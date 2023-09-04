@@ -66,6 +66,12 @@
       "data_id":"b2jt4pt715"
    },
    {
+      "section_name":" Consolidated Annotated Frequency List cross reference (Pure tones)",
+      "section_description":"These are pure tones which are rife frequences. The presets are arranged according to frequency.",
+      "section_link":"pure-tones-cafl-xref.html",
+      "data_id":"uiygnlg3ni"
+   },
+   {
       "section_name":"Favorite Presets",
       "section_description":"Here is the collection of all the presets (playable video cards or sound cards) which you have liked in brain beats. Keep in mind that if you haven't like any sounds this section will be empty.",
       "section_link":"favorites.html",
