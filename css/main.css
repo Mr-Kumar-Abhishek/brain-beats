@@ -22,6 +22,10 @@
   font-size: 1.25rem;
 }
 
+.privacy-title {
+  font-size: calc(1.375rem + 1.5vw);
+  }
+
 .ad-banner {
   margin-top: 20px;
 }
