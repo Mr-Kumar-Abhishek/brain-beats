@@ -74,7 +74,7 @@ function removeRepeatingBracketText(str) {
 }
 
 // Read the json file
-fs.readFile('rife3Dfreq.json', 'utf8', (err, data) => {
+fs.readFile('rife-monaural-freq.json', 'utf8', (err, data) => {
   // If there is an error, log it and exit
   if (err) {
     console.error(err);
