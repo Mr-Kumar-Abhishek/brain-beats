@@ -286,5 +286,5 @@ function generateId(length) {
   // Parse the text file and create a JSON array of objects
   var jsonArray = parseTextFile(text);
   // Write the JSON array to a file named "puretones.json"
-  writeJsonFile(jsonArray, "new-puretones.json");
+  writeJsonFile(jsonArray, "pure-tones-cafl-xref.json");
   
