@@ -33,5 +33,12 @@
      "data_start":"play_black_noise();",
      "data_stop":"stop_black_noise();",
      "data_id":"4wh0sqas1b"
-  }
+  },
+  {
+   "data_name":"Green Noise",
+   "data_description":"Green Noise simulates the spectra of natural settings without human-made noise. It is the mid-midfrequency component of white noise",
+   "data_start":"play_green_noise();",
+   "data_stop":"stop_green_noise();",
+   "data_id":"5wh0aqah1b"
+   }
  ]
