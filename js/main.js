@@ -50,11 +50,14 @@ var redNoiseNode;
 var redNoiseNodeGain;
 var blackNoiseNode;
 var blackNoiseNodeGain;
+var greenNoiseNode;
+var greenNoiseNodeGain;
 var boolWhite = 0;
 var boolPink = 0;
 var boolBrown = 0;
 var boolRed = 0;
 var boolBlack = 0;
+var boolGreen = 0;
 var boolRifeMonaural = 0;
 var boolRife3D = 0;
 var boolRife3Dauto = 0;
@@ -390,6 +393,30 @@ async function play_black_noise() {
   }
 }
 
+
+
+async function play_green_noise() {
+  if (boolGreen == 0) {
+    stop_all();
+    boolGreen = 1;
+    var audioContext = new AudioContext();
+    await audioContext.audioWorklet.addModule('noise-processor/green-noise-processor.js');
+    greenNoiseNode = new AudioWorkletNode(audioContext, 'green-noise-processor');
+    greenNoiseNodeGain = audioContext.createGain();
+    greenNoiseNodeGain.gain.value = volume_set();
+
+    // Add a lowpass filter
+    const filter = audioContext.createBiquadFilter();
+    filter.type = "lowpass";
+    filter.frequency.value = 1000;
+
+    // Connect the nodes
+    greenNoiseNode.connect(filter);
+    filter.connect(greenNoiseNodeGain);
+    greenNoiseNodeGain.connect(audioContext.destination);
+  }
+}
+
 function play_rife_monaural_generator(){
   // Create an empty array to store the frequency values
   tone_freq_array = [];
@@ -684,6 +711,13 @@ function stop_black_noise() {
   }
 }
 
+function stop_green_noise() {
+  if(boolGreen == 1) {
+      boolGreen = 0;
+      greenNoiseNodeGain.disconnect();
+  }
+}
+
 function stop_isochronic() {
   if (isochronic_flag == 1) {
     isochronic_flag = 0;
@@ -830,7 +864,11 @@ function live_volume_set(){
     if (blackNoiseNodeGain.gain.value != undefined) {
       blackNoiseNodeGain.gain.value = volume_set();
     }
-  } 
+  }else if (boolGreen == 1) {
+    if (greenNoiseNodeGain.gain.value != undefined) {
+      greenNoiseNodeGain.gain.value = volume_set();
+    }
+  }  
 }
     
 $("#volume").change(function(){
@@ -845,6 +883,7 @@ function stop_all() {
   if (boolBrown == 1 ) { stop_brown_noise(); }
   if (boolRed == 1 ) {stop_red_noise(); }
   if (boolBlack == 1 ) {stop_black_noise(); }
+  if (boolGreen == 1 ) {stop_green_noise(); }
   if (solfeggio_flag == 1 ) { stop_solfeggio(); }
   if (pure_tone_flag == 1 ) { stop_pure_tone(); }
   if (binaural_flag == 1 ) { stop_binaural(); }
