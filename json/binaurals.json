@@ -820,14 +820,14 @@
    },
    {
       "data_name":"40 hz Binaural Beats over 963 hz solfeggio",
-      "data_description":"Sounds at this frequency is used for Alzheimer's therapy [Phase 2] studies to stimulate an increased neural response and fight symptoms of dementia. This binaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. ",
+      "data_description":"Sounds at this frequency is used for Alzheimer's therapy [Phase 2] studies to stimulate an increased neural response and fight symptoms of dementia. This binaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. Note: This preset will not likely to work as presets with carrier frequencies above than 1000 hz don't work on human brain.",
       "data_start":"play_binaural(963, 1003);",
       "data_stop":"stop_binaural();",
       "data_id":"sy59tzm36"
    },
    {
       "data_name":"40 hz Binaural Beats between pure tone 984 hz and pure tone 1024 hz",
-      "data_description":"Sounds at this frequency is used for Alzheimer's therapy [Phase 3] studies to stimulate an increased neural response and fight symptoms of dementia. This binaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. This special preset is also linked to cerebral cortex which increases intelligence over time. Also this balances all the 7 major spiritual chakras",
+      "data_description":"Sounds at this frequency is used for Alzheimer's therapy [Phase 3] studies to stimulate an increased neural response and fight symptoms of dementia. This binaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. This special preset is also linked to cerebral cortex which increases intelligence over time. Also this balances all the 7 major spiritual chakras. Note: This preset will not likely to work as presets with carrier frequencies above than 1000 hz don't work on human brain.",
       "data_start":"play_binaural(984, 1024);",
       "data_stop":"stop_binaural();",
       "data_id":"7mc22gixo"
