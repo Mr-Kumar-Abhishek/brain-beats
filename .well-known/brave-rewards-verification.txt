@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: brain-beats.in
+Token: 2617ba90346fe9e963b81460e321c7645bb0f2e2d2be565ca90b9522343a454e
