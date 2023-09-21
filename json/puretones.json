@@ -224,6 +224,13 @@
       "data_id":"rodw6cg6p"
    },
    {
+      "data_name":"432 hz - Pure Tone",
+      "data_description":"Pure tone for heart chakra and capricorn. This frequency is associated with a movement to shift away from the standard tuning of 440 hz of note A to 432 hz of note A. Music played on 432 hz tuning is more pleasant, cheerful and easier on ears. It also is good for meditation for relaxed states as it resonates with heart chakra. This frequency was used by ancient greeks, ancient egyptians and some classical music such as of mozart and Giuseppe Verdi. Capricorn can use this for meditation, relaxation and balancing.",
+      "data_start":"play_pure_tone(432);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"rodw6cg6r"
+   },
+   {
       "data_name":"439 hz - Pure Tone",
       "data_description":"Pure tone for meditation on crown Chakra (sahasrar) [Flavour 1]. Aura color is violet. Tone is 'Eee'. Musical note is 'B'. (Old musical diantonic scale.) This crown chakra is meant for physical enhancements such as it gives strength against light sensitivity, headaches, dementia, auto-immune discorders, neurological disorders. Gives a boost to entire mental, physical and spiritual health for the brain. Gives control over depression, confusion, loss of faith, mental disconnection, dementia, epilepsy, schizophrenia.",
       "data_start":"play_pure_tone(439);",
