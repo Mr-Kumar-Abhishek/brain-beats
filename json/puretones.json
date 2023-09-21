@@ -158,7 +158,7 @@
       "data_description":"Pure tone for zodiac sign Libra. Libra can use it for meditation, relaxation and balancing.",
       "data_start":"play_pure_tone(361);",
       "data_stop":"stop_pure_tone();",
-      "data_id":"bmvemieo5d"
+      "data_id":"bmvemieo5e"
    },
    {
       "data_name":"369.99 hz - Pure Tone",
@@ -166,6 +166,13 @@
       "data_start":"play_pure_tone(369.99);",
       "data_stop":"stop_pure_tone();",
       "data_id":"iae4mljd7d"
+   },
+   {
+      "data_name":"377 hz - Pure Tone",
+      "data_description":"Pure tone for zodiac sign scorpio. Scorpio can use this for meditation, relaxation and balancing.",
+      "data_start":"play_pure_tone(377);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"iae4mljd7e"
    },
    {
       "data_name":"384 hz - Pure Tone",
