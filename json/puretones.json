@@ -189,6 +189,13 @@
       "data_id":"lrl9yherft"
    },
    {
+      "data_name":"406 hz - Pure Tone",
+      "data_description":"Pure tone for Sagittarius. Sagittarius can use this for meditation, relaxation or balancing.",
+      "data_start":"play_pure_tone(406);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"lrl9yherfu"
+   },
+   {
       "data_name":"415.3 hz - Pure Tone",
       "data_description":"Pure tone for Sagitarius. Sagitarius can use this for meditation, relaxation or study. Musical note is G#",
       "data_start":"play_pure_tone(415.3);",
