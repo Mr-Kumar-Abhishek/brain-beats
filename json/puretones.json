@@ -259,6 +259,13 @@
       "data_id":"hfl8pfc4wc"
    },
    {
+      "data_name":"470 hz - Pure Tone",
+      "data_description":"Pure tone for Pisces. Aquarius can use this for relaxation, meditation or balancing.",
+      "data_start":"play_pure_tone(470);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"hfl8pfc4wc"
+   },
+   {
       "data_name":"480 hz - Pure Tone",
       "data_description":"Pure tone for meditation on crown Chakra (sahasrar) [Flavour 2]. Musical note is 'B'. This frequency is associated with Phosphorous & Zinc mineral nutrients. This crown chakra is meant for physical enhancements such as it gives strength against light sensitivity, headaches, dementia, auto-immune discorders, neurological disorders. Gives a boost to entire mental, physical and spiritual health for the brain. Gives control over depression, confusion, loss of faith, mental disconnection, dementia, epilepsy, schizophrenia.",
       "data_start":"play_pure_tone(480);",
