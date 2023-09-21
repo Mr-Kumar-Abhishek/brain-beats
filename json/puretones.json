@@ -36,14 +36,14 @@
    },
    {
       "data_name":"256 hz - Pure Tone",
-      "data_description":"Pure Tone for root chakra (muladhara) for meditation. Physical enhancement by muladahara, gives strength for lower back pain, scaitica, varicose viens, constipation, diarrhea, rectal or anal problems, problems with groin, hips, legs, knees, calves, ankles and feet. It is related to survival, security and being closest to earth. Associated with colour red and the element earth. It rests at the base of the spine. It tries to remove loneliness, insecurities, feeling ungrounded, unconfidence, abandonment, indecisiveness, depressed states, anxious states, addictions, phobias and obsessions. It is also frequency for zodiac sign Aries to meditate for balance and relaxation.",
+      "data_description":"Pure Tone for root chakra (muladhara) for meditation. Physical enhancement by muladahara, gives strength for lower back pain, scaitica, varicose viens, constipation, diarrhea, rectal or anal problems, problems with groin, hips, legs, knees, calves, ankles and feet. It is related to survival, security and being closest to earth. Associated with colour red and the element earth. It rests at the base of the spine. It tries to remove loneliness, insecurities, feeling ungrounded, unconfidence, abandonment, indecisiveness, depressed states, anxious states, addictions, phobias and obsessions. It is also frequency for zodiac sign Aries (V2) to meditate for balance and relaxation.",
       "data_start":"play_pure_tone(256);",
       "data_stop":"stop_pure_tone();",
       "data_id":"h0oeh39d7"
    },
    {
       "data_name":"259 hz - Pure Tone",
-      "data_description":"Pure Tone for zodiac sign Taurus to meditate, relax and balance oneself.",
+      "data_description":"Pure Tone for zodiac sign Taurus (V2) to meditate, relax and balance oneself.",
       "data_start":"play_pure_tone(259);",
       "data_stop":"stop_pure_tone();",
       "data_id":"h0oeh39d8"
@@ -64,7 +64,7 @@
    },
    {
       "data_name":"282 hz - Pure Tone",
-      "data_description":"Pure Tone for zodiac sign Gemini. Gemini could use it for meditation, balance and relaxation.",
+      "data_description":"Pure Tone for zodiac sign Gemini (V2) . Gemini could use it for meditation, balance and relaxation.",
       "data_start":"play_pure_tone(282);",
       "data_stop":"stop_pure_tone();",
       "data_id":"eis8iawng"
@@ -92,7 +92,7 @@
    },
    {
       "data_name":"298 hz - Pure Tone",
-      "data_description":"Pure tone for zodiac sign Cancer. Cancer can use it for meditation, relaxation and balancing.",
+      "data_description":"Pure tone for zodiac sign Cancer (V2). Cancer can use it for meditation, relaxation and balancing.",
       "data_start":"play_pure_tone(298);",
       "data_stop":"stop_pure_tone();",
       "data_id":"14ttwbjkm"
@@ -106,7 +106,7 @@
    },
    {
       "data_name":"314 hz - Pure Tone",
-      "data_description":"Pure tone for zodiac sign Leo. Leo can use this for relaxation, meditation or balancing.",
+      "data_description":"Pure tone for zodiac sign Leo (V2). Leo can use this for relaxation, meditation or balancing.",
       "data_start":"play_pure_tone(314);",
       "data_stop":"stop_pure_tone();",
       "data_id":"naknevi9bd"
@@ -120,7 +120,7 @@
    },
    {
       "data_name":"336 hz - Pure Tone",
-      "data_description":"Pure tone for Virgo. Virgo can use this for relaxation, meditation or balancing.",
+      "data_description":"Pure tone for Virgo (V2). Virgo can use this for relaxation, meditation or balancing.",
       "data_start":"play_pure_tone(336);",
       "data_stop":"stop_pure_tone();",
       "data_id":"7ynz22jubl"
@@ -155,7 +155,7 @@
    },
    {
       "data_name":"361 hz - Pure Tone",
-      "data_description":"Pure tone for zodiac sign Libra. Libra can use it for meditation, relaxation and balancing.",
+      "data_description":"Pure tone for zodiac sign Libra (V2). Libra can use it for meditation, relaxation and balancing.",
       "data_start":"play_pure_tone(361);",
       "data_stop":"stop_pure_tone();",
       "data_id":"bmvemieo5e"
@@ -169,7 +169,7 @@
    },
    {
       "data_name":"377 hz - Pure Tone",
-      "data_description":"Pure tone for zodiac sign scorpio. Scorpio can use this for meditation, relaxation and balancing.",
+      "data_description":"Pure tone for zodiac sign scorpio (V2). Scorpio can use this for meditation, relaxation and balancing.",
       "data_start":"play_pure_tone(377);",
       "data_stop":"stop_pure_tone();",
       "data_id":"iae4mljd7e"
@@ -190,7 +190,7 @@
    },
    {
       "data_name":"406 hz - Pure Tone",
-      "data_description":"Pure tone for Sagittarius. Sagittarius can use this for meditation, relaxation or balancing.",
+      "data_description":"Pure tone for Sagittarius (V2). Sagittarius can use this for meditation, relaxation or balancing.",
       "data_start":"play_pure_tone(406);",
       "data_stop":"stop_pure_tone();",
       "data_id":"lrl9yherfu"
@@ -225,7 +225,7 @@
    },
    {
       "data_name":"432 hz - Pure Tone",
-      "data_description":"Pure tone for heart chakra and capricorn. This frequency is associated with a movement to shift away from the standard tuning of 440 hz of note A to 432 hz of note A. Music played on 432 hz tuning is more pleasant, cheerful and easier on ears. It also is good for meditation for relaxed states as it resonates with heart chakra. This frequency was used by ancient greeks, ancient egyptians and some classical music such as of mozart and Giuseppe Verdi. Capricorn can use this for meditation, relaxation and balancing.",
+      "data_description":"Pure tone for heart chakra and capricorn (V2). This frequency is associated with a movement to shift away from the standard tuning of 440 hz of note A to 432 hz of note A. Music played on 432 hz tuning is more pleasant, cheerful and easier on ears. It also is good for meditation for relaxed states as it resonates with heart chakra. This frequency was used by ancient greeks, ancient egyptians and some classical music such as of mozart and Giuseppe Verdi. Capricorn can use this for meditation, relaxation and balancing.",
       "data_start":"play_pure_tone(432);",
       "data_stop":"stop_pure_tone();",
       "data_id":"rodw6cg6r"
@@ -246,7 +246,7 @@
    },
    {
       "data_name":"449 hz - Pure Tone",
-      "data_description":"Pure tone for aquarius. Aquarius can use this for study, meditation or balancing.",
+      "data_description":"Pure tone for aquarius (V2) . Aquarius can use this for study, meditation or balancing.",
       "data_start":"play_pure_tone(449);",
       "data_stop":"stop_pure_tone();",
       "data_id":"62f5e0bzmc"
@@ -260,7 +260,7 @@
    },
    {
       "data_name":"470 hz - Pure Tone",
-      "data_description":"Pure tone for Pisces. Aquarius can use this for relaxation, meditation or balancing.",
+      "data_description":"Pure tone for Pisces (V2). Pisces can use this for relaxation, meditation or balancing.",
       "data_start":"play_pure_tone(470);",
       "data_stop":"stop_pure_tone();",
       "data_id":"hfl8pfc4wc"
