@@ -91,6 +91,13 @@
       "data_id":"14ttwbjko"
    },
    {
+      "data_name":"298 hz - Pure Tone",
+      "data_description":"Pure tone for zodiac sign Cancer. Cancer can use it for meditation, relaxation and balancing.",
+      "data_start":"play_pure_tone(298);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"14ttwbjkm"
+   },
+   {
       "data_name":"311.13 hz - Pure Tone",
       "data_description":"Pure tone for cancer. Cancer can use this for relaxation, meditation or study. Musical Note is D#",
       "data_start":"play_pure_tone(311.13);",
