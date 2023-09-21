@@ -63,6 +63,13 @@
       "data_id":"0comqc0ms2"
    },
    {
+      "data_name":"282 hz - Pure Tone",
+      "data_description":"Pure Tone for zodiac sign Gemini. Gemini could use it for meditation, balance and relaxation.",
+      "data_start":"play_pure_tone(282);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"eis8iawng"
+   },
+   {
       "data_name":"288 hz - Pure Tone",
       "data_description":"Pure Tone for meditation of Svadhishthana (or sacral chakra ). This chakra will give inner strength to manage eating disorders, kidney problems, urinary tract infections, chronic lower back pain, infertility, gynocological problems, dysfunctional mestrual cycles, problems with intestine, spleen and gall bladder. This Sacral chakra preset helps clearing eating disorders, addictions, low self confidence, depedency issues, low libido and unbalanced emotions. Sacral chakra is associated with emotions, feeling, relationships, ceativity and fantasies.",
       "data_start":"play_pure_tone(288);",
