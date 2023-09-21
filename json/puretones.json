@@ -120,7 +120,7 @@
    },
    {
       "data_name":"336 hz - Pure Tone",
-      "data_description":"Pure tone for Virgo. virgo can use this for relaxation, meditation or balancing.",
+      "data_description":"Pure tone for Virgo. Virgo can use this for relaxation, meditation or balancing.",
       "data_start":"play_pure_tone(336);",
       "data_stop":"stop_pure_tone();",
       "data_id":"7ynz22jubl"
