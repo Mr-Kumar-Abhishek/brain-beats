@@ -1,7 +1,7 @@
 [
    {
       "data_name":"174 hz - Solfeggio Frequency",
-      "data_description":"Gives the body a sense of security, safety and love. It also enourages the cells to do their best. This frequency tends to reduce pain overtime",
+      "data_description":"Gives the body a sense of security, safety and love. It also encourages the cells to do their best. This frequency tends to reduce pain overtime",
       "data_start":"play_solfeggio(174);",
       "data_stop":"stop_solfeggio();",
       "data_id":"9fyx5y9gy"
