@@ -1,14 +1,14 @@
 [
    {
       "data_name":"0.1 hz Binaural Beats over Solfeggio 174 hz",
-      "data_description":"Binaural Beats for Organ and muscle resonances [Phase 1]. Good for building muscles. To be used during excercise and sleep.",
+      "data_description":"Binaural Beats for Organ and muscle resonances [Phase 1]. Good for building muscles. To be used during excercise and sleep. Stimulates Pineal gland to produce DMT. [Phase 1]",
       "data_start":"play_binaural(174, 174.1);",
       "data_stop":"stop_binaural();",
       "data_id":"luq902d0un"
    },
    {
       "data_name":"0.1 hz Binaural Beats over Solfeggio 285 hz",
-      "data_description":"Binaural Beats for Organ and muscle resonances [Phase 2]. Good for building muscles. To be used during excercise and sleep.",
+      "data_description":"Binaural Beats for Organ and muscle resonances [Phase 2]. Good for building muscles. To be used during excercise and sleep. Stimulates Pineal gland to produce DMT. [Phase 2]",
       "data_start":"play_binaural(285, 285.1);",
       "data_stop":"stop_binaural();",
       "data_id":"dcpn82qv4p"
