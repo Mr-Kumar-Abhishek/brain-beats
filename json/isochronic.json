@@ -1,5 +1,12 @@
 [
-    {
+  {
+    "data_name":"0.1 hz Isochronic Tone over Solfeggio 174 hz",
+    "data_description":"Isochronic Tone for Organ and muscle resonances [Phase 1]. Good for building muscles. To be used during excercise and sleep. Stimulates Pineal gland to produce DMT. [Phase 1]",
+    "data_start":"play_binaural(174, 174.1);",
+    "data_stop":"stop_binaural();",
+    "data_id":"mn2b80q34"
+   },
+   {
       "data_name": "0.15 hz Isochronic Tone over Solfeggio 417 hz",
       "data_description": "Isochronic Tone for relief from depression [Phase 1] due to past events. This is for mild depression[Phase 1]. Range Monaurals for it are comming soon which will be more effective.",
       "data_start": "play_isochronic(417, 417.15);",
