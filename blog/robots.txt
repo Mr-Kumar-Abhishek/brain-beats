@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://mr-kumar-abhishek.github.io/sitemap.xml
