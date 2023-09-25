@@ -798,6 +798,13 @@
       "data_id": "bjlms946c"
     },
     {
+      "data_name":"40 hz Isochronic Tone over 174 hz solfeggio",
+      "data_description":"Isochronic Tone at this frequency is used for Alzheimer's therapy [Phase 0] studies  to stimulate an increased neural response and fight symptoms of dementia. This binaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. This also reduces the effects of early onset of schizophrenia (could be used by more advanced patients too).",
+      "data_start":"play_isochronic(174, 214);",
+      "data_stop":"stop_isochronic();",
+      "data_id":"4d35ktsri"
+    },
+    {
       "data_name": "40 hz Isochronic Tone over 852 hz solfeggio",
       "data_description": "Sounds at this frequency is used for Alzheimer's therapy [Phase 1] studies  to stimulate an increased neural response and fight symptoms of dementia. This Monaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance.",
       "data_start": "play_isochronic(852, 892);",
