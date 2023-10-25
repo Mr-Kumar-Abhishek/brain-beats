@@ -1,4 +1,4 @@
-class WhiteNoiseProcessor extends AudioWorkletProcessor {
+class BlueNoiseProcessor extends AudioWorkletProcessor {
     process (inputs, outputs, parameters) {
       const output = outputs[0];
       // Generate blue noise samples
@@ -15,4 +15,4 @@ class WhiteNoiseProcessor extends AudioWorkletProcessor {
     }
   }
   
-  registerProcessor('white-noise-processor', WhiteNoiseProcessor);
+  registerProcessor('blue-noise-processor', BlueNoiseProcessor);
