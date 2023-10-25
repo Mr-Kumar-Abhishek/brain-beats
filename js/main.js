@@ -396,6 +396,19 @@ async function play_black_noise() {
   }
 }
 
+async function play_blue_noise() {
+  if (boolBlue == 0) {
+    stop_all();
+    boolBlue = 1;
+    var audioContext = new AudioContext();
+    await audioContext.audioWorklet.addModule('noise-processor/blue-noise-processor.js');
+    blueNoiseNode = new AudioWorkletNode(audioContext, 'blue-noise-processor');
+    blueNoiseNodeGain = audioContext.createGain();
+    blueNoiseNodeGain.gain.value = volume_set();
+    blueNoiseNode.connect(blueNoiseNodeGain);
+    blueNoiseNodeGain.connect(audioContext.destination);
+  }
+}
 
 
 async function play_green_noise() {
