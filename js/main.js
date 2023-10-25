@@ -52,6 +52,8 @@ var blackNoiseNode;
 var blackNoiseNodeGain;
 var greenNoiseNode;
 var greenNoiseNodeGain;
+var blueNoiseNode;
+var blueNoiseNodeGain;
 var boolWhite = 0;
 var boolPink = 0;
 var boolBrown = 0;
