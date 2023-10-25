@@ -884,6 +884,10 @@ function live_volume_set(){
     if (greenNoiseNodeGain.gain.value != undefined) {
       greenNoiseNodeGain.gain.value = volume_set();
     }
+  }else if (boolBlue == 1) {
+    if (blueNoiseNodeGain.gain.value != undefined) {
+      blueNoiseNodeGain.gain.value = volume_set();
+    }
   }  
 }
     
