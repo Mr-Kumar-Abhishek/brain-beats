@@ -734,6 +734,12 @@ function stop_green_noise() {
   }
 }
 
+function stop_blue_noise() {
+  if(boolBlue == 1) {
+      boolBlue = 0;
+      blueNoiseNodeGain.disconnect();
+  }
+}
 function stop_isochronic() {
   if (isochronic_flag == 1) {
     isochronic_flag = 0;
