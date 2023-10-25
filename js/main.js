@@ -60,6 +60,7 @@ var boolBrown = 0;
 var boolRed = 0;
 var boolBlack = 0;
 var boolGreen = 0;
+var boolBlue = 0;
 var boolRifeMonaural = 0;
 var boolRife3D = 0;
 var boolRife3Dauto = 0;
