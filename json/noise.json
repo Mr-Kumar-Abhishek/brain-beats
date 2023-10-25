@@ -40,5 +40,12 @@
    "data_start":"play_green_noise();",
    "data_stop":"stop_green_noise();",
    "data_id":"5wh0aqah1b"
+   },
+   {
+      "data_name":"Blue Noise",
+      "data_description":"Blue noise is a type of noise that has more high-frequency components than low-frequency ones. It sounds like a hiss with no bass, and it has a power spectrum that increases with frequency. Blue noise is named after the color of light that has a similar spectrum, which is on the higher end of the visible range. Blue noise is used in some audio applications to reduce distortion and improve sound quality.",
+      "data_start":"play_blue_noise();",
+      "data_stop":"stop_blue_noise();",
+      "data_id":"5wh0aqah1c"
    }
  ]
