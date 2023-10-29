@@ -994,7 +994,7 @@ function live_volume_set(){
     }
   }else if (boolVelvet == 1) {
     if (velvetNoiseNodeGain.gain.value != undefined) {
-      velvetNoiseNodeGain.gain.value != volume_set();
+      velvetNoiseNodeGain.gain.value = volume_set();
     }
   }  
 }
