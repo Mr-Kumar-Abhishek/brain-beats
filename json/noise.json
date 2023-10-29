@@ -54,5 +54,12 @@
       "data_start":"play_violet_noise();",
       "data_stop":"stop_violet_noise();",
       "data_id":"5wh0aqah1d"
+   },
+   {
+      "data_name":"Grey Noise",
+      "data_description":"Grey noise is a type of audio signal where the intensity, or volume, is adjusted so that it sounds equally loud across all frequencies to the human ear. This is because our ears are more sensitive to some frequencies than others. This characteristic makes it distinct from white noise, which has equal intensity across all frequencies1. Grey noise is also sometimes called hearing-calibrated noise, because it follows an equal-loudness contour (such as an inverted A-weighting curve) that matches the human perception of sound. Grey noise can be used for various purposes, such as masking unwanted sounds, testing audio equipment, or relaxing the mind",
+      "data_start":"play_grey_noise();",
+      "data_stop":"stop_grey_noise();",
+      "data_id":"5wh0aqah1e"
    }
  ]
