@@ -54,6 +54,8 @@ var greenNoiseNode;
 var greenNoiseNodeGain;
 var blueNoiseNode;
 var blueNoiseNodeGain;
+var violetNoiseNode;
+var violetNoiseNodeGain;
 var boolWhite = 0;
 var boolPink = 0;
 var boolBrown = 0;
@@ -61,6 +63,7 @@ var boolRed = 0;
 var boolBlack = 0;
 var boolGreen = 0;
 var boolBlue = 0;
+var boolViolet = 0;
 var boolRifeMonaural = 0;
 var boolRife3D = 0;
 var boolRife3Dauto = 0;
@@ -411,6 +414,20 @@ async function play_blue_noise() {
 }
 
 
+async function play_violet_noise() {
+  if (boolViolet == 0) {
+    stop_all();
+    boolViolet = 1;
+    var audioContext = new AudioContext();
+    await audioContext.audioWorklet.addModule('noise-processor/violet-noise-processor.js');
+    violetNoiseNode = new AudioWorkletNode(audioContext, 'violet-noise-processor');
+    violetNoiseNodeGain = audioContext.createGain();
+    violetNoiseNodeGain.gain.value = volume_set();
+    violetNoiseNode.connect(violetNoiseNodeGain);
+    violetNoiseNodeGain.connect(audioContext.destination);
+  }
+}
+
 async function play_green_noise() {
   if (boolGreen == 0) {
     stop_all();
@@ -740,6 +757,16 @@ function stop_blue_noise() {
       blueNoiseNodeGain.disconnect();
   }
 }
+
+
+function stop_violet_noise() {
+  if(boolViolet == 1) {
+      boolViolet = 0;
+      violetNoiseNodeGain.disconnect();
+  }
+}
+
+
 function stop_isochronic() {
   if (isochronic_flag == 1) {
     isochronic_flag = 0;
@@ -894,6 +921,10 @@ function live_volume_set(){
     if (blueNoiseNodeGain.gain.value != undefined) {
       blueNoiseNodeGain.gain.value = volume_set();
     }
+  }else if (boolViolet == 1) {
+    if (violetNoiseNode.gain.value != undefined) {
+      violetNoiseNodeGain.gain.value = volume_set();
+    }
   }  
 }
     
@@ -907,9 +938,11 @@ function stop_all() {
   if (boolWhite == 1 ) { stop_white_noise(); }
   if (boolPink == 1 ) { stop_pink_noise(); }
   if (boolBrown == 1 ) { stop_brown_noise(); }
-  if (boolRed == 1 ) {stop_red_noise(); }
-  if (boolBlack == 1 ) {stop_black_noise(); }
-  if (boolGreen == 1 ) {stop_green_noise(); }
+  if (boolRed == 1 ) { stop_red_noise(); }
+  if (boolBlack == 1 ) { stop_black_noise(); }
+  if (boolGreen == 1 ) { stop_green_noise(); }
+  if (boolBlue == 1 ) { stop_blue_noise(); }
+  if (boolViolet == 1 ) { stop_violet_noise() }
   if (solfeggio_flag == 1 ) { stop_solfeggio(); }
   if (pure_tone_flag == 1 ) { stop_pure_tone(); }
   if (binaural_flag == 1 ) { stop_binaural(); }
