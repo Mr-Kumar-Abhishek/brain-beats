@@ -61,5 +61,12 @@
       "data_start":"play_grey_noise();",
       "data_stop":"stop_grey_noise();",
       "data_id":"5wh0aqah1e"
+   },
+   {
+      "data_name":"Velvet Noise",
+      "data_description":"Velvet noise is a type of sparse random signal that consists of only a few non-zero elements, either +1 or -1, in a given time interval. The name “velvet” comes from the perceptual impression that it sounds smoother than white noise, which has equal power across all frequencies. Velvet noise can be used for various audio signal processing applications, such as decorrelation, reverberation, spatialization, and sound synthesis.",
+      "data_start":"play_velvet_noise();",
+      "data_stop":"stop_velvet_noise();",
+      "data_id":"5wh0aqah1f"
    }
  ]
