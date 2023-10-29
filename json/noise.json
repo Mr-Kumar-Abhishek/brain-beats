@@ -47,5 +47,12 @@
       "data_start":"play_blue_noise();",
       "data_stop":"stop_blue_noise();",
       "data_id":"5wh0aqah1c"
+   },
+   {
+      "data_name":"Violet Noise",
+      "data_description":"Violet noise is a type of sound that has more energy at higher frequencies than lower ones. It is also called purple noise, because it is similar to the color of light that has a high frequency spectrum. Violet noise can be used for various purposes, such as masking tinnitus, enhancing audio signals, or adding randomness to digital processes. Violet noise is created by differentiating white noise, which is a random signal that has equal power at all frequencies. The power spectrum of violet noise is proportional to the square of the frequency, which means it increases by 6 decibels per octave. This makes violet noise very loud and bright at high frequencies, and very quiet and dark at low frequencies.",
+      "data_start":"play_violet_noise();",
+      "data_stop":"stop_violet_noise();",
+      "data_id":"5wh0aqah1d"
    }
  ]
