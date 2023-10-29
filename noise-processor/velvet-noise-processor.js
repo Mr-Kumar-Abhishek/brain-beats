@@ -4,7 +4,7 @@ class VelvetNoiseProcessor extends AudioWorkletProcessor {
       output.forEach(channel => {
         // Define the parameters for the velvet noise
         var amplitude = 0.5; // The amplitude of the impulses
-        var rate = 100; // The rate of the impulses in Hz
+        var rate = 1000; // The rate of the impulses in Hz (was 100)
         var probability = rate / sampleRate; // The probability of inserting an impulse
         
         for (let i = 0; i < channel.length; i++) {
