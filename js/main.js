@@ -58,6 +58,8 @@ var violetNoiseNode;
 var violetNoiseNodeGain;
 var greyNoiseNode;
 var greyNoiseNodeGain;
+var velvetNoiseNode;
+var velvetNoiseNodeGain;
 var boolWhite = 0;
 var boolPink = 0;
 var boolBrown = 0;
@@ -67,6 +69,7 @@ var boolGreen = 0;
 var boolBlue = 0;
 var boolViolet = 0;
 var boolGrey = 0;
+var boolVelvet = 0;
 var boolRifeMonaural = 0;
 var boolRife3D = 0;
 var boolRife3Dauto = 0;
@@ -458,6 +461,23 @@ async function play_grey_noise() {
   }
 }
 
+async function play_velvet_noise() {
+  if (boolVelvet == 0) {
+    stop_all();
+    boolVelvet = 1;
+    var audioContext = new AudioContext();
+    await audioContext.audioWorklet.addModule('noise-processor/velvet-noise-processor.js');
+    velvetNoiseNode = new AudioWorkletNode(audioContext, 'velvet-noise-processor');
+    velvetNoiseNodeGain = audioContext.createGain();
+    velvetNoiseNodeGain.gain.value = volume_set();
+    
+    // Connect the nodes in the following order: source -> gain -> destination
+    velvetNoiseNode.connect(velvetNoiseNodeGain);
+    velvetNoiseNodeGain.connect(audioContext.destination);
+  }
+}
+
+
 async function play_green_noise() {
   if (boolGreen == 0) {
     stop_all();
@@ -803,6 +823,13 @@ function stop_grey_noise() {
   }
 }
 
+function stop_velvet_noise() {
+  if(boolVelvet == 1) {
+      boolVelvet = 0;
+      velvetNoiseNodeGain.disconnect();
+  }
+}
+
 function stop_isochronic() {
   if (isochronic_flag == 1) {
     isochronic_flag = 0;
@@ -965,6 +992,10 @@ function live_volume_set(){
     if (greyNoiseNodeGain.gain.value != undefined) {
       greyNoiseNodeGain.gain.value = volume_set();
     }
+  }else if (boolVelvet == 1) {
+    if (velvetNoiseNodeGain.gain.value != undefined) {
+      velvetNoiseNodeGain.gain.value != volume_set();
+    }
   }  
 }
     
@@ -984,6 +1015,7 @@ function stop_all() {
   if (boolBlue == 1 ) { stop_blue_noise(); }
   if (boolViolet == 1 ) { stop_violet_noise(); }
   if (boolGrey == 1 ) { stop_grey_noise(); }
+  if (boolVelvet == 1 ) { stop_velvet_noise(); }
   if (solfeggio_flag == 1 ) { stop_solfeggio(); }
   if (pure_tone_flag == 1 ) { stop_pure_tone(); }
   if (binaural_flag == 1 ) { stop_binaural(); }
