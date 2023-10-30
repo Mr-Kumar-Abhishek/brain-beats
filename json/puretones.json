@@ -119,6 +119,13 @@
       "data_id":"naknevi9bd"
    },
    {
+      "data_name":"320 hz - Pure Tone",
+      "data_description":"This pure tone is related to the navel chakra, or solar plexus chakra, which is one of the seven main energy centers in the human body. The navel chakra is located in the navel region, just above the stomach, and is associated with the element of fire and the color yellow. The navel chakra is responsible for our personal power, self-confidence, willpower, and self-esteem. It also governs our digestion, metabolism, and emotions.",
+      "data_start":"play_pure_tone(320);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"naknevi9be"
+   },
+   {
       "data_name":"329.63 hz - Pure Tone",
       "data_description":"Pure tone for Leo. Leo can use this for relaxation, meditation or study. Musical Note is E",
       "data_start":"play_pure_tone(329.63);",
