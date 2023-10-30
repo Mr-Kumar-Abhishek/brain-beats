@@ -60,6 +60,8 @@ var greyNoiseNode;
 var greyNoiseNodeGain;
 var velvetNoiseNode;
 var velvetNoiseNodeGain;
+var orangeNoiseNode;
+var orangeNoiseNodeGain;
 var boolWhite = 0;
 var boolPink = 0;
 var boolBrown = 0;
@@ -70,6 +72,7 @@ var boolBlue = 0;
 var boolViolet = 0;
 var boolGrey = 0;
 var boolVelvet = 0;
+var boolOrange = 0;
 var boolRifeMonaural = 0;
 var boolRife3D = 0;
 var boolRife3Dauto = 0;
@@ -500,6 +503,33 @@ async function play_green_noise() {
   }
 }
 
+async function play_orange_noise() {
+  if (boolOrange == 0) {
+    stop_all();
+    boolOrange = 1;
+    var audioContext = new AudioContext();
+    await audioContext.audioWorklet.addModule('noise-processor/orange-noise-processor.js');
+    orangeNoiseNode = new AudioWorkletNode(audioContext, 'orange-noise-processor');
+    orangeNoiseNodeGain = audioContext.createGain();
+    orangeNoiseNodeGain.gain.value = volume_set();
+    
+    // Create a biquad filter node and set its type to 'lowshelf'
+    orangeNoiseFilter = audioContext.createBiquadFilter();
+    orangeNoiseFilter.type = 'lowshelf';
+    
+    // Adjust the frequency and gain parameters to create an orange noise effect
+    // You can experiment with different values to get different results
+    orangeNoiseFilter.frequency.value = 500; // The cutoff frequency in Hz
+    orangeNoiseFilter.gain.value = -30; // The amount of boost or attenuation in dB
+    
+    // Connect the nodes in the following order: source -> filter -> gain -> destination
+    orangeNoiseNode.connect(orangeNoiseFilter);
+    orangeNoiseFilter.connect(orangeNoiseNodeGain);
+    orangeNoiseNodeGain.connect(audioContext.destination);
+  }
+}
+
+
 function play_rife_monaural_generator(){
   // Create an empty array to store the frequency values
   tone_freq_array = [];
@@ -830,6 +860,13 @@ function stop_velvet_noise() {
   }
 }
 
+function stop_orange_noise() {
+  if(boolOrange == 1) {
+    boolOrange = 0;
+    orangeNoiseNodeGain.disconnect();
+  }
+}
+
 function stop_isochronic() {
   if (isochronic_flag == 1) {
     isochronic_flag = 0;
@@ -996,6 +1033,10 @@ function live_volume_set(){
     if (velvetNoiseNodeGain.gain.value != undefined) {
       velvetNoiseNodeGain.gain.value = volume_set();
     }
+  }else if (boolOrange == 1) {
+    if (orangeNoiseNodeGain.gain.value != undefined) {
+      orangeNoiseNodeGain.gain.value = volume_set();
+    }
   }  
 }
     
@@ -1016,6 +1057,7 @@ function stop_all() {
   if (boolViolet == 1 ) { stop_violet_noise(); }
   if (boolGrey == 1 ) { stop_grey_noise(); }
   if (boolVelvet == 1 ) { stop_velvet_noise(); }
+  if (boolOrange == 1 ) { stop_orange_noise(); }
   if (solfeggio_flag == 1 ) { stop_solfeggio(); }
   if (pure_tone_flag == 1 ) { stop_pure_tone(); }
   if (binaural_flag == 1 ) { stop_binaural(); }
