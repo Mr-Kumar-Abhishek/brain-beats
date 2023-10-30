@@ -68,5 +68,12 @@
       "data_start":"play_velvet_noise();",
       "data_stop":"stop_velvet_noise();",
       "data_id":"5wh0aqah1f"
+   },
+   {
+      "data_name":"Orange Noise",
+      "data_description":"Orange noise is a type of noise that uses all the frequencies of the audible spectrum, except for those that correspond to musical notes. It is also known as dissonant noise, because it sounds very harsh and unpleasant to the human ear. Orange noise is the opposite of harmonic noise, which only uses frequencies that are multiples of a fundamental frequency. Orange noise can be used for sound synthesis, sound masking, or sound art.",
+      "data_start":"play_orange_noise();",
+      "data_stop":"stop_orange_noise();",
+      "data_id":"5wh0aqah1g"
    }
  ]
