@@ -10,5 +10,5 @@ class OrangeNoiseProcessor extends AudioWorkletProcessor {
     }
   }
   
-  registerProcessor('organge-noise-processor', OrangeNoiseProcessor);
+  registerProcessor('orange-noise-processor', OrangeNoiseProcessor);
   
