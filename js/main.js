@@ -602,7 +602,7 @@ async function play_turquoise_noise() {
     // Connect the nodes in the following order: source -> filter -> gain -> destination
     turquoiseNoiseNode.connect(turquoiseNoiseFilter);
     turquoiseNoiseFilter.connect(turquoiseNoiseNodeGain);
-    turquoiseNoiseNodeGain.connect(turquoiseContext.destination);
+    turquoiseNoiseNodeGain.connect(audioContext.destination);
   }
 }
 
