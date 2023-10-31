@@ -64,6 +64,8 @@ var orangeNoiseNode;
 var orangeNoiseNodeGain;
 var yellowNoiseNode;
 var yellowNoiseNodeGain;
+var turquoiseNoiseNode;
+var turquoiseNoiseNodeGain;
 var boolWhite = 0;
 var boolPink = 0;
 var boolBrown = 0;
@@ -79,6 +81,7 @@ var boolRifeMonaural = 0;
 var boolRife3D = 0;
 var boolRife3Dauto = 0;
 var boolYellow = 0;
+var boolTurquoise = 0;
 var x_value;
 var y_values;
 var z_values;
@@ -577,6 +580,31 @@ async function play_yellow_noise() {
   }
 }
 
+async function play_turquoise_noise() {
+  if (boolTurquoise == 0) {
+    stop_all();
+    boolTurquoise = 1;
+    var audioContext = new AudioContext();
+    await audioContext.audioWorklet.addModule('noise-processor/turquoise-noise-processor.js');
+    turquoiseNoiseNode = new AudioWorkletNode(audioContext, 'turquoise-noise-processor');
+    turquoiseNoiseNodeGain = audioContext.createGain();
+    turquoiseNoiseNodeGain.gain.value = volume_set();
+    
+    // Create a biquad filter node and set its type to 'highpass'
+    turquoiseNoiseFilter = audioContext.createBiquadFilter();
+    turquoiseNoiseFilter.type = 'highpass';
+    
+    // Adjust the frequency and Q parameters to create a turquoise noise effect
+    // You can experiment with different values to get different results
+    turquoiseNoiseFilter.frequency.value = 1000; // The cutoff frequency in Hz
+    turquoiseNoiseFilter.Q.value = 0.5; // The quality factor
+    
+    // Connect the nodes in the following order: source -> filter -> gain -> destination
+    turquoiseNoiseNode.connect(turquoiseNoiseFilter);
+    turquoiseNoiseFilter.connect(turquoiseNoiseNodeGain);
+    turquoiseNoiseNodeGain.connect(turquoiseContext.destination);
+  }
+}
 
 function play_rife_3d_auto_generator() {
     // Create an empty array to store the frequency values
@@ -904,6 +932,13 @@ function stop_yellow_noise() {
   }
 }
 
+function stop_turquoise_noise() {
+  if(boolTurquoise == 1) {
+    boolTurquoise = 0;
+    turquoiseNoiseNodeGain.disconnect();
+  }
+}
+
 function stop_isochronic() {
   if (isochronic_flag == 1) {
     isochronic_flag = 0;
@@ -1078,7 +1113,11 @@ function live_volume_set(){
     if (yellowNoiseNodeGain.gain.value != undefined) {
       yellowNoiseNodeGain.gain.value = volume_set();
     }
-  } 
+  }else if (boolTurquoise == 1) {
+    if (turquoiseNoiseNodeGain.gain.value != undefined) {
+      turquoiseNoiseNodeGain.gain.value = volume_set();
+    }
+  }
 }
     
 $("#volume").change(function(){
@@ -1100,6 +1139,7 @@ function stop_all() {
   if (boolVelvet == 1 ) { stop_velvet_noise(); }
   if (boolOrange == 1 ) { stop_orange_noise(); }
   if (boolYellow == 1) { stop_yellow_noise(); }
+  if (boolTurquoise == 1 ) { stop_turquoise_noise(); }
   if (solfeggio_flag == 1 ) { stop_solfeggio(); }
   if (pure_tone_flag == 1 ) { stop_pure_tone(); }
   if (binaural_flag == 1 ) { stop_binaural(); }
