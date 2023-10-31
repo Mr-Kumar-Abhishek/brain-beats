@@ -75,5 +75,14 @@
       "data_start":"play_orange_noise();",
       "data_stop":"stop_orange_noise();",
       "data_id":"5wh0aqah1g"
+   },
+   {
+      "data_name":"Yellow Noise",
+      "data_description":"Yellow noise is a type of noise that has a boosted frequency band of noise centered around 200 hertz. It sounds like a steady low mid push, similar to being in a giant seashell or inside a passenger jet in flight. It is not one of the broadcast industry noise colors by definition, but can be created using the method of matching up the light spectrum. Yellow noise can be used for relaxation, sleep, study, or to block out noise.",
+      "data_start":"play_yellow_noise();",
+      "data_stop":"stop_yellow_noise();",
+      "data_id":"5wh0aqah1h"
    }
+
+
  ]
