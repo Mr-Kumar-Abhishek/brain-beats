@@ -567,7 +567,7 @@ async function play_yellow_noise() {
     
     // Adjust the frequency and Q parameters to create a yellow noise effect
     // You can experiment with different values to get different results
-    yellowNoiseFilter.frequency.value = 100; // The cutoff frequency in Hz
+    yellowNoiseFilter.frequency.value = 200; // The cutoff frequency in Hz (was 100)
     yellowNoiseFilter.Q.value = 0.5; // The quality factor
     
     // Connect the nodes in the following order: source -> filter -> gain -> destination
