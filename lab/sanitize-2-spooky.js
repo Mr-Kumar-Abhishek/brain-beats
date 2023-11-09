@@ -9,7 +9,7 @@ fs.readFile('spooky-frequency-formatted.txt', 'utf8', (err, data) => {
     return;
   }
   // Define the regex pattern to match the next line characters after the keywords
-  const pattern = /(XTRA|PROV|BIO|VEGA|CAFL|CUST|RIFE|HC|KHZ|ALT|ODD)\s+\n+/g;
+  const pattern = /\n+(XTRA|PROV|BIO|VEGA|CAFL|CUST|RIFE|HC|KHZ|ALT|ODD)\s+\n+/g;
   // Replace the matched pattern with the keyword followed by a single next line character
   const newData = data.replace(pattern, '$1\n');
   // Write the modified string to a new file
