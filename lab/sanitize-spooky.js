@@ -8,6 +8,9 @@ const outputFile = 'spooky-frequency-formatted.txt';
 // Define the keywords that indicate a new line
 const keywords = ['XTRA ', 'PROV ', 'BIO ', 'VEGA ', 'CAFL ', 'CUST ', 'RIFE  ', ' HC ', ' KHZ ', 'ALT ', 'ODD '];
 
+// Define a regular expression to match a frequency
+const frequencyRegex = /^\d+$/;
+
 // Read the input file as a string
 fs.readFile(inputFile, 'utf8', (err, data) => {
   if (err) {
@@ -34,14 +37,20 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
       // Set the flag to true
       prevKeyword = true;
     } else {
-      // If the previous token was a keyword, add a new line after it
-      if (prevKeyword) {
-        output += '\n' + token + ',';
-        // Set the flag to false
-        prevKeyword = false;
-      } else {
-        // Otherwise, add a comma after it
+      // If the token is a frequency, add a comma after it
+      if (frequencyRegex.test(token)) {
         output += token + ',';
+      } else {
+        // If the token is a name, check if the previous token was a keyword
+        if (prevKeyword) {
+          // If yes, add a new line after it
+          output += '\n' + token + ',';
+          // Set the flag to false
+          prevKeyword = false;
+        } else {
+          // If no, append the name to the previous name
+          output += token + ',';
+        }
       }
     }
   }
