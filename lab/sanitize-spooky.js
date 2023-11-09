@@ -20,6 +20,9 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
   // Initialize an empty string for the output
   let output = '';
 
+  // Initialize a flag to indicate if the previous token was a keyword
+  let prevKeyword = false;
+
   // Loop through the tokens
   for (let token of tokens) {
     // Trim any whitespace from the token
@@ -28,9 +31,18 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
     // If the token is a keyword, add a new line before it
     if (keywords.includes(token)) {
       output += '\n' + token;
+      // Set the flag to true
+      prevKeyword = true;
     } else {
-      // Otherwise, add a comma after it
-      output += token + ',';
+      // If the previous token was a keyword, add a new line after it
+      if (prevKeyword) {
+        output += '\n' + token + ',';
+        // Set the flag to false
+        prevKeyword = false;
+      } else {
+        // Otherwise, add a comma after it
+        output += token + ',';
+      }
     }
   }
 
