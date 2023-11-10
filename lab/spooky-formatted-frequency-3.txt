@@ -189,11 +189,11 @@ Anaphylaxis,"140,750,2500,65000,87300,236420,400000,561930,714820,978050,",KHZ
 Anaplasma Lyme,"387,",CUST 
 Anaplasma Marginale 1,"957.78,959.27,961.75,12075,12093.75,12125,",XTRA 
 Anaplasma Marginale 2,"959.27,1046.02,19267.59,21010.13,",XTRA 
-Anaplasma Marginale 2nd,"415300-424000,3600,",HC 
+Anaplasma Marginale 2nd,"415300,424000,3600,",HC 
 Anaplasma Marginale 3,"1029.43,1046.02,1050.99,12978.12,13187.5,13250,",XTRA 
 Anaplasma Marginale,"386400-388000,3600,",HC 
 Anaplasmosis,"100,240,800,15200,32500,97500,322060,377910,492500,723000,",KHZ 
-Ancylostoma Braziliense,"397600-403250,3600,",HC 
+Ancylostoma Braziliense,"397600,403250,3600,",HC 
 Ancylostoma Braziliense,"985.54,993.98,999.55,12425,12531.25,12601.55,",XTRA 
 Ancylostoma Caninum 1,"949.61,991.5,998.69,11971.87,12500,12590.62,",XTRA 
 Ancylostoma Caninum 2,"949.61,974.14,998.69,11971.87,12281.25,12590.62,",XTRA 
@@ -509,7 +509,7 @@ Besnoitia 1,"874.5,887.38,895.82,11025,11187.5,11293.75,",XTRA
 Besnoitia 2,"887.38,17823.77,",XTRA 
 Beta Streptococcus 1,"943.4,954.32,960.26,11893.75,12031.25,12106.25,",XTRA 
 Beta Streptococcus 2,"954.32,19168.02,",XTRA 
-Beta Streptococcus,"380600-387400,3600,",HC 
+Beta Streptococcus,"380600,387400,3600,",HC 
 Beth Sutton's Bar Fungus,"854,",VEGA 
 Bile Duct Spasms and Pain,"2,2.2,2.5,2.7,3.2,3.5,",XTRA 
 Bilharzia,"329,9889,1035.49,1087.17,1089.25,1238.74,1257.39,1261.5,1272.83,1350.21,1431.24,15
