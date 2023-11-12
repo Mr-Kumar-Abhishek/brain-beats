@@ -1,4 +1,10 @@
-[
+[  {
+      "data_name":"63 hz - Solfeggio Frequency",
+      "data_description":"Solfeggio frequency for foot chakra, connects you with the earth.",
+      "data_start":"play_solfeggio(63);",
+      "data_stop":"stop_solfeggio();",
+      "data_id":"9fyx5y9gx"
+   },
    {
       "data_name":"174 hz - Solfeggio Frequency",
       "data_description":"Gives the body a sense of security, safety and love. It also encourages the cells to do their best. This frequency tends to reduce pain overtime",
