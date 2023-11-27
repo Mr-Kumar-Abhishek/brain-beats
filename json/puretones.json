@@ -315,6 +315,13 @@
       "data_id":"mblv7ava6"
    },
    {
+      "data_name":"850 hz - Pure Tone",
+      "data_description":"Some people who suffer from Temporomandibular Joint Disorders (TMJ), a condition that affects the jaw joint and the muscles that control jaw movement, may find relief from listening to an 850-Hz pure tone. This is because the pure tone may stimulate the auditory nerve and the brainstem, which are involved in the regulation of jaw muscles and pain perception Listening to an 850-Hz pure tone may also help with sound localization, which is the ability to locate the source of a sound in space.",
+      "data_start":"play_pure_tone(850);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"mblv7ava7"
+   },
+   {
       "data_name":"880 hz - Pure Tone",
       "data_description":"This is associated with Frontal Lobes. It effects the seventh sense, final decision. Its the higher octave of 13.8. It is also used on Allergies, Sinusitis. It is used on sinus infections/head colds with 728hz,784hz and 464hz. Commonly used 'cure-all' Rife Frequency.",
       "data_start":"play_pure_tone(880);",
