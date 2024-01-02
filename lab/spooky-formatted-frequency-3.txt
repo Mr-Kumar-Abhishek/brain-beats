@@ -567,8 +567,7 @@ Blood Cleanser Cancer,"727,787,880,2008,2127,5000,10000,",XTRA
 Blood Cleanser,Blood,"727,787,880,2008,2127,5000,",PROV 
 Blood Clots,"685,",XTRA 
 Blood Clots,"6,28,59,685,",XTRA 
-Blood Coagulation 
-Disorders,"70,520,30000,47500,150000,225160,476500,527000,663710,742000,",KHZ 
+Blood Coagulation Disorders,"70,520,30000,47500,150000,225160,476500,527000,663710,742000,",KHZ 
 Blood Conduction,"3481,",XTRA 
 Blood Diseases,Blood,"880,787,727,5000,",CAFL 
 Blood Flow Increase,"17,",XTRA 
