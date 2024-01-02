@@ -4936,9 +4936,9 @@ Prostnogonimus Macrorchis Egg,"396850-404750,3600,",HC
 Proteinuria,"50,410,870,57500,78000,132300,351500,652310,825870,915830,",KHZ 
 Proteus Mirabilis 1,"20034.38,20375,20250,794.55,808.07,803.12,",CUST 
 Proteus Mirabilis 2,"16131.01,803.12,",CUST 
-Proteus Mirabilis,"320550-326000,3600,",HC 
+Proteus Mirabilis,"320550,326000,3600,",HC 
 Proteus Syndrome,"60,250,870,12300,55710,85000,187500,442500,696500,875310,",KHZ 
-Proteus Vulgaris,"408750-416450,3600,",HC 
+Proteus Vulgaris,"408750,416450,3600,",HC 
 Proteus,"424,434,834,",CAFL 
 Protomyxzoa Rheumatica,"1583,515,515-521,1260,",CUST 
 Protozoa,"432,753,",BIO 
