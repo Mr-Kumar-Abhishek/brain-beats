@@ -63,4 +63,4 @@ function convertFile(inputFile, outputFile) {
 }
 
 // Call the function with the input and output file names
-convertFile('spooky-bio-frequency.txt', 'bio-freq.json');
+convertFile('spooky-cafl-frequency.txt', 'cafl-freq.json');
