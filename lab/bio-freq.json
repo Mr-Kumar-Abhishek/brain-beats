@@ -1,0 +1,1857 @@
+[
+  {
+    "data_name": "Actinomyces Israelii BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Actinomyces Israelii. The frequencies in this preset are: 222 hz, 262 hz, 2154 hz",
+    "data_start": "play_BIO_3d_auto([222, 262, 2154]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "o3O9wrMk"
+  },
+  {
+    "data_name": "Adenovirus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Adenovirus. The frequencies in this preset are: 333 hz, 523 hz, 786 hz",
+    "data_start": "play_BIO_3d_auto([333, 523, 786]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "0slKhEHI"
+  },
+  {
+    "data_name": "AIDS Kaposi's Sarcoma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for AIDS Kaposi's Sarcoma. The frequencies in this preset are: 249 hz, 418 hz",
+    "data_start": "play_BIO_3d_auto([249, 418]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "USaxV6SS"
+  },
+  {
+    "data_name": "Amoeba Hepar Abscess,Liver BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Amoeba Hepar Abscess,Liver. The frequencies in this preset are: 344 hz",
+    "data_start": "play_BIO_3d_auto([344]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "gW3v867i"
+  },
+  {
+    "data_name": "Amoeba BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Amoeba. The frequencies in this preset are: 310 hz, 333 hz, 532 hz, 732 hz, 827 hz, 1522 hz",
+    "data_start": "play_BIO_3d_auto([310, 333, 532, 732, 827, 1522]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "FNCLY5jq"
+  },
+  {
+    "data_name": "Anthracinum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Anthracinum. The frequencies in this preset are: 633 hz",
+    "data_start": "play_BIO_3d_auto([633]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "5rctExXi"
+  },
+  {
+    "data_name": "Aremes Tennus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Aremes Tennus. The frequencies in this preset are: 667 hz",
+    "data_start": "play_BIO_3d_auto([667]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "HvWcMrRP"
+  },
+  {
+    "data_name": "Arnica BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Arnica. The frequencies in this preset are: 1042 hz",
+    "data_start": "play_BIO_3d_auto([1042]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "3FsvCQhX"
+  },
+  {
+    "data_name": "Aspergillus Glaucus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Aspergillus Glaucus. The frequencies in this preset are: 524 hz",
+    "data_start": "play_BIO_3d_auto([524]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "1nCpvVe1"
+  },
+  {
+    "data_name": "Aspergillus Niger BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Aspergillus Niger. The frequencies in this preset are: 374 hz",
+    "data_start": "play_BIO_3d_auto([374]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "u7m4x1x3"
+  },
+  {
+    "data_name": "Asthma,Lung BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Asthma,Lung. The frequencies in this preset are: 1233 hz, 1283 hz",
+    "data_start": "play_BIO_3d_auto([1233, 1283]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "EPQ6mLw5"
+  },
+  {
+    "data_name": "Bacterium Coli BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Bacterium Coli. The frequencies in this preset are: 642 hz",
+    "data_start": "play_BIO_3d_auto([642]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "7yaUGw1U"
+  },
+  {
+    "data_name": "Bacterium Lactis Nosode BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Bacterium Lactis Nosode. The frequencies in this preset are: 512 hz, 526 hz, 798 hz, 951 hz, 5412 hz",
+    "data_start": "play_BIO_3d_auto([512, 526, 798, 951, 5412]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "K3GwJmvY"
+  },
+  {
+    "data_name": "Banti's Syndrome BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Banti's Syndrome. The frequencies in this preset are: 1778 hz",
+    "data_start": "play_BIO_3d_auto([1778]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "xceFJRi1"
+  },
+  {
+    "data_name": "Barley Smut BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Barley Smut. The frequencies in this preset are: 377 hz",
+    "data_start": "play_BIO_3d_auto([377]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "jrgQbWPS"
+  },
+  {
+    "data_name": "Bermuda Smut BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Bermuda Smut. The frequencies in this preset are: 971 hz",
+    "data_start": "play_BIO_3d_auto([971]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "kfkLywrC"
+  },
+  {
+    "data_name": "Biliary Cirrhosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Biliary Cirrhosis. The frequencies in this preset are: 381 hz, 514 hz, 677 hz, 2271 hz",
+    "data_start": "play_BIO_3d_auto([381, 514, 677, 2271]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "cS9yiC81"
+  },
+  {
+    "data_name": "Bilirubin BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Bilirubin. The frequencies in this preset are: 717 hz, 726 hz, 731 hz, 863 hz",
+    "data_start": "play_BIO_3d_auto([717, 726, 731, 863]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "kLgiFPtY"
+  },
+  {
+    "data_name": "Blastocystis Hominis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Blastocystis Hominis. The frequencies in this preset are: 365 hz, 595 hz, 844 hz, 848 hz, 1201 hz, 1243 hz",
+    "data_start": "play_BIO_3d_auto([365, 595, 844, 848, 1201, 1243]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "XZS9dgl1"
+  },
+  {
+    "data_name": "Blue Cohosh BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Blue Cohosh. The frequencies in this preset are: 364 hz",
+    "data_start": "play_BIO_3d_auto([364]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "npFa94zd"
+  },
+  {
+    "data_name": "Borreliosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Borreliosis. The frequencies in this preset are: 254 hz, 345 hz, 525 hz, 605 hz, 644 hz, 673 hz, 797 hz, 884 hz, 1455 hz",
+    "data_start": "play_BIO_3d_auto([254, 345, 525, 605, 644, 673, 797, 884, 1455]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "DMUXgn2A"
+  },
+  {
+    "data_name": "Botrytis Cinereas BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Botrytis Cinereas. The frequencies in this preset are: 1132 hz",
+    "data_start": "play_BIO_3d_auto([1132]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "okeYgLqc"
+  },
+  {
+    "data_name": "Brain Tumor Astrocytoma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Brain Tumor Astrocytoma. The frequencies in this preset are: 857 hz",
+    "data_start": "play_BIO_3d_auto([857]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "oanJt2IW"
+  },
+  {
+    "data_name": "Bronchiectasis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Bronchiectasis. The frequencies in this preset are: 342 hz",
+    "data_start": "play_BIO_3d_auto([342]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Z2kbknv4"
+  },
+  {
+    "data_name": "Cancer Astrocytoma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Astrocytoma. The frequencies in this preset are: 857 hz",
+    "data_start": "play_BIO_3d_auto([857]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Is0ENdEP"
+  },
+  {
+    "data_name": "Cancer Bronchial BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Bronchial. The frequencies in this preset are: 462 hz, 852 hz, 1582 hz",
+    "data_start": "play_BIO_3d_auto([462, 852, 1582]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "XmVdnKlO"
+  },
+  {
+    "data_name": "Cancer Colon BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Colon. The frequencies in this preset are: 656 hz",
+    "data_start": "play_BIO_3d_auto([656]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "91jmOsjf"
+  },
+  {
+    "data_name": "Cancer Gliomas BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Gliomas. The frequencies in this preset are: 543 hz, 641 hz",
+    "data_start": "play_BIO_3d_auto([543, 641]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "rZbajsk4"
+  },
+  {
+    "data_name": "Cancer Hairy Cell BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Hairy Cell. The frequencies in this preset are: 122 hz, 622 hz, 932 hz, 5122 hz, 1522 hz",
+    "data_start": "play_BIO_3d_auto([122, 622, 932, 5122, 1522]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "pvM3BBGn"
+  },
+  {
+    "data_name": "Cancer Hodgkin's Disease BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Hodgkin's Disease. The frequencies in this preset are: 552 hz, 1522 hz",
+    "data_start": "play_BIO_3d_auto([552, 1522]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "QaH8z7vp"
+  },
+  {
+    "data_name": "Cancer Kaposi's Sarcoma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Kaposi's Sarcoma. The frequencies in this preset are: 249 hz, 418 hz",
+    "data_start": "play_BIO_3d_auto([249, 418]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "zrOXIvN5"
+  },
+  {
+    "data_name": "Cancer Leukemia BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Leukemia. The frequencies in this preset are: 424 hz, 830 hz, 901 hz, 918 hz",
+    "data_start": "play_BIO_3d_auto([424, 830, 901, 918]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "oEIMBvdt"
+  },
+  {
+    "data_name": "Cancer Lymphatic BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Lymphatic. The frequencies in this preset are: 478 hz, 833 hz",
+    "data_start": "play_BIO_3d_auto([478, 833]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "KqZfVgMQ"
+  },
+  {
+    "data_name": "Cancer Mycosis Fungoides BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Mycosis Fungoides. The frequencies in this preset are: 852 hz",
+    "data_start": "play_BIO_3d_auto([852]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "6FHO01kn"
+  },
+  {
+    "data_name": "Cancer Myeloid BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Myeloid. The frequencies in this preset are: 422 hz, 822 hz",
+    "data_start": "play_BIO_3d_auto([422, 822]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "ei4ilmZF"
+  },
+  {
+    "data_name": "Cancer Plasmacytoma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Plasmacytoma. The frequencies in this preset are: 475 hz",
+    "data_start": "play_BIO_3d_auto([475]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "ldxvzEPu"
+  },
+  {
+    "data_name": "Cancer Uterine Fermentative BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cancer Uterine Fermentative. The frequencies in this preset are: 127 hz",
+    "data_start": "play_BIO_3d_auto([127]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "HeZdv5xb"
+  },
+  {
+    "data_name": "Candida Tropicalis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Candida Tropicalis. The frequencies in this preset are: 1403 hz",
+    "data_start": "play_BIO_3d_auto([1403]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Z4fMC6TV"
+  },
+  {
+    "data_name": "Candida BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Candida. The frequencies in this preset are: 866 hz",
+    "data_start": "play_BIO_3d_auto([866]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "jZZg48Ua"
+  },
+  {
+    "data_name": "Carvularia Spirafera BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Carvularia Spirafera. The frequencies in this preset are: 879 hz",
+    "data_start": "play_BIO_3d_auto([879]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "y0IKNRXm"
+  },
+  {
+    "data_name": "Cataract Complicated BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cataract Complicated. The frequencies in this preset are: 496 hz",
+    "data_start": "play_BIO_3d_auto([496]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "dsVhEY3l"
+  },
+  {
+    "data_name": "Causticum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Causticum. The frequencies in this preset are: 540 hz, 1013 hz",
+    "data_start": "play_BIO_3d_auto([540, 1013]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "DKh3zDRk"
+  },
+  {
+    "data_name": "Cephalosporium BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cephalosporium. The frequencies in this preset are: 481 hz, 3966 hz",
+    "data_start": "play_BIO_3d_auto([481, 3966]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "xnnma7fk"
+  },
+  {
+    "data_name": "Cervix Adenoma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cervix Adenoma. The frequencies in this preset are: 433 hz",
+    "data_start": "play_BIO_3d_auto([433]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "yftvDcbd"
+  },
+  {
+    "data_name": "Chaetomium Globosum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Chaetomium Globosum. The frequencies in this preset are: 221 hz, 867 hz",
+    "data_start": "play_BIO_3d_auto([221, 867]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "TEIuD9K9"
+  },
+  {
+    "data_name": "Chicken Pox BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Chicken Pox. The frequencies in this preset are: 787 hz, 3343 hz",
+    "data_start": "play_BIO_3d_auto([787, 3343]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Kk0reA63"
+  },
+  {
+    "data_name": "Chlamydia BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Chlamydia. The frequencies in this preset are: 430 hz, 620 hz, 624 hz, 840 hz, 2213 hz",
+    "data_start": "play_BIO_3d_auto([430, 620, 624, 840, 2213]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "afDH1KSE"
+  },
+  {
+    "data_name": "Cholecystitis Chronic BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cholecystitis Chronic. The frequencies in this preset are: 432 hz",
+    "data_start": "play_BIO_3d_auto([432]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "55fENnzE"
+  },
+  {
+    "data_name": "Cholera BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cholera. The frequencies in this preset are: 330 hz, 843 hz, 844 hz, 1035 hz",
+    "data_start": "play_BIO_3d_auto([330, 843, 844, 1035]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "6HncZxTs"
+  },
+  {
+    "data_name": "Cirrhosis Biliary BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cirrhosis Biliary. The frequencies in this preset are: 381 hz, 514 hz, 677 hz, 2271 hz",
+    "data_start": "play_BIO_3d_auto([381, 514, 677, 2271]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "AetclbS6"
+  },
+  {
+    "data_name": "CMV BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for CMV. The frequencies in this preset are: 126 hz, 597 hz, 1045 hz, 2145 hz",
+    "data_start": "play_BIO_3d_auto([126, 597, 1045, 2145]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "muFOxrLW"
+  },
+  {
+    "data_name": "Coeliacia BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Coeliacia. The frequencies in this preset are: 154 hz, 594 hz, 656 hz",
+    "data_start": "play_BIO_3d_auto([154, 594, 656]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "J5majIcr"
+  },
+  {
+    "data_name": "Condylomata BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Condylomata. The frequencies in this preset are: 466 hz",
+    "data_start": "play_BIO_3d_auto([466]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "TgDGDe79"
+  },
+  {
+    "data_name": "Corn Smut BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Corn Smut. The frequencies in this preset are: 546 hz, 1642 hz",
+    "data_start": "play_BIO_3d_auto([546, 1642]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "F6l8FV5f"
+  },
+  {
+    "data_name": "Coxsackie Type B1 BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Coxsackie Type B1. The frequencies in this preset are: 834 hz",
+    "data_start": "play_BIO_3d_auto([834]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "8bFh66R5"
+  },
+  {
+    "data_name": "Crinis Humansis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Crinis Humansis. The frequencies in this preset are: 646 hz",
+    "data_start": "play_BIO_3d_auto([646]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "iX9dN1KD"
+  },
+  {
+    "data_name": "Critter 1 BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Critter 1. The frequencies in this preset are: 1033 hz",
+    "data_start": "play_BIO_3d_auto([1033]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "upfbt28i"
+  },
+  {
+    "data_name": "Cyst Ovarian BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cyst Ovarian. The frequencies in this preset are: 982 hz",
+    "data_start": "play_BIO_3d_auto([982]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "DBS5IqKK"
+  },
+  {
+    "data_name": "Cystitis Chronic BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Cystitis Chronic. The frequencies in this preset are: 246 hz",
+    "data_start": "play_BIO_3d_auto([246]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "ffGo62uk"
+  },
+  {
+    "data_name": "Dematium Nigrum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Dematium Nigrum. The frequencies in this preset are: 243 hz",
+    "data_start": "play_BIO_3d_auto([243]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "KBIFlKjI"
+  },
+  {
+    "data_name": "Dental BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Dental. The frequencies in this preset are: 635 hz, 640 hz, 1036 hz, 1043 hz, 1094 hz",
+    "data_start": "play_BIO_3d_auto([635, 640, 1036, 1043, 1094]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "lmmBhHkG"
+  },
+  {
+    "data_name": "Distemper BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Distemper. The frequencies in this preset are: 242 hz, 254 hz, 312 hz, 442 hz, 551 hz, 573 hz, 624 hz, 671 hz, 712 hz, 940 hz, 1269 hz, 1950 hz",
+    "data_start": "play_BIO_3d_auto([242, 254, 312, 442, 551, 573, 624, 671, 712, 940, 1269, 1950]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "p3zpSxTr"
+  },
+  {
+    "data_name": "Diverticulosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Diverticulosis. The frequencies in this preset are: 154 hz, 934 hz",
+    "data_start": "play_BIO_3d_auto([154, 934]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "UDWz8b8f"
+  },
+  {
+    "data_name": "E Coli BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for E Coli. The frequencies in this preset are: 282 hz, 333 hz, 413 hz, 957 hz, 1320 hz, 1722 hz",
+    "data_start": "play_BIO_3d_auto([282, 333, 413, 957, 1320, 1722]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "oF6VuDAV"
+  },
+  {
+    "data_name": "Echinococcinum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Echinococcinum. The frequencies in this preset are: 164 hz, 453 hz, 542 hz, 623 hz",
+    "data_start": "play_BIO_3d_auto([164, 453, 542, 623]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "FLlJO0k5"
+  },
+  {
+    "data_name": "Echo Virus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Echo Virus. The frequencies in this preset are: 620 hz",
+    "data_start": "play_BIO_3d_auto([620]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "6ZbmZX2F"
+  },
+  {
+    "data_name": "Endometriosis Chronic BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Endometriosis Chronic. The frequencies in this preset are: 246 hz",
+    "data_start": "play_BIO_3d_auto([246]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "gRSa83uo"
+  },
+  {
+    "data_name": "Enterococcinum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Enterococcinum. The frequencies in this preset are: 686 hz",
+    "data_start": "play_BIO_3d_auto([686]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "aOhBARpd"
+  },
+  {
+    "data_name": "Enterohepatitis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Enterohepatitis. The frequencies in this preset are: 552 hz, 932 hz, 953 hz",
+    "data_start": "play_BIO_3d_auto([552, 932, 953]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "wyn5oRoC"
+  },
+  {
+    "data_name": "Epidermophyton Floccinum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Epidermophyton Floccinum. The frequencies in this preset are: 644 hz, 766 hz",
+    "data_start": "play_BIO_3d_auto([644, 766]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "4YefZV9X"
+  },
+  {
+    "data_name": "Epstein Barr Virus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Epstein Barr Virus. The frequencies in this preset are: 105 hz, 172 hz, 253 hz, 660 hz, 663 hz, 669 hz, 744 hz, 825 hz, 1032 hz, 1920 hz",
+    "data_start": "play_BIO_3d_auto([105, 172, 253, 660, 663, 669, 744, 825, 1032, 1920]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "5ReVlF2e"
+  },
+  {
+    "data_name": "Escherichia Coli BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Escherichia Coli. The frequencies in this preset are: 282 hz, 333 hz, 413 hz, 957 hz, 1320 hz, 1722 hz",
+    "data_start": "play_BIO_3d_auto([282, 333, 413, 957, 1320, 1722]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "caKErcBC"
+  },
+  {
+    "data_name": "Fasciola Hepatica BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Fasciola Hepatica. The frequencies in this preset are: 143 hz, 275 hz",
+    "data_start": "play_BIO_3d_auto([143, 275]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "DhQvMs4m"
+  },
+  {
+    "data_name": "Febris Wolhynia BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Febris Wolhynia. The frequencies in this preset are: 547 hz",
+    "data_start": "play_BIO_3d_auto([547]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Si1Y3N5h"
+  },
+  {
+    "data_name": "Fel Tauri BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Fel Tauri. The frequencies in this preset are: 672 hz",
+    "data_start": "play_BIO_3d_auto([672]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "PKuNdWKf"
+  },
+  {
+    "data_name": "Fell BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Fell. The frequencies in this preset are: 435 hz",
+    "data_start": "play_BIO_3d_auto([435]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "2V63x8h3"
+  },
+  {
+    "data_name": "Fibrosarcoma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Fibrosarcoma. The frequencies in this preset are: 1744 hz",
+    "data_start": "play_BIO_3d_auto([1744]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "gy0OUd7e"
+  },
+  {
+    "data_name": "Filariose BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Filariose. The frequencies in this preset are: 112 hz, 120 hz",
+    "data_start": "play_BIO_3d_auto([112, 120]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "YSKYjHyn"
+  },
+  {
+    "data_name": "Fischpyrogen BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Fischpyrogen. The frequencies in this preset are: 832 hz",
+    "data_start": "play_BIO_3d_auto([832]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "ju64jtKA"
+  },
+  {
+    "data_name": "Fistula Dentalis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Fistula Dentalis. The frequencies in this preset are: 550 hz, 727 hz, 844 hz, 1122 hz",
+    "data_start": "play_BIO_3d_auto([550, 727, 844, 1122]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "kbUICGRa"
+  },
+  {
+    "data_name": "FIV BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for FIV. The frequencies in this preset are: 262 hz, 323 hz, 372 hz, 404 hz, 567 hz, 712 hz, 742 hz, 760 hz, 773 hz, 916 hz, 1103 hz, 1132 hz, 3701 hz",
+    "data_start": "play_BIO_3d_auto([262, 323, 372, 404, 567, 712, 742, 760, 773, 916, 1103, 1132, 3701]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Lusu8HhA"
+  },
+  {
+    "data_name": "Flu 1979 BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Flu 1979. The frequencies in this preset are: 123 hz",
+    "data_start": "play_BIO_3d_auto([123]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "mRkaZZuo"
+  },
+  {
+    "data_name": "Flu 1983 BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Flu 1983. The frequencies in this preset are: 730 hz, 734 hz",
+    "data_start": "play_BIO_3d_auto([730, 734]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "NpyHRge5"
+  },
+  {
+    "data_name": "Flu Spanish BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Flu Spanish. The frequencies in this preset are: 462 hz",
+    "data_start": "play_BIO_3d_auto([462]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "uY9FoAtO"
+  },
+  {
+    "data_name": "Flukeworm BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Flukeworm. The frequencies in this preset are: 524 hz, 854 hz",
+    "data_start": "play_BIO_3d_auto([524, 854]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "huM9HyrG"
+  },
+  {
+    "data_name": "Fusarium Oxysporum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Fusarium Oxysporum. The frequencies in this preset are: 102 hz, 705 hz",
+    "data_start": "play_BIO_3d_auto([102, 705]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "87G2GUsd"
+  },
+  {
+    "data_name": "Gallbladder Inflammation BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Gallbladder Inflammation. The frequencies in this preset are: 432 hz",
+    "data_start": "play_BIO_3d_auto([432]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "hNwxuhkj"
+  },
+  {
+    "data_name": "Gallstone Attack BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Gallstone Attack. The frequencies in this preset are: 481 hz, 743 hz, 865 hz, 928 hz",
+    "data_start": "play_BIO_3d_auto([481, 743, 865, 928]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "PZ7pFN2j"
+  },
+  {
+    "data_name": "Grippe 1987 BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Grippe 1987. The frequencies in this preset are: 332 hz, 953 hz",
+    "data_start": "play_BIO_3d_auto([332, 953]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "SkC5fUeS"
+  },
+  {
+    "data_name": "Grippe BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Grippe. The frequencies in this preset are: 343 hz, 500 hz, 512 hz, 541 hz, 862 hz, 1000 hz, 1192 hz, 3012 hz, 3423 hz, 10223 hz",
+    "data_start": "play_BIO_3d_auto([343, 500, 512, 541, 862, 1000, 1192, 3012, 3423, 10223]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "uxSURmHu"
+  },
+  {
+    "data_name": "Haemophilia BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Haemophilia. The frequencies in this preset are: 845 hz",
+    "data_start": "play_BIO_3d_auto([845]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "6D355kTz"
+  },
+  {
+    "data_name": "Hair Human BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Hair Human. The frequencies in this preset are: 646 hz",
+    "data_start": "play_BIO_3d_auto([646]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "VGqK09Cy"
+  },
+  {
+    "data_name": "Hand Foot and Mouth Syndrome BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Hand Foot and Mouth Syndrome. The frequencies in this preset are: 232 hz, 237 hz, 1214 hz, 1243 hz, 1244 hz, 1271 hz, 5411 hz",
+    "data_start": "play_BIO_3d_auto([232, 237, 1214, 1243, 1244, 1271, 5411]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "zCFXTfJv"
+  },
+  {
+    "data_name": "Heartworms BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Heartworms. The frequencies in this preset are: 543 hz, 2322 hz",
+    "data_start": "play_BIO_3d_auto([543, 2322]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "726jIBra"
+  },
+  {
+    "data_name": "Helminthosporium BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Helminthosporium. The frequencies in this preset are: 793 hz, 969 hz",
+    "data_start": "play_BIO_3d_auto([793, 969]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "2e4xCTR3"
+  },
+  {
+    "data_name": "Hemobartinella Felis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Hemobartinella Felis. The frequencies in this preset are: 603 hz, 957 hz",
+    "data_start": "play_BIO_3d_auto([603, 957]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "YyScpDLN"
+  },
+  {
+    "data_name": "Hemorrhoids BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Hemorrhoids. The frequencies in this preset are: 447 hz",
+    "data_start": "play_BIO_3d_auto([447]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "zUdZmfnZ"
+  },
+  {
+    "data_name": "Hepatitis New Numbers BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Hepatitis New Numbers. The frequencies in this preset are: 477 hz, 922 hz",
+    "data_start": "play_BIO_3d_auto([477, 922]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "D5HNTVna"
+  },
+  {
+    "data_name": "Hepatitis Type A BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Hepatitis Type A. The frequencies in this preset are: 321 hz, 3220 hz",
+    "data_start": "play_BIO_3d_auto([321, 3220]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "ZX1FSBwB"
+  },
+  {
+    "data_name": "Hepatitis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Hepatitis. The frequencies in this preset are: 224 hz, 317 hz, 1351 hz",
+    "data_start": "play_BIO_3d_auto([224, 317, 1351]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "JYvZCI1x"
+  },
+  {
+    "data_name": "Herpes Simplex II BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Herpes Simplex II. The frequencies in this preset are: 556 hz, 832 hz",
+    "data_start": "play_BIO_3d_auto([556, 832]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "zX06HKqb"
+  },
+  {
+    "data_name": "Herpes Simplex IU.2 BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Herpes Simplex IU.2. The frequencies in this preset are: 808 hz",
+    "data_start": "play_BIO_3d_auto([808]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "BhJRucwF"
+  },
+  {
+    "data_name": "Herpes Type 2A BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Herpes Type 2A. The frequencies in this preset are: 532 hz",
+    "data_start": "play_BIO_3d_auto([532]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "tpJPy0qn"
+  },
+  {
+    "data_name": "Herpes Type 5 BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Herpes Type 5. The frequencies in this preset are: 126 hz, 597 hz, 1045 hz, 2145 hz",
+    "data_start": "play_BIO_3d_auto([126, 597, 1045, 2145]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "mULYAuip"
+  },
+  {
+    "data_name": "Herpes Type C BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Herpes Type C. The frequencies in this preset are: 395 hz, 424 hz, 460 hz, 533 hz, 554 hz, 701 hz, 745 hz, 2450 hz",
+    "data_start": "play_BIO_3d_auto([395, 424, 460, 533, 554, 701, 745, 2450]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "8XXnruh3"
+  },
+  {
+    "data_name": "HIV BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for HIV. The frequencies in this preset are: 683 hz, 714 hz, 3554 hz",
+    "data_start": "play_BIO_3d_auto([683, 714, 3554]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "peoWPpuc"
+  },
+  {
+    "data_name": "Hodgkin's Disease BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Hodgkin's Disease. The frequencies in this preset are: 552 hz, 1522 hz",
+    "data_start": "play_BIO_3d_auto([552, 1522]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "bHw7rc6F"
+  },
+  {
+    "data_name": "Household Insect Mix BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Household Insect Mix. The frequencies in this preset are: 723 hz",
+    "data_start": "play_BIO_3d_auto([723]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "8ohGMCvJ"
+  },
+  {
+    "data_name": "Icterus Haemolytic BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Icterus Haemolytic. The frequencies in this preset are: 243 hz",
+    "data_start": "play_BIO_3d_auto([243]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "CjQeB2bi"
+  },
+  {
+    "data_name": "Influenza Spanish BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Influenza Spanish. The frequencies in this preset are: 462 hz",
+    "data_start": "play_BIO_3d_auto([462]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "RpR6DExH"
+  },
+  {
+    "data_name": "Influenza Swine BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Influenza Swine. The frequencies in this preset are: 413 hz, 432 hz, 663 hz, 839 hz, 995 hz",
+    "data_start": "play_BIO_3d_auto([413, 432, 663, 839, 995]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Ji2timTL"
+  },
+  {
+    "data_name": "Influenza Triple Nosode BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Influenza Triple Nosode. The frequencies in this preset are: 421 hz, 632 hz, 1242 hz, 1422 hz, 1922 hz, 3122 hz",
+    "data_start": "play_BIO_3d_auto([421, 632, 1242, 1422, 1922, 3122]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "e4oavXfJ"
+  },
+  {
+    "data_name": "Influenza Virus A Port Chalmers BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Influenza Virus A Port Chalmers. The frequencies in this preset are: 332 hz",
+    "data_start": "play_BIO_3d_auto([332]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "1qBC44RJ"
+  },
+  {
+    "data_name": "Influenzum Bach Poly Flu BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Influenzum Bach Poly Flu. The frequencies in this preset are: 122 hz, 350 hz, 487 hz, 634 hz, 823 hz",
+    "data_start": "play_BIO_3d_auto([122, 350, 487, 634, 823]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Dvzzp2aV"
+  },
+  {
+    "data_name": "Influenzum Toxicum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Influenzum Toxicum. The frequencies in this preset are: 854 hz",
+    "data_start": "play_BIO_3d_auto([854]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "t4sKCmGl"
+  },
+  {
+    "data_name": "Kaposi's Sarcoma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Kaposi's Sarcoma. The frequencies in this preset are: 249 hz, 418 hz",
+    "data_start": "play_BIO_3d_auto([249, 418]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "TbHQcPIs"
+  },
+  {
+    "data_name": "Kidney Papilloma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Kidney Papilloma. The frequencies in this preset are: 110 hz, 767 hz, 917 hz",
+    "data_start": "play_BIO_3d_auto([110, 767, 917]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "ki5tbL87"
+  },
+  {
+    "data_name": "Kieferosteitis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Kieferosteitis. The frequencies in this preset are: 432 hz, 516 hz",
+    "data_start": "play_BIO_3d_auto([432, 516]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "UmzFtnua"
+  },
+  {
+    "data_name": "Klebsiella Pneumoniae BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Klebsiella Pneumoniae. The frequencies in this preset are: 412 hz, 766 hz",
+    "data_start": "play_BIO_3d_auto([412, 766]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "yQ3bTCHV"
+  },
+  {
+    "data_name": "Lamblia BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Lamblia. The frequencies in this preset are: 334 hz",
+    "data_start": "play_BIO_3d_auto([334]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "dBVBiHpx"
+  },
+  {
+    "data_name": "Lateral Sclerose BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Lateral Sclerose. The frequencies in this preset are: 254 hz",
+    "data_start": "play_BIO_3d_auto([254]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "e8e5IhJT"
+  },
+  {
+    "data_name": "Leishman-Donovan Bodies BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Leishman-Donovan Bodies. The frequencies in this preset are: 525 hz",
+    "data_start": "play_BIO_3d_auto([525]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Xn87T9tG"
+  },
+  {
+    "data_name": "Leptospirosis PC BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Leptospirosis PC. The frequencies in this preset are: 612 hz",
+    "data_start": "play_BIO_3d_auto([612]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "VSwEc7PM"
+  },
+  {
+    "data_name": "Leukemia Hairy Cell BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Leukemia Hairy Cell. The frequencies in this preset are: 122 hz, 622 hz, 932 hz, 5122 hz",
+    "data_start": "play_BIO_3d_auto([122, 622, 932, 5122]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "JOr5xSMW"
+  },
+  {
+    "data_name": "Leukemia Lymphatic BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Leukemia Lymphatic. The frequencies in this preset are: 478 hz, 833 hz",
+    "data_start": "play_BIO_3d_auto([478, 833]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "roRwRRaC"
+  },
+  {
+    "data_name": "Leukemia BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Leukemia. The frequencies in this preset are: 424 hz, 830 hz, 901 hz, 918 hz",
+    "data_start": "play_BIO_3d_auto([424, 830, 901, 918]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "ngUvKULt"
+  },
+  {
+    "data_name": "Leukoencephalitis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Leukoencephalitis. The frequencies in this preset are: 324 hz, 572 hz, 932 hz, 1035 hz, 1079 hz, 1111 hz, 1160 hz, 1333 hz, 1630 hz",
+    "data_start": "play_BIO_3d_auto([324, 572, 932, 1035, 1079, 1111, 1160, 1333, 1630]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "mNG8WJDY"
+  },
+  {
+    "data_name": "Leukose BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Leukose. The frequencies in this preset are: 612 hz, 633 hz, 653 hz, 3722 hz, 41224 hz",
+    "data_start": "play_BIO_3d_auto([612, 633, 653, 3722, 41224]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "vlC6MV3s"
+  },
+  {
+    "data_name": "Lipoma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Lipoma. The frequencies in this preset are: 47 hz",
+    "data_start": "play_BIO_3d_auto([47]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "GJ6WCfAc"
+  },
+  {
+    "data_name": "Lung Sinus Bacteria BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Lung Sinus Bacteria. The frequencies in this preset are: 548 hz",
+    "data_start": "play_BIO_3d_auto([548]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "VL7CKdth"
+  },
+  {
+    "data_name": "Lupus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Lupus. The frequencies in this preset are: 205 hz, 243 hz, 244 hz, 352 hz, 386 hz, 633 hz, 921 hz, 942 hz, 993 hz, 1333 hz, 1464 hz",
+    "data_start": "play_BIO_3d_auto([205, 243, 244, 352, 386, 633, 921, 942, 993, 1333, 1464]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "KuGGxshs"
+  },
+  {
+    "data_name": "Lyme Disease BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Lyme Disease. The frequencies in this preset are: 254 hz, 345 hz, 525 hz, 605 hz, 644 hz, 673 hz, 797 hz, 884 hz, 1455 hz",
+    "data_start": "play_BIO_3d_auto([254, 345, 525, 605, 644, 673, 797, 884, 1455]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "KhvILCaS"
+  },
+  {
+    "data_name": "Lyssinum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Lyssinum. The frequencies in this preset are: 547 hz, 793 hz",
+    "data_start": "play_BIO_3d_auto([547, 793]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "hnSVL7YK"
+  },
+  {
+    "data_name": "Malaria BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Malaria. The frequencies in this preset are: 222 hz, 550 hz, 713 hz, 930 hz, 1032 hz, 1433 hz",
+    "data_start": "play_BIO_3d_auto([222, 550, 713, 930, 1032, 1433]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "TzmvhBol"
+  },
+  {
+    "data_name": "Mallei BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mallei. The frequencies in this preset are: 1273 hz",
+    "data_start": "play_BIO_3d_auto([1273]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "HE12lv8g"
+  },
+  {
+    "data_name": "Mannan BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mannan. The frequencies in this preset are: 961 hz",
+    "data_start": "play_BIO_3d_auto([961]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "pwg0Hxfz"
+  },
+  {
+    "data_name": "Marsh Elder BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Marsh Elder. The frequencies in this preset are: 474 hz",
+    "data_start": "play_BIO_3d_auto([474]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "eu1QVqNB"
+  },
+  {
+    "data_name": "Mastitis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mastitis. The frequencies in this preset are: 654 hz",
+    "data_start": "play_BIO_3d_auto([654]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "i8pEZweY"
+  },
+  {
+    "data_name": "Mastoiditis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mastoiditis. The frequencies in this preset are: 287 hz",
+    "data_start": "play_BIO_3d_auto([287]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "LdgPvmCS"
+  },
+  {
+    "data_name": "Measles Rubella BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Measles Rubella. The frequencies in this preset are: 431 hz, 510 hz",
+    "data_start": "play_BIO_3d_auto([431, 510]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Knb0Jnxj"
+  },
+  {
+    "data_name": "Measles Rubeola Vaccine BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Measles Rubeola Vaccine. The frequencies in this preset are: 962 hz",
+    "data_start": "play_BIO_3d_auto([962]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "8W63qYZa"
+  },
+  {
+    "data_name": "Medorrhinum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Medorrhinum. The frequencies in this preset are: 230 hz, 442 hz, 554 hz, 843 hz, 854 hz, 1700 hz, 1880 hz, 2222 hz",
+    "data_start": "play_BIO_3d_auto([230, 442, 554, 843, 854, 1700, 1880, 2222]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "GtukEiz9"
+  },
+  {
+    "data_name": "Melanoma Metastasis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Melanoma Metastasis. The frequencies in this preset are: 979 hz",
+    "data_start": "play_BIO_3d_auto([979]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "2qPj10QG"
+  },
+  {
+    "data_name": "Meningococcinum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Meningococcinum. The frequencies in this preset are: 130 hz, 517 hz, 676 hz, 677 hz",
+    "data_start": "play_BIO_3d_auto([130, 517, 676, 677]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "dGMIWEWe"
+  },
+  {
+    "data_name": "Meningococcus Virus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Meningococcus Virus. The frequencies in this preset are: 720 hz",
+    "data_start": "play_BIO_3d_auto([720]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "DhugdnzK"
+  },
+  {
+    "data_name": "Microsporum Audouini BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Microsporum Audouini. The frequencies in this preset are: 422 hz, 831 hz, 1222 hz",
+    "data_start": "play_BIO_3d_auto([422, 831, 1222]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "eNnDl7pc"
+  },
+  {
+    "data_name": "Mold Mix A BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mold Mix A. The frequencies in this preset are: 594 hz",
+    "data_start": "play_BIO_3d_auto([594]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "7d1Ehj7H"
+  },
+  {
+    "data_name": "Mold Mix B BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mold Mix B. The frequencies in this preset are: 158 hz, 512 hz, 623 hz, 774 hz, 1016 hz, 1463 hz",
+    "data_start": "play_BIO_3d_auto([158, 512, 623, 774, 1016, 1463]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "hamWuoWI"
+  },
+  {
+    "data_name": "Mold BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mold. The frequencies in this preset are: 222 hz, 242 hz, 523 hz, 565 hz, 592 hz, 623 hz, 745 hz, 933 hz, 1130 hz, 1155 hz, 1333 hz, 1833 hz, 4442 hz",
+    "data_start": "play_BIO_3d_auto([222, 242, 523, 565, 592, 623, 745, 933, 1130, 1155, 1333, 1833, 4442]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "brcfwycf"
+  },
+  {
+    "data_name": "Monilia BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Monilia. The frequencies in this preset are: 866 hz, 886 hz",
+    "data_start": "play_BIO_3d_auto([866, 886]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "MKRBUM6A"
+  },
+  {
+    "data_name": "Monotospora Languinosa BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Monotospora Languinosa. The frequencies in this preset are: 788 hz",
+    "data_start": "play_BIO_3d_auto([788]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "kyMhiaBR"
+  },
+  {
+    "data_name": "Morbus Parkinson BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Morbus Parkinson. The frequencies in this preset are: 813 hz",
+    "data_start": "play_BIO_3d_auto([813]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "e2uWq3UJ"
+  },
+  {
+    "data_name": "Morgan BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Morgan. The frequencies in this preset are: 778 hz",
+    "data_start": "play_BIO_3d_auto([778]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "hwCznoIl"
+  },
+  {
+    "data_name": "Mucocutan Perniciosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mucocutan Perniciosis. The frequencies in this preset are: 833 hz",
+    "data_start": "play_BIO_3d_auto([833]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "FLcHDiFH"
+  },
+  {
+    "data_name": "Mucor Mucedo BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mucor Mucedo. The frequencies in this preset are: 612 hz, 1000 hz",
+    "data_start": "play_BIO_3d_auto([612, 1000]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "lGC9KTtd"
+  },
+  {
+    "data_name": "Mucor Plumbeus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mucor Plumbeus. The frequencies in this preset are: 361 hz",
+    "data_start": "play_BIO_3d_auto([361]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "yJnbYSPH"
+  },
+  {
+    "data_name": "Mucor Racemosus Sinus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mucor Racemosus Sinus. The frequencies in this preset are: 310 hz, 474 hz",
+    "data_start": "play_BIO_3d_auto([310, 474]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "sZ5iZouM"
+  },
+  {
+    "data_name": "Mucoviscidosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mucoviscidosis. The frequencies in this preset are: 523 hz",
+    "data_start": "play_BIO_3d_auto([523]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "ietXg5Nl"
+  },
+  {
+    "data_name": "Mumps Vaccine BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mumps Vaccine. The frequencies in this preset are: 273 hz, 551 hz, 711 hz, 730 hz, 1419 hz",
+    "data_start": "play_BIO_3d_auto([273, 551, 711, 730, 1419]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "1pSmqrwF"
+  },
+  {
+    "data_name": "Mumps BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mumps. The frequencies in this preset are: 152 hz, 190 hz, 235 hz, 242 hz, 516 hz, 642 hz, 674 hz, 922 hz, 1243 hz, 1660 hz, 2630 hz, 3142 hz",
+    "data_start": "play_BIO_3d_auto([152, 190, 235, 242, 516, 642, 674, 922, 1243, 1660, 2630, 3142]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "KbadrpLg"
+  },
+  {
+    "data_name": "Muscular Dystrophy BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Muscular Dystrophy. The frequencies in this preset are: 153 hz",
+    "data_start": "play_BIO_3d_auto([153]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "wLW8LWcT"
+  },
+  {
+    "data_name": "Mycogone Species (spp) BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mycogone Species (spp). The frequencies in this preset are: 371 hz, 446 hz, 1123 hz",
+    "data_start": "play_BIO_3d_auto([371, 446, 1123]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Vh5H41Y9"
+  },
+  {
+    "data_name": "Mycoplasma Pneumonia BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mycoplasma Pneumonia. The frequencies in this preset are: 688 hz",
+    "data_start": "play_BIO_3d_auto([688]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "H8k0jprI"
+  },
+  {
+    "data_name": "Mycosis Fungoides BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Mycosis Fungoides. The frequencies in this preset are: 532 hz, 662 hz, 678 hz, 852 hz, 1444 hz",
+    "data_start": "play_BIO_3d_auto([532, 662, 678, 852, 1444]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "WhPzjSsN"
+  },
+  {
+    "data_name": "Myeloid Leukemia BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Myeloid Leukemia. The frequencies in this preset are: 422 hz, 822 hz",
+    "data_start": "play_BIO_3d_auto([422, 822]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "2YxJsuos"
+  },
+  {
+    "data_name": "Myocardial Necrosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Myocardial Necrosis. The frequencies in this preset are: 706 hz, 789 hz",
+    "data_start": "play_BIO_3d_auto([706, 789]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "WojCJ2id"
+  },
+  {
+    "data_name": "Myositis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Myositis. The frequencies in this preset are: 120 hz, 122 hz, 125 hz, 129 hz, 1124 hz, 1169 hz",
+    "data_start": "play_BIO_3d_auto([120, 122, 125, 129, 1124, 1169]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "JrLi7RrT"
+  },
+  {
+    "data_name": "Nagel Mycosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Nagel Mycosis. The frequencies in this preset are: 462 hz, 654 hz",
+    "data_start": "play_BIO_3d_auto([462, 654]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "7gGMoL6Q"
+  },
+  {
+    "data_name": "Nagel Trichophyton BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Nagel Trichophyton. The frequencies in this preset are: 133 hz, 381 hz, 812 hz, 2422 hz",
+    "data_start": "play_BIO_3d_auto([133, 381, 812, 2422]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "n2bNPEjy"
+  },
+  {
+    "data_name": "Nasal Polyp BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Nasal Polyp. The frequencies in this preset are: 542 hz, 1436 hz",
+    "data_start": "play_BIO_3d_auto([542, 1436]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "V5p17mq4"
+  },
+  {
+    "data_name": "Nasturtium BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Nasturtium. The frequencies in this preset are: 143 hz",
+    "data_start": "play_BIO_3d_auto([143]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "dUsKPYwd"
+  },
+  {
+    "data_name": "Nematodes BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Nematodes. The frequencies in this preset are: 771 hz",
+    "data_start": "play_BIO_3d_auto([771]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "kK3l2Tvf"
+  },
+  {
+    "data_name": "Nephritis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Nephritis. The frequencies in this preset are: 264 hz",
+    "data_start": "play_BIO_3d_auto([264]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Dgp5kAbe"
+  },
+  {
+    "data_name": "Neurospora Sitophila BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Neurospora Sitophila. The frequencies in this preset are: 705 hz",
+    "data_start": "play_BIO_3d_auto([705]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "mWDmgScH"
+  },
+  {
+    "data_name": "Nigrospora Species (spp) BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Nigrospora Species (spp). The frequencies in this preset are: 302 hz",
+    "data_start": "play_BIO_3d_auto([302]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "SkAJhIeZ"
+  },
+  {
+    "data_name": "Ornithosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Ornithosis. The frequencies in this preset are: 331 hz, 583 hz, 1217 hz",
+    "data_start": "play_BIO_3d_auto([331, 583, 1217]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "XQv3xW23"
+  },
+  {
+    "data_name": "Osteitis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Osteitis. The frequencies in this preset are: 770 hz",
+    "data_start": "play_BIO_3d_auto([770]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "dmZX2wYf"
+  },
+  {
+    "data_name": "Osteomyelosclerosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Osteomyelosclerosis. The frequencies in this preset are: 79 hz, 330 hz",
+    "data_start": "play_BIO_3d_auto([79, 330]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "g22Ox6xW"
+  },
+  {
+    "data_name": "Osteosinusitis Max BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Osteosinusitis Max. The frequencies in this preset are: 243 hz",
+    "data_start": "play_BIO_3d_auto([243]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "YJWY75iQ"
+  },
+  {
+    "data_name": "Ovarian Cyst BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Ovarian Cyst. The frequencies in this preset are: 982 hz",
+    "data_start": "play_BIO_3d_auto([982]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "oZlcOekZ"
+  },
+  {
+    "data_name": "Ovum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Ovum. The frequencies in this preset are: 752 hz",
+    "data_start": "play_BIO_3d_auto([752]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "QvZ39YJW"
+  },
+  {
+    "data_name": "Ox Bile BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Ox Bile. The frequencies in this preset are: 672 hz",
+    "data_start": "play_BIO_3d_auto([672]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "38NvHFcd"
+  },
+  {
+    "data_name": "Papillomavirus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Papillomavirus. The frequencies in this preset are: 907 hz",
+    "data_start": "play_BIO_3d_auto([907]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "g7ms837j"
+  },
+  {
+    "data_name": "Paradontose BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Paradontose. The frequencies in this preset are: 424 hz, 1552 hz",
+    "data_start": "play_BIO_3d_auto([424, 1552]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "KfsHZ3pb"
+  },
+  {
+    "data_name": "Parkinson's Disease BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Parkinson's Disease. The frequencies in this preset are: 813 hz",
+    "data_start": "play_BIO_3d_auto([813]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "gq7vr47j"
+  },
+  {
+    "data_name": "Parvovirus Canine BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Parvovirus Canine. The frequencies in this preset are: 185 hz, 323 hz, 562 hz, 613 hz, 622 hz, 1000 hz, 4027 hz",
+    "data_start": "play_BIO_3d_auto([185, 323, 562, 613, 622, 1000, 4027]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "tMIO6XY8"
+  },
+  {
+    "data_name": "Pasteurella Combination BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Pasteurella Combination. The frequencies in this preset are: 913 hz",
+    "data_start": "play_BIO_3d_auto([913]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Rsjuqw9K"
+  },
+  {
+    "data_name": "Penicillium Chrysogenum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Penicillium Chrysogenum. The frequencies in this preset are: 344 hz, 868 hz, 1070 hz, 2411 hz",
+    "data_start": "play_BIO_3d_auto([344, 868, 1070, 2411]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "erHTa594"
+  },
+  {
+    "data_name": "Penicillium Notatum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Penicillium Notatum. The frequencies in this preset are: 321 hz, 555 hz, 629 hz, 825 hz, 942 hz",
+    "data_start": "play_BIO_3d_auto([321, 555, 629, 825, 942]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "22ik9ma5"
+  },
+  {
+    "data_name": "Pepto Streptococcus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Pepto Streptococcus. The frequencies in this preset are: 201 hz",
+    "data_start": "play_BIO_3d_auto([201]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "bVgyq8eA"
+  },
+  {
+    "data_name": "Perniosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Perniosis. The frequencies in this preset are: 232 hz, 622 hz, 822 hz, 4211 hz",
+    "data_start": "play_BIO_3d_auto([232, 622, 822, 4211]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "WIfiOFkF"
+  },
+  {
+    "data_name": "Pertussis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Pertussis. The frequencies in this preset are: 526 hz, 765 hz",
+    "data_start": "play_BIO_3d_auto([526, 765]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "zq6ejhWH"
+  },
+  {
+    "data_name": "Plague BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Plague. The frequencies in this preset are: 333 hz",
+    "data_start": "play_BIO_3d_auto([333]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Gw7gWVDt"
+  },
+  {
+    "data_name": "Pneumococcus Mixed Flora BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Pneumococcus Mixed Flora. The frequencies in this preset are: 158 hz, 174 hz, 645 hz, 801 hz",
+    "data_start": "play_BIO_3d_auto([158, 174, 645, 801]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "OgDK7xpy"
+  },
+  {
+    "data_name": "Pneumocystis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Pneumocystis. The frequencies in this preset are: 204 hz, 340 hz, 742 hz",
+    "data_start": "play_BIO_3d_auto([204, 340, 742]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "3r5HSFML"
+  },
+  {
+    "data_name": "Pneumonia Klebsiella Pneumoniae BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Pneumonia Klebsiella Pneumoniae. The frequencies in this preset are: 412 hz, 766 hz",
+    "data_start": "play_BIO_3d_auto([412, 766]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "3oCSAMwp"
+  },
+  {
+    "data_name": "Pneumonia Mycoplasma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Pneumonia Mycoplasma. The frequencies in this preset are: 688 hz",
+    "data_start": "play_BIO_3d_auto([688]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "blJPvb3I"
+  },
+  {
+    "data_name": "Polio BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Polio. The frequencies in this preset are: 742 hz, 1500 hz, 2632 hz",
+    "data_start": "play_BIO_3d_auto([742, 1500, 2632]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "kI3F0h0K"
+  },
+  {
+    "data_name": "Porphyria BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Porphyria. The frequencies in this preset are: 698 hz",
+    "data_start": "play_BIO_3d_auto([698]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "5s48cYZ1"
+  },
+  {
+    "data_name": "Protozoa BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Protozoa. The frequencies in this preset are: 432 hz, 753 hz",
+    "data_start": "play_BIO_3d_auto([432, 753]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "waxrcOyj"
+  },
+  {
+    "data_name": "Pseudomonas BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Pseudomonas. The frequencies in this preset are: 174 hz, 482 hz, 5311 hz",
+    "data_start": "play_BIO_3d_auto([174, 482, 5311]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "1qlDRpfJ"
+  },
+  {
+    "data_name": "Psittacosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Psittacosis. The frequencies in this preset are: 583 hz, 1217 hz",
+    "data_start": "play_BIO_3d_auto([583, 1217]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "bMbiqH2v"
+  },
+  {
+    "data_name": "Psorinum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Psorinum. The frequencies in this preset are: 786 hz",
+    "data_start": "play_BIO_3d_auto([786]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "AhHFdPMZ"
+  },
+  {
+    "data_name": "Pullularia Pullulans BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Pullularia Pullulans. The frequencies in this preset are: 1364 hz",
+    "data_start": "play_BIO_3d_auto([1364]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "1QLh4iuk"
+  },
+  {
+    "data_name": "Pyocyaneus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Pyocyaneus. The frequencies in this preset are: 437 hz",
+    "data_start": "play_BIO_3d_auto([437]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "L3YpG4U8"
+  },
+  {
+    "data_name": "Pyrogenium Mayo BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Pyrogenium Mayo. The frequencies in this preset are: 1625 hz",
+    "data_start": "play_BIO_3d_auto([1625]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "jtdh3cRG"
+  },
+  {
+    "data_name": "Q Fever BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Q Fever. The frequencies in this preset are: 1357 hz",
+    "data_start": "play_BIO_3d_auto([1357]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "R8bjRsz5"
+  },
+  {
+    "data_name": "Rabies BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Rabies. The frequencies in this preset are: 547 hz, 793 hz",
+    "data_start": "play_BIO_3d_auto([547, 793]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "XWuoLx3c"
+  },
+  {
+    "data_name": "Rhesus Gravidatum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Rhesus Gravidatum. The frequencies in this preset are: 684 hz",
+    "data_start": "play_BIO_3d_auto([684]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "qShTkiEN"
+  },
+  {
+    "data_name": "Rheumaticus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Rheumaticus. The frequencies in this preset are: 333 hz, 376 hz",
+    "data_start": "play_BIO_3d_auto([333, 376]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "poLgx6uu"
+  },
+  {
+    "data_name": "Rhinopneumonitis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Rhinopneumonitis. The frequencies in this preset are: 185 hz, 367 hz, 820 hz",
+    "data_start": "play_BIO_3d_auto([185, 367, 820]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "rLo7vDNc"
+  },
+  {
+    "data_name": "Rhizopus Nigricans BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Rhizopus Nigricans. The frequencies in this preset are: 132 hz",
+    "data_start": "play_BIO_3d_auto([132]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "t1w8sGWV"
+  },
+  {
+    "data_name": "Rhodo Torula BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Rhodo Torula. The frequencies in this preset are: 833 hz",
+    "data_start": "play_BIO_3d_auto([833]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "zoQeESTT"
+  },
+  {
+    "data_name": "Rhodococcus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Rhodococcus. The frequencies in this preset are: 124 hz, 835 hz",
+    "data_start": "play_BIO_3d_auto([124, 835]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "FXq9sSUb"
+  },
+  {
+    "data_name": "Rickettsia BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Rickettsia. The frequencies in this preset are: 129 hz, 632 hz, 943 hz, 1062 hz",
+    "data_start": "play_BIO_3d_auto([129, 632, 943, 1062]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "6RNplLS5"
+  },
+  {
+    "data_name": "Rocky Mountain Spotted Fever BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Rocky Mountain Spotted Fever. The frequencies in this preset are: 375 hz, 862 hz, 943 hz",
+    "data_start": "play_BIO_3d_auto([375, 862, 943]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "kJi8GiOL"
+  },
+  {
+    "data_name": "Round Worms BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Round Worms. The frequencies in this preset are: 240 hz, 650 hz, 688 hz",
+    "data_start": "play_BIO_3d_auto([240, 650, 688]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "HCJRGUXs"
+  },
+  {
+    "data_name": "Rubella BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Rubella. The frequencies in this preset are: 431 hz, 510 hz",
+    "data_start": "play_BIO_3d_auto([431, 510]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "O5RpCWev"
+  },
+  {
+    "data_name": "Rubeola Vaccine BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Rubeola Vaccine. The frequencies in this preset are: 962 hz",
+    "data_start": "play_BIO_3d_auto([962]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "PpsNuWcK"
+  },
+  {
+    "data_name": "Rubeola BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Rubeola. The frequencies in this preset are: 342 hz, 467 hz, 520 hz, 1489 hz",
+    "data_start": "play_BIO_3d_auto([342, 467, 520, 1489]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "LNGHFpjn"
+  },
+  {
+    "data_name": "Salivary Gland Virus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Salivary Gland Virus. The frequencies in this preset are: 126 hz, 597 hz, 1045 hz, 2145 hz",
+    "data_start": "play_BIO_3d_auto([126, 597, 1045, 2145]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "bQ6gg1BX"
+  },
+  {
+    "data_name": "Salmonella Type B BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Salmonella Type B. The frequencies in this preset are: 546 hz, 1634 hz",
+    "data_start": "play_BIO_3d_auto([546, 1634]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "nGZDzHeL"
+  },
+  {
+    "data_name": "Sanguis Menstrualis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Sanguis Menstrualis. The frequencies in this preset are: 591 hz",
+    "data_start": "play_BIO_3d_auto([591]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "O0PfFPjV"
+  },
+  {
+    "data_name": "Schuman B Cell BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Schuman B Cell. The frequencies in this preset are: 322 hz, 425 hz, 428 hz, 561 hz, 600 hz, 620 hz, 623 hz, 780 hz, 781 hz, 950 hz, 952 hz, 1023 hz, 1524 hz",
+    "data_start": "play_BIO_3d_auto([322, 425, 428, 561, 600, 620, 623, 780, 781, 950, 952, 1023, 1524]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "sVTOOGKR"
+  },
+  {
+    "data_name": "Sinusitis Frontalis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Sinusitis Frontalis. The frequencies in this preset are: 952 hz",
+    "data_start": "play_BIO_3d_auto([952]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "ATS4ITM5"
+  },
+  {
+    "data_name": "Sinusitis Maxillariss BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Sinusitis Maxillariss. The frequencies in this preset are: 160 hz",
+    "data_start": "play_BIO_3d_auto([160]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "ew0gcLLF"
+  },
+  {
+    "data_name": "Smallpox BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Smallpox. The frequencies in this preset are: 142 hz, 476 hz, 511 hz, 876 hz, 1644 hz, 2132 hz, 2544 hz",
+    "data_start": "play_BIO_3d_auto([142, 476, 511, 876, 1644, 2132, 2544]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "0yMPYOEK"
+  },
+  {
+    "data_name": "Solitary Cyst BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Solitary Cyst. The frequencies in this preset are: 75 hz, 543 hz",
+    "data_start": "play_BIO_3d_auto([75, 543]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "6DFAZZUc"
+  },
+  {
+    "data_name": "Sorghum Smut BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Sorghum Smut. The frequencies in this preset are: 294 hz",
+    "data_start": "play_BIO_3d_auto([294]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "36YBPhj0"
+  },
+  {
+    "data_name": "Sporobolomyces BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Sporobolomyces. The frequencies in this preset are: 753 hz",
+    "data_start": "play_BIO_3d_auto([753]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "dPQiAHii"
+  },
+  {
+    "data_name": "Staphylococcus Coagulae Positive BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Staphylococcus Coagulae Positive. The frequencies in this preset are: 643 hz",
+    "data_start": "play_BIO_3d_auto([643]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "lZRRpNh2"
+  },
+  {
+    "data_name": "Stemphylium BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Stemphylium. The frequencies in this preset are: 461 hz",
+    "data_start": "play_BIO_3d_auto([461]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "anmQKxeI"
+  },
+  {
+    "data_name": "Streptococcus Virus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Streptococcus Virus. The frequencies in this preset are: 563 hz, 611 hz, 727 hz",
+    "data_start": "play_BIO_3d_auto([563, 611, 727]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "d6JDnfa1"
+  },
+  {
+    "data_name": "Strongyloides BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Strongyloides. The frequencies in this preset are: 332 hz, 422 hz, 721 hz, 942 hz, 3212 hz",
+    "data_start": "play_BIO_3d_auto([332, 422, 721, 942, 3212]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "kaKZFLQY"
+  },
+  {
+    "data_name": "Struma Cystica BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Struma Cystica. The frequencies in this preset are: 5311 hz",
+    "data_start": "play_BIO_3d_auto([5311]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Kq3tN27L"
+  },
+  {
+    "data_name": "Struma Parenchyma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Struma Parenchyma. The frequencies in this preset are: 121 hz",
+    "data_start": "play_BIO_3d_auto([121]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "tytCyFbX"
+  },
+  {
+    "data_name": "Sudor Pedis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Sudor Pedis. The frequencies in this preset are: 148 hz",
+    "data_start": "play_BIO_3d_auto([148]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "NiiKPzbZ"
+  },
+  {
+    "data_name": "Swine Flu BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Swine Flu. The frequencies in this preset are: 413 hz, 432 hz, 663 hz, 839 hz, 995 hz",
+    "data_start": "play_BIO_3d_auto([413, 432, 663, 839, 995]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "8oZEnVdl"
+  },
+  {
+    "data_name": "Tetanus Antitoxin BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Tetanus Antitoxin. The frequencies in this preset are: 363 hz, 458 hz",
+    "data_start": "play_BIO_3d_auto([363, 458]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "Y8ZSf4Mg"
+  },
+  {
+    "data_name": "Tetanus BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Tetanus. The frequencies in this preset are: 352 hz, 554 hz, 1142 hz",
+    "data_start": "play_BIO_3d_auto([352, 554, 1142]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "4njvMTh9"
+  },
+  {
+    "data_name": "Thermi Bacteria BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Thermi Bacteria. The frequencies in this preset are: 233 hz, 441 hz",
+    "data_start": "play_BIO_3d_auto([233, 441]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "pJ7wCtCX"
+  },
+  {
+    "data_name": "Threadworm BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Threadworm. The frequencies in this preset are: 422 hz, 423 hz, 732 hz, 4412 hz",
+    "data_start": "play_BIO_3d_auto([422, 423, 732, 4412]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "k0LLNOzA"
+  },
+  {
+    "data_name": "Tobacco Mosaic BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Tobacco Mosaic. The frequencies in this preset are: 233 hz, 274 hz, 543 hz, 782 hz, 1052 hz",
+    "data_start": "play_BIO_3d_auto([233, 274, 543, 782, 1052]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "72GL0Z92"
+  },
+  {
+    "data_name": "Tonsillar NOS BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Tonsillar NOS. The frequencies in this preset are: 1656 hz",
+    "data_start": "play_BIO_3d_auto([1656]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "l31Rue6Z"
+  },
+  {
+    "data_name": "Torulopsis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Torulopsis. The frequencies in this preset are: 354 hz, 522 hz, 872 hz, 2121 hz",
+    "data_start": "play_BIO_3d_auto([354, 522, 872, 2121]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "HaPWoHpk"
+  },
+  {
+    "data_name": "Toxoplasmosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Toxoplasmosis. The frequencies in this preset are: 434 hz, 852 hz",
+    "data_start": "play_BIO_3d_auto([434, 852]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "ABf45NcI"
+  },
+  {
+    "data_name": "Trichinosis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Trichinosis. The frequencies in this preset are: 101 hz, 541 hz, 822 hz, 1054 hz, 1372 hz",
+    "data_start": "play_BIO_3d_auto([101, 541, 822, 1054, 1372]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "YFZbJg7J"
+  },
+  {
+    "data_name": "Trichoderma BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Trichoderma. The frequencies in this preset are: 711 hz",
+    "data_start": "play_BIO_3d_auto([711]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "uqPLJUat"
+  },
+  {
+    "data_name": "Trichophyton Mentagrophytes BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Trichophyton Mentagrophytes. The frequencies in this preset are: 311 hz",
+    "data_start": "play_BIO_3d_auto([311]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "XBX5LS8z"
+  },
+  {
+    "data_name": "Trichophyton Rubrum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Trichophyton Rubrum. The frequencies in this preset are: 752 hz, 923 hz",
+    "data_start": "play_BIO_3d_auto([752, 923]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "3GijgmWR"
+  },
+  {
+    "data_name": "Trichophyton BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Trichophyton. The frequencies in this preset are: 132 hz, 812 hz, 2422 hz, 9493 hz",
+    "data_start": "play_BIO_3d_auto([132, 812, 2422, 9493]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "lb7BxxIj"
+  },
+  {
+    "data_name": "Trypanosoma Gambiense BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Trypanosoma Gambiense. The frequencies in this preset are: 255 hz, 316 hz",
+    "data_start": "play_BIO_3d_auto([255, 316]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "0soxW3Bg"
+  },
+  {
+    "data_name": "Tuberculosis Bovine BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Tuberculosis Bovine. The frequencies in this preset are: 523 hz, 3353 hz",
+    "data_start": "play_BIO_3d_auto([523, 3353]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "lXQdge00"
+  },
+  {
+    "data_name": "Tuberculosis Klebsiella BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Tuberculosis Klebsiella. The frequencies in this preset are: 221 hz, 1132 hz, 1644 hz, 2313 hz, 6516 hz",
+    "data_start": "play_BIO_3d_auto([221, 1132, 1644, 2313, 6516]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "9guwuisy"
+  },
+  {
+    "data_name": "Tumor Brain BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Tumor Brain. The frequencies in this preset are: 543 hz, 641 hz, 857 hz",
+    "data_start": "play_BIO_3d_auto([543, 641, 857]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "fAZmD75K"
+  },
+  {
+    "data_name": "Ulcer Ventricular BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Ulcer Ventricular. The frequencies in this preset are: 232 hz, 1000 hz",
+    "data_start": "play_BIO_3d_auto([232, 1000]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "F95Sk4y8"
+  },
+  {
+    "data_name": "Uterine Polyp BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Uterine Polyp. The frequencies in this preset are: 689 hz",
+    "data_start": "play_BIO_3d_auto([689]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "eKXaXxKK"
+  },
+  {
+    "data_name": "Vaccininum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Vaccininum. The frequencies in this preset are: 476 hz",
+    "data_start": "play_BIO_3d_auto([476]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "fPgE3InS"
+  },
+  {
+    "data_name": "Varicella BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Varicella. The frequencies in this preset are: 345 hz, 668 hz, 716 hz, 738 hz",
+    "data_start": "play_BIO_3d_auto([345, 668, 716, 738]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "wGSeWT54"
+  },
+  {
+    "data_name": "Variola BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Variola. The frequencies in this preset are: 142 hz, 476 hz, 511 hz, 876 hz, 1644 hz, 2132 hz, 2544 hz",
+    "data_start": "play_BIO_3d_auto([142, 476, 511, 876, 1644, 2132, 2544]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "ykrlLwzp"
+  },
+  {
+    "data_name": "Variolinum BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Variolinum. The frequencies in this preset are: 542 hz, 569 hz, 832 hz, 3222 hz",
+    "data_start": "play_BIO_3d_auto([542, 569, 832, 3222]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "DaGZlg7O"
+  },
+  {
+    "data_name": "Verruca BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Verruca. The frequencies in this preset are: 644 hz, 767 hz, 953 hz",
+    "data_start": "play_BIO_3d_auto([644, 767, 953]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "K4OdSBOk"
+  },
+  {
+    "data_name": "Werlhof BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Werlhof. The frequencies in this preset are: 690 hz",
+    "data_start": "play_BIO_3d_auto([690]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "MlbvbHec"
+  },
+  {
+    "data_name": "Wolhynia Fever BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Wolhynia Fever. The frequencies in this preset are: 547 hz",
+    "data_start": "play_BIO_3d_auto([547]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "OF8qzeDP"
+  },
+  {
+    "data_name": "Yersinia Pestis BIO 3D frequencies",
+    "data_description": "This is BIO 3D frequencies healing preset for Yersinia Pestis. The frequencies in this preset are: 333 hz",
+    "data_start": "play_BIO_3d_auto([333]);",
+    "data_stop": "stop_BIO_3d();",
+    "data_id": "BDaOAVBB"
+  }
+]
