@@ -20,7 +20,7 @@ function convertLine(line) {
   // console.log(nameAndType);
   let name = nameAndType.slice(0, -1).join(','); // Join the name parts with comma
   // let type = nameAndType[nameAndType.length - 1];
-  let type = parts[2];
+  let type = parts[2].slice(1, -2);
   console.log(type);
   // Get the frequencies from the second part
   let frequencies = parts[1].split(' ').filter(x => x); // Remove any empty strings
