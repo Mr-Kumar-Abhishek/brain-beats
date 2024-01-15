@@ -13,11 +13,11 @@ Chakra Sacral,"210.42,",ALT
 Chakra Solar Plexus,"126.22,",ALT 
 Chakra Throat,"141.27,",ALT 
 DNA and DNA Nucleotides + WBC RBC etc,"528,731,732,537.8,300,543.4,300,545.6,300,550,300,637,600,999,300,1434,600,1524,600,2452,600,1056,2008,9999,",ALT 
-Jupiter - Hearing,Formal Concepts","10.7,",ALT 
-Jupiter - Intestines,Emotional Assimilation,Expansion","2.67,",ALT 
-Jupiter - Lungs,Oxygen,Heat","5.35,",ALT 
-Mars - Bara,Pelvic Balance,Emotion Balance and Stability","3.07,",ALT 
-Mars - Eyes,Visualization","12.3,",ALT 
+Jupiter - Hearing,Formal Concepts,"10.7,",ALT 
+Jupiter - Intestines,Emotional Assimilation,Expansion,"2.67,",ALT 
+Jupiter - Lungs,Oxygen,Heat,"5.35,",ALT 
+Mars - Bara,Pelvic Balance,Emotion Balance and Stability,"3.07,",ALT 
+Mars - Eyes,Visualization,"12.3,",ALT 
 Mars - Heart,Love,Warmth,"6.15,",ALT 
 Mercury - Genitals,"2.3,",ALT 
 Mercury - Spleen,Blood,Emotional Impulse,"4.6,",ALT 
@@ -36,7 +36,7 @@ Planet - SUN,"126.22,",ALT
 Planet - Uranus,"207.36,",ALT 
 Planet - Venus,"221.23,",ALT 
 Sacral,Zinc Etc,"32,64,128,147,210.42,256,272,303,324,337,384,400,440,448,480,537,586,635,999,1444,1200,1351,1413,1534,1550,",ALT 
-Saturn - Collarbones,Vitality,Overall Balance,Stability","6.88,",ALT 
+Saturn - Collarbones,Vitality,Overall Balance,Stability,"6.88,",ALT 
 Saturn - Frontal Lobes,Seventh Sense,Final Decision,"13.8,",ALT 
 Saturn - Ovaries,Vitality,Life at Every Level,"3.44,",ALT 
 Sun - Coccyx,"2.06,",ALT 
@@ -45,4 +45,4 @@ Sun - Mouth,Speech,Creativity,"8.22,",ALT
 Sun - Top of Head,Spirit,Liberation,Transcendence,"16.4,",ALT 
 Venus - Cortex,Intelligence,"15.4,",ALT 
 Venus - Liver,Pancreas,Emotional,Appetite/Digestion,"3.84,",ALT 
-Venus - Shoulders,Strength of Arms,Expansion,Teaching,"7.69,",ALT 
+Venus - Shoulders,Strength of Arms,Expansion,Teaching,"7.69,",ALT 
