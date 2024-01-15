@@ -3576,9 +3576,9 @@ Joint Pains,"28,95,240,522,600,625,650,2900,",XTRA
 Joints Inflamed,"10000,",XTRA 
 Joy,"360,",XTRA 
 Joy,"1126,1927,3127,",XTRA 
-Jupiter - Hearing,Formal Concepts","10.7,",ALT 
-Jupiter - Intestines,Emotional Assimilation,Expansion","2.67,",ALT 
-Jupiter - Lungs,Oxygen,Heat","5.35,",ALT 
+Jupiter - Hearing,Formal Concepts,"10.7,",ALT 
+Jupiter - Intestines,Emotional Assimilation,Expansion,"2.67,",ALT 
+Jupiter - Lungs,Oxygen,Heat,"5.35,",ALT 
 Jupiter,"183.58,",XTRA 
 Kallmann Syndrome,"120,500,850,5500,32500,35000,75850,92500,125620,519340,",KHZ 
 Kaposi's Sarcoma,"249,418,",BIO 
@@ -4007,8 +4007,8 @@ Maple Syrup Urine Disease,"30,500,870,10470,37110,87500,135230,225680,397500,597
 Marfan Syndrome,"150,230,650,930,36290,211090,475680,527000,665340,749000,",KHZ 
 Marijuana,"30,",XTRA 
 Mark Seabock,"557,922,",VEGA 
-Mars - Bara,Pelvic Balance,Emotion Balance and Stability","3.07,",ALT 
-Mars - Eyes,Visualization","12.3,",ALT 
+Mars - Bara,Pelvic Balance,Emotion Balance and Stability,"3.07,",ALT 
+Mars - Eyes,Visualization,"12.3,",ALT 
 Mars - Heart,Love,Warmth,"6.15,",ALT 
 Mars,"144.72,",XTRA 
 Marsh Elder,"474,",BIO 
@@ -5225,7 +5225,7 @@ Sarcoptes Scabiei Itch,"735000,",HC
 Sarcoptes Scabiei Itch,"11484.37,1821.88,",XTRA 
 Sars 1,Respiratory,"162,563,1556,1559,2286,3735,5235,5513,5613,5763,6157,8015,9563,33566,255616,",CAFL 
 Sars 2,"499.25,524.47,563,597.68,648,654.4,689.14,701.6,720.36,769.62,779.5,937.76,998.5,1001.86,1048.94,1143,",CAFL 
-Saturn - Collarbones,Vitality,Overall Balance,Stability","6.88,",ALT 
+Saturn - Collarbones,Vitality,Overall Balance,Stability,"6.88,",ALT 
 Saturn - Frontal Lobes,Seventh Sense,Final Decision,"13.8,",ALT 
 Saturn - Ovaries,Vitality,Life at Every Level,"3.44,",ALT 
 Saturn,"147.85,",XTRA 
