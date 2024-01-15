@@ -17,9 +17,11 @@ function convertLine(line) {
   let parts = line.split('"');
   // Get the name and type from the first part
   let nameAndType = parts[0].split(',');
-  console.log(nameAndType);
+  // console.log(nameAndType);
   let name = nameAndType.slice(0, -1).join(','); // Join the name parts with comma
-  let type = nameAndType[nameAndType.length - 1];
+  // let type = nameAndType[nameAndType.length - 1];
+  let type = parts[2];
+  console.log(type);
   // Get the frequencies from the second part
   let frequencies = parts[1].split(' ').filter(x => x); // Remove any empty strings
   // Construct the json object
