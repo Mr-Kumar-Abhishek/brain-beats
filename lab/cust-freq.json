@@ -1,0 +1,1864 @@
+[
+  {
+    "data_name": "Ammonia Remove CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Ammonia Remove. The frequencies in this preset are: 1719.51 hz",
+    "data_start": "play_CUST_3d_auto([1719.51]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "d9HfZODb"
+  },
+  {
+    "data_name": "Anaplasma Lyme CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Anaplasma Lyme. The frequencies in this preset are: 387 hz",
+    "data_start": "play_CUST_3d_auto([387]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "L4nQeiPZ"
+  },
+  {
+    "data_name": "Ascaris Lumbricoides All Stages CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Ascaris Lumbricoides All Stages. The frequencies in this preset are: 471910.2143 hz, 1200 hz, 55455.4555 hz, 120 hz, 7456.5499 hz, 240 hz, 4777.5565 hz, 360 hz",
+    "data_start": "play_CUST_3d_auto([471910.2143, 1200, 55455.4555, 120, 7456.5499, 240, 4777.5565, 360]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "m9EpP9FT"
+  },
+  {
+    "data_name": "Ascaris Megalocephala All Stages CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Ascaris Megalocephala All Stages. The frequencies in this preset are: 128159.7732 hz, 300 hz, 111.1211 hz, 8810.5764 hz, 360 hz, 22450.8855 hz, 300 hz, 34688.1655 hz, 300 hz",
+    "data_start": "play_CUST_3d_auto([128159.7732, 300, 111.1211, 8810.5764, 360, 22450.8855, 300, 34688.1655, 300]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "ZWPOoDOE"
+  },
+  {
+    "data_name": "Ascites 1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Ascites 1. The frequencies in this preset are: 70 hz, 4160.24920 hz, 37500 hz, 31907 hz, 37605 hz, 31000 hz, 39167 hz, 18667 hz, 34577 hz",
+    "data_start": "play_CUST_3d_auto([70, 4160.24920, 37500, 31907, 37605, 31000, 39167, 18667, 34577]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "6cPbShWS"
+  },
+  {
+    "data_name": "Ascites 2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Ascites 2. The frequencies in this preset are: 43379.96875 hz, 43380.03125 hz, 43380 hz, 41989.96875 hz, 4190.03125 hz, 41990 hz, 19009.96875 hz, 19010.13125 hz, 19010 hz, 18949.96875 hz, 18950.03125 hz, 18950 hz",
+    "data_start": "play_CUST_3d_auto([43379.96875, 43380.03125, 43380, 41989.96875, 4190.03125, 41990, 19009.96875, 19010.13125, 19010, 18949.96875, 18950.03125, 18950]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "qh9htLJA"
+  },
+  {
+    "data_name": "Aura,Energy CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Aura,Energy. The frequencies in this preset are: 2675 hz",
+    "data_start": "play_CUST_3d_auto([2675]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "W1gpupgE"
+  },
+  {
+    "data_name": "Babesia Lyme CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Babesia Lyme. The frequencies in this preset are: 76 hz, 570 hz, 753 hz, 1583 hz, 1584 hz, 5776 hz, 650 hz",
+    "data_start": "play_CUST_3d_auto([76, 570, 753, 1583, 1584, 5776, 650]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Zx79pk0L"
+  },
+  {
+    "data_name": "Bartonella Lyme CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Bartonella Lyme. The frequencies in this preset are: 832 hz, 39936 hz",
+    "data_start": "play_CUST_3d_auto([832, 39936]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "p4DGJEZc"
+  },
+  {
+    "data_name": "Borrelia Burgdorferi Lyme CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Borrelia Burgdorferi Lyme. The frequencies in this preset are: 432 hz, 864 hz, 345 hz, 612 hz, 2016 hz, 38304 hz",
+    "data_start": "play_CUST_3d_auto([432, 864, 345, 612, 2016, 38304]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "QMaTnKTu"
+  },
+  {
+    "data_name": "Borrelia Spirochete A CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Borrelia Spirochete A. The frequencies in this preset are: 444 hz",
+    "data_start": "play_CUST_3d_auto([444]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "2GD82Nan"
+  },
+  {
+    "data_name": "Borrelia Spirochete B CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Borrelia Spirochete B. The frequencies in this preset are: 20 hz, 70 hz, 324 hz, 644 hz, 736 hz, 544 hz, 444 hz, 333 hz, 367 hz, 243 hz, 331 hz, 133 hz, 332 hz, 73 hz, 445 hz, 43 hz, 776 hz, 24 hz, 566 hz",
+    "data_start": "play_CUST_3d_auto([20, 70, 324, 644, 736, 544, 444, 333, 367, 243, 331, 133, 332, 73, 445, 43, 776, 24, 566]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "fuIuuD8z"
+  },
+  {
+    "data_name": "Borrelia Spp. Cysts CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Borrelia Spp. Cysts. The frequencies in this preset are: 840.6 hz",
+    "data_start": "play_CUST_3d_auto([840.6]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "9gviPrQh"
+  },
+  {
+    "data_name": "Calcium Uptake Reduce CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Calcium Uptake Reduce. The frequencies in this preset are: 16 hz",
+    "data_start": "play_CUST_3d_auto([16]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Zd43ARIh"
+  },
+  {
+    "data_name": "Calming 4 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Calming 4. The frequencies in this preset are: 1.9 hz, 3.9 hz, 5.2 hz, 6.8 hz, 7.3 hz, 9.2 hz, 11.9 hz, 13.96 hz, 15.96 hz, 17.3 hz, 20.4 hz",
+    "data_start": "play_CUST_3d_auto([1.9, 3.9, 5.2, 6.8, 7.3, 9.2, 11.9, 13.96, 15.96, 17.3, 20.4]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "V9w9dSLx"
+  },
+  {
+    "data_name": "Cancer 4 W1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer 4 W1. The frequencies in this preset are: 339 hz, 440 hz, 448 hz, 463 hz, 468 hz, 574 hz, 590 hz, 666 hz, 668 hz, 676 hz, 697 hz, 732 hz, 737 hz, 770 hz, 786 hz",
+    "data_start": "play_CUST_3d_auto([339, 440, 448, 463, 468, 574, 590, 666, 668, 676, 697, 732, 737, 770, 786]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "wcTvxAgb"
+  },
+  {
+    "data_name": "Cancer 4 W2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer 4 W2. The frequencies in this preset are: 854 hz, 866 hz, 1556 hz, 1662 hz, 1862 hz, 2127 hz, 2180 hz, 2182 hz, 2184 hz, 2452 hz, 2489 hz, 4445 hz, 5476 hz, 6064 hz, 6668 hz",
+    "data_start": "play_CUST_3d_auto([854, 866, 1556, 1662, 1862, 2127, 2180, 2182, 2184, 2452, 2489, 4445, 5476, 6064, 6668]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "0kfHqTGX"
+  },
+  {
+    "data_name": "Cancer All Tumors CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer All Tumors. The frequencies in this preset are: 727 hz, 727.5 hz, 728 hz, 2008 hz, 2128 hz",
+    "data_start": "play_CUST_3d_auto([727, 727.5, 728, 2008, 2128]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "bZ3Ippub"
+  },
+  {
+    "data_name": "Cancer BX CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer BX. The frequencies in this preset are: 1607450 hz",
+    "data_start": "play_CUST_3d_auto([1607450]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "BU2tl6lS"
+  },
+  {
+    "data_name": "Cancer BXBY CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer BXBY. The frequencies in this preset are: 782937.42 hz",
+    "data_start": "play_CUST_3d_auto([782937.42]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "70Ox9gbS"
+  },
+  {
+    "data_name": "Cancer BY Virus CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer BY Virus. The frequencies in this preset are: 1529520 hz",
+    "data_start": "play_CUST_3d_auto([1529520]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "5vgQ5xce"
+  },
+  {
+    "data_name": "Cancer Cell Repair Octal CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer Cell Repair Octal. The frequencies in this preset are: 5877968.080734 hz, 2938984.040367 hz, 1469492.020183 hz, 734746.010092 hz, 367373.005046 hz, 183686.502523 hz, 91843.251261 hz, 45921.625631 hz, 22960.812815 hz, 11480.406408 hz, 5740.203204 hz, 2870.101602 hz, 1435.050801 hz, 717.5254 hz, 358.7627 hz, 179.38135 hz",
+    "data_start": "play_CUST_3d_auto([5877968.080734, 2938984.040367, 1469492.020183, 734746.010092, 367373.005046, 183686.502523, 91843.251261, 45921.625631, 22960.812815, 11480.406408, 5740.203204, 2870.101602, 1435.050801, 717.5254, 358.7627, 179.38135]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "KXnqaTrF"
+  },
+  {
+    "data_name": "Cancer Cell Repair Scalar CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer Cell Repair Scalar. The frequencies in this preset are: 598209.060162 hz, 29783.075377 hz, 1482.81201 hz, 73.824863 hz",
+    "data_start": "play_CUST_3d_auto([598209.060162, 29783.075377, 1482.81201, 73.824863]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "OaA67qqo"
+  },
+  {
+    "data_name": "Cancer Cells CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer Cells. The frequencies in this preset are: 0.16-1.35 hz, 6250 D50 hz, 6.8 hz, 440 hz",
+    "data_start": "play_CUST_3d_auto([0.16-1.35, 6250 D50, 6.8, 440]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "LXaQ5B3a"
+  },
+  {
+    "data_name": "Cancer HPV (Moles and Tumors) CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer HPV (Moles and Tumors). The frequencies in this preset are: 1603750 hz",
+    "data_start": "play_CUST_3d_auto([1603750]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "gCPhh9yJ"
+  },
+  {
+    "data_name": "Cancer Throat BX Sweep 1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer Throat BX Sweep 1. The frequencies in this preset are: 1605450-1609450 hz",
+    "data_start": "play_CUST_3d_auto([1605450-1609450]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "GiXdruB8"
+  },
+  {
+    "data_name": "Cancer Throat BX Sweep 2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer Throat BX Sweep 2. The frequencies in this preset are: 1527520-1531520 hz",
+    "data_start": "play_CUST_3d_auto([1527520-1531520]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "NdL5HXmf"
+  },
+  {
+    "data_name": "Cancer Throat Tumor 1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer Throat Tumor 1. The frequencies in this preset are: 128 hz, 29000 hz, 38300 hz, 39007 hz",
+    "data_start": "play_CUST_3d_auto([128, 29000, 38300, 39007]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "BQeF1sqw"
+  },
+  {
+    "data_name": "Cancer Throat Tumor 2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer Throat Tumor 2. The frequencies in this preset are: 46015.6 hz, 23007.8 hz, 11503.9 hz, 10025 hz, 3713 hz, 2876 hz, 20480 hz, 1604 hz",
+    "data_start": "play_CUST_3d_auto([46015.6, 23007.8, 11503.9, 10025, 3713, 2876, 20480, 1604]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "FYhmC0BN"
+  },
+  {
+    "data_name": "Cancer Tumors CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer Tumors. The frequencies in this preset are: 1873.477 hz, 2221.323 hz, 6350.333 hz, 10456.383 hz",
+    "data_start": "play_CUST_3d_auto([1873.477, 2221.323, 6350.333, 10456.383]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "vmLL1TPx"
+  },
+  {
+    "data_name": "Cancer CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cancer. The frequencies in this preset are: 10022-10028 hz, 2400 hz, 5890000 hz",
+    "data_start": "play_CUST_3d_auto([10022-10028, 2400, 5890000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "i9df4qTC"
+  },
+  {
+    "data_name": "Candida HiPower CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Candida HiPower. The frequencies in this preset are: 23485 hz, 51155 hz, 51156 hz, 53940 hz, 58914 hz, 58916 hz, 88740 hz, 23484 hz, 57420 hz, 99180 hz, 8146 hz, 22620 hz, 29580 hz",
+    "data_start": "play_CUST_3d_auto([23485, 51155, 51156, 53940, 58914, 58916, 88740, 23484, 57420, 99180, 8146, 22620, 29580]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "lvewWB2d"
+  },
+  {
+    "data_name": "Candida LoPower CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Candida LoPower. The frequencies in this preset are: 31724 hz, 31725 hz, 33060 hz, 46980 hz, 50460 hz, 54404 hz, 54405 hz, 55250 hz, 55251 hz, 60900 hz, 64380 hz, 67860 hz, 412 hz",
+    "data_start": "play_CUST_3d_auto([31724, 31725, 33060, 46980, 50460, 54404, 54405, 55250, 55251, 60900, 64380, 67860, 412]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "R6UacXer"
+  },
+  {
+    "data_name": "Candida Organ Support CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Candida Organ Support. The frequencies in this preset are: 23958 hz, 24354 hz, 28251 hz, 29766 hz, 32121 hz, 32670 hz, 36735 hz, 38281 hz, 44506 hz, 44583 hz, 45549 hz, 45738 hz, 54531 hz, 56133 hz, 56376 hz, 57519 hz, 58806 hz, 63336 hz, 67977 hz, 71874 hz, 84942 hz, 86394 hz, 87000 hz, 89298 hz",
+    "data_start": "play_CUST_3d_auto([23958, 24354, 28251, 29766, 32121, 32670, 36735, 38281, 44506, 44583, 45549, 45738, 54531, 56133, 56376, 57519, 58806, 63336, 67977, 71874, 84942, 86394, 87000, 89298]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "rDcYjoNV"
+  },
+  {
+    "data_name": "Candida CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Candida. The frequencies in this preset are: 4640 hz",
+    "data_start": "play_CUST_3d_auto([4640]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "ppHg5B9O"
+  },
+  {
+    "data_name": "Cartilage and Connective Tissue CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cartilage and Connective Tissue. The frequencies in this preset are: 1028 hz",
+    "data_start": "play_CUST_3d_auto([1028]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "8MNJFlEx"
+  },
+  {
+    "data_name": "Chakra 2 Chain CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Chakra 2 Chain. The frequencies in this preset are: 456 hz, 606 hz, 364 hz, 256 hz, 384 hz, 288 hz, 432 hz, 360 hz, 288 hz, 384 hz, 256 hz, 364 hz, 606 hz",
+    "data_start": "play_CUST_3d_auto([456, 606, 364, 256, 384, 288, 432, 360, 288, 384, 256, 364, 606]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "N4QeCyUL"
+  },
+  {
+    "data_name": "Circulation Disturbances CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Circulation Disturbances. The frequencies in this preset are: 9.39 hz, 9.5 hz, 40 hz, 95 hz, 125 hz, 160 hz, 200 hz, 2112 hz, 2145 hz, 2489 hz, 2720 hz",
+    "data_start": "play_CUST_3d_auto([9.39, 9.5, 40, 95, 125, 160, 200, 2112, 2145, 2489, 2720]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "rHLlNQgJ"
+  },
+  {
+    "data_name": "Clark 2.5KHz Zapper Contact CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Clark 2.5KHz Zapper Contact. The frequencies in this preset are: 2500 hz, 420 hz, 5O100 hz, 0 hz, 1260 hz, 2500 hz, 420 hz, 0 hz, 1260 hz, 2500 hz, 420 hz",
+    "data_start": "play_CUST_3d_auto([2500, 420, 5O100, 0, 1260, 2500, 420, 0, 1260, 2500, 420]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "gVeca2Je"
+  },
+  {
+    "data_name": "Clark 2.5KHz Zapper Remote CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Clark 2.5KHz Zapper Remote. The frequencies in this preset are: 2500 hz, 4200 hz, 5O100 hz, 250000 hz, 12600 hz, 2500 hz, 4200 hz, 250000 hz, 12600 hz, 2500 hz, 4200 hz, 250000 hz, 12600 hz, 50 hz, 10800 hz",
+    "data_start": "play_CUST_3d_auto([2500, 4200, 5O100, 250000, 12600, 2500, 4200, 250000, 12600, 2500, 4200, 250000, 12600, 50, 10800]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "ZCwVGqjP"
+  },
+  {
+    "data_name": "Clark 30KHz Zapper Contact CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Clark 30KHz Zapper Contact. The frequencies in this preset are: 30000 hz, 420 hz, 5O100 hz, 0 hz, 1260 hz, 30000 hz, 420 hz, 0 hz, 1260 hz, 30000 hz, 420 hz",
+    "data_start": "play_CUST_3d_auto([30000, 420, 5O100, 0, 1260, 30000, 420, 0, 1260, 30000, 420]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "XBIKUEWu"
+  },
+  {
+    "data_name": "Clark 30KHz Zapper Remote CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Clark 30KHz Zapper Remote. The frequencies in this preset are: 30000 hz, 4200 hz, 5O100 hz, 250000 hz, 12600 hz, 30000 hz, 4200 hz, 250000 hz, 12600 hz, 30000 hz, 4200 hz, 250000 hz, 12600 hz, 50 hz, 10800 hz",
+    "data_start": "play_CUST_3d_auto([30000, 4200, 5O100, 250000, 12600, 30000, 4200, 250000, 12600, 30000, 4200, 250000, 12600, 50, 10800]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "NXNVOxIm"
+  },
+  {
+    "data_name": "Clark Dual Spectrum Zapper Remote CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Clark Dual Spectrum Zapper Remote. The frequencies in this preset are: 2500 hz, 4200 hz, 5O100 hz, 250000 hz, 12600 hz, 2500 hz, 4200 hz, 250000 hz, 12600 hz, 2500 hz, 4200 hz, 250000 hz, 12600 hz, 50 hz, 10800 hz",
+    "data_start": "play_CUST_3d_auto([2500, 4200, 5O100, 250000, 12600, 2500, 4200, 250000, 12600, 2500, 4200, 250000, 12600, 50, 10800]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "hLfbna9N"
+  },
+  {
+    "data_name": "Clark Dual Zapper Contact CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Clark Dual Zapper Contact. The frequencies in this preset are: 2500 hz, 420 hz, 5O100 hz, 0 hz, 1260 hz, 2500 hz, 420 hz, 0 hz, 1260 hz, 2500 hz, 420 hz",
+    "data_start": "play_CUST_3d_auto([2500, 420, 5O100, 0, 1260, 2500, 420, 0, 1260, 2500, 420]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Al7KGJGT"
+  },
+  {
+    "data_name": "Clark Dual Zapper Remote CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Clark Dual Zapper Remote. The frequencies in this preset are: 2500 hz, 4200 hz, 5O100 hz, 250000 hz, 12600 hz, 2500 hz, 4200 hz, 250000 hz, 12600 hz, 2500 hz, 4200 hz, 250000 hz, 12600 hz, 50 hz, 10800 hz",
+    "data_start": "play_CUST_3d_auto([2500, 4200, 5O100, 250000, 12600, 2500, 4200, 250000, 12600, 2500, 4200, 250000, 12600, 50, 10800]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Quc2ctxK"
+  },
+  {
+    "data_name": "Colloidal Gold Octal CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Colloidal Gold Octal. The frequencies in this preset are: 7205251.195738 hz, 3602625.597869 hz",
+    "data_start": "play_CUST_3d_auto([7205251.195738, 3602625.597869]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "CCd5CXMH"
+  },
+  {
+    "data_name": "Colloidal Gold Scalar CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Colloidal Gold Scalar. The frequencies in this preset are: 7364246.875738 hz, 366644.262680 hz",
+    "data_start": "play_CUST_3d_auto([7364246.875738, 366644.262680]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "URPcgvr1"
+  },
+  {
+    "data_name": "Colloidal Silver and Gold Octal CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Colloidal Silver and Gold Octal. The frequencies in this preset are: 9088.655073 hz, 7036.378121 hz, 1173.892841 hz, 908.820264 hz",
+    "data_start": "play_CUST_3d_auto([9088.655073, 7036.378121, 1173.892841, 908.820264]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "miQBZcUO"
+  },
+  {
+    "data_name": "Colloidal Silver and Gold Scalar CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Colloidal Silver and Gold Scalar. The frequencies in this preset are: 7364246.875738 hz, 473582.172629 hz, 366644.262680 hz, 23578.268006 hz",
+    "data_start": "play_CUST_3d_auto([7364246.875738, 473582.172629, 366644.262680, 23578.268006]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "2hWwpP5g"
+  },
+  {
+    "data_name": "Colloidal Silver and Gold Sub-1MHz CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Colloidal Silver and Gold Sub-1MHz. The frequencies in this preset are: 900656.399467 hz, 581673.924656 hz, 473582.172629 hz, 366644.262680 hz",
+    "data_start": "play_CUST_3d_auto([900656.399467, 581673.924656, 473582.172629, 366644.262680]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "09zIP6eQ"
+  },
+  {
+    "data_name": "Colloidal Silver and Gold Sub-10KHz CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Colloidal Silver and Gold Sub-10KHz. The frequencies in this preset are: 72709.240582 hz, 56291.024967 hz, 23578.268006 hz, 18254.142973 hz",
+    "data_start": "play_CUST_3d_auto([72709.240582, 56291.024967, 23578.268006, 18254.142973]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "w1m9JY6X"
+  },
+  {
+    "data_name": "Colloidal Silver and Gold Sub-100KHz CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Colloidal Silver and Gold Sub-100KHz. The frequencies in this preset are: 72709.240582 hz, 56291.024967 hz, 23578.268006 hz, 18254.142973 hz",
+    "data_start": "play_CUST_3d_auto([72709.240582, 56291.024967, 23578.268006, 18254.142973]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "L97Fk3Wp"
+  },
+  {
+    "data_name": "Colloidal Silver Generate CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Colloidal Silver Generate. The frequencies in this preset are: 1000 hz, 1800 hz, 10000 hz, 1800 hz",
+    "data_start": "play_CUST_3d_auto([1000, 1800, 10000, 1800]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "HZWOUL46"
+  },
+  {
+    "data_name": "Colloidal Silver Octal CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Colloidal Silver Octal. The frequencies in this preset are: 4653391.397248 hz, 2326695.698624 hz",
+    "data_start": "play_CUST_3d_auto([4653391.397248, 2326695.698624]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "qXp44NiN"
+  },
+  {
+    "data_name": "Colloidal Silver Scalar CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Colloidal Silver Scalar. The frequencies in this preset are: 473582.172629 hz, 23578.268006 hz",
+    "data_start": "play_CUST_3d_auto([473582.172629, 23578.268006]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "LRERBXs4"
+  },
+  {
+    "data_name": "Cytomegalovirus CMV 1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cytomegalovirus CMV 1. The frequencies in this preset are: 249 hz, 360 D50 hz, 418 hz, 360 hz, 647 hz, 360 hz, 799877.8777 hz, 799877.87 hz, 799877.88 hz, 799877.4-799878.4 hz, 1000 hz, 677787.7878 hz, 677787.78 hz, 677787.79 hz, 677787.3-677788.3 hz, 1000 hz, 77665.5666 hz, 77665.56 hz, 77665.57 hz, 77665-77666 hz, 1000 hz",
+    "data_start": "play_CUST_3d_auto([249, 360 D50, 418, 360, 647, 360, 799877.8777, 799877.87, 799877.88, 799877.4-799878.4, 1000, 677787.7878, 677787.78, 677787.79, 677787.3-677788.3, 1000, 77665.5666, 77665.56, 77665.57, 77665-77666, 1000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Bpy9GjC0"
+  },
+  {
+    "data_name": "Cytomegalovirus CMV 2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Cytomegalovirus CMV 2. The frequencies in this preset are: 68 hz,  72 hz, 70 hz, 120 hz, 126 hz, 249 hz, 360 hz, 418 hz, 360 hz, 597 hz, 629 hz, 647 hz, 360 hz, 682 hz, 850 hz, 999.79 hz, 1045 hz, 2144 hz, 2145 hz, 2146 hz, 6380-6418 hz, 600 hz, 6689-6754 hz, 720 hz, 8848 hz, 8856 hz, 9500 hz, 11856 hz, 11881 hz, 12144 hz, 12146.5 hz, 12146.75 hz, 12191.25 hz, 12537 hz, 12604.69 hz, 20757 hz, 88000 hz, 141200 hz, 297500 hz, 409000 hz, 600 hz, 425950 hz, 675310 hz, 827000 hz, 20330-20451 hz, 2420 hz, 1012 hz, 1019 hz, 1750 hz, 3190 hz, 3209 hz, 1900 hz",
+    "data_start": "play_CUST_3d_auto([68,  72, 70, 120, 126, 249, 360, 418, 360, 597, 629, 647, 360, 682, 850, 999.79, 1045, 2144, 2145, 2146, 6380-6418, 600, 6689-6754, 720, 8848, 8856, 9500, 11856, 11881, 12144, 12146.5, 12146.75, 12191.25, 12537, 12604.69, 20757, 88000, 141200, 297500, 409000, 600, 425950, 675310, 827000, 20330-20451, 2420, 1012, 1019, 1750, 3190, 3209, 1900]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "LbFrYNDp"
+  },
+  {
+    "data_name": "Detox EMF CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Detox EMF. The frequencies in this preset are: 99.5 hz",
+    "data_start": "play_CUST_3d_auto([99.5]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "8RLxt11j"
+  },
+  {
+    "data_name": "Detox SSRI Benzo CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Detox SSRI Benzo. The frequencies in this preset are: 7676767.6666 hz, 50 hz, 7676767.66 hz, 7676767.67 hz, 7676767.2-7676768.2 hz, 1000 hz, 7776765.6666 hz, 7776765.66 hz, 7776765.67 hz, 7776765.2-7776766.2 hz, 1000 hz",
+    "data_start": "play_CUST_3d_auto([7676767.6666, 50, 7676767.66, 7676767.67, 7676767.2-7676768.2, 1000, 7776765.6666, 7776765.66, 7776765.67, 7776765.2-7776766.2, 1000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "6zrE49hh"
+  },
+  {
+    "data_name": "DNA Create New CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for DNA Create New. The frequencies in this preset are: 7 hz",
+    "data_start": "play_CUST_3d_auto([7]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "uFn8jBw4"
+  },
+  {
+    "data_name": "Ebola 1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Ebola 1. The frequencies in this preset are: 30 hz, 1200 hz, 15200 hz, 35000 hz, 22500 hz, 25665 hz, 4000 hz, 36827 hz, 38660 hz, 37357 hz",
+    "data_start": "play_CUST_3d_auto([30, 1200, 15200, 35000, 22500, 25665, 4000, 36827, 38660, 37357]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "kASK3B2c"
+  },
+  {
+    "data_name": "Ebola 2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Ebola 2. The frequencies in this preset are: 2890 hz, 5950 hz, 27875 hz, 30000 hz, 38567 hz, 25000 hz, 23110 hz, 35200 hz, 27747 hz, 37998 hz",
+    "data_start": "play_CUST_3d_auto([2890, 5950, 27875, 30000, 38567, 25000, 23110, 35200, 27747, 37998]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "X6OTVpYf"
+  },
+  {
+    "data_name": "Ehrlichia 3 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Ehrlichia 3. The frequencies in this preset are: 76 hz, 308 hz, 375 hz, 468 hz, 521.2 hz, 570 hz, 788 hz, 862 hz, 943 hz, 1583 hz, 1584 hz, 2084.8 hz",
+    "data_start": "play_CUST_3d_auto([76, 308, 375, 468, 521.2, 570, 788, 862, 943, 1583, 1584, 2084.8]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "tqr1Fp3N"
+  },
+  {
+    "data_name": "Ehrlichia 4 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Ehrlichia 4. The frequencies in this preset are: 129 hz, 521.2 hz, 523 hz, 549 hz, 607 hz, 632 hz, 720 hz, 726 hz, 943 hz, 1062 hz, 1357 hz, 2084.8 hz",
+    "data_start": "play_CUST_3d_auto([129, 521.2, 523, 549, 607, 632, 720, 726, 943, 1062, 1357, 2084.8]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "LLFinusB"
+  },
+  {
+    "data_name": "Ehrlichia 5 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Ehrlichia 5. The frequencies in this preset are: 7989 hz, 4880 hz, 4870 hz, 1590 hz, 1455 hz, 4996.9 hz, 5054.9 hz, 884 hz, 846 hz, 797 hz, 758 hz, 693 hz, 673 hz, 579 hz, 578 hz, 577 hz, 422 hz, 417 hz, 239 hz, 128 hz",
+    "data_start": "play_CUST_3d_auto([7989, 4880, 4870, 1590, 1455, 4996.9, 5054.9, 884, 846, 797, 758, 693, 673, 579, 578, 577, 422, 417, 239, 128]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "8scEibx6"
+  },
+  {
+    "data_name": "Ehrlichia Lyme CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Ehrlichia Lyme. The frequencies in this preset are: 395 hz",
+    "data_start": "play_CUST_3d_auto([395]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "pnG9CtED"
+  },
+  {
+    "data_name": "Energy Vitality 3 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Energy Vitality 3. The frequencies in this preset are: 10000 hz",
+    "data_start": "play_CUST_3d_auto([10000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "qKUoIEZ4"
+  },
+  {
+    "data_name": "Epstein Barr Virus Lyme CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Epstein Barr Virus Lyme. The frequencies in this preset are: 880 hz",
+    "data_start": "play_CUST_3d_auto([880]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "95QmuBKe"
+  },
+  {
+    "data_name": "Essential Oil - Abundance CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Abundance. The frequencies in this preset are: 19500000 hz",
+    "data_start": "play_CUST_3d_auto([19500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "eoDhTODt"
+  },
+  {
+    "data_name": "Essential Oil - Acceptance CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Acceptance. The frequencies in this preset are: 12750000 hz",
+    "data_start": "play_CUST_3d_auto([12750000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "G1hC0RQb"
+  },
+  {
+    "data_name": "Essential Oil - Angelica CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Angelica. The frequencies in this preset are: 21250000 hz",
+    "data_start": "play_CUST_3d_auto([21250000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "BxnijCeN"
+  },
+  {
+    "data_name": "Essential Oil - Aroma Life CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Aroma Life. The frequencies in this preset are: 21000000 hz",
+    "data_start": "play_CUST_3d_auto([21000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "QJRbgk88"
+  },
+  {
+    "data_name": "Essential Oil - Aroma Siez CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Aroma Siez. The frequencies in this preset are: 16000000 hz",
+    "data_start": "play_CUST_3d_auto([16000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "MlWEOE9R"
+  },
+  {
+    "data_name": "Essential Oil - Awaken CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Awaken. The frequencies in this preset are: 22250000 hz",
+    "data_start": "play_CUST_3d_auto([22250000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "TqoI79s8"
+  },
+  {
+    "data_name": "Essential Oil - Basil CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Basil. The frequencies in this preset are: 13000000 hz",
+    "data_start": "play_CUST_3d_auto([13000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Xpsx2dU9"
+  },
+  {
+    "data_name": "Essential Oil - Blue Tansy CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Blue Tansy. The frequencies in this preset are: 13125000 hz",
+    "data_start": "play_CUST_3d_auto([13125000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "0KpFILzp"
+  },
+  {
+    "data_name": "Essential Oil - Brain Power CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Brain Power. The frequencies in this preset are: 19500000 hz",
+    "data_start": "play_CUST_3d_auto([19500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "1T0eiyP2"
+  },
+  {
+    "data_name": "Essential Oil - Chamomile 312500 3D frequencies",
+    "data_description": "This is 312500 3D frequencies healing preset for Essential Oil - Chamomile. The frequencies in this preset are:  hz",
+    "data_start": "play_312500_3d_auto([]);",
+    "data_stop": "stop_312500_3d();",
+    "data_id": "kVB75mMd"
+  },
+  {
+    "data_name": "Essential Oil - Christmas Spirit CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Christmas Spirit. The frequencies in this preset are: 13000000 hz",
+    "data_start": "play_CUST_3d_auto([13000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "t2LXXua7"
+  },
+  {
+    "data_name": "Essential Oil - Citrus Fresh CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Citrus Fresh. The frequencies in this preset are: 22500000 hz",
+    "data_start": "play_CUST_3d_auto([22500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "t0T7wBCf"
+  },
+  {
+    "data_name": "Essential Oil - Clarity CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Clarity. The frequencies in this preset are: 12625000 hz",
+    "data_start": "play_CUST_3d_auto([12625000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "X3vfuLxe"
+  },
+  {
+    "data_name": "Essential Oil - Di-Gise CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Di-Gise. The frequencies in this preset are: 12750000 hz",
+    "data_start": "play_CUST_3d_auto([12750000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "fN4EDtvH"
+  },
+  {
+    "data_name": "Essential Oil - Dragon Time CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Dragon Time. The frequencies in this preset are: 18000000 hz",
+    "data_start": "play_CUST_3d_auto([18000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "DCt66GD1"
+  },
+  {
+    "data_name": "Essential Oil - Dream Catcher CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Dream Catcher. The frequencies in this preset are: 24500000 hz",
+    "data_start": "play_CUST_3d_auto([24500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "sd3fc8uM"
+  },
+  {
+    "data_name": "Essential Oil - En-R-Gee CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - En-R-Gee. The frequencies in this preset are: 13250000 hz",
+    "data_start": "play_CUST_3d_auto([13250000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "5g6ZBe8b"
+  },
+  {
+    "data_name": "Essential Oil - EndoFlex CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - EndoFlex. The frequencies in this preset are: 17250000 hz",
+    "data_start": "play_CUST_3d_auto([17250000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "JhK56YY7"
+  },
+  {
+    "data_name": "Essential Oil - Envision CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Envision. The frequencies in this preset are: 22500000 hz",
+    "data_start": "play_CUST_3d_auto([22500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "3hO6yfDk"
+  },
+  {
+    "data_name": "Essential Oil - Exodus II CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Exodus II. The frequencies in this preset are: 22500000 hz",
+    "data_start": "play_CUST_3d_auto([22500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "oZ0GIzla"
+  },
+  {
+    "data_name": "Essential Oil - Forgiveness CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Forgiveness. The frequencies in this preset are: 24000000 hz",
+    "data_start": "play_CUST_3d_auto([24000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "bcHNcTwF"
+  },
+  {
+    "data_name": "Essential Oil - Frankincense CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Frankincense. The frequencies in this preset are: 18375000 hz",
+    "data_start": "play_CUST_3d_auto([18375000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "mcbP76Ej"
+  },
+  {
+    "data_name": "Essential Oil - Galbanum CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Galbanum. The frequencies in this preset are: 14000000 hz",
+    "data_start": "play_CUST_3d_auto([14000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "AjGpXCMy"
+  },
+  {
+    "data_name": "Essential Oil - Gathering CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Gathering. The frequencies in this preset are: 24750000 hz",
+    "data_start": "play_CUST_3d_auto([24750000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "BRtmXUlx"
+  },
+  {
+    "data_name": "Essential Oil - Gentle Baby CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Gentle Baby. The frequencies in this preset are: 19000000 hz",
+    "data_start": "play_CUST_3d_auto([19000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Px2YVcQr"
+  },
+  {
+    "data_name": "Essential Oil - Grounding CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Grounding. The frequencies in this preset are: 17500000 hz",
+    "data_start": "play_CUST_3d_auto([17500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Use7QynJ"
+  },
+  {
+    "data_name": "Essential Oil - Harmony CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Harmony. The frequencies in this preset are: 12625000 hz",
+    "data_start": "play_CUST_3d_auto([12625000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "cK2mwjAv"
+  },
+  {
+    "data_name": "Essential Oil - Helichrysum CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Helichrysum. The frequencies in this preset are: 22625000 hz",
+    "data_start": "play_CUST_3d_auto([22625000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "84vhi8i4"
+  },
+  {
+    "data_name": "Essential Oil - Hope CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Hope. The frequencies in this preset are: 24500000 hz",
+    "data_start": "play_CUST_3d_auto([24500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "XRBxE77U"
+  },
+  {
+    "data_name": "Essential Oil - Humility CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Humility. The frequencies in this preset are: 22000000 hz",
+    "data_start": "play_CUST_3d_auto([22000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "X94VDaTH"
+  },
+  {
+    "data_name": "Essential Oil - Immupower CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Immupower. The frequencies in this preset are: 22250000 hz",
+    "data_start": "play_CUST_3d_auto([22250000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "2LKnvnnZ"
+  },
+  {
+    "data_name": "Essential Oil - Inner Child CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Inner Child. The frequencies in this preset are: 24500000 hz",
+    "data_start": "play_CUST_3d_auto([24500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "a9NcEZTZ"
+  },
+  {
+    "data_name": "Essential Oil - Inspiration CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Inspiration. The frequencies in this preset are: 17625000 hz",
+    "data_start": "play_CUST_3d_auto([17625000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "7llUsbyn"
+  },
+  {
+    "data_name": "Essential Oil - Into the Future CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Into the Future. The frequencies in this preset are: 22000000 hz",
+    "data_start": "play_CUST_3d_auto([22000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "tSkNIJN8"
+  },
+  {
+    "data_name": "Essential Oil - Joy CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Joy. The frequencies in this preset are: 23500000 hz",
+    "data_start": "play_CUST_3d_auto([23500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "iG7Ug6O0"
+  },
+  {
+    "data_name": "Essential Oil - Juniper CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Juniper. The frequencies in this preset are: 24500000 hz",
+    "data_start": "play_CUST_3d_auto([24500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "tVL3cE0o"
+  },
+  {
+    "data_name": "Essential Oil - Juva Flex CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Juva Flex. The frequencies in this preset are: 20500000 hz",
+    "data_start": "play_CUST_3d_auto([20500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "CUH4koge"
+  },
+  {
+    "data_name": "Essential Oil - Lavender CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Lavender. The frequencies in this preset are: 14750000 hz",
+    "data_start": "play_CUST_3d_auto([14750000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "hK1BmKi5"
+  },
+  {
+    "data_name": "Essential Oil - Lemon CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Lemon. The frequencies in this preset are: 19000000 hz",
+    "data_start": "play_CUST_3d_auto([19000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "0OkM03A5"
+  },
+  {
+    "data_name": "Essential Oil - Live With Passion CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Live With Passion. The frequencies in this preset are: 22250000 hz",
+    "data_start": "play_CUST_3d_auto([22250000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "bMxY9x7d"
+  },
+  {
+    "data_name": "Essential Oil - M-Grain CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - M-Grain. The frequencies in this preset are: 18000000 hz",
+    "data_start": "play_CUST_3d_auto([18000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "uOtoVofB"
+  },
+  {
+    "data_name": "Essential Oil - Magnify Your Purpose CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Magnify Your Purpose. The frequencies in this preset are: 24750000 hz",
+    "data_start": "play_CUST_3d_auto([24750000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "YHssL500"
+  },
+  {
+    "data_name": "Essential Oil - Melissa CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Melissa. The frequencies in this preset are: 12750000 hz",
+    "data_start": "play_CUST_3d_auto([12750000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "r0LkRycY"
+  },
+  {
+    "data_name": "Essential Oil - Melrose CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Melrose. The frequencies in this preset are: 24000000 hz",
+    "data_start": "play_CUST_3d_auto([24000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "1l5BBlmy"
+  },
+  {
+    "data_name": "Essential Oil - Mister CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Mister. The frequencies in this preset are: 18375000 hz",
+    "data_start": "play_CUST_3d_auto([18375000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "vaN5W03x"
+  },
+  {
+    "data_name": "Essential Oil - Motivation CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Motivation. The frequencies in this preset are: 12875000 hz",
+    "data_start": "play_CUST_3d_auto([12875000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "2IWA73hH"
+  },
+  {
+    "data_name": "Essential Oil - Myrrh CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Myrrh. The frequencies in this preset are: 13125000 hz",
+    "data_start": "play_CUST_3d_auto([13125000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "3el5gzox"
+  },
+  {
+    "data_name": "Essential Oil - PanAway CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - PanAway. The frequencies in this preset are: 14000000 hz",
+    "data_start": "play_CUST_3d_auto([14000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "U8F9A5PA"
+  },
+  {
+    "data_name": "Essential Oil - Peace & Calming CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Peace & Calming. The frequencies in this preset are: 13125000 hz",
+    "data_start": "play_CUST_3d_auto([13125000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Nzo7Hziy"
+  },
+  {
+    "data_name": "Essential Oil - Peppermint CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Peppermint. The frequencies in this preset are: 19500000 hz",
+    "data_start": "play_CUST_3d_auto([19500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "2vEsRAQL"
+  },
+  {
+    "data_name": "Essential Oil - Present Time CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Present Time. The frequencies in this preset are: 24500000 hz",
+    "data_start": "play_CUST_3d_auto([24500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "NdjM6sEU"
+  },
+  {
+    "data_name": "Essential Oil - Purification CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Purification. The frequencies in this preset are: 23000000 hz",
+    "data_start": "play_CUST_3d_auto([23000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Ymwe9lTU"
+  },
+  {
+    "data_name": "Essential Oil - Raven CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Raven. The frequencies in this preset are: 17500000 hz",
+    "data_start": "play_CUST_3d_auto([17500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "VfKIj4rD"
+  },
+  {
+    "data_name": "Essential Oil - Ravensara CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Ravensara. The frequencies in this preset are: 16750000 hz",
+    "data_start": "play_CUST_3d_auto([16750000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Y68XmygB"
+  },
+  {
+    "data_name": "Essential Oil - RC CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - RC. The frequencies in this preset are: 18750000 hz",
+    "data_start": "play_CUST_3d_auto([18750000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "FQfKnEE7"
+  },
+  {
+    "data_name": "Essential Oil - Release CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Release. The frequencies in this preset are: 12750000 hz",
+    "data_start": "play_CUST_3d_auto([12750000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "NmvXn8pj"
+  },
+  {
+    "data_name": "Essential Oil - Relieve It CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Relieve It. The frequencies in this preset are: 14000000 hz",
+    "data_start": "play_CUST_3d_auto([14000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Ze1blrnZ"
+  },
+  {
+    "data_name": "Essential Oil - Rose CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Rose. The frequencies in this preset are: 20000000 hz",
+    "data_start": "play_CUST_3d_auto([20000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "4vna1Gkr"
+  },
+  {
+    "data_name": "Essential Oil - Sacred Mountain CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Sacred Mountain. The frequencies in this preset are: 22000000 hz",
+    "data_start": "play_CUST_3d_auto([22000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "tS8iXgIm"
+  },
+  {
+    "data_name": "Essential Oil - Sandalwood CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Sandalwood. The frequencies in this preset are: 24000000 hz",
+    "data_start": "play_CUST_3d_auto([24000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "2GCAwAkg"
+  },
+  {
+    "data_name": "Essential Oil - SARA CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - SARA. The frequencies in this preset are: 12750000 hz",
+    "data_start": "play_CUST_3d_auto([12750000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "EKB6ab5g"
+  },
+  {
+    "data_name": "Essential Oil - Sensation CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Sensation. The frequencies in this preset are: 22000000 hz",
+    "data_start": "play_CUST_3d_auto([22000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "WTOdiBWM"
+  },
+  {
+    "data_name": "Essential Oil - Surrender CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Surrender. The frequencies in this preset are: 24500000 hz",
+    "data_start": "play_CUST_3d_auto([24500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Y67yxulT"
+  },
+  {
+    "data_name": "Essential Oil - Thieves CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Thieves. The frequencies in this preset are: 18750000 hz",
+    "data_start": "play_CUST_3d_auto([18750000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "kFcl2QGW"
+  },
+  {
+    "data_name": "Essential Oil - Three Wise Men CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Three Wise Men. The frequencies in this preset are: 18000000 hz",
+    "data_start": "play_CUST_3d_auto([18000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "VnVo6leg"
+  },
+  {
+    "data_name": "Essential Oil - Trauma Life CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Trauma Life. The frequencies in this preset are: 23000000 hz",
+    "data_start": "play_CUST_3d_auto([23000000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "nBxUGLQ1"
+  },
+  {
+    "data_name": "Essential Oil - Valor CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - Valor. The frequencies in this preset are: 23500000 hz",
+    "data_start": "play_CUST_3d_auto([23500000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "JnWaWsuo"
+  },
+  {
+    "data_name": "Essential Oil - White Angelica CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Essential Oil - White Angelica. The frequencies in this preset are: 22250000 hz",
+    "data_start": "play_CUST_3d_auto([22250000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "XYZf0SOJ"
+  },
+  {
+    "data_name": "Fractures Bone,Bone CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Fractures Bone,Bone. The frequencies in this preset are: 1028 hz",
+    "data_start": "play_CUST_3d_auto([1028]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "tsrn3TyT"
+  },
+  {
+    "data_name": "Fungus Black Nail CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Fungus Black Nail. The frequencies in this preset are: 612 hz, 644 hz, 766 hz, 1000 hz, 190 hz, 465 hz",
+    "data_start": "play_CUST_3d_auto([612, 644, 766, 1000, 190, 465]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "GCGpfSNw"
+  },
+  {
+    "data_name": "Gastroenteritis Calicivirus CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Gastroenteritis Calicivirus. The frequencies in this preset are: 30 hz, 475 hz, 575 hz, 2750 hz, 5250 hz, 6250 hz, 9750 hz, 360 hz, 1500 hz, 362.5 hz",
+    "data_start": "play_CUST_3d_auto([30, 475, 575, 2750, 5250, 6250, 9750, 360, 1500, 362.5]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "9DEeaU77"
+  },
+  {
+    "data_name": "General Cleanser CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for General Cleanser. The frequencies in this preset are: 337 hz, 464 hz, 467 hz, 576 hz, 688 hz, 728 hz, 786 hz, 803 hz, 856 hz, 882 hz, 912 hz, 1554 hz, 1862 hz, 2128 hz, 3337 hz, 5762 hz, 6667 hz",
+    "data_start": "play_CUST_3d_auto([337, 464, 467, 576, 688, 728, 786, 803, 856, 882, 912, 1554, 1862, 2128, 3337, 5762, 6667]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "QHpszhUk"
+  },
+  {
+    "data_name": "Goiter 3 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Goiter 3. The frequencies in this preset are: 20 hz, 160 hz, 660 hz, 690 hz, 727.5 hz, 787 hz, 880 hz, 16000 hz",
+    "data_start": "play_CUST_3d_auto([20, 160, 660, 690, 727.5, 787, 880, 16000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "DYiFvxzS"
+  },
+  {
+    "data_name": "Healing Special CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Healing Special. The frequencies in this preset are: 5.8 hz, 8.01 hz, 9.6 hz, 59.3 hz, 148 hz, 216 hz, 266 hz, 2720 hz, 3000 hz, 20000 hz",
+    "data_start": "play_CUST_3d_auto([5.8, 8.01, 9.6, 59.3, 148, 216, 266, 2720, 3000, 20000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "NCSq09iA"
+  },
+  {
+    "data_name": "Herpes General CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Herpes General. The frequencies in this preset are: 1552 hz, 2489 hz, 2950 hz, 2347 hz",
+    "data_start": "play_CUST_3d_auto([1552, 2489, 2950, 2347]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "TlzrtfCg"
+  },
+  {
+    "data_name": "HHV5 2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for HHV5 2. The frequencies in this preset are: 20362.91 hz, 1013.81 hz, 12537 hz, 41514 hz, 47425 hz, 47524 hz, 48579 hz, 48586 hz, 48587 hz, 48765 hz",
+    "data_start": "play_CUST_3d_auto([20362.91, 1013.81, 12537, 41514, 47425, 47524, 48579, 48586, 48587, 48765]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "2DHqc818"
+  },
+  {
+    "data_name": "HHV5 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for HHV5. The frequencies in this preset are: 126 hz, 597 hz, 629 hz, 682 hz, 1045 hz, 2145 hz, 8848 hz, 8856 hz",
+    "data_start": "play_CUST_3d_auto([126, 597, 629, 682, 1045, 2145, 8848, 8856]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "yv1m11sa"
+  },
+  {
+    "data_name": "HHV6 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for HHV6. The frequencies in this preset are: 228 hz, 1820 hz, 3640.1 hz, 7281 hz",
+    "data_start": "play_CUST_3d_auto([228, 1820, 3640.1, 7281]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "QWhbVww6"
+  },
+  {
+    "data_name": "Insomnia Secondary/Hypoglycemia CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Insomnia Secondary/Hypoglycemia. The frequencies in this preset are: 2.5 hz, 0.512 hz, 31.32 hz, 0.512 hz",
+    "data_start": "play_CUST_3d_auto([2.5, 0.512, 31.32, 0.512]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "ZZg0KYgj"
+  },
+  {
+    "data_name": "Iodine CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Iodine. The frequencies in this preset are: 2030.464 hz",
+    "data_start": "play_CUST_3d_auto([2030.464]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "2PSB4zH1"
+  },
+  {
+    "data_name": "Kidney 4 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Kidney 4. The frequencies in this preset are: 248 hz, 463 hz, 522 hz, 622 hz, 658 hz, 917 hz, 932 hz, 1865 hz, 3374 hz, 5162 hz",
+    "data_start": "play_CUST_3d_auto([248, 463, 522, 622, 658, 917, 932, 1865, 3374, 5162]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "TSwrC5lT"
+  },
+  {
+    "data_name": "Leaky Gut Sweep CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Leaky Gut Sweep. The frequencies in this preset are: 6033 hz, 300 hz, 6027-6040 hz, 1300 hz",
+    "data_start": "play_CUST_3d_auto([6033, 300, 6027-6040, 1300]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "bcrdrNUO"
+  },
+  {
+    "data_name": "Listeria Monocytogenes CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Listeria Monocytogenes. The frequencies in this preset are: 377 hz, 471 hz, 626 hz, 628 hz, 634 hz, 714 hz, 724 hz, 744 hz, 2162 hz, 7867 hz",
+    "data_start": "play_CUST_3d_auto([377, 471, 626, 628, 634, 714, 724, 744, 2162, 7867]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "U33rwZVV"
+  },
+  {
+    "data_name": "Liver 4 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Liver 4. The frequencies in this preset are: 337 hz, 463 hz, 574 hz, 668 hz, 787 hz, 803 hz, 912 hz, 1862 hz, 3337 hz, 5546 hz",
+    "data_start": "play_CUST_3d_auto([337, 463, 574, 668, 787, 803, 912, 1862, 3337, 5546]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "NzrK8JYR"
+  },
+  {
+    "data_name": "Lyme Disease W1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Lyme Disease W1. The frequencies in this preset are: 337 hz, 463 hz, 467 hz, 576 hz, 688 hz, 728 hz, 786 hz, 803 hz, 856 hz, 882 hz, 912 hz, 1554 hz, 1862 hz, 2128 hz, 3337 hz, 5762 hz, 6667 hz",
+    "data_start": "play_CUST_3d_auto([337, 463, 467, 576, 688, 728, 786, 803, 856, 882, 912, 1554, 1862, 2128, 3337, 5762, 6667]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Uhrs480i"
+  },
+  {
+    "data_name": "Lyme Disease W2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Lyme Disease W2. The frequencies in this preset are: 611 hz, 615 hz, 625 hz, 650 hz, 673 hz, 690 hz, 724 hz, 736 hz, 783 hz, 786 hz, 787 hz, 789 hz, 793 hz, 796 hz, 787 hz",
+    "data_start": "play_CUST_3d_auto([611, 615, 625, 650, 673, 690, 724, 736, 783, 786, 787, 789, 793, 796, 787]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "HtQCOOQW"
+  },
+  {
+    "data_name": "Lyme Disease W3 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Lyme Disease W3. The frequencies in this preset are: 799 hz, 803 hz, 840 hz, 847 hz, 1087 hz, 1455 hz, 2016 hz, 2050 hz, 4320 hz, 6870 hz",
+    "data_start": "play_CUST_3d_auto([799, 803, 840, 847, 1087, 1455, 2016, 2050, 4320, 6870]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "EWVu7SUh"
+  },
+  {
+    "data_name": "Lyme Doug's CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Lyme Doug's. The frequencies in this preset are: 20 hz, 27 hz, 305 hz, 306 hz, 432 hz, 610 hz, 611 hz, 612 hz, 625 hz, 727 hz, 787 hz, 802 hz, 880 hz, 920 hz, 4200 hz, 4320 hz, 10000 hz",
+    "data_start": "play_CUST_3d_auto([20, 27, 305, 306, 432, 610, 611, 612, 625, 727, 787, 802, 880, 920, 4200, 4320, 10000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "BxS0Bk5x"
+  },
+  {
+    "data_name": "Lyme Envita CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Lyme Envita. The frequencies in this preset are: 1550 hz, 803 hz, 8300 hz, 800 hz, 8020 hz, 880 hz, 8450 hz, 784 hz, 7870 hz, 728 hz, 7270 hz, 444 hz, 20 hz, 31930.4 hz, 38934.1 hz",
+    "data_start": "play_CUST_3d_auto([1550, 803, 8300, 800, 8020, 880, 8450, 784, 7870, 728, 7270, 444, 20, 31930.4, 38934.1]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "tRgG6g0G"
+  },
+  {
+    "data_name": "Lyme Envita CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Lyme Envita. The frequencies in this preset are: 1550 hz, 803 hz, 8300 hz, 800 hz, 8020 hz, 880 hz, 8450 hz, 784 hz, 7870 hz, 728 hz, 7270 hz, 444 hz, 20 hz, 31930.4 hz, 38934.1 hz",
+    "data_start": "play_CUST_3d_auto([1550, 803, 8300, 800, 8020, 880, 8450, 784, 7870, 728, 7270, 444, 20, 31930.4, 38934.1]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "ASCH0CgY"
+  },
+  {
+    "data_name": "Lyme General CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Lyme General. The frequencies in this preset are: 2016 hz, 2016.44 hz, 612 hz, 432 hz, 432.89 hz, 686868.7777 hz",
+    "data_start": "play_CUST_3d_auto([2016, 2016.44, 612, 432, 432.89, 686868.7777]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "F4xJsSCx"
+  },
+  {
+    "data_name": "Lyme Herxheimer Helper 1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Lyme Herxheimer Helper 1. The frequencies in this preset are: 10000 hz, 880 hz, 787 hz, 727 hz, 522 hz, 3 hz, 300 hz, 330 hz, 146 hz, 555 hz, 33 hz, 12595 hz, 72 hz, 444 hz, 1865 hz, 20 hz",
+    "data_start": "play_CUST_3d_auto([10000, 880, 787, 727, 522, 3, 300, 330, 146, 555, 33, 12595, 72, 444, 1865, 20]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "SU4mryOl"
+  },
+  {
+    "data_name": "Lyme Herxheimer Helper 2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Lyme Herxheimer Helper 2. The frequencies in this preset are: 444 hz, 148 hz, 555 hz, 333 hz, 10000 hz, 880 hz, 787 hz, 727 hz, 125 hz, 95 hz, 72 hz, 522 hz, 146 hz, 20 hz",
+    "data_start": "play_CUST_3d_auto([444, 148, 555, 333, 10000, 880, 787, 727, 125, 95, 72, 522, 146, 20]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "h7qvG6oi"
+  },
+  {
+    "data_name": "Lyme Main Co-infections CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Lyme Main Co-infections. The frequencies in this preset are: 2016 hz, 364 hz, 570 hz, 5776 hz",
+    "data_start": "play_CUST_3d_auto([2016, 364, 570, 5776]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "aZXIYIXT"
+  },
+  {
+    "data_name": "Lymph 4 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Lymph 4. The frequencies in this preset are: 146 hz, 346 hz, 428 hz, 596 hz, 767 hz, 982 hz, 1078 hz, 3176 hz, 5443 hz, 8846 hz",
+    "data_start": "play_CUST_3d_auto([146, 346, 428, 596, 767, 982, 1078, 3176, 5443, 8846]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "B4ifxBxm"
+  },
+  {
+    "data_name": "Memory and Test-taking Improve CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Memory and Test-taking Improve. The frequencies in this preset are: 398 hz",
+    "data_start": "play_CUST_3d_auto([398]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "E1OicHAl"
+  },
+  {
+    "data_name": "Minerals - Boron CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Boron. The frequencies in this preset are: 320 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([320, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "cOlKEcrx"
+  },
+  {
+    "data_name": "Minerals - Calcium CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Calcium. The frequencies in this preset are: 320 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([320, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "IlIk36Wu"
+  },
+  {
+    "data_name": "Minerals - Cesium CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Cesium. The frequencies in this preset are: 440 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([440, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "SXyuaOoV"
+  },
+  {
+    "data_name": "Minerals - Chromium CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Chromium. The frequencies in this preset are: 384 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([384, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "yyiVh2F2"
+  },
+  {
+    "data_name": "Minerals - Copper CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Copper. The frequencies in this preset are: 464 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([464, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "FEf49grG"
+  },
+  {
+    "data_name": "Minerals - Gold CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Gold. The frequencies in this preset are: 316 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([316, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "hmQW7D2q"
+  },
+  {
+    "data_name": "Minerals - Iodine 1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Iodine 1. The frequencies in this preset are: 424 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([424, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "1dkDyzdl"
+  },
+  {
+    "data_name": "Minerals - Iodine 2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Iodine 2. The frequencies in this preset are: 53 hz, 20.007 hz, 425.89 hz, 459.12 hz",
+    "data_start": "play_CUST_3d_auto([53, 20.007, 425.89, 459.12]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "DETlMwuu"
+  },
+  {
+    "data_name": "Minerals - Iron CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Iron. The frequencies in this preset are: 416 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([416, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "SYlmvy6j"
+  },
+  {
+    "data_name": "Minerals - Magnesium CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Magnesium. The frequencies in this preset are: 384 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([384, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "br0fCk3O"
+  },
+  {
+    "data_name": "Minerals - Manganese CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Manganese. The frequencies in this preset are: 400 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([400, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "W2ZmzkC5"
+  },
+  {
+    "data_name": "Minerals - Molybdenum CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Molybdenum. The frequencies in this preset are: 336 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([336, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "aQ9bvgeB"
+  },
+  {
+    "data_name": "Minerals - Phosphorus CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Phosphorus. The frequencies in this preset are: 480 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([480, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "mXv0zPqI"
+  },
+  {
+    "data_name": "Minerals - Platinum CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Platinum. The frequencies in this preset are: 312 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([312, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "slR9E95C"
+  },
+  {
+    "data_name": "Minerals - Potassium CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Potassium. The frequencies in this preset are: 304 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([304, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "z66PirvQ"
+  },
+  {
+    "data_name": "Minerals - Rhodium CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Rhodium. The frequencies in this preset are: 45 hz, 3.172 hz, 67.52 hz, 72.79 hz",
+    "data_start": "play_CUST_3d_auto([45, 3.172, 67.52, 72.79]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "7prpxBmq"
+  },
+  {
+    "data_name": "Minerals - Selenium CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Selenium. The frequencies in this preset are: 272 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([272, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "WSxKRWq9"
+  },
+  {
+    "data_name": "Minerals - Silica CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Silica. The frequencies in this preset are: 448 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([448, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "nM6baWRW"
+  },
+  {
+    "data_name": "Minerals - Silver CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Silver. The frequencies in this preset are: 376 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([376, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "4gwrtrGP"
+  },
+  {
+    "data_name": "Minerals - Sodium CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Sodium. The frequencies in this preset are: 352 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([352, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "q4CZxXO9"
+  },
+  {
+    "data_name": "Minerals - Sulfur CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Sulfur. The frequencies in this preset are: 256 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([256, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "7ly20YUY"
+  },
+  {
+    "data_name": "Minerals - Vanadium CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Vanadium. The frequencies in this preset are: 368 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([368, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "CbL8qCrZ"
+  },
+  {
+    "data_name": "Minerals - Zinc 1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Zinc 1. The frequencies in this preset are: 480 hz, 600 hz",
+    "data_start": "play_CUST_3d_auto([480, 600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Jpm3sGbi"
+  },
+  {
+    "data_name": "Minerals - Zinc 2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Minerals - Zinc 2. The frequencies in this preset are: 30 hz, 6.254 hz, 133.13 hz, 143.52 hz",
+    "data_start": "play_CUST_3d_auto([30, 6.254, 133.13, 143.52]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "wUecFTAA"
+  },
+  {
+    "data_name": "Morgellons 40KHz General CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons 40KHz General. The frequencies in this preset are: 40000 hz",
+    "data_start": "play_CUST_3d_auto([40000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "kbQBS64C"
+  },
+  {
+    "data_name": "Morgellons Bartonella Rochalimae CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Bartonella Rochalimae. The frequencies in this preset are: 66697.6755 hz",
+    "data_start": "play_CUST_3d_auto([66697.6755]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "pBDcXkbE"
+  },
+  {
+    "data_name": "Morgellons Bartonella Toxin CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Bartonella Toxin. The frequencies in this preset are: 7776665.6666 hz",
+    "data_start": "play_CUST_3d_auto([7776665.6666]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "a7oCERv2"
+  },
+  {
+    "data_name": "Morgellons Chronic Lesions and Fibres CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Chronic Lesions and Fibres. The frequencies in this preset are: 5100 hz, 10880 hz, 10800 hz, 27860 hz, 31167 hz, 27320 hz, 39392 hz, 36900 hz, 39776 hz, 37500 hz",
+    "data_start": "play_CUST_3d_auto([5100, 10880, 10800, 27860, 31167, 27320, 39392, 36900, 39776, 37500]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "i6JgQoEW"
+  },
+  {
+    "data_name": "Morgellons Collembola Comp CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Collembola Comp. The frequencies in this preset are: 70 hz, 50 hz, 700 hz, 907500 hz, 90 hz, 111 hz, 2100 hz, 69 hz, 71 hz, 500 hz, 699 hz, 701 hz, 500 hz, 907480 hz, 907520 hz, 2000 hz",
+    "data_start": "play_CUST_3d_auto([70, 50, 700, 907500, 90, 111, 2100, 69, 71, 500, 699, 701, 500, 907480, 907520, 2000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "D0ylGxor"
+  },
+  {
+    "data_name": "Morgellons Collembola Sweep CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Collembola Sweep. The frequencies in this preset are: 907450 hz, 907500 hz, 3600 hz",
+    "data_start": "play_CUST_3d_auto([907450, 907500, 3600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "MedLQncY"
+  },
+  {
+    "data_name": "Morgellons Collembola CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Collembola. The frequencies in this preset are: 70 hz, 700 hz, 907500 hz, 90 hz, 110 hz, 1800 hz",
+    "data_start": "play_CUST_3d_auto([70, 700, 907500, 90, 110, 1800]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "ZbAfYzbE"
+  },
+  {
+    "data_name": "Morgellons Expeller CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Expeller. The frequencies in this preset are: 2014 hz",
+    "data_start": "play_CUST_3d_auto([2014]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "zVv0kBWc"
+  },
+  {
+    "data_name": "Morgellons General CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons General. The frequencies in this preset are: 888 hz, 751 hz",
+    "data_start": "play_CUST_3d_auto([888, 751]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "hm1ZW2be"
+  },
+  {
+    "data_name": "Morgellons Int and Ext CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Int and Ext. The frequencies in this preset are: 2560 hz, 5100 hz, 35000 hz, 27500 hz, 27860 hz, 31167 hz, 36827 hz, 29095 hz, 39776 hz, 37500 hz",
+    "data_start": "play_CUST_3d_auto([2560, 5100, 35000, 27500, 27860, 31167, 36827, 29095, 39776, 37500]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "p9UEQqsX"
+  },
+  {
+    "data_name": "Morgellons Internal CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Internal. The frequencies in this preset are: 2560 hz, 5100 hz, 10880 hz, 10800 hz, 35000 hz, 27500 hz, 27860 hz, 36827 hz, 29095 hz, 39776 hz",
+    "data_start": "play_CUST_3d_auto([2560, 5100, 10880, 10800, 35000, 27500, 27860, 36827, 29095, 39776]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "y4huWVPI"
+  },
+  {
+    "data_name": "Morgellons Leishmania Amastigote CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Leishmania Amastigote. The frequencies in this preset are: 565555.5544 hz",
+    "data_start": "play_CUST_3d_auto([565555.5544]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "AlN4sVtY"
+  },
+  {
+    "data_name": "Morgellons Myiasis CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Myiasis. The frequencies in this preset are: 19 hz, 507 hz, 840 hz, 960 hz, 013 hz, 900 hz, 000 hz, 000 hz, 000 hz, 000 hz, 000 hz, 000 hz, 000 hz, 000 hz, 000 hz, 000 hz",
+    "data_start": "play_CUST_3d_auto([19, 507, 840, 960, 013, 900, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "0FgNQYzH"
+  },
+  {
+    "data_name": "Morgellons Nancy DB CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Nancy DB. The frequencies in this preset are: 200.2 hz, 520.2 hz, 941.6 hz, 6270.2 hz, 13254.6 hz, 32273.4 hz",
+    "data_start": "play_CUST_3d_auto([200.2, 520.2, 941.6, 6270.2, 13254.6, 32273.4]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "8OFetvdV"
+  },
+  {
+    "data_name": "Morgellons Plastics Detox CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Plastics Detox. The frequencies in this preset are: 7755766.6555 hz, 360 hz, 67553.6343 hz, 900 hz, 54423.7760 hz, 240 hz",
+    "data_start": "play_CUST_3d_auto([7755766.6555, 360, 67553.6343, 900, 54423.7760, 240]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "CZc6nM9z"
+  },
+  {
+    "data_name": "Morgellons Ruko Tick CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Ruko Tick. The frequencies in this preset are: 286.46 hz, 308.66 hz, 6634.7 hz",
+    "data_start": "play_CUST_3d_auto([286.46, 308.66, 6634.7]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "f3qKBJDp"
+  },
+  {
+    "data_name": "Morgellons Silicone Detox CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Silicone Detox. The frequencies in this preset are: 787998.7877 hz",
+    "data_start": "play_CUST_3d_auto([787998.7877]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "jmfWIRrY"
+  },
+  {
+    "data_name": "Morgellons Skin Itch CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Skin Itch. The frequencies in this preset are: 37500 hz",
+    "data_start": "play_CUST_3d_auto([37500]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Lp3puFGv"
+  },
+  {
+    "data_name": "Morgellons Slime Molds 1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Slime Molds 1. The frequencies in this preset are: 81000 hz, 126000 hz, 21100 hz",
+    "data_start": "play_CUST_3d_auto([81000, 126000, 21100]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "PUNg6sbP"
+  },
+  {
+    "data_name": "Morgellons Slime Molds Sweep CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Slime Molds Sweep. The frequencies in this preset are: 145286.417 hz, 146713.583 hz",
+    "data_start": "play_CUST_3d_auto([145286.417, 146713.583]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "7j1bi5Bg"
+  },
+  {
+    "data_name": "Morgellons Smart Dust CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Morgellons Smart Dust. The frequencies in this preset are: 55454.5454 hz",
+    "data_start": "play_CUST_3d_auto([55454.5454]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "yzYmv8gC"
+  },
+  {
+    "data_name": "Mycobacterium Infections CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Mycobacterium Infections. The frequencies in this preset are: 60 hz, 5440 hz, 9600 hz, 35440 hz, 37040 hz, 25714 hz, 438800 hz, 30300 hz, 38000 hz, 40000 hz",
+    "data_start": "play_CUST_3d_auto([60, 5440, 9600, 35440, 37040, 25714, 438800, 30300, 38000, 40000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "kXab0OfX"
+  },
+  {
+    "data_name": "Mycoplasma Lyme Disease CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Mycoplasma Lyme Disease. The frequencies in this preset are: 660 hz, 690 hz, 728 hz, 254 hz, 484 hz, 610 hz, 644 hz, 790 hz, 864 hz, 986 hz, 2900 hz",
+    "data_start": "play_CUST_3d_auto([660, 690, 728, 254, 484, 610, 644, 790, 864, 986, 2900]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "GIr64lCR"
+  },
+  {
+    "data_name": "Mycoplasma Virus CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Mycoplasma Virus. The frequencies in this preset are: 388.6 hz, 543.6 hz, 777.2 hz, 1087.2 hz, 1554.5 hz, 2174.3 hz, 3109 hz, 4348.6 hz, 6217.9 hz",
+    "data_start": "play_CUST_3d_auto([388.6, 543.6, 777.2, 1087.2, 1554.5, 2174.3, 3109, 4348.6, 6217.9]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "tARlXhwa"
+  },
+  {
+    "data_name": "Nitric Oxide Generate CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Nitric Oxide Generate. The frequencies in this preset are: 32 hz, 64 hz, 128 hz",
+    "data_start": "play_CUST_3d_auto([32, 64, 128]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "I3avFipL"
+  },
+  {
+    "data_name": "Nogier A CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Nogier A. The frequencies in this preset are: 2.28 hz, 293.625 hz",
+    "data_start": "play_CUST_3d_auto([2.28, 293.625]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "JlUylUy5"
+  },
+  {
+    "data_name": "Nogier B CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Nogier B. The frequencies in this preset are: 4.56 hz, 587.25 hz",
+    "data_start": "play_CUST_3d_auto([4.56, 587.25]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "UbUR77Pi"
+  },
+  {
+    "data_name": "Nogier C CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Nogier C. The frequencies in this preset are: 9.12 hz, 1174.5 hz",
+    "data_start": "play_CUST_3d_auto([9.12, 1174.5]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "WOUhT4de"
+  },
+  {
+    "data_name": "Nogier D CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Nogier D. The frequencies in this preset are: 18.25 hz, 2349 hz",
+    "data_start": "play_CUST_3d_auto([18.25, 2349]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "n9pelDW3"
+  },
+  {
+    "data_name": "Nogier E CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Nogier E. The frequencies in this preset are: 36.5 hz, 4698 hz",
+    "data_start": "play_CUST_3d_auto([36.5, 4698]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "gCLVE4e6"
+  },
+  {
+    "data_name": "Nogier F CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Nogier F. The frequencies in this preset are: 73 hz, 73.406 hz",
+    "data_start": "play_CUST_3d_auto([73, 73.406]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "aQQgSzSi"
+  },
+  {
+    "data_name": "Nogier G CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Nogier G. The frequencies in this preset are: 147 hz, 146.812 hz",
+    "data_start": "play_CUST_3d_auto([147, 146.812]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "udUqC8Nj"
+  },
+  {
+    "data_name": "Nogier U CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Nogier U. The frequencies in this preset are: 1.14 hz",
+    "data_start": "play_CUST_3d_auto([1.14]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "jRvTPQ2Z"
+  },
+  {
+    "data_name": "Onchocerciasis 2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Onchocerciasis 2. The frequencies in this preset are: 2250 hz, 720 hz, 13600 hz, 15000 hz, 40000 hz, 31477 hz, 39660 hz, 10300 hz, 36469 hz, 35444 hz",
+    "data_start": "play_CUST_3d_auto([2250, 720, 13600, 15000, 40000, 31477, 39660, 10300, 36469, 35444]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "48EMqXtg"
+  },
+  {
+    "data_name": "Oxygen CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Oxygen. The frequencies in this preset are: 5.772 hz",
+    "data_start": "play_CUST_3d_auto([5.772]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "PxkDazuk"
+  },
+  {
+    "data_name": "Ozone Generate CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Ozone Generate. The frequencies in this preset are: 78 hz, 16 hz, 15.99 hz",
+    "data_start": "play_CUST_3d_auto([78, 16, 15.99]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "eqUB85sV"
+  },
+  {
+    "data_name": "Parasites and Amoebas 4 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Parasites and Amoebas 4. The frequencies in this preset are: 1865 hz, 444 hz, 125 hz, 95 hz, 72 hz, 20 hz",
+    "data_start": "play_CUST_3d_auto([1865, 444, 125, 95, 72, 20]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "DJnoadaq"
+  },
+  {
+    "data_name": "Parasites General 4 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Parasites General 4. The frequencies in this preset are: 187 hz, 294 hz, 387 hz, 453 hz, 562 hz, 697 hz, 752 hz, 772 hz, 844 hz, 947 hz, 1113 hz, 3437 hz",
+    "data_start": "play_CUST_3d_auto([187, 294, 387, 453, 562, 697, 752, 772, 844, 947, 1113, 3437]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "dXyPHlPq"
+  },
+  {
+    "data_name": "Parasites Ropeworm CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Parasites Ropeworm. The frequencies in this preset are: 1359 hz",
+    "data_start": "play_CUST_3d_auto([1359]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "axytnxL6"
+  },
+  {
+    "data_name": "Pause 1 Day (Remote) CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Pause 1 Day (Remote). The frequencies in this preset are: 0 hz",
+    "data_start": "play_CUST_3d_auto([0]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "keGVkEcZ"
+  },
+  {
+    "data_name": "Pause 1 Hour (Remote) CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Pause 1 Hour (Remote). The frequencies in this preset are: 0 hz",
+    "data_start": "play_CUST_3d_auto([0]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "TCdz03nN"
+  },
+  {
+    "data_name": "Pleural Effusion CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Pleural Effusion. The frequencies in this preset are: 787 hz, 474 hz, 612 hz, 361 hz",
+    "data_start": "play_CUST_3d_auto([787, 474, 612, 361]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "N5VVjxKU"
+  },
+  {
+    "data_name": "Program Finale 4 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Program Finale 4. The frequencies in this preset are: 465 hz",
+    "data_start": "play_CUST_3d_auto([465]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "7gzvdNX5"
+  },
+  {
+    "data_name": "Proteus Mirabilis 1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Proteus Mirabilis 1. The frequencies in this preset are: 20034.38 hz, 20375 hz, 20250 hz, 794.55 hz, 808.07 hz, 803.12 hz",
+    "data_start": "play_CUST_3d_auto([20034.38, 20375, 20250, 794.55, 808.07, 803.12]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "fBNvPjyC"
+  },
+  {
+    "data_name": "Proteus Mirabilis 2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Proteus Mirabilis 2. The frequencies in this preset are: 16131.01 hz, 803.12 hz",
+    "data_start": "play_CUST_3d_auto([16131.01, 803.12]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "0TRK94QH"
+  },
+  {
+    "data_name": "Protomyxzoa Rheumatica CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Protomyxzoa Rheumatica. The frequencies in this preset are: 1583 hz, 515 hz, 515-521 hz, 1260 hz",
+    "data_start": "play_CUST_3d_auto([1583, 515, 515-521, 1260]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "MVBRIEAz"
+  },
+  {
+    "data_name": "Pseudomonas Aeruginosa Wound CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Pseudomonas Aeruginosa Wound. The frequencies in this preset are: 20703.13 hz, 20912.5 hz, 20812.5 hz, 821.09 hz, 829.38 hz, 825.41 hz",
+    "data_start": "play_CUST_3d_auto([20703.13, 20912.5, 20812.5, 821.09, 829.38, 825.41]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "iRkOKOfh"
+  },
+  {
+    "data_name": "Pseudomyxoma Peritonei 1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Pseudomyxoma Peritonei 1. The frequencies in this preset are: 80 hz, 4160 hz, 10400 hz, 35000 hz, 21060 hz, 35830 hz, 20590 hz, 39907 hz, 38400 hz, 36800 hz",
+    "data_start": "play_CUST_3d_auto([80, 4160, 10400, 35000, 21060, 35830, 20590, 39907, 38400, 36800]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "EVv3QJIa"
+  },
+  {
+    "data_name": "Sacroiliac Joint Dysfunction CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Sacroiliac Joint Dysfunction. The frequencies in this preset are: 110 hz, 240 hz, 570 hz, 38830 hz, 222720 hz, 317500 hz, 431200 hz, 572500 hz, 695670 hz, 905620 hz",
+    "data_start": "play_CUST_3d_auto([110, 240, 570, 38830, 222720, 317500, 431200, 572500, 695670, 905620]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "kGTOeAFW"
+  },
+  {
+    "data_name": "Serotonin CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Serotonin. The frequencies in this preset are: 2.5 hz, 10 hz, 80 hz, 160 hz",
+    "data_start": "play_CUST_3d_auto([2.5, 10, 80, 160]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "0aiY6XZz"
+  },
+  {
+    "data_name": "Signal Test CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Signal Test. The frequencies in this preset are: 50 hz",
+    "data_start": "play_CUST_3d_auto([50]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "TnDO5c0m"
+  },
+  {
+    "data_name": "Sleep to Induce CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Sleep to Induce. The frequencies in this preset are: 1 W1 hz, 3 W1 hz, 3-1 hz, 300 W1 hz",
+    "data_start": "play_CUST_3d_auto([1 W1, 3 W1, 3-1, 300 W1]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "ol6bRWsM"
+  },
+  {
+    "data_name": "Sodium Chloride CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Sodium Chloride. The frequencies in this preset are: 29.22 hz",
+    "data_start": "play_CUST_3d_auto([29.22]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "ukVpNFQ4"
+  },
+  {
+    "data_name": "Spine Problems A,432 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Spine Problems A,432. The frequencies in this preset are: 128.43 hz, 144.16 hz, 161.82 hz, 171.44 hz, 192.43 hz, 216 hz, 242.45 hz, 136.07 hz, 152.74 hz, 181.63 hz, 203.88 hz, 228.84 hz",
+    "data_start": "play_CUST_3d_auto([128.43, 144.16, 161.82, 171.44, 192.43, 216, 242.45, 136.07, 152.74, 181.63, 203.88, 228.84]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "SFSvfYN3"
+  },
+  {
+    "data_name": "Spine Problems A,440 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Spine Problems A,440. The frequencies in this preset are: 130.81 hz, 146.83 hz, 164.81 hz, 174.61 hz, 196 hz, 220.2 hz, 246.94 hz, 138.57 hz, 155.56 hz, 185 hz, 207.65 hz, 233.08 hz",
+    "data_start": "play_CUST_3d_auto([130.81, 146.83, 164.81, 174.61, 196, 220.2, 246.94, 138.57, 155.56, 185, 207.65, 233.08]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "dRH8irIc"
+  },
+  {
+    "data_name": "Spooky Converge Sweep CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Spooky Converge Sweep. The frequencies in this preset are: 1595645.833-1662479.167 hz, 15080 W1 G0 A20 O0 hz",
+    "data_start": "play_CUST_3d_auto([1595645.833-1662479.167, 15080 W1 G0 A20 O0]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "2BAZdRwI"
+  },
+  {
+    "data_name": "Spooky Spectrum Sweep CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Spooky Spectrum Sweep. The frequencies in this preset are: 1595645.833-1662479.167 hz, 15080 W1 G0 A20 O0 hz",
+    "data_start": "play_CUST_3d_auto([1595645.833-1662479.167, 15080 W1 G0 A20 O0]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "a1NhW7E0"
+  },
+  {
+    "data_name": "Stachybotrys Chartarum CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Stachybotrys Chartarum. The frequencies in this preset are: 540.1 hz, 577.9 hz, 604.39 hz, 747.39 hz, 764.5 hz, 765 hz, 844 hz, 922.2 hz, 952.39 hz, 969.6 hz",
+    "data_start": "play_CUST_3d_auto([540.1, 577.9, 604.39, 747.39, 764.5, 765, 844, 922.2, 952.39, 969.6]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "bAyMxBfs"
+  },
+  {
+    "data_name": "Staphylococcus Aureus CA/HA Octal CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Staphylococcus Aureus CA/HA Octal. The frequencies in this preset are: 9504799.449697 hz, 4752399.724849 hz",
+    "data_start": "play_CUST_3d_auto([9504799.449697, 4752399.724849]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "toVMVIBr"
+  },
+  {
+    "data_name": "Staphylococcus Aureus CA/HA Scalar CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Staphylococcus Aureus CA/HA Scalar. The frequencies in this preset are: 9714538.431825 hz, 483658.389067 hz",
+    "data_start": "play_CUST_3d_auto([9714538.431825, 483658.389067]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "3jjTIv3o"
+  },
+  {
+    "data_name": "Staphylococcus Aureus CA/HA Wavelength CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Staphylococcus Aureus CA/HA Wavelength. The frequencies in this preset are: L470 hz",
+    "data_start": "play_CUST_3d_auto([L470]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "vk2kR93W"
+  },
+  {
+    "data_name": "Staphylococcus Virus CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Staphylococcus Virus. The frequencies in this preset are: 563 hz, 611 hz, 727 hz",
+    "data_start": "play_CUST_3d_auto([563, 611, 727]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "Csuux9L8"
+  },
+  {
+    "data_name": "Streptococcus Sweep TR CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Streptococcus Sweep TR. The frequencies in this preset are: 5632.8152-5763 hz, 5763-6053.125 hz",
+    "data_start": "play_CUST_3d_auto([5632.8152-5763, 5763-6053.125]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "g0tVlV73"
+  },
+  {
+    "data_name": "Tendonitis and Tibialis Posterior CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Tendonitis and Tibialis Posterior. The frequencies in this preset are: 120 hz, 300 hz, 12710 hz, 50000 hz, 150000 hz, 358570 hz, 479500 hz, 527000 hz, 662710 hz, 749000 hz, 986220 hz, 20 hz, 727 hz, 787 hz, 880 hz, 5000 hz, 2008 hz",
+    "data_start": "play_CUST_3d_auto([120, 300, 12710, 50000, 150000, 358570, 479500, 527000, 662710, 749000, 986220, 20, 727, 787, 880, 5000, 2008]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "8e4YqBKW"
+  },
+  {
+    "data_name": "Throat and Lymph Nodes CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Throat and Lymph Nodes. The frequencies in this preset are: 20 hz, 146 hz, 380 hz, 440 hz, 522 hz, 660 hz, 690 hz, 727.5 hz, 760 hz, 776 hz, 784 hz, 802 hz, 1550 hz, 880 hz, 1600 hz",
+    "data_start": "play_CUST_3d_auto([20, 146, 380, 440, 522, 660, 690, 727.5, 760, 776, 784, 802, 1550, 880, 1600]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "HjH4xeYJ"
+  },
+  {
+    "data_name": "Thyroid Balance and Normalize 1 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Thyroid Balance and Normalize 1. The frequencies in this preset are: 160 hz, 763 hz, 660 hz, 690 hz, 727.5 hz",
+    "data_start": "play_CUST_3d_auto([160, 763, 660, 690, 727.5]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "ZghGe9iN"
+  },
+  {
+    "data_name": "Thyroid Balance and Normalize 2 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Thyroid Balance and Normalize 2. The frequencies in this preset are: 20 hz, 537 hz, 1570 hz, 10000 hz, 16000 hz",
+    "data_start": "play_CUST_3d_auto([20, 537, 1570, 10000, 16000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "09V6ts7W"
+  },
+  {
+    "data_name": "Thyroid Gland Fever CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Thyroid Gland Fever. The frequencies in this preset are: 20 hz, 160 hz, 660 hz, 690 hz, 727.5 hz, 1570 hz, 10000 hz, 16000 hz",
+    "data_start": "play_CUST_3d_auto([20, 160, 660, 690, 727.5, 1570, 10000, 16000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "evMrZUSH"
+  },
+  {
+    "data_name": "Thyroid Support CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Thyroid Support. The frequencies in this preset are: 160 hz",
+    "data_start": "play_CUST_3d_auto([160]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "n8nbQPqe"
+  },
+  {
+    "data_name": "Tumor Staphylococcus Aureus CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Tumor Staphylococcus Aureus. The frequencies in this preset are: 424 hz, 478 hz, 555 hz, 644 hz, 647 hz, 727 hz, 728 hz, 738 hz, 745 hz, 784 hz, 787 hz, 824 hz, 943 hz, 999 hz, 1050 hz, 7270 hz, 8697 hz",
+    "data_start": "play_CUST_3d_auto([424, 478, 555, 644, 647, 727, 728, 738, 745, 784, 787, 824, 943, 999, 1050, 7270, 8697]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "MPU2Fk2g"
+  },
+  {
+    "data_name": "Valley Fever 4 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Valley Fever 4. The frequencies in this preset are: 80000 hz, 2400 hz, 336 hz, 337 hz",
+    "data_start": "play_CUST_3d_auto([80000, 2400, 336, 337]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "5A3U2k34"
+  },
+  {
+    "data_name": "Virus General 4 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Virus General 4. The frequencies in this preset are: 344 hz, 447 hz, 564 hz, 633 hz, 834 hz, 944 hz, 3443 hz, 6534 hz, 7884 hz, 10423 hz, 12534 hz, 17884 hz, 21436 hz",
+    "data_start": "play_CUST_3d_auto([344, 447, 564, 633, 834, 944, 3443, 6534, 7884, 10423, 12534, 17884, 21436]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "2EQLY0il"
+  },
+  {
+    "data_name": "Vitamin A Deficiency CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Vitamin A Deficiency. The frequencies in this preset are: 2100 hz, 9120 hz, 15200 hz, 23500 hz, 33297 hz, 28750 hz, 26440 hz, 22530 hz, 38183 hz, 33170 hz",
+    "data_start": "play_CUST_3d_auto([2100, 9120, 15200, 23500, 33297, 28750, 26440, 22530, 38183, 33170]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "zIgMRUzK"
+  },
+  {
+    "data_name": "Vitamin B12 Deficiency CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Vitamin B12 Deficiency. The frequencies in this preset are: 50 hz, 6560 hz, 16000 hz, 22500 hz, 32500 hz, 35925 hz, 36400 hz, 38279 hz, 37240 hz, 38705 hz",
+    "data_start": "play_CUST_3d_auto([50, 6560, 16000, 22500, 32500, 35925, 36400, 38279, 37240, 38705]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "HRin3PUl"
+  },
+  {
+    "data_name": "Vitamin C Deficiency CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Vitamin C Deficiency. The frequencies in this preset are: 2100 hz, 11680 hz, 29500 hz, 23750 hz, 15420 hz, 34065 hz, 5009 hz, 39375 hz, 36000 hz, 39923 hz",
+    "data_start": "play_CUST_3d_auto([2100, 11680, 29500, 23750, 15420, 34065, 5009, 39375, 36000, 39923]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "bKwxFq0W"
+  },
+  {
+    "data_name": "Vitamin D Deficiency CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Vitamin D Deficiency. The frequencies in this preset are: 2890 hz, 3740 hz, 9920 hz, 33270 hz, 40000 hz, 28750 hz, 25000 hz, 37233 hz, 34000 hz",
+    "data_start": "play_CUST_3d_auto([2890, 3740, 9920, 33270, 40000, 28750, 25000, 37233, 34000]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "cHD9xj1e"
+  },
+  {
+    "data_name": "(Avitaminosis) CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for (Avitaminosis). The frequencies in this preset are: 2400 hz, 4420 hz, 7360 hz, 15000 hz, 37500 hz, 28750 hz, 33333 hz, 26875 hz, 22530 hz, 38797 hz",
+    "data_start": "play_CUST_3d_auto([2400, 4420, 7360, 15000, 37500, 28750, 33333, 26875, 22530, 38797]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "3p597Sdh"
+  },
+  {
+    "data_name": "Wide Spectrum Antibiotic 4 CUST 3D frequencies",
+    "data_description": "This is CUST 3D frequencies healing preset for Wide Spectrum Antibiotic 4. The frequencies in this preset are: 727 hz, 787 hz, 802 hz, 880 hz, 465 hz",
+    "data_start": "play_CUST_3d_auto([727, 787, 802, 880, 465]);",
+    "data_stop": "stop_CUST_3d();",
+    "data_id": "mce968EM"
+  }
+]

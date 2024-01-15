@@ -21,11 +21,11 @@ function convertLine(line) {
   // console.log(nameAndType);
   let name = nameAndType.slice(0, -1).join(','); // Join the name parts with comma
   // let type = nameAndType[nameAndType.length - 1];
-  let type = parts[2];
-  if (type == undefined) {console.log(parts)}
+  let type = parts[2].slice(1,-2);
+  //if (type == undefined) {console.log(parts)}
   //console.log(type);
   // Get the frequencies from the second part
-  /*
+
   let frequencies = parts[1].split(',').filter(x => x); // Remove any empty strings
   // console.log(frequencies);
   // Construct the json object
@@ -36,7 +36,6 @@ function convertLine(line) {
   json.data_stop = 'stop_' + type + '_3d();';
   json.data_id = generateId();
   return json;
-  */
 }
 
 // Define a function to convert a text file to a json file
@@ -55,7 +54,7 @@ function convertFile(inputFile, outputFile) {
       let json = convertLine(line);
       jsonArray.push(json);
     }
-    /*
+    
     // Write the array to the output file as a json string
     fs.writeFile(outputFile, JSON.stringify(jsonArray, null, 2), 'utf8', (err) => {
       if (err) {
@@ -64,7 +63,6 @@ function convertFile(inputFile, outputFile) {
       }
       console.log('Conversion successful!');
     });
-    */
   });
 }
 
