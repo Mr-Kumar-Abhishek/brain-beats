@@ -1,4 +1,4 @@
-Ammonia Remove,1719.51,CUST 
+Ammonia Remove,"1719.51,",CUST 
 Anaplasma Lyme,"387,",CUST 
 Ascaris Lumbricoides All Stages,"471910.2143,1200,55455.4555,120,7456.5499,240,4777.5565,360,",CUST 
 Ascaris Megalocephala All Stages,"128159.7732,300,111.1211,8810.5764,360,22450.8855,300,34688.1655,300,",CUST 
@@ -80,14 +80,14 @@ Essential Oil - Christmas Spirit,"13000000,",CUST
 Essential Oil - Citrus Fresh,"22500000,",CUST 
 Essential Oil - Clarity,"12625000,",CUST 
 Essential Oil - Di-Gise,"12750000,",CUST 
-Essential Oil - Dragon Time,18000000,CUST 
+Essential Oil - Dragon Time,"18000000,",CUST 
 Essential Oil - Dream Catcher,"24500000,",CUST 
 Essential Oil - En-R-Gee,"13250000,",CUST 
-Essential Oil - EndoFlex,17250000,CUST 
-Essential Oil - Envision,22500000,CUST 
+Essential Oil - EndoFlex,"17250000,",CUST 
+Essential Oil - Envision,"22500000,",CUST 
 Essential Oil - Exodus II,"22500000,",CUST 
 Essential Oil - Forgiveness,"24000000,",CUST 
-Essential Oil - Frankincense,18375000,CUST 
+Essential Oil - Frankincense,"18375000,",CUST 
 Essential Oil - Galbanum,"14000000,",CUST 
 Essential Oil - Gathering,"24750000,",CUST 
 Essential Oil - Gentle Baby,"19000000,",CUST 
@@ -129,7 +129,7 @@ Essential Oil - Sandalwood,"24000000,",CUST
 Essential Oil - SARA,"12750000,",CUST 
 Essential Oil - Sensation,"22000000,",CUST 
 Essential Oil - Surrender,"24500000,",CUST 
-Essential Oil - Thieves,18750000,CUST 
+Essential Oil - Thieves,"18750000,",CUST 
 Essential Oil - Three Wise Men,"18000000,",CUST 
 Essential Oil - Trauma Life,"23000000,",CUST 
 Essential Oil - Valor,"23500000,",CUST 
@@ -205,7 +205,7 @@ Morgellons Ruko Tick,"286.46,308.66,6634.7,",CUST
 Morgellons Silicone Detox,"787998.7877,",CUST 
 Morgellons Skin Itch,"37500,",CUST 
 Morgellons Slime Molds 1,"81000,126000,21100,",CUST 
-Morgellons Slime Molds Sweep,145286.417-146713.583 W1 G0 A20 O0,CUST 
+Morgellons Slime Molds Sweep,"145286.417,146713.583,",CUST 
 Morgellons Smart Dust,"55454.5454,",CUST 
 Mycobacterium Infections,"60,5440,9600,35440,37040,25714,438800,30300,38000,40000,",CUST 
 Mycoplasma Lyme Disease,"660,690,728,254,484,610,644,790,864,986,2900,",CUST 
@@ -224,7 +224,7 @@ Oxygen,"5.772,",CUST
 Ozone Generate,"78,16,15.99",CUST 
 Parasites and Amoebas 4,"1865,444,125,95,72,20,",CUST 
 Parasites General 4,"187,294,387,453,562,697,752,772,844,947,1113,3437,",CUST 
-Parasites Ropeworm,1359,CUST 
+Parasites Ropeworm,"1359,",CUST 
 Pause 1 Day (Remote),0,CUST 
 Pause 1 Hour (Remote),0,CUST 
 Pleural Effusion,"787,474,612,361,",CUST 
@@ -263,4 +263,4 @@ Vitamin B12 Deficiency,"50,6560,16000,22500,32500,35925,36400,38279,37240,38705,
 Vitamin C Deficiency,"2100,11680,29500,23750,15420,34065,5009,39375,36000,39923,",CUST 
 Vitamin D Deficiency,"2890,3740,9920,33270,40000,28750,25000,37233,34000,",CUST 
 (Avitaminosis),"2400,4420,7360,15000,37500,28750,33333,26875,22530,38797,",CUST 
-Wide Spectrum Antibiotic 4,"727,787,802,880,465,",CUST 
+Wide Spectrum Antibiotic 4,"727,787,802,880,465,",CUST 
