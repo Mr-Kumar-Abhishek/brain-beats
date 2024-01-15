@@ -225,8 +225,8 @@ Ozone Generate,"78,16,15.99",CUST
 Parasites and Amoebas 4,"1865,444,125,95,72,20,",CUST 
 Parasites General 4,"187,294,387,453,562,697,752,772,844,947,1113,3437,",CUST 
 Parasites Ropeworm,"1359,",CUST 
-Pause 1 Day (Remote),0,CUST 
-Pause 1 Hour (Remote),0,CUST 
+Pause 1 Day (Remote),"0,",CUST 
+Pause 1 Hour (Remote),"0,",CUST 
 Pleural Effusion,"787,474,612,361,",CUST 
 Program Finale 4,"465,",CUST 
 Proteus Mirabilis 1,"20034.38,20375,20250,794.55,808.07,803.12,",CUST 
