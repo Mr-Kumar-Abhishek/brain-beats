@@ -6,7 +6,7 @@ const inputFile = 'spooky-formatted-frequency-3.txt';
 const outputFile = 'spooky-cafl-frequency.txt';
 
 // Define the condition to filter the lines
-const condition = 'CAFL';
+const condition = 'CAFL \r';
 
 // Read the input file asynchronously
 fs.readFile(inputFile, 'utf8', (err, data) => {
@@ -17,8 +17,10 @@ fs.readFile(inputFile, 'utf8', (err, data) => {
   }
   // Split the data into an array of lines
   const lines = data.split('\n');
+  // console.log(lines);
   // Filter the lines that end with the condition
-  const filteredLines = lines.filter(line => line && line.endsWith('CAFL'));
+  const filteredLines = lines.filter(line => line.endsWith(condition));
+  console.log(filteredLines);
   // Join the filtered lines into a string
   const outputData = filteredLines.join('\n');
   // Write the output data to the output file asynchronously
