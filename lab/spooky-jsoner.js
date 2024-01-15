@@ -21,14 +21,15 @@ function convertLine(line) {
   let name = nameAndType.slice(0, -1).join(','); // Join the name parts with comma
   // let type = nameAndType[nameAndType.length - 1];
   let type = parts[2].slice(1, -2);
-  console.log(type);
+  // console.log(type);
   // Get the frequencies from the second part
-  let frequencies = parts[1].split(' ').filter(x => x); // Remove any empty strings
+  let frequencies = parts[1].split(',').filter(x => x); // Remove any empty strings
+  console.log(frequencies);
   // Construct the json object
   let json = {};
   json.data_name = name + ' ' + type + ' 3D frequencies';
   json.data_description = 'This is ' + type + ' 3D frequencies healing preset for ' + name + '. The frequencies in this preset are: ' + frequencies.join(' hz, ') + ' hz';
-  json.data_start = 'play_' + type + '_3d_auto([' + frequencies.join(', ').slice(0, -1) + ']);'; // Remove the trailing comma
+  json.data_start = 'play_' + type + '_3d_auto([' + frequencies.join(', ') + ']);'; // Remove the trailing comma
   json.data_stop = 'stop_' + type + '_3d();';
   json.data_id = generateId();
   return json;
@@ -62,4 +63,4 @@ function convertFile(inputFile, outputFile) {
 }
 
 // Call the function with the input and output file names
-convertFile('spooky-alt-frequency.txt', 'output.json');
+convertFile('spooky-alt-frequency.txt', 'alt-freq.json');
