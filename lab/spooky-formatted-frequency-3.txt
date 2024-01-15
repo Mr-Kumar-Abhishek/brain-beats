@@ -163,7 +163,7 @@ Amaurosis Fugax,"180,780,2500,85000,37500,110250,175000,352930,495000,",KHZ
 Amblyopia,"50,700,2500,67500,125050,322060,536420,655200,752630,924370,",KHZ 
 Amenorrhea,Menstruation,"10000,880,1550,802,787,760,727,465,20,",CAFL 
 Amino Acid Metabolism,"170,2500,20000,92500,310250,450000,517500,687620,712230,993410,",KHZ 
-Ammonia Remove,1719.51,CUST 
+Ammonia Remove,"1719.51,"CUST 
 Amnesia,Brain,"70,2250,87500,92500,275000,432410,564280,640000,978050,",KHZ 
 Amniotic Band Syndrome,"70,180,5620,37500,100000,275160,525710,655200,750000,926700,",KHZ 
 Amoeba General,"310,333,532,732,769,827,1522,",CAFL 
@@ -2305,14 +2305,14 @@ Essential Oil - Christmas Spirit,"13000000,",CUST
 Essential Oil - Citrus Fresh,"22500000,",CUST 
 Essential Oil - Clarity,"12625000,",CUST 
 Essential Oil - Di-Gise,"12750000,",CUST 
-Essential Oil - Dragon Time,18000000,CUST 
+Essential Oil - Dragon Time,"18000000,",CUST 
 Essential Oil - Dream Catcher,"24500000,",CUST 
 Essential Oil - En-R-Gee,"13250000,",CUST 
-Essential Oil - EndoFlex,17250000,CUST 
-Essential Oil - Envision,22500000,CUST 
+Essential Oil - EndoFlex,"17250000,",CUST 
+Essential Oil - Envision,"22500000,",CUST 
 Essential Oil - Exodus II,"22500000,",CUST 
 Essential Oil - Forgiveness,"24000000,",CUST 
-Essential Oil - Frankincense,18375000,CUST 
+Essential Oil - Frankincense,"18375000,",CUST 
 Essential Oil - Galbanum,"14000000,",CUST 
 Essential Oil - Gathering,"24750000,",CUST 
 Essential Oil - Gentle Baby,"19000000,",CUST 
@@ -2354,7 +2354,7 @@ Essential Oil - Sandalwood,"24000000,",CUST
 Essential Oil - SARA,"12750000,",CUST 
 Essential Oil - Sensation,"22000000,",CUST 
 Essential Oil - Surrender,"24500000,",CUST 
-Essential Oil - Thieves,18750000,CUST 
+Essential Oil - Thieves,"18750000,",CUST 
 Essential Oil - Three Wise Men,"18000000,",CUST 
 Essential Oil - Trauma Life,"23000000,",CUST 
 Essential Oil - Valor,"23500000,",CUST 
@@ -4212,7 +4212,7 @@ Morgellons Ruko Tick,"286.46,308.66,6634.7,",CUST
 Morgellons Silicone Detox,"787998.7877,",CUST 
 Morgellons Skin Itch,"37500,",CUST 
 Morgellons Slime Molds 1,"81000,126000,21100,",CUST 
-Morgellons Slime Molds Sweep,145286.417-146713.583 W1 G0 A20 O0,CUST 
+Morgellons Slime Molds Sweep,"145286.417,146713.583,",CUST 
 Morgellons Smart Dust,"55454.5454,",CUST 
 Motion Sickness,"10000,5000,648,624,600,465,440,648,444,1865,522,190,146,125,95,72,20,",CAFL 
 Motion Sickness,"150,230,680,830,72520,137570,292610,537300,822590,921050,",KHZ 
@@ -4679,7 +4679,7 @@ Parasites Pancreatic Flukes,Pancreas,"1850,2000,2003,2008,2013,2050,2080,6578,",
 Parasites Pancreatic Flukes,"70,520,750,970,2500,12330,22500,65430,322060,475430,",KHZ 
 Parasites Paragonimus Westermanil,"120,230,600,2750,5430,2500,32500,126070,210500,519340,",KHZ 
 Parasites Passalurus Ambiguus,"130,400,600,950,5170,7250,20000,90000,175440,478500,",KHZ 
-Parasites Ropeworm,1359,CUST 
+Parasites Ropeworm,"1359,",CUST 
 Parasites Roundworm General,Intestines,"20,104,112,120,128,152,240,332,422,543,650,688,721,732,772,827,835,942,2720,3212,4152,4412,5897,7159,",CAFL 
 Parasites Roundworms,"60,520,620,930,2500,15440,42500,100000,376290,450000,",KHZ 
 Parasites Scabies,Skin,"90,94,98,102,106,110,253,693,600,920,1436,2871,5742,90-110,1800,",CAFL 
@@ -4738,8 +4738,8 @@ Parvovirus Canine,Dogs,"637,185,323,562,613,622,1000,4027,",CAFL
 Passalurus Ambiguus_1,"428800-444150,3600,",HC 
 Passalurus Ambiguus_2,"437000,",HC 
 Pasteurella Combination,"913,",BIO 
-Pause 1 Day (Remote),0,CUST 
-Pause 1 Hour (Remote),0,CUST 
+Pause 1 Day (Remote),"0,",CUST 
+Pause 1 Hour (Remote),"0,",CUST 
 Peace and Relaxation,"1-3,",XTRA 
 Pellagra,"190,230,950,82500,192710,227500,452020,592500,731310,815720,",KHZ 
 Pelvic Inflammatory Disease,Uterus,"2720,2489,2170,2127,2008,1800,1600,1550,802,787,776,727,690,666,650,625,600,465,444,522,95,72,450,428,",CAFL 
