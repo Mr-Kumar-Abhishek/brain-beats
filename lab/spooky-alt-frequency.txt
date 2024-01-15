@@ -1,0 +1,48 @@
+Chakra 2 3rd Eye,"288,",ALT 
+Chakra 2 Base,"456,",ALT 
+Chakra 2 Crown,"432,",ALT 
+Chakra 2 Heart,"256,",ALT 
+Chakra 2 Sacral,"606,",ALT 
+Chakra 2 Solar Plexus,"364,",ALT 
+Chakra 2 Throat,"384,",ALT 
+Chakra 3rd Eye,"221.23,",ALT 
+Chakra Base,"194.18,",ALT 
+Chakra Crown,"172.06,",ALT 
+Chakra Heart,"136.10,",ALT 
+Chakra Sacral,"210.42,",ALT 
+Chakra Solar Plexus,"126.22,",ALT 
+Chakra Throat,"141.27,",ALT 
+DNA and DNA Nucleotides + WBC RBC etc,"528,731,732,537.8,300,543.4,300,545.6,300,550,300,637,600,999,300,1434,600,1524,600,2452,600,1056,2008,9999,",ALT 
+Jupiter - Hearing,Formal Concepts","10.7,",ALT 
+Jupiter - Intestines,Emotional Assimilation,Expansion","2.67,",ALT 
+Jupiter - Lungs,Oxygen,Heat","5.35,",ALT 
+Mars - Bara,Pelvic Balance,Emotion Balance and Stability","3.07,",ALT 
+Mars - Eyes,Visualization","12.3,",ALT 
+Mars - Heart,Love,Warmth,"6.15,",ALT 
+Mercury - Genitals,"2.3,",ALT 
+Mercury - Spleen,Blood,Emotional Impulse,"4.6,",ALT 
+Mercury - Upper Lip,Emotions,Conflict Resolution,"9.19,",ALT 
+Moon - Bladder,"2.57,",ALT 
+Moon - Nasal Passage,Breathing,Taste,"10.3,",ALT 
+Moon - Stomach,Emotional Acceptance,"5.14,",ALT 
+Planet - Jupiter,"183.58,",ALT 
+Planet - Mars,"144.72,",ALT 
+Planet - Mercury,"141.27,",ALT 
+Planet - Moon,"210.42,",ALT 
+Planet - Neptune,"211.44,",ALT 
+Planet - Pluto,"140.25,",ALT 
+Planet - Saturn,"147.85,",ALT 
+Planet - SUN,"126.22,",ALT 
+Planet - Uranus,"207.36,",ALT 
+Planet - Venus,"221.23,",ALT 
+Sacral,Zinc Etc,"32,64,128,147,210.42,256,272,303,324,337,384,400,440,448,480,537,586,635,999,1444,1200,1351,1413,1534,1550,",ALT 
+Saturn - Collarbones,Vitality,Overall Balance,Stability","6.88,",ALT 
+Saturn - Frontal Lobes,Seventh Sense,Final Decision,"13.8,",ALT 
+Saturn - Ovaries,Vitality,Life at Every Level,"3.44,",ALT 
+Sun - Coccyx,"2.06,",ALT 
+Sun - Kidneys,Strength,"4.11,",ALT 
+Sun - Mouth,Speech,Creativity,"8.22,",ALT 
+Sun - Top of Head,Spirit,Liberation,Transcendence,"16.4,",ALT 
+Venus - Cortex,Intelligence,"15.4,",ALT 
+Venus - Liver,Pancreas,Emotional,Appetite/Digestion,"3.84,",ALT 
+Venus - Shoulders,Strength of Arms,Expansion,Teaching,"7.69,",ALT 
