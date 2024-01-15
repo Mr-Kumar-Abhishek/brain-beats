@@ -1,0 +1,240 @@
+Actinobacillus,Respiratory,"773,",VEGA 
+Actinomyces Israelii,"262,2154,",VEGA 
+Adenovirus,"333,786,",VEGA 
+Adnexitis,Ovary,"522,572,3343,3833,5312,440,441,",VEGA 
+Aflatoxin,"344,",VEGA 
+Alternaria Tenuis,"853,",VEGA 
+Amoeba Hepar Abscess,Liver,"344,",VEGA 
+Arsenic Aib.,"562,",VEGA 
+Aspergillus Flavus,Lung,"1823,",VEGA 
+Aspergillus Glaucus,Brain,"524,",VEGA 
+Aspergillus Terreus,Lung,"743,",VEGA 
+Astrocytoma,"857,",VEGA 
+B Subtilis,"432,722,822,1246,",VEGA 
+Bacillinum,"132,854,921,1042,1932,",VEGA 
+Bacteria Lactis Nosode,"512,526,5412,",VEGA 
+Baker's Yeast,"775,",VEGA 
+Banal,"1778,",VEGA 
+Barley Smut,"377,",VEGA 
+BCG Vaccine,"477.7,277,",VEGA 
+Beth Sutton's Bar Fungus,"854,",VEGA 
+Bilirubin,"717,726,731,863,",VEGA 
+Bladder TBC,"771,",VEGA 
+Blastocystis Hominis,"848,365,844,595,",VEGA 
+Borrelia,"254,644,",VEGA 
+Botrytis Cinereas,"1132,",VEGA 
+Botulinum,"518,",VEGA 
+Bronchiectasis,"342,",VEGA 
+Broncho Pneumonia Borinum,"452,1474,",VEGA 
+Brucella Melitensis,"748,",VEGA 
+Candida Albicans,"414,",VEGA 
+Canine Parvo B,"323,535,755,",VEGA 
+Canine Parvo Mutant,"323,",VEGA 
+Canine Parvo,"323,562,622,4027,",VEGA 
+Carcinoma Bronchial,"462,852,1582,",VEGA 
+Carcinoma Colon,"656,",VEGA 
+Carcinoma Liver Fermentative,"214,",VEGA 
+Carcinoma Uterine Fermentative,"127,",VEGA 
+Cataract Brunescent,"1335,",VEGA 
+Celia Carroll,"576,973,",VEGA 
+Cerumen,"320,",VEGA 
+Chaetomium Globosum,"221,867,",VEGA 
+Chicken Pox,"787,3343,",VEGA 
+Cholecystitis,"481,743,865,928,",VEGA 
+Cholera,"843,844,",VEGA 
+Cholesteatoma,"453,618,793,",VEGA 
+Cimicifuga,"594,",VEGA 
+Cladosporium Fulvum,"438,",VEGA 
+CMV,"2145,",VEGA 
+Coeliacia,"594,656,",VEGA 
+Corn Smut,"546,",VEGA 
+Coxsackie B1,"834,",VEGA 
+Coxsackie B2,"705,534,",VEGA 
+Coxsackie B4,"421,",VEGA 
+Coxsackie B5,"462,1043,1083,",VEGA 
+Coxsackie B6,"736,814,",VEGA 
+Coxsackie,"136,232,422,424,435,921,923,",VEGA 
+Cryptosporidium,"482,4122,",VEGA 
+Cysto Pyelo Nephritis,"1385,",VEGA 
+Dan's Mold,"222,333,421,822,1233,1351,1711,1832,",VEGA 
+Dematium Nigrum,"243,",VEGA 
+Diptherinum,"624,",VEGA 
+Distemper,"242,254,312,551,573,671,712,1269,",VEGA 
+EBV,"660,663,669,",VEGA 
+Echinococcinum,"453,164,623,542,",VEGA 
+Echo Virus (Endometriosis Tuberylosa),"620,",VEGA 
+Entamoeba Histolytica,"148,166,308,",VEGA 
+Entero Hepatitis,"552,932,953,",VEGA 
+Enterobiasis,"773,827,835,",VEGA 
+Epicoccum,"734,",VEGA 
+Epidermophyton Floccinum,"644,766,",VEGA 
+Erysipelas,"845,616,",VEGA 
+Fasciola Hepatica,"275,",VEGA 
+Feli,"435,",VEGA 
+Fibroadenoma Mamanae,"1384,",VEGA 
+FIV,"262,323,372,567,916,",VEGA 
+Flu Triple Nosode,"421,632,1242,1422,1922,3122,",VEGA 
+Flu Virus A,"332,",VEGA 
+Flu Virus British,"932,",VEGA 
+Fluor Alb,"420,423,424,2222,502,",VEGA 
+Follicular Mange,"693,253,",VEGA 
+Foot and Mouth,"232,237,1214,1244,1271,5411,",VEGA 
+Fungus Flora,"632,",VEGA 
+Fusarium Oxysporum,"102,",VEGA 
+Gardnerella,"782,",VEGA 
+Geotrichum Candidum,"412,",VEGA 
+German Measles,"517,",VEGA 
+Glioma,"543,641,",VEGA 
+Grippe,"343,512,862,3012,3423,10223,",VEGA 
+Haemophilus Influenzae,"542,",VEGA 
+Hairy Cell,"122,622,932,5122,",VEGA 
+Hepatitis A,"321,3220,",VEGA 
+Hepatitis New Numbers,"922,477,",VEGA 
+Hepatitis Non A Non B,"166,",VEGA 
+Hepatitis,"224,317,",VEGA 
+Herpes Simplex,"322,343,476,822,843,1043,1614,2062,",VEGA 
+Herpes Zoster,"1557,574,",VEGA 
+Hirudo Med.,"128,",VEGA 
+HIV,"683,3554,714,",VEGA 
+Hormodendrum,"695,",VEGA 
+Household Insect Mix,"723,",VEGA 
+Icterus Haemolytic,"243,",VEGA 
+Influenza Bach Poly,"122,823,",VEGA 
+Influenza Berlin,"55,430,720,733,",VEGA 
+Influenza Toxicum,"854,",VEGA 
+Influenza Vesic NW,"364,",VEGA 
+Influenza Vesic,"203,292,975,",VEGA 
+Intestinal Inflammation,"105,791,",VEGA 
+Jim Adams Fungus,"943,2644,",VEGA 
+Kaposiís Sarcoma,"418,249,",VEGA 
+Katy Luce Finger Wart,"495,",VEGA 
+Katy Luce Foot Fungus,"634,",VEGA 
+Kay Harris,"521,772,2138,",VEGA 
+Kidney Papilloma,"110,767,",VEGA 
+Klebsiella Pneumoniae,"766,412,",VEGA 
+Lac Deflorat,"230,371,",VEGA 
+Legionella,"723,",VEGA 
+Leuco Encephalitis,"572,",VEGA 
+Leucoencephalitis,"572,932,1111,",VEGA 
+Listeriose,"471,774,2162,",VEGA 
+Lupus,"243,352,386,921,942,993,1333,1464,",VEGA 
+Lyme,"605,673,1455,797,",VEGA 
+Lymph Leukemia,"833,",VEGA 
+Lymphangitis,"574,",VEGA 
+Lymphogranuloma,"1522,",VEGA 
+Malaria,"222,550,713,930,1032,1433,",VEGA 
+Mark Seabock,"557,922,",VEGA 
+Measles Vaccine,"962,",VEGA 
+Measles,"467,520,1489,",VEGA 
+Medorrhinum,"442,843,2222,",VEGA 
+Meningioma,"535,",VEGA 
+Meningitis,"322,822,1044,1422,",VEGA 
+Meningococcinum,"676,677,517,",VEGA 
+Methotrexate,"584,",VEGA 
+Microsporum Audouini,"422,831,1222,",VEGA 
+Microsporum Canis,"1644,",VEGA 
+Mold A and C,"331,732,923,982,",VEGA 
+Mold Mix B (P. Williams),"158,512,1463,623,774,1016,",VEGA 
+Mold Mix C,"1627,",VEGA 
+Mold Vac II,"257,",VEGA 
+Mold,"222,242,523,592,745,933,1155,1333,1833,4442,",VEGA 
+Monilia,"866,",VEGA 
+Morbus Parkinson,"813,",VEGA 
+Mucor Mucedo,"612,",VEGA 
+Mucor Racemosus,"474,",VEGA 
+Mumps Vaccine,"711,551,1419,",VEGA 
+Mumps,"242,516,642,922,2630,3142,",VEGA 
+Mutant Canine Parvo,"323,",VEGA 
+Mycosis Fungoides,"852,",VEGA 
+Myoma,"453,832,",VEGA 
+Myositis,"122,1124,1169,",VEGA 
+Nagel Trichophyton,"133,812,2422,",VEGA 
+Nasal Polyp,"1436,",VEGA 
+Nephritis,"264,",VEGA 
+Neuralgia,"833,",VEGA 
+Neurospora Sitophila,"705,",VEGA 
+Nocarcila Asteroldes,"237,",VEGA 
+Ornithosis,"583,",VEGA 
+Osteitis,"770,",VEGA 
+Otitis Medinum,Ear,"316,",VEGA 
+Ovarian Cyst,"982,",VEGA 
+Paradontose,"1552,",VEGA 
+Pemphigus,"893,",VEGA 
+Penicillium Chrysogenum,"344,2411,",VEGA 
+Penicillium Notatum,"321,555,942,",VEGA 
+Penicillium Rubrum,"332,766,",VEGA 
+Penny Royal,"772,",VEGA 
+Penqueculum,"746,755,6965,",VEGA 
+Pepto Streptococcus,"201,",VEGA 
+Phoma Destructlva,"163,",VEGA 
+Plasmocytoma,"475,",VEGA 
+Pneumococcus Mixed Flora,"158,645,801,",VEGA 
+Pneumococcus,"683,",VEGA 
+Pneumocystis,"340,742,",VEGA 
+Polio,"742,1580,2632,",VEGA 
+Protozoa,"432,753,",VEGA 
+Pseudomonas,"5311,482,",VEGA 
+Psittacosis,"1217,",VEGA 
+Psorinum,"786,",VEGA 
+Pullularia Pullulans,"1364,",VEGA 
+Pyoderma,"123,",VEGA 
+Pyrogenium 62,"429,",VEGA 
+Q Fever,"1357,",VEGA 
+Reproductive,"622,",VEGA 
+Rhesus Gravidatum,"684,",VEGA 
+Rheuma,"952,",VEGA 
+Rheumaticus,"376,",VEGA 
+Rhinopneumonitis,"185,367,820,",VEGA 
+Rhizopus Nigricans,"132,",VEGA 
+Rhodo Torula,"833,",VEGA 
+Rhodococcus,"124,835,",VEGA 
+Rickettsia,"129,943,",VEGA 
+Rita Livingston,"636,700,832,3734,",VEGA 
+Rocky Mountain Spotted Fever,"943,",VEGA 
+Round Worms,"650,",VEGA 
+Rubella Vaccine,"459,",VEGA 
+Rubella,"431,",VEGA 
+Salmonella B,"546,1634,",VEGA 
+Salmonella Paratyphi B,"717,643,972,707,59,92,7771,",VEGA 
+Salmonella,"1522,",VEGA 
+Schistosoma Haematobium,"847,",VEGA 
+Schistosoma Mansoni,"329,",VEGA 
+Schuman B Cell,"322,425,561,600,620,623,780,781,950,952,1023,1524,",VEGA 
+Serum Schweinepest,"503,",VEGA 
+Smegma,"180,",VEGA 
+Solitary Cyst,"75,",VEGA 
+Spanish Flu,"462,",VEGA 
+Sporotrichum Pruinosum,"755,",VEGA 
+Staphylococcus Aureus,"727,943,",VEGA 
+Staphylococcus Coagulae Positive,"643,",VEGA 
+Stemphylium,"461,",VEGA 
+Streptococcus Haemolytic,"535,1522,",VEGA 
+Streptococcus Virus,"727,",VEGA 
+Streptomyces Griseus,"887,",VEGA 
+Strongyloides,"332,422,721,942,3212,",VEGA 
+Struma Nodosa,"122,321,517,532,651,",VEGA 
+Swine Flu,"432,839,",VEGA 
+T-cell Leukemia,"222,262,822,3042,3734,",VEGA 
+Taenia,"187,",VEGA 
+Tapeworm,"522,562,843,1223,3032,5522,",VEGA 
+TB Aviare,"532,",VEGA 
+TB Klebsiella,"221,1132,1644,2313,6516,",VEGA 
+Tetanus,"554,",VEGA 
+Tetragenus,"393,2712,",VEGA 
+Threadworm,"423,732,4412,",VEGA 
+Tonsillar Pfropfe,"246,",VEGA 
+Tonsillitis,"452,",VEGA 
+Torulopsis,"522,2121,",VEGA 
+Toxoplasmosis,"434,852,",VEGA 
+Trichinosis,"541,1372,",VEGA 
+Trichophyton Mentagrophytes,"311,",VEGA 
+Trichophyton Tonsurans,"765,",VEGA 
+Tuberculinum,"522,",VEGA 
+Tularamia,"324,427,823,",VEGA 
+Uterus Polyp,"689,",VEGA 
+Vapch Grippe,"153,343,",VEGA 
+Varicella,"345,668,716,",VEGA 
+Variola,"511,2132,2544,876,",VEGA 
+Variolinum,"542,832,3222,",VEGA 
+Yeast Ultimate,"72,422,582,787,1016,2222,",VEGA 
+Yellow Fever,"432,734,",VEGA 
