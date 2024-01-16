@@ -36,111 +36,111 @@ Borrelia Burgdorferi Lyme Disease,"378950,382000,3600,",HC
 Bryozoa Cristatalla,"396000,",HC 
 Campylobacter Fetus Smear,"365300,370600,3600,",HC 
 Campylobacter Pyloridis,"352000,357200,3600,",HC 
-Capillaria Hepatica (Liver Sect),"424250-430650,3600,",HC 
-Central Spores (Bacillus Smear),"372450-378650,3600,",HC 
-Chilomastix Cysts (Rat) 2nd,"425200-427300,3600,",HC 
-Chilomastix Cysts (Rat),"388950-390700,3600,",HC 
-Chilomonas Whole Mount,"393750-400000,3600,",HC 
+Capillaria Hepatica (Liver Sect),"424250,430650,3600,",HC 
+Central Spores (Bacillus Smear),"372450,378650,3600,",HC 
+Chilomastix Cysts (Rat) 2nd,"425200,427300,3600,",HC 
+Chilomastix Cysts (Rat),"388950,390700,3600,",HC 
+Chilomonas Whole Mount,"393750,400000,3600,",HC 
 Chlamydia Trachomatis,"379700,383950,3600,",HC 
-Clonorchis Sinensis,"425700-428750,3600,",HC 
-Clostridium Acetobutylicum,"382800-391150,3600,",HC 
-Clostridium Botulinum,"361000-364550,3600,",HC 
-Clostridium Perringens Spores,"394200-393100,3600,",HC 
-Clostridium Septicum,"362050-365600,3600,",HC 
-Corynebacterium Diphtheriae,"340000-344000,3600,",HC 
-Corynebacterium Xerosis,"315650-316800,3600,",HC 
-Coxsackie B1,"360500-366100,3600,",HC 
-Coxsackie B4,"361450-363700,3600,",HC 
-Cryptocotyle Lingua (Adult),"409950-416000,3600,",HC 
+Clonorchis Sinensis,"425700,428750,3600,",HC 
+Clostridium Acetobutylicum,"382800,391150,3600,",HC 
+Clostridium Botulinum,"361000,364550,3600,",HC 
+Clostridium Perringens Spores,"394200,393100,3600,",HC 
+Clostridium Septicum,"362050,365600,3600,",HC 
+Corynebacterium Diphtheriae,"340000,344000,3600,",HC 
+Corynebacterium Xerosis,"315650,316800,3600,",HC 
+Coxsackie B1,"360500,366100,3600,",HC 
+Coxsackie B4,"361450,363700,3600,",HC 
+Cryptocotyle Lingua (Adult),"409950,416000,3600,",HC 
 Cytochalasin B_1,"77000,",HC 
 Cytochalasin B_2,"91000,",HC 
-Cytomegalovirus (CMV) Antigen,"403350-410750,3600,",HC 
-Cytophaga Rubra,"428100-432200,3600,",HC 
+Cytomegalovirus (CMV) Antigen,"403350,410750,3600,",HC 
+Cytophaga Rubra,"428100,432200,3600,",HC 
 Demodex Folliculorum Follicle Mite,"682000,",HC 
 Dermatophagoides Dust Mite,"707000,",HC 
-Dientamoeba Fragilis,"401350-406050,3600,",HC 
+Dientamoeba Fragilis,"401350,406050,3600,",HC 
 Diplococcus Diphtheriae,"357950,364000,3600,",HC 
 Diplococcus Pneumoniae_1,"351650,386450,3600,",HC 
 Diplococcus Pneumoniae_2,"365000,",HC 
-Dirofilaria Immitis Dog Heartworm,"408150-411150,3600,",HC 
-Echinoporyphium Recurvatum,"418550-423900,3600,",HC 
-Echinostoma Revolutum,"425500-429650,3600,",HC 
-Elkanella Corroderis,"379500-384300,3600,",HC 
-Endolimax Nana Trophozoites and Cysts 2nd,"430500-433350,3600,",HC 
-Endolimax Nana Trophozoites and Cysts,"394250-397100,3600,",HC 
-Entamoeba Coli Trophozoites,"397000-400350,3600,",HC 
-Entamoeba Gingivalis Trophozoite,"433800-441000,3600,",HC 
-Entamoeba Histolytica Trophozoite,"381100-367800,3600,",HC 
-Enterobacter Aerogenes,"374000-374000,3600,",HC 
+Dirofilaria Immitis Dog Heartworm,"408150,411150,3600,",HC 
+Echinoporyphium Recurvatum,"418550,423900,3600,",HC 
+Echinostoma Revolutum,"425500,429650,3600,",HC 
+Elkanella Corroderis,"379500,384300,3600,",HC 
+Endolimax Nana Trophozoites and Cysts 2nd,"430500,433350,3600,",HC 
+Endolimax Nana Trophozoites and Cysts,"394250,397100,3600,",HC 
+Entamoeba Coli Trophozoites,"397000,400350,3600,",HC 
+Entamoeba Gingivalis Trophozoite,"433800,441000,3600,",HC 
+Entamoeba Histolytica Trophozoite,"381100,367800,3600,",HC 
+Enterobacter Aerogenes,"374000,374000,3600,",HC 
 Enterobius Vermicularis,"420950,425300,3600,",HC 
-Epstein Barr Virus_1,"372500-382350,3600,",HC 
+Epstein Barr Virus_1,"372500,382350,3600,",HC 
 Epstein Barr Virus_2,"375000,",HC 
 Ergot,"295000,",HC 
-Erwinia Amylovora,"347200-352100,3600,",HC 
+Erwinia Amylovora,"347200,352100,3600,",HC 
 Escherichia Coli (E Coli),"356000,",HC 
-Eurytrema Pancreaticum,"420350-422300,3600,",HC 
-Fasciola Hepatica Eggs,"422000-427600,3600,",HC 
-Fasciola Hepatica Miracidia,"421750-424700,3600,",HC 
-Fasciola Hepatica Rediae,"420600-427500,3600,",HC 
-Fasciolopsis Buski Adult,"427700-435100,3600,",HC 
-Fasciolopsis Buski Eggs,"427350-435450,3600,",HC 
-Fasciolopsis Cercariae,"429500-435250,3600,",HC 
-Fasciolopsis Miracidia,"427350-435200,3600,",HC 
-Fasciolopsis Rediae,"427300-433000,3600,",HC 
-Fischoedrius Elongatus,"441750-443200,3600,",HC 
-Gaffkya Tetragena,"344850-352500,3600,",HC 
-Gardnerella Vaginalis,"333000-342550,3600,",HC 
-Gastrothylax Elongatus,"451900-457100,3600,",HC 
-Giardia Lamblia Trophozoites,"421400-426300,3600,",HC 
+Eurytrema Pancreaticum,"420350,422300,3600,",HC 
+Fasciola Hepatica Eggs,"422000,427600,3600,",HC 
+Fasciola Hepatica Miracidia,"421750,424700,3600,",HC 
+Fasciola Hepatica Rediae,"420600,427500,3600,",HC 
+Fasciolopsis Buski Adult,"427700,435100,3600,",HC 
+Fasciolopsis Buski Eggs,"427350,435450,3600,",HC 
+Fasciolopsis Cercariae,"429500,435250,3600,",HC 
+Fasciolopsis Miracidia,"427350,435200,3600,",HC 
+Fasciolopsis Rediae,"427300,433000,3600,",HC 
+Fischoedrius Elongatus,"441750,443200,3600,",HC 
+Gaffkya Tetragena,"344850,352500,3600,",HC 
+Gardnerella Vaginalis,"333000,342550,3600,",HC 
+Gastrothylax Elongatus,"451900,457100,3600,",HC 
+Giardia Lamblia Trophozoites,"421400,426300,3600,",HC 
 Griseofulvin,"288000,",HC 
-Gyrodactylus,"378750-381800,3600,",HC 
-Haemonchus Contortus,"386800-395000,3600,",HC 
+Gyrodactylus,"378750,381800,3600,",HC 
+Haemonchus Contortus,"386800,395000,3600,",HC 
 Haemophilus Influenzae,"336410,",HC 
 Heart Disease,"381000,",HC 
-Hepatitis B Antigen,"414550-420800,3600,",HC 
-Herpes Simplex 1 2nd,"345350-345760,3600,",HC 
-Herpes Simplex 1,"291250-293050,3600,",HC 
-Herpes Simplex 2_1,"353900-362900,3600,",HC 
-Histomonas Meleagridis,"376550-373700,3600,",HC 
+Hepatitis B Antigen,"414550,420800,3600,",HC 
+Herpes Simplex 1 2nd,"345350,345760,3600,",HC 
+Herpes Simplex 1,"291250,293050,3600,",HC 
+Herpes Simplex 2_1,"353900,362900,3600,",HC 
+Histomonas Meleagridis,"376550,373700,3600,",HC 
 HIV,"365000,",HC 
-Influenza A and B_1,"313350-323900,3600,",HC 
+Influenza A and B_1,"313350,323900,3600,",HC 
 Klebsiella Pneumoniae 2nd,"419000,",HC 
-Klebsiella Pneumoniae,"393450-404660,3600,",HC 
-Lactobacillus Acidophilus,"346050-351650,3600,",HC 
-Leishmania Braziliensis,"400050-405100,3600,",HC 
-Leishmania Donovani,"398000-402650,3600,",HC 
-Leishmania Mexicana,"400200-403800,3600,",HC 
-Leishmania Tropica,"402100-407400,3600,",HC 
-Leptospira Interrogans Spirochete,"397050-401100,3600,",HC 
-Leucocytozoon,"397460-402550,3600,",HC 
+Klebsiella Pneumoniae,"393450,404660,3600,",HC 
+Lactobacillus Acidophilus,"346050,351650,3600,",HC 
+Leishmania Braziliensis,"400050,405100,3600,",HC 
+Leishmania Donovani,"398000,402650,3600,",HC 
+Leishmania Mexicana,"400200,403800,3600,",HC 
+Leishmania Tropica,"402100,407400,3600,",HC 
+Leptospira Interrogans Spirochete,"397050,401100,3600,",HC 
+Leucocytozoon,"397460,402550,3600,",HC 
 Loa Loa,"360551,",HC 
 Lycogala,"126000,",HC 
-Macracanthorhynchus,"438850-442800,3600,",HC 
+Macracanthorhynchus,"438850,442800,3600,",HC 
 Meal Mite,"718000,",HC 
 Metagonimus Yokogawai,"437350,442100,3600,",HC 
 Mucor Mucedo,"288000,",HC 
 Mumps Antigen,"377600,384650,3600,",HC 
-Mycobacterium Phlei,"409650-410650,3600,",HC 
-Mycobacterium Tuberculosis,"430550-434200,3600,",HC 
-Mycoplasma 2nd,"342750-349300,3600,",HC 
+Mycobacterium Phlei,"409650,410650,3600,",HC 
+Mycobacterium Tuberculosis,"430550,434200,3600,",HC 
+Mycoplasma 2nd,"342750,349300,3600,",HC 
 Mycoplasma,"322850,323900,3600,",HC 
-Myxosoma,"409600-416950,3600,",HC 
+Myxosoma,"409600,416950,3600,",HC 
 Naegleria Fowleri,"356900,364350,3600,",HC 
-Neisseria Gonorrhea,"333850-336500,3600,",HC 
+Neisseria Gonorrhea,"333850,336500,3600,",HC 
 Nocardia Asteroides,"354950,355350,3600,",HC 
 Onchocerca Volvulus (Tumor),"435300,442100,3600,",HC 
 Ornithonyssus Bird Mite_1,"877000,",HC 
 Ornithonyssus Bird Mite_2,"878000,",HC 
-Paragonimus Westermani Adult_1,"437800-454200,3600,",HC 
+Paragonimus Westermani Adult_1,"437800,454200,3600,",HC 
 Paragonimus Westermani Adult_2,"447000,",HC 
-Passalurus Ambiguus_1,"428800-444150,3600,",HC 
+Passalurus Ambiguus_1,"428800,444150,3600,",HC 
 Passalurus Ambiguus_2,"437000,",HC 
-Plasmodium Cynomolgi,"417300-424500,3600,",HC 
-Plasmodium Falciparum Smear,"372300-373800,3600,",HC 
-Plasmodium Vivax Smear,"438150-445100,3600,",HC 
-Pneumocystis Carnil (Lung),"405750-409150,3600,",HC 
+Plasmodium Cynomolgi,"417300,424500,3600,",HC 
+Plasmodium Falciparum Smear,"372300,373800,3600,",HC 
+Plasmodium Vivax Smear,"438150,445100,3600,",HC 
+Pneumocystis Carnil (Lung),"405750,409150,3600,",HC 
 Propionibacterium Acnes,"383750-389000,3600,",HC 
-Prostnogonimus Macrorchis Egg,"396850-404750,3600,",HC 
+Prostnogonimus Macrorchis Egg,"396850,404750,3600,",HC 
 Proteus Mirabilis,"320550,326000,3600,",HC 
 Proteus Vulgaris,"408750,416450,3600,",HC 
 Pseudomonas Aeruginosa,"331250-334600,3600,",HC 
@@ -197,4 +197,4 @@ Veillonella Dispar,"401750-405200,3600,",HC
 Wart Human Papilloma Plantar,"404700,406750,3600,",HC 
 Wart Human Papilloma Virus,"402850,410700,3600,",HC 
 Wart Papilloma Cervix Smear,"404050,404600,3600,",HC 
-Zearalenone,"100000,",HC 
+Zearalenone,"100000,",HC 
