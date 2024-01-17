@@ -1,0 +1,240 @@
+[
+  {
+    "data_name": "Asbestos in Lungs PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Asbestos in Lungs. The frequencies in this preset are: 5111 hz",
+    "data_start": "play_PROV_3d_auto([5111]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "5vKbBzBE"
+  },
+  {
+    "data_name": "Astrocytoma,Brain PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Astrocytoma,Brain. The frequencies in this preset are: 7.69 hz, 8.25 hz, 9.19 hz, 20 hz, 543 hz, 641 hz, 666 hz, 690 hz, 857 hz, 2127 hz, 2170 hz",
+    "data_start": "play_PROV_3d_auto([7.69, 8.25, 9.19, 20, 543, 641, 666, 690, 857, 2127, 2170]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "icJOPmqb"
+  },
+  {
+    "data_name": "Babesia,Blood PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Babesia,Blood. The frequencies in this preset are: 76 hz, 570 hz, 1583 hz, 1584 hz, 432 hz, 753 hz, 5776 hz",
+    "data_start": "play_PROV_3d_auto([76, 570, 1583, 1584, 432, 753, 5776]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "IAPD2cx4"
+  },
+  {
+    "data_name": "Bartonella Henslae,Lymph PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Bartonella Henslae,Lymph. The frequencies in this preset are: 364 hz, 379 hz, 645 hz, 654 hz, 786 hz, 840 hz, 842 hz, 844 hz, 846 hz, 848 hz, 850 hz, 857 hz, 967 hz, 6878 hz, 634 hz, 696 hz, 716 hz, 1518 hz",
+    "data_start": "play_PROV_3d_auto([364, 379, 645, 654, 786, 840, 842, 844, 846, 848, 850, 857, 967, 6878, 634, 696, 716, 1518]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "U1F3lDjA"
+  },
+  {
+    "data_name": "Blood Cleanser,Blood PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Blood Cleanser,Blood. The frequencies in this preset are: 727 hz, 787 hz, 880 hz, 2008 hz, 2127 hz, 5000 hz",
+    "data_start": "play_PROV_3d_auto([727, 787, 880, 2008, 2127, 5000]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "ArJdnztC"
+  },
+  {
+    "data_name": "Borrelia Burgdorferi Lyme Disease PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Borrelia Burgdorferi Lyme Disease. The frequencies in this preset are: 939.32 hz, 941.92 hz, 946.87 hz, 11842.19 hz, 11875 hz",
+    "data_start": "play_PROV_3d_auto([939.32, 941.92, 946.87, 11842.19, 11875]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "htLY2Rvu"
+  },
+  {
+    "data_name": "Cancer Fibrosarcoma PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Cancer Fibrosarcoma. The frequencies in this preset are: 1744 hz",
+    "data_start": "play_PROV_3d_auto([1744]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "US8F01am"
+  },
+  {
+    "data_name": "Cancer Non Hodgkins 1,Lymph PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Cancer Non Hodgkins 1,Lymph. The frequencies in this preset are: 574 hz, 588 hz, 666 hz, 778 hz, 1078 hz, 1120 hz, 1340 hz, 1744 hz, 3524 hz, 3713 hz",
+    "data_start": "play_PROV_3d_auto([574, 588, 666, 778, 1078, 1120, 1340, 1744, 3524, 3713]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "5O6HFoKB"
+  },
+  {
+    "data_name": "Cancer Non Hodgkins 2 PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Cancer Non Hodgkins 2. The frequencies in this preset are: 2008 hz, 2004 hz, 2012 hz, 2116 hz, 2128 hz, 3672 hz, 7760 hz",
+    "data_start": "play_PROV_3d_auto([2008, 2004, 2012, 2116, 2128, 3672, 7760]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "xd3iYvto"
+  },
+  {
+    "data_name": "Cancer Prostate,Prostate PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Cancer Prostate,Prostate. The frequencies in this preset are: 20 hz, 72 hz, 304 hz, 442 hz, 666 hz, 690 hz, 727 hz, 766 hz, 787 hz, 790 hz, 800 hz, 920 hz, 1875 hz, 1998 hz, 2008 hz, 2050 hz, 2120 hz, 2127 hz, 2128 hz, 2130 hz, 2217 hz, 2250 hz, 2720 hz, 5000 hz",
+    "data_start": "play_PROV_3d_auto([20, 72, 304, 442, 666, 690, 727, 766, 787, 790, 800, 920, 1875, 1998, 2008, 2050, 2120, 2127, 2128, 2130, 2217, 2250, 2720, 5000]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "sB1SUN8n"
+  },
+  {
+    "data_name": "Cold and Flu PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Cold and Flu. The frequencies in this preset are: 13916.02 hz",
+    "data_start": "play_PROV_3d_auto([13916.02]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "SL5GW8pw"
+  },
+  {
+    "data_name": "Detox 3 Toxins in the Kidneys and Liver PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Detox 3 Toxins in the Kidneys and Liver. The frequencies in this preset are: 2.4 hz, 6.3 hz, 7.8 hz, 9.2 hz, 14 hz, 20 hz, 35 hz, 60 hz, 72 hz, 95 hz, 126 hz, 160 hz, 200 hz, 240 hz, 440 hz, 444 hz, 465 hz, 522 hz, 600 hz, 625 hz, 666 hz, 690 hz, 727 hz, 787 hz, 802 hz, 832 hz, 880 hz, 1500 hz, 1550 hz, 1865 hz, 2000 hz",
+    "data_start": "play_PROV_3d_auto([2.4, 6.3, 7.8, 9.2, 14, 20, 35, 60, 72, 95, 126, 160, 200, 240, 440, 444, 465, 522, 600, 625, 666, 690, 727, 787, 802, 832, 880, 1500, 1550, 1865, 2000]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "j5WY3jwQ"
+  },
+  {
+    "data_name": "Droglioma PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Droglioma. The frequencies in this preset are: 853 hz",
+    "data_start": "play_PROV_3d_auto([853]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "5nJ1MBcU"
+  },
+  {
+    "data_name": "Ehrlichia Chaffeensis PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Ehrlichia Chaffeensis. The frequencies in this preset are: 300 hz, 336.39 hz, 382.19 hz, 394.69 hz, 528.39 hz, 672.7 hz, 749.2 hz, 764.39 hz, 918 hz, 1200 hz, 1317.2 hz, 1345.4 hz, 1364.9 hz, 1369.79 hz, 1836 hz, 14980.5 hz",
+    "data_start": "play_PROV_3d_auto([300, 336.39, 382.19, 394.69, 528.39, 672.7, 749.2, 764.39, 918, 1200, 1317.2, 1345.4, 1364.9, 1369.79, 1836, 14980.5]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "vHV52dXt"
+  },
+  {
+    "data_name": "Ehrlichia Equi PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Ehrlichia Equi. The frequencies in this preset are: 1.19 hz, 250 hz, 295 hz, 349 hz, 354.19 hz, 406 hz, 469.69 hz, 590 hz, 637.89 hz, 698 hz, 939.29 hz, 1180 hz, 1223.4 hz, 1416.9 hz, 1878.7 hz, 2833.9 hz, 3248.3 hz, 3757.3 hz, 7080.5 hz",
+    "data_start": "play_PROV_3d_auto([1.19, 250, 295, 349, 354.19, 406, 469.69, 590, 637.89, 698, 939.29, 1180, 1223.4, 1416.9, 1878.7, 2833.9, 3248.3, 3757.3, 7080.5]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "XZnLfloJ"
+  },
+  {
+    "data_name": "Fibrosis of Lung,Lung PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Fibrosis of Lung,Lung. The frequencies in this preset are: 27.5 hz, 220 hz, 410 hz",
+    "data_start": "play_PROV_3d_auto([27.5, 220, 410]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "zMFPzCXP"
+  },
+  {
+    "data_name": "Flu Virus PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Flu Virus. The frequencies in this preset are: 88 hz, 728 hz, 800 hz, 2050 hz, 2180 hz, 2452 hz, 7760 hz, 8000 hz, 8250 hz",
+    "data_start": "play_PROV_3d_auto([88, 728, 800, 2050, 2180, 2452, 7760, 8000, 8250]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "IfdF7FsQ"
+  },
+  {
+    "data_name": "Immune System Stimulation 3,Immune system PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Immune System Stimulation 3,Immune system. The frequencies in this preset are: 8 hz, 20 hz, 120 hz, 304 hz, 432 hz, 464 hz, 665 hz, 728 hz, 800 hz, 880 hz, 1488 hz, 1862 hz, 2008 hz, 2128 hz, 2180 hz, 2489 hz, 2720 hz, 2791 hz, 2855 hz, 2867 hz, 2929 hz, 3176 hz, 3347 hz, 3448 hz, 4014 hz, 5000 hz, 5611 hz, 10000 hz",
+    "data_start": "play_PROV_3d_auto([8, 20, 120, 304, 432, 464, 665, 728, 800, 880, 1488, 1862, 2008, 2128, 2180, 2489, 2720, 2791, 2855, 2867, 2929, 3176, 3347, 3448, 4014, 5000, 5611, 10000]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "XpwHt5WV"
+  },
+  {
+    "data_name": "Influenza Virus A PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Influenza Virus A. The frequencies in this preset are: 322 hz, 332 hz, 776 hz",
+    "data_start": "play_PROV_3d_auto([322, 332, 776]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "HiTz3UkU"
+  },
+  {
+    "data_name": "Influenza Virus B 1 PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Influenza Virus B 1. The frequencies in this preset are: 468 hz, 530 hz, 532 hz, 536 hz, 537 hz, 568 hz, 679 hz, 722 hz, 740 hz, 742 hz, 744 hz, 746 hz, 748 hz, 750 hz, 1186 hz",
+    "data_start": "play_PROV_3d_auto([468, 530, 532, 536, 537, 568, 679, 722, 740, 742, 744, 746, 748, 750, 1186]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "inYtsFyC"
+  },
+  {
+    "data_name": "Influenza Virus B 2 PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Influenza Virus B 2. The frequencies in this preset are: 530 hz, 532 hz, 536 hz, 537 hz",
+    "data_start": "play_PROV_3d_auto([530, 532, 536, 537]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "d2PmOTjp"
+  },
+  {
+    "data_name": "Interleukin PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Interleukin. The frequencies in this preset are: 3448 hz, 2929 hz, 4014 hz, 5611 hz, 2867 hz, 2855 hz, 2791 hz",
+    "data_start": "play_PROV_3d_auto([3448, 2929, 4014, 5611, 2867, 2855, 2791]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "LFwqQrVp"
+  },
+  {
+    "data_name": "Kidney PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Kidney. The frequencies in this preset are: 319.87 hz, 8 hz, 20 hz, 727 hz, 787 hz, 800 hz, 880 hz, 5000 hz, 10000 hz, 9.2 hz, 10 hz, 40 hz, 440 hz, 1600 hz, 1550 hz, 1500 hz, 802 hz, 650 hz, 625 hz, 600 hz, 444 hz, 1865 hz, 146 hz, 250 hz, 125 hz, 95 hz, 72 hz, 20 hz",
+    "data_start": "play_PROV_3d_auto([319.87, 8, 20, 727, 787, 800, 880, 5000, 10000, 9.2, 10, 40, 440, 1600, 1550, 1500, 802, 650, 625, 600, 444, 1865, 146, 250, 125, 95, 72, 20]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "lUB6TBv7"
+  },
+  {
+    "data_name": "Kidney Papilloma,Kidney PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Kidney Papilloma,Kidney. The frequencies in this preset are: 110 hz, 148 hz, 264 hz, 634 hz, 767 hz, 848 hz, 917 hz, 760 hz, 762 hz, 1102 hz",
+    "data_start": "play_PROV_3d_auto([110, 148, 264, 634, 767, 848, 917, 760, 762, 1102]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "PEFywdVx"
+  },
+  {
+    "data_name": "Liver 1 PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Liver 1. The frequencies in this preset are: 13427.72 hz",
+    "data_start": "play_PROV_3d_auto([13427.72]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "E9wI2UZA"
+  },
+  {
+    "data_name": "Liver 2 PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Liver 2. The frequencies in this preset are: 317.82 hz, 33.13 hz, 1552 hz, 802 hz, 751 hz",
+    "data_start": "play_PROV_3d_auto([317.82, 33.13, 1552, 802, 751]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "LmGtizO6"
+  },
+  {
+    "data_name": "Lymphs and Detox,Lymph PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Lymphs and Detox,Lymph. The frequencies in this preset are: 10000 hz, 3177 hz, 3176 hz, 3175 hz, 880 hz, 787 hz, 751 hz, 727 hz, 676 hz, 635 hz, 625 hz, 522 hz, 465 hz, 444 hz, 440 hz, 304 hz, 148 hz, 146 hz, 15.2 hz, 15.05 hz, 10.36 hz, 10 hz, 7.83 hz, 6.3 hz, 2.5 hz",
+    "data_start": "play_PROV_3d_auto([10000, 3177, 3176, 3175, 880, 787, 751, 727, 676, 635, 625, 522, 465, 444, 440, 304, 148, 146, 15.2, 15.05, 10.36, 10, 7.83, 6.3, 2.5]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "237zxzbL"
+  },
+  {
+    "data_name": "Mycoplasma Fermentans Incognitus PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Mycoplasma Fermentans Incognitus. The frequencies in this preset are: 254 hz, 484 hz, 610 hz, 644 hz, 660 hz, 690 hz, 706.7 hz, 727.5 hz, 790 hz, 864 hz, 878.2 hz, 880.2 hz, 986.2 hz, 2900 hz, 5044 hz, 1020 hz, 5355 hz, 600 hz",
+    "data_start": "play_PROV_3d_auto([254, 484, 610, 644, 660, 690, 706.7, 727.5, 790, 864, 878.2, 880.2, 986.2, 2900, 5044, 1020, 5355, 600]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "zsaYaFCy"
+  },
+  {
+    "data_name": "Papillomavirus PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Papillomavirus. The frequencies in this preset are: 67265 hz, 64734 hz, 16970 hz, 9609 hz, 9258 hz, 5657 hz, 1051 hz, 1011 hz, 907 hz, 874 hz, 767 hz, 489 hz, 466 hz, 404 hz, 265 hz, 110 hz, 45 hz",
+    "data_start": "play_PROV_3d_auto([67265, 64734, 16970, 9609, 9258, 5657, 1051, 1011, 907, 874, 767, 489, 466, 404, 265, 110, 45]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "sPtrcJA4"
+  },
+  {
+    "data_name": "Prostate Adenominum PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Prostate Adenominum. The frequencies in this preset are: 442 hz, 688 hz, 1875 hz, 748 hz, 766 hz, 920 hz",
+    "data_start": "play_PROV_3d_auto([442, 688, 1875, 748, 766, 920]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "DE0AAdoe"
+  },
+  {
+    "data_name": "Prostate Enlarged PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Prostate Enlarged. The frequencies in this preset are: 2250 hz, 2128 hz, 2050 hz, 920 hz, 690 hz, 666 hz",
+    "data_start": "play_PROV_3d_auto([2250, 2128, 2050, 920, 690, 666]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "gAduP741"
+  },
+  {
+    "data_name": "Prostate Hyperplasia PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Prostate Hyperplasia. The frequencies in this preset are: 920 hz",
+    "data_start": "play_PROV_3d_auto([920]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "2AZxUAVm"
+  },
+  {
+    "data_name": "Prostate Problems General PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Prostate Problems General. The frequencies in this preset are: 2720 hz, 2128 hz, 2008 hz, 880 hz, 802 hz, 787 hz, 728 hz, 727 hz, 690 hz, 666 hz, 465 hz, 408 hz, 125 hz, 95 hz, 72 hz, 20 hz, 9 hz",
+    "data_start": "play_PROV_3d_auto([2720, 2128, 2008, 880, 802, 787, 728, 727, 690, 666, 465, 408, 125, 95, 72, 20, 9]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "zFYCACXS"
+  },
+  {
+    "data_name": "Sinus Bacteria,Respiratory PROV 3D frequencies",
+    "data_description": "This is PROV 3D frequencies healing preset for Sinus Bacteria,Respiratory. The frequencies in this preset are: 548 hz",
+    "data_start": "play_PROV_3d_auto([548]);",
+    "data_stop": "stop_PROV_3d();",
+    "data_id": "BVQkgbma"
+  }
+]
