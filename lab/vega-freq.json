@@ -1,0 +1,1682 @@
+[
+  {
+    "data_name": "Actinobacillus,Respiratory VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Actinobacillus,Respiratory. The frequencies in this preset are: 773 hz",
+    "data_start": "play_VEGA_3d_auto([773]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "A9xJwUfa"
+  },
+  {
+    "data_name": "Actinomyces Israelii VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Actinomyces Israelii. The frequencies in this preset are: 262 hz, 2154 hz",
+    "data_start": "play_VEGA_3d_auto([262, 2154]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "GO5nj4q3"
+  },
+  {
+    "data_name": "Adenovirus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Adenovirus. The frequencies in this preset are: 333 hz, 786 hz",
+    "data_start": "play_VEGA_3d_auto([333, 786]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "PKsklyn8"
+  },
+  {
+    "data_name": "Adnexitis,Ovary VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Adnexitis,Ovary. The frequencies in this preset are: 522 hz, 572 hz, 3343 hz, 3833 hz, 5312 hz, 440 hz, 441 hz",
+    "data_start": "play_VEGA_3d_auto([522, 572, 3343, 3833, 5312, 440, 441]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Ln2hIc4x"
+  },
+  {
+    "data_name": "Aflatoxin VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Aflatoxin. The frequencies in this preset are: 344 hz",
+    "data_start": "play_VEGA_3d_auto([344]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "gXlKQSFc"
+  },
+  {
+    "data_name": "Alternaria Tenuis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Alternaria Tenuis. The frequencies in this preset are: 853 hz",
+    "data_start": "play_VEGA_3d_auto([853]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "E5qp4rtB"
+  },
+  {
+    "data_name": "Amoeba Hepar Abscess,Liver VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Amoeba Hepar Abscess,Liver. The frequencies in this preset are: 344 hz",
+    "data_start": "play_VEGA_3d_auto([344]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "By1mM01w"
+  },
+  {
+    "data_name": "Arsenic Aib. VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Arsenic Aib.. The frequencies in this preset are: 562 hz",
+    "data_start": "play_VEGA_3d_auto([562]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "IdwLMQbT"
+  },
+  {
+    "data_name": "Aspergillus Flavus,Lung VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Aspergillus Flavus,Lung. The frequencies in this preset are: 1823 hz",
+    "data_start": "play_VEGA_3d_auto([1823]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "64rWu8ZA"
+  },
+  {
+    "data_name": "Aspergillus Glaucus,Brain VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Aspergillus Glaucus,Brain. The frequencies in this preset are: 524 hz",
+    "data_start": "play_VEGA_3d_auto([524]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "choHCvSA"
+  },
+  {
+    "data_name": "Aspergillus Terreus,Lung VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Aspergillus Terreus,Lung. The frequencies in this preset are: 743 hz",
+    "data_start": "play_VEGA_3d_auto([743]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "9qf47ylp"
+  },
+  {
+    "data_name": "Astrocytoma VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Astrocytoma. The frequencies in this preset are: 857 hz",
+    "data_start": "play_VEGA_3d_auto([857]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "EG4mN42M"
+  },
+  {
+    "data_name": "B Subtilis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for B Subtilis. The frequencies in this preset are: 432 hz, 722 hz, 822 hz, 1246 hz",
+    "data_start": "play_VEGA_3d_auto([432, 722, 822, 1246]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "7qOB8fm9"
+  },
+  {
+    "data_name": "Bacillinum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Bacillinum. The frequencies in this preset are: 132 hz, 854 hz, 921 hz, 1042 hz, 1932 hz",
+    "data_start": "play_VEGA_3d_auto([132, 854, 921, 1042, 1932]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "jBvY6fTJ"
+  },
+  {
+    "data_name": "Bacteria Lactis Nosode VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Bacteria Lactis Nosode. The frequencies in this preset are: 512 hz, 526 hz, 5412 hz",
+    "data_start": "play_VEGA_3d_auto([512, 526, 5412]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ynDS8JE3"
+  },
+  {
+    "data_name": "Baker's Yeast VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Baker's Yeast. The frequencies in this preset are: 775 hz",
+    "data_start": "play_VEGA_3d_auto([775]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "KKSELkQq"
+  },
+  {
+    "data_name": "Banal VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Banal. The frequencies in this preset are: 1778 hz",
+    "data_start": "play_VEGA_3d_auto([1778]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "FvU7hD6D"
+  },
+  {
+    "data_name": "Barley Smut VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Barley Smut. The frequencies in this preset are: 377 hz",
+    "data_start": "play_VEGA_3d_auto([377]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "9Dlqayga"
+  },
+  {
+    "data_name": "BCG Vaccine VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for BCG Vaccine. The frequencies in this preset are: 477.7 hz, 277 hz",
+    "data_start": "play_VEGA_3d_auto([477.7, 277]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "3wGFUXwk"
+  },
+  {
+    "data_name": "Beth Sutton's Bar Fungus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Beth Sutton's Bar Fungus. The frequencies in this preset are: 854 hz",
+    "data_start": "play_VEGA_3d_auto([854]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "SMgWpEO6"
+  },
+  {
+    "data_name": "Bilirubin VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Bilirubin. The frequencies in this preset are: 717 hz, 726 hz, 731 hz, 863 hz",
+    "data_start": "play_VEGA_3d_auto([717, 726, 731, 863]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "W8fvGLwn"
+  },
+  {
+    "data_name": "Bladder TBC VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Bladder TBC. The frequencies in this preset are: 771 hz",
+    "data_start": "play_VEGA_3d_auto([771]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "3olypDaY"
+  },
+  {
+    "data_name": "Blastocystis Hominis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Blastocystis Hominis. The frequencies in this preset are: 848 hz, 365 hz, 844 hz, 595 hz",
+    "data_start": "play_VEGA_3d_auto([848, 365, 844, 595]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "oBaBwBtK"
+  },
+  {
+    "data_name": "Borrelia VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Borrelia. The frequencies in this preset are: 254 hz, 644 hz",
+    "data_start": "play_VEGA_3d_auto([254, 644]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "jwKtjdtd"
+  },
+  {
+    "data_name": "Botrytis Cinereas VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Botrytis Cinereas. The frequencies in this preset are: 1132 hz",
+    "data_start": "play_VEGA_3d_auto([1132]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "yCxLBKiu"
+  },
+  {
+    "data_name": "Botulinum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Botulinum. The frequencies in this preset are: 518 hz",
+    "data_start": "play_VEGA_3d_auto([518]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "SheWnIQM"
+  },
+  {
+    "data_name": "Bronchiectasis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Bronchiectasis. The frequencies in this preset are: 342 hz",
+    "data_start": "play_VEGA_3d_auto([342]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "xrZKPquF"
+  },
+  {
+    "data_name": "Broncho Pneumonia Borinum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Broncho Pneumonia Borinum. The frequencies in this preset are: 452 hz, 1474 hz",
+    "data_start": "play_VEGA_3d_auto([452, 1474]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "DCGGpHb0"
+  },
+  {
+    "data_name": "Brucella Melitensis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Brucella Melitensis. The frequencies in this preset are: 748 hz",
+    "data_start": "play_VEGA_3d_auto([748]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "bV9IsKU6"
+  },
+  {
+    "data_name": "Candida Albicans VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Candida Albicans. The frequencies in this preset are: 414 hz",
+    "data_start": "play_VEGA_3d_auto([414]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "XeJ01ID1"
+  },
+  {
+    "data_name": "Canine Parvo B VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Canine Parvo B. The frequencies in this preset are: 323 hz, 535 hz, 755 hz",
+    "data_start": "play_VEGA_3d_auto([323, 535, 755]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "P31GoHke"
+  },
+  {
+    "data_name": "Canine Parvo Mutant VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Canine Parvo Mutant. The frequencies in this preset are: 323 hz",
+    "data_start": "play_VEGA_3d_auto([323]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "OnwU9jFm"
+  },
+  {
+    "data_name": "Canine Parvo VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Canine Parvo. The frequencies in this preset are: 323 hz, 562 hz, 622 hz, 4027 hz",
+    "data_start": "play_VEGA_3d_auto([323, 562, 622, 4027]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "T48pXtZW"
+  },
+  {
+    "data_name": "Carcinoma Bronchial VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Carcinoma Bronchial. The frequencies in this preset are: 462 hz, 852 hz, 1582 hz",
+    "data_start": "play_VEGA_3d_auto([462, 852, 1582]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "CVmcSb6u"
+  },
+  {
+    "data_name": "Carcinoma Colon VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Carcinoma Colon. The frequencies in this preset are: 656 hz",
+    "data_start": "play_VEGA_3d_auto([656]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "FKU9QccO"
+  },
+  {
+    "data_name": "Carcinoma Liver Fermentative VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Carcinoma Liver Fermentative. The frequencies in this preset are: 214 hz",
+    "data_start": "play_VEGA_3d_auto([214]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "3jGKIkwr"
+  },
+  {
+    "data_name": "Carcinoma Uterine Fermentative VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Carcinoma Uterine Fermentative. The frequencies in this preset are: 127 hz",
+    "data_start": "play_VEGA_3d_auto([127]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "scZjlqDI"
+  },
+  {
+    "data_name": "Cataract Brunescent VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Cataract Brunescent. The frequencies in this preset are: 1335 hz",
+    "data_start": "play_VEGA_3d_auto([1335]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "VY7VbX1Z"
+  },
+  {
+    "data_name": "Celia Carroll VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Celia Carroll. The frequencies in this preset are: 576 hz, 973 hz",
+    "data_start": "play_VEGA_3d_auto([576, 973]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "C8TSMSVI"
+  },
+  {
+    "data_name": "Cerumen VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Cerumen. The frequencies in this preset are: 320 hz",
+    "data_start": "play_VEGA_3d_auto([320]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "kzTNGpyi"
+  },
+  {
+    "data_name": "Chaetomium Globosum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Chaetomium Globosum. The frequencies in this preset are: 221 hz, 867 hz",
+    "data_start": "play_VEGA_3d_auto([221, 867]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "4EhKH4Os"
+  },
+  {
+    "data_name": "Chicken Pox VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Chicken Pox. The frequencies in this preset are: 787 hz, 3343 hz",
+    "data_start": "play_VEGA_3d_auto([787, 3343]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "G0CMsAMh"
+  },
+  {
+    "data_name": "Cholecystitis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Cholecystitis. The frequencies in this preset are: 481 hz, 743 hz, 865 hz, 928 hz",
+    "data_start": "play_VEGA_3d_auto([481, 743, 865, 928]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "OxVIveGq"
+  },
+  {
+    "data_name": "Cholera VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Cholera. The frequencies in this preset are: 843 hz, 844 hz",
+    "data_start": "play_VEGA_3d_auto([843, 844]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "hJ0t5WXR"
+  },
+  {
+    "data_name": "Cholesteatoma VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Cholesteatoma. The frequencies in this preset are: 453 hz, 618 hz, 793 hz",
+    "data_start": "play_VEGA_3d_auto([453, 618, 793]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "RX9qWGmI"
+  },
+  {
+    "data_name": "Cimicifuga VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Cimicifuga. The frequencies in this preset are: 594 hz",
+    "data_start": "play_VEGA_3d_auto([594]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "qrqCyFsu"
+  },
+  {
+    "data_name": "Cladosporium Fulvum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Cladosporium Fulvum. The frequencies in this preset are: 438 hz",
+    "data_start": "play_VEGA_3d_auto([438]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "1QTNxOwS"
+  },
+  {
+    "data_name": "CMV VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for CMV. The frequencies in this preset are: 2145 hz",
+    "data_start": "play_VEGA_3d_auto([2145]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "VH8zJSd6"
+  },
+  {
+    "data_name": "Coeliacia VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Coeliacia. The frequencies in this preset are: 594 hz, 656 hz",
+    "data_start": "play_VEGA_3d_auto([594, 656]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "lcCGRwDB"
+  },
+  {
+    "data_name": "Corn Smut VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Corn Smut. The frequencies in this preset are: 546 hz",
+    "data_start": "play_VEGA_3d_auto([546]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "YFVPLZgB"
+  },
+  {
+    "data_name": "Coxsackie B1 VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Coxsackie B1. The frequencies in this preset are: 834 hz",
+    "data_start": "play_VEGA_3d_auto([834]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "zciJXajO"
+  },
+  {
+    "data_name": "Coxsackie B2 VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Coxsackie B2. The frequencies in this preset are: 705 hz, 534 hz",
+    "data_start": "play_VEGA_3d_auto([705, 534]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ztMfbLDN"
+  },
+  {
+    "data_name": "Coxsackie B4 VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Coxsackie B4. The frequencies in this preset are: 421 hz",
+    "data_start": "play_VEGA_3d_auto([421]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "HXZShC1K"
+  },
+  {
+    "data_name": "Coxsackie B5 VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Coxsackie B5. The frequencies in this preset are: 462 hz, 1043 hz, 1083 hz",
+    "data_start": "play_VEGA_3d_auto([462, 1043, 1083]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "wtW2bHTb"
+  },
+  {
+    "data_name": "Coxsackie B6 VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Coxsackie B6. The frequencies in this preset are: 736 hz, 814 hz",
+    "data_start": "play_VEGA_3d_auto([736, 814]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "rQeiDJvP"
+  },
+  {
+    "data_name": "Coxsackie VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Coxsackie. The frequencies in this preset are: 136 hz, 232 hz, 422 hz, 424 hz, 435 hz, 921 hz, 923 hz",
+    "data_start": "play_VEGA_3d_auto([136, 232, 422, 424, 435, 921, 923]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "WXD5PQxH"
+  },
+  {
+    "data_name": "Cryptosporidium VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Cryptosporidium. The frequencies in this preset are: 482 hz, 4122 hz",
+    "data_start": "play_VEGA_3d_auto([482, 4122]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "RfvWlQwp"
+  },
+  {
+    "data_name": "Cysto Pyelo Nephritis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Cysto Pyelo Nephritis. The frequencies in this preset are: 1385 hz",
+    "data_start": "play_VEGA_3d_auto([1385]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "vu2tHViV"
+  },
+  {
+    "data_name": "Dan's Mold VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Dan's Mold. The frequencies in this preset are: 222 hz, 333 hz, 421 hz, 822 hz, 1233 hz, 1351 hz, 1711 hz, 1832 hz",
+    "data_start": "play_VEGA_3d_auto([222, 333, 421, 822, 1233, 1351, 1711, 1832]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "wbfGgAgU"
+  },
+  {
+    "data_name": "Dematium Nigrum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Dematium Nigrum. The frequencies in this preset are: 243 hz",
+    "data_start": "play_VEGA_3d_auto([243]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "9ZVi2TQv"
+  },
+  {
+    "data_name": "Diptherinum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Diptherinum. The frequencies in this preset are: 624 hz",
+    "data_start": "play_VEGA_3d_auto([624]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "NxlTXtAF"
+  },
+  {
+    "data_name": "Distemper VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Distemper. The frequencies in this preset are: 242 hz, 254 hz, 312 hz, 551 hz, 573 hz, 671 hz, 712 hz, 1269 hz",
+    "data_start": "play_VEGA_3d_auto([242, 254, 312, 551, 573, 671, 712, 1269]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "erKjMFY4"
+  },
+  {
+    "data_name": "EBV VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for EBV. The frequencies in this preset are: 660 hz, 663 hz, 669 hz",
+    "data_start": "play_VEGA_3d_auto([660, 663, 669]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "nlmfoMvH"
+  },
+  {
+    "data_name": "Echinococcinum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Echinococcinum. The frequencies in this preset are: 453 hz, 164 hz, 623 hz, 542 hz",
+    "data_start": "play_VEGA_3d_auto([453, 164, 623, 542]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "a7bYa22e"
+  },
+  {
+    "data_name": "Echo Virus (Endometriosis Tuberylosa) VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Echo Virus (Endometriosis Tuberylosa). The frequencies in this preset are: 620 hz",
+    "data_start": "play_VEGA_3d_auto([620]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "PVPxjnQU"
+  },
+  {
+    "data_name": "Entamoeba Histolytica VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Entamoeba Histolytica. The frequencies in this preset are: 148 hz, 166 hz, 308 hz",
+    "data_start": "play_VEGA_3d_auto([148, 166, 308]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "5KdD300c"
+  },
+  {
+    "data_name": "Entero Hepatitis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Entero Hepatitis. The frequencies in this preset are: 552 hz, 932 hz, 953 hz",
+    "data_start": "play_VEGA_3d_auto([552, 932, 953]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "rH7qfUpJ"
+  },
+  {
+    "data_name": "Enterobiasis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Enterobiasis. The frequencies in this preset are: 773 hz, 827 hz, 835 hz",
+    "data_start": "play_VEGA_3d_auto([773, 827, 835]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "mMkBR8Gp"
+  },
+  {
+    "data_name": "Epicoccum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Epicoccum. The frequencies in this preset are: 734 hz",
+    "data_start": "play_VEGA_3d_auto([734]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "S71hqcR2"
+  },
+  {
+    "data_name": "Epidermophyton Floccinum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Epidermophyton Floccinum. The frequencies in this preset are: 644 hz, 766 hz",
+    "data_start": "play_VEGA_3d_auto([644, 766]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "bvwlnmug"
+  },
+  {
+    "data_name": "Erysipelas VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Erysipelas. The frequencies in this preset are: 845 hz, 616 hz",
+    "data_start": "play_VEGA_3d_auto([845, 616]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ed2IbQiU"
+  },
+  {
+    "data_name": "Fasciola Hepatica VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Fasciola Hepatica. The frequencies in this preset are: 275 hz",
+    "data_start": "play_VEGA_3d_auto([275]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "XJlXGM7K"
+  },
+  {
+    "data_name": "Feli VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Feli. The frequencies in this preset are: 435 hz",
+    "data_start": "play_VEGA_3d_auto([435]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "clPIrel8"
+  },
+  {
+    "data_name": "Fibroadenoma Mamanae VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Fibroadenoma Mamanae. The frequencies in this preset are: 1384 hz",
+    "data_start": "play_VEGA_3d_auto([1384]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "4xas4loi"
+  },
+  {
+    "data_name": "FIV VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for FIV. The frequencies in this preset are: 262 hz, 323 hz, 372 hz, 567 hz, 916 hz",
+    "data_start": "play_VEGA_3d_auto([262, 323, 372, 567, 916]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Ax9U0bdo"
+  },
+  {
+    "data_name": "Flu Triple Nosode VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Flu Triple Nosode. The frequencies in this preset are: 421 hz, 632 hz, 1242 hz, 1422 hz, 1922 hz, 3122 hz",
+    "data_start": "play_VEGA_3d_auto([421, 632, 1242, 1422, 1922, 3122]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "B5JlDlLk"
+  },
+  {
+    "data_name": "Flu Virus A VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Flu Virus A. The frequencies in this preset are: 332 hz",
+    "data_start": "play_VEGA_3d_auto([332]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "iOYisOi4"
+  },
+  {
+    "data_name": "Flu Virus British VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Flu Virus British. The frequencies in this preset are: 932 hz",
+    "data_start": "play_VEGA_3d_auto([932]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "gknm7NJY"
+  },
+  {
+    "data_name": "Fluor Alb VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Fluor Alb. The frequencies in this preset are: 420 hz, 423 hz, 424 hz, 2222 hz, 502 hz",
+    "data_start": "play_VEGA_3d_auto([420, 423, 424, 2222, 502]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "GIlBY1wz"
+  },
+  {
+    "data_name": "Follicular Mange VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Follicular Mange. The frequencies in this preset are: 693 hz, 253 hz",
+    "data_start": "play_VEGA_3d_auto([693, 253]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "IpFKS0Xi"
+  },
+  {
+    "data_name": "Foot and Mouth VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Foot and Mouth. The frequencies in this preset are: 232 hz, 237 hz, 1214 hz, 1244 hz, 1271 hz, 5411 hz",
+    "data_start": "play_VEGA_3d_auto([232, 237, 1214, 1244, 1271, 5411]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "DCdU7TzA"
+  },
+  {
+    "data_name": "Fungus Flora VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Fungus Flora. The frequencies in this preset are: 632 hz",
+    "data_start": "play_VEGA_3d_auto([632]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "PhJGAduC"
+  },
+  {
+    "data_name": "Fusarium Oxysporum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Fusarium Oxysporum. The frequencies in this preset are: 102 hz",
+    "data_start": "play_VEGA_3d_auto([102]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "a830TXV2"
+  },
+  {
+    "data_name": "Gardnerella VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Gardnerella. The frequencies in this preset are: 782 hz",
+    "data_start": "play_VEGA_3d_auto([782]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "wbQDFUos"
+  },
+  {
+    "data_name": "Geotrichum Candidum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Geotrichum Candidum. The frequencies in this preset are: 412 hz",
+    "data_start": "play_VEGA_3d_auto([412]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ozAAXv7h"
+  },
+  {
+    "data_name": "German Measles VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for German Measles. The frequencies in this preset are: 517 hz",
+    "data_start": "play_VEGA_3d_auto([517]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "GcQvRdWC"
+  },
+  {
+    "data_name": "Glioma VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Glioma. The frequencies in this preset are: 543 hz, 641 hz",
+    "data_start": "play_VEGA_3d_auto([543, 641]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Axu1QDRa"
+  },
+  {
+    "data_name": "Grippe VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Grippe. The frequencies in this preset are: 343 hz, 512 hz, 862 hz, 3012 hz, 3423 hz, 10223 hz",
+    "data_start": "play_VEGA_3d_auto([343, 512, 862, 3012, 3423, 10223]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Gl9qkWBs"
+  },
+  {
+    "data_name": "Haemophilus Influenzae VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Haemophilus Influenzae. The frequencies in this preset are: 542 hz",
+    "data_start": "play_VEGA_3d_auto([542]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "X6K5wl0m"
+  },
+  {
+    "data_name": "Hairy Cell VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Hairy Cell. The frequencies in this preset are: 122 hz, 622 hz, 932 hz, 5122 hz",
+    "data_start": "play_VEGA_3d_auto([122, 622, 932, 5122]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "BDbqlFbb"
+  },
+  {
+    "data_name": "Hepatitis A VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Hepatitis A. The frequencies in this preset are: 321 hz, 3220 hz",
+    "data_start": "play_VEGA_3d_auto([321, 3220]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "IRp4p68O"
+  },
+  {
+    "data_name": "Hepatitis New Numbers VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Hepatitis New Numbers. The frequencies in this preset are: 922 hz, 477 hz",
+    "data_start": "play_VEGA_3d_auto([922, 477]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "xdg4zQqz"
+  },
+  {
+    "data_name": "Hepatitis Non A Non B VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Hepatitis Non A Non B. The frequencies in this preset are: 166 hz",
+    "data_start": "play_VEGA_3d_auto([166]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "BVfUx04s"
+  },
+  {
+    "data_name": "Hepatitis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Hepatitis. The frequencies in this preset are: 224 hz, 317 hz",
+    "data_start": "play_VEGA_3d_auto([224, 317]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "SqVqShoD"
+  },
+  {
+    "data_name": "Herpes Simplex VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Herpes Simplex. The frequencies in this preset are: 322 hz, 343 hz, 476 hz, 822 hz, 843 hz, 1043 hz, 1614 hz, 2062 hz",
+    "data_start": "play_VEGA_3d_auto([322, 343, 476, 822, 843, 1043, 1614, 2062]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "BZzbULmd"
+  },
+  {
+    "data_name": "Herpes Zoster VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Herpes Zoster. The frequencies in this preset are: 1557 hz, 574 hz",
+    "data_start": "play_VEGA_3d_auto([1557, 574]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "HUq9SwJM"
+  },
+  {
+    "data_name": "Hirudo Med. VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Hirudo Med.. The frequencies in this preset are: 128 hz",
+    "data_start": "play_VEGA_3d_auto([128]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "pxWUbxRY"
+  },
+  {
+    "data_name": "HIV VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for HIV. The frequencies in this preset are: 683 hz, 3554 hz, 714 hz",
+    "data_start": "play_VEGA_3d_auto([683, 3554, 714]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "cQGtvCrP"
+  },
+  {
+    "data_name": "Hormodendrum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Hormodendrum. The frequencies in this preset are: 695 hz",
+    "data_start": "play_VEGA_3d_auto([695]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "xaEFx4Mx"
+  },
+  {
+    "data_name": "Household Insect Mix VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Household Insect Mix. The frequencies in this preset are: 723 hz",
+    "data_start": "play_VEGA_3d_auto([723]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "UtUSIKIP"
+  },
+  {
+    "data_name": "Icterus Haemolytic VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Icterus Haemolytic. The frequencies in this preset are: 243 hz",
+    "data_start": "play_VEGA_3d_auto([243]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ZUKdkHvy"
+  },
+  {
+    "data_name": "Influenza Bach Poly VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Influenza Bach Poly. The frequencies in this preset are: 122 hz, 823 hz",
+    "data_start": "play_VEGA_3d_auto([122, 823]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "bFlOvc9D"
+  },
+  {
+    "data_name": "Influenza Berlin VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Influenza Berlin. The frequencies in this preset are: 55 hz, 430 hz, 720 hz, 733 hz",
+    "data_start": "play_VEGA_3d_auto([55, 430, 720, 733]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "UMloyggN"
+  },
+  {
+    "data_name": "Influenza Toxicum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Influenza Toxicum. The frequencies in this preset are: 854 hz",
+    "data_start": "play_VEGA_3d_auto([854]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "u4YC58Ab"
+  },
+  {
+    "data_name": "Influenza Vesic NW VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Influenza Vesic NW. The frequencies in this preset are: 364 hz",
+    "data_start": "play_VEGA_3d_auto([364]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "JAjHEXqY"
+  },
+  {
+    "data_name": "Influenza Vesic VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Influenza Vesic. The frequencies in this preset are: 203 hz, 292 hz, 975 hz",
+    "data_start": "play_VEGA_3d_auto([203, 292, 975]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "RafpDj5Q"
+  },
+  {
+    "data_name": "Intestinal Inflammation VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Intestinal Inflammation. The frequencies in this preset are: 105 hz, 791 hz",
+    "data_start": "play_VEGA_3d_auto([105, 791]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "b1FaI4as"
+  },
+  {
+    "data_name": "Jim Adams Fungus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Jim Adams Fungus. The frequencies in this preset are: 943 hz, 2644 hz",
+    "data_start": "play_VEGA_3d_auto([943, 2644]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "As0cQgNc"
+  },
+  {
+    "data_name": "Kaposiís Sarcoma VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Kaposiís Sarcoma. The frequencies in this preset are: 418 hz, 249 hz",
+    "data_start": "play_VEGA_3d_auto([418, 249]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Dba2bNbx"
+  },
+  {
+    "data_name": "Katy Luce Finger Wart VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Katy Luce Finger Wart. The frequencies in this preset are: 495 hz",
+    "data_start": "play_VEGA_3d_auto([495]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "cbOJHOLe"
+  },
+  {
+    "data_name": "Katy Luce Foot Fungus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Katy Luce Foot Fungus. The frequencies in this preset are: 634 hz",
+    "data_start": "play_VEGA_3d_auto([634]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "9mNsIC9m"
+  },
+  {
+    "data_name": "Kay Harris VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Kay Harris. The frequencies in this preset are: 521 hz, 772 hz, 2138 hz",
+    "data_start": "play_VEGA_3d_auto([521, 772, 2138]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "vybkzqRZ"
+  },
+  {
+    "data_name": "Kidney Papilloma VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Kidney Papilloma. The frequencies in this preset are: 110 hz, 767 hz",
+    "data_start": "play_VEGA_3d_auto([110, 767]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "79d5I4db"
+  },
+  {
+    "data_name": "Klebsiella Pneumoniae VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Klebsiella Pneumoniae. The frequencies in this preset are: 766 hz, 412 hz",
+    "data_start": "play_VEGA_3d_auto([766, 412]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "KPMa3fbG"
+  },
+  {
+    "data_name": "Lac Deflorat VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Lac Deflorat. The frequencies in this preset are: 230 hz, 371 hz",
+    "data_start": "play_VEGA_3d_auto([230, 371]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "g9yCXZY0"
+  },
+  {
+    "data_name": "Legionella VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Legionella. The frequencies in this preset are: 723 hz",
+    "data_start": "play_VEGA_3d_auto([723]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "4ivPY2aS"
+  },
+  {
+    "data_name": "Leuco Encephalitis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Leuco Encephalitis. The frequencies in this preset are: 572 hz",
+    "data_start": "play_VEGA_3d_auto([572]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "QGBCeyfD"
+  },
+  {
+    "data_name": "Leucoencephalitis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Leucoencephalitis. The frequencies in this preset are: 572 hz, 932 hz, 1111 hz",
+    "data_start": "play_VEGA_3d_auto([572, 932, 1111]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "lLR0BEF3"
+  },
+  {
+    "data_name": "Listeriose VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Listeriose. The frequencies in this preset are: 471 hz, 774 hz, 2162 hz",
+    "data_start": "play_VEGA_3d_auto([471, 774, 2162]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "wcPTTB6a"
+  },
+  {
+    "data_name": "Lupus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Lupus. The frequencies in this preset are: 243 hz, 352 hz, 386 hz, 921 hz, 942 hz, 993 hz, 1333 hz, 1464 hz",
+    "data_start": "play_VEGA_3d_auto([243, 352, 386, 921, 942, 993, 1333, 1464]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "dLBHRxl8"
+  },
+  {
+    "data_name": "Lyme VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Lyme. The frequencies in this preset are: 605 hz, 673 hz, 1455 hz, 797 hz",
+    "data_start": "play_VEGA_3d_auto([605, 673, 1455, 797]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "eOPTtXWR"
+  },
+  {
+    "data_name": "Lymph Leukemia VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Lymph Leukemia. The frequencies in this preset are: 833 hz",
+    "data_start": "play_VEGA_3d_auto([833]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "FtX3BvUj"
+  },
+  {
+    "data_name": "Lymphangitis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Lymphangitis. The frequencies in this preset are: 574 hz",
+    "data_start": "play_VEGA_3d_auto([574]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "pTHE8XNS"
+  },
+  {
+    "data_name": "Lymphogranuloma VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Lymphogranuloma. The frequencies in this preset are: 1522 hz",
+    "data_start": "play_VEGA_3d_auto([1522]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "uGswtjYD"
+  },
+  {
+    "data_name": "Malaria VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Malaria. The frequencies in this preset are: 222 hz, 550 hz, 713 hz, 930 hz, 1032 hz, 1433 hz",
+    "data_start": "play_VEGA_3d_auto([222, 550, 713, 930, 1032, 1433]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ePcE06iw"
+  },
+  {
+    "data_name": "Mark Seabock VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Mark Seabock. The frequencies in this preset are: 557 hz, 922 hz",
+    "data_start": "play_VEGA_3d_auto([557, 922]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "me04ki9I"
+  },
+  {
+    "data_name": "Measles Vaccine VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Measles Vaccine. The frequencies in this preset are: 962 hz",
+    "data_start": "play_VEGA_3d_auto([962]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "o3v09TpM"
+  },
+  {
+    "data_name": "Measles VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Measles. The frequencies in this preset are: 467 hz, 520 hz, 1489 hz",
+    "data_start": "play_VEGA_3d_auto([467, 520, 1489]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "brvi1UHQ"
+  },
+  {
+    "data_name": "Medorrhinum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Medorrhinum. The frequencies in this preset are: 442 hz, 843 hz, 2222 hz",
+    "data_start": "play_VEGA_3d_auto([442, 843, 2222]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "P5f0bIlO"
+  },
+  {
+    "data_name": "Meningioma VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Meningioma. The frequencies in this preset are: 535 hz",
+    "data_start": "play_VEGA_3d_auto([535]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "s5nrZMBD"
+  },
+  {
+    "data_name": "Meningitis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Meningitis. The frequencies in this preset are: 322 hz, 822 hz, 1044 hz, 1422 hz",
+    "data_start": "play_VEGA_3d_auto([322, 822, 1044, 1422]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ZZuPLGTs"
+  },
+  {
+    "data_name": "Meningococcinum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Meningococcinum. The frequencies in this preset are: 676 hz, 677 hz, 517 hz",
+    "data_start": "play_VEGA_3d_auto([676, 677, 517]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Yeucs8lg"
+  },
+  {
+    "data_name": "Methotrexate VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Methotrexate. The frequencies in this preset are: 584 hz",
+    "data_start": "play_VEGA_3d_auto([584]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "MV5mBApq"
+  },
+  {
+    "data_name": "Microsporum Audouini VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Microsporum Audouini. The frequencies in this preset are: 422 hz, 831 hz, 1222 hz",
+    "data_start": "play_VEGA_3d_auto([422, 831, 1222]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "7hsQhBtA"
+  },
+  {
+    "data_name": "Microsporum Canis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Microsporum Canis. The frequencies in this preset are: 1644 hz",
+    "data_start": "play_VEGA_3d_auto([1644]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "UlId0cBL"
+  },
+  {
+    "data_name": "Mold A and C VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Mold A and C. The frequencies in this preset are: 331 hz, 732 hz, 923 hz, 982 hz",
+    "data_start": "play_VEGA_3d_auto([331, 732, 923, 982]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ETu7tLWm"
+  },
+  {
+    "data_name": "Mold Mix B (P. Williams) VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Mold Mix B (P. Williams). The frequencies in this preset are: 158 hz, 512 hz, 1463 hz, 623 hz, 774 hz, 1016 hz",
+    "data_start": "play_VEGA_3d_auto([158, 512, 1463, 623, 774, 1016]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "1lxDnKez"
+  },
+  {
+    "data_name": "Mold Mix C VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Mold Mix C. The frequencies in this preset are: 1627 hz",
+    "data_start": "play_VEGA_3d_auto([1627]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "A8ueIUYz"
+  },
+  {
+    "data_name": "Mold Vac II VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Mold Vac II. The frequencies in this preset are: 257 hz",
+    "data_start": "play_VEGA_3d_auto([257]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "gMO6GjGd"
+  },
+  {
+    "data_name": "Mold VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Mold. The frequencies in this preset are: 222 hz, 242 hz, 523 hz, 592 hz, 745 hz, 933 hz, 1155 hz, 1333 hz, 1833 hz, 4442 hz",
+    "data_start": "play_VEGA_3d_auto([222, 242, 523, 592, 745, 933, 1155, 1333, 1833, 4442]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "7ntJP2Fc"
+  },
+  {
+    "data_name": "Monilia VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Monilia. The frequencies in this preset are: 866 hz",
+    "data_start": "play_VEGA_3d_auto([866]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "tNW2RnCx"
+  },
+  {
+    "data_name": "Morbus Parkinson VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Morbus Parkinson. The frequencies in this preset are: 813 hz",
+    "data_start": "play_VEGA_3d_auto([813]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "iG3tMZUh"
+  },
+  {
+    "data_name": "Mucor Mucedo VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Mucor Mucedo. The frequencies in this preset are: 612 hz",
+    "data_start": "play_VEGA_3d_auto([612]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "inYyHBjE"
+  },
+  {
+    "data_name": "Mucor Racemosus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Mucor Racemosus. The frequencies in this preset are: 474 hz",
+    "data_start": "play_VEGA_3d_auto([474]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "lgFrxskr"
+  },
+  {
+    "data_name": "Mumps Vaccine VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Mumps Vaccine. The frequencies in this preset are: 711 hz, 551 hz, 1419 hz",
+    "data_start": "play_VEGA_3d_auto([711, 551, 1419]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "L2Kv1y4g"
+  },
+  {
+    "data_name": "Mumps VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Mumps. The frequencies in this preset are: 242 hz, 516 hz, 642 hz, 922 hz, 2630 hz, 3142 hz",
+    "data_start": "play_VEGA_3d_auto([242, 516, 642, 922, 2630, 3142]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "b6UICE7q"
+  },
+  {
+    "data_name": "Mutant Canine Parvo VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Mutant Canine Parvo. The frequencies in this preset are: 323 hz",
+    "data_start": "play_VEGA_3d_auto([323]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Q4XppUad"
+  },
+  {
+    "data_name": "Mycosis Fungoides VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Mycosis Fungoides. The frequencies in this preset are: 852 hz",
+    "data_start": "play_VEGA_3d_auto([852]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "AEUwbA7y"
+  },
+  {
+    "data_name": "Myoma VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Myoma. The frequencies in this preset are: 453 hz, 832 hz",
+    "data_start": "play_VEGA_3d_auto([453, 832]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "NXKUmzRS"
+  },
+  {
+    "data_name": "Myositis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Myositis. The frequencies in this preset are: 122 hz, 1124 hz, 1169 hz",
+    "data_start": "play_VEGA_3d_auto([122, 1124, 1169]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "nIQbW3SP"
+  },
+  {
+    "data_name": "Nagel Trichophyton VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Nagel Trichophyton. The frequencies in this preset are: 133 hz, 812 hz, 2422 hz",
+    "data_start": "play_VEGA_3d_auto([133, 812, 2422]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "2XHobBWn"
+  },
+  {
+    "data_name": "Nasal Polyp VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Nasal Polyp. The frequencies in this preset are: 1436 hz",
+    "data_start": "play_VEGA_3d_auto([1436]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "HowvgwAh"
+  },
+  {
+    "data_name": "Nephritis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Nephritis. The frequencies in this preset are: 264 hz",
+    "data_start": "play_VEGA_3d_auto([264]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "kJvXIi93"
+  },
+  {
+    "data_name": "Neuralgia VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Neuralgia. The frequencies in this preset are: 833 hz",
+    "data_start": "play_VEGA_3d_auto([833]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "5uMX6nOC"
+  },
+  {
+    "data_name": "Neurospora Sitophila VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Neurospora Sitophila. The frequencies in this preset are: 705 hz",
+    "data_start": "play_VEGA_3d_auto([705]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "XzoKBl6o"
+  },
+  {
+    "data_name": "Nocarcila Asteroldes VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Nocarcila Asteroldes. The frequencies in this preset are: 237 hz",
+    "data_start": "play_VEGA_3d_auto([237]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "psoQTAMr"
+  },
+  {
+    "data_name": "Ornithosis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Ornithosis. The frequencies in this preset are: 583 hz",
+    "data_start": "play_VEGA_3d_auto([583]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "eWDCTmcl"
+  },
+  {
+    "data_name": "Osteitis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Osteitis. The frequencies in this preset are: 770 hz",
+    "data_start": "play_VEGA_3d_auto([770]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "0smQJFLG"
+  },
+  {
+    "data_name": "Otitis Medinum,Ear VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Otitis Medinum,Ear. The frequencies in this preset are: 316 hz",
+    "data_start": "play_VEGA_3d_auto([316]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "UEhVpB6Q"
+  },
+  {
+    "data_name": "Ovarian Cyst VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Ovarian Cyst. The frequencies in this preset are: 982 hz",
+    "data_start": "play_VEGA_3d_auto([982]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "xtyUj868"
+  },
+  {
+    "data_name": "Paradontose VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Paradontose. The frequencies in this preset are: 1552 hz",
+    "data_start": "play_VEGA_3d_auto([1552]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "l6HWDTFy"
+  },
+  {
+    "data_name": "Pemphigus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Pemphigus. The frequencies in this preset are: 893 hz",
+    "data_start": "play_VEGA_3d_auto([893]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Qf1cFwmo"
+  },
+  {
+    "data_name": "Penicillium Chrysogenum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Penicillium Chrysogenum. The frequencies in this preset are: 344 hz, 2411 hz",
+    "data_start": "play_VEGA_3d_auto([344, 2411]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "rKCafX4u"
+  },
+  {
+    "data_name": "Penicillium Notatum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Penicillium Notatum. The frequencies in this preset are: 321 hz, 555 hz, 942 hz",
+    "data_start": "play_VEGA_3d_auto([321, 555, 942]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "3a3JbMop"
+  },
+  {
+    "data_name": "Penicillium Rubrum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Penicillium Rubrum. The frequencies in this preset are: 332 hz, 766 hz",
+    "data_start": "play_VEGA_3d_auto([332, 766]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "RAEQ5Asi"
+  },
+  {
+    "data_name": "Penny Royal VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Penny Royal. The frequencies in this preset are: 772 hz",
+    "data_start": "play_VEGA_3d_auto([772]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "02hEwRUI"
+  },
+  {
+    "data_name": "Penqueculum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Penqueculum. The frequencies in this preset are: 746 hz, 755 hz, 6965 hz",
+    "data_start": "play_VEGA_3d_auto([746, 755, 6965]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "NRZbzewM"
+  },
+  {
+    "data_name": "Pepto Streptococcus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Pepto Streptococcus. The frequencies in this preset are: 201 hz",
+    "data_start": "play_VEGA_3d_auto([201]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "PNOEGw3e"
+  },
+  {
+    "data_name": "Phoma Destructlva VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Phoma Destructlva. The frequencies in this preset are: 163 hz",
+    "data_start": "play_VEGA_3d_auto([163]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "2rOGT8D3"
+  },
+  {
+    "data_name": "Plasmocytoma VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Plasmocytoma. The frequencies in this preset are: 475 hz",
+    "data_start": "play_VEGA_3d_auto([475]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "eDpRE94j"
+  },
+  {
+    "data_name": "Pneumococcus Mixed Flora VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Pneumococcus Mixed Flora. The frequencies in this preset are: 158 hz, 645 hz, 801 hz",
+    "data_start": "play_VEGA_3d_auto([158, 645, 801]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ejc95mtG"
+  },
+  {
+    "data_name": "Pneumococcus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Pneumococcus. The frequencies in this preset are: 683 hz",
+    "data_start": "play_VEGA_3d_auto([683]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "avd6yuzI"
+  },
+  {
+    "data_name": "Pneumocystis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Pneumocystis. The frequencies in this preset are: 340 hz, 742 hz",
+    "data_start": "play_VEGA_3d_auto([340, 742]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "PDL9sNZd"
+  },
+  {
+    "data_name": "Polio VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Polio. The frequencies in this preset are: 742 hz, 1580 hz, 2632 hz",
+    "data_start": "play_VEGA_3d_auto([742, 1580, 2632]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "fciFmW7R"
+  },
+  {
+    "data_name": "Protozoa VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Protozoa. The frequencies in this preset are: 432 hz, 753 hz",
+    "data_start": "play_VEGA_3d_auto([432, 753]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "w1UAPxkX"
+  },
+  {
+    "data_name": "Pseudomonas VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Pseudomonas. The frequencies in this preset are: 5311 hz, 482 hz",
+    "data_start": "play_VEGA_3d_auto([5311, 482]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "SS8k09oJ"
+  },
+  {
+    "data_name": "Psittacosis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Psittacosis. The frequencies in this preset are: 1217 hz",
+    "data_start": "play_VEGA_3d_auto([1217]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "5LJf6guW"
+  },
+  {
+    "data_name": "Psorinum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Psorinum. The frequencies in this preset are: 786 hz",
+    "data_start": "play_VEGA_3d_auto([786]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "kZdp9qos"
+  },
+  {
+    "data_name": "Pullularia Pullulans VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Pullularia Pullulans. The frequencies in this preset are: 1364 hz",
+    "data_start": "play_VEGA_3d_auto([1364]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Ytx5Z2ni"
+  },
+  {
+    "data_name": "Pyoderma VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Pyoderma. The frequencies in this preset are: 123 hz",
+    "data_start": "play_VEGA_3d_auto([123]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "YY0EZGo3"
+  },
+  {
+    "data_name": "Pyrogenium 62 VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Pyrogenium 62. The frequencies in this preset are: 429 hz",
+    "data_start": "play_VEGA_3d_auto([429]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "nFqM4syL"
+  },
+  {
+    "data_name": "Q Fever VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Q Fever. The frequencies in this preset are: 1357 hz",
+    "data_start": "play_VEGA_3d_auto([1357]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "isny9Pdl"
+  },
+  {
+    "data_name": "Reproductive VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Reproductive. The frequencies in this preset are: 622 hz",
+    "data_start": "play_VEGA_3d_auto([622]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "DV9kMXFa"
+  },
+  {
+    "data_name": "Rhesus Gravidatum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Rhesus Gravidatum. The frequencies in this preset are: 684 hz",
+    "data_start": "play_VEGA_3d_auto([684]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "nnpdhIPF"
+  },
+  {
+    "data_name": "Rheuma VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Rheuma. The frequencies in this preset are: 952 hz",
+    "data_start": "play_VEGA_3d_auto([952]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "W8pTPyX3"
+  },
+  {
+    "data_name": "Rheumaticus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Rheumaticus. The frequencies in this preset are: 376 hz",
+    "data_start": "play_VEGA_3d_auto([376]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "f6ARQOAn"
+  },
+  {
+    "data_name": "Rhinopneumonitis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Rhinopneumonitis. The frequencies in this preset are: 185 hz, 367 hz, 820 hz",
+    "data_start": "play_VEGA_3d_auto([185, 367, 820]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "dfRfGvrb"
+  },
+  {
+    "data_name": "Rhizopus Nigricans VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Rhizopus Nigricans. The frequencies in this preset are: 132 hz",
+    "data_start": "play_VEGA_3d_auto([132]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "GigDPU5l"
+  },
+  {
+    "data_name": "Rhodo Torula VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Rhodo Torula. The frequencies in this preset are: 833 hz",
+    "data_start": "play_VEGA_3d_auto([833]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "k9h5FDSx"
+  },
+  {
+    "data_name": "Rhodococcus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Rhodococcus. The frequencies in this preset are: 124 hz, 835 hz",
+    "data_start": "play_VEGA_3d_auto([124, 835]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "JKtVvnnd"
+  },
+  {
+    "data_name": "Rickettsia VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Rickettsia. The frequencies in this preset are: 129 hz, 943 hz",
+    "data_start": "play_VEGA_3d_auto([129, 943]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "gtGbiG5H"
+  },
+  {
+    "data_name": "Rita Livingston VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Rita Livingston. The frequencies in this preset are: 636 hz, 700 hz, 832 hz, 3734 hz",
+    "data_start": "play_VEGA_3d_auto([636, 700, 832, 3734]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "7KGZvFpn"
+  },
+  {
+    "data_name": "Rocky Mountain Spotted Fever VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Rocky Mountain Spotted Fever. The frequencies in this preset are: 943 hz",
+    "data_start": "play_VEGA_3d_auto([943]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "NwovLsue"
+  },
+  {
+    "data_name": "Round Worms VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Round Worms. The frequencies in this preset are: 650 hz",
+    "data_start": "play_VEGA_3d_auto([650]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Dwd76NkE"
+  },
+  {
+    "data_name": "Rubella Vaccine VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Rubella Vaccine. The frequencies in this preset are: 459 hz",
+    "data_start": "play_VEGA_3d_auto([459]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "FYXaXvVr"
+  },
+  {
+    "data_name": "Rubella VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Rubella. The frequencies in this preset are: 431 hz",
+    "data_start": "play_VEGA_3d_auto([431]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "9xn70qtn"
+  },
+  {
+    "data_name": "Salmonella B VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Salmonella B. The frequencies in this preset are: 546 hz, 1634 hz",
+    "data_start": "play_VEGA_3d_auto([546, 1634]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "KECgBK9T"
+  },
+  {
+    "data_name": "Salmonella Paratyphi B VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Salmonella Paratyphi B. The frequencies in this preset are: 717 hz, 643 hz, 972 hz, 707 hz, 59 hz, 92 hz, 7771 hz",
+    "data_start": "play_VEGA_3d_auto([717, 643, 972, 707, 59, 92, 7771]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "zyhGo1tu"
+  },
+  {
+    "data_name": "Salmonella VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Salmonella. The frequencies in this preset are: 1522 hz",
+    "data_start": "play_VEGA_3d_auto([1522]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "IvCU5t6U"
+  },
+  {
+    "data_name": "Schistosoma Haematobium VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Schistosoma Haematobium. The frequencies in this preset are: 847 hz",
+    "data_start": "play_VEGA_3d_auto([847]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "9qbAQlkw"
+  },
+  {
+    "data_name": "Schistosoma Mansoni VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Schistosoma Mansoni. The frequencies in this preset are: 329 hz",
+    "data_start": "play_VEGA_3d_auto([329]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Dvu3YIyi"
+  },
+  {
+    "data_name": "Schuman B Cell VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Schuman B Cell. The frequencies in this preset are: 322 hz, 425 hz, 561 hz, 600 hz, 620 hz, 623 hz, 780 hz, 781 hz, 950 hz, 952 hz, 1023 hz, 1524 hz",
+    "data_start": "play_VEGA_3d_auto([322, 425, 561, 600, 620, 623, 780, 781, 950, 952, 1023, 1524]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ZYy8J9jp"
+  },
+  {
+    "data_name": "Serum Schweinepest VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Serum Schweinepest. The frequencies in this preset are: 503 hz",
+    "data_start": "play_VEGA_3d_auto([503]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "TBn83G72"
+  },
+  {
+    "data_name": "Smegma VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Smegma. The frequencies in this preset are: 180 hz",
+    "data_start": "play_VEGA_3d_auto([180]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "jnMukgZz"
+  },
+  {
+    "data_name": "Solitary Cyst VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Solitary Cyst. The frequencies in this preset are: 75 hz",
+    "data_start": "play_VEGA_3d_auto([75]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "vvw1KnvN"
+  },
+  {
+    "data_name": "Spanish Flu VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Spanish Flu. The frequencies in this preset are: 462 hz",
+    "data_start": "play_VEGA_3d_auto([462]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "s1R39e3s"
+  },
+  {
+    "data_name": "Sporotrichum Pruinosum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Sporotrichum Pruinosum. The frequencies in this preset are: 755 hz",
+    "data_start": "play_VEGA_3d_auto([755]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "qNeBfkr1"
+  },
+  {
+    "data_name": "Staphylococcus Aureus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Staphylococcus Aureus. The frequencies in this preset are: 727 hz, 943 hz",
+    "data_start": "play_VEGA_3d_auto([727, 943]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "2kIZDVut"
+  },
+  {
+    "data_name": "Staphylococcus Coagulae Positive VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Staphylococcus Coagulae Positive. The frequencies in this preset are: 643 hz",
+    "data_start": "play_VEGA_3d_auto([643]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "3EixzO0z"
+  },
+  {
+    "data_name": "Stemphylium VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Stemphylium. The frequencies in this preset are: 461 hz",
+    "data_start": "play_VEGA_3d_auto([461]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ZId95PDi"
+  },
+  {
+    "data_name": "Streptococcus Haemolytic VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Streptococcus Haemolytic. The frequencies in this preset are: 535 hz, 1522 hz",
+    "data_start": "play_VEGA_3d_auto([535, 1522]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "lisv5LfX"
+  },
+  {
+    "data_name": "Streptococcus Virus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Streptococcus Virus. The frequencies in this preset are: 727 hz",
+    "data_start": "play_VEGA_3d_auto([727]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ifHd5n8D"
+  },
+  {
+    "data_name": "Streptomyces Griseus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Streptomyces Griseus. The frequencies in this preset are: 887 hz",
+    "data_start": "play_VEGA_3d_auto([887]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "P3PUDWLW"
+  },
+  {
+    "data_name": "Strongyloides VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Strongyloides. The frequencies in this preset are: 332 hz, 422 hz, 721 hz, 942 hz, 3212 hz",
+    "data_start": "play_VEGA_3d_auto([332, 422, 721, 942, 3212]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "OzLUAUyq"
+  },
+  {
+    "data_name": "Struma Nodosa VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Struma Nodosa. The frequencies in this preset are: 122 hz, 321 hz, 517 hz, 532 hz, 651 hz",
+    "data_start": "play_VEGA_3d_auto([122, 321, 517, 532, 651]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "et95K714"
+  },
+  {
+    "data_name": "Swine Flu VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Swine Flu. The frequencies in this preset are: 432 hz, 839 hz",
+    "data_start": "play_VEGA_3d_auto([432, 839]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "UocrQPS4"
+  },
+  {
+    "data_name": "T-cell Leukemia VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for T-cell Leukemia. The frequencies in this preset are: 222 hz, 262 hz, 822 hz, 3042 hz, 3734 hz",
+    "data_start": "play_VEGA_3d_auto([222, 262, 822, 3042, 3734]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "y92m84e2"
+  },
+  {
+    "data_name": "Taenia VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Taenia. The frequencies in this preset are: 187 hz",
+    "data_start": "play_VEGA_3d_auto([187]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "fqe3eQBP"
+  },
+  {
+    "data_name": "Tapeworm VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Tapeworm. The frequencies in this preset are: 522 hz, 562 hz, 843 hz, 1223 hz, 3032 hz, 5522 hz",
+    "data_start": "play_VEGA_3d_auto([522, 562, 843, 1223, 3032, 5522]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "rUPhQBv6"
+  },
+  {
+    "data_name": "TB Aviare VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for TB Aviare. The frequencies in this preset are: 532 hz",
+    "data_start": "play_VEGA_3d_auto([532]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "xWIVSnJP"
+  },
+  {
+    "data_name": "TB Klebsiella VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for TB Klebsiella. The frequencies in this preset are: 221 hz, 1132 hz, 1644 hz, 2313 hz, 6516 hz",
+    "data_start": "play_VEGA_3d_auto([221, 1132, 1644, 2313, 6516]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "wH3n9K2k"
+  },
+  {
+    "data_name": "Tetanus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Tetanus. The frequencies in this preset are: 554 hz",
+    "data_start": "play_VEGA_3d_auto([554]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "sfZA182u"
+  },
+  {
+    "data_name": "Tetragenus VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Tetragenus. The frequencies in this preset are: 393 hz, 2712 hz",
+    "data_start": "play_VEGA_3d_auto([393, 2712]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "WZ9KDTKE"
+  },
+  {
+    "data_name": "Threadworm VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Threadworm. The frequencies in this preset are: 423 hz, 732 hz, 4412 hz",
+    "data_start": "play_VEGA_3d_auto([423, 732, 4412]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "iFHxjlK0"
+  },
+  {
+    "data_name": "Tonsillar Pfropfe VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Tonsillar Pfropfe. The frequencies in this preset are: 246 hz",
+    "data_start": "play_VEGA_3d_auto([246]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "WPy7nrha"
+  },
+  {
+    "data_name": "Tonsillitis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Tonsillitis. The frequencies in this preset are: 452 hz",
+    "data_start": "play_VEGA_3d_auto([452]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "I2KPe1Hc"
+  },
+  {
+    "data_name": "Torulopsis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Torulopsis. The frequencies in this preset are: 522 hz, 2121 hz",
+    "data_start": "play_VEGA_3d_auto([522, 2121]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "2wgutV6x"
+  },
+  {
+    "data_name": "Toxoplasmosis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Toxoplasmosis. The frequencies in this preset are: 434 hz, 852 hz",
+    "data_start": "play_VEGA_3d_auto([434, 852]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "0Uqkgqf2"
+  },
+  {
+    "data_name": "Trichinosis VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Trichinosis. The frequencies in this preset are: 541 hz, 1372 hz",
+    "data_start": "play_VEGA_3d_auto([541, 1372]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "IcTdZeN1"
+  },
+  {
+    "data_name": "Trichophyton Mentagrophytes VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Trichophyton Mentagrophytes. The frequencies in this preset are: 311 hz",
+    "data_start": "play_VEGA_3d_auto([311]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "7dNj7SBX"
+  },
+  {
+    "data_name": "Trichophyton Tonsurans VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Trichophyton Tonsurans. The frequencies in this preset are: 765 hz",
+    "data_start": "play_VEGA_3d_auto([765]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "tif6Ln56"
+  },
+  {
+    "data_name": "Tuberculinum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Tuberculinum. The frequencies in this preset are: 522 hz",
+    "data_start": "play_VEGA_3d_auto([522]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "yD2tmOU4"
+  },
+  {
+    "data_name": "Tularamia VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Tularamia. The frequencies in this preset are: 324 hz, 427 hz, 823 hz",
+    "data_start": "play_VEGA_3d_auto([324, 427, 823]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "aR2oSlAB"
+  },
+  {
+    "data_name": "Uterus Polyp VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Uterus Polyp. The frequencies in this preset are: 689 hz",
+    "data_start": "play_VEGA_3d_auto([689]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "TOHqYFUO"
+  },
+  {
+    "data_name": "Vapch Grippe VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Vapch Grippe. The frequencies in this preset are: 153 hz, 343 hz",
+    "data_start": "play_VEGA_3d_auto([153, 343]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Td0Clojm"
+  },
+  {
+    "data_name": "Varicella VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Varicella. The frequencies in this preset are: 345 hz, 668 hz, 716 hz",
+    "data_start": "play_VEGA_3d_auto([345, 668, 716]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "wkiF9ZhV"
+  },
+  {
+    "data_name": "Variola VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Variola. The frequencies in this preset are: 511 hz, 2132 hz, 2544 hz, 876 hz",
+    "data_start": "play_VEGA_3d_auto([511, 2132, 2544, 876]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "Cwk2K185"
+  },
+  {
+    "data_name": "Variolinum VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Variolinum. The frequencies in this preset are: 542 hz, 832 hz, 3222 hz",
+    "data_start": "play_VEGA_3d_auto([542, 832, 3222]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "nNcMA7Sd"
+  },
+  {
+    "data_name": "Yeast Ultimate VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Yeast Ultimate. The frequencies in this preset are: 72 hz, 422 hz, 582 hz, 787 hz, 1016 hz, 2222 hz",
+    "data_start": "play_VEGA_3d_auto([72, 422, 582, 787, 1016, 2222]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "2OSPvY0J"
+  },
+  {
+    "data_name": "Yellow Fever VEGA 3D frequencies",
+    "data_description": "This is VEGA 3D frequencies healing preset for Yellow Fever. The frequencies in this preset are: 432 hz, 734 hz",
+    "data_start": "play_VEGA_3d_auto([432, 734]);",
+    "data_stop": "stop_VEGA_3d();",
+    "data_id": "ZNYlxlOx"
+  }
+]
