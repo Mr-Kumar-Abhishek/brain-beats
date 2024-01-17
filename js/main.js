@@ -201,6 +201,47 @@ function stop_angel(){
   stop_single_tone();
 }
 
+// A function that takes a frequency variable as an argument
+// and checks whether it is in hearing range (20 hz to 20,000 hz) or not
+// If it is not, it will check whether it is below the hearing range or above the hearing range
+// If it is below the hearing range, it will continuously increase its octave till it become in hearing range
+// and if it is above the hearing range , it will continuously lower the octave till it become in hearing range
+// and ultimately returns the resulted frequency
+
+function adjustFrequency(frequency) {
+  // Define the lower and upper bounds of the hearing range
+  const lowerBound = 20;
+  const upperBound = 20000;
+
+  // Check if the frequency is already in the hearing range
+  if (frequency >= lowerBound && frequency <= upperBound) {
+    // Return the frequency as it is
+    return frequency;
+  }
+
+  // Check if the frequency is below the hearing range
+  if (frequency < lowerBound) {
+    // Loop until the frequency is in the hearing range
+    while (frequency < lowerBound) {
+      // Increase the frequency by one octave (multiply by 2)
+      frequency = frequency * 2;
+    }
+    // Return the adjusted frequency
+    return frequency;
+  }
+
+  // Check if the frequency is above the hearing range
+  if (frequency > upperBound) {
+    // Loop until the frequency is in the hearing range
+    while (frequency > upperBound) {
+      // Decrease the frequency by one octave (divide by 2)
+      frequency = frequency / 2;
+    }
+    // Return the adjusted frequency
+    return frequency;
+  }
+}
+
 function play_single_tone(freq, oscillator_type) {
   single_tone_freq = freq;
 
@@ -213,7 +254,7 @@ function play_single_tone(freq, oscillator_type) {
     
    volume = audioCtx.createGain();
    single_tone_oscillator.connect(volume);
-   single_tone_oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
+   single_tone_oscillator.frequency.setValueAtTime(adjustFrequency(freq), audioCtx.currentTime); // value in hertz
    volume.connect(audioCtx.destination);
    volume.gain.value = volume_set();
    single_tone_oscillator.start();
@@ -756,46 +797,6 @@ function play_rife_monaural(tone_freq_array) {
       play_rife_3d(tone_freq_array, x_values, y_values, z_values);
 }
 
-// A function that takes a frequency variable as an argument
-// and checks whether it is in hearing range (20 hz to 20,000 hz) or not
-// If it is not, it will check whether it is below the hearing range or above the hearing range
-// If it is below the hearing range, it will continuously increase its octave till it become in hearing range
-// and if it is above the hearing range , it will continuously lower the octave till it become in hearing range
-// and ultimately returns the resulted frequency
-
-function adjustFrequency(frequency) {
-  // Define the lower and upper bounds of the hearing range
-  const lowerBound = 20;
-  const upperBound = 20000;
-
-  // Check if the frequency is already in the hearing range
-  if (frequency >= lowerBound && frequency <= upperBound) {
-    // Return the frequency as it is
-    return frequency;
-  }
-
-  // Check if the frequency is below the hearing range
-  if (frequency < lowerBound) {
-    // Loop until the frequency is in the hearing range
-    while (frequency < lowerBound) {
-      // Increase the frequency by one octave (multiply by 2)
-      frequency = frequency * 2;
-    }
-    // Return the adjusted frequency
-    return frequency;
-  }
-
-  // Check if the frequency is above the hearing range
-  if (frequency > upperBound) {
-    // Loop until the frequency is in the hearing range
-    while (frequency > upperBound) {
-      // Decrease the frequency by one octave (divide by 2)
-      frequency = frequency / 2;
-    }
-    // Return the adjusted frequency
-    return frequency;
-  }
-}
 
 
 function play_rife_3d(tone_freq_array, x_values, y_values, z_values) {
