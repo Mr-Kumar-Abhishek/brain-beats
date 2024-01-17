@@ -678,7 +678,7 @@ function convertLineToJson(line) {
     const nameNoUnderscore = name.replace(/_/g, ' ');
     const dataDescription = `This is Rife 3D frequencies preset for ${nameNoUnderscore}. The frequencies in this preset are: ${freqs.replace(/, /g, ' hz, ')} hz`; // no bracket text
     // Split the frequencies by comma and filter out any numbers below 20 or above 22000
-    const freqArray = freqs.split(', ') //.filter(f => f >= 20 && f <= 22000);
+    const freqArray = freqs.split(', '); //.filter(f => f >= 20 && f <= 22000);
     // Check if the frequency array contains only one element
     if (freqArray.length === 1) {
       // Use play_pure_tone function with the single frequency as argument
