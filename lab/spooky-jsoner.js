@@ -67,4 +67,4 @@ function convertFile(inputFile, outputFile) {
 }
 
 // Call the function with the input and output file names
-convertFile('spooky-hc-frequency.txt', 'hc-freq.json');
+convertFile('spooky-khz-frequency.txt', 'khz-freq.json');
