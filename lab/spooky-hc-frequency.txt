@@ -139,19 +139,19 @@ Plasmodium Cynomolgi,"417300,424500,3600,",HC
 Plasmodium Falciparum Smear,"372300,373800,3600,",HC 
 Plasmodium Vivax Smear,"438150,445100,3600,",HC 
 Pneumocystis Carnil (Lung),"405750,409150,3600,",HC 
-Propionibacterium Acnes,"383750-389000,3600,",HC 
+Propionibacterium Acnes,"383750,389000,3600,",HC 
 Prostnogonimus Macrorchis Egg,"396850,404750,3600,",HC 
 Proteus Mirabilis,"320550,326000,3600,",HC 
 Proteus Vulgaris,"408750,416450,3600,",HC 
-Pseudomonas Aeruginosa,"331250-334600,3600,",HC 
-Respiratory Syncytial Virus,"378950-383150,3600,",HC 
+Pseudomonas Aeruginosa,"331250,334600,3600,",HC 
+Respiratory Syncytial Virus,"378950,383150,3600,",HC 
 Rhizobium Meliloti,"330000,",HC 
 Rotifer,"1151000,",HC 
-Salmonella Enteriditis,"329000-329000,3600,",HC 
+Salmonella Enteriditis,"329000,329000,3600,",HC 
 Salmonella Paratyphi,"365050,370100,3600,",HC 
-Salmonella Typhimurium 1,"382300-386550,3600,",HC 
+Salmonella Typhimurium 1,"382300,386550,3600,",HC 
 Salmonella Typhimurium 2,"386000,",HC 
-Sarcocystis,"450550-454950,3600,",HC 
+Sarcocystis,"450550,454950,3600,",HC 
 Sarcoptes Scabiei Itch,"735000,",HC 
 Schistosoma Haematobium,"473000,",HC 
 Schistosoma Mansoni,"353000,",HC 
@@ -159,41 +159,41 @@ Shigella Dysenteriae,"390089,",HC
 Shigella Flexneri,"394000,",HC 
 Shigella Sonnei,"318000,",HC 
 Sorghum Syrup,"277000,",HC 
-Sphaerotilus Natans,"388400-393450,3600,",HC 
-Spirillum Serpens,"378350-382800,3600,",HC 
-Staphylococcus Aureus,"376270-380850,3600,",HC 
+Sphaerotilus Natans,"388400,393450,3600,",HC 
+Spirillum Serpens,"378350,382800,3600,",HC 
+Staphylococcus Aureus,"376270,380850,3600,",HC 
 Stemonius,"211000,",HC 
-Stephanurus Dentalus (Ova),"467350-463100,3600,",HC 
+Stephanurus Dentalus (Ova),"467350,463100,3600,",HC 
 Sterigmatocystin_1,"88000,",HC 
 Sterigmatocystin_2,"96000,",HC 
 Sterigmatocystin_3,"126000,",HC 
 Sterigmatocystin_4,"133000,",HC 
 Stigeoclonium 1,"404250,415250,3600,",HC 
 Stigeoclonium 2,"407000,",HC 
-Streptococcus Lactis,"382000-387000,3600,",HC 
-Streptococcus Mitis Abscesses Stiff Knees,"313800-321100,3600,",HC 
-Streptococcus Pneumoniae,"366850-370200,3600,",HC 
-Streptococcus Pyogenes,"360500-375300,3600,",HC 
-Streptococcus Species Group G,"368150-368850,3600,",HC 
-Strongyloides (Filariform Larva),"398400-402000,3600,",HC 
-Tobacco Mosaic Virus,"427150-429550,3600,",HC 
+Streptococcus Lactis,"382000,387000,3600,",HC 
+Streptococcus Mitis Abscesses Stiff Knees,"313800,321100,3600,",HC 
+Streptococcus Pneumoniae,"366850,370200,3600,",HC 
+Streptococcus Pyogenes,"360500,375300,3600,",HC 
+Streptococcus Species Group G,"368150,368850,3600,",HC 
+Strongyloides (Filariform Larva),"398400,402000,3600,",HC 
+Tobacco Mosaic Virus,"427150,429550,3600,",HC 
 Toxoplasma (Human Strain),"395000,",HC 
-Treponema Pallidum,"346850-347400,3600,",HC 
+Treponema Pallidum,"346850,347400,3600,",HC 
 Trichinella Spiralis Muscle,"403850,405570,3600,",HC 
-Trichomonas Vaginalis,"378000-383600,3600,",HC 
-Trichuris Species Male,"388300-408900,3600,",HC 
+Trichomonas Vaginalis,"378000,383600,3600,",HC 
+Trichuris Species Male,"388300,408900,3600,",HC 
 Troglodytella Abrassari 2nd,"416900,422200,3600,",HC 
 Troglodytella Abrassari,"377750,385200,3600,",HC 
 Trypanosoma Brucei,"423200,431400,3600,",HC 
-Trypanosoma Cruzi (Brain Tissue),"460200-465650,3600,",HC 
+Trypanosoma Cruzi (Brain Tissue),"460200,465650,3600,",HC 
 Trypanosoma Equiperdum 1,"434600,451250,3600,",HC 
 Trypanosoma Equiperdum 2,"442000,",HC 
 Trypanosoma Equiperdum 3,"434600,451250,3600,",HC 
 Trypanosoma Gambiense,"393750,398700,3600,",HC 
 Trypanosoma Lewisi,"424500,426000,3600,",HC 
 Trypanosoma Rhodesiense,"423500,428550,3600,",HC 
-Urocleidus,"442350-450000,3600,",HC 
-Veillonella Dispar,"401750-405200,3600,",HC 
+Urocleidus,"442350,450000,3600,",HC 
+Veillonella Dispar,"401750,405200,3600,",HC 
 Wart Human Papilloma Plantar,"404700,406750,3600,",HC 
 Wart Human Papilloma Virus,"402850,410700,3600,",HC 
 Wart Papilloma Cervix Smear,"404050,404600,3600,",HC 
