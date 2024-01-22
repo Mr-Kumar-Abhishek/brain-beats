@@ -577,7 +577,7 @@ async function play_orange_noise() {
 }
 
 
-function play_rife_monaural_generator(){
+function play_sine_monaural_generator(){
   // Create an empty array to store the frequency values
   tone_freq_array = [];
 
@@ -591,7 +591,7 @@ function play_rife_monaural_generator(){
   // Pass the array as an argument to play_pure_tone
   // play_pure_tone(tone_freq_array);
     console.log(tone_freq_array);
-    play_rife_monaural(tone_freq_array);
+    play_sine_monaural(tone_freq_array);
 
 }
 
@@ -647,7 +647,7 @@ async function play_turquoise_noise() {
   }
 }
 
-function play_rife_3d_auto_generator() {
+function play_sine_3d_auto_generator() {
     // Create an empty array to store the frequency values
     tone_freq_array = [];
 
