@@ -754,7 +754,7 @@ function play_sine_monaural(tone_freq_array) {
     }
 }
 
-function play_rife_3d_auto_generator() {
+function play_rife_3d_generator() {
   play_sine_3d_generator();
 }
 
