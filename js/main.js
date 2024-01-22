@@ -78,6 +78,7 @@ var boolGrey = 0;
 var boolVelvet = 0;
 var boolOrange = 0;
 var boolSineMonaural = 0;
+var boolRifeMonaural = 0;
 var boolSine3D = 0;
 var boolSine3Dauto = 0;
 var boolRife3Dauto = 0;
@@ -738,8 +739,15 @@ function play_sine_3d_auto(tone_freq_array) {
 }
 
 function play_rife_monaural(tone_freq_array){
-  play_sine_monaural(tone_freq_array);
+  if (boolRifeMonaural == 0) {
+      boolRifeMonaural = 1;
+    play_sine_monaural(tone_freq_array);
+  }else {
+    stop_rife_monaural();
+    play_rife_monaural(tone_freq_array);
+  }  
 }
+
 function play_sine_monaural(tone_freq_array) {
     if (boolSineMonaural == 0) {
       stop_all();
@@ -1043,6 +1051,7 @@ function stop_sine_3d() {
 }
 
 function stop_rife_monaural() {
+  boolRifeMonaural = 0;
   stop_sine_monaural();
 }
 
@@ -1145,7 +1154,7 @@ function toggle_volume(){
 function live_volume_set(){
   console.log("live volume ran");
   
-  if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1 | angel_flag == 1 || boolSineMonaural == 1 || boolSine3D == 1 || boolSine3Dauto == 1 || boolRife3Dauto == 1){
+  if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1 | angel_flag == 1 || boolSineMonaural == 1 || boolSine3D == 1 || boolSine3Dauto == 1 || boolRife3Dauto == 1 || boolRifeMonaural == 1){
    if(volume.gain.value != undefined) {
     console.log("segi section")
     volume.gain.value = volume_set();
@@ -1243,5 +1252,6 @@ function stop_all() {
   if (angel_flag == 1 ) { stop_angel(); }
   if (boolSine3D == 1) { stop_sine_3d(); }
   if (boolSineMonaural == 1 ) { stop_sine_monaural(); } 
-  if (boolRife3Dauto == 1 ) { stop_rife_3d_auto() }
+  if (boolRife3Dauto == 1 ) { stop_rife_3d_auto(); }
+  if (boolRifeMonaural == 1 ) { stop_rife_monaural(); }
 }
