@@ -1112,6 +1112,9 @@ function warning(whichy){
     case 8:
       alert("Disclaimer: These healing frequencies are not a substitute for professional medical care. Use them at your own risk and discretion.");
       break;
+    case 9:
+      alert("Disclaimer: These healing frequencies are not a substitute for professional medical care. Use them at your own risk and discretion. \n\n Note: For really high or low frequencies you would need special speakers/headphones/earphones to play them.");
+      break;
     }
 
       
