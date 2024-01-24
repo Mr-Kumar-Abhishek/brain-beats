@@ -358,8 +358,7 @@ function play_double_tone (freq1, freq2, form, deviation) {
       pannerNode_2.positionX.setValueAtTime(0, audioCtx.currentTime);
     }
     
-    volume_1.gain.value = volume_set();
-    volume_2.gain.value = volume_set();
+    volume.gain.value = volume_set();
     
     double_tone_oscillator_1.start();
     double_tone_oscillator_2.start();
@@ -1172,6 +1171,7 @@ function live_volume_set(){
    }else {
       console.log("Some thing wrong volume not defined !!");
    }
+
   }else if (boolWhite == 1 ) {
     if(whiteNoiseNodeGain.gain.value != undefined ) {
       whiteNoiseNodeGain.gain.value = volume_set();
