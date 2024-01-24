@@ -23,8 +23,6 @@ var dreamachine_flag = 0;
 var angel_flag = 0;
 
 var volume;
-var volume_1;
-var volume_2;
 
 var beat_freq_1;
 var beat_freq_2;
@@ -342,18 +340,16 @@ function play_double_tone (freq1, freq2, form, deviation) {
     double_tone_oscillator_1.frequency.setValueAtTime(freq1, audioCtx.currentTime);
     double_tone_oscillator_2.frequency.setValueAtTime(freq2, audioCtx.currentTime);
     
-    volume_1 = audioCtx.createGain();
-    volume_2 = audioCtx.createGain();
+    volume = audioCtx.createGain();
     
     double_tone_oscillator_1.connect(pannerNode_1);
     double_tone_oscillator_2.connect(pannerNode_2);
       
-    pannerNode_1.connect(volume_1);
-    pannerNode_2.connect(volume_2);
+    pannerNode_1.connect(volume);
+    pannerNode_2.connect(volume);
     
-    volume_1.connect(audioCtx.destination);
-    volume_2.connect(audioCtx.destination);
-    
+    volume.connect(audioCtx.destination);
+
     if (deviation == "binaural") {
       pannerNode_1.positionX.setValueAtTime(-1, audioCtx.currentTime);
       pannerNode_2.positionX.setValueAtTime(1, audioCtx.currentTime);
@@ -1163,19 +1159,19 @@ function toggle_volume(){
 function live_volume_set(){
   console.log("live volume ran");
   
-  if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1 | angel_flag == 1 || boolSineMonaural == 1 || boolSine3D == 1 || boolSine3Dauto == 1 || boolRife3Dauto == 1 || boolRifeMonaural == 1 || boolRife3D == 1){
+  if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1 || 
+    angel_flag == 1 || boolSineMonaural == 1 || boolSine3D == 1 || 
+    boolSine3Dauto == 1 || boolRife3Dauto == 1 || boolRifeMonaural == 1 || 
+    boolRife3D == 1 || monaural_flag == 1 || binaural_flag == 1 || 
+    sq_monaural_flag == 1 || double_tone_flag == 1 ){
+
    if(volume.gain.value != undefined) {
-    console.log("segi section")
+    console.log("controling volumes")
     volume.gain.value = volume_set();
-   } 
-    
-  }else if (monaural_flag == 1 || binaural_flag == 1 || 
-            sq_monaural_flag == 1 || double_tone_flag == 1 ){
-    
-    if(volume_1.gain.value != undefined && volume_2.gain.value != undefined) {
-      volume_1.gain.value = volume_set();
-      volume_2.gain.value = volume_set();
-     }  
+
+   }else {
+      console.log("Some thing wrong volume not defined !!");
+   }
   }else if (boolWhite == 1 ) {
     if(whiteNoiseNodeGain.gain.value != undefined ) {
       whiteNoiseNodeGain.gain.value = volume_set();
