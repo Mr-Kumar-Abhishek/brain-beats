@@ -1228,7 +1228,7 @@ function live_volume_set(){
     angel_flag == 1 || boolSineMonaural == 1 || boolSine3D == 1 || 
     boolSine3Dauto == 1 || boolRife3Dauto == 1 || boolRifeMonaural == 1 || 
     boolRife3D == 1 || monaural_flag == 1 || binaural_flag == 1 || 
-    sq_monaural_flag == 1 || double_tone_flag == 1 ){
+    sq_monaural_flag == 1 || double_tone_flag == 1 || kundalini_flag == 1 ){
 
    if(volume.gain.value != undefined) {
     console.log("controling volumes")
