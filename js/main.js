@@ -414,7 +414,7 @@ async function kundalini_rotator() {
       break;
     }
     play_kundalini(k_arr[k_indexer]);
-    s_indexer++;
+    k_indexer++;
     // Use a break statement to exit the loop when you want to stop the function
     
     // Use a sleep function to pause the execution for 1000 milliseconds
