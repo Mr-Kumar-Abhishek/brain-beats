@@ -395,7 +395,7 @@ function play_isochronic(freq1, freq2) {
     isochronic_flag = 1;
     beat_freq_1 = freq1;
     beat_freq_2 = freq2 - freq1;
-    console.log("Playing isochronic at " + freq1 + " " + freq2 + " At beat " + beat_freq_1 + " " + beat_freq_2);
+  //  console.log("Playing isochronic at " + freq1 + " " + freq2 + " At beat " + beat_freq_1 + " " + beat_freq_2);
     play_single_tone(beat_freq_1, "square");
     toggler = window.setInterval(toggle_volume, (1000/(beat_freq_2*2)));
   }else {
@@ -630,7 +630,7 @@ function play_sine_monaural_generator(){
 
   // Pass the array as an argument to play_pure_tone
   // play_pure_tone(tone_freq_array);
-    console.log(tone_freq_array);
+  // console.log(tone_freq_array);
     play_sine_monaural(tone_freq_array);
 
 }
@@ -757,15 +757,15 @@ function play_sine_3d_auto(tone_freq_array) {
   
     var auto_matrix = distributePoints(tone_freq_array.length);
 
-    console.log(auto_matrix);
+  //  console.log(auto_matrix);
 
     x_values = auto_matrix[0];
     y_values = auto_matrix[1];
     z_values = auto_matrix[2];
 
-    console.log(x_values);
-    console.log(y_values);
-    console.log(z_values);
+  //  console.log(x_values);
+  //  console.log(y_values);
+  //  console.log(z_values);
     play_sine_3d(tone_freq_array, x_values, y_values, z_values);
   } else {
     stop_sine_3d_auto();
@@ -1091,7 +1091,7 @@ function stop_isochronic() {
     isochronic_flag = 0;
     clearInterval(toggler);
     stop_single_tone();
-    console.log("isochronic stopped.");
+  //  console.log("isochronic stopped.");
   }
 }
 
