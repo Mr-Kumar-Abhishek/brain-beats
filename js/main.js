@@ -973,6 +973,13 @@ function stop_kundalini() {
   }
 }
 
+function kundalini_halter() {
+  $(".yin-yang").val(0);
+  stop_kundalini();
+  k_indexer = 0;
+}
+
+
 function stop_white_noise() {
   if (boolWhite == 1 ) {
     boolWhite = 0;
