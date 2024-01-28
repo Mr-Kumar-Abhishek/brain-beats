@@ -980,6 +980,19 @@ function kundalini_halter() {
 }
 
 
+function kundalini_toggler(){
+  if ( $(".yin-yang").val() == 0) {
+    $(".yin-yang").val(1); 
+    kundalini_rotator();
+  }else if ($(".yin-yang").val() == 1) {
+    $(".yin-yang").val(0);
+    stop_kundalini();
+    k_indexer--;
+  }
+}
+
+
+
 function stop_white_noise() {
   if (boolWhite == 1 ) {
     boolWhite = 0;
