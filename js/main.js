@@ -967,7 +967,7 @@ function stop_sq_monaural(){
 }
 
 function stop_kundalini() {
-  console.log(kundalini_flag);
+  console.log("kundalini flag value = " + kundalini_flag);
   if (kundalini_flag == 1 ) {
     kundalini_flag = 0;
     console.log("Stop Kundalini Called.");
