@@ -277,7 +277,7 @@ function play_kundalini(beat_freq_1) {
 
   if (kundalini_flag == 0) {
   
-    kundalini_flag == 1;
+    kundalini_flag = 1;
   
     play_monaural(beat_freq_1, beat_freq_2);
 
@@ -967,8 +967,10 @@ function stop_sq_monaural(){
 }
 
 function stop_kundalini() {
+  console.log(kundalini_flag);
   if (kundalini_flag == 1 ) {
     kundalini_flag = 0;
+    debugger;
     console.log("Stop Kundalini Called.");
     stop_monaural();
   }
