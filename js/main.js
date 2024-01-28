@@ -87,6 +87,9 @@ var x_value;
 var y_values;
 var z_values;
 
+var k_arr = [174, 285, 396, 417, 528, 549.21, 618, 639, 669, 741, 762, 831, 852, 963, 1074, 1185, 1296, 1407, 1518, 1629, 1740, 1851, 1782, 1803, 1962, 2073, 2184, 2295, 2406, 2517, 2628, 2739, 2850, 2961];
+var kundalini_flag = 0;
+
 var notification;
 var toggler;
 
@@ -267,6 +270,23 @@ function play_single_tone(freq, oscillator_type) {
 
 }
 
+function play_kundalini(beat_freq_1) {
+  
+  beat_freq_2 = beat_freq_1 + 55;
+
+  if (kundalini_flag == 0) {
+  
+    kundalini_flag == 1;
+  
+    play_monaural(beat_freq_1, beat_freq_2);
+
+  }else {
+
+    stop_kundalini();
+    play_kundalini(beat_freq_1);
+  }
+
+}
 
 function play_monaural(freq1, freq2){
   
@@ -924,6 +944,13 @@ function stop_sq_monaural(){
   if(sq_monaural_flag == 1){
     sq_monaural_flag = 0;
     stop_double_tone();
+  }
+}
+
+function stop_kundalini() {
+  if (kundalini_flag == 1 ) {
+    kundalini_flag = 0;
+    stop_monaural();
   }
 }
 
