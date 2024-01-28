@@ -970,7 +970,6 @@ function stop_kundalini() {
   console.log(kundalini_flag);
   if (kundalini_flag == 1 ) {
     kundalini_flag = 0;
-    debugger;
     console.log("Stop Kundalini Called.");
     stop_monaural();
   }
