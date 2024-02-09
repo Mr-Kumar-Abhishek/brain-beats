@@ -184,7 +184,7 @@
    {
       "data_name":"2 hz Binaural Beats over Solfeggio 174 hz",
       "data_description":"Nerve regeneration [Phase 0]",
-      "data_start":"play_binaural(174, 214);",
+      "data_start":"play_binaural(174, 176);",
       "data_stop":"stop_binaural();",
       "data_id":"h18zpydhk"
    },
