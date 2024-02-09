@@ -189,6 +189,13 @@
       "data_id":"h18zpydhk"
    },
    {
+      "data_name":"2 hz Binaural Beats over Solfeggio 285 hz",
+      "data_description":"Nerve regeneration [Phase 1]",
+      "data_start":"play_binaural(285, 287);",
+      "data_stop":"stop_binaural();",
+      "data_id":"h18zpydhl"
+   },
+   {
       "data_name":"2.4 hz Binaural Beats over Solfeggio 285 hz",
       "data_description":"Binaural beats for deep sleep [Phase 1]. Heal tissues while sleeping.",
       "data_start":"play_binaural(285, 287.4);",
