@@ -183,6 +183,13 @@
       "data_id":"u8vla4bag"
    },
    {
+      "data_name":"2 hz Square Wave Monaural Beats over Solfeggio 174 hz",
+      "data_description":"Square Wave Monaural Beats for Nerve Regeneration [Phase 0].",
+      "data_start":"play_sq_monaural(174, 176);",
+      "data_stop":"stop_sq_monaural();",
+      "data_id":"u8vla4bah"
+   },
+   {
       "data_name":"2.4 hz Square Wave Monaural Beats over Solfeggio 285 hz",
       "data_description":"Square Wave Monaural Beats for deep sleep [Phase 1]. Heal tissues while sleeping.",
       "data_start":"play_sq_monaural(285, 287.4);",
