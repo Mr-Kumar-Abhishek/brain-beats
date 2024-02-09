@@ -182,6 +182,20 @@
       "data_id": "jebx25mao"
     },
     {
+      "data_name": "2 hz Isochronic Tone over Solfeggio 174 hz",
+      "data_description": "Isochronic Tone for nerve regeneration [Phase 0].",
+      "data_start": "play_isochronic(174, 176);",
+      "data_stop": "stop_isochronic();",
+      "data_id": "jebx25map"
+    },
+    {
+      "data_name": "2 hz Isochronic Tone over Solfeggio 285 hz",
+      "data_description": "Isochronic Tone for nerve regeneration [Phase 1].",
+      "data_start": "play_isochronic(285, 287);",
+      "data_stop": "stop_isochronic();",
+      "data_id": "jebx25maq"
+    },
+    {
       "data_name": "2.4 hz Isochronic Tone over Solfeggio 285 hz",
       "data_description": "Isochronic Tone for deep sleep [Phase 1]. Heal tissues while sleeping.",
       "data_start": "play_isochronic(285, 287.4);",
