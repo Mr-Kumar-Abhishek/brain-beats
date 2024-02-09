@@ -182,6 +182,20 @@
       "data_id":"ezlajbvzt"
    },
    {
+      "data_name":"2 hz Monaural Beats over Solfeggio 174 hz",
+      "data_description":"Monaural beats for Nerve regeneration [Phase 0]",
+      "data_start":"play_monaural(174, 176);",
+      "data_stop":"stop_monaural();",
+      "data_id":"ezlajbvzv"
+   },
+   {
+      "data_name":"2 hz Monaural Beats over Solfeggio 285 hz",
+      "data_description":"Monaural beats for Nerve regeneration [Phase 1]",
+      "data_start":"play_monaural(285, 287);",
+      "data_stop":"stop_monaural();",
+      "data_id":"ezlajbvzw"
+   },
+   {
       "data_name":"2.4 hz Monaural Beats over Solfeggio 285 hz",
       "data_description":"Monaural beats for deep sleep [Phase 1]. Heal tissues while sleeping.",
       "data_start":"play_monaural(285, 287.4);",
