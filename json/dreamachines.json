@@ -70,6 +70,13 @@
      "data_id": "j5arlnle5"
    },
    {
+    "data_name": "2 hz Dreamachine Beats",
+    "data_description": "Dreamachine beats for nerve regeneration.",
+    "data_start": "start_dreamachine(2);",
+    "data_stop": "stop_dreamachine();",
+    "data_id": "j5arlnle6"
+   },
+   {
      "data_name": "2.4 hz Dreamachine Beats",
      "data_description": "Dreamachine beats for deep. Heal tissues while sleeping.",
      "data_start": "start_dreamachine(2.4);",
@@ -114,7 +121,7 @@
    {
      "data_name": "6 hz Dreamachine Beats",
      "data_description": "Dreamachine beats for reduction in unwillingness to do work due to past memories. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects. For getting out of hypnosis and bringing clarity. For active learning and retention. ",
-     "data_start": "start_dreamachine(417, 423);",
+     "data_start": "start_dreamachine(6);",
      "data_stop": "stop_dreamachine();",
      "data_id": "oi53lioo6"
    },
