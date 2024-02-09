@@ -189,6 +189,13 @@
       "data_id":"h18zpydhm"
    },
    {
+      "data_name":"1.618033988749 hz Binaural Beats over Solfeggio 285 hz",
+      "data_description":"Binaural beats for perfect body and face (golden ratio) [Phase 1].",
+      "data_start":"play_binaural(285, 286.618033988749);",
+      "data_stop":"stop_binaural();",
+      "data_id":"h18zpydhn"
+   },
+   {
       "data_name":"2 hz Binaural Beats over Solfeggio 174 hz",
       "data_description":"Binaural beats for Nerve regeneration [Phase 0]",
       "data_start":"play_binaural(174, 176);",
