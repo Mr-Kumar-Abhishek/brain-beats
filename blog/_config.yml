@@ -1,0 +1,8 @@
+name: Brain Beats Blog | Brainwave Entrainment
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title.html
+url: "https://brain-beats.in/blog"
+repository: Mr-Kumar-Abhishek/brain-beats-blog
+
+paginate_path: "/blog/page:num/"
+paginate: 5
