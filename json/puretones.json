@@ -56,6 +56,13 @@
       "data_id":"h0oeh39d8"
    },
    {
+      "data_name":"260 hz - Pure Tone",
+      "data_description":"Pure Tone for relief from Depersonalization and Derealization",
+      "data_start":"play_pure_tone(260);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"h0oeh39d9"
+   },
+   {
       "data_name":"261.63 hz - Pure Tone",
       "data_description":"Pure Tone for Aries. Aries could use this for relaxation, meditation or study. Musical Note is C",
       "data_start":"play_pure_tone(261.63);",
