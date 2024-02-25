@@ -2,4 +2,4 @@ User-agent: *
 Disallow:
 Allow: /
 
-Sitemap: https://brain-beats.netlify.app/sitemap.xml
+Sitemap: https://brain-beats.in/sitemap.xml
