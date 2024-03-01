@@ -316,14 +316,14 @@
     },
     {
       "data_name": "4 hz Isochronic Tone over Solfeggio 852 hz",
-      "data_description": "Isochronic Tone for telepathy [Phase 2]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 1]. Enkephalins, Extrasensory perception [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2]",
+      "data_description": "Isochronic Tone for telepathy [Phase 2]. astral Projection [flavor 1, phase 2]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 1]. Enkephalins, Extrasensory perception [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2]",
       "data_start": "play_isochronic(852, 856);",
       "data_stop": "stop_isochronic();",
       "data_id": "07b5s2avz"
     },
     {
       "data_name": "4 hz Isochronic Tone over Solfeggio 963 hz",
-      "data_description": "Isochronic Tone for telepathy [Phase 3]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
+      "data_description": "Isochronic Tone for telepathy [Phase 3].astral Projection [flavor 1, phase 2]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
       "data_start": "play_isochronic(963, 967);",
       "data_stop": "stop_isochronic();",
       "data_id": "qrv2r4hub"
@@ -428,7 +428,7 @@
     },
     {
       "data_name": "6.30 hz Isochronic Tone over 852 hz solfeggio",
-      "data_description": "Isochronic Tone for Mental vision and astral projection vision [Phase 1]. Might also experience accelerated learning and increased retention. Minor effects include reduction in anger and irritability.",
+      "data_description": "Isochronic Tone for Mental vision and astral projection vision [Flavor 2, Phase 1]. Might also experience accelerated learning and increased retention. Minor effects include reduction in anger and irritability.",
       "data_start": "play_isochronic(852, 858.30);",
       "data_stop": "stop_isochronic();",
       "data_id": "fg8t6ab4t"
@@ -442,14 +442,14 @@
     },
     {
       "data_name": "7 hz Isochronic Tone over 852 hz solfeggio",
-      "data_description": "Mental vision and astral projection vision [Phase 3], bending of objects [Phase 1], psychic vision for psychic surgery [Phase 1], Increased Reaction Time [Phase 1], Mass aggregate frequency [Phase 1]. It can deaggregate matter [Phase 1].  Can also resonate and rupture organs at excessive intensity. Used as a treatment of sleep disturbances[Phase 2].",
+      "data_description": "Mental vision and astral projection vision [flavor 3, Phase 1], bending of objects [Phase 1], psychic vision for psychic surgery [Phase 1], Increased Reaction Time [Phase 1], Mass aggregate frequency [Phase 1]. It can deaggregate matter [Phase 1].  Can also resonate and rupture organs at excessive intensity. Used as a treatment of sleep disturbances[Phase 2].",
       "data_start": "play_isochronic(852, 859);",
       "data_stop": "stop_isochronic();",
       "data_id": "l1fvu97gk"
     },
     {
       "data_name": "7 hz Isochronic Tone over 963 hz solfeggio",
-      "data_description": "Mental and astral projection [Phase 4], bending of objects [Phase 2], psychic surgery [Phase 2], Increased Reaction Time [Phase 2], Mass aggregate frequency [Phase 2]. It can deaggregate matter [Phase 2]. Can also resonate and rupture organs at excessive intensity. Used as a treatment of sleep disturbances [Phase 3].",
+      "data_description": "Mental and astral projection [flavor 3, Phase 2], bending of objects [Phase 2], psychic surgery [Phase 2], Increased Reaction Time [Phase 2], Mass aggregate frequency [Phase 2]. It can deaggregate matter [Phase 2]. Can also resonate and rupture organs at excessive intensity. Used as a treatment of sleep disturbances [Phase 3].",
       "data_start": "play_isochronic(963, 970);",
       "data_stop": "stop_isochronic();",
       "data_id": "ubrk92kpf"
