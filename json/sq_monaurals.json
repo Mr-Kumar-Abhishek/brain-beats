@@ -429,10 +429,17 @@
    },
    {
       "data_name":"6.30 hz Square Wave Monaural Beats over 852 hz solfeggio",
-      "data_description":"Square Wave Monaural Beats for Mental vision and astral projection vision [Phase 1]. Might also experience accelerated learning and increased retention. Minor effects include reduction in anger and irritability.",
+      "data_description":"Square Wave Monaural Beats for Mental vision and astral projection vision [Flavor 1, Phase 1]. Might also experience accelerated learning and increased retention [Phase 1]. Minor effects include reduction in anger and irritability [Phase 1].",
       "data_start":"play_sq_monaural(852, 858.30);",
       "data_stop":"stop_sq_monaural();",
       "data_id":"1v0cmka6c"
+   },
+   {
+      "data_name":"6.30 hz Square Wave Monaural Beats over 963 hz solfeggio",
+      "data_description":"Square Wave Monaural Beats for Mental vision and astral projection vision [Flavor 2, Phase 2]. Might also experience accelerated learning and increased retention [Phase 2]. Minor effects include reduction in anger and irritability. [Phase 2]",
+      "data_start":"play_sq_monaural(963, 969.30);",
+      "data_stop":"stop_sq_monaural();",
+      "data_id":"1v0cmka6d"
    },
    {
       "data_name":"7 hz Square Wave Monaural Beats over 285 hz solfeggio",
