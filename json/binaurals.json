@@ -484,7 +484,7 @@
    },
    {
       "data_name":"7 hz Binaural Beats over 963 hz solfeggio",
-      "data_description":"Mental and astral projection [flavor 3, Phase 4], bending of objects [Phase 2], psychic surgery [Phase 2], Increased Reaction Time [Phase 2], Mass aggregate frequency [Phase 2]. It can deaggregate matter [Phase 2].   Can also resonate and rupture organs at excessive intensity.   Used as a treatment of sleep disturbances [Phase 3].",
+      "data_description":"Mental and astral projection [flavor 3, Phase 2], bending of objects [Phase 2], psychic surgery [Phase 2], Increased Reaction Time [Phase 2], Mass aggregate frequency [Phase 2]. It can deaggregate matter [Phase 2].   Can also resonate and rupture organs at excessive intensity.   Used as a treatment of sleep disturbances [Phase 3].",
       "data_start":"play_binaural(963, 970);",
       "data_stop":"stop_binaural();",
       "data_id":"hgncftoan"
