@@ -428,10 +428,17 @@
     },
     {
       "data_name": "6.30 hz Isochronic Tone over 852 hz solfeggio",
-      "data_description": "Isochronic Tone for Mental vision and astral projection vision [Flavor 2, Phase 1]. Might also experience accelerated learning and increased retention. Minor effects include reduction in anger and irritability.",
+      "data_description": "Isochronic Tone for Mental vision and astral projection vision [Flavor 2, Phase 1]. Might also experience accelerated learning and increased retention [phase 1]. Minor effects include reduction in anger and irritability [Phase 1].",
       "data_start": "play_isochronic(852, 858.30);",
       "data_stop": "stop_isochronic();",
       "data_id": "fg8t6ab4t"
+    },
+    {
+      "data_name": "6.30 hz Isochronic Tone over 963 hz solfeggio",
+      "data_description": "Isochronic Tone for Mental vision and astral projection vision [Flavor 2, Phase 1]. Might also experience accelerated learning and increased retention [phase 2]. Minor effects include reduction in anger and irritability. [phase 2]",
+      "data_start": "play_isochronic(963, 969.30);",
+      "data_stop": "stop_isochronic();",
+      "data_id": "fg8t6ab4u"
     },
     {
       "data_name": "7 hz Isochronic Tone over 285 hz solfeggio",
