@@ -875,6 +875,13 @@
       "data_id":"kmi9kc6bh"
    },
    {
+      "data_name":"63 hz Monaural Beats over 963 hz solfeggio",
+      "data_description":"Monaural Beats for astral projection [flavor 5, phase 2]",
+      "data_start":"play_monaural(963, 1026);",
+      "data_stop":"stop_monaural();",
+      "data_id":"kmi9kc6i"
+   },
+   {
       "data_name":"83 hz Monaural Beats over 174 hz solfeggio",
       "data_description":"Opens third eye for some people. Associated with Ajna Chakra [Phase 1, 1st flavor].",
       "data_start":"play_monaural(174, 257);",
