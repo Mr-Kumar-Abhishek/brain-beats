@@ -896,6 +896,13 @@
       "data_id":"7mc22gixm"
    },
    {
+      "data_name":"63 hz Binaural Beats over 963 hz solfeggio",
+      "data_description":"Binaural beats for astral projection [flavor 5, phase 1]",
+      "data_start":"play_binaural(963, 1026);",
+      "data_stop":"stop_binaural();",
+      "data_id":"7mc22gixn"
+   },
+   {
       "data_name":"83 hz Binaural Beats over 174 hz solfeggio",
       "data_description":"Opens third eye for some people. Associated with Ajna Chakra [Phase 1, 1st flavor].",
       "data_start":"play_binaural(174, 257);",
