@@ -820,7 +820,7 @@
     },
     {
       "data_name": "27 hz Isochronic Tone over 963 hz solfeggio",
-      "data_description": "Isochronic Tone for astral projection [flavor 4, phase 2] (Range lies from 26 hz to 28 hz). Produced during meditation by some [Phase 1].",
+      "data_description": "Isochronic Tone for astral projection [flavor 4, phase 2] (Range lies from 26 hz to 28 hz). Produced during meditation by some [Phase 2].",
       "data_start": "play_isochronic(963, 990);",
       "data_stop": "stop_isochronic();",
       "data_id": "iy4ud5gbv"
