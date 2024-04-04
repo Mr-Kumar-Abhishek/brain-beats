@@ -812,6 +812,13 @@
       "data_id": "iy4ud5gbt"
     },
     {
+      "data_name": "27 hz Isochronic Tone over 852 hz solfeggio",
+      "data_description": "Isochronic Tone for astral projection [flavor 4, phase 1] (Range lies from 26 hz to 28 hz). Produced during meditation by some [Phase 1].",
+      "data_start": "play_isochronic(852, 879);",
+      "data_stop": "stop_isochronic();",
+      "data_id": "iy4ud5gbu"
+    },
+    {
       "data_name": "33 hz Isochronic Tone over 963 hz solfeggio",
       "data_description": "Initiates Christ consciousness and hypersensitivity. Pyramid frequency (inside), Schumann Resonance (5th frequency of 7).",
       "data_start": "play_isochronic(963, 996);",
