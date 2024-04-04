@@ -848,7 +848,7 @@
    },
    {
       "data_name":"27 hz Binaural Beats over 963 hz solfeggio",
-      "data_description":"Binaural Beats for astral projection [flavor 4, phase 2] (Range lies from 26 hz to 28 hz). Produced during meditation by some [Phase 1].",
+      "data_description":"Binaural Beats for astral projection [flavor 4, phase 2] (Range lies from 26 hz to 28 hz). Produced during meditation by some [Phase 2].",
       "data_start":"play_binaural(963, 990);",
       "data_stop":"stop_binaural();",
       "data_id":"av2j1ii1o"
