@@ -826,6 +826,13 @@
       "data_id":"af99soa0f"
    },
    {
+      "data_name":"27 hz Monaural Beats over 963 hz solfeggio",
+      "data_description":"Monaural Beats for astral projection [flavor 4, phase 2] (Range lies from 26 hz to 28 hz). Produced during meditation by some [Phase 2].",
+      "data_start":"play_monaural(963, 990);",
+      "data_stop":"stop_monaural();",
+      "data_id":"af99soa0g"
+   },
+   {
       "data_name":"33 hz Monaural Beats over 963 hz solfeggio",
       "data_description":"Initiates Christ consciousness and hypersensitivity. Pyramid frequency (inside), Schumann Resonance (5th frequency of 7).",
       "data_start":"play_monaural(963, 996);",
