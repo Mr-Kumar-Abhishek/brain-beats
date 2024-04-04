@@ -820,6 +820,13 @@
       "data_id":"mkyqw8xc7"
    },
    {
+      "data_name":"27 hz Square Wave Monaural Beats over 963 hz solfeggio",
+      "data_description":"Square Wave Monaural Beats for astral projection [flavor 4, phase 2] (Range lies from 26 hz to 28 hz). Produced during meditation by some [Phase 2].",
+      "data_start":"play_sq_monaural(963, 990);",
+      "data_stop":"stop_sq_monaural();",
+      "data_id":"mkyqw8xc8"
+   },
+   {
       "data_name":"33 hz Square Wave Monaural Beats over 963 hz solfeggio",
       "data_description":"Initiates Christ consciousness and hypersensitivity. Pyramid frequency (inside), Schumann Resonance (5th frequency of 7).",
       "data_start":"play_sq_monaural(963, 996);",
