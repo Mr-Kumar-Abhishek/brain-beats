@@ -841,10 +841,17 @@
    },
    {
       "data_name":"27 hz Binaural Beats over 852 hz solfeggio",
-      "data_description":"Binaural Beats for astral projection [flavor 4, phase 1]. Produced during meditation by some.",
+      "data_description":"Binaural Beats for astral projection [flavor 4, phase 1]. Produced during meditation by some [Phase 1].",
       "data_start":"play_binaural(852, 879);",
       "data_stop":"stop_binaural();",
       "data_id":"av2j1ii1n"
+   },
+   {
+      "data_name":"27 hz Binaural Beats over 963 hz solfeggio",
+      "data_description":"Binaural Beats for astral projection [flavor 4, phase 2]. Produced during meditation by some [Phase 1].",
+      "data_start":"play_binaural(963, 990);",
+      "data_stop":"stop_binaural();",
+      "data_id":"av2j1ii1o"
    },
    {
       "data_name":"33 hz Binaural Beats over 963 hz solfeggio",
