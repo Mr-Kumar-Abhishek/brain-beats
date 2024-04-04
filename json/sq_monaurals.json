@@ -862,6 +862,13 @@
       "data_id":"h6nhxqd47"
    },
    {
+      "data_name":"63 hz Square wave Monaural Beats over 852 hz solfeggio",
+      "data_description":"Square Wave Monaural Beats for astral projection [flavor 5, phase 1]",
+      "data_start":"play_sq_monaural(852, 915);",
+      "data_stop":"stop_sq_monaural();",
+      "data_id":"h6nhxqd48"
+   },
+   {
       "data_name":"83 hz Square Wave Monaural Beats over 174 hz solfeggio",
       "data_description":"Opens third eye for some people. Associated with Ajna Chakra [Phase 1, 1st flavor].",
       "data_start":"play_sq_monaural(174, 257);",
