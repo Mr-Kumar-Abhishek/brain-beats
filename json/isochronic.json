@@ -875,6 +875,20 @@
       "data_id": "cttatzyqv"
     },
     {
+      "data_name": "70 hz Isochronic Tone over 852 hz solfeggio",
+      "data_description": "Isochronic Tone for astral projection [flavor 6, phase 1]",
+      "data_start": "play_isochronic(852, 922);",
+      "data_stop": "stop_isochronic();",
+      "data_id": "cttatzyqx"
+    },
+    {
+      "data_name": "70 hz Isochronic Tone over 963 hz solfeggio",
+      "data_description": "Isochronic Tone for astral projection [flavor 6, phase 2]",
+      "data_start": "play_isochronic(852, 1033);",
+      "data_stop": "stop_isochronic();",
+      "data_id": "cttatzyqy"
+    },
+    {
       "data_name": "83 hz Isochronic Tone over 174 hz solfeggio",
       "data_description": "Opens third eye for some people. Associated with Ajna Chakra [Phase 1, 1st flavor].",
       "data_start": "play_isochronic(174, 257);",
