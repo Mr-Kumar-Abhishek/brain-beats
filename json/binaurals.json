@@ -897,7 +897,7 @@
    },
    {
       "data_name":"63 hz Binaural Beats over 963 hz solfeggio",
-      "data_description":"Binaural beats for astral projection [flavor 5, phase 2]",
+      "data_description":"Binaural beats for astral projection [flavor 5, phase 2] (this has efficiency use monaurals or other types)",
       "data_start":"play_binaural(963, 1026);",
       "data_stop":"stop_binaural();",
       "data_id":"7mc22gixn"
