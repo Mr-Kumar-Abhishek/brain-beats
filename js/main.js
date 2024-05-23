@@ -1000,6 +1000,7 @@ function stop_white_noise() {
     boolWhite = 0;
     whiteNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 function stop_pink_noise() {
@@ -1007,6 +1008,7 @@ function stop_pink_noise() {
     boolPink = 0;
     pinkNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 function stop_brown_noise() {
@@ -1014,6 +1016,7 @@ function stop_brown_noise() {
       boolBrown = 0;
       brownNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 function stop_red_noise() {
@@ -1021,6 +1024,7 @@ function stop_red_noise() {
       boolRed = 0;
       redNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 function stop_black_noise() {
@@ -1028,6 +1032,7 @@ function stop_black_noise() {
       boolBlack = 0;
       blackNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 function stop_green_noise() {
@@ -1035,6 +1040,7 @@ function stop_green_noise() {
       boolGreen = 0;
       greenNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 function stop_blue_noise() {
@@ -1042,6 +1048,7 @@ function stop_blue_noise() {
       boolBlue = 0;
       blueNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 
@@ -1050,6 +1057,7 @@ function stop_violet_noise() {
       boolViolet = 0;
       violetNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 function stop_grey_noise() {
@@ -1057,6 +1065,7 @@ function stop_grey_noise() {
       boolGrey = 0;
       greyNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 function stop_velvet_noise() {
@@ -1064,6 +1073,7 @@ function stop_velvet_noise() {
       boolVelvet = 0;
       velvetNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 function stop_orange_noise() {
@@ -1071,6 +1081,7 @@ function stop_orange_noise() {
     boolOrange = 0;
     orangeNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 function stop_yellow_noise() {
@@ -1078,6 +1089,7 @@ function stop_yellow_noise() {
     boolYellow = 0;
     yellowNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 function stop_turquoise_noise() {
@@ -1085,6 +1097,7 @@ function stop_turquoise_noise() {
     boolTurquoise = 0;
     turquoiseNoiseNodeGain.disconnect();
   }
+  stop_all();
 }
 
 function stop_isochronic() {
