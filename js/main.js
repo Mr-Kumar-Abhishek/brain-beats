@@ -1109,9 +1109,6 @@ function stop_isochronic() {
   }
 }
 
-function stop_rife() {
-  stop_rife();
-}
 
 function stop_sine(){
    // Check if there is an audio context and oscillators stored in global variables
