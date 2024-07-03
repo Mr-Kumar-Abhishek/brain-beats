@@ -1,0 +1,338 @@
+[
+  {
+    "data_name": "Chakra 2 3rd Eye ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra 2 3rd Eye. The frequencies in this preset are: 288 hz",
+    "data_start": "play_ALT_3d_auto([288]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "LyiorBn2"
+  },
+  {
+    "data_name": "Chakra 2 Base ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra 2 Base. The frequencies in this preset are: 456 hz",
+    "data_start": "play_ALT_3d_auto([456]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "KzOFgrc8"
+  },
+  {
+    "data_name": "Chakra 2 Crown ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra 2 Crown. The frequencies in this preset are: 432 hz",
+    "data_start": "play_ALT_3d_auto([432]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "Ai4gQACE"
+  },
+  {
+    "data_name": "Chakra 2 Heart ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra 2 Heart. The frequencies in this preset are: 256 hz",
+    "data_start": "play_ALT_3d_auto([256]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "PwbTTGEO"
+  },
+  {
+    "data_name": "Chakra 2 Sacral ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra 2 Sacral. The frequencies in this preset are: 606 hz",
+    "data_start": "play_ALT_3d_auto([606]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "gqDW1FiW"
+  },
+  {
+    "data_name": "Chakra 2 Solar Plexus ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra 2 Solar Plexus. The frequencies in this preset are: 364 hz",
+    "data_start": "play_ALT_3d_auto([364]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "yDmEWUKn"
+  },
+  {
+    "data_name": "Chakra 2 Throat ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra 2 Throat. The frequencies in this preset are: 384 hz",
+    "data_start": "play_ALT_3d_auto([384]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "yhrKDXmz"
+  },
+  {
+    "data_name": "Chakra 3rd Eye ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra 3rd Eye. The frequencies in this preset are: 221.23 hz",
+    "data_start": "play_ALT_3d_auto([221.23]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "I9W0y7Vj"
+  },
+  {
+    "data_name": "Chakra Base ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra Base. The frequencies in this preset are: 194.18 hz",
+    "data_start": "play_ALT_3d_auto([194.18]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "47pZyvi7"
+  },
+  {
+    "data_name": "Chakra Crown ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra Crown. The frequencies in this preset are: 172.06 hz",
+    "data_start": "play_ALT_3d_auto([172.06]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "dHfX69mg"
+  },
+  {
+    "data_name": "Chakra Heart ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra Heart. The frequencies in this preset are: 136.10 hz",
+    "data_start": "play_ALT_3d_auto([136.10]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "Rfi6MbKE"
+  },
+  {
+    "data_name": "Chakra Sacral ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra Sacral. The frequencies in this preset are: 210.42 hz",
+    "data_start": "play_ALT_3d_auto([210.42]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "mmDvx6uH"
+  },
+  {
+    "data_name": "Chakra Solar Plexus ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra Solar Plexus. The frequencies in this preset are: 126.22 hz",
+    "data_start": "play_ALT_3d_auto([126.22]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "tdYMRjEI"
+  },
+  {
+    "data_name": "Chakra Throat ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Chakra Throat. The frequencies in this preset are: 141.27 hz",
+    "data_start": "play_ALT_3d_auto([141.27]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "9aVT7HUK"
+  },
+  {
+    "data_name": "DNA and DNA Nucleotides + WBC RBC etc ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for DNA and DNA Nucleotides + WBC RBC etc. The frequencies in this preset are: 528 hz, 731 hz, 732 hz, 537.8 hz, 300 hz, 543.4 hz, 300 hz, 545.6 hz, 300 hz, 550 hz, 300 hz, 637 hz, 600 hz, 999 hz, 300 hz, 1434 hz, 600 hz, 1524 hz, 600 hz, 2452 hz, 600 hz, 1056 hz, 2008 hz, 9999 hz",
+    "data_start": "play_ALT_3d_auto([528, 731, 732, 537.8, 300, 543.4, 300, 545.6, 300, 550, 300, 637, 600, 999, 300, 1434, 600, 1524, 600, 2452, 600, 1056, 2008, 9999]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "AZ8kXilZ"
+  },
+  {
+    "data_name": "Jupiter - Hearing,Formal Concepts ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Jupiter - Hearing,Formal Concepts. The frequencies in this preset are: 10.7 hz",
+    "data_start": "play_ALT_3d_auto([10.7]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "DdInDicm"
+  },
+  {
+    "data_name": "Jupiter - Intestines,Emotional Assimilation,Expansion ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Jupiter - Intestines,Emotional Assimilation,Expansion. The frequencies in this preset are: 2.67 hz",
+    "data_start": "play_ALT_3d_auto([2.67]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "thQWi52v"
+  },
+  {
+    "data_name": "Jupiter - Lungs,Oxygen,Heat ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Jupiter - Lungs,Oxygen,Heat. The frequencies in this preset are: 5.35 hz",
+    "data_start": "play_ALT_3d_auto([5.35]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "82jPRKwh"
+  },
+  {
+    "data_name": "Mars - Bara,Pelvic Balance,Emotion Balance and Stability ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Mars - Bara,Pelvic Balance,Emotion Balance and Stability. The frequencies in this preset are: 3.07 hz",
+    "data_start": "play_ALT_3d_auto([3.07]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "wE4SvzEO"
+  },
+  {
+    "data_name": "Mars - Eyes,Visualization ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Mars - Eyes,Visualization. The frequencies in this preset are: 12.3 hz",
+    "data_start": "play_ALT_3d_auto([12.3]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "xv6RbrtC"
+  },
+  {
+    "data_name": "Mars - Heart,Love,Warmth ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Mars - Heart,Love,Warmth. The frequencies in this preset are: 6.15 hz",
+    "data_start": "play_ALT_3d_auto([6.15]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "7AXY43ph"
+  },
+  {
+    "data_name": "Mercury - Genitals ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Mercury - Genitals. The frequencies in this preset are: 2.3 hz",
+    "data_start": "play_ALT_3d_auto([2.3]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "wWpMgZX7"
+  },
+  {
+    "data_name": "Mercury - Spleen,Blood,Emotional Impulse ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Mercury - Spleen,Blood,Emotional Impulse. The frequencies in this preset are: 4.6 hz",
+    "data_start": "play_ALT_3d_auto([4.6]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "VaJVWo8k"
+  },
+  {
+    "data_name": "Mercury - Upper Lip,Emotions,Conflict Resolution ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Mercury - Upper Lip,Emotions,Conflict Resolution. The frequencies in this preset are: 9.19 hz",
+    "data_start": "play_ALT_3d_auto([9.19]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "N7IQcZIZ"
+  },
+  {
+    "data_name": "Moon - Bladder ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Moon - Bladder. The frequencies in this preset are: 2.57 hz",
+    "data_start": "play_ALT_3d_auto([2.57]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "TLdUD1kq"
+  },
+  {
+    "data_name": "Moon - Nasal Passage,Breathing,Taste ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Moon - Nasal Passage,Breathing,Taste. The frequencies in this preset are: 10.3 hz",
+    "data_start": "play_ALT_3d_auto([10.3]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "62oseQ8a"
+  },
+  {
+    "data_name": "Moon - Stomach,Emotional Acceptance ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Moon - Stomach,Emotional Acceptance. The frequencies in this preset are: 5.14 hz",
+    "data_start": "play_ALT_3d_auto([5.14]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "ocTXk472"
+  },
+  {
+    "data_name": "Planet - Jupiter ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Planet - Jupiter. The frequencies in this preset are: 183.58 hz",
+    "data_start": "play_ALT_3d_auto([183.58]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "HpXJg2kR"
+  },
+  {
+    "data_name": "Planet - Mars ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Planet - Mars. The frequencies in this preset are: 144.72 hz",
+    "data_start": "play_ALT_3d_auto([144.72]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "fgQ1SscT"
+  },
+  {
+    "data_name": "Planet - Mercury ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Planet - Mercury. The frequencies in this preset are: 141.27 hz",
+    "data_start": "play_ALT_3d_auto([141.27]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "QXOxIfHQ"
+  },
+  {
+    "data_name": "Planet - Moon ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Planet - Moon. The frequencies in this preset are: 210.42 hz",
+    "data_start": "play_ALT_3d_auto([210.42]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "us8pUatE"
+  },
+  {
+    "data_name": "Planet - Neptune ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Planet - Neptune. The frequencies in this preset are: 211.44 hz",
+    "data_start": "play_ALT_3d_auto([211.44]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "ezuWFMyR"
+  },
+  {
+    "data_name": "Planet - Pluto ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Planet - Pluto. The frequencies in this preset are: 140.25 hz",
+    "data_start": "play_ALT_3d_auto([140.25]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "4gSB8COH"
+  },
+  {
+    "data_name": "Planet - Saturn ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Planet - Saturn. The frequencies in this preset are: 147.85 hz",
+    "data_start": "play_ALT_3d_auto([147.85]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "RApZkJ1Z"
+  },
+  {
+    "data_name": "Planet - SUN ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Planet - SUN. The frequencies in this preset are: 126.22 hz",
+    "data_start": "play_ALT_3d_auto([126.22]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "nb2IxhQI"
+  },
+  {
+    "data_name": "Planet - Uranus ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Planet - Uranus. The frequencies in this preset are: 207.36 hz",
+    "data_start": "play_ALT_3d_auto([207.36]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "lg39py2R"
+  },
+  {
+    "data_name": "Planet - Venus ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Planet - Venus. The frequencies in this preset are: 221.23 hz",
+    "data_start": "play_ALT_3d_auto([221.23]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "WPo2aeyh"
+  },
+  {
+    "data_name": "Sacral,Zinc Etc ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Sacral,Zinc Etc. The frequencies in this preset are: 32 hz, 64 hz, 128 hz, 147 hz, 210.42 hz, 256 hz, 272 hz, 303 hz, 324 hz, 337 hz, 384 hz, 400 hz, 440 hz, 448 hz, 480 hz, 537 hz, 586 hz, 635 hz, 999 hz, 1444 hz, 1200 hz, 1351 hz, 1413 hz, 1534 hz, 1550 hz",
+    "data_start": "play_ALT_3d_auto([32, 64, 128, 147, 210.42, 256, 272, 303, 324, 337, 384, 400, 440, 448, 480, 537, 586, 635, 999, 1444, 1200, 1351, 1413, 1534, 1550]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "kB25ggG7"
+  },
+  {
+    "data_name": "Saturn - Collarbones,Vitality,Overall Balance,Stability ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Saturn - Collarbones,Vitality,Overall Balance,Stability. The frequencies in this preset are: 6.88 hz",
+    "data_start": "play_ALT_3d_auto([6.88]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "wcRAyOso"
+  },
+  {
+    "data_name": "Saturn - Frontal Lobes,Seventh Sense,Final Decision ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Saturn - Frontal Lobes,Seventh Sense,Final Decision. The frequencies in this preset are: 13.8 hz",
+    "data_start": "play_ALT_3d_auto([13.8]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "E9BekAJ4"
+  },
+  {
+    "data_name": "Saturn - Ovaries,Vitality,Life at Every Level ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Saturn - Ovaries,Vitality,Life at Every Level. The frequencies in this preset are: 3.44 hz",
+    "data_start": "play_ALT_3d_auto([3.44]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "0VXD1DFC"
+  },
+  {
+    "data_name": "Sun - Coccyx ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Sun - Coccyx. The frequencies in this preset are: 2.06 hz",
+    "data_start": "play_ALT_3d_auto([2.06]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "9Ss6e9wX"
+  },
+  {
+    "data_name": "Sun - Kidneys,Strength ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Sun - Kidneys,Strength. The frequencies in this preset are: 4.11 hz",
+    "data_start": "play_ALT_3d_auto([4.11]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "rlryODb0"
+  },
+  {
+    "data_name": "Sun - Mouth,Speech,Creativity ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Sun - Mouth,Speech,Creativity. The frequencies in this preset are: 8.22 hz",
+    "data_start": "play_ALT_3d_auto([8.22]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "129rMTob"
+  },
+  {
+    "data_name": "Sun - Top of Head,Spirit,Liberation,Transcendence ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Sun - Top of Head,Spirit,Liberation,Transcendence. The frequencies in this preset are: 16.4 hz",
+    "data_start": "play_ALT_3d_auto([16.4]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "ssACB7f4"
+  },
+  {
+    "data_name": "Venus - Cortex,Intelligence ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Venus - Cortex,Intelligence. The frequencies in this preset are: 15.4 hz",
+    "data_start": "play_ALT_3d_auto([15.4]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "TihRQ49R"
+  },
+  {
+    "data_name": "Venus - Liver,Pancreas,Emotional,Appetite/Digestion ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Venus - Liver,Pancreas,Emotional,Appetite/Digestion. The frequencies in this preset are: 3.84 hz",
+    "data_start": "play_ALT_3d_auto([3.84]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "WZiMw5Ol"
+  },
+  {
+    "data_name": "Venus - Shoulders,Strength of Arms,Expansion,Teaching ALT 3D frequencies",
+    "data_description": "This is ALT 3D frequencies healing preset for Venus - Shoulders,Strength of Arms,Expansion,Teaching. The frequencies in this preset are: 7.69 hz",
+    "data_start": "play_ALT_3d_auto([7.69]);",
+    "data_stop": "stop_ALT_3d();",
+    "data_id": "7aYUETBe"
+  }
+]
