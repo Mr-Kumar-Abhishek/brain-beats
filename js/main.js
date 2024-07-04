@@ -81,6 +81,7 @@ var boolSine3D = 0;
 var boolRife3D = 0;
 var boolSine3Dauto = 0;
 var boolRife3Dauto = 0;
+var boolALT3dauto = 0;
 var boolYellow = 0;
 var boolTurquoise = 0;
 var x_value;
@@ -738,6 +739,15 @@ function distributePoints(n) {
   return points;
 }
 
+function play_ALT_3d_auto(tone_freq_array){
+  if(boolALT3dauto == 0){
+    boolALT3dauto = 1;
+    play_sine_3d_auto(tone_freq_array);
+  }else {
+    stop_ALT_3d_auto();
+    play_ALT_3d_auto(tone_freq_array);
+  }
+}
 
 function play_rife_3d_auto(tone_freq_array) {
   if (boolRife3Dauto == 0){
@@ -1122,6 +1132,11 @@ function stop_sine(){
   
 }
 
+function stop_ALT_3d_auto(){
+  boolALT3dauto = 0;
+  stop_sine_3d_auto();
+}
+
 function stop_rife_3d() {
   boolRife3D = 0;
   stop_sine_3d();
@@ -1245,7 +1260,8 @@ function live_volume_set(){
     angel_flag == 1 || boolSineMonaural == 1 || boolSine3D == 1 || 
     boolSine3Dauto == 1 || boolRife3Dauto == 1 || boolRifeMonaural == 1 || 
     boolRife3D == 1 || monaural_flag == 1 || binaural_flag == 1 || 
-    sq_monaural_flag == 1 || double_tone_flag == 1 || kundalini_flag == 1 ){
+    sq_monaural_flag == 1 || double_tone_flag == 1 || kundalini_flag == 1 || 
+    boolALT3dauto == 1 ){
 
    if(volume.gain.value != undefined) {
     console.log("controling volumes")
@@ -1343,4 +1359,5 @@ function stop_all() {
   if (boolRife3Dauto == 1 ) { stop_rife_3d_auto(); }
   if (boolRifeMonaural == 1 ) { stop_rife_monaural(); }
   if (boolRife3D ==  1) { stop_rife_3d(); }
+  if (boolALT3dauto == 1) { stop_ALT_3d_auto(); }
 }
