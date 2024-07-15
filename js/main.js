@@ -762,6 +762,12 @@ function play_rife_3d_auto(tone_freq_array) {
 function play_sine_3d_auto(tone_freq_array) {
 
   if (boolSine3Dauto ==  0 ) {
+
+    if(tone_freq_array.length == 1 && tone_freq_array[0] < 63 ){
+
+      play_binaural(174, 174+tone_freq_array[0]);
+
+    }
     
     boolSine3Dauto = 1;
   
@@ -1121,6 +1127,8 @@ function stop_isochronic() {
 
 
 function stop_sine(){
+
+  console.log("these are sine oscillators" + sine_oscillators);
    // Check if there is an audio context and oscillators stored in global variables
    if (audioCtx && sine_oscillators) {
 
@@ -1163,8 +1171,9 @@ function stop_rife_3d_auto() {
 }
 
 function stop_sine_3d_auto() {
-  stop_sine();
   boolSine3Dauto = 0;
+  stop_sine();
+  stop_binaural();
 }
 
 function play_monaural_generator(){
