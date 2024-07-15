@@ -763,26 +763,29 @@ function play_sine_3d_auto(tone_freq_array) {
 
   if (boolSine3Dauto ==  0 ) {
 
+    boolSine3Dauto = 1;
+
     if(tone_freq_array.length == 1 && tone_freq_array[0] < 63 ){
 
       play_binaural(174, 174+tone_freq_array[0]);
 
-    }
-    
-    boolSine3Dauto = 1;
-  
-    var auto_matrix = distributePoints(tone_freq_array.length);
+    }else {
+
+      var auto_matrix = distributePoints(tone_freq_array.length);
 
   //  console.log(auto_matrix);
 
-    x_values = auto_matrix[0];
-    y_values = auto_matrix[1];
-    z_values = auto_matrix[2];
+      x_values = auto_matrix[0];
+      y_values = auto_matrix[1];
+      z_values = auto_matrix[2];
 
-  //  console.log(x_values);
-  //  console.log(y_values);
-  //  console.log(z_values);
-    play_sine_3d(tone_freq_array, x_values, y_values, z_values);
+      //  console.log(x_values);
+      //  console.log(y_values);
+      //  console.log(z_values);
+      play_sine_3d(tone_freq_array, x_values, y_values, z_values);
+
+    }
+    
   } else {
     stop_sine_3d_auto();
     play_sine_3d_auto(tone_freq_array);
