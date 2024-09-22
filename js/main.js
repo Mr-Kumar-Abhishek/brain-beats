@@ -817,18 +817,26 @@ function play_sine_monaural(tone_freq_array) {
     if (boolSineMonaural == 0) {
       stop_all();
       boolSineMonaural = 1;
+
+      if(tone_freq_array.length == 1 && tone_freq_array[0] < 63 ){
+
+        play_monaural(174, 174+tone_freq_array[0]);
+  
+      }else {
+  
       
-      x_values = [];
-      y_values = [];
-      z_values = [];
+        x_values = [];
+        y_values = [];
+        z_values = [];
 
-      for (var i = 0; i < tone_freq_array.length; i++) {
-        x_values.push(0);
-        y_values.push(0);
-        z_values.push(0);
+        for (var i = 0; i < tone_freq_array.length; i++) {
+          x_values.push(0);
+          y_values.push(0);
+          z_values.push(0);
+        }
+
+        play_sine_3d(tone_freq_array, x_values, y_values, z_values);
       }
-
-      play_sine_3d(tone_freq_array, x_values, y_values, z_values);
     } else {
       stop_sine_monaural();
       play_sine_monaural(tone_freq_array);
@@ -1181,6 +1189,7 @@ function stop_rife_monaural() {
 
 function stop_sine_monaural() {
   stop_sine();
+  stop_monaural();
   boolSineMonaural = 0;
 }
 
@@ -1190,9 +1199,9 @@ function stop_rife_3d_auto() {
 }
 
 function stop_sine_3d_auto() {
-  boolSine3Dauto = 0;
   stop_sine();
   stop_binaural();
+  boolSine3Dauto = 0;
 }
 
 function play_monaural_generator(){
