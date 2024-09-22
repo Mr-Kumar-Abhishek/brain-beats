@@ -1289,7 +1289,7 @@ function live_volume_set(){
     boolSine3Dauto == 1 || boolRife3Dauto == 1 || boolRifeMonaural == 1 || 
     boolRife3D == 1 || monaural_flag == 1 || binaural_flag == 1 || 
     sq_monaural_flag == 1 || double_tone_flag == 1 || kundalini_flag == 1 || 
-    boolALT3dauto == 1 ){
+    boolALT3dauto == 1 || boolALTMonaural == 1 ){
 
    if(volume.gain.value != undefined) {
     console.log("controling volumes")
@@ -1388,5 +1388,5 @@ function stop_all() {
   if (boolRifeMonaural == 1 ) { stop_rife_monaural(); }
   if (boolRife3D ==  1) { stop_rife_3d(); }
   if (boolALT3dauto == 1) { stop_ALT_3d_auto(); }
-  if (boolALTMonaural = 1) { stop_ALT_monaural(); }
+  if (boolALTMonaural == 1) { stop_ALT_monaural(); }
 }
