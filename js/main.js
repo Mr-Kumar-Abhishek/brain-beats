@@ -77,6 +77,7 @@ var boolVelvet = 0;
 var boolOrange = 0;
 var boolSineMonaural = 0;
 var boolRifeMonaural = 0;
+var boolALTMonaural = 0;
 var boolSine3D = 0;
 var boolRife3D = 0;
 var boolSine3Dauto = 0;
@@ -792,6 +793,16 @@ function play_sine_3d_auto(tone_freq_array) {
   }
 }
 
+function play_ALT_monaural(tone_freq_array) {
+  if (boolALTMonaural == 0) {
+    boolALTMonaural = 1;
+    play_sine_monaural(tone_freq_array);
+  }else {
+    stop_ALT_Monaural();
+    play_ALT_monaural(tone_freq_array);
+  }
+}
+
 function play_rife_monaural(tone_freq_array){
   if (boolRifeMonaural == 0) {
       boolRifeMonaural = 1;
@@ -1148,6 +1159,11 @@ function stop_ALT_3d_auto(){
   stop_sine_3d_auto();
 }
 
+function stop_ALT_monaural(){
+  boolALTMonaural = 0;
+  stop_sine_monaural();
+}
+
 function stop_rife_3d() {
   boolRife3D = 0;
   stop_sine_3d();
@@ -1372,4 +1388,5 @@ function stop_all() {
   if (boolRifeMonaural == 1 ) { stop_rife_monaural(); }
   if (boolRife3D ==  1) { stop_rife_3d(); }
   if (boolALT3dauto == 1) { stop_ALT_3d_auto(); }
+  if (boolALTMonaural = 1) { stop_ALT_monaural(); }
 }
