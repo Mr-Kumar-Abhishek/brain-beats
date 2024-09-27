@@ -1268,7 +1268,7 @@ function warning(whichy){
       alert("Disclaimer: These healing frequencies are not a substitute for professional medical care. Use them at your own risk and discretion. \n\n Note: For really high or low frequencies you would need special speakers/headphones/earphones to play them.");
       break;
     case 10:
-      alert("Instructions: \n 1. Sit in quite place \n 2. Observe the rotating symbol \n 3. Tap on the rotating symbol to start the program \n 4. Listen to the frequencies and sound. \n 5. It is recommended to use earphones. \n 6. After awakening no need to observe the symbol, just listen to the frequencies. \n 7. Tap the rotating symbol to pause session. \n 8. Double Tap on rotating symbol to stop session.");
+      alert("Instructions: \n 1. Sit in quite place \n 2. Observe the rotating symbol \n 3. Tap on the rotating symbol to start the program \n 4. Listen to the frequencies and sounds. \n 5. It is recommended to use earphones. \n 6. After awakening no need to observe the symbol, just listen to the frequencies. \n 7. Tap the rotating symbol to pause session. \n 8. Double Tap on rotating symbol to stop session.");
       break;
     default:
       alert("Something went wrong.. reopen please.");
