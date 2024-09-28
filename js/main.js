@@ -1314,6 +1314,7 @@ function warning(whichy){
       break;
     case 11:
       alert("Lower your volume and use headphones! Sit in a dark room. Set the desired frequency, keep it in front of your eyes, play the mind machine generator and CLOSE YOUR EYES!")
+      break;
     default:
       alert("Something went wrong.. reopen please.");
     }
