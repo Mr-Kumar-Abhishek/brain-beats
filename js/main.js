@@ -110,6 +110,8 @@ var panning_model = 'HRTF'; // used in binaural and 3D sounds
 
   var cards = document.querySelectorAll(".card");
 
+  var volume_box = document.querySelector(".volume-box");
+
   // Define a variable to store the animation duration
   var duration = 0.01;
   
@@ -131,6 +133,12 @@ function start_dreamachine(freq) {
       cards[i].classList.add("flicker");
       cards[i].style.animationDuration = duration + "s";
     }
+
+    if(volume_box){
+      volume_box.classList.add("flicker");
+      volume_box.style.animationDuration = duration + "s";
+    }
+    
   }else {
     stop_dreamachine();
     start_dreamachine(freq);
