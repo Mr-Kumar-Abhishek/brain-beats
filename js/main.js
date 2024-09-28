@@ -155,7 +155,7 @@ function stop_dreamachine() {
       cards[i].classList.remove("flicker");
     }
     if (volume_box){
-      volume_box.remove("flicker");
+      volume_box.classList.remove("flicker");
     }
   }
 }
