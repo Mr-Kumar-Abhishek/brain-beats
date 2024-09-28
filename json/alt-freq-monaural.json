@@ -168,6 +168,13 @@
     "data_id": "niskymnvp"
   },
   {
+    "data_name": "Merkabah ALT Monaural frequencies",
+    "data_description": "This is ALT Monaural frequencies healing preset for Merkabah. The frequencies in this preset are: 888 hz, 88 hz, 80 hz",
+    "data_start": "play_ALT_monaural([888, 88, 80]);",
+    "data_stop": "stop_ALT_monaural();",
+    "data_id": "niskymnvq"
+  },
+  {
     "data_name": "Moon - Bladder ALT Monaural frequencies",
     "data_description": "This is ALT Monaural frequencies healing preset for Moon - Bladder. The frequencies in this preset are: 2.57 hz",
     "data_start": "play_ALT_monaural([2.57]);",
@@ -257,6 +264,13 @@
     "data_start": "play_ALT_monaural([221.23]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "gjt0wii4v"
+  },
+  {
+    "data_name": "Psychic Shield ALT Monaural frequencies",
+    "data_description": "This is ALT Monaural frequencies healing preset for Psychic Shield. The frequencies in this preset are: 999 hz, 99 hz, 90 hz",
+    "data_start": "play_ALT_monaural([999, 99, 90]);",
+    "data_stop": "stop_ALT_monaural();",
+    "data_id": "gjt0wii4w"
   },
   {
     "data_name": "Sacral,Zinc Etc ALT Monaural frequencies",
