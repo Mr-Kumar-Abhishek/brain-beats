@@ -24,6 +24,7 @@ var angel_flag = 0;
 
 var volume;
 
+var freq;
 var beat_freq_1;
 var beat_freq_2;
 var single_tone_freq;
@@ -85,6 +86,7 @@ var boolRife3Dauto = 0;
 var boolALT3dauto = 0;
 var boolYellow = 0;
 var boolTurquoise = 0;
+var bool_mind_machine_binaural = 0;
 var x_value;
 var y_values;
 var z_values;
@@ -968,6 +970,23 @@ function play_sine_3d(tone_freq_array, x_values, y_values, z_values) {
   }
 }
 
+function play_mind_machine_binaural(freq1, freq2){
+
+  if (bool_mind_machine_binaural == 0) {
+
+    bool_mind_machine_binaural = 1;
+
+    var freq = Math.abs(freq2 - freq1);
+    play_binaural(freq1, freq2);
+    start_dreamachine(freq);
+
+  }else{
+    stop_mind_machine_binaural();
+    play_mind_machine_binaural(freq1, freq2);
+  }
+
+}
+
 function stop_double_tone() {
   if(double_tone_flag == 1){
     double_tone_flag = 0;
@@ -1001,6 +1020,14 @@ function stop_sq_monaural(){
   if(sq_monaural_flag == 1){
     sq_monaural_flag = 0;
     stop_double_tone();
+  }
+}
+
+function stop_mind_machine_binaural(){
+  if (bool_mind_machine_binaural == 1 ){
+    bool_mind_machine_binaural = 0;
+    stop_binaural();
+    stop_dreamachine();
   }
 }
 
@@ -1238,6 +1265,12 @@ function play_sq_monaural_generator(){
   play_sq_monaural(freq1, freq2);
 }
 
+function play_mind_machine_binaural_generator(){
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  play_mind_machine_binaural(freq1, freq2);
+}
+
 function warning(whichy){
   switch(whichy) {
     case 0: 
@@ -1298,7 +1331,7 @@ function live_volume_set(){
     boolSine3Dauto == 1 || boolRife3Dauto == 1 || boolRifeMonaural == 1 || 
     boolRife3D == 1 || monaural_flag == 1 || binaural_flag == 1 || 
     sq_monaural_flag == 1 || double_tone_flag == 1 || kundalini_flag == 1 || 
-    boolALT3dauto == 1 || boolALTMonaural == 1 ){
+    boolALT3dauto == 1 || boolALTMonaural == 1 || bool_mind_machine_binaural == 1){
 
    if(volume.gain.value != undefined) {
     console.log("controling volumes")
@@ -1398,4 +1431,5 @@ function stop_all() {
   if (boolRife3D ==  1) { stop_rife_3d(); }
   if (boolALT3dauto == 1) { stop_ALT_3d_auto(); }
   if (boolALTMonaural == 1) { stop_ALT_monaural(); }
+  if (bool_mind_machine_binaural == 1) { stop_mind_machine_binaural(); }
 }
