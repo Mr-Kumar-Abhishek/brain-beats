@@ -149,11 +149,14 @@ function stop_dreamachine() {
   if(dreamachine_flag == 1 ){
   dreamachine_flag = 0;
     // Remove the flicker class from the body element
-  body.classList.remove("flicker");
-  for (var i = 0; i < cards.length; i++) {
-    // remove the class "flicker" to each element
-    cards[i].classList.remove("flicker");
-  }
+    body.classList.remove("flicker");
+    for (var i = 0; i < cards.length; i++) {
+      // remove the class "flicker" to each element
+      cards[i].classList.remove("flicker");
+    }
+    if (volume_box){
+      volume_box.remove("flicker");
+    }
   }
 }
 
