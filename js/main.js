@@ -333,10 +333,9 @@ function play_binaural(freq1, freq2){
     beat_freq_2 = freq2;
   
     if (binaural_flag == 0){
-    stop_all();
-    binaural_flag = 1;
+      binaural_flag = 1;
      
-    play_double_tone(beat_freq_1, beat_freq_2, 'sine', 'binaural');
+      play_double_tone(beat_freq_1, beat_freq_2, 'sine', 'binaural');
       
   }else {
     stop_binaural();
@@ -980,7 +979,7 @@ function play_mind_machine_binaural(freq1, freq2){
     play_binaural(freq1, freq2);
     start_dreamachine(freq);
 
-  }else{
+  } else {
     stop_mind_machine_binaural();
     play_mind_machine_binaural(freq1, freq2);
   }
@@ -1025,9 +1024,11 @@ function stop_sq_monaural(){
 
 function stop_mind_machine_binaural(){
   if (bool_mind_machine_binaural == 1 ){
-    bool_mind_machine_binaural = 0;
+    
     stop_binaural();
     stop_dreamachine();
+
+    bool_mind_machine_binaural = 0;
   }
 }
 
