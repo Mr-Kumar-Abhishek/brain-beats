@@ -1312,6 +1312,8 @@ function warning(whichy){
     case 10:
       alert("Instructions: \n 1. Sit in quite place \n 2. Observe the rotating symbol \n 3. Tap on the rotating symbol to start the program \n 4. Listen to the frequencies and sounds. \n 5. It is recommended to use earphones. \n 6. After awakening no need to observe the symbol, just listen to the frequencies. \n 7. Tap the rotating symbol to pause session. \n 8. Double Tap on rotating symbol to stop session.");
       break;
+    case 11:
+      alert("Lower your volume and use headphones! Sit in a dark room. Set the desired frequency, keep it in front of your eyes, play the mind machine generator and CLOSE YOUR EYES!")
     default:
       alert("Something went wrong.. reopen please.");
     }
