@@ -359,8 +359,8 @@ function play_double_tone (freq1, freq2, form, deviation) {
   if (double_tone_flag == 0) {
     double_tone_flag = 1;
 
-    beat_freq_1 = freq1;
-    beat_freq_2 = freq2;
+    beat_freq_1 = adjustFrequency(freq1);
+    beat_freq_2 = adjustFrequency(freq2);
     deviation_type = deviation;
     oscillator_type = form;
     double_tone_oscillator_1 = audioCtx.createOscillator();
