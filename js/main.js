@@ -263,7 +263,7 @@ function adjustFrequency(frequency) {
 }
 
 function play_single_tone(freq, oscillator_type) {
-  single_tone_freq = freq;
+  single_tone_freq = adjustFrequency(freq);
 
   if (single_tone_flag == 0 ) {
     stop_all();
