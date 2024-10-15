@@ -985,8 +985,12 @@ function play_mind_machine_binaural(freq1, freq2){
   if (bool_mind_machine_binaural == 0) {
 
     bool_mind_machine_binaural = 1;
-
     var freq = Math.abs(freq2 - freq1);
+
+    if (freq == 0) {
+      freq = freq1;
+    }
+    
     play_binaural(freq1, freq2);
     start_dreamachine(freq);
 
