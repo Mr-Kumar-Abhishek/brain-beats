@@ -62,6 +62,13 @@
       "data_id":"9m87slrfh"
    },
    {
+      "data_name":"669 Hz - solfeggio frequency",
+      "data_description":"This frequency resonates with upper heart chakra. It's color is Jade being a combination of green and blue. If this chakra is well balanced, the person will trust their innermost feelings. They will trust others with open heart. They will take emotional risk and share their feelings. If upper heart chakra is unbalanced, the person will feel bitter and betrayed. They will be paranoid as in they will use mind as a shield. They will not trust themselves or others.",
+      "data_start":"play_solfeggio(669);",
+      "data_stop":"stop_solfeggio();",
+      "data_id":"9m87slrfi"
+   },
+   {
       "data_name":"741 Hz - solfeggio frequency",
       "data_description":"Leads us into the power of self-expression which in turn leads to pure and stable life. This is made to solve and cleanse. This is associated with throat chakra or visuddha chakra.",
       "data_start":"play_solfeggio(741);",
