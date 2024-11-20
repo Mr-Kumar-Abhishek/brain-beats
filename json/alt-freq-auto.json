@@ -1,8 +1,8 @@
 [
   {
     "data_name": "All chakra balancing 3D ALT frequencies",
-    "data_description": "This is 3D ALT frequencies healing preset for balancing all chakras. The frequencies in this preset are: 63 hz, 174 hz, 285 hz, 396 hz, 417 hz, 528 hz, 549.21 hz, 618 hz, 639 hz, 669 hz, 741 hz, 762 hz, 831 hz, 852 hz, 963 hz, 1074 hz, 1185 hz, 1296 hz, 1407 hz, 1518 hz, 1629 hz, 1740 hz, 1851 hz, 1782 hz, 1803 hz, 1962 hz, 2073 hz, 2184 hz, 2295 hz, 2406 hz, 2517 hz, 2628 hz, 2739 hz, 2850 hz, 2961 hz",
-    "data_start": "play_ALT_3d_auto([63, 174, 285, 396, 417, 528, 549.21, 618, 639, 669, 741, 762, 831, 852, 963, 1074, 1185, 1296, 1407, 1518, 1629, 1740, 1851, 1782, 1803, 1962, 2073, 2184, 2295, 2406, 2517, 2628, 2739, 2850, 2961]);",
+    "data_description": "This is 3D ALT frequencies healing preset for balancing all chakras. The frequencies in this preset are: 63 hz, 174 hz, 285 hz, 396 hz, 417 hz, 528 hz, 549.21 hz, 618 hz, 639 hz, 669 hz, 741 hz, 762 hz, 831 hz, 852 hz, 963 hz, 1074 hz, 1185 hz, 1296 hz, 1407 hz, 1518 hz, 1629 hz, 1740 hz, 1782 hz, 1803 hz, 1851 hz, 1962 hz, 2073 hz, 2184 hz, 2295 hz, 2406 hz, 2517 hz, 2628 hz, 2739 hz, 2850 hz, 2961 hz",
+    "data_start": "play_ALT_3d_auto([63, 174, 285, 396, 417, 528, 549.21, 618, 639, 669, 741, 762, 831, 852, 963, 1074, 1185, 1296, 1407, 1518, 1629, 1740, 1782, 1803, 1851,  1962, 2073, 2184, 2295, 2406, 2517, 2628, 2739, 2850, 2961]);",
     "data_stop": "stop_ALT_3d_auto();",
     "data_id": "LyiorBn1"
   },
