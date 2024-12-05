@@ -153,94 +153,129 @@
       "data_id":"i8me3o9e8"
    },
    {
-      "data_name":"1851 Hz - solfeggio frequency",
+      "data_name":"1782 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with chakra of alchemy. It rules over alchemical transmutations, rule of eternal change, metamorphosis and transformation. It teaches us that everything is a constant change. It rules over appearance and dissapearance on micro-level. It is the consciousness of the quantum world and teleportation.",
-      "data_start":"play_solfeggio(1851);",
+      "data_start":"play_solfeggio(1782);",
       "data_stop":"stop_solfeggio();",
       "data_id":"7suxqgixr"
    },
    {
-      "data_name":"1782 Hz - solfeggio frequency",
+      "data_name":"1803 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with the chakra sometimes called 16th chakra. This is the root chakra of 5th dimension. This energy can create and strengthen another grid for the human consciousness and open new pathways. In the fourth dimension, time is a new physical direction, but in the 5th dimension, possibility spaces are a new physical direction that contains many of infinite possibilities and their timelines.",
-      "data_start":"play_solfeggio(1782);",
+      "data_start":"play_solfeggio(1803);",
       "data_stop":"stop_solfeggio();",
       "data_id":"s1yark0zp"
    },
    {
-      "data_name":"1803 Hz - solfeggio frequency",
+      "data_name":"1851 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with chakra called the 17th chakra.  The 17th chakra has a light white yellow (multiwhite) color and is the second or sacral chakra of the 5th dimension. This energy can create and strengthen another grid for the human consciousness and open new pathways. In the fourth dimension, time is a new physical direction, but in the 5th dimension, possibility spaces are a new physical direction that contains many of infinite possibilities and their timelines.",
-      "data_start":"play_solfeggio(1803);",
+      "data_start":"play_solfeggio(1851);",
       "data_stop":"stop_solfeggio();",
       "data_id":"qhowapwge"
    },
    {
-      "data_name":"1962 Hz - solfeggio frequency",
+      "data_name":"1953 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with chakra of solar swords. It brings in the power and drive and drive to realize one's ideas. The most yang chakra of warriors and fighters and it brings the archetype of 'father figure'. It is connected to archangle Micheal, Indian Hero Trita, and feline and reptilian super-civilizations. It must be balanced with additional rooting and earth chakras.",
-      "data_start":"play_solfeggio(1962);",
+      "data_start":"play_solfeggio(1953);",
       "data_stop":"stop_solfeggio();",
       "data_id":"yl6o0dvkph"
    },
    {
-      "data_name":"2073 Hz - solfeggio frequency",
+      "data_name":"1962 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with chakra of Fertile Soil. It is connected with the quantum level of genetics and archangle metatron. It is also connected with buddhist Avalokiteshvara aka Guanyin. This rules over harmony, compassion, co-operation and creative platform. It also represents higher source of wealth and abundance.",
-      "data_start":"play_solfeggio(2073);",
+      "data_start":"play_solfeggio(1962);",
       "data_stop":"stop_solfeggio();",
       "data_id":"wten3jcvja"
    },
    {
-      "data_name":"2184 Hz - solfeggio frequency",
+      "data_name":"1974 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with Chakra of Holy Fire. It is a very yang chakra that looks like a living plant being burned by fire, but it also brings new life when it is balanced. It connects to the Atar and Agni, the Holy Fire. It gives many ideas, opportunities, support and clear guidance from higher powers, vivid dreams, friendship and love. It is important to work with lower, Earth chakras as well when working with this chakra, because it can easily become unbalanced. Its color is bright red and green.",
-      "data_start":"play_solfeggio(2184);",
+      "data_start":"play_solfeggio(1974);",
       "data_stop":"stop_solfeggio();",
       "data_id":"9ccxm8ofzz"
    },
    {
-      "data_name":"2295 Hz - solfeggio frequency",
+      "data_name":"2073 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with the Chakra of Fiery Tree. It is an 8D chakra that shows super-creativity, Love and clear guidance from higher powers. When Moses saw a burning bush, it was a sign of his 18th chakra activation. For Human races of Assiah, the Chakra of Fiery Tree connects to higher dimensional human races from Pleiades, but only when the chakra is balanced. If the chakra is unbalanced, it links to archangel Lucifer, Indian Vritra and to Carian/Avian super-civilizations. It is important to work with lower, Earth chakras as well when working with this chakra, because it can easily become unbalanced. Its color is bright red and green.",
-      "data_start":"play_solfeggio(2295);",
+      "data_start":"play_solfeggio(2073);",
       "data_stop":"stop_solfeggio();",
       "data_id":"433d6p77hl"
    },
    {
-      "data_name":"2406 Hz - solfeggio frequency",
+      "data_name":"2085 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with a Chakra of I AM. The I AM is the essence of your connection with God. At the this chakra, this connection changes. Before, you may have felt that God was higher and more powerful than you, but now you start to realize that you have a role to play in co-creating with the divine and to communicate through the radiance of light.",
-      "data_start":"play_solfeggio(2406);",
+      "data_start":"play_solfeggio(2085);",
       "data_stop":"stop_solfeggio();",
       "data_id":"jbs6ev267n"
    },
    {
-      "data_name":"2517 Hz - solfeggio frequency",
+      "data_name":"2184 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with a Chakra that is linked to the third eye, but instead of just seeing other realities, you become one with the vision and the wisdom.",
-      "data_start":"play_solfeggio(2517);",
+      "data_start":"play_solfeggio(2184);",
       "data_stop":"stop_solfeggio();",
       "data_id":"h7y035y1nf"
+   },
+   {
+      "data_name":"2196 Hz - solfeggio frequency",
+      "data_description":"Solfeggio frequency associated with one of the upper trans-personal Chakras. Very less is known about this and user feedback is needed.",
+      "data_start":"play_solfeggio(2196);",
+      "data_stop":"stop_solfeggio();",
+      "data_id":"h5t3x98s7k"
+   },
+   {
+      "data_name":"2295 Hz - solfeggio frequency",
+      "data_description":"Solfeggio frequency associated with one of the upper trans-personal Chakras. Very less is known about this and user feedback is needed.",
+      "data_start":"play_solfeggio(2295);",
+      "data_stop":"stop_solfeggio();",
+      "data_id":"0iv9y713ef"
+   },
+   {
+      "data_name":"2406 Hz - solfeggio frequency",
+      "data_description":"Solfeggio frequency associated with one of the upper trans-personal Chakras. Very less is known about this and user feedback is needed.",
+      "data_start":"play_solfeggio(2406);",
+      "data_stop":"stop_solfeggio();",
+      "data_id":"bk5i7niw5n"
+   },
+   {
+      "data_name":"2517 Hz - solfeggio frequency",
+      "data_description":"Solfeggio frequency associated with one of the upper trans-personal Chakras. Very less is known about this and user feedback is needed.",
+      "data_start":"play_solfeggio(2517);",
+      "data_stop":"stop_solfeggio();",
+      "data_id":"gfgrjorwpv"
    },
    {
       "data_name":"2628 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with one of the upper trans-personal Chakras. Very less is known about this and user feedback is needed.",
       "data_start":"play_solfeggio(2628);",
       "data_stop":"stop_solfeggio();",
-      "data_id":"h5t3x98s7k"
+      "data_id":"gfgrjorwpw"
    },
    {
-      "data_name":"2739 Hz - solfeggio frequency",
+      "data_name":"2628 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with one of the upper trans-personal Chakras. Very less is known about this and user feedback is needed.",
-      "data_start":"play_solfeggio(2739);",
+      "data_start":"play_solfeggio(2628);",
       "data_stop":"stop_solfeggio();",
-      "data_id":"0iv9y713ef"
+      "data_id":"gfgrjorwpx"
+   },
+   {
+      "data_name":"2793 Hz - solfeggio frequency",
+      "data_description":"Solfeggio frequency associated with one of the upper trans-personal Chakras. Very less is known about this and user feedback is needed.",
+      "data_start":"play_solfeggio(2793);",
+      "data_stop":"stop_solfeggio();",
+      "data_id":"gfgrjorwpy"
    },
    {
       "data_name":"2850 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with one of the upper trans-personal Chakras. Very less is known about this and user feedback is needed.",
       "data_start":"play_solfeggio(2850);",
       "data_stop":"stop_solfeggio();",
-      "data_id":"bk5i7niw5n"
+      "data_id":"gfgrjorwpz"
    },
    {
       "data_name":"2961 Hz - solfeggio frequency",
       "data_description":"Solfeggio frequency associated with one of the upper trans-personal Chakras. Very less is known about this and user feedback is needed.",
       "data_start":"play_solfeggio(2961);",
       "data_stop":"stop_solfeggio();",
-      "data_id":"gfgrjorwpv"
+      "data_id":"gfgrjorwpa"
    }
 ]
