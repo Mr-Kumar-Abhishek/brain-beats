@@ -147,6 +147,13 @@
       "data_id":"naknevi9be"
    },
    {
+      "data_name":"325 hz - Pure Tone",
+      "data_description":"This pure tone resonates at 325 Hz, a frequency often associated with the solar plexus chakra. It's a soothing, clear tone that aims to balance and energize this vital energy center, believed to be the seat of personal power, confidence, and willpower. Ideal for meditation, sound therapy, or background ambiance, this tone can help promote a sense of inner strength and clarity.",
+      "data_start":"play_pure_tone(325);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"naknevi9bf"
+   },
+   {
       "data_name":"329.63 hz - Pure Tone",
       "data_description":"Pure tone for Leo. Leo can use this for relaxation, meditation or study. Musical Note is E",
       "data_start":"play_pure_tone(329.63);",
