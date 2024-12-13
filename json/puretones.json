@@ -329,6 +329,13 @@
       "data_id":"tguhjtiva"
    },
    {
+      "data_name":"486 hz - Pure Tone",
+      "data_description":"The 486 Hz pure tone is a mystical frequency associated with the crown chakra, known as Sahasrara in Sanskrit. This tone is believed to aid in the expansion of consciousness and spiritual enlightenment. When attuned to the 486 Hz frequency, the vibrations can help to open and harmonize the crown chakra, promoting a deeper connection to the universe and a sense of unity with all existence. Ideal for meditation and spiritual practices, this pure tone encourages inner peace and the realization of one's highest self, allowing for profound spiritual growth and awareness.",
+      "data_start":"play_pure_tone(486);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"tguhjtivb"
+   },
+   {
       "data_name":"493.88 hz - Pure Tone",
       "data_description":"Pure tone for Pisces. Pisces can use this for relaxation, meditation or study. Musical note B.",
       "data_start":"play_pure_tone(493.88);",
