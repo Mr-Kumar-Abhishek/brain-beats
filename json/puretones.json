@@ -281,7 +281,7 @@
    },
    {
       "data_name":"432 hz - Pure Tone",
-      "data_description":"Pure tone for heart chakra and capricorn (V2). This frequency is associated with a movement to shift away from the standard tuning of 440 hz of note A to 432 hz of note A. Music played on 432 hz tuning is more pleasant, cheerful and easier on ears. It also is good for meditation for relaxed states as it resonates with heart chakra. This frequency was used by ancient greeks, ancient egyptians and some classical music such as of mozart and Giuseppe Verdi. Capricorn can use this for meditation, relaxation and balancing.",
+      "data_description":"Pure tone for heart chakra and capricorn (V2). This frequency is associated with a movement to shift away from the standard tuning of 440 hz of note A to 432 hz of note A. Music played on 432 hz tuning is more pleasant, cheerful and easier on ears. It also is good for meditation for relaxed states as it resonates with heart chakra. This frequency was used by ancient greeks, ancient egyptians and some classical music such as of mozart and Giuseppe Verdi. Capricorn can use this for meditation, relaxation and balancing. This frequency also resonates with 3rd eye, providing a basis of merge of heart chakra and 3rd eye insights.",
       "data_start":"play_pure_tone(432);",
       "data_stop":"stop_pure_tone();",
       "data_id":"rodw6cg6r"
