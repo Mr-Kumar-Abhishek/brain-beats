@@ -91,6 +91,13 @@
       "data_id":"eis8iawng"
    },
    {
+      "data_name":"285 hz - Pure Tone",
+      "data_description":"This frequency is aligned with the sacral chakra, which is associated with creativity, emotions, and intimacy. The pure tone of 285 Hz helps to rejuvenate and balance the sacral chakra, promoting emotional health and creative expression. Keep in mind it also resonates with lower root chakra and is one of the solfeggio frequencies.",
+      "data_start":"play_pure_tone(285);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"fis8iawng"
+   },
+   {
       "data_name":"288 hz - Pure Tone",
       "data_description":"Pure Tone for meditation of Svadhishthana (or sacral chakra ) [phase 1]. This chakra will give inner strength to manage eating disorders, kidney problems, urinary tract infections, chronic lower back pain, infertility, gynocological problems, dysfunctional mestrual cycles, problems with intestine, spleen and gall bladder. This Sacral chakra preset helps clearing eating disorders, addictions, low self confidence, depedency issues, low libido and unbalanced emotions. Sacral chakra is associated with emotions, feeling, relationships, ceativity and fantasies.",
       "data_start":"play_pure_tone(288);",
