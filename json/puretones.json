@@ -182,6 +182,13 @@
       "data_id":"hcrkvvhht"
    },
    {
+      "data_name":"343 hz - Pure Tone",
+      "data_description":"This pure tone resonates at 343 Hz, a frequency often associated with the heart chakra. Known for its soothing and harmonizing qualities, this tone is designed to balance and heal the heart chakra, which is central to love, compassion, and emotional well-being. Whether used in meditation, sound therapy, or as calming background sound, this pure tone can help foster a sense of inner peace and emotional connection.",
+      "data_start":"play_pure_tone(343);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"hcrkvvhhu"
+   },
+   {
       "data_name":"349.23 hz - Pure Tone",
       "data_description":"Pure tone for Virgo. Virgo can use this for study, relaxation or meditation. Musical Note is F.",
       "data_start":"play_pure_tone(349.23);",
