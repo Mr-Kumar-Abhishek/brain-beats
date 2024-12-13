@@ -224,6 +224,13 @@
       "data_id":"iae4mljd7e"
    },
    {
+      "data_name":"383 hz - Pure Tone",
+      "data_description":"This pure tone resonates at 383 Hz, a frequency often associated with the third eye chakra. It is known for its clarity and subtle vibrations, designed to open and enhance intuition, insight, and spiritual awareness. Perfect for meditation, sound therapy, or as a tranquil background ambiance, this tone aims to stimulate the third eye chakra, fostering a deeper sense of intuition and inner wisdom.",
+      "data_start":"play_pure_tone(383);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"iae4mljd7f"
+   },
+   {
       "data_name":"384 hz - Pure Tone",
       "data_description":"Pure tone associated with Gurdjieff vibration associated with root (muladhara) chakra. It is the sixth harmonic of six, center of the brainwave spectrum. It is also assiciated thorat chakra. Color is blue. Musical note is G. This is also assiciated with mineral nutrient chromium. Some may question how one frequency is associated with two chakras. It acts on the reversal process of anxiety, which stays on two chakras namely the root chakra and the throat chakra. This can be used for balancing throat chakra [phase 1] according to some sources.",
       "data_start":"play_pure_tone(384);",
