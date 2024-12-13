@@ -225,7 +225,7 @@
    },
    {
       "data_name":"383 hz - Pure Tone",
-      "data_description":"This pure tone resonates at 383 Hz, a frequency often associated with the third eye chakra. It is known for its clarity and subtle vibrations, designed to open and enhance intuition, insight, and spiritual awareness. Perfect for meditation, sound therapy, or as a tranquil background ambiance, this tone aims to stimulate the third eye chakra, fostering a deeper sense of intuition and inner wisdom.",
+      "data_description":"The 383 Hz pure tone is a powerful frequency associated with the throat chakra, known as Vishuddha in Sanskrit. This tone is believed to help clear and balance the energy center located at the throat, which governs communication, expression, and truth. When tuned into this frequency, the sound waves resonate deeply within the throat, promoting a sense of calm and clarity. It encourages the free flow of expression, helping one to communicate more effectively and authentically. Perfect for meditation and sound healing practices, this pure tone can assist in unlocking one's true voice and inner wisdom.",
       "data_start":"play_pure_tone(383);",
       "data_stop":"stop_pure_tone();",
       "data_id":"iae4mljd7f"
