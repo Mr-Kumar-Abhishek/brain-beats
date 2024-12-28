@@ -7,6 +7,13 @@
       "data_id":"a2u69fpto"
    },
    {
+      "data_name":"136.10 hz - Pure Tone",
+      "data_description":"A pure tone at 136.10 Hz is associated with the heart chakra. This frequency is believed to promote emotional healing, compassion, and love, helping to balance and open the heart chakra. Listening to this pure tone can enhance feelings of empathy and inner peace.",
+      "data_start":"play_pure_tone(136.10);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"a2u69fptp"
+   },
+   {
       "data_name":"141.27 hz - Pure Tone",
       "data_description":"This is for Vishudda/Throat chakra. This throat chakra meditation gives physical enhancements of giving strength in nasal area, against irritated sinuses, sore throat, jaw pain, voice loss, thyroid problems, teeth and gum problems, ailments of esophagus and tonsils.Provides intellectuality and mobility. Frequency is associated with orbit of Mercury. Note is C# or D. Color is blue-green or blue.  This chakra supports speech center and affects communicative-intellectual principle. It is associated with communication and cleverness. It tries to remove, nervousness, anxiety, fear, attention deficit disorder, poor coping skills, and feeling of isolation.",
       "data_start":"play_pure_tone(141.27);",
@@ -39,7 +46,7 @@
       "data_description":"A pure tone at 194.18 Hz is often associated with the root chakra, which is located at the base of the spine. This frequency is believed to help ground and stabilize one's energy, promoting feelings of security, safety, and connection to the earth. Using this pure tone in meditation or sound therapy can enhance the balance and alignment of the root chakra, contributing to overall physical and emotional well-being.",
       "data_start":"play_pure_tone(194.18);",
       "data_stop":"stop_pure_tone();",
-      "data_id":"bklqdog5l"
+      "data_id":"bklqdog5m"
    },
    {
       "data_name":"210.42 hz - Pure Tone",
