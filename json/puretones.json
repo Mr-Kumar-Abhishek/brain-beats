@@ -35,6 +35,13 @@
       "data_id":"bklqdog5l"
    },
    {
+      "data_name":"194.18 hz - Pure Tone",
+      "data_description":"A pure tone at 194.18 Hz is often associated with the root chakra, which is located at the base of the spine. This frequency is believed to help ground and stabilize one's energy, promoting feelings of security, safety, and connection to the earth. Using this pure tone in meditation or sound therapy can enhance the balance and alignment of the root chakra, contributing to overall physical and emotional well-being.",
+      "data_start":"play_pure_tone(194.18);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"bklqdog5l"
+   },
+   {
       "data_name":"210.42 hz - Pure Tone",
       "data_description":"Synodic Moon Frequency. Musical Note is G#. Aura color is orange. Associated with Svadisthan Chakra. It regulates menstruation and rectifies disturbances in gland and lymph system. Other minor effects include simulation of sexual energy and supports erotic communication. (It is designed for females.)",
       "data_start":"play_pure_tone(210.42);",
