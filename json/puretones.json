@@ -98,6 +98,13 @@
       "data_id":"k8s8qxmzb0"
    },
    {
+      "data_name":"272.10 hz - Pure Tone",
+      "data_description":"A pure tone at 272.10 Hz is associated with the soul heart chakra. This frequency is believed to deepen the connection to one's higher self and spiritual essence. Listening to this pure tone can enhance emotional and spiritual harmony, promoting inner peace and unconditional love.",
+      "data_start":"play_pure_tone(272.10);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"k8s8qxmzb1"
+   },
+   {
       "data_name":"277.18 hz - Pure Tone",
       "data_description":"Pure Tone for Taurus. Taurus could use this for relaxation, meditation or study. Musical Note is C#",
       "data_start":"play_pure_tone(277.18);",
