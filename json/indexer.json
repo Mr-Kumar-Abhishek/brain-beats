@@ -1,5 +1,11 @@
 [
    {
+      "section_name":"Search Frequencies, Beats and Presets",
+      "section_description":"Search frequencies, beats and presets here. All in one place. Keep in mind this section of the app/website is very heavy to load (Have patience). ",
+      "section_link":"search.html",
+      "data_id":"nnwwl3jcn"
+   },
+   {
       "section_name":"Noise Colours",
       "section_description":"Noise colors refers to the power spectrum of noise signals. These are used for treating various ear and hearing issues.",
       "section_link":"noise.html",
