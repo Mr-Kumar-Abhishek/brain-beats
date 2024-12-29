@@ -13,6 +13,7 @@ let dPresets = [];
 function debounce(func, wait) {
   let timeout;
   return function(...args) {
+    loadingSpinner.classList.remove('d-none');
     const context = this;
     clearTimeout(timeout);
     timeout = setTimeout(() => func.apply(context, args), wait);
@@ -25,6 +26,7 @@ const handleSearchInput = (e) => {
     const isVisible = dPreset.dTitle.toLowerCase().includes(value) || dPreset.dDesc.toLowerCase().includes(value);
     dPreset.element.classList.toggle("d-none", !isVisible);
   });
+  loadingSpinner.classList.add('d-none');
 };
 
 mainSearchInput.addEventListener("input", debounce(handleSearchInput, 700));
