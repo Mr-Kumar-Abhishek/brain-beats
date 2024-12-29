@@ -29,8 +29,8 @@ const handleSearchInput = (e) => {
   loadingSpinner.classList.add('d-none');
 };
 
-mainSearchInput.addEventListener("input", debounce(handleSearchInput, 700));
-searchInput.addEventListener("input", debounce(handleSearchInput, 700));
+mainSearchInput.addEventListener("input", debounce(handleSearchInput, 1000));
+searchInput.addEventListener("input", debounce(handleSearchInput, 1000));
 
 const fetchData = async (jsonData) => {
   try {
