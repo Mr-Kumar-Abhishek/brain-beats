@@ -16,7 +16,7 @@ function debounce(func, wait) {
     loadingSpinner.classList.remove('d-none');
     const context = this;
     clearTimeout(timeout);
-    timeout = setTimeout(() => func.apply(context, args), wait);
+    timeout = setTimeout(async () => func.apply(await context, args), wait);
   };
 }
 
