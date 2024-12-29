@@ -27,8 +27,8 @@ const handleSearchInput = (e) => {
   });
 };
 
-mainSearchInput.addEventListener("input", debounce(handleSearchInput, 300));
-searchInput.addEventListener("input", debounce(handleSearchInput, 300));
+mainSearchInput.addEventListener("input", debounce(handleSearchInput, 700));
+searchInput.addEventListener("input", debounce(handleSearchInput, 700));
 
 const fetchData = async (jsonData) => {
   try {
