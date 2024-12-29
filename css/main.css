@@ -197,6 +197,10 @@ margin-top: 13px;
   outline: none;
 }
 
+.search-form label {
+  margin-bottom: 30px;
+}
+
 
 .search-me.on {
 padding: 10px 30px;
@@ -205,7 +209,7 @@ padding: 10px 30px;
   border-width: 6px;
   border-style: solid;
   background: rgb(255, 255, 255);
-  width: 50%;
+  width: 70%;
   color: #000000;
   cursor: text;
 }
