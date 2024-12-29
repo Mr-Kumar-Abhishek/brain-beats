@@ -55,7 +55,7 @@ const fetchData = async (jsonData) => {
   } catch (error) {
     console.error('Error fetching data:', error);
   } finally {
-    loadingSpinner.classList.add('d-none');
+     loadingSpinner.classList.add('d-none');
   }
 };
 
