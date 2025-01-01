@@ -1,2 +1,11 @@
+User-agent: Google-Extended
+Disallow: /  
+
+User-agent: GPTbot
+Disallow: / 
+
 User-agent: *
+Disallow:
+Allow: /
+
 Sitemap: https://brain-beats.in/sitemap.xml
