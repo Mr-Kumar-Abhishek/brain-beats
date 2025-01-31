@@ -84,8 +84,8 @@
   height: 400px;
   position: relative;
   cursor: pointer;
-  -webkit-animation: yin-yang-anim 2s infinite;
-  animation: yin-yang-anim 2s infinite;
+  -webkit-animation: yin-yang-anim 4s infinite;
+  animation: yin-yang-anim 4s infinite;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
 }
