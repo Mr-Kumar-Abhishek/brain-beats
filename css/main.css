@@ -238,33 +238,32 @@ padding: 10px 30px;
 }
 
 /* Styling the Table */
-.table-wrapper table {
+table {
   width: 100%;
   border-collapse: collapse;
 }
 
 /* Table Headers and Cells */
-.table-wrapper th,
-.table-wrapper td {
+th, td {
   border: 1px solid #ddd;
   text-align: center;
   padding: 12px;
 }
 
 /* Header Styling */
-.table-wrapper th {
+th {
   background-color: #f4f4f4;
   color: #333;
   font-weight: bold;
 }
 
 /* Zebra Striping */
-.table-wrapper tr:nth-child(even) {
+tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
 /* Hover Effect */
-.table-wrapper tr:hover {
+tr:hover {
   background-color: #eaeaea;
 }
 
