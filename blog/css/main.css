@@ -211,41 +211,70 @@ table.gsc-search-box {
   margin-bottom: 0px !important;
 }
 
+/* Responsive Table Wrapper */
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+
+/* Styling the Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table Headers and Cells */
+th, td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 12px;
+}
+
+/* Header Styling */
+th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Zebra Striping */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover Effect */
+tr:hover {
+  background-color: #eaeaea;
+}
+
 @media print {
   html {
     font-size: 100%;
   }
-
   .row {
     display: block;
   }
-
   code {
     color: #000;
     background: #fff;
   }
-
   pre {
     color: #000;
     background: #fff;
   }
-
   footer {
     font-size: 1rem;
   }
-
   footer ul {
     text-align: justify;
   }
-
   footer ul li {
     display: block;
   }
-
   footer ul li a:after {
     content: " (" attr(href) ") ";
   }
-
   .no-print {
     display: none;
   }
