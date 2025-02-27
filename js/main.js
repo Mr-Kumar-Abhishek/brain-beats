@@ -1452,3 +1452,13 @@ function stop_all() {
   if (boolALTMonaural == 1) { stop_ALT_monaural(); }
   if (bool_mind_machine_binaural == 1) { stop_mind_machine_binaural(); }
 }
+
+function disclaimer(){
+  document.addEventListener('DOMContentLoaded', () => {
+    const myModal = new bootstrap.Modal(document.getElementById('instructionModal'), {
+    backdrop: 'static',
+    keyboard: false
+    });
+    myModal.show();
+  });
+}
