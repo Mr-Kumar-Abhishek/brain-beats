@@ -334,7 +334,6 @@
       </template>
     </div>
 
-
     <div class="volume-box">
       <p>
         <b><i>volume</i></b>
@@ -343,6 +342,28 @@
         <input id="volume" type="number" value="1" min="0" max="100" >
       </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="instructionModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel"> ~ Instruction and Disclaimer ~</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body">
+              <p>Use of headphones/earphones is required. If you don't like the auto adjustment of frequencies, stop and play again, without changing from your opted the frequencies, the brain beats will try to adjust it again. </p>
+              <p><strong>Disclaimer:</strong> These healing frequencies are not a substitute for professional medical care. Use them at your own risk and discretion.</p>
+          </div>
+          <!-- Modal Footer (Optional) -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
     <script defer>
@@ -356,7 +377,13 @@
     <script src="./js/bootstrap-input-spinner.js"></script>
     <script src="./js/main.js"></script>
     <script>
-      warning(7);
+      document.addEventListener('DOMContentLoaded', () => {
+        const myModal = new bootstrap.Modal(document.getElementById('instructionModal'), {
+        backdrop: 'static',
+        keyboard: false
+        });
+        myModal.show();
+      });
     </script>
   </body>
 </html>
