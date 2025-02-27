@@ -337,7 +337,34 @@
       </template>
     </div>
 
-
+    <!-- Modal -->
+    <div class="modal fade" id="instructionModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel"> ~ Instructions ~</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <p>
+              <ol>
+                <li>Sit in a dark room.</li>
+                <li>Play the desired frequency preset.</li>
+                <li>Keep it in front of your eyes.</li>
+                <li>Play the Dreamachine.</li>
+                <li>Lastly and the most important step, <strong>CLOSE YOUR EYES!</strong></li>
+              </ol>
+            </p>
+          </div>
+          <!-- Modal Footer (Optional) -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script defer>
       const jsonData = "./json/dreamachines.json";
@@ -350,7 +377,7 @@
     <script src="./js/bootstrap-input-spinner.js"></script>
     <script src="./js/main.js"></script>
     <script>
-      warning(4);
+      disclaimer();
     </script>
   </body>
 </html>
