@@ -342,7 +342,43 @@
       <div class="text-center">
         <input id="volume" type="number" value="1" min="0" max="100" >
       </div>
-    </div>  
+    </div>
+    
+    <!-- Modal -->
+		<div class="modal fade" id="instructionModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Modal Header -->
+					<div class="modal-header">
+						<h5 class="modal-title" id="modalLabel"> ~ Instructions and Disclaimer ~</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<!-- Modal Body -->
+					<div class="modal-body">
+						<p>
+						<ol>
+							<li>Adjust the volume to a comfortable level.</li>
+							<li>Choose the Solfeggio Frequency Preset.</li>
+							<li>Play the Solfeggio Frequency Preset.</li>
+						</ol>
+						</p>
+						<p><strong>Disclaimer:</strong> These healing frequencies are not a substitute for professional medical care. Use them at your own risk and discretion.</p>
+						<h6>Note:</h6>
+						<p>
+						<ul>
+							<li>On screen presets can be searched from the search bar in navigation menu.</li>
+							<li>One can use earphones/headphones or one could use speakers.</li>
+						</ul>
+						</p>
+					</div>
+					<!-- Modal Footer (Optional) -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
     
     <script defer>
       const jsonData = "./json/solfeggio.json";
@@ -354,5 +390,8 @@
     <script src="./js/plugins.js"></script>
     <script src="./js/bootstrap-input-spinner.js"></script>
     <script src="./js/main.js"></script>
+    <script>
+      disclaimer();
+    </script>
   </body>
 </html>
