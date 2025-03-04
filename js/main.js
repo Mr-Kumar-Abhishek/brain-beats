@@ -424,7 +424,7 @@ async function kundalini_rotator() {
     if(k_indexer == k_arr.length) {
       k_indexer = 0;
     }
-    if ($(".yin-yang").val() == 0) {
+    if ($(".yin-yang").data('state') == 0) {
       break;
     }
     play_kundalini(k_arr[k_indexer]);
@@ -1057,18 +1057,18 @@ function stop_kundalini() {
 }
 
 function kundalini_halter() {
-  $(".yin-yang").val(0);
+  $(".yin-yang").data('state', 0);
   stop_kundalini();
   k_indexer = 0;
 }
 
 
 function kundalini_toggler(){
-  if ( $(".yin-yang").val() == 0) {
-    $(".yin-yang").val(1); 
+  if ( $(".yin-yang").data('state') == 0) {
+    $(".yin-yang").data('state', 1); 
     kundalini_rotator();
-  }else if ($(".yin-yang").val() == 1) {
-    $(".yin-yang").val(0);
+  }else if ($(".yin-yang").data('state') == 1) {
+    $(".yin-yang").data('state', 0);
     stop_kundalini();
     k_indexer--;
   }
