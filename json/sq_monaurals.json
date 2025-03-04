@@ -183,6 +183,27 @@
       "data_id":"u8vla4bag"
    },
    {
+		"data_name": "1.618033988749 hz Binaural Beats over Solfeggio 174 hz",
+		"data_description": "Square wave monaural beats for perfect body and face (golden ratio) [Phase 0].",
+		"data_start": "play_sq_monaural(174, 175.618033988749);",
+		"data_stop": "stop_sq_monaural();",
+		"data_id": "h25zpydhm"
+	},
+	{
+		"data_name": "1.618033988749 hz Binaural Beats over Solfeggio 285 hz",
+		"data_description": "Square wave monaural beats for perfect body and face (golden ratio) [Phase 1].",
+		"data_start": "play_sq_monaural(285, 286.618033988749);",
+		"data_stop": "stop_sq_monaural();",
+		"data_id": "h26zpydhn"
+	},
+	{
+		"data_name": "1.618033988749 hz Binaural Beats over Solfeggio 528 hz",
+		"data_description": "Square wave monaural beats for perfect body and face (golden ratio) [Phase 2].",
+		"data_start": "play_sq_monaural(528, 529.618033988749);",
+		"data_stop": "stop_sq_monaural();",
+		"data_id": "h27zpydhp"
+	},
+   {
       "data_name":"2 hz Square Wave Monaural Beats over Solfeggio 174 hz",
       "data_description":"Square Wave Monaural Beats for Nerve Regeneration [Phase 0].",
       "data_start":"play_sq_monaural(174, 176);",
