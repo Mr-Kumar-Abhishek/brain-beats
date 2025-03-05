@@ -1,182 +1,182 @@
 [
   {
     "data_name": "Actinomycosis (Streptothrix) RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Actinomycosis (Streptothrix). The frequencies in this preset are: 192000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Actinomycosis (Streptothrix). The frequencies in this preset are: 192000 Hz",
     "data_start": "play_RIFE_3d_auto([192000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "cQapjWnC"
   },
   {
     "data_name": "Anthrax,Skin Lung Intestines RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Anthrax,Skin Lung Intestines. The frequencies in this preset are: 139200 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Anthrax,Skin Lung Intestines. The frequencies in this preset are: 139200 Hz",
     "data_start": "play_RIFE_3d_auto([139200]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "EB86ldpA"
   },
   {
     "data_name": "B Coli Filterable Virus RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for B Coli Filterable Virus. The frequencies in this preset are: 770000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for B Coli Filterable Virus. The frequencies in this preset are: 770000 Hz",
     "data_start": "play_RIFE_3d_auto([770000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "6uYLqhQ6"
   },
   {
     "data_name": "B Coli Rod Form RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for B Coli Rod Form. The frequencies in this preset are: 417000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for B Coli Rod Form. The frequencies in this preset are: 417000 Hz",
     "data_start": "play_RIFE_3d_auto([417000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "TrvCtGpM"
   },
   {
     "data_name": "Bacillus X Filter Cancer Carcinoma RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Bacillus X Filter Cancer Carcinoma. The frequencies in this preset are: 1604000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Bacillus X Filter Cancer Carcinoma. The frequencies in this preset are: 1604000 Hz",
     "data_start": "play_RIFE_3d_auto([1604000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "1FBdhSJG"
   },
   {
     "data_name": "Bubonic Plague RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Bubonic Plague. The frequencies in this preset are: 160000 hz, 512466 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Bubonic Plague. The frequencies in this preset are: 160000 Hz, 512466 Hz",
     "data_start": "play_RIFE_3d_auto([160000, 512466]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "6lnWYdSC"
   },
   {
     "data_name": "Catarrh RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Catarrh. The frequencies in this preset are: 1800000 hz, 1713100 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Catarrh. The frequencies in this preset are: 1800000 Hz, 1713100 Hz",
     "data_start": "play_RIFE_3d_auto([1800000, 1713100]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "dwMERmN1"
   },
   {
     "data_name": "Cholera Spirillum RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Cholera Spirillum. The frequencies in this preset are: 851000 hz, 960873 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Cholera Spirillum. The frequencies in this preset are: 851000 Hz, 960873 Hz",
     "data_start": "play_RIFE_3d_auto([851000, 960873]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "ptK9WGpa"
   },
   {
     "data_name": "Contagious Conjunctivitis RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Contagious Conjunctivitis. The frequencies in this preset are: 1206000 hz, 2025625 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Contagious Conjunctivitis. The frequencies in this preset are: 1206000 Hz, 2025625 Hz",
     "data_start": "play_RIFE_3d_auto([1206000, 2025625]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "QexlZoTa"
   },
   {
     "data_name": "Diphtheria RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Diphtheria. The frequencies in this preset are: 800000 hz, 1090154 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Diphtheria. The frequencies in this preset are: 800000 Hz, 1090154 Hz",
     "data_start": "play_RIFE_3d_auto([800000, 1090154]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "uhAnHvnf"
   },
   {
     "data_name": "Glanders RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Glanders. The frequencies in this preset are: 986000 hz, 736591 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Glanders. The frequencies in this preset are: 986000 Hz, 736591 Hz",
     "data_start": "play_RIFE_3d_auto([986000, 736591]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "OjZSIAMU"
   },
   {
     "data_name": "Gonorrhea RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Gonorrhea. The frequencies in this preset are: 233000 hz, 600000 hz, 150649 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Gonorrhea. The frequencies in this preset are: 233000 Hz, 600000 Hz, 150649 Hz",
     "data_start": "play_RIFE_3d_auto([233000, 600000, 150649]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "Dmn7FdQe"
   },
   {
     "data_name": "Influenza RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Influenza. The frequencies in this preset are: 1674000 hz, 1946704 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Influenza. The frequencies in this preset are: 1674000 Hz, 1946704 Hz",
     "data_start": "play_RIFE_3d_auto([1674000, 1946704]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "IDznhUDy"
   },
   {
     "data_name": "Leprosy RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Leprosy. The frequencies in this preset are: 743000 hz, 251926 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Leprosy. The frequencies in this preset are: 743000 Hz, 251926 Hz",
     "data_start": "play_RIFE_3d_auto([743000, 251926]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "M3AKGybz"
   },
   {
     "data_name": "Pneumonia RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Pneumonia. The frequencies in this preset are: 1200000 hz, 381901 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Pneumonia. The frequencies in this preset are: 1200000 Hz, 381901 Hz",
     "data_start": "play_RIFE_3d_auto([1200000, 381901]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "gI7qzzAB"
   },
   {
     "data_name": "Spinal Meningitis RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Spinal Meningitis. The frequencies in this preset are: 427000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Spinal Meningitis. The frequencies in this preset are: 427000 Hz",
     "data_start": "play_RIFE_3d_auto([427000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "wlNUpJla"
   },
   {
     "data_name": "Staphylococcus Pyogenes Albus RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Staphylococcus Pyogenes Albus. The frequencies in this preset are: 549070 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Staphylococcus Pyogenes Albus. The frequencies in this preset are: 549070 Hz",
     "data_start": "play_RIFE_3d_auto([549070]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "BZJTLqlQ"
   },
   {
     "data_name": "Staphylococcus Pyogenes Aureus RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Staphylococcus Pyogenes Aureus. The frequencies in this preset are: 478000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Staphylococcus Pyogenes Aureus. The frequencies in this preset are: 478000 Hz",
     "data_start": "play_RIFE_3d_auto([478000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "AJjpJawZ"
   },
   {
     "data_name": "Streptococcus Pyogenes RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Streptococcus Pyogenes. The frequencies in this preset are: 720000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Streptococcus Pyogenes. The frequencies in this preset are: 720000 Hz",
     "data_start": "play_RIFE_3d_auto([720000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "qBJRu56b"
   },
   {
     "data_name": "Syphilis (Treponema Pallidum) RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Syphilis (Treponema Pallidum). The frequencies in this preset are: 789000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Syphilis (Treponema Pallidum). The frequencies in this preset are: 789000 Hz",
     "data_start": "play_RIFE_3d_auto([789000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "z8AUju0m"
   },
   {
     "data_name": "Tetanus RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Tetanus. The frequencies in this preset are: 234000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Tetanus. The frequencies in this preset are: 234000 Hz",
     "data_start": "play_RIFE_3d_auto([234000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "KGsetPa3"
   },
   {
     "data_name": "Tuberculosis Rod Form RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Tuberculosis Rod Form. The frequencies in this preset are: 369000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Tuberculosis Rod Form. The frequencies in this preset are: 369000 Hz",
     "data_start": "play_RIFE_3d_auto([369000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "criNxR9T"
   },
   {
     "data_name": "Tuberculosis Virus Form RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Tuberculosis Virus Form. The frequencies in this preset are: 16000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Tuberculosis Virus Form. The frequencies in this preset are: 16000 Hz",
     "data_start": "play_RIFE_3d_auto([16000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "qAUHgAQR"
   },
   {
     "data_name": "Typhoid Fever Filter Passing RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Typhoid Fever Filter Passing. The frequencies in this preset are: 1445000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Typhoid Fever Filter Passing. The frequencies in this preset are: 1445000 Hz",
     "data_start": "play_RIFE_3d_auto([1445000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "FMVZwoZt"
   },
   {
     "data_name": "Typhoid Fever Rod Form RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Typhoid Fever Rod Form. The frequencies in this preset are: 760000 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Typhoid Fever Rod Form. The frequencies in this preset are: 760000 Hz",
     "data_start": "play_RIFE_3d_auto([760000]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "dp61BxqM"
   },
   {
     "data_name": "Worms RIFE 3D frequencies",
-    "data_description": "This is RIFE 3D frequencies healing preset for Worms. The frequencies in this preset are: 2400 hz",
+    "data_description": "This is RIFE 3D frequencies healing preset for Worms. The frequencies in this preset are: 2400 Hz",
     "data_start": "play_RIFE_3d_auto([2400]);",
     "data_stop": "stop_RIFE_3d();",
     "data_id": "gKq40o14"

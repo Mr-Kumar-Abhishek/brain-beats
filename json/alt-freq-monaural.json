@@ -1,350 +1,350 @@
 [
   {
     "data_name": "Chakra 2 3rd Eye ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 3rd Eye. The frequencies in this preset are: 288 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 3rd Eye. The frequencies in this preset are: 288 Hz",
     "data_start": "play_ALT_monaural([288]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "oosdl7vcs"
   },
   {
     "data_name": "Chakra 2 Base ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 Base. The frequencies in this preset are: 456 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 Base. The frequencies in this preset are: 456 Hz",
     "data_start": "play_ALT_monaural([456]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "tpwkoky2t"
   },
   {
     "data_name": "Chakra 2 Crown ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 Crown. The frequencies in this preset are: 432 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 Crown. The frequencies in this preset are: 432 Hz",
     "data_start": "play_ALT_monaural([432]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "190ghjad4"
   },
   {
     "data_name": "Chakra 2 Heart ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 Heart. The frequencies in this preset are: 256 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 Heart. The frequencies in this preset are: 256 Hz",
     "data_start": "play_ALT_monaural([256]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "4ov7mtaoh"
   },
   {
     "data_name": "Chakra 2 Sacral ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 Sacral. The frequencies in this preset are: 606 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 Sacral. The frequencies in this preset are: 606 Hz",
     "data_start": "play_ALT_monaural([606]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "cq41q5f4w"
   },
   {
     "data_name": "Chakra 2 Solar Plexus ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 Solar Plexus. The frequencies in this preset are: 364 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 Solar Plexus. The frequencies in this preset are: 364 Hz",
     "data_start": "play_ALT_monaural([364]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "dtpxya5yp"
   },
   {
     "data_name": "Chakra 2 Throat ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 Throat. The frequencies in this preset are: 384 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 2 Throat. The frequencies in this preset are: 384 Hz",
     "data_start": "play_ALT_monaural([384]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "zaqhf82h9"
   },
   {
     "data_name": "Chakra 3rd Eye ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 3rd Eye. The frequencies in this preset are: 221.23 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra 3rd Eye. The frequencies in this preset are: 221.23 Hz",
     "data_start": "play_ALT_monaural([221.23]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "f6qed5acz"
   },
   {
     "data_name": "Chakra Base ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra Base. The frequencies in this preset are: 194.18 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra Base. The frequencies in this preset are: 194.18 Hz",
     "data_start": "play_ALT_monaural([194.18]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "t8wvchy1r"
   },
   {
     "data_name": "Chakra Crown ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra Crown. The frequencies in this preset are: 172.06 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra Crown. The frequencies in this preset are: 172.06 Hz",
     "data_start": "play_ALT_monaural([172.06]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "vccbtqs8c"
   },
   {
     "data_name": "Chakra Heart ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra Heart. The frequencies in this preset are: 136.10 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra Heart. The frequencies in this preset are: 136.10 Hz",
     "data_start": "play_ALT_monaural([136.10]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "d5oxvbjmn"
   },
   {
     "data_name": "Chakra Sacral ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra Sacral. The frequencies in this preset are: 210.42 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra Sacral. The frequencies in this preset are: 210.42 Hz",
     "data_start": "play_ALT_monaural([210.42]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "j17oss0rf"
   },
   {
     "data_name": "Chakra Solar Plexus ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra Solar Plexus. The frequencies in this preset are: 126.22 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra Solar Plexus. The frequencies in this preset are: 126.22 Hz",
     "data_start": "play_ALT_monaural([126.22]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "g214uuqb3"
   },
   {
     "data_name": "Chakra Throat ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Chakra Throat. The frequencies in this preset are: 141.27 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Chakra Throat. The frequencies in this preset are: 141.27 Hz",
     "data_start": "play_ALT_monaural([141.27]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "8l9x8eo4q"
   },
   {
     "data_name": "DNA and DNA Nucleotides + WBC RBC etc ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for DNA and DNA Nucleotides + WBC RBC etc. The frequencies in this preset are: 528 hz, 731 hz, 732 hz, 537.8 hz, 300 hz, 543.4 hz, 300 hz, 545.6 hz, 300 hz, 550 hz, 300 hz, 637 hz, 600 hz, 999 hz, 300 hz, 1434 hz, 600 hz, 1524 hz, 600 hz, 2452 hz, 600 hz, 1056 hz, 2008 hz, 9999 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for DNA and DNA Nucleotides + WBC RBC etc. The frequencies in this preset are: 528 Hz, 731 Hz, 732 Hz, 537.8 Hz, 300 Hz, 543.4 Hz, 300 Hz, 545.6 Hz, 300 Hz, 550 Hz, 300 Hz, 637 Hz, 600 Hz, 999 Hz, 300 Hz, 1434 Hz, 600 Hz, 1524 Hz, 600 Hz, 2452 Hz, 600 Hz, 1056 Hz, 2008 Hz, 9999 Hz",
     "data_start": "play_ALT_monaural([528, 731, 732, 537.8, 300, 543.4, 300, 545.6, 300, 550, 300, 637, 600, 999, 300, 1434, 600, 1524, 600, 2452, 600, 1056, 2008, 9999]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "ag9qt5gvp"
   },
   {
     "data_name": "Jupiter - Hearing,Formal Concepts ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Jupiter - Hearing,Formal Concepts. The frequencies in this preset are: 10.7 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Jupiter - Hearing,Formal Concepts. The frequencies in this preset are: 10.7 Hz",
     "data_start": "play_ALT_monaural([10.7]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "6mh3us38g"
   },
   {
     "data_name": "Jupiter - Intestines,Emotional Assimilation,Expansion ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Jupiter - Intestines,Emotional Assimilation,Expansion. The frequencies in this preset are: 2.67 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Jupiter - Intestines,Emotional Assimilation,Expansion. The frequencies in this preset are: 2.67 Hz",
     "data_start": "play_ALT_monaural([2.67]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "79o55qj4d"
   },
   {
     "data_name": "Jupiter - Lungs,Oxygen,Heat ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Jupiter - Lungs,Oxygen,Heat. The frequencies in this preset are: 5.35 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Jupiter - Lungs,Oxygen,Heat. The frequencies in this preset are: 5.35 Hz",
     "data_start": "play_ALT_monaural([5.35]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "i4566g6ex"
   },
   {
     "data_name": "Mars - Bara,Pelvic Balance,Emotion Balance and Stability ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Mars - Bara,Pelvic Balance,Emotion Balance and Stability. The frequencies in this preset are: 3.07 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Mars - Bara,Pelvic Balance,Emotion Balance and Stability. The frequencies in this preset are: 3.07 Hz",
     "data_start": "play_ALT_monaural([3.07]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "h20z3k04z"
   },
   {
     "data_name": "Mars - Eyes,Visualization ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Mars - Eyes,Visualization. The frequencies in this preset are: 12.3 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Mars - Eyes,Visualization. The frequencies in this preset are: 12.3 Hz",
     "data_start": "play_ALT_monaural([12.3]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "no7m5ys44"
   },
   {
     "data_name": "Mars - Heart,Love,Warmth ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Mars - Heart,Love,Warmth. The frequencies in this preset are: 6.15 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Mars - Heart,Love,Warmth. The frequencies in this preset are: 6.15 Hz",
     "data_start": "play_ALT_monaural([6.15]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "09c9ezt4p"
   },
   {
     "data_name": "Mercury - Genitals ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Mercury - Genitals. The frequencies in this preset are: 2.3 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Mercury - Genitals. The frequencies in this preset are: 2.3 Hz",
     "data_start": "play_ALT_monaural([2.3]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "rb4mju4tx"
   },
   {
     "data_name": "Mercury - Spleen,Blood,Emotional Impulse ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Mercury - Spleen,Blood,Emotional Impulse. The frequencies in this preset are: 4.6 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Mercury - Spleen,Blood,Emotional Impulse. The frequencies in this preset are: 4.6 Hz",
     "data_start": "play_ALT_monaural([4.6]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "i0p9h8g3j"
   },
   {
     "data_name": "Mercury - Upper Lip,Emotions,Conflict Resolution ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Mercury - Upper Lip,Emotions,Conflict Resolution. The frequencies in this preset are: 9.19 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Mercury - Upper Lip,Emotions,Conflict Resolution. The frequencies in this preset are: 9.19 Hz",
     "data_start": "play_ALT_monaural([9.19]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "niskymnvp"
   },
   {
     "data_name": "Merkabah ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Merkabah. The frequencies in this preset are: 888 hz, 88 hz, 80 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Merkabah. The frequencies in this preset are: 888 Hz, 88 Hz, 80 Hz",
     "data_start": "play_ALT_monaural([888, 88, 80]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "niskymnvq"
   },
   {
     "data_name": "Moon - Bladder ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Moon - Bladder. The frequencies in this preset are: 2.57 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Moon - Bladder. The frequencies in this preset are: 2.57 Hz",
     "data_start": "play_ALT_monaural([2.57]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "ki0cwuzfr"
   },
   {
     "data_name": "Moon - Nasal Passage,Breathing,Taste ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Moon - Nasal Passage,Breathing,Taste. The frequencies in this preset are: 10.3 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Moon - Nasal Passage,Breathing,Taste. The frequencies in this preset are: 10.3 Hz",
     "data_start": "play_ALT_monaural([10.3]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "s0y1ld47x"
   },
   {
     "data_name": "Moon - Stomach,Emotional Acceptance ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Moon - Stomach,Emotional Acceptance. The frequencies in this preset are: 5.14 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Moon - Stomach,Emotional Acceptance. The frequencies in this preset are: 5.14 Hz",
     "data_start": "play_ALT_monaural([5.14]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "0yla84l6z"
   },
   {
     "data_name": "Planet - Jupiter ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Jupiter. The frequencies in this preset are: 183.58 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Jupiter. The frequencies in this preset are: 183.58 Hz",
     "data_start": "play_ALT_monaural([183.58]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "754hmx1aj"
   },
   {
     "data_name": "Planet - Mars ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Mars. The frequencies in this preset are: 144.72 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Mars. The frequencies in this preset are: 144.72 Hz",
     "data_start": "play_ALT_monaural([144.72]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "p2ev6r5ae"
   },
   {
     "data_name": "Planet - Mercury ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Mercury. The frequencies in this preset are: 141.27 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Mercury. The frequencies in this preset are: 141.27 Hz",
     "data_start": "play_ALT_monaural([141.27]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "ms8xt26ej"
   },
   {
     "data_name": "Planet - Moon ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Moon. The frequencies in this preset are: 210.42 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Moon. The frequencies in this preset are: 210.42 Hz",
     "data_start": "play_ALT_monaural([210.42]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "ei2r86qmd"
   },
   {
     "data_name": "Planet - Neptune ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Neptune. The frequencies in this preset are: 211.44 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Neptune. The frequencies in this preset are: 211.44 Hz",
     "data_start": "play_ALT_monaural([211.44]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "atthikp6v"
   },
   {
     "data_name": "Planet - Pluto ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Pluto. The frequencies in this preset are: 140.25 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Pluto. The frequencies in this preset are: 140.25 Hz",
     "data_start": "play_ALT_monaural([140.25]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "y1gro0hpa"
   },
   {
     "data_name": "Planet - Saturn ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Saturn. The frequencies in this preset are: 147.85 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Saturn. The frequencies in this preset are: 147.85 Hz",
     "data_start": "play_ALT_monaural([147.85]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "7mfbucp74"
   },
   {
     "data_name": "Planet - SUN ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Planet - SUN. The frequencies in this preset are: 126.22 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Planet - SUN. The frequencies in this preset are: 126.22 Hz",
     "data_start": "play_ALT_monaural([126.22]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "qmvhpj6sr"
   },
   {
     "data_name": "Planet - Uranus ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Uranus. The frequencies in this preset are: 207.36 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Uranus. The frequencies in this preset are: 207.36 Hz",
     "data_start": "play_ALT_monaural([207.36]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "7atlpw0mm"
   },
   {
     "data_name": "Planet - Venus ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Venus. The frequencies in this preset are: 221.23 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Planet - Venus. The frequencies in this preset are: 221.23 Hz",
     "data_start": "play_ALT_monaural([221.23]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "gjt0wii4v"
   },
   {
     "data_name": "Psychic Shield ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Psychic Shield. The frequencies in this preset are: 999 hz, 99 hz, 90 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Psychic Shield. The frequencies in this preset are: 999 Hz, 99 Hz, 90 Hz",
     "data_start": "play_ALT_monaural([999, 99, 90]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "gjt0wii4w"
   },
   {
     "data_name": "Sacral,Zinc Etc ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Sacral,Zinc Etc. The frequencies in this preset are: 32 hz, 64 hz, 128 hz, 147 hz, 210.42 hz, 256 hz, 272 hz, 303 hz, 324 hz, 337 hz, 384 hz, 400 hz, 440 hz, 448 hz, 480 hz, 537 hz, 586 hz, 635 hz, 999 hz, 1444 hz, 1200 hz, 1351 hz, 1413 hz, 1534 hz, 1550 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Sacral,Zinc Etc. The frequencies in this preset are: 32 Hz, 64 Hz, 128 Hz, 147 Hz, 210.42 Hz, 256 Hz, 272 Hz, 303 Hz, 324 Hz, 337 Hz, 384 Hz, 400 Hz, 440 Hz, 448 Hz, 480 Hz, 537 Hz, 586 Hz, 635 Hz, 999 Hz, 1444 Hz, 1200 Hz, 1351 Hz, 1413 Hz, 1534 Hz, 1550 Hz",
     "data_start": "play_ALT_monaural([32, 64, 128, 147, 210.42, 256, 272, 303, 324, 337, 384, 400, 440, 448, 480, 537, 586, 635, 999, 1444, 1200, 1351, 1413, 1534, 1550]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "u9ovquya3"
   },
   {
     "data_name": "Saturn - Collarbones,Vitality,Overall Balance,Stability ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Saturn - Collarbones,Vitality,Overall Balance,Stability. The frequencies in this preset are: 6.88 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Saturn - Collarbones,Vitality,Overall Balance,Stability. The frequencies in this preset are: 6.88 Hz",
     "data_start": "play_ALT_monaural([6.88]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "4mijp9nem"
   },
   {
     "data_name": "Saturn - Frontal Lobes,Seventh Sense,Final Decision ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Saturn - Frontal Lobes,Seventh Sense,Final Decision. The frequencies in this preset are: 13.8 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Saturn - Frontal Lobes,Seventh Sense,Final Decision. The frequencies in this preset are: 13.8 Hz",
     "data_start": "play_ALT_monaural([13.8]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "ayfopbkft"
   },
   {
     "data_name": "Saturn - Ovaries,Vitality,Life at Every Level ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Saturn - Ovaries,Vitality,Life at Every Level. The frequencies in this preset are: 3.44 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Saturn - Ovaries,Vitality,Life at Every Level. The frequencies in this preset are: 3.44 Hz",
     "data_start": "play_ALT_monaural([3.44]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "4rcu4xb4k"
   },
   {
     "data_name": "Sun - Coccyx ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Sun - Coccyx. The frequencies in this preset are: 2.06 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Sun - Coccyx. The frequencies in this preset are: 2.06 Hz",
     "data_start": "play_ALT_monaural([2.06]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "0ktbpftxz"
   },
   {
     "data_name": "Sun - Kidneys,Strength ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Sun - Kidneys,Strength. The frequencies in this preset are: 4.11 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Sun - Kidneys,Strength. The frequencies in this preset are: 4.11 Hz",
     "data_start": "play_ALT_monaural([4.11]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "b9ym3ihku"
   },
   {
     "data_name": "Sun - Mouth,Speech,Creativity ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Sun - Mouth,Speech,Creativity. The frequencies in this preset are: 8.22 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Sun - Mouth,Speech,Creativity. The frequencies in this preset are: 8.22 Hz",
     "data_start": "play_ALT_monaural([8.22]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "53hwwsyld"
   },
   {
     "data_name": "Sun - Top of Head,Spirit,Liberation,Transcendence ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Sun - Top of Head,Spirit,Liberation,Transcendence. The frequencies in this preset are: 16.4 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Sun - Top of Head,Spirit,Liberation,Transcendence. The frequencies in this preset are: 16.4 Hz",
     "data_start": "play_ALT_monaural([16.4]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "yvck2yftb"
   },
   {
     "data_name": "Venus - Cortex,Intelligence ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Venus - Cortex,Intelligence. The frequencies in this preset are: 15.4 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Venus - Cortex,Intelligence. The frequencies in this preset are: 15.4 Hz",
     "data_start": "play_ALT_monaural([15.4]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "nec9kck6k"
   },
   {
     "data_name": "Venus - Liver,Pancreas,Emotional,Appetite/Digestion ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Venus - Liver,Pancreas,Emotional,Appetite/Digestion. The frequencies in this preset are: 3.84 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Venus - Liver,Pancreas,Emotional,Appetite/Digestion. The frequencies in this preset are: 3.84 Hz",
     "data_start": "play_ALT_monaural([3.84]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "9tl8v9qv5"
   },
   {
     "data_name": "Venus - Shoulders,Strength of Arms,Expansion,Teaching ALT Monaural frequencies",
-    "data_description": "This is ALT Monaural frequencies healing preset for Venus - Shoulders,Strength of Arms,Expansion,Teaching. The frequencies in this preset are: 7.69 hz",
+    "data_description": "This is ALT Monaural frequencies healing preset for Venus - Shoulders,Strength of Arms,Expansion,Teaching. The frequencies in this preset are: 7.69 Hz",
     "data_start": "play_ALT_monaural([7.69]);",
     "data_stop": "stop_ALT_monaural();",
     "data_id": "hiyct3d59"
