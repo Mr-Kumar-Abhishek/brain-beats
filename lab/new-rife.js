@@ -27,7 +27,7 @@ function convertLineToJson(line) {
   // Remove any underscores from the name and capitalize the first letter of each word
   const dataName = name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
   // Add the text in brackets to the data description if it exists
-  const dataDescription = `This is Rife 3D frequencies preset for ${dataName}. ${name.match(/\((.*?)\)/) ? name.match(/\((.*?)\)/)[0] : ''} The frequencies in this preset are: ${freqs.replace(/, /g, ' hz, ')} hz`;
+  const dataDescription = `This is Rife 3D frequencies preset for ${dataName}. ${name.match(/\((.*?)\)/) ? name.match(/\((.*?)\)/)[0] : ''} The frequencies in this preset are: ${freqs.replace(/, /g, ' Hz, ')} Hz`;
   // Split the frequencies by comma and filter out any numbers below 20 or above 22000
   const freqArray = freqs.split(', ').filter(f => f >= 20 && f <= 22000);
   // Check if the frequency array contains only one element
@@ -130,7 +130,7 @@ function convertLineToJson(line) {
     // Remove any underscores from the name and capitalize the first letter of each word
     const dataName = name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
     // Add the text in brackets to the data description if it exists
-    const dataDescription = `This is Rife 3D frequencies preset for ${dataName}. ${name.match(/\((.*?)\)/) ? name.match(/\((.*?)\)/)[0] : ''} The frequencies in this preset are: ${freqs.replace(/, /g, ' hz, ')} hz`;
+    const dataDescription = `This is Rife 3D frequencies preset for ${dataName}. ${name.match(/\((.*?)\)/) ? name.match(/\((.*?)\)/)[0] : ''} The frequencies in this preset are: ${freqs.replace(/, /g, ' Hz, ')} Hz`;
     // Split the frequencies by comma and filter out any numbers below 20 or above 22000
     const freqArray = freqs.split(', ').filter(f => f >= 20 && f <= 22000);
     // Check if the frequency array contains only one element
@@ -238,7 +238,7 @@ function convertLineToJson(line) {
     const dataName = name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) + ' Rife 3D frequencies';
     // Add the text in brackets to the data description if it exists, otherwise use an empty string
     const bracketText = name.match(/\((.*?)\)/) ? name.match(/\((.*?)\)/)[0] : '';
-    const dataDescription = `This is Rife 3D frequencies preset for ${dataName}. ${bracketText} The frequencies in this preset are: ${freqs.replace(/, /g, ' hz, ')} hz`;
+    const dataDescription = `This is Rife 3D frequencies preset for ${dataName}. ${bracketText} The frequencies in this preset are: ${freqs.replace(/, /g, ' Hz, ')} Hz`;
     // Split the frequencies by comma and filter out any numbers below 20 or above 22000
     const freqArray = freqs.split(', ').filter(f => f >= 20 && f <= 22000);
     // Check if the frequency array contains only one element
@@ -346,7 +346,7 @@ function convertLineToJson(line) {
     const dataName = name.replace(/_/g, ' ').replace(/\((.*?)\)/g, '').replace(/\b\w/g, c => c.toUpperCase()) + ' Rife 3D frequencies';
     // Add the text in brackets to the data description if it exists, otherwise use an empty string
     const bracketText = name.match(/\((.*?)\)/) ? name.match(/\((.*?)\)/)[0] : '';
-    const dataDescription = `This is Rife 3D frequencies preset for ${dataName}. ${bracketText} The frequencies in this preset are: ${freqs.replace(/, /g, ' hz, ')} hz`;
+    const dataDescription = `This is Rife 3D frequencies preset for ${dataName}. ${bracketText} The frequencies in this preset are: ${freqs.replace(/, /g, ' Hz, ')} Hz`;
     // Split the frequencies by comma and filter out any numbers below 20 or above 22000
     const freqArray = freqs.split(', ').filter(f => f >= 20 && f <= 22000);
     // Check if the frequency array contains only one element
@@ -454,7 +454,7 @@ function convertLineToJson(line) {
     const dataName = name.replace(/_/g, ' ').replace(/\((.*?)\)/g, '').replace(/\b\w/g, c => c.toUpperCase()) + ' Rife 3D frequencies';
     // Add the text in brackets to the data description if it exists, otherwise use an empty string
     const bracketText = name.match(/\((.*?)\)/) ? name.match(/\((.*?)\)/)[0] : '';
-    const dataDescription = `This is Rife 3D frequencies preset for ${name}. ${bracketText} The frequencies in this preset are: ${freqs.replace(/, /g, ' hz, ')} hz`;
+    const dataDescription = `This is Rife 3D frequencies preset for ${name}. ${bracketText} The frequencies in this preset are: ${freqs.replace(/, /g, ' Hz, ')} Hz`;
     // Split the frequencies by comma and filter out any numbers below 20 or above 22000
     const freqArray = freqs.split(', ').filter(f => f >= 20 && f <= 22000);
     // Check if the frequency array contains only one element
@@ -564,7 +564,7 @@ function convertLineToJson(line) {
     const bracketText = name.match(/\((.*?)\)/) ? name.match(/\((.*?)\)/)[0] : '';
     // Remove any underscores from the bracket text
     const bracketTextNoUnderscore = bracketText.replace(/_/g, ' ');
-    const dataDescription = `This is Rife 3D frequencies preset for ${name}. ${bracketTextNoUnderscore} The frequencies in this preset are: ${freqs.replace(/, /g, ' hz, ')} hz`;
+    const dataDescription = `This is Rife 3D frequencies preset for ${name}. ${bracketTextNoUnderscore} The frequencies in this preset are: ${freqs.replace(/, /g, ' Hz, ')} Hz`;
     // Split the frequencies by comma and filter out any numbers below 20 or above 22000
     const freqArray = freqs.split(', ').filter(f => f >= 20 && f <= 22000);
     // Check if the frequency array contains only one element
@@ -676,7 +676,7 @@ function convertLineToJson(line) {
     // Remove any underscores from the bracket text and the name
     const bracketTextNoUnderscore = bracketText.replace(/_/g, ' ');
     const nameNoUnderscore = name.replace(/_/g, ' ');
-    const dataDescription = `This is Rife 3D frequencies preset for ${nameNoUnderscore}. The frequencies in this preset are: ${freqs.replace(/, /g, ' hz, ')} hz`; // no bracket text
+    const dataDescription = `This is Rife 3D frequencies preset for ${nameNoUnderscore}. The frequencies in this preset are: ${freqs.replace(/, /g, ' Hz, ')} Hz`; // no bracket text
     // Split the frequencies by comma and filter out any numbers below 20 or above 22000
     const freqArray = freqs.split(', '); //.filter(f => f >= 20 && f <= 22000);
     // Check if the frequency array contains only one element

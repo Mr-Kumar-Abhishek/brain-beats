@@ -26,7 +26,7 @@ function convertLine(line) {
   // Construct the json object
   let json = {};
   json.data_name = name + ' ' + type + '3D frequencies';
-  json.data_description = 'This is ' + type + '3D frequencies healing preset for ' + name + '. The frequencies in this preset are: ' + frequencies.join(' hz, ') + ' hz';
+  json.data_description = 'This is ' + type + '3D frequencies healing preset for ' + name + '. The frequencies in this preset are: ' + frequencies.join(' Hz, ') + ' Hz';
   json.data_start = 'play_' + type + '3d_auto([' + frequencies.join(', ') + ']);';
   json.data_stop = 'stop_' + type + '3d();';
   json.data_id = generateId();
@@ -92,7 +92,7 @@ function convertLine(line) {
   // Construct the json object
   let json = {};
   json.data_name = name + ' ' + type + '3D frequencies';
-  json.data_description = 'This is ' + type + '3D frequencies healing preset for ' + name + '. The frequencies in this preset are: ' + frequencies.join(' hz, ') + ' hz';
+  json.data_description = 'This is ' + type + '3D frequencies healing preset for ' + name + '. The frequencies in this preset are: ' + frequencies.join(' Hz, ') + ' Hz';
   json.data_start = 'play_' + type + '3d_auto([' + frequencies.join(', ').slice(0, -1) + ']);'; // Remove the trailing comma
   json.data_stop = 'stop_' + type + '3d();';
   json.data_id = generateId();
@@ -157,7 +157,7 @@ function convertLine(line) {
   // Construct the json object
   let json = {};
   json.data_name = name + ' ' + type + ' 3D frequencies';
-  json.data_description = 'This is ' + type + ' 3D frequencies healing preset for ' + name + '. The frequencies in this preset are: ' + frequencies.join(' hz, ') + ' hz';
+  json.data_description = 'This is ' + type + ' 3D frequencies healing preset for ' + name + '. The frequencies in this preset are: ' + frequencies.join(' Hz, ') + ' Hz';
   // Check the type of preset and use the appropriate function name
   if (type === 'XTRA') {
     json.data_start = 'play_XTRA_3d_auto([' + frequencies.join(', ').slice(0, -1) + ']);'; // Remove the trailing comma
@@ -231,7 +231,7 @@ function convertLine(line) {
   // Construct the json object
   let json = {};
   json.data_name = name + ' ' + type + ' 3D frequencies';
-  json.data_description = 'This is ' + type + ' 3D frequencies healing preset for ' + name + '. The frequencies in this preset are: ' + frequencies.join(' hz, ') + ' hz';
+  json.data_description = 'This is ' + type + ' 3D frequencies healing preset for ' + name + '. The frequencies in this preset are: ' + frequencies.join(' Hz, ') + ' Hz';
   // Check the type of preset and use the appropriate function name
   if (type === 'XTRA') {
     json.data_start = 'play_XTRA_3d_auto([' + frequencies.join(', ').slice(0, -1) + ']);'; // Remove the trailing comma
