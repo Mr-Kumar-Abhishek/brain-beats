@@ -1,419 +1,419 @@
 [
    {
-      "data_name":"0.1 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"0.1 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Monaural Beats for Organ and muscle resonances [Phase 1]. Good for building muscles. To be used during excercise and sleep. Stimulates Pineal gland to produce DMT. [Phase 1]",
       "data_start":"play_monaural(174, 174.1);",
       "data_stop":"stop_monaural();",
       "data_id":"gtozkhl4xr"
    },
    {
-      "data_name":"0.1 hz Monaural Beats over Solfeggio 285 hz",
+      "data_name":"0.1 hz Monaural Beats over 285 Hz Solfeggio Frequency",
       "data_description":"Monaural Beats for Organ and muscle resonances [Phase 2]. Good for building muscles. To be used during excercise and sleep. Stimulates Pineal gland to produce DMT. [Phase 2]",
       "data_start":"play_monaural(285, 285.1);",
       "data_stop":"stop_monaural();",
       "data_id":"hvgium6w3v"
    },
    {
-      "data_name":"0.15 hz Monaural Beats over Solfeggio 417 hz",
+      "data_name":"0.15 hz Monaural Beats over 417 Hz Solfeggio Frequency",
       "data_description":"Monaural Beats for relief from depression [Phase 1] due to past events. This is for mild depression[Phase 1]. Range Monaurals for it are comming soon which will be more effective.",
       "data_start":"play_monaural(417, 417.15);",
       "data_stop":"stop_monaural();",
       "data_id":"unskywp54"
    },
    {
-      "data_name":"0.15 hz Monaural Beats over Solfeggio 963 hz",
+      "data_name":"0.15 hz Monaural Beats over 963 Hz Solfeggio Frequency",
       "data_description":"Monaural Beats for relief from depression [Phase 2]. This is for major depression [Phase 2]. Range Monaurals are comming soon which will be more effective.",
       "data_start":"play_monaural(963, 963.15);",
       "data_stop":"stop_monaural();",
       "data_id":"ric5jfhj5"
    },
    {
-      "data_name":"0.20 hz Monaural Beats over Solfeggio 396 hz",
+      "data_name":"0.20 hz Monaural Beats over 396 Hz Solfeggio Frequency",
       "data_description":"Monaural Beats for relief from post-traumatics[Phase 1].",
       "data_start":"play_monaural(396, 396.20);",
       "data_stop":"stop_monaural();",
       "data_id":"s0e7rub80"
    },
    {
-      "data_name":"0.26 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"0.26 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":" Monaural beats for relief in dental pain and gum inflamation (go see a dentist if you are using this).  [Phase 1] Switch to monaural if this doesn't work.",
       "data_start":"play_monaural(174, 174.26);",
       "data_stop":"stop_monaural();",
       "data_id":"snird60zy"
    },
    {
-      "data_name":"0.26 hz Monaural Beats over Solfeggio 741 hz",
+      "data_name":"0.26 hz Monaural Beats over 741 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for relief in dental pain and gum inflamation (go see a dentist if you are using this). [Phase 2] Switch to monaural if this doesn't work.",
       "data_start":"play_monaural(741, 741.26);",
       "data_stop":"stop_monaural();",
       "data_id":"nwy3lndzn"
    },
    {
-      "data_name":"0.28 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"0.28 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Relief from Arthritis [Phase 1].",
       "data_start":"play_monaural(174, 174.28);",
       "data_stop":"stop_monaural();",
       "data_id":"wqew87eue"
    },
    {
-      "data_name":"0.28 hz Monaural Beats over Solfeggio 285 hz",
+      "data_name":"0.28 hz Monaural Beats over 285 Hz Solfeggio Frequency",
       "data_description":"Relief from Arthritis [Phase 2].",
       "data_start":"play_monaural(285, 285.28);",
       "data_stop":"stop_monaural();",
       "data_id":"n4v07369p"
    },
    {
-      "data_name":"0.37 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"0.37 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Relief from Alcohol addiction [Phase 1, flavor 1].",
       "data_start":"play_monaural(174, 174.37);",
       "data_stop":"stop_monaural();",
       "data_id":"dnobastk68"
    },
    {
-      "data_name":"0.37 hz Monaural Beats over Solfeggio 285 hz",
+      "data_name":"0.37 hz Monaural Beats over 285 Hz Solfeggio Frequency",
       "data_description":"Relief from Alcohol addiction [Phase 2, flavor 1].",
       "data_start":"play_monaural(285, 285.37);",
       "data_stop":"stop_monaural();",
       "data_id":"bri9gzl6pr"
    },
    {
-      "data_name":"0.5 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"0.5 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Very relaxing against headaches [Phase 1]. To be used for relief from lower back pain [Phase 1]. Thyroid[Phase 1], reproductive [Phase 1] and excretory stimulant [Phase 1]. Whole brain toner[Phase 1].",
       "data_start":"play_monaural(174, 174.5);",
       "data_stop":"stop_monaural();",
       "data_id":"kl0sy37ga"
    },
    {
-      "data_name":"0.5 hz Monaural Beats over Solfeggio 396 hz",
+      "data_name":"0.5 hz Monaural Beats over 396 Hz Solfeggio Frequency",
       "data_description":"To be used for relief from lower back pain [Phase 2]. Reproductive [Phase 2] and excretory stimulant [Phase 2].",
       "data_start":"play_monaural(396, 396.5);",
       "data_stop":"stop_monaural();",
       "data_id":"cq6n0xhyq"
    },
    {
-      "data_name":"0.5 hz Monaural Beats over Solfeggio 417 hz",
+      "data_name":"0.5 hz Monaural Beats over 417 Hz Solfeggio Frequency",
       "data_description":"Reproductive stimulant [Phase 2].To be used for relief from lower back pain [Phase 3].",
       "data_start":"play_monaural(417, 417.5);",
       "data_stop":"stop_monaural();",
       "data_id":"e3z21yoc5"
    },
    {
-      "data_name":"0.5 hz Monaural Beats over Solfeggio 741 hz",
+      "data_name":"0.5 hz Monaural Beats over 741 Hz Solfeggio Frequency",
       "data_description":"Thyroid stimulant [Phase 2]",
       "data_start":"play_monaural(741, 741.5);",
       "data_stop":"stop_monaural();",
       "data_id":"bsvdqd5lz"
    },
    {
-      "data_name":"0.5 hz Monaural Beats over Solfeggio 852 hz",
+      "data_name":"0.5 hz Monaural Beats over 852 Hz Solfeggio Frequency",
       "data_description":"Very relaxing against headaches [Phase 2]. Whole brain toner [Phase 2].",
       "data_start":"play_monaural(852, 852.5);",
       "data_stop":"stop_monaural();",
       "data_id":"inl3m6v7k"
    },
    {
-      "data_name":"0.5 hz Monaural Beats over Solfeggio 963 hz",
+      "data_name":"0.5 hz Monaural Beats over 963 Hz Solfeggio Frequency",
       "data_description":"Very relaxing against headaches [Phase 3]. Whole brain toner [Phase 3].",
       "data_start":"play_monaural(963, 963.5);",
       "data_stop":"stop_monaural();",
       "data_id":"koo7d1b6l"
    },
    {
-      "data_name":"0.9 hz Monaural Beats over Solfeggio 639 hz",
+      "data_name":"0.9 hz Monaural Beats over 639 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for Euphoria induction between friends family and partners.",
       "data_start":"play_monaural(639, 639.9);",
       "data_stop":"stop_monaural();",
       "data_id":"tp349n6dq"
    },
    {
-      "data_name":"1 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"1 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for pituitary stimulation [Phase 1] to release growth hormone for healing",
       "data_start":"play_monaural(174, 175);",
       "data_stop":"stop_monaural();",
       "data_id":"stv7e12lr"
    },
    {
-      "data_name":"1 hz Monaural Beats over Solfeggio 285 hz",
+      "data_name":"1 hz Monaural Beats over 285 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for pituitary stimulation [Phase 3] to release growth hormone for regeneration and growth.",
       "data_start":"play_monaural(285, 286);",
       "data_stop":"stop_monaural();",
       "data_id":"46uwptmkw"
    },
    {
-      "data_name":"1 hz Monaural Beats over Solfeggio 639 hz",
+      "data_name":"1 hz Monaural Beats over 639 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for over-all view of inter-relationships and its reconnection.",
       "data_start":"play_monaural(639, 640);",
       "data_stop":"stop_monaural();",
       "data_id":"p6fs8t87s"
    },
    {
-      "data_name":"1 hz Monaural Beats over Solfeggio 741 hz",
+      "data_name":"1 hz Monaural Beats over 741 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for balance and harmony.",
       "data_start":"play_monaural(741, 742);",
       "data_stop":"stop_monaural();",
       "data_id":"yltt4qkq1"
    },
    {
-      "data_name":"1 hz Monaural Beats over Solfeggio 852 hz",
+      "data_name":"1 hz Monaural Beats over 852 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for pituitary stimulation [Phase 2] to release growth hormone.",
       "data_start":"play_monaural(852, 856);",
       "data_stop":"stop_monaural();",
       "data_id":"8kqr6zclt"
    },
    {
-      "data_name":"1.2 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"1.2 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for relief from minor headaches [Phase 1]. Switch to 2nd Phase after sometime.",
       "data_start":"play_monaural(174, 175.2);",
       "data_stop":"stop_monaural();",
       "data_id":"8100fi2em"
    },
    {
-      "data_name":"1.2 hz Monaural Beats over Solfeggio 852 hz",
+      "data_name":"1.2 hz Monaural Beats over 852 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for relief from minor headaches [Phase 2]. Switch Phase 3 after sometime.",
       "data_start":"play_monaural(852, 853.2);",
       "data_stop":"stop_monaural();",
       "data_id":"blp0mhs5r"
    },
    {
-      "data_name":"1.2 hz Monaural Beats over Solfeggio 963 hz",
+      "data_name":"1.2 hz Monaural Beats over 963 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for relief from minor headaches [Phase 3].",
       "data_start":"play_monaural(963, 964.2);",
       "data_stop":"stop_monaural();",
       "data_id":"ezlajbvzt"
    },
    {
-      "data_name":"1.618033988749 hz Binaural Beats over Solfeggio 174 hz",
+      "data_name":"1.618033988749 hz Binaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for perfect body and face (golden ratio) [Phase 0].",
       "data_start":"play_monaural(174, 175.618033988749);",
       "data_stop":"stop_monaural();",
       "data_id":"h19zpydhm"
    },
    {
-      "data_name":"1.618033988749 hz Binaural Beats over Solfeggio 285 hz",
+      "data_name":"1.618033988749 hz Binaural Beats over 285 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for perfect body and face (golden ratio) [Phase 1].",
       "data_start":"play_monaural(285, 286.618033988749);",
       "data_stop":"stop_monaural();",
       "data_id":"h20zpydhn"
    },
    {
-      "data_name":"1.618033988749 hz Binaural Beats over Solfeggio 528 hz",
+      "data_name":"1.618033988749 hz Binaural Beats over 528 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for perfect body and face (golden ratio) [Phase 2].",
       "data_start":"play_monaural(528, 529.618033988749);",
       "data_stop":"stop_monaural();",
       "data_id":"h21zpydhp"
    },
    {
-      "data_name":"2 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"2 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for Nerve regeneration [Phase 0]",
       "data_start":"play_monaural(174, 176);",
       "data_stop":"stop_monaural();",
       "data_id":"ezlajbvzv"
    },
    {
-      "data_name":"2 hz Monaural Beats over Solfeggio 285 hz",
+      "data_name":"2 hz Monaural Beats over 285 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for Nerve regeneration [Phase 1]",
       "data_start":"play_monaural(285, 287);",
       "data_stop":"stop_monaural();",
       "data_id":"ezlajbvzw"
    },
    {
-      "data_name":"2.4 hz Monaural Beats over Solfeggio 285 hz",
+      "data_name":"2.4 hz Monaural Beats over 285 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for deep sleep [Phase 1]. Heal tissues while sleeping.",
       "data_start":"play_monaural(285, 287.4);",
       "data_stop":"stop_monaural();",
       "data_id":"40esinf6p"
    },
    {
-      "data_name":"2.4 hz Monaural Beats over Solfeggio 528 hz",
+      "data_name":"2.4 hz Monaural Beats over 528 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for deep sleep [Phase 2].",
       "data_start":"play_monaural(528, 530.4);",
       "data_stop":"stop_monaural();",
       "data_id":"jmx44fflw"
    },
    {
-      "data_name":"3.5 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"3.5 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"whole being regeneration [Phase 1]. Lower Earth Resonance [Phase 1] or hell resonance [Phase 1]. DNA stimulation [Phase 1].",
       "data_start":"play_monaural(174, 177.5);",
       "data_stop":"stop_monaural();",
       "data_id":"rdq84twwc"
    },
    {
-      "data_name":"3.5 hz Monaural Beats over Solfeggio 285 hz",
+      "data_name":"3.5 hz Monaural Beats over 285 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for whole being regeneration [Phase 2]. Lower Earth resonance [Phase 2] or Hell Resonance [Phase 2]. DNA stimulation [ Phase 2].",
       "data_start":"play_monaural(285, 288.5);",
       "data_stop":"stop_monaural();",
       "data_id":"gptqyfsvj"
    },
    {
-      "data_name":"3.5 hz Monaural Beats over Solfeggio 396 hz",
+      "data_name":"3.5 hz Monaural Beats over 396 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for relief from anxiety [Phase 1, 2nd flavor] via root chakra or muladhara. The lower earth resonance [Phase 3 ] or hell resonance [Phase 3].",
       "data_start":"play_monaural(396, 399.5);",
       "data_stop":"stop_monaural();",
       "data_id":"ituvokwax"
    },
    {
-      "data_name":"3.5 hz Monaural Beats over Solfeggio 528 hz",
+      "data_name":"3.5 hz Monaural Beats over 528 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for DNA stimulation [Phase 3].",
       "data_start":"play_monaural(528, 531.5);",
       "data_stop":"stop_monaural();",
       "data_id":"u2wqy7ilb"
    },
    {
-      "data_name":"3.5 hz Monaural Beats over Solfeggio 741 hz",
+      "data_name":"3.5 hz Monaural Beats over 741 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for relief from anxiety [Phase 2, 2nd flavor] via throat chakra (visuddha). Accelerated language retention [Phase 1]",
       "data_start":"play_monaural(741, 744.5);",
       "data_stop":"stop_monaural();",
       "data_id":"rjpiq332u"
    },
    {
-      "data_name":"3.5 hz Monaural Beats over Solfeggio 852 hz",
+      "data_name":"3.5 hz Monaural Beats over 852 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for feeling with unity everything [Phase 1], accelerated language retention [Phase 2], enhancement of receptivity relief from depression [Phase 1].",
       "data_start":"play_monaural(852, 855.5);",
       "data_stop":"stop_monaural();",
       "data_id":"zlw15pdgo"
    },
    {
-      "data_name":"3.5 hz Monaural Beats over Solfeggio 963 hz",
+      "data_name":"3.5 hz Monaural Beats over 963 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for feeling with unity everything [Phase 2], accelerated language retention [Phase 3], enhancement of receptivity relief from depression [Phase 2].",
       "data_start":"play_monaural(963, 966.5);",
       "data_stop":"stop_monaural();",
       "data_id":"uklo5u6wz"
    },
    {
-      "data_name":"3.6 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"3.6 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for remedy for irritability in body.",
       "data_start":"play_monaural(174, 177.6);",
       "data_stop":"stop_monaural();",
       "data_id":"7lwmzoubw"
    },
    {
-      "data_name":"3.6 hz Monaural Beats over Solfeggio 639 hz",
+      "data_name":"3.6 hz Monaural Beats over 639 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for remedy for irritability in social situations.",
       "data_start":"play_monaural(639, 642.6);",
       "data_stop":"stop_monaural();",
       "data_id":"tcg0hgw03"
    },
    {
-      "data_name":"4 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"4 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed [Phase 1]. Schizophrenia patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 3].",
       "data_start":"play_monaural(174, 178);",
       "data_stop":"stop_monaural();",
       "data_id":"xu2pwv6ly"
    },
    {
-      "data_name":"4 hz Monaural Beats over Solfeggio 285 hz",
+      "data_name":"4 hz Monaural Beats over 285 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed [Phase 2]. Telepathy [Phase 4]. Seduction [Phase 4]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 4]. Power Nap [Phase 1].",
       "data_start":"play_monaural(285, 289);",
       "data_stop":"stop_monaural();",
       "data_id":"9yf7ea06r"
    },
    {
-      "data_name":"4 hz Monaural Beats over Solfeggio 396 hz",
+      "data_name":"4 hz Monaural Beats over 396 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for seduction [Phase 3] of whole being. It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people.",
       "data_start":"play_monaural(396, 400);",
       "data_stop":"stop_monaural();",
       "data_id":"bpevyyxf9"
    },
    {
-      "data_name":"4 hz Monaural Beats over Solfeggio 417 hz",
+      "data_name":"4 hz Monaural Beats over 417 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for seduction [Phase 1] of sacral intuition. It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people.",
       "data_start":"play_monaural(417, 421);",
       "data_stop":"stop_monaural();",
       "data_id":"4lygmjci3"
    },
    {
-      "data_name":"4 hz Monaural Beats over Solfeggio 639 hz",
+      "data_name":"4 hz Monaural Beats over 639 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for seduction [Phase 2] of heart. It should not be used in public places if you value your security from strangers. ",
       "data_start":"play_monaural(639, 643);",
       "data_stop":"stop_monaural();",
       "data_id":"3ui34ukjm"
    },
    {
-      "data_name":"4 hz Monaural Beats over Solfeggio 741 hz",
+      "data_name":"4 hz Monaural Beats over 741 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for telepathy [Phase 1]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly. Enkephalins, Extrasensory perception [Phase 1]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2].",
       "data_start":"play_monaural(741, 745);",
       "data_stop":"stop_monaural();",
       "data_id":"xlw53ngtv"
    },
    {
-      "data_name":"4 hz Monaural Beats over Solfeggio 852 hz",
+      "data_name":"4 hz Monaural Beats over 852 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for telepathy [Phase 2]. Astral Projection [flavor 1, phase 1]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 1]. Enkephalins, Extrasensory perception [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2]",
       "data_start":"play_monaural(852, 856);",
       "data_stop":"stop_monaural();",
       "data_id":"oon9120q9"
    },
    {
-      "data_name":"4 hz Monaural Beats over Solfeggio 963 hz",
+      "data_name":"4 hz Monaural Beats over 963 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for telepathy [Phase 3]. Astral Projection [flavor 1, phase 2]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
       "data_start":"play_monaural(963, 967);",
       "data_stop":"stop_monaural();",
       "data_id":"soj8sk3wt"
    },
    {
-      "data_name":"5 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"5 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"pain-relief [Phase 1] (beta endorphin increases upto 10-50% as per report). If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced.(not good).",
       "data_start":"play_monaural(174, 179);",
       "data_stop":"stop_monaural();",
       "data_id":"gduo0ldlz"
    },
    {
-      "data_name":"5 hz Monaural Beats over Solfeggio 285 hz",
+      "data_name":"5 hz Monaural Beats over 285 Hz Solfeggio Frequency",
       "data_description":"pain-relief [Phase 2] (beta endorphin increases upto 10-50% as per report). Unusual problem solving [Phase 3] (reduced sleep needed). Theta sounds replacing need for extensive dreaming [Phase 3], relaxed states [Phase 3]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
       "data_start":"play_monaural(285, 290);",
       "data_stop":"stop_monaural();",
       "data_id":"1eir6uz4d"
    },
    {
-      "data_name":"5 hz Monaural Beats over Solfeggio 852 hz",
+      "data_name":"5 hz Monaural Beats over 852 Hz Solfeggio Frequency",
       "data_description":"Unusual problem solving [Phase 1] (reduced sleep needed), theta sounds replacing need for extensive dreaming [Phase 1], relaxed states [Phase 1]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
       "data_start":"play_monaural(852, 857);",
       "data_stop":"stop_monaural();",
       "data_id":"5tpr7no3j"
    },
    {
-      "data_name":"5 hz Monaural Beats over Solfeggio 963 hz",
+      "data_name":"5 hz Monaural Beats over 963 Hz Solfeggio Frequency",
       "data_description":"Unusual problem solving [Phase 2] (reduced sleep needed), theta sounds replacing need for extensive dreaming [Phase 2], relaxed states [Phase 2]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
       "data_start":"play_monaural(963, 968);",
       "data_stop":"stop_monaural();",
       "data_id":"tctckbr40"
    },
    {
-      "data_name":"5.8 hz Monaural Beats over Solfeggio 174 hz",
+      "data_name":"5.8 hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for reduction in Fear [phase 1]",
       "data_start":"play_monaural(174, 179.8);",
       "data_stop":"stop_monaural();",
       "data_id":"8y7bxfwkc"
    },
    {
-      "data_name":"5.8 hz Monaural Beats over Solfeggio 396 hz",
+      "data_name":"5.8 hz Monaural Beats over 396 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for reduction in Fear [Phase 2].",
       "data_start":"play_monaural(396, 401.8);",
       "data_stop":"stop_monaural();",
       "data_id":"k7jxd081n"
    },
    {
-      "data_name":"5.8 hz Monaural Beats over Solfeggio 528 hz",
+      "data_name":"5.8 hz Monaural Beats over 528 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for reduction in Fear[Phase 3].",
       "data_start":"play_monaural(528, 533.8);",
       "data_stop":"stop_monaural();",
       "data_id":"rptifl39h"
    },
    {
-      "data_name":"5.8 hz Monaural Beats over Solfeggio 741 hz",
+      "data_name":"5.8 hz Monaural Beats over 741 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for reduction in Dizziness [Phase 1].",
       "data_start":"play_monaural(741, 746.8);",
       "data_stop":"stop_monaural();",
       "data_id":"ejuod5hkn"
    },
    {
-      "data_name":"5.8 hz Monaural Beats over Solfeggio 852 hz",
+      "data_name":"5.8 hz Monaural Beats over 852 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for reduction in Dizziness [Phase 2]. Reduction in Absent-mindedness [Phase 1].",
       "data_start":"play_monaural(852, 857.8);",
       "data_stop":"stop_monaural();",
       "data_id":"pdqd1n8q4"
    },
    {
-      "data_name":"5.8 hz Monaural Beats over Solfeggio 963 hz",
+      "data_name":"5.8 hz Monaural Beats over 963 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for reduction in Absent-mindedness [Phase 2].",
       "data_start":"play_monaural(963, 968.3);",
       "data_stop":"stop_monaural();",
@@ -714,24 +714,24 @@
       "data_id":"0vub8askr"
    },
    {
-      "data_name":"12.5 hz Binaural Beats over 174 hz solfeggio",
-      "data_description":"Binaural Beats for shapeshifting.",
-      "data_start":"play_binaural(174, 186.5);",
-      "data_stop":"stop_binaural();",
+      "data_name":"12.5 hz Monaural Beats over 174 hz solfeggio",
+      "data_description":"Monaural Beats for shapeshifting.",
+      "data_start":"play_monaural(174, 186.5);",
+      "data_stop":"stop_monaural();",
       "data_id":"0vub8asks"
    },
    {
-      "data_name":"12.5 hz Binaural Beats over 285 hz solfeggio",
-      "data_description":"Binaural Beats for shapeshifting.",
-      "data_start":"play_binaural(285, 270.5);",
-      "data_stop":"stop_binaural();",
+      "data_name":"12.5 hz Monaural Beats over 285 hz solfeggio",
+      "data_description":"Monaural Beats for shapeshifting.",
+      "data_start":"play_monaural(285, 270.5);",
+      "data_stop":"stop_monaural();",
       "data_id":"0vub8askt"
    },
    {
-      "data_name":"12.5 hz Binaural Beats over 528 hz solfeggio",
-      "data_description":"Binaural Beats for shapeshifting.",
-      "data_start":"play_binaural(528, 540.5);",
-      "data_stop":"stop_binaural();",
+      "data_name":"12.5 hz Monaural Beats over 528 hz solfeggio",
+      "data_description":"Monaural Beats for shapeshifting.",
+      "data_start":"play_monaural(528, 540.5);",
+      "data_stop":"stop_monaural();",
       "data_id":"0vub8asku"
    },
    {
@@ -903,7 +903,7 @@
       "data_id":"fh4vy053w"
    },
    {
-      "data_name":"40 hz Monaural Beats between pure tone 984 hz and pure tone 1024 hz",
+      "data_name":"40 hz Monaural Beats between pure tone 984 hz and pure tone 1024 Hz Solfeggio Frequency",
       "data_description":"Sounds at this frequency is used for Alzheimer's therapy [Phase 3] studies to stimulate an increased neural response and fight symptoms of dementia. This Monaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. This special preset is also linked to cerebral cortex which increases intelligence over time. Also this balances all the 7 major spiritual chakras.",
       "data_start":"play_monaural(984, 1024);",
       "data_stop":"stop_monaural();",
