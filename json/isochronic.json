@@ -1,692 +1,692 @@
 [
 	{
-		"data_name": "0.1 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "0.1 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for Organ and muscle resonances [Phase 1]. Good for building muscles. To be used during excercise and sleep. Stimulates Pineal gland to produce DMT. [Phase 1]",
 		"data_start": "play_isochronic(174, 174.1);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "mn2b80q34"
 	},
 	{
-		"data_name": "0.1 hz Isochronic Tone over 285 hz solfeggio",
+		"data_name": "0.1 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for Organ and muscle resonances [Phase 2]. Good for building muscles. To be used during excercise and sleep. Stimulates Pineal gland to produce DMT. [Phase 2]",
 		"data_start": "play_isochronic(285, 285.1);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "mn2b80q33"
 	},
 	{
-		"data_name": "0.15 hz Isochronic Tone over 417 hz solfeggio",
+		"data_name": "0.15 hz Isochronic Tone over 417 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for relief from depression [Phase 1] due to past events. This is for mild depression[Phase 1]. Range Monaurals for it are comming soon which will be more effective.",
 		"data_start": "play_isochronic(417, 417.15);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "mn2b80q35"
 	},
 	{
-		"data_name": "0.15 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "0.15 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Monaural Beats for relief from depression [Phase 2]. This is for major depression [Phase 2]. Range Monaurals are comming soon which will be more effective.",
 		"data_start": "play_isochronic(963, 963.15);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "bsurcmzyv"
 	},
 	{
-		"data_name": "0.20 hz Isochronic Tone over 396 hz solfeggio",
+		"data_name": "0.20 hz Isochronic Tone over 396 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for relief from post-traumatics[Phase 1].",
 		"data_start": "play_isochronic(396, 396.20);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "cnf0mobar"
 	},
 	{
-		"data_name": "0.26 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "0.26 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": " Isochronic Tone for relief in dental pain and gum inflamation (go see a dentist if you are using this).  [Phase 1] Switch to monaural if this doesn't work.",
 		"data_start": "play_isochronic(174, 174.26);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "x5lnwbvnp"
 	},
 	{
-		"data_name": "0.26 hz Isochronic Tone over 741 hz solfeggio",
+		"data_name": "0.26 hz Isochronic Tone over 741 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for relief in dental pain and gum inflamation (go see a dentist if you are using this). [Phase 2] Switch to monaural if this doesn't work.",
 		"data_start": "play_isochronic(741, 741.26);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "p307qzrqi"
 	},
 	{
-		"data_name": "0.28 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "0.28 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Relief from Arthritis [Phase 1].",
 		"data_start": "play_isochronic(174, 174.28);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "rao3x1b4e"
 	},
 	{
-		"data_name": "0.28 hz Isochronic Tone over 285 hz solfeggio",
+		"data_name": "0.28 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Relief from Arthritis [Phase 2].",
 		"data_start": "play_isochronic(285, 285.28);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "4o4eeuted"
 	},
 	{
-		"data_name": "0.37 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "0.37 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Relief from Alcohol Addiction [Phase 1, Flavor 1].",
 		"data_start": "play_isochronic(174, 174.37);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "e7c991gep7"
 	},
 	{
-		"data_name": "0.37 hz Isochronic Tone over 285 hz solfeggio",
+		"data_name": "0.37 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Relief from Alcohol Addiction [Phase 2, Flavor 1].",
 		"data_start": "play_isochronic(285, 285.37);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "lcimv0kxuv"
 	},
 	{
-		"data_name": "0.5 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "0.5 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Very relaxing against headaches [Phase 1]. To be used for relief from lower back pain [Phase 1]. Thyroid[Phase 1], reproductive [Phase 1] and excretory stimulant [Phase 1]. Whole brain toner[Phase 1].",
 		"data_start": "play_isochronic(174, 174.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "33ghigl1l"
 	},
 	{
-		"data_name": "0.5 hz Isochronic Tone over 396 hz solfeggio",
+		"data_name": "0.5 hz Isochronic Tone over 396 Hz Solfeggio Frequency",
 		"data_description": "To be used for relief from lower back pain [Phase 2]. Reproductive [Phase 2] and excretory stimulant [Phase 2].",
 		"data_start": "play_isochronic(396, 396.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "sxpsi3b87"
 	},
 	{
-		"data_name": "0.5 hz Isochronic Tone over 417 hz solfeggio",
+		"data_name": "0.5 hz Isochronic Tone over 417 Hz Solfeggio Frequency",
 		"data_description": "Reproductive stimulant [Phase 2].To be used for relief from lower back pain [Phase 3].",
 		"data_start": "play_isochronic(417, 417.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "a4mwiiue2"
 	},
 	{
-		"data_name": "0.5 hz Isochronic Tone over 741 hz solfeggio",
+		"data_name": "0.5 hz Isochronic Tone over 741 Hz Solfeggio Frequency",
 		"data_description": "Thyroid stimulant [Phase 2]",
 		"data_start": "play_isochronic(741, 741.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "g5mjrtlug"
 	},
 	{
-		"data_name": "0.5 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "0.5 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Very relaxing against headaches [Phase 2]. Whole brain toner [Phase 2].",
 		"data_start": "play_isochronic(852, 852.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "hkztitr60"
 	},
 	{
-		"data_name": "0.5 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "0.5 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Very relaxing against headaches [Phase 3]. Whole brain toner [Phase 3].",
 		"data_start": "play_isochronic(963, 963.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "vjvebnq4y"
 	},
 	{
-		"data_name": "0.9 hz Isochronic Tone over 639 hz solfeggio",
+		"data_name": "0.9 hz Isochronic Tone over 639 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for Euphoria induction between friends family and partners.",
 		"data_start": "play_isochronic(639, 639.9);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "l5ekz53t0"
 	},
 	{
-		"data_name": "1 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "1 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for pituitary stimulation [Phase 1] to release growth hormone for healing",
 		"data_start": "play_isochronic(174, 175);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "v8d91vjth"
 	},
 	{
-		"data_name": "1 hz Isochronic Tone over 285 hz solfeggio",
+		"data_name": "1 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for pituitary stimulation [Phase 3] to release growth hormone for regeneration and growth.",
 		"data_start": "play_isochronic(285, 286);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "y2wfjhid7"
 	},
 	{
-		"data_name": "1 hz Isochronic Tone over 639 hz solfeggio",
+		"data_name": "1 hz Isochronic Tone over 639 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for over-all view of inter-relationships and its reconnection.",
 		"data_start": "play_isochronic(639, 640);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "5yh843tqu"
 	},
 	{
-		"data_name": "1 hz Isochronic Tone over 741 hz solfeggio",
+		"data_name": "1 hz Isochronic Tone over 741 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for balance and harmony.",
 		"data_start": "play_isochronic(741, 742);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "up9mswi13"
 	},
 	{
-		"data_name": "1 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "1 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for pituitary stimulation [Phase 2] to release growth hormone.",
 		"data_start": "play_isochronic(852, 856);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "dq29p6ubb"
 	},
 	{
-		"data_name": "1.2 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "1.2 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for relief from minor headaches [Phase 1]. Switch to 2nd Phase after sometime.",
 		"data_start": "play_isochronic(174, 175.2);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "vk9xec30q"
 	},
 	{
-		"data_name": "1.2 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "1.2 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for relief from minor headaches [Phase 2]. Switch Phase 3 after sometime.",
 		"data_start": "play_isochronic(852, 853.2);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "3t8wqmjjq"
 	},
 	{
-		"data_name": "1.2 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "1.2 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for relief from minor headaches [Phase 3].",
 		"data_start": "play_isochronic(963, 964.2);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "jebx25mao"
 	},
 	{
-		"data_name": "1.618033988749 hz Isochronic tone over 174 hz solfeggio",
+		"data_name": "1.618033988749 hz Isochronic tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic tone for perfect body and face (golden ratio) [Phase 0].",
 		"data_start": "play_isochronic(174, 175.618033988749);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "h22zpydhm"
 	},
 	{
-		"data_name": "1.618033988749 hz Isochronic tone over 285 hz solfeggio",
+		"data_name": "1.618033988749 hz Isochronic tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Isochronic tone for perfect body and face (golden ratio) [Phase 1].",
 		"data_start": "play_isochronic(285, 286.618033988749);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "h23zpydhn"
 	},
 	{
-		"data_name": "1.618033988749 hz Isochronic tone over 528 hz solfeggio",
+		"data_name": "1.618033988749 hz Isochronic tone over 528 Hz Solfeggio Frequency",
 		"data_description": "Isochronic tone for perfect body and face (golden ratio) [Phase 2].",
 		"data_start": "play_isochronic(528, 529.618033988749);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "h24zpydhp"
 	},
 	{
-		"data_name": "2 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "2 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for nerve regeneration [Phase 0].",
 		"data_start": "play_isochronic(174, 176);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "jebx25map"
 	},
 	{
-		"data_name": "2 hz Isochronic Tone over Solfeggio 285 hz",
+		"data_name": "2 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for nerve regeneration [Phase 1].",
 		"data_start": "play_isochronic(285, 287);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "jebx25maq"
 	},
 	{
-		"data_name": "2.4 hz Isochronic Tone over Solfeggio 285 hz",
+		"data_name": "2.4 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for deep sleep [Phase 1]. Heal tissues while sleeping.",
 		"data_start": "play_isochronic(285, 287.4);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "5b3u37gpe"
 	},
 	{
-		"data_name": "2.4 hz Isochronic Tone over Solfeggio 528 hz",
+		"data_name": "2.4 hz Isochronic Tone over 528 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for deep sleep [Phase 2].",
 		"data_start": "play_isochronic(528, 530.4);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "vugpa2woz"
 	},
 	{
-		"data_name": "3.5 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "3.5 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "whole being regeneration [Phase 1]. Lower Earth Resonance [Phase 1] or hell resonance [Phase 1]. DNA stimulation [Phase 1]. Relief from anxiety [Phase 0, 2nd flavor]",
 		"data_start": "play_isochronic(174, 177.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "0v8m7qk2i"
 	},
 	{
-		"data_name": "3.5 hz Isochronic Tone over Solfeggio 285 hz",
+		"data_name": "3.5 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for whole being regeneration [Phase 2]. Lower Earth resonance [Phase 2] or Hell Resonance [Phase 2]. DNA stimulation [ Phase 2].",
 		"data_start": "play_isochronic(285, 288.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "fzet7n8qc"
 	},
 	{
-		"data_name": "3.5 hz Isochronic Tone over Solfeggio 396 hz",
+		"data_name": "3.5 hz Isochronic Tone over 396 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for relief from anxiety [Phase 1, 2nd flavor] via root chakra or muladhara. The lower earth resonance [Phase 3 ] or hell resonance [Phase 3].",
 		"data_start": "play_isochronic(396, 399.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "4n33pa2p5"
 	},
 	{
-		"data_name": "3.5 hz Isochronic Tone over Solfeggio 528 hz",
+		"data_name": "3.5 hz Isochronic Tone over 528 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for DNA stimulation [Phase 3].",
 		"data_start": "play_isochronic(528, 531.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "5j84phays"
 	},
 	{
-		"data_name": "3.5 hz Isochronic Tone over Solfeggio 741 hz",
+		"data_name": "3.5 hz Isochronic Tone over 741 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for relief from anxiety [Phase 2, 2nd flavor] via throat chakra (visuddha). Accelerated language retention [Phase 1]",
 		"data_start": "play_isochronic(741, 744.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "zqhkw231d"
 	},
 	{
-		"data_name": "3.5 hz Isochronic Tone over Solfeggio 852 hz",
+		"data_name": "3.5 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for feeling with unity everything [Phase 1], accelerated language retention [Phase 2], enhancement of receptivity relief from depression [Phase 1].",
 		"data_start": "play_isochronic(852, 855.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "qecetmyov"
 	},
 	{
-		"data_name": "3.5 hz Isochronic Tone over Solfeggio 963 hz",
+		"data_name": "3.5 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for feeling with unity everything [Phase 2], accelerated language retention [Phase 3], enhancement of receptivity relief from depression [Phase 2].",
 		"data_start": "play_isochronic(963, 966.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "an8repp20"
 	},
 	{
-		"data_name": "3.6 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "3.6 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for remedy for irritability in body.",
 		"data_start": "play_isochronic(174, 177.6);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "1tzknk59g"
 	},
 	{
-		"data_name": "3.6 hz Isochronic Tone over Solfeggio 639 hz",
+		"data_name": "3.6 hz Isochronic Tone over 639 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for remedy for irritability in social situations.",
 		"data_start": "play_isochronic(639, 642.6);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "eue4dfp36"
 	},
 	{
-		"data_name": "4 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "4 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed [Phase 1]. Schizophrenia patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 3].",
 		"data_start": "play_isochronic(174, 178);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "an7kl3uiy"
 	},
 	{
-		"data_name": "4 hz Isochronic Tone over Solfeggio 285 hz",
+		"data_name": "4 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed [Phase 2]. Telepathy [Phase 4]. Seduction [Phase 4]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 4]. Power Nap [Phase 1].",
 		"data_start": "play_isochronic(285, 289);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "sqi1qv4nu"
 	},
 	{
-		"data_name": "4 hz Isochronic Tone over Solfeggio 396 hz",
+		"data_name": "4 hz Isochronic Tone over 396 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for seduction [Phase 3] of whole being. It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people.",
 		"data_start": "play_isochronic(396, 400);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "h3c79996s"
 	},
 	{
-		"data_name": "4 hz Isochronic Tone over Solfeggio 417 hz",
+		"data_name": "4 hz Isochronic Tone over 417 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for seduction [Phase 1] of sacral intuition. It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people.",
 		"data_start": "play_isochronic(417, 421);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "pb7i56prm"
 	},
 	{
-		"data_name": "4 hz Isochronic Tone over Solfeggio 639 hz",
+		"data_name": "4 hz Isochronic Tone over 639 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for seduction [Phase 2] of heart. It should not be used in public places if you value your security from strangers. ",
 		"data_start": "play_isochronic(639, 643);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "z9bffoet1"
 	},
 	{
-		"data_name": "4 hz Isochronic Tone over Solfeggio 741 hz",
+		"data_name": "4 hz Isochronic Tone over 741 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for telepathy [Phase 1]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly. Enkephalins, Extrasensory perception [Phase 1]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2].",
 		"data_start": "play_isochronic(741, 745);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "ihkffq6m1"
 	},
 	{
-		"data_name": "4 hz Isochronic Tone over Solfeggio 852 hz",
+		"data_name": "4 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for telepathy [Phase 2]. astral Projection [flavor 1, phase 2]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 1]. Enkephalins, Extrasensory perception [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 2]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 2]. It is associated with object naming which is an important aspect of memory [Phase 2]",
 		"data_start": "play_isochronic(852, 856);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "07b5s2avz"
 	},
 	{
-		"data_name": "4 hz Isochronic Tone over Solfeggio 963 hz",
+		"data_name": "4 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for telepathy [Phase 3].astral Projection [flavor 1, phase 2]. Schizophrenic patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 2]. Catecholamines, which is vital for memory and learning, responds at around 4 HZ [Phase 3]. Subconscious Problem Solving and full Memory Scanning (only if one manages to stay awake) [Phase 3]. It is associated with object naming which is an important aspect of memory [Phase 3].",
 		"data_start": "play_isochronic(963, 967);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "qrv2r4hub"
 	},
 	{
-		"data_name": "5 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "5 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "pain-relief [Phase 1] (beta endorphin increases upto 10-50% as per report). If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced.(not good).",
 		"data_start": "play_isochronic(174, 179);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "y8bqsamm3"
 	},
 	{
-		"data_name": "5 hz Isochronic Tone over Solfeggio 285 hz",
+		"data_name": "5 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "pain-relief [Phase 2] (beta endorphin increases upto 10-50% as per report). Unusual problem solving [Phase 3] (reduced sleep needed). Theta sounds replacing need for extensive dreaming [Phase 3], relaxed states [Phase 3]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
 		"data_start": "play_isochronic(285, 290);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "s7i0hn7ib"
 	},
 	{
-		"data_name": "5 hz Isochronic Tone over Solfeggio 852 hz",
+		"data_name": "5 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Unusual problem solving [Phase 1] (reduced sleep needed), theta sounds replacing need for extensive dreaming [Phase 1], relaxed states [Phase 1]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
 		"data_start": "play_isochronic(852, 857);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "g9n63wh6g"
 	},
 	{
-		"data_name": "5 hz Isochronic Tone over Solfeggio 963 hz",
+		"data_name": "5 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Unusual problem solving [Phase 2] (reduced sleep needed), theta sounds replacing need for extensive dreaming [Phase 2], relaxed states [Phase 2]. If these frequencies are generated mechanically (and not via speakers/ear phones )a Sphincter Resonance is produced (not good).",
 		"data_start": "play_isochronic(963, 968);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "ax7jyidvx"
 	},
 	{
-		"data_name": "5.8 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "5.8 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in Fear [phase 1]",
 		"data_start": "play_isochronic(174, 179.8);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "neprqo277"
 	},
 	{
-		"data_name": "5.8 hz Isochronic Tone over Solfeggio 396 hz",
+		"data_name": "5.8 hz Isochronic Tone over 396 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in Fear [Phase 2].",
 		"data_start": "play_isochronic(396, 401.8);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "l0hl2v9z5"
 	},
 	{
-		"data_name": "5.8 hz Isochronic Tone over Solfeggio 528 hz",
+		"data_name": "5.8 hz Isochronic Tone over 528 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in Fear[Phase 3].",
 		"data_start": "play_isochronic(528, 533.8);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "as70c25k8"
 	},
 	{
-		"data_name": "5.8 hz Isochronic Tone over Solfeggio 741 hz",
+		"data_name": "5.8 hz Isochronic Tone over 741 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in Dizziness [Phase 1].",
 		"data_start": "play_isochronic(741, 746.8);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "6zyh9wix4"
 	},
 	{
-		"data_name": "5.8 hz Isochronic Tone over Solfeggio 852 hz",
+		"data_name": "5.8 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in Dizziness [Phase 2]. Reduction in Absent-mindedness [Phase 1].",
 		"data_start": "play_isochronic(852, 857.8);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "8fq70t3qd"
 	},
 	{
-		"data_name": "5.8 hz Isochronic Tone over Solfeggio 963 hz",
+		"data_name": "5.8 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in Absent-mindedness [Phase 2].",
 		"data_start": "play_isochronic(963, 968.3);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "06xaqbr3k"
 	},
 	{
-		"data_name": "6 hz Isochronic Tone over 417 hz solfeggio",
+		"data_name": "6 hz Isochronic Tone over 417 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in unwillingness to do work due to past memories. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
 		"data_start": "play_isochronic(417, 423);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "wkrj1atmn"
 	},
 	{
-		"data_name": "6 hz Isochronic Tone over 639 hz solfeggio",
+		"data_name": "6 hz Isochronic Tone over 639 Hz Solfeggio Frequency",
 		"data_description": "Binarual beats for getting out of hypnosis and bringing clarity [Phase 2]. Must be used during sleep otherwise it may bring  in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
 		"data_start": "play_isochronic(639, 645);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "quej36l8g"
 	},
 	{
-		"data_name": "6 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "6 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for increased clarity and getting out of hypnosis. [Phase 1]. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
 		"data_start": "play_isochronic(852, 858);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "w69ft9ewt"
 	},
 	{
-		"data_name": "6 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "6 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for active learning and retention. Must be balanced Phase 1 of increased clarity Isochronic Tone (6 hz) if things seem unclear and decisions and theories are made with wrong assumption. Must be used during sleep otherwise it will bring in depression and confusion.",
 		"data_start": "play_isochronic(963, 969);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "yatupu1e8"
 	},
 	{
-		"data_name": "6.30 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "6.30 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for Mental vision and astral projection vision [Flavor 2, Phase 1]. Might also experience accelerated learning and increased retention [phase 1]. Minor effects include reduction in anger and irritability [Phase 1].",
 		"data_start": "play_isochronic(852, 858.30);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "fg8t6ab4t"
 	},
 	{
-		"data_name": "6.30 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "6.30 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for Mental vision and astral projection vision [Flavor 2, Phase 2]. Might also experience accelerated learning and increased retention [phase 2]. Minor effects include reduction in anger and irritability. [phase 2]",
 		"data_start": "play_isochronic(963, 969.30);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "fg8t6ab4u"
 	},
 	{
-		"data_name": "7 hz Isochronic Tone over 285 hz solfeggio",
+		"data_name": "7 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Enhanced bone growth. Can also resonate and rupture organs at excessive intensity. Used as a treatment of sleep disturbances [Phase 1].",
 		"data_start": "play_isochronic(285, 292);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "of38fiis7"
 	},
 	{
-		"data_name": "7 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "7 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Mental vision and astral projection vision [flavor 3, Phase 1], bending of objects [Phase 1], psychic vision for psychic surgery [Phase 1], Increased Reaction Time [Phase 1], Mass aggregate frequency [Phase 1]. It can deaggregate matter [Phase 1].  Can also resonate and rupture organs at excessive intensity. Used as a treatment of sleep disturbances[Phase 2].",
 		"data_start": "play_isochronic(852, 859);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "l1fvu97gk"
 	},
 	{
-		"data_name": "7 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "7 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Mental and astral projection [flavor 3, Phase 2], bending of objects [Phase 2], psychic surgery [Phase 2], Increased Reaction Time [Phase 2], Mass aggregate frequency [Phase 2]. It can deaggregate matter [Phase 2]. Can also resonate and rupture organs at excessive intensity. Used as a treatment of sleep disturbances [Phase 3].",
 		"data_start": "play_isochronic(963, 970);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "ubrk92kpf"
 	},
 	{
-		"data_name": "7.83 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "7.83 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for Earth resonance [Phase 1], grounding [Phase 1] (Lower earth chakra), Primary Schumann Resonance [Phase 1], Anti-Jet Lag [Phase 1]. Improved Stress Tolarance [Phase 1]. Pituitary Stimulation to release growth horomone [Phase 1]. The earth's natural brainwave [Phase 1].",
 		"data_start": "play_isochronic(174, 181.83);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "31itczl9a"
 	},
 	{
-		"data_name": "7.83 hz Isochronic Tone over 285 hz solfeggio",
+		"data_name": "7.83 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for Earth resonance [Phase 2], grounding [Phase 2] (Lower earth chakra [Phase 2] ), Primary Schumann Resonance [Phase 2], Anti-Jet Lag [Phase 2]. Improved Stress Tolarance [Phase 2]. Pituitary Stimulation to release growth horomone [Phase 2]. It helps with development of muscles, recovering from injuries. It has rejuvination effects. It's your classic earth resonance frequency, It sometimes leaves the subjects feeling revitalized like they have spent a day in the country. Has accelerated healing. The earth's natural brainwave [Phase 2].",
 		"data_start": "play_isochronic(285, 292.83);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "bxl2nkulv"
 	},
 	{
-		"data_name": "7.83 hz Isochronic Tone over 396 hz solfeggio",
+		"data_name": "7.83 hz Isochronic Tone over 396 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for Earth resonance [Phase 3], grounding [Phase 3] (Lower earth chakra [Phase 3] ), Primary Schumann Resonance [Phase 3], Anti-Jet Lag [Phase 3].",
 		"data_start": "play_isochronic(396, 403.83);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "tehv5ac30"
 	},
 	{
-		"data_name": "7.83 hz Isochronic Tone over 639 hz solfeggio",
+		"data_name": "7.83 hz Isochronic Tone over 639 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for anti-mind (feelings) control [Phase 2].",
 		"data_start": "play_isochronic(639, 646.83);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "hmobx1mjq"
 	},
 	{
-		"data_name": "7.83 hz Isochronic Tone over 741 hz solfeggio",
+		"data_name": "7.83 hz Isochronic Tone over 741 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for Anti-Jet Lag [Phase 4]",
 		"data_start": "play_isochronic(741, 748.83);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "q2ca7sjaf"
 	},
 	{
-		"data_name": "7.83 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "7.83 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for  Anti-Jet Lag [Phase 5]. Pituitary Stimulation to release growth horomone [Phase 3]. Anti-mind (perception) control [Phase 1]",
 		"data_start": "play_isochronic(852, 859.83);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "o058oc912"
 	},
 	{
-		"data_name": "7.83 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "7.83 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for anti-mind (thoughts) control [Phase 3].",
 		"data_start": "play_isochronic(963, 970.83);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "kl03kl9bi"
 	},
 	{
-		"data_name": "8.3 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "8.3 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Pick up visual images of mental objects. Clairvoyance. Monroe Focus 12.",
 		"data_start": "play_isochronic(852, 860.3);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "uzt5sfhde"
 	},
 	{
-		"data_name": "8.4 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "8.4 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in anxiety caused due to survival issues. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the Monaural beat generator.",
 		"data_start": "play_isochronic(174, 182.4);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "0t10ouxdo"
 	},
 	{
-		"data_name": "8.4 hz Isochronic Tone over 396 hz solfeggio",
+		"data_name": "8.4 hz Isochronic Tone over 396 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in general anxiety [Phase 1, flavor 1]. A much higher level exists in 8.5 hz however it advisable to switch to monaural before constructing this in the Monaural beat generator.",
 		"data_start": "play_isochronic(396, 404.4);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "xbcmytc1a"
 	},
 	{
-		"data_name": "8.4 hz Isochronic Tone over 639 hz solfeggio",
+		"data_name": "8.4 hz Isochronic Tone over 639 Hz Solfeggio Frequency",
 		"data_description": "Binarual beats for reduction in social anxiety. ",
 		"data_start": "play_isochronic(639, 647.4);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "gfbkoa97l"
 	},
 	{
-		"data_name": "8.4 hz Isochronic Tone over 741 hz solfeggio",
+		"data_name": "8.4 hz Isochronic Tone over 741 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in general anxiety [Phase 2 , flavor 1]. ",
 		"data_start": "play_isochronic(741, 749.4);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "mghcsc5ff"
 	},
 	{
-		"data_name": "8.4 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "8.4 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in anxiety [Phase 3, falvor 1] caused by critical problems..",
 		"data_start": "play_isochronic(963, 971.4);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "sgkzorqns"
 	},
 	{
-		"data_name": "8.5 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "8.5 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Binuaral beats for better physical stress tolerance.",
 		"data_start": "play_isochronic(174, 182.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "gicelgbp8"
 	},
 	{
-		"data_name": "8.5 hz Isochronic Tone over 285 hz solfeggio",
+		"data_name": "8.5 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in physical stress",
 		"data_start": "play_isochronic(285, 293.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "tfazpathw"
 	},
 	{
-		"data_name": "8.5 hz Isochronic Tone over 639 hz solfeggio",
+		"data_name": "8.5 hz Isochronic Tone over 639 Hz Solfeggio Frequency",
 		"data_description": "Binuaral beats for reduction in stress caused due social situations.",
 		"data_start": "play_isochronic(639, 647.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "1z8rgz5kx"
 	},
 	{
-		"data_name": "8.5 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "8.5 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for reduction in general mental stress",
 		"data_start": "play_isochronic(963, 971.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "4rlxufpok"
 	},
 	{
-		"data_name": "9 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "9 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Opening of Sacral Chakra or Svadhisthana chakra [ Phase 1 ]. Enhanced body parts are Gonads [Phase 1]  and Reproductive System [ Phase 1 ]. Positive Effects on relationships [Phase 1] and Sexuality [ Phase 1 ]. Awareness of causes of body imbalance and means for balance [ Phase 1 ].  Blind person phantom touch reading (somatosensory cortex) [Phase 1].",
 		"data_start": "play_isochronic(174, 183);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "4fvdxdfsr"
 	},
 	{
-		"data_name": "9 hz Isochronic Tone over 417 hz solfeggio",
+		"data_name": "9 hz Isochronic Tone over 417 Hz Solfeggio Frequency",
 		"data_description": "Opening of Sacral Chakra or Svadhisthana chakra [ Phase 2 ]. Enhanced body parts are Gonads [Phase 2] and Reproductive System [ Phase 2 ]. Positive Effects on relationships [Phase 2] and Sexuality [ Phase 2 ]. Awareness of causes of body imbalance and means for balance [ Phase 2 ].  Blind person phantom touch reading (somatosensory cortex) [Phase 2].",
 		"data_start": "play_isochronic(417, 426);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "f2lgztxqj"
 	},
 	{
-		"data_name": "10 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "10 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone associated with solar plexus chakra (manipura) [Phase 1]. Spiritual Wisdom [Phase 1], Self-Healing [ Phase 1 ]. Enhanced Body parts Pancreas [Phase 1], Stomach [Phase 1], Liver [Phase 1], Gall Bladder [Phase 1], Nervous System [Phase 1]. Enhanced release of serotonin [Phase 1]. Mood elevator [Phase 1]. Acts as ananalgesic [Phase 1]. Used during nicotine withrawal [Phase 1]. Clarity [Phase 1], Normacy [Phase 1], Anti-Convlelsant [Phase 1], Circadian Rhythm Resync [Phase 1]. Motor impulse co-ordination [ Phase 1 ] (Motor Control Cortex).  Learning a foreign language [Phase 1 ], Sleep Spindles [Phase 1], Centering [ Phase 1 ]. Increased Alertness [ Phase 1 ]. Increased in norepinephrine [ Phase 1 ]. Decreased Melatonin [Phase 1]. Sense of well being [Phase 1]. Decreased Pain [Phase 1]. Increased beta-endorphines [Phase 1]. Adrenal Stimulant [Phase 1]. Treatment of Attention Deficit Disorder [ Phase 1 ] and hyperactivity [ Phase 1 ]. Treatment for closed head injury [ Phase 1 ]. Berger Rhythm. Used on Headaches [Phase 1]. Ligament Healing [ Phase 1] ",
 		"data_start": "play_isochronic(174, 184);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "aubizjcdm"
 	},
 	{
-		"data_name": "10 hz Isochronic Tone over 285 hz solfeggio",
+		"data_name": "10 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Self-Healing [ Phase 2]. Enhanced Body parts Pancreas [Phase 3], Stomach [Phase 3], Liver [Phase 3], Gall Bladder [Phase 3], Nervous System [Phase 2]. Enhanced release of serotonin [Phase 4]. Mood elevator [Phase 4]. Acts as ananalgesic [Phase 2]. Used during nicotine withrawal [Phase 5]. Anti-Convlelsant [Phase 5], Circadian Rhythm Resync [Phase 4]. Motor impulse co-ordination [ Phase 2 ] (Motor Control Cortex). Increased in norepinephrine [ Phase 5 ]. Decreased Melatonin [Phase 4]. Decreased Pain [Phase 2]. Increased beta-endorphines [Phase 4]. Adrenal Stimulant [Phase 3].  Treatment for closed head injury [ Phase 4 ]. Berger Rhythm. Used on Headaches [Phase 4]. Ligament Healing [ Phase 2].",
 		"data_start": "play_isochronic(285, 295);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "drwyy7ney"
 	},
 	{
-		"data_name": "10 hz Isochronic Tone over 528 hz solfeggio",
+		"data_name": "10 hz Isochronic Tone over 528 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone associated with solar plexus chakra (manipura) [Phase 2]. Spiritual Wisdom [Phase 2], Self-Healing [ Phase 2 ]. Enhanced Body parts Pancreas [Phase 2], Stomach [Phase 2], Liver [Phase 2], Gall Bladder [Phase 2]. Clarity [Phase 2], Normacy [Phase 2]. Sense of well being [Phase 2]. Adrenal Stimulant [Phase 2].",
 		"data_start": "play_isochronic(528, 538);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "5m12irgq0"
 	},
 	{
-		"data_name": "10 hz Isochronic Tone over 741 hz solfeggio",
+		"data_name": "10 hz Isochronic Tone over 741 Hz Solfeggio Frequency",
 		"data_description": "Spiritual Wisdom [Phase 3]. Used during nicotine withrawal [Phase 2]. Clarity [Phase 2], Normacy [Phase 2]. Learning a foreign language [Phase 2 ], Increased Alertness [ Phase 2 ]. Increased in norepinephrine [ Phase 2 ]. Treatment of Attention Deficit Disorder [ Phase 2 ] and hyperactivity [ Phase 2 ]. Sense of well being [Phase 3].",
 		"data_start": "play_isochronic(741, 751);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "8j8wt3jo7"
 	},
 	{
-		"data_name": "10 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "10 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Spiritual Wisdom [Phase 4]. Enhanced release of serotonin [Phase 2]. Mood elevator [Phase 2]. Used during nicotine withrawal [Phase 3]. Clarity [Phase 2], Normacy [Phase 2]. Circadian Rhythm Resync [Phase 3]. Motor impulse co-ordination [ Phase 3 ] (Motor Control Cortex).  Learning a foreign language [Phase 3], Sleep Spindles [Phase 2]. Increased Alertness [ Phase 3 ]. Increased in norepinephrine [ Phase 3 ]. Decreased Melatonin [Phase 2]. Sense of well being [Phase 4]. Increased beta-endorphines [Phase 2]. Treatment of Attention Deficit Disorder [ Phase 3 ] and hyperactivity [ Phase 3 ]. Treatment for closed head injury [ Phase 2 ]. Berger Rhythm. Used on Headaches [Phase 3].",
 		"data_start": "play_isochronic(852, 862);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "ietosfict"
 	},
 	{
-		"data_name": "10 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "10 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Spiritual Wisdom [Phase 5]. Enhanced release of serotonin [Phase 3]. Mood elevator [Phase 3]. Used during nicotine withrawal [Phase 4]. Clarity [Phase 3], Normacy [Phase 3]. Circadian Rhythm Resync [Phase 4]. Motor impulse co-ordination [ Phase 4 ] (Motor Control Cortex).  Learning a foreign language [Phase 4], Sleep Spindles [Phase 3]. Increased Alertness [ Phase 4 ]. Increased in norepinephrine [ Phase 4 ]. Decreased Melatonin [Phase 3]. Sense of well being [Phase 5]. Increased beta-endorphines [Phase 2]. Treatment of Attention Deficit Disorder [ Phase 4 ] and hyperactivity [ Phase 4 ]. Treatment for closed head injury [ Phase 3 ]. Berger Rhythm. Used on Headaches [Phase 4].",
 		"data_start": "play_isochronic(963, 973);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "5cj1cdn9a"
 	},
 	{
-		"data_name": "10.5 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "10.5 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone associated with Heart chakra [Phase 1]. Aura influence is green. Its for healing of body [Phase 1], mind [Phase 1] and body unity [Phase 1]. Used in firewalking [Phase 1]. Potent stabilizer [Phase 1] and stimulating for the immunity [Phase 1], valuable in convalescence. Relaxed alertness [Phase 1], contemplation [Phase 1], body healing [Phase 1], mind over matter [Phase 1]. Lowering Blood Pressure [Phase 1].  Enhanced body parts are Thymus [Phase 1], Heart [Phase 1], Blood, Circulatory System [Phase 1]. Has positive effects such as Love for Life, love for self, others [Phase 1]. Musical note is F.",
 		"data_start": "play_isochronic(174, 184.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "rr15znjcw"
 	},
 	{
-		"data_name": "10.5 hz Isochronic Tone over 639 hz solfeggio",
+		"data_name": "10.5 hz Isochronic Tone over 639 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone associated with Heart chakra [Phase 2] (This is post tuning of heart chakra once activated). Healing of body, mind and body unity [Phase 2]. Used in firewalking [Phase 2]. Aura influence is green. It has positive effects like having Love for Life, love for self, others [Phase 2]. Musical note is F. Gives relaxed alertness [Phase 2], contemplation [Phase 2], body healing [Phase 2], mind over matter [Phase 2]. This is a potent stabilizer and is simulating for immunity [Phase 2]. Valuable in convalescence. Lowering of Blood Pressure [Phase 2]. Enhanced body parts are Thymus [Phase 2], Heart [Phase 2], Blood [Phase 2], Circulatory System [Phase 2].",
 		"data_start": "play_isochronic(639, 649.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "qzl59p20z"
 	},
 	{
-		"data_name": "12 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "12 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "For opening of throat chakra / Vishuddha chakra [Phase 1]. Musical Note is G. Aura color is blue. Centering mental stabilty [Phase 1], transistional point and time accelerater [ Phase 1 ]. Upper earth resonance frequency [Phase 1] via Hercules. Enhanced body parts are Thyroid [ Phase 1 ], Lungs [ Phase 1 ], Vocal Cords [ Phase 1 ].",
 		"data_start": "play_isochronic(174, 186);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "ii35mtlnd"
 	},
 	{
-		"data_name": "12 hz Isochronic Tone over 741 hz solfeggio",
+		"data_name": "12 hz Isochronic Tone over 741 Hz Solfeggio Frequency",
 		"data_description": "For opening of throat chakra / Vishuddha chakra [Phase 2]. Gives expresssion of self in society. Musical Note is G. Aura color is blue. It stimulates mental clarity. Gives cleverness in general and presence of mind in conversations. Centering mental stabilty [Phase 2], transistional point and time accelerater [Phase 2]. Doorway to all other frequencies. Upper earth resonance frequency [Phase 2] via Hercules. Enhanced body parts are Thyroid [Phase 2], Lungs [Phase 2], Vocal Cords [Phase 2]. Also good for absorbing information passively during conversations to think about it later.",
 		"data_start": "play_isochronic(741, 753);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "46l759ppb"
 	},
 	{
-		"data_name": "12.3 hz Isochronic Tone over 285 hz solfeggio",
+		"data_name": "12.3 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Associated with eyes. It gives better visualization [Phase 1].",
 		"data_start": "play_isochronic(285, 297.3);",
 		"data_stop": "stop_isochronic();",
@@ -700,56 +700,56 @@
 		"data_id": "t13yzjmb9"
 	},
 	{
-		"data_name": "12.3 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "12.3 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Associated with eyes. It gives better visualization [Phase 2].",
 		"data_start": "play_isochronic(852, 864.3);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "bj90ju9m4"
 	},
   {
-    "data_name":"12.5 hz Isochronic Tone over 174 hz solfeggio",
+    "data_name":"12.5 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
     "data_description":"Isochronic Tone for shapeshifting.",
     "data_start":"play_isochronic(174, 186.5);",
     "data_stop":"stop_isochronic();",
     "data_id":"bj90ju9m5"
   },
   {
-    "data_name":"12.5 hz Isochronic Tone over 285 hz solfeggio",
+    "data_name":"12.5 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
     "data_description":"Isochronic Tone for shapeshifting.",
     "data_start":"play_isochronic(285, 270.5);",
     "data_stop":"stop_isochronic();",
     "data_id":"bj90ju9m6"
   },
   {
-    "data_name":"12.5 hz Isochronic Tone over 528 hz solfeggio",
+    "data_name":"12.5 hz Isochronic Tone over 528 Hz Solfeggio Frequency",
     "data_description":"Isochronic Tone for shapeshifting.",
     "data_start":"play_isochronic(528, 540.5);",
     "data_stop":"stop_isochronic();",
     "data_id":"bj90ju9m7"
   },
 	{
-		"data_name": "13 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "13 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "This is associated with Ajna chakra (3rd eye) [Phase 1, 2nd flavor]. Aura color is indigo or violet. Enhanced body parts are Pituitary, Lower Brain, Left Eye, Ears, Nose, Nervous System. It gives Visualization, Conceptualization. Musical note is A.",
 		"data_start": "play_isochronic(174, 187);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "nbtx1snee"
 	},
 	{
-		"data_name": "13 hz Isochronic Tone over 741 hz solfeggio",
+		"data_name": "13 hz Isochronic Tone over 741 Hz Solfeggio Frequency",
 		"data_description": "Post tuning of throat chakra, improvements in verbal communication.",
 		"data_start": "play_isochronic(741, 754);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "4g6miz1gg"
 	},
 	{
-		"data_name": "13 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "13 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "This is associated with Ajna chakra (3rd eye) [Phase 2, 2nd flavor]. Aura color is indigo or violet. Enhanced body parts are Pituitary,Lower Brain, Left Eye, Ears, Nose, Nervous System. It gives Visualization, Conceptualization. Musical note is A.",
 		"data_start": "play_isochronic(852, 865);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "9ztfyc985"
 	},
 	{
-		"data_name": "13.8 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "13.8 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "This is associated with Frontal Lobes. It effects the seventh sense, final decision. [Phase 1]",
 		"data_start": "play_isochronic(852, 865.8);",
 		"data_stop": "stop_isochronic();",
@@ -763,182 +763,182 @@
 		"data_id": "w67bm5fpx"
 	},
 	{
-		"data_name": "14 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "14 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for studying [Phase 1]. It keeps subjects awake and alert, keeps concentration on tasks. Also good for learning and absorbing information passively when you are planning to think about it later. Enhanced logical, analytical, intellectual thinking. Provides starting point for the mind to do calculations, linear logical analyses and other highly structured functions. Minor improvements in communication.",
 		"data_start": "play_isochronic(852, 866);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "lv05djb96"
 	},
 	{
-		"data_name": "14 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "14 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for studying [Phase 2]. It keeps subjects awake and alert, keeps concentration on tasks. Also good for learning and absorbing information passively when you are planning to think about it later.  Enhanced logical, analytical, intellectual thinking. Provides starting point for the mind to do calculations, linear logical analyses and other highly structured functions. Minor improvements in communication.",
 		"data_start": "play_isochronic(963, 977);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "3ic3ckxfx"
 	},
 	{
-		"data_name": "15 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "15 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for opening of Crown Chakra (Sahasrara) [Phase 1]. The color is white or voilet depending on the individual. Enhanced body parts are Pineal Gland [Phase 1], Upper Brain [Phase 1], Right Eye [Phase 1]. It helps with capilary formation[Phase 1], fibroblast proliferation [Phase 1], and decreases skin necorosis [Phase 1].",
 		"data_start": "play_isochronic(174, 189);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "v77v43sc2"
 	},
 	{
-		"data_name": "15 hz Isochronic Tone over 285 hz solfeggio",
+		"data_name": "15 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Enhanced body parts are Pineal Gland [Phase 4], Upper Brain [Phase 4], Right Eye [Phase 4]. It helps with capilary formation[Phase 2], fibroblast proliferation [Phase 2], and decreases skin necorosis [Phase 2].",
 		"data_start": "play_isochronic(285, 300);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "02dnmr7yq"
 	},
 	{
-		"data_name": "15 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "15 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Enhanced body parts are Pineal Gland [Phase 3], Upper Brain [Phase 3], Right Eye [Phase 3].",
 		"data_start": "play_isochronic(852, 867);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "46wojbe8u"
 	},
 	{
-		"data_name": "15 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "15 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for opening of Crown Chakra (Sahasrara) [Phase 2]. The color is white or voilet depending on the individual. Enhanced body parts are Pineal Gland [Phase 2], Upper Brain [Phase 2], Right Eye [Phase 2]. It helps with capilary formation[Phase 3], fibroblast proliferation [Phase 3], and decreases skin necorosis [Phase 3].",
 		"data_start": "play_isochronic(963, 978);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "9qzsxeuvo"
 	},
 	{
-		"data_name": "20 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "20 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 1], sinus infection [Phase 1], head cold [Phase 1], headache [Phase 1]. Commonly used 'cure-all' Rife Frequency [Phase 1].   It should not to be used during labour as it causes distress.  ",
 		"data_start": "play_isochronic(174, 194);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "onpez8b68"
 	},
 	{
-		"data_name": "20 hz Isochronic Tone over 285 hz solfeggio",
+		"data_name": "20 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for removing fatigue as it energizes. It should not to be used during labour as it causes distress. Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). Commonly used 'cure-all' Rife Frequency [Phase 3].",
 		"data_start": "play_isochronic(285, 305);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "1p0eymr03"
 	},
 	{
-		"data_name": "20 hz Isochronic Tone over 417 hz solfeggio",
+		"data_name": "20 hz Isochronic Tone over 417 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for imposing sub-conscious commands to another's sacral intuition (The thought center of sacral intuition).  It should not to be used during labour as it causes distress.  ",
 		"data_start": "play_isochronic(417, 427);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "7flf2i5ej"
 	},
 	{
-		"data_name": "20 hz Isochronic Tone over 528 hz solfeggio",
+		"data_name": "20 hz Isochronic Tone over 528 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for Adrenal Stimulant. It should not to be used during labour as it causes distress.  ",
 		"data_start": "play_isochronic(528, 548);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "5vhzkgnfp"
 	},
 	{
-		"data_name": "20 hz Isochronic Tone over 639 hz solfeggio",
+		"data_name": "20 hz Isochronic Tone over 639 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for imposing sub-conscious commands to another (The thought center of feelings).   It should not to be used during labour as it causes distress.",
 		"data_start": "play_isochronic(639, 659);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "h2ujmbfoi"
 	},
 	{
-		"data_name": "20 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "20 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Stimulation of pineal gland. Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 3], sinus infection [Phase 3], head cold [Phase 3],headache [Phase 3]. Commonly used 'cure-all' Rife Frequency [Phase 1].   It should not to be used during labour as it causes distress.  ",
 		"data_start": "play_isochronic(852, 872);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "ng0i40ed7"
 	},
 	{
-		"data_name": "20 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "20 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for imposing sub-conscious commands to another (The primary thought center).   It should not to be used during labour as it causes distress.  ",
 		"data_start": "play_isochronic(963, 983);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "iy4ud5gbt"
 	},
 	{
-		"data_name": "27 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "27 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for astral projection [flavor 4, phase 1] (Range lies from 26 hz to 28 hz). Produced during meditation by some [Phase 1].",
 		"data_start": "play_isochronic(852, 879);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "iy4ud5gbu"
 	},
 	{
-		"data_name": "27 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "27 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for astral projection [flavor 4, phase 2] (Range lies from 26 hz to 28 hz). Produced during meditation by some [Phase 2].",
 		"data_start": "play_isochronic(963, 990);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "iy4ud5gbv"
 	},
 	{
-		"data_name": "33 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "33 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Initiates Christ consciousness and hypersensitivity. Pyramid frequency (inside), Schumann Resonance (5th frequency of 7).",
 		"data_start": "play_isochronic(963, 996);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "bjlms946c"
 	},
 	{
-		"data_name": "40 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "40 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone at this frequency is used for Alzheimer's therapy [Phase 0] studies  to stimulate an increased neural response and fight symptoms of dementia. This binaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. This also reduces the effects of early onset of schizophrenia (could be used by more advanced patients too).",
 		"data_start": "play_isochronic(174, 214);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "4d35ktsri"
 	},
 	{
-		"data_name": "40 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "40 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Sounds at this frequency is used for Alzheimer's therapy [Phase 1] studies  to stimulate an increased neural response and fight symptoms of dementia. This Monaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance.",
 		"data_start": "play_isochronic(852, 892);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "4d35ktsrh"
 	},
 	{
-		"data_name": "40 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "40 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Sounds at this frequency is used for Alzheimer's therapy [Phase 2] studies to stimulate an increased neural response and fight symptoms of dementia. This Monaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance.",
 		"data_start": "play_isochronic(963, 1003);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "o2gvpztku"
 	},
 	{
-		"data_name": "40 hz Isochronic Tone between pure tone 984 hz and pure tone 1024 hz",
+		"data_name": "40 hz Isochronic Tone between pure tone 984 hz and pure tone 1024 Hz Solfeggio Frequency",
 		"data_description": "Sounds at this frequency is used for Alzheimer's therapy [Phase 3] studies to stimulate an increased neural response and fight symptoms of dementia. This Monaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. This special preset is also linked to cerebral cortex which increases intelligence over time. Also this balances all the 7 major spiritual chakras.",
 		"data_start": "play_isochronic(984, 1024);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "cttatzyqs"
 	},
 	{
-		"data_name": "63 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "63 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for astral projection [flavor 5, phase 1]",
 		"data_start": "play_isochronic(852, 915);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "cttatzyqt"
 	},
 	{
-		"data_name": "63 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "63 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for astral projection [flavor 5, phase 2]",
 		"data_start": "play_isochronic(963, 1026);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "cttatzyqv"
 	},
 	{
-		"data_name": "70 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "70 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for astral projection [flavor 6, phase 1]",
 		"data_start": "play_isochronic(852, 922);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "cttatzyqx"
 	},
 	{
-		"data_name": "70 hz Isochronic Tone over 963 hz solfeggio",
+		"data_name": "70 hz Isochronic Tone over 963 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for astral projection [flavor 6, phase 2]",
 		"data_start": "play_isochronic(852, 1033);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "cttatzyqy"
 	},
 	{
-		"data_name": "83 hz Isochronic Tone over 174 hz solfeggio",
+		"data_name": "83 hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 		"data_description": "Opens third eye for some people. Associated with Ajna Chakra [Phase 1, 1st flavor].",
 		"data_start": "play_isochronic(174, 257);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "1tta761d7"
 	},
 	{
-		"data_name": "83 hz Isochronic Tone over 852 hz solfeggio",
+		"data_name": "83 hz Isochronic Tone over 852 Hz Solfeggio Frequency",
 		"data_description": "Opens third eye for some people. Associated with Ajna Chakra [Phase 2, 1st flavor]",
 		"data_start": "play_isochronic(852, 935);",
 		"data_stop": "stop_isochronic();",
