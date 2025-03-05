@@ -64,7 +64,7 @@ function generateId(length) {
       var conditions = line[1];
       // Create an object with the required properties
       var jsonObject = {
-        "data_name": frequency + " hz - Pure Tone",
+        "data_name": frequency + " Hz - Pure Tone",
         "data_description": "Pure Tone for mental relief from " + conditions,
         "data_start": "play_pure_tone(" + frequency + ");",
         "data_stop": "stop_pure_tone();",
@@ -164,7 +164,7 @@ function generateId(length) {
       var conditions = line[1];
       // Create an object with the required properties
       var jsonObject = {
-        "data_name": frequency + " hz - Pure Tone",
+        "data_name": frequency + " Hz - Pure Tone",
         "data_description": "Pure Tone for mental relief from " + conditions,
         "data_start": "play_pure_tone(" + frequency + ");",
         "data_stop": "stop_pure_tone();",
@@ -256,7 +256,7 @@ function generateId(length) {
       conditions = conditions.replace(/_/g, " ");
       // Create an object with the required properties
       var jsonObject = {
-        "data_name": frequency + " hz - Pure Tone",
+        "data_name": frequency + " Hz - Pure Tone",
         "data_description": "Pure Tone for mental relief from " + conditions,
         "data_start": "play_pure_tone(" + frequency + ");",
         "data_stop": "stop_pure_tone();",
