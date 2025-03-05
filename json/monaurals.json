@@ -714,6 +714,27 @@
       "data_id":"0vub8askr"
    },
    {
+      "data_name":"12.5 hz Binaural Beats over 174 hz solfeggio",
+      "data_description":"Binaural Beats for shapeshifting.",
+      "data_start":"play_binaural(174, 186.5);",
+      "data_stop":"stop_binaural();",
+      "data_id":"0vub8asks"
+   },
+   {
+      "data_name":"12.5 hz Binaural Beats over 285 hz solfeggio",
+      "data_description":"Binaural Beats for shapeshifting.",
+      "data_start":"play_binaural(285, 270.5);",
+      "data_stop":"stop_binaural();",
+      "data_id":"0vub8askt"
+   },
+   {
+      "data_name":"12.5 hz Binaural Beats over 528 hz solfeggio",
+      "data_description":"Binaural Beats for shapeshifting.",
+      "data_start":"play_binaural(528, 540.5);",
+      "data_stop":"stop_binaural();",
+      "data_id":"0vub8asku"
+   },
+   {
       "data_name":"13 hz Monaural Beats over 174 hz solfeggio",
       "data_description":"This is associated with Ajna chakra (3rd eye) [Phase 1, 2nd flavor]. Aura color is indigo or violet. Enhanced body parts are Pituitary, Lower Brain, Left Eye, Ears, Nose, Nervous System. It gives Visualization, Conceptualization. Musical note is A.",
       "data_start":"play_monaural(174, 187);",
