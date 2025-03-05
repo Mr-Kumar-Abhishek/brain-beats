@@ -463,6 +463,13 @@
       "data_id":"1v0cmka6d"
    },
    {
+		"data_name":"6.5 hz Square Wave Monaural Beats over 888 hz Angel Frequency",
+		"data_description":"Square Wave Monaural Beats for Reality Shifting [flavor 2]. Center for theta brainwave frequency range [Last Phase]. Around this frequency there is frontal lobe or brain entrainment of two hemisphere.",
+		"data_start":"play_isochronic(888, 894.5);",
+		"data_stop":"stop_isochronic();",
+		"data_id":"1v0cmka6e"
+	 },
+   {
       "data_name":"7 hz Square Wave Monaural Beats over 285 Hz Solfeggio Frequency",
       "data_description":"Enhanced bone growth. Can also resonate and rupture organs at excessive intensity. Used as a treatment of sleep disturbances [Phase 1].",
       "data_start":"play_sq_monaural(285, 292);",
