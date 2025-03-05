@@ -462,6 +462,13 @@
 		"data_id": "fg8t6ab4u"
 	},
 	{
+		"data_name":"6.5 hz Isochronic Tone over 888 hz Angel Frequency",
+		"data_description":"Isochronic Tone for Reality Shifting [flavor 2]. Center for theta brainwave frequency range [Last Phase]. Around this frequency there is frontal lobe or brain entrainment of two hemisphere. ",
+		"data_start":"play_isochronic(888, 894.5);",
+		"data_stop":"stop_isochronic();",
+		"data_id":"fg8t6ab4v"
+	 },
+	{
 		"data_name": "7 hz Isochronic Tone over 285 Hz Solfeggio Frequency",
 		"data_description": "Enhanced bone growth. Can also resonate and rupture organs at excessive intensity. Used as a treatment of sleep disturbances [Phase 1].",
 		"data_start": "play_isochronic(285, 292);",
