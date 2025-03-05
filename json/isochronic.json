@@ -1,202 +1,202 @@
 [
 	{
-		"data_name": "0.1 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "0.1 hz Isochronic Tone over 174 hz solfeggio",
 		"data_description": "Isochronic Tone for Organ and muscle resonances [Phase 1]. Good for building muscles. To be used during excercise and sleep. Stimulates Pineal gland to produce DMT. [Phase 1]",
 		"data_start": "play_isochronic(174, 174.1);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "mn2b80q34"
 	},
 	{
-		"data_name": "0.1 hz Isochronic Tone over Solfeggio 285 hz",
+		"data_name": "0.1 hz Isochronic Tone over 285 hz solfeggio",
 		"data_description": "Isochronic Tone for Organ and muscle resonances [Phase 2]. Good for building muscles. To be used during excercise and sleep. Stimulates Pineal gland to produce DMT. [Phase 2]",
 		"data_start": "play_isochronic(285, 285.1);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "mn2b80q33"
 	},
 	{
-		"data_name": "0.15 hz Isochronic Tone over Solfeggio 417 hz",
+		"data_name": "0.15 hz Isochronic Tone over 417 hz solfeggio",
 		"data_description": "Isochronic Tone for relief from depression [Phase 1] due to past events. This is for mild depression[Phase 1]. Range Monaurals for it are comming soon which will be more effective.",
 		"data_start": "play_isochronic(417, 417.15);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "mn2b80q35"
 	},
 	{
-		"data_name": "0.15 hz Isochronic Tone over Solfeggio 963 hz",
+		"data_name": "0.15 hz Isochronic Tone over 963 hz solfeggio",
 		"data_description": "Monaural Beats for relief from depression [Phase 2]. This is for major depression [Phase 2]. Range Monaurals are comming soon which will be more effective.",
 		"data_start": "play_isochronic(963, 963.15);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "bsurcmzyv"
 	},
 	{
-		"data_name": "0.20 hz Isochronic Tone over Solfeggio 396 hz",
+		"data_name": "0.20 hz Isochronic Tone over 396 hz solfeggio",
 		"data_description": "Isochronic Tone for relief from post-traumatics[Phase 1].",
 		"data_start": "play_isochronic(396, 396.20);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "cnf0mobar"
 	},
 	{
-		"data_name": "0.26 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "0.26 hz Isochronic Tone over 174 hz solfeggio",
 		"data_description": " Isochronic Tone for relief in dental pain and gum inflamation (go see a dentist if you are using this).  [Phase 1] Switch to monaural if this doesn't work.",
 		"data_start": "play_isochronic(174, 174.26);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "x5lnwbvnp"
 	},
 	{
-		"data_name": "0.26 hz Isochronic Tone over Solfeggio 741 hz",
+		"data_name": "0.26 hz Isochronic Tone over 741 hz solfeggio",
 		"data_description": "Isochronic Tone for relief in dental pain and gum inflamation (go see a dentist if you are using this). [Phase 2] Switch to monaural if this doesn't work.",
 		"data_start": "play_isochronic(741, 741.26);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "p307qzrqi"
 	},
 	{
-		"data_name": "0.28 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "0.28 hz Isochronic Tone over 174 hz solfeggio",
 		"data_description": "Relief from Arthritis [Phase 1].",
 		"data_start": "play_isochronic(174, 174.28);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "rao3x1b4e"
 	},
 	{
-		"data_name": "0.28 hz Isochronic Tone over Solfeggio 285 hz",
+		"data_name": "0.28 hz Isochronic Tone over 285 hz solfeggio",
 		"data_description": "Relief from Arthritis [Phase 2].",
 		"data_start": "play_isochronic(285, 285.28);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "4o4eeuted"
 	},
 	{
-		"data_name": "0.37 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "0.37 hz Isochronic Tone over 174 hz solfeggio",
 		"data_description": "Relief from Alcohol Addiction [Phase 1, Flavor 1].",
 		"data_start": "play_isochronic(174, 174.37);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "e7c991gep7"
 	},
 	{
-		"data_name": "0.37 hz Isochronic Tone over Solfeggio 285 hz",
+		"data_name": "0.37 hz Isochronic Tone over 285 hz solfeggio",
 		"data_description": "Relief from Alcohol Addiction [Phase 2, Flavor 1].",
 		"data_start": "play_isochronic(285, 285.37);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "lcimv0kxuv"
 	},
 	{
-		"data_name": "0.5 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "0.5 hz Isochronic Tone over 174 hz solfeggio",
 		"data_description": "Very relaxing against headaches [Phase 1]. To be used for relief from lower back pain [Phase 1]. Thyroid[Phase 1], reproductive [Phase 1] and excretory stimulant [Phase 1]. Whole brain toner[Phase 1].",
 		"data_start": "play_isochronic(174, 174.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "33ghigl1l"
 	},
 	{
-		"data_name": "0.5 hz Isochronic Tone over Solfeggio 396 hz",
+		"data_name": "0.5 hz Isochronic Tone over 396 hz solfeggio",
 		"data_description": "To be used for relief from lower back pain [Phase 2]. Reproductive [Phase 2] and excretory stimulant [Phase 2].",
 		"data_start": "play_isochronic(396, 396.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "sxpsi3b87"
 	},
 	{
-		"data_name": "0.5 hz Isochronic Tone over Solfeggio 417 hz",
+		"data_name": "0.5 hz Isochronic Tone over 417 hz solfeggio",
 		"data_description": "Reproductive stimulant [Phase 2].To be used for relief from lower back pain [Phase 3].",
 		"data_start": "play_isochronic(417, 417.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "a4mwiiue2"
 	},
 	{
-		"data_name": "0.5 hz Isochronic Tone over Solfeggio 741 hz",
+		"data_name": "0.5 hz Isochronic Tone over 741 hz solfeggio",
 		"data_description": "Thyroid stimulant [Phase 2]",
 		"data_start": "play_isochronic(741, 741.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "g5mjrtlug"
 	},
 	{
-		"data_name": "0.5 hz Isochronic Tone over Solfeggio 852 hz",
+		"data_name": "0.5 hz Isochronic Tone over 852 hz solfeggio",
 		"data_description": "Very relaxing against headaches [Phase 2]. Whole brain toner [Phase 2].",
 		"data_start": "play_isochronic(852, 852.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "hkztitr60"
 	},
 	{
-		"data_name": "0.5 hz Isochronic Tone over Solfeggio 963 hz",
+		"data_name": "0.5 hz Isochronic Tone over 963 hz solfeggio",
 		"data_description": "Very relaxing against headaches [Phase 3]. Whole brain toner [Phase 3].",
 		"data_start": "play_isochronic(963, 963.5);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "vjvebnq4y"
 	},
 	{
-		"data_name": "0.9 hz Isochronic Tone over Solfeggio 639 hz",
+		"data_name": "0.9 hz Isochronic Tone over 639 hz solfeggio",
 		"data_description": "Isochronic Tone for Euphoria induction between friends family and partners.",
 		"data_start": "play_isochronic(639, 639.9);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "l5ekz53t0"
 	},
 	{
-		"data_name": "1 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "1 hz Isochronic Tone over 174 hz solfeggio",
 		"data_description": "Isochronic Tone for pituitary stimulation [Phase 1] to release growth hormone for healing",
 		"data_start": "play_isochronic(174, 175);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "v8d91vjth"
 	},
 	{
-		"data_name": "1 hz Isochronic Tone over Solfeggio 285 hz",
+		"data_name": "1 hz Isochronic Tone over 285 hz solfeggio",
 		"data_description": "Isochronic Tone for pituitary stimulation [Phase 3] to release growth hormone for regeneration and growth.",
 		"data_start": "play_isochronic(285, 286);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "y2wfjhid7"
 	},
 	{
-		"data_name": "1 hz Isochronic Tone over Solfeggio 639 hz",
+		"data_name": "1 hz Isochronic Tone over 639 hz solfeggio",
 		"data_description": "Isochronic Tone for over-all view of inter-relationships and its reconnection.",
 		"data_start": "play_isochronic(639, 640);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "5yh843tqu"
 	},
 	{
-		"data_name": "1 hz Isochronic Tone over Solfeggio 741 hz",
+		"data_name": "1 hz Isochronic Tone over 741 hz solfeggio",
 		"data_description": "Isochronic Tone for balance and harmony.",
 		"data_start": "play_isochronic(741, 742);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "up9mswi13"
 	},
 	{
-		"data_name": "1 hz Isochronic Tone over Solfeggio 852 hz",
+		"data_name": "1 hz Isochronic Tone over 852 hz solfeggio",
 		"data_description": "Isochronic Tone for pituitary stimulation [Phase 2] to release growth hormone.",
 		"data_start": "play_isochronic(852, 856);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "dq29p6ubb"
 	},
 	{
-		"data_name": "1.2 hz Isochronic Tone over Solfeggio 174 hz",
+		"data_name": "1.2 hz Isochronic Tone over 174 hz solfeggio",
 		"data_description": "Isochronic Tone for relief from minor headaches [Phase 1]. Switch to 2nd Phase after sometime.",
 		"data_start": "play_isochronic(174, 175.2);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "vk9xec30q"
 	},
 	{
-		"data_name": "1.2 hz Isochronic Tone over Solfeggio 852 hz",
+		"data_name": "1.2 hz Isochronic Tone over 852 hz solfeggio",
 		"data_description": "Isochronic Tone for relief from minor headaches [Phase 2]. Switch Phase 3 after sometime.",
 		"data_start": "play_isochronic(852, 853.2);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "3t8wqmjjq"
 	},
 	{
-		"data_name": "1.2 hz Isochronic Tone over Solfeggio 963 hz",
+		"data_name": "1.2 hz Isochronic Tone over 963 hz solfeggio",
 		"data_description": "Isochronic Tone for relief from minor headaches [Phase 3].",
 		"data_start": "play_isochronic(963, 964.2);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "jebx25mao"
 	},
 	{
-		"data_name": "1.618033988749 hz Binaural Beats over Solfeggio 174 hz",
+		"data_name": "1.618033988749 hz Isochronic tone over 174 hz solfeggio",
 		"data_description": "Isochronic tone for perfect body and face (golden ratio) [Phase 0].",
 		"data_start": "play_isochronic(174, 175.618033988749);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "h22zpydhm"
 	},
 	{
-		"data_name": "1.618033988749 hz Binaural Beats over Solfeggio 285 hz",
+		"data_name": "1.618033988749 hz Isochronic tone over 285 hz solfeggio",
 		"data_description": "Isochronic tone for perfect body and face (golden ratio) [Phase 1].",
 		"data_start": "play_isochronic(285, 286.618033988749);",
 		"data_stop": "stop_isochronic();",
 		"data_id": "h23zpydhn"
 	},
 	{
-		"data_name": "1.618033988749 hz Binaural Beats over Solfeggio 528 hz",
+		"data_name": "1.618033988749 hz Isochronic tone over 528 hz solfeggio",
 		"data_description": "Isochronic tone for perfect body and face (golden ratio) [Phase 2].",
 		"data_start": "play_isochronic(528, 529.618033988749);",
 		"data_stop": "stop_isochronic();",
