@@ -679,6 +679,13 @@
       "data_id":"b42ptybqh"
    },
    {
+      "data_name":"11 Hz Binaural Beats over 174 Hz Solfeggio Frequency",
+      "data_description":"Binaural Beats for Silva Meditation [Phase 1]. Used for Silva Mind Control. It is utilized for being in relaxed alertness and having proper awareness of your surroundings [Phase 1].",
+      "data_start":"play_binaural(174, 185);",
+      "data_stop":"stop_binaural();",
+      "data_id":"b42ptybqi"
+   },
+   {
       "data_name":"12 Hz Binaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"For opening of throat chakra / Vishuddha chakra [Phase 1]. Musical Note is G. Aura color is blue. Centering mental stabilty [Phase 1], transistional point and time accelerater [ Phase 1 ]. Upper earth resonance frequency [Phase 1] via Hercules. Enhanced body parts are Thyroid [ Phase 1 ], Lungs [ Phase 1 ], Vocal Cords [ Phase 1 ].",
       "data_start":"play_binaural(174, 186);",
