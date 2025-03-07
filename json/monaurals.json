@@ -679,6 +679,13 @@
       "data_id":"4ecffjy09"
    },
    {
+      "data_name":"11 Hz Monaural Beats over 174 Hz Solfeggio Frequency",
+      "data_description":"Monaural Beats for Silva Meditation [Phase 1]. Used for Silva Mind Control. It is utilized for being in relaxed alertness and having proper awareness of your surroundings [Phase 1].",
+      "data_start":"play_monaural(174, 185);",
+      "data_stop":"stop_monaural();",
+      "data_id":"4ecffjy10"
+   },
+   {
       "data_name":"12 Hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"For opening of throat chakra / Vishuddha chakra [Phase 1]. Musical Note is G. Aura color is blue. Centering mental stabilty [Phase 1], transistional point and time accelerater [ Phase 1 ]. Upper earth resonance frequency [Phase 1] via Hercules. Enhanced body parts are Thyroid [ Phase 1 ], Lungs [ Phase 1 ], Vocal Cords [ Phase 1 ].",
       "data_start":"play_monaural(174, 186);",
