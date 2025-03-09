@@ -185,7 +185,7 @@
 		"data_name":"1.5 Hz Isocrhonic Tone over 174 Hz Solfeggio Frequency",
 		"data_description":"Isocronic Tone of Abhrahams Universal Healing Rate. Used for Sleep [Flavour 2]. Subjects who's ailments have manifested into the 4th stage chronic fatigue, where some of disease is apparent, experienced a release from those negative sensations of thier symptoms when moved to 1.5 Hz [Flavour 1].",
 		"data_start":"play_isochronic(174, 175.5);",
-		"data_stop":"stop_isocrhonic();",
+		"data_stop":"stop_isochronic();",
 		"data_id":"jebx25map"
 	 },
 	{
