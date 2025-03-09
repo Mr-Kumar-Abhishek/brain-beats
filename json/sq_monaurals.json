@@ -183,6 +183,13 @@
       "data_id":"u8vla4bag"
    },
    {
+      "data_name":"1.5 Hz Square Wave Monaural Beats over 174 Hz Solfeggio Frequency",
+      "data_description":"Square Wave Monaural Beats of Abhrahams Universal Healing Rate. Used for Sleep [Flavour 2]. Subjects who's ailments have manifested into the 4th stage chronic fatigue, where some of disease is apparent, experienced a release from those negative sensations of thier symptoms when moved to 1.5 Hz [Flavour 1].",
+      "data_start":"play_sq_monaural(174, 175.5);",
+      "data_stop":"stop_sq_monaural();",
+      "data_id":"u8vla4bah"
+   },
+   {
 		"data_name": "1.618033988749 Hz Binaural Beats over 174 Hz Solfeggio Frequency",
 		"data_description": "Square wave monaural beats for perfect body and face (golden ratio) [Phase 0].",
 		"data_start": "play_sq_monaural(174, 175.618033988749);",
