@@ -183,10 +183,17 @@
 	},
 	{
 		"data_name":"1.5 Hz Isocrhonic Tone over 174 Hz Solfeggio Frequency",
-		"data_description":"Isocronic Tone of Abhrahams Universal Healing Rate. Used for Sleep [Flavour 2]. Subjects who's ailments have manifested into the 4th stage chronic fatigue, where some of disease is apparent, experienced a release from those negative sensations of thier symptoms when moved to 1.5 Hz [Flavour 1].",
+		"data_description":"Isocronic Tone of Abhrahams Universal Healing Rate [Phase 1]. Used for Sleep [Flavour 2, Phase 1]. Subjects who's ailments have manifested into the 4th stage chronic fatigue, where some of disease is apparent, experienced a release from those negative sensations of thier symptoms when moved to 1.5 Hz [Flavour 1, Phase 1].",
 		"data_start":"play_isochronic(174, 175.5);",
 		"data_stop":"stop_isochronic();",
 		"data_id":"jebx25map"
+	 },
+	 {
+		"data_name":"1.5 Hz Isocrhonic Tone over 258 Hz Solfeggio Frequency",
+		"data_description":"Isocronic Tone of Abhrahams Universal Healing Rate [Phase 2]. Used for Sleep [Flavour 2, Phase 1]. Subjects who's ailments have manifested into the 4th stage chronic fatigue, where some of disease is apparent, experienced a release from those negative sensations of thier symptoms when moved to 1.5 Hz [Flavour 1, Phase 2].",
+		"data_start":"play_isochronic(258, 259.5);",
+		"data_stop":"stop_isochronic();",
+		"data_id":"jebx25maq"
 	 },
 	{
 		"data_name": "1.618033988749 Hz Isochronic tone over 174 Hz Solfeggio Frequency",
