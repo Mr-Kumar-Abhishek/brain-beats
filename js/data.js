@@ -25,11 +25,21 @@ fetch(jsonData)
   const dataDescription = dataNode.querySelector(".card-text");
   const dataPlay = dataNode.querySelector(".play");
   const dataStop = dataNode.querySelector(".stop");
+  const dataDownload = dataNode.querySelector(".download");
   const dataID = dataNode.querySelector(".fav");
   dataTitle.textContent = dataPreset.data_name;
   dataDescription.textContent = dataPreset.data_description;
   dataPlay.setAttribute("onclick", dataPreset.data_start);
   dataStop.setAttribute("onclick", dataPreset.data_stop);
+  
+  // Create download function based on the preset's play function
+  // This extracts the parameters from the data_start attribute
+  let downloadFunction = dataPreset.data_start;
+  
+  // Change the function name from play_* to download_*
+  downloadFunction = downloadFunction.replace(/play_([^(]*)\(/, 'download_$1(');
+  
+  dataDownload.setAttribute("onclick", downloadFunction);
   dataID.setAttribute("id", dataPreset.data_id);
   if (favorites.includes(dataID.id)) {
     dataID.classList.add("faved");
