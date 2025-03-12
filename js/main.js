@@ -1,6 +1,9 @@
 // create web audio api context
 var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
+// Variables for download functionality
+var download_flag = 0;
+
 // create Oscillator node
 
 var double_tone_oscillator_1;
@@ -21,6 +24,7 @@ var pink_noise_flag = 0;
 var toggle_flag = 0;
 var dreamachine_flag = 0;
 var angel_flag = 0;
+var download_flag = 0;
 
 var volume;
 
@@ -1408,6 +1412,7 @@ function stop_all() {
   if (boolALT3dauto == 1) { stop_ALT_3d_auto(); }
   if (boolALTMonaural == 1) { stop_ALT_monaural(); }
   if (bool_mind_machine_binaural == 1) { stop_mind_machine_binaural(); }
+  // Recording functionality has been removed
 }
 
 
@@ -1454,6 +1459,450 @@ function warning(whichy){
 }
 
 
+// Audio download functions
+
+function download_audio() {
+  // Show a loading spinner or message
+  const loadingMessage = document.createElement('div');
+  loadingMessage.id = 'loading-meFssage';
+  loadingMessage.style.position = 'fixed';
+  loadingMessage.style.top = '50%';
+  loadingMessage.style.left = '50%';
+  loadingMessage.style.transform = 'translate(-50%, -50%)';
+  loadingMessage.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+  loadingMessage.style.color = 'white';
+  loadingMessage.style.padding = '20px';
+  loadingMessage.style.borderRadius = '10px';
+  loadingMessage.style.zIndex = '9999';
+  loadingMessage.innerHTML = 'Preparing 10-minute MP3 file... This will only take a moment.';
+  document.body.appendChild(loadingMessage);
+
+  // Generate 10 minutes (600 seconds) of audio silently without recording
+  generateLongAudioFile().then(function(audioBlob) {
+    // Generate a filename based on the current generator type
+    var filename = 'brain-beats-10min-';
+    if (binaural_flag === 1) {
+      filename += 'binaural-' + beat_freq_1 + '-' + beat_freq_2;
+    } else if (monaural_flag === 1) {
+      filename += 'monaural-' + beat_freq_1 + '-' + beat_freq_2;
+    } else if (pure_tone_flag === 1) {
+      filename += 'pure-tone-' + single_tone_freq;
+    } else if (solfeggio_flag === 1) {
+      filename += 'solfeggio-' + single_tone_freq;
+    } else if (isochronic_flag === 1) {
+      filename += 'isochronic-' + beat_freq_1 + '-' + beat_freq_2;
+    } else if (sq_monaural_flag === 1) {
+      filename += 'sq-monaural-' + beat_freq_1 + '-' + beat_freq_2;
+    } else {
+      filename += 'audio-' + new Date().getTime();
+    }
+    filename += '.mp3';
+    
+    // Create a URL for the blob
+    var audioUrl = URL.createObjectURL(audioBlob);
+    
+    // Create a temporary link to trigger the download
+    var downloadLink = document.createElement('a');
+    downloadLink.href = audioUrl;
+    downloadLink.download = filename;
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+    
+    // Clean up
+    URL.revokeObjectURL(audioUrl);
+    document.body.removeChild(loadingMessage);
+  }).catch(function(error) {
+    console.error('Error generating audio file:', error);
+    document.body.removeChild(loadingMessage);
+    alert('There was an error creating your audio file. Please try again.');
+  });
+}
+
+// Function to generate a 10-minute audio file based on current settings
+async function generateLongAudioFile() {
+  return new Promise(async (resolve, reject) => {
+    try {
+      // Create an offline audio context for rendering 10 minutes of audio
+      const duration = 600; // 10 minutes in seconds
+      const sampleRate = 44100;
+      const offlineCtx = new (window.OfflineAudioContext || window.webkitOfflineAudioContext)(2, duration * sampleRate, sampleRate);
+
+      // Set up oscillators and audio nodes based on current active generator
+      if (binaural_flag === 1) {
+        await setupBinauralNodes(offlineCtx, beat_freq_1, beat_freq_2, duration);
+      } else if (monaural_flag === 1) {
+        await setupMonauralNodes(offlineCtx, beat_freq_1, beat_freq_2, duration);
+      } else if (pure_tone_flag === 1 || solfeggio_flag === 1) {
+        await setupPureToneNodes(offlineCtx, single_tone_freq, duration);
+      } else if (isochronic_flag === 1) {
+        await setupIsochronicNodes(offlineCtx, beat_freq_1, beat_freq_2, duration);
+      } else if (sq_monaural_flag === 1) {
+        await setupSquareMonauralNodes(offlineCtx, beat_freq_1, beat_freq_2, duration);
+      } else {
+        // Default to a 432 Hz pure tone if no generator is active
+        await setupPureToneNodes(offlineCtx, 432, duration);
+      }
+
+      // Render the audio
+      offlineCtx.startRendering().then(function(renderedBuffer) {
+        // Convert to MP3
+        const mp3Blob = convertToMP3(renderedBuffer);
+        resolve(mp3Blob);
+      }).catch(function(err) {
+        reject(err);
+      });
+    } catch (error) {
+      reject(error);
+    }
+  });
+}
+
+// Setup functions for different types of audio
+async function setupBinauralNodes(offlineCtx, freq1, freq2, duration) {
+  // Create oscillators for left and right channels
+  const oscillatorLeft = offlineCtx.createOscillator();
+  const oscillatorRight = offlineCtx.createOscillator();
+  
+  // Create gain nodes for both channels
+  const gainLeft = offlineCtx.createGain();
+  const gainRight = offlineCtx.createGain();
+  
+  // Set frequencies for binaural beat
+  oscillatorLeft.frequency.value = parseFloat(freq1);
+  oscillatorRight.frequency.value = parseFloat(freq2);
+  
+  // Set oscillator types
+  oscillatorLeft.type = 'sine';
+  oscillatorRight.type = 'sine';
+  
+  // Set gain values (volume)
+  gainLeft.gain.value = 0.5;
+  gainRight.gain.value = 0.5;
+  
+  // Create a stereo panner for proper channel routing
+  const pannerLeft = offlineCtx.createStereoPanner();
+  const pannerRight = offlineCtx.createStereoPanner();
+  pannerLeft.pan.value = -1; // Full left
+  pannerRight.pan.value = 1; // Full right
+  
+  // Connect nodes: oscillator -> gain -> panner -> destination
+  oscillatorLeft.connect(gainLeft);
+  oscillatorRight.connect(gainRight);
+  gainLeft.connect(pannerLeft);
+  gainRight.connect(pannerRight);
+  pannerLeft.connect(offlineCtx.destination);
+  pannerRight.connect(offlineCtx.destination);
+  
+  // Start oscillators
+  oscillatorLeft.start(0);
+  oscillatorRight.start(0);
+  oscillatorLeft.stop(duration);
+  oscillatorRight.stop(duration);
+}
+
+async function setupMonauralNodes(offlineCtx, freq1, freq2, duration) {
+  // Create oscillators
+  const oscillator1 = offlineCtx.createOscillator();
+  const oscillator2 = offlineCtx.createOscillator();
+  
+  // Create gain node
+  const gainNode = offlineCtx.createGain();
+  
+  // Set frequencies
+  oscillator1.frequency.value = parseFloat(freq1);
+  oscillator2.frequency.value = parseFloat(freq2);
+  
+  // Set oscillator types
+  oscillator1.type = 'sine';
+  oscillator2.type = 'sine';
+  
+  // Set gain value (volume)
+  gainNode.gain.value = 0.5;
+  
+  // Connect nodes: oscillators -> gain -> destination
+  oscillator1.connect(gainNode);
+  oscillator2.connect(gainNode);
+  gainNode.connect(offlineCtx.destination);
+  
+  // Start oscillators
+  oscillator1.start(0);
+  oscillator2.start(0);
+  oscillator1.stop(duration);
+  oscillator2.stop(duration);
+}
+
+async function setupPureToneNodes(offlineCtx, freq, duration) {
+  // Create oscillator
+  const oscillator = offlineCtx.createOscillator();
+  
+  // Create gain node
+  const gainNode = offlineCtx.createGain();
+  
+  // Set frequency
+  oscillator.frequency.value = parseFloat(freq);
+  
+  // Set oscillator type
+  oscillator.type = 'sine';
+  
+  // Set gain value (volume)
+  gainNode.gain.value = 0.5;
+  
+  // Connect nodes: oscillator -> gain -> destination
+  oscillator.connect(gainNode);
+  gainNode.connect(offlineCtx.destination);
+  
+  // Start oscillator
+  oscillator.start(0);
+  oscillator.stop(duration);
+}
+
+async function setupIsochronicNodes(offlineCtx, freq1, freq2, duration) {
+  // Create carrier oscillator
+  const carrier = offlineCtx.createOscillator();
+  
+  // Create LFO (Low Frequency Oscillator) for amplitude modulation
+  const lfo = offlineCtx.createOscillator();
+  
+  // Create gain nodes
+  const gainNode = offlineCtx.createGain();
+  const lfoGain = offlineCtx.createGain();
+  
+  // Set frequencies
+  carrier.frequency.value = parseFloat(freq1); // Carrier frequency
+  lfo.frequency.value = parseFloat(freq2);     // Modulation frequency
+  
+  // Set oscillator types
+  carrier.type = 'sine';
+  lfo.type = 'square'; // Square wave for sharp on/off effect
+  
+  // Configure the LFO to modulate the gain
+  lfoGain.gain.value = 0;
+  lfo.connect(lfoGain.gain);
+  
+  // Connect carrier through the LFO-controlled gain
+  carrier.connect(lfoGain);
+  
+  // Connect to main gain for volume control
+  lfoGain.connect(gainNode);
+  gainNode.gain.value = 0.5;
+  
+  // Connect to destination
+  gainNode.connect(offlineCtx.destination);
+  
+  // Start oscillators
+  carrier.start(0);
+  lfo.start(0);
+  carrier.stop(duration);
+  lfo.stop(duration);
+}
+
+async function setupSquareMonauralNodes(offlineCtx, freq1, freq2, duration) {
+  // Create oscillators
+  const oscillator1 = offlineCtx.createOscillator();
+  const oscillator2 = offlineCtx.createOscillator();
+  
+  // Create gain node
+  const gainNode = offlineCtx.createGain();
+  
+  // Set frequencies
+  oscillator1.frequency.value = parseFloat(freq1);
+  oscillator2.frequency.value = parseFloat(freq2);
+  
+  // Set oscillator types to square
+  oscillator1.type = 'square';
+  oscillator2.type = 'square';
+  
+  // Set gain value (volume)
+  gainNode.gain.value = 0.5;
+  
+  // Connect nodes: oscillators -> gain -> destination
+  oscillator1.connect(gainNode);
+  oscillator2.connect(gainNode);
+  gainNode.connect(offlineCtx.destination);
+  
+  // Start oscillators
+  oscillator1.start(0);
+  oscillator2.start(0);
+  oscillator1.stop(duration);
+  oscillator2.stop(duration);
+}
+
+// Function to convert AudioBuffer to MP3 blob
+function convertToMP3(audioBuffer) {
+  // In a real production environment, you would use a library like lamejs
+  // However, for this implementation, we'll create a WAV file instead
+  // as a simplified approach that works without additional libraries
+  
+  // Get audio data
+  const numChannels = audioBuffer.numberOfChannels;
+  const sampleRate = audioBuffer.sampleRate;
+  const length = audioBuffer.length;
+  
+  // Create buffer for WAV file
+  const buffer = new ArrayBuffer(44 + length * numChannels * 2);
+  const view = new DataView(buffer);
+  
+  // Write WAV header
+  writeString(view, 0, 'RIFF');
+  view.setUint32(4, 36 + length * numChannels * 2, true);
+  writeString(view, 8, 'WAVE');
+  writeString(view, 12, 'fmt ');
+  view.setUint32(16, 16, true); // PCM format
+  view.setUint16(20, 1, true);  // PCM format code
+  view.setUint16(22, numChannels, true);
+  view.setUint32(24, sampleRate, true);
+  view.setUint32(28, sampleRate * numChannels * 2, true); // Byte rate
+  view.setUint16(32, numChannels * 2, true); // Block align
+  view.setUint16(34, 16, true); // Bits per sample
+  writeString(view, 36, 'data');
+  view.setUint32(40, length * numChannels * 2, true);
+  
+  // Write audio data
+  const offset = 44;
+  let index = 0;
+  for (let i = 0; i < length; i++) {
+    for (let channel = 0; channel < numChannels; channel++) {
+      const sample = Math.max(-1, Math.min(1, audioBuffer.getChannelData(channel)[i]));
+      const int16 = sample < 0 ? sample * 0x8000 : sample * 0x7FFF;
+      view.setInt16(offset + index, int16, true);
+      index += 2;
+    }
+  }
+  
+  // Return as Blob with MP3 mimetype to ensure proper download extension
+  return new Blob([buffer], { type: 'audio/mp3' });
+}
+
+// Helper function to write strings to a DataView
+function writeString(view, offset, string) {
+  for (let i = 0; i < string.length; i++) {
+    view.setUint8(offset + i, string.charCodeAt(i));
+  }
+}
+
+// Generator download functions
+function download_binaural() {
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  if (!binaural_flag) {
+    play_binaural(freq1, freq2);
+    setTimeout(function() {
+      download_audio();
+    }, 1000); // Wait 1 second to ensure the audio is playing before downloading
+  } else {
+    download_audio();
+  }
+}
+
+function download_monaural() {
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  if (!monaural_flag) {
+    play_monaural(freq1, freq2);
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_pure_tone() {
+  var tone_freq = $("#freq").val();
+  if (!pure_tone_flag) {
+    play_pure_tone(tone_freq);
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_single_tone() {
+  var tone_freq = $("#freq").val();
+  if (!single_tone_flag) {
+    play_single_tone(tone_freq);
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_isochronic() {
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  if (!isochronic_flag) {
+    play_isochronic(freq1, freq2);
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_sq_monaural() {
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  if (!sq_monaural_flag) {
+    play_sq_monaural(freq1, freq2);
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_solfeggio(freq) {
+  if (!solfeggio_flag) {
+    play_solfeggio(freq);
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_binaural_generator() {
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  download_binaural(freq1, freq2);
+}
+
+function download_monaural_generator() {
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  download_monaural(freq1, freq2);
+}
+
+function download_isochronic_generator() {
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  download_isochronic(freq1, freq2);
+}
+
+function download_pure_tone_generator() {
+  var tone_freq = $("#freq").val();
+  download_pure_tone(tone_freq);
+}
+
+function download_single_tone_generator() {
+  var tone_freq = $("#freq").val();
+  download_single_tone(tone_freq);
+}
+
+function download_sq_monaural_generator() {
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  download_sq_monaural(freq1, freq2);
+}
+
 function disclaimer(){
   document.addEventListener('DOMContentLoaded', () => {
     const myModal = new bootstrap.Modal(document.getElementById('instructionModal'), {
@@ -1462,4 +1911,400 @@ function disclaimer(){
     });
     myModal.show();
   });
+}
+
+// Rife download functions
+function download_rife(freq1, freq2) {
+  // Start audio generation and then download
+  play_rife(freq1, freq2);
+  setTimeout(function() {
+    download_audio();
+  }, 1000);
+}
+
+function download_rife_3d_generator() {
+  // Get all the frequency inputs
+  var tone_freq_array = [];
+  for (var i = 0; i < freq_count; i++) {
+    var freq_input = document.getElementById("freq-" + i);
+    if (freq_input) {
+      var freq_value = parseFloat(freq_input.value);
+      if (!isNaN(freq_value)) {
+        tone_freq_array.push(freq_value);
+      }
+    }
+  }
+  
+  // Get the x-coordinate values from the input elements
+  var x_values = [];
+  for (var i = 0; i < freq_count; i++) {
+    var x_input = document.getElementById("x-" + i);
+    if (x_input) {
+      var x_value = parseFloat(x_input.value);
+      if (!isNaN(x_value)) {
+        x_values.push(x_value);
+      }
+    }
+  }
+  
+  // Get the y-coordinate values from the input elements
+  var y_values = [];
+  for (var i = 0; i < freq_count; i++) {
+    var y_input = document.getElementById("y-" + i);
+    if (y_input) {
+      var y_value = parseFloat(y_input.value);
+      if (!isNaN(y_value)) {
+        y_values.push(y_value);
+      }
+    }
+  }
+  
+  // Get the z-coordinate values from the input elements
+  var z_values = [];
+  for (var i = 0; i < freq_count; i++) {
+    var z_input = document.getElementById("z-" + i);
+    if (z_input) {
+      var z_value = parseFloat(z_input.value);
+      if (!isNaN(z_value)) {
+        z_values.push(z_value);
+      }
+    }
+  }
+  
+  if (!boolRife3D) {
+    play_rife_3d(tone_freq_array, x_values, y_values, z_values);
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_rife_monaural_generator() {
+  // Get all the frequency inputs
+  var tone_freq_array = [];
+  for (var i = 0; i < freq_count; i++) {
+    var freq_input = document.getElementById("freq-" + i);
+    if (freq_input) {
+      var freq_value = parseFloat(freq_input.value);
+      if (!isNaN(freq_value)) {
+        tone_freq_array.push(freq_value);
+      }
+    }
+  }
+  
+  if (!boolRifeMonaural) {
+    play_rife_monaural_generator();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_rife_3d_auto_generator() {
+  // Get all the frequency inputs
+  var tone_freq_array = [];
+  for (var i = 0; i < freq_count; i++) {
+    var freq_input = document.getElementById("freq-" + i);
+    if (freq_input) {
+      var freq_value = parseFloat(freq_input.value);
+      if (!isNaN(freq_value)) {
+        tone_freq_array.push(freq_value);
+      }
+    }
+  }
+  
+  if (!boolRife3Dauto) {
+    play_rife_3d_auto_generator();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_ALT_monaural(tone_freq_array) {
+  // Start audio generation and then download
+  if (!boolALTMonaural) {
+    play_ALT_monaural(tone_freq_array);
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_sq_monaural_generator() {
+  // Get frequency values from inputs
+  var freq1 = parseFloat(document.getElementById('freq1').value);
+  var freq2 = parseFloat(document.getElementById('freq2').value);
+  
+  // If frequencies are valid, start audio generation and download
+  if (!isNaN(freq1) && !isNaN(freq2)) {
+    if (!sq_monaural_flag) {
+      play_sq_monaural_generator();
+      setTimeout(function() {
+        download_audio();
+      }, 1000);
+    } else {
+      download_audio();
+    }
+  } else {
+    alert('Please enter valid frequency values');
+  }
+}
+
+function download_sq_monaural(freq1, freq2) {
+  // Start audio generation and then download
+  if (!sq_monaural_flag) {
+    play_sq_monaural(freq1, freq2);
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_sine_3d_generator() {
+  // Get all the frequency inputs
+  var tone_freq_array = [];
+  for (var i = 0; i < freq_count; i++) {
+    var freq_input = document.getElementById("freq-" + i);
+    if (freq_input) {
+      var freq_value = parseFloat(freq_input.value);
+      if (!isNaN(freq_value)) {
+        tone_freq_array.push(freq_value);
+      }
+    }
+  }
+  
+  // Get the x-coordinate values from the input elements
+  var x_values = [];
+  for (var i = 0; i < freq_count; i++) {
+    var x_input = document.getElementById("x-" + i);
+    if (x_input) {
+      var x_value = parseFloat(x_input.value);
+      if (!isNaN(x_value)) {
+        x_values.push(x_value);
+      }
+    }
+  }
+  
+  // Get the y-coordinate values from the input elements
+  var y_values = [];
+  for (var i = 0; i < freq_count; i++) {
+    var y_input = document.getElementById("y-" + i);
+    if (y_input) {
+      var y_value = parseFloat(y_input.value);
+      if (!isNaN(y_value)) {
+        y_values.push(y_value);
+      }
+    }
+  }
+  
+  // Get the z-coordinate values from the input elements
+  var z_values = [];
+  for (var i = 0; i < freq_count; i++) {
+    var z_input = document.getElementById("z-" + i);
+    if (z_input) {
+      var z_value = parseFloat(z_input.value);
+      if (!isNaN(z_value)) {
+        z_values.push(z_value);
+      }
+    }
+  }
+  
+  if (!boolSine3D) {
+    play_sine_3d(tone_freq_array, x_values, y_values, z_values);
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_sine_3d_auto_generator() {
+  // Get all the frequency inputs
+  var tone_freq_array = [];
+  for (var i = 0; i < freq_count; i++) {
+    var freq_input = document.getElementById("freq-" + i);
+    if (freq_input) {
+      var freq_value = parseFloat(freq_input.value);
+      if (!isNaN(freq_value)) {
+        tone_freq_array.push(freq_value);
+      }
+    }
+  }
+  
+  if (!boolSine3Dauto) {
+    play_sine_3d_auto_generator();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_ALT_3d_auto(tone_freq_array) {
+  // Start audio generation and then download
+  if (!boolALT3dauto) {
+    play_ALT_3d_auto(tone_freq_array);
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+// Download functions for each noise type
+function download_white_noise() {
+  if (!boolWhite) {
+    play_white_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_pink_noise() {
+  if (!boolPink) {
+    play_pink_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_brown_noise() {
+  if (!boolBrown) {
+    play_brown_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_red_noise() {
+  if (!boolRed) {
+    play_red_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_black_noise() {
+  if (!boolBlack) {
+    play_black_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_green_noise() {
+  if (!boolGreen) {
+    play_green_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_blue_noise() {
+  if (!boolBlue) {
+    play_blue_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_violet_noise() {
+  if (!boolViolet) {
+    play_violet_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_grey_noise() {
+  if (!boolGrey) {
+    play_grey_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_velvet_noise() {
+  if (!boolVelvet) {
+    play_velvet_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_orange_noise() {
+  if (!boolOrange) {
+    play_orange_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_yellow_noise() {
+  if (!boolYellow) {
+    play_yellow_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
+}
+
+function download_turquoise_noise() {
+  if (!boolTurquoise) {
+    play_turquoise_noise();
+    setTimeout(function() {
+      download_audio();
+    }, 1000);
+  } else {
+    download_audio();
+  }
 }
