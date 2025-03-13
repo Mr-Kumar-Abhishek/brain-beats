@@ -1,11 +1,129 @@
-# Brain Beats
+# Brain Beats - Brainwave Entrainment Web Application
 
-Brain Beats is a web app which is utilised to produce sounds that will help change the brainwaves of brain. These sounds are utilized for meditation, getting sleep or even getting relief from physical problems such headaches. 
+Brain Beats is a web application designed to produce sounds that help alter brainwaves for various purposes such as meditation, sleep improvement, and relief from physical discomforts like headaches. It offers a range of sound types and generators to cater to different brainwave entrainment needs.
 
-Currently, the web app has 5 types of sounds that are:
+## Features
 
-* Colours of Noise
-* Solfeggio Frequencies
-* Binaural Beats
-* Monaural Beats
-* Square Wave Monaural Beats
+The web app currently features the following types of sounds and generators:
+
+### Sound Types:
+
+*   **Colours of Noise:** Includes presets for White Noise, Pink Noise, Brown Noise, and other noise colors, each with unique spectral characteristics for different effects like relaxation or focus.
+*   **Solfeggio Frequencies:** A collection of ancient tones believed to have healing and spiritual properties, often used for meditation and chakra balancing.
+*   **Angel Frequencies:** Modern tones believed to have positive and uplifting effects, suitable for meditation and creating a positive environment.
+*   **Pure Tones:** Basic sine wave tones for generating specific frequencies, allowing users to experiment with different brainwave frequencies.
+*   **Binaural Beats:** Two tones played in each ear at slightly different frequencies, creating a perceived beat frequency in the brain, used for inducing specific mental states.
+*   **Monaural Beats:** Two tones mixed together and played in both ears, creating a beat frequency through amplitude modulation, also used for brainwave entrainment.
+*   **Square Wave Monaural Beats:** Monaural beats generated using square waveforms instead of sine waves, offering a different harmonic content.
+*   **Rife Frequencies CAFL XREF:** A collection of pure tones based on the Consolidated Annotated Frequency List (CAFL), associated with the work of Royal Rife and believed to have therapeutic effects.
+
+### Generators:
+
+*   **Pure Tone Generator:** Allows users to generate a single pure tone at a specified frequency.
+*   **Binaural Beats Generator:** Enables users to create custom binaural beats by setting frequencies for the left and right ears.
+*   **Monaural Beats Generator:** Generates custom monaural beats by allowing users to set two frequencies that are mixed to create the beat.
+*   **Square Wave Monaural Beats Generator:** Similar to the monaural beats generator but uses square waveforms.
+*   **Isochronic Tone Generator:** Creates isochronic tones, which are pulses of a single tone, known for their effectiveness in brainwave entrainment.
+*   **Sine Wave 3D Generators (Auto and Manual):** Generators for creating 3D spatial audio sine wave tones, with options for automatic or manual coordinate distribution.
+*   **Rife 3D Generators (Auto and Manual):** 3D spatial audio generators using Rife frequencies.
+*   **Sine Wave Monaural Generator:** Generator for creating monaural beats using sine waves.
+*   **Rife Monaural Generator:** Generator for creating monaural beats using Rife frequencies.
+*   **Dreamachine Generator:** A generator that produces flickering light patterns and binaural beats to induce altered states of consciousness, requiring closed eyes and a dark room for use.
+
+### Custom Presets:
+
+*   **Noise Colors:** Presets for different colors of noise (White, Pink, Brown, etc.) for sound masking and relaxation.
+*   **Kundalini Ascension:** A special preset designed for spiritual practices, incorporating specific frequencies and rotating visual elements.
+
+## Usage Instructions
+
+1.  **Navigate the Website:** Use the navigation menu to explore different sections like "Single tones", "Beats", "Generators", and "Custom Presets".
+2.  **Select a Sound or Generator:** Choose a preset sound or a generator based on your desired brainwave entrainment experience.
+3.  **Adjust Volume:** Use the volume slider at the bottom of each page to set a comfortable listening level. **It is recommended to start with a low volume and gradually increase it.**
+4.  **For Generators:** Input the required frequencies or parameters as indicated on the generator pages.
+5.  **Play and Stop:** Use the "Play" and "Stop" buttons to control the audio playback.
+6.  **Dreamachine Generator:** For the Dreamachine Generator, use in a dark room with eyes closed and follow the specific instructions provided on the page.
+7.  **Favorites:** Save your preferred presets to the "Favorites" section for easy access.
+8.  **Search:** Use the search bar in the navigation menu to quickly find specific presets or frequencies.
+9.  **Instructions and Disclaimer:** Each section and generator page includes a modal with specific instructions and a disclaimer. Please read them before use.
+
+**Important Notes:**
+
+*   **Headphones/Earphones:** While not always mandatory, using headphones or earphones is generally recommended for binaural and monaural beats to enhance the intended brainwave entrainment effects.
+*   **Volume Levels:** Start with low volume levels and gradually adjust to avoid discomfort or hearing damage.
+*   **Disclaimer:** The Brain Beats web application and its frequencies are **not a substitute for professional medical care.** Use the application and its presets at your own risk and discretion. Consult with a healthcare professional for any health concerns.
+*   **Dreamachine Usage:** The Dreamachine Generator requires specific usage conditions (dark room, closed eyes) for safety and effectiveness.
+
+## Contributing and Support
+
+This web application is developed and maintained by Abhishek Kumar.
+
+For support, questions, or feedback, you can:
+
+*   **Email:** brainbeats@protonmail.com
+*   **Chat:** [Discord Chat Link](https://discord.gg/JNRPJDFWdY)
+*   **Support the Project:** [Coffee Donation Link](https://ko-fi.com/brainbeats)
+*   **Blog:** [Blog Link](https://brain-beats.in/blog/)
+*   **Privacy Policy:** [Privacy Policy Link](https://brain-beats.in/privacy-policy.html)
+
+## Files and Directories
+
+```
+_redirects
+.gitconfig
+.gitignore
+3d-alt-frequency.html
+3d-rife-machine.html
+ads.txt
+angel-frequency.html
+app-ads.txt
+binaural-base-beats.html
+binaural-beats-generator.html
+binaural-mind-machine-generator.html
+BingSiteAuth.xml
+blog/
+css/
+dreamachine-generator.html
+dreamachine-presets.html
+favicon.ico
+favorites.html
+google7484c80835cfba45.html
+img/
+index.html
+isochronic-tones-generator.html
+isochronic-tones.html
+js/
+json/
+kundalini-ascension.html
+lab/
+LICENSE
+manifest.json
+monaural-alt-frequency.html
+monaural-base-beats.html
+monaural-beats-generator.html
+monaural-rife-machine.html
+netlify.toml
+noise-processor/
+noise.html
+node_modules/
+privacy-policy.html
+pure-tone-generator.html
+pure-tones.html
+README.md
+rife-3d-auto-generator.html
+rife-3d-generator.html
+rife-frequencies-cafl-xref.html
+rife-monaural-generator.html
+robots.txt
+search.html
+sine-wave-3d-auto-generator.html
+sine-wave-3d-generator.html
+sine-wave-monaural-generator.html
+sitemap-old.xml
+solfeggio-frequency.html
+square-wave-monaural-base-beats.html
+square-wave-monaural-beats-generator.html
+sw.js
+```
+
+This README.md provides a comprehensive overview of the Brain Beats web application. Use it to understand the features, usage, and important disclaimers before using the application.
