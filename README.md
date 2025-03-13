@@ -15,6 +15,10 @@ The web app currently features the following types of sounds and generators:
 *   **Binaural Beats:** Two tones played in each ear at slightly different frequencies, creating a perceived beat frequency in the brain, used for inducing specific mental states.
 *   **Monaural Beats:** Two tones mixed together and played in both ears, creating a beat frequency through amplitude modulation, also used for brainwave entrainment.
 *   **Square Wave Monaural Beats:** Monaural beats generated using square waveforms instead of sine waves, offering a different harmonic content.
+*   **3D Rife Frequencies:** Rife frequency presets with 3D spatial audio coordinates, designed to provide faster and less invasive relief.
+*   **Monaural Rife Frequencies:** Monaural Rife frequency presets designed to provide mental relief by simultaneously playing frequencies associated with specific ailments.
+*   **3D ALT Frequencies:** 3D spatial audio presets using ALT frequencies.
+*   **Monaural ALT Frequencies:** Monaural presets using ALT frequencies.
 *   **Rife Frequencies CAFL XREF:** A collection of pure tones based on the Consolidated Annotated Frequency List (CAFL), associated with the work of Royal Rife and believed to have therapeutic effects.
 
 ### Generators:
