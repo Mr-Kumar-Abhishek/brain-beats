@@ -533,15 +533,7 @@ workbox.setConfig({
     "/solfeggio-frequency.html",
     "/square-wave-monaural-base-beats.html",
     "/square-wave-monaural-beats-generator.html",
-    "/sw.js",
-    "/wiki/Home.md",
-    "/wiki/apache-local-ssl-setup.md",
-    "/wiki/contributing.md",
-    "/wiki/features.md",
-    "/wiki/index.md",
-    "/wiki/javascript-code-description.md",
-    "/wiki/software-design-document.md",
-    "/wiki/usage.md"
+    "/sw.js"
   ];
 
 if (workbox) {
