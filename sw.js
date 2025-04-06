@@ -12,7 +12,6 @@ workbox.setConfig({
     "/BingSiteAuth.xml",
     "/LICENSE",
     "/README.md",
-    "/_redirects",
     "/ads.txt",
     "/angel-frequency.html",
     "/app-ads.txt",
