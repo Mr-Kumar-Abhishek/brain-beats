@@ -43,10 +43,18 @@ function getAllFilePaths(directory, fileList = []) {
  * If no argument is provided, default to the current directory.
  */
 const targetDirectory = process.argv[2] || './';
+const outputFilename = 'fileList.js';
 
 try {
   const allFiles = getAllFilePaths(targetDirectory);
-  console.log(allFiles);
+
+  // Format the array as a JavaScript module export
+  const fileListContent = `const fileList = ${JSON.stringify(allFiles, null, 2)};\n\nmodule.exports = fileList;`;
+
+  // Write the content to the output file
+  fs.writeFileSync(outputFilename, fileListContent);
+
+  console.log(`File list written to ${outputFilename}`);
 } catch (error) {
   console.error(error.message);
 }
