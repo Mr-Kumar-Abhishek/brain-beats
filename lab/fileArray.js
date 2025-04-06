@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 /**
- * Recursively retrieves all file paths within a specified directory.
+ * Recursively retrieves all file paths within a specified directory, excluding hidden directories.
  *
  * @param {string} directory - The path to the directory to scan.
  * @param {string[]} [fileList=[]] - An array to accumulate the file paths (used internally for recursion).
@@ -16,6 +16,12 @@ function getAllFilePaths(directory, fileList = []) {
     files.forEach((file) => {
       const filePath = path.join(directory, file);
       const fileStat = fs.statSync(filePath);
+
+      // Check if it's a hidden directory (starts with a dot)
+      if (fileStat.isDirectory() && file.startsWith('.')) {
+        // Skip hidden directories
+        return;
+      }
 
       if (fileStat.isDirectory()) {
         // Recursively call the function for subdirectories
