@@ -488,7 +488,6 @@ const fileList = [
   "/monaural-base-beats.html",
   "/monaural-beats-generator.html",
   "/monaural-rife-machine.html",
-  "/netlify.toml",
   "/noise-processor/black-noise-processor.js",
   "/noise-processor/blue-noise-processor.js",
   "/noise-processor/brown-noise-processor.js",
