@@ -201,7 +201,7 @@ try {
   }
 
   // Format and write the output file
-  const fileListContent = `const fileList = ${JSON.stringify(allFiles.sort(), null, 2)};\n\nmodule.exports = fileList;`;
+  const fileListContent = `const fileList = ${JSON.stringify(allFiles.sort(), null, 2)};`; // ;\n\nmodule.exports = fileList
   fs.writeFileSync(absoluteOutputFilePath, fileListContent);
 
   console.log(`File list successfully written to ${absoluteOutputFilePath}`);
