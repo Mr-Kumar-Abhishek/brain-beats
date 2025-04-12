@@ -3,59 +3,69 @@ const path = require('path');
 
 /**
  * Parses command line arguments to extract target directory, output file,
- * and excluded extensions.
- * Allows for flexible argument order for the --exclude flag.
+ * excluded extensions, and other flags.
  *
  * @param {string[]} argv - The process.argv array.
- * @returns {{targetDirectory: string|null, outputFilename: string|null, excludedExtensions: string[]}}
+ * @returns {{
+ *  targetDirectory: string|null,
+ *  outputFilename: string|null,
+ *  excludedExtensions: string[],
+ *  excludeNoExt: boolean,
+ *  excludeRoot: boolean
+ * }}
  */
 function parseArgs(argv) {
     const args = argv.slice(2); // Remove 'node' and script path
     let targetDirectory = null;
     let outputFilename = null;
     let excludedExtensions = [];
-    let excludeNext = false;
+    let excludeNoExt = false; // Flag for excluding files with no extension
+    let excludeRoot = false;  // Flag for excluding the root '/'
     const positionalArgs = [];
 
     for (let i = 0; i < args.length; i++) {
         const arg = args[i];
         if (arg === '--exclude' || arg === '-e') {
-            if (i + 1 < args.length) {
+            if (i + 1 < args.length && !args[i + 1].startsWith('--')) { // Ensure value exists and is not another flag
                 excludedExtensions = args[i + 1]
                     .split(',')
-                    .map(ext => ext.trim().toLowerCase()) // Normalize to lowercase
-                    .filter(ext => ext.startsWith('.')); // Ensure extensions start with '.'
-                i++; // Skip the next argument as it's the value for --exclude
+                    .map(ext => ext.trim().toLowerCase())
+                    .filter(ext => ext.startsWith('.'));
+                i++; // Skip the value
             } else {
                 console.warn("Warning: --exclude flag requires a value (comma-separated extensions).");
             }
+        } else if (arg === '--exclude-no-ext') {
+            excludeNoExt = true;
+        } else if (arg === '--exclude-root') {
+            excludeRoot = true;
         } else {
-            // Assume other arguments are positional (target dir, output file)
+            // Assume other arguments are positional
             positionalArgs.push(arg);
         }
     }
 
     targetDirectory = positionalArgs[0] || null;
-    outputFilename = positionalArgs[1] || null; // Can still be null if only targetDir provided
+    outputFilename = positionalArgs[1] || null;
 
-    return { targetDirectory, outputFilename, excludedExtensions };
+    return { targetDirectory, outputFilename, excludedExtensions, excludeNoExt, excludeRoot };
 }
 
 
 /**
  * Recursively retrieves all file paths within a specified directory,
- * formatted relative to the base directory and starting with '/',
- * excluding hidden directories and specified extensions.
+ * applying various exclusion rules.
  *
  * @param {string} currentDirectory - The directory currently being scanned.
  * @param {string} baseDirectory - The original root directory provided by the user.
- * @param {string[]} excludedExtensions - Array of lowercase extensions to exclude (e.g., ['.log', '.tmp']).
- * @param {string} absoluteOutputFilePath - The absolute path of the file being written to, to avoid including it.
- * @param {string[]} [fileList=[]] - An array to accumulate the file paths (used internally for recursion).
+ * @param {string[]} excludedExtensions - Array of lowercase extensions to exclude.
+ * @param {boolean} excludeNoExt - Whether to exclude files with no extension.
+ * @param {string} absoluteOutputFilePath - The absolute path of the file being written to.
+ * @param {string[]} [fileList=[]] - An array to accumulate the file paths.
  * @returns {string[]} An array of relative file paths starting with '/'.
  * @throws {Error} If the provided directory path is invalid or inaccessible.
  */
-function getAllRelativeFilePaths(currentDirectory, baseDirectory, excludedExtensions, absoluteOutputFilePath, fileList = []) {
+function getAllRelativeFilePaths(currentDirectory, baseDirectory, excludedExtensions, excludeNoExt, absoluteOutputFilePath, fileList = []) {
   try {
     const files = fs.readdirSync(currentDirectory);
 
@@ -79,13 +89,18 @@ function getAllRelativeFilePaths(currentDirectory, baseDirectory, excludedExtens
 
       if (fileStat.isDirectory()) {
         // Recursively call for subdirectories
-        getAllRelativeFilePaths(absoluteFilePath, baseDirectory, excludedExtensions, absoluteOutputFilePath, fileList);
+        getAllRelativeFilePaths(absoluteFilePath, baseDirectory, excludedExtensions, excludeNoExt, absoluteOutputFilePath, fileList);
       } else if (fileStat.isFile()) {
         const fileExtension = path.extname(absoluteFilePath).toLowerCase();
 
         // Check if the file extension is in the exclusion list
         if (excludedExtensions.includes(fileExtension)) {
-            // console.log(`Excluding file by extension: ${absoluteFilePath}`); // Optional: for debugging
+            return; // Skip this file
+        }
+
+        // Check if we should exclude files with no extension
+        if (excludeNoExt && fileExtension === '') {
+            // console.log(`Excluding file with no extension: ${absoluteFilePath}`); // Optional debug log
             return; // Skip this file
         }
 
@@ -114,16 +129,20 @@ function getAllRelativeFilePaths(currentDirectory, baseDirectory, excludedExtens
 const {
     targetDirectory: targetDirectoryInput,
     outputFilename: outputFilenameInput,
-    excludedExtensions
+    excludedExtensions,
+    excludeNoExt, // Get the new flag
+    excludeRoot   // Get the new flag
 } = parseArgs(process.argv);
 
 // --- Input Validation ---
 if (!targetDirectoryInput) {
     console.error("Error: Please provide the target directory to scan as the first argument.");
-    console.log("\nUsage: node fileArray.js <target_directory> [output_file_path] [--exclude .ext1,.ext2,...]");
-    console.log("  <target_directory>: The directory to scan.");
-    console.log("  [output_file_path]: Optional. Path to write the list (defaults to 'fileList.js').");
-    console.log("  [--exclude .ext1,.ext2,...]: Optional. Comma-separated list of file extensions to exclude (e.g., .log,.tmp).");
+    console.log("\nUsage: node fileArray.js <target_directory> [output_file_path] [options]");
+    console.log("\nOptions:");
+    console.log("  --exclude .ext1,.ext2,...  Exclude specific file extensions.");
+    console.log("  -e .ext1,.ext2,...         Alias for --exclude.");
+    console.log("  --exclude-no-ext         Exclude files that have no extension.");
+    console.log("  --exclude-root           Exclude the root '/' entry from the list.");
     process.exit(1);
 }
 
@@ -136,12 +155,10 @@ const absoluteTargetDirectory = path.resolve(targetDirectoryInput);
 
 try {
   // --- Pre-run Checks ---
-  // Check if the target directory exists
   if (!fs.existsSync(absoluteTargetDirectory) || !fs.statSync(absoluteTargetDirectory).isDirectory()) {
       throw new Error(`Target directory does not exist or is not a directory: ${absoluteTargetDirectory}`);
   }
 
-  // Ensure the output directory exists, create if necessary
   if (!fs.existsSync(outputDir)) {
       console.log(`Output directory ${outputDir} does not exist. Creating...`);
       try {
@@ -159,6 +176,12 @@ try {
   if (excludedExtensions.length > 0) {
       console.log(`Excluding extensions: ${excludedExtensions.join(', ')}`);
   }
+  if (excludeNoExt) {
+      console.log("Excluding files with no extension.");
+  }
+  if (excludeRoot) {
+      console.log("Excluding root '/' entry.");
+  }
   console.log(`Writing output to: ${absoluteOutputFilePath}`);
 
   // Get the file list, passing the necessary parameters
@@ -166,13 +189,14 @@ try {
       absoluteTargetDirectory,
       absoluteTargetDirectory,
       excludedExtensions,
-      absoluteOutputFilePath, // Pass the output file path to exclude it
-      [] // Start with empty array
+      excludeNoExt, // Pass the flag
+      absoluteOutputFilePath,
+      []
   );
 
-  // Add the root '/' if needed
-  const includeRoot = true; // Set to false if you *only* want files listed
-  if (includeRoot && !allFiles.includes('/')) {
+  // Add the root '/' if needed AND if not explicitly excluded
+  const includeRootDefault = true; // Default behavior is often to include root for PWAs etc.
+  if (includeRootDefault && !excludeRoot && !allFiles.includes('/')) {
       allFiles.unshift('/');
   }
 
@@ -186,3 +210,9 @@ try {
   console.error(`Operation failed: ${error.message}`);
   process.exit(1);
 }
+
+/*
+Usage:
+
+node fileArray.js /path/dir -e .tmp --exclude-no-ext --exclude-root
+*/
