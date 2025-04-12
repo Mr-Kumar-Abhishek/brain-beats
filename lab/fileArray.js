@@ -18,18 +18,34 @@ function getAllRelativeFilePaths(currentDirectory, baseDirectory, fileList = [])
 
     files.forEach((file) => {
       const absoluteFilePath = path.join(currentDirectory, file);
-      const fileStat = fs.statSync(absoluteFilePath);
+      let fileStat; // Declare fileStat here
 
-      // Check if it's a hidden directory (starts with a dot)
-      if (fileStat.isDirectory() && file.startsWith('.')) {
-        // Skip hidden directories
+      try {
+        // Use lstat to handle symbolic links gracefully if needed,
+        // but statSync is fine for basic file/dir checks.
+        fileStat = fs.statSync(absoluteFilePath);
+      } catch (statError) {
+        // Handle potential errors during stat (e.g., broken symlinks, permissions)
+        console.warn(`Warning: Could not stat file/directory: ${absoluteFilePath}. Skipping. Error: ${statError.message}`);
+        return; // Skip this entry if stat fails
+      }
+
+
+      // Check if it's a hidden directory or file (starts with a dot)
+      // Let's also exclude the output file itself if it's being written in the scanned directory
+      const isHidden = file.startsWith('.');
+      // Resolve the potential output path to compare it accurately
+      const absoluteOutputFilePath = path.resolve(outputFilename); // Use the global outputFilename
+
+      if (isHidden || absoluteFilePath === absoluteOutputFilePath) {
+        // Skip hidden files/directories and the output file itself
         return;
       }
 
       if (fileStat.isDirectory()) {
         // Recursively call the function for subdirectories
         getAllRelativeFilePaths(absoluteFilePath, baseDirectory, fileList);
-      } else {
+      } else if (fileStat.isFile()) { // Explicitly check if it's a file
         // Calculate the path relative to the base directory
         const relativePath = path.relative(baseDirectory, absoluteFilePath);
         // Ensure consistent forward slashes and prepend the leading '/'
@@ -37,6 +53,7 @@ function getAllRelativeFilePaths(currentDirectory, baseDirectory, fileList = [])
         // Add the formatted relative file path to the list
         fileList.push(formattedPath);
       }
+      // Ignore other types like symbolic links, sockets, etc. if not explicitly handled
     });
 
     return fileList;
@@ -52,47 +69,75 @@ function getAllRelativeFilePaths(currentDirectory, baseDirectory, fileList = [])
   }
 }
 
-/**
- * Get the target directory from the command line arguments.
- * If no argument is provided, default to the current directory.
- */
-const targetDirectoryInput = process.argv[2] || './';
-const outputFilename = 'fileList.js';
+// --- Main Script Execution ---
+
+// Argument 1: Target directory to scan
+const targetDirectoryInput = process.argv[2];
+// Argument 2: Output file path
+const outputFilenameInput = process.argv[3];
+
+// --- Input Validation ---
+if (!targetDirectoryInput) {
+    console.error("Error: Please provide the target directory to scan as the first argument.");
+    console.log("Usage: node fileArray.js <target_directory> [output_file_path]");
+    process.exit(1);
+}
+
+// Use provided output filename or default to 'fileList.js' in the current working directory
+const outputFilename = outputFilenameInput || 'fileList.js';
+// Resolve the output path to ensure it's absolute for writing
+const absoluteOutputFilePath = path.resolve(outputFilename);
+// Ensure the directory for the output file exists
+const outputDir = path.dirname(absoluteOutputFilePath);
+
 
 try {
-  // Resolve the target directory to an absolute path for consistent relative path calculation
+  // Resolve the target directory to an absolute path
   const absoluteTargetDirectory = path.resolve(targetDirectoryInput);
 
-  // Check if the resolved directory exists before proceeding
+  // Check if the target directory exists
   if (!fs.existsSync(absoluteTargetDirectory) || !fs.statSync(absoluteTargetDirectory).isDirectory()) {
       throw new Error(`Target directory does not exist or is not a directory: ${absoluteTargetDirectory}`);
   }
 
-  // Pass the absolute path as both the starting point and the base for relative paths
-  const allFiles = getAllRelativeFilePaths(absoluteTargetDirectory, absoluteTargetDirectory);
-
-  // Add the root '/' if the target directory itself should be included (optional, based on sw.js example)
-  // Check if the user specifically wants the root '/' added like in the sw.js example
-  const includeRoot = true; // Set to false if you *only* want files listed
-  if (includeRoot && !allFiles.includes('/')) {
-      // Check if the target directory is the root of the scan
-      // This logic might need adjustment depending on exact needs,
-      // but adding '/' is common for PWA root caching.
-      // Let's add it based on the sw.js example provided.
-      allFiles.unshift('/'); // Add '/' to the beginning of the array
+  // Ensure the output directory exists, create if necessary
+  if (!fs.existsSync(outputDir)) {
+      console.log(`Output directory ${outputDir} does not exist. Creating...`);
+      try {
+          fs.mkdirSync(outputDir, { recursive: true }); // Create parent directories if needed
+          console.log(`Successfully created directory: ${outputDir}`);
+      } catch (mkdirError) {
+          throw new Error(`Failed to create output directory ${outputDir}: ${mkdirError.message}`);
+      }
+  } else if (!fs.statSync(outputDir).isDirectory()) {
+      // Check if the path exists but is not a directory
+       throw new Error(`Output path ${outputDir} exists but is not a directory.`);
   }
 
+
+  console.log(`Scanning directory: ${absoluteTargetDirectory}`);
+  console.log(`Writing output to: ${absoluteOutputFilePath}`);
+
+
+  // Pass the absolute path as both the starting point and the base for relative paths
+  // Pass the resolved output path to the function so it can be excluded
+  const allFiles = getAllRelativeFilePaths(absoluteTargetDirectory, absoluteTargetDirectory, []); // Start with empty array
+
+  // Add the root '/' if needed (common for PWA service workers)
+  const includeRoot = true; // Set to false if you *only* want files listed
+  if (includeRoot && !allFiles.includes('/')) {
+      allFiles.unshift('/'); // Add '/' to the beginning
+  }
 
   // Format the array as a JavaScript module export
   const fileListContent = `const fileList = ${JSON.stringify(allFiles.sort(), null, 2)};\n\nmodule.exports = fileList;`;
 
-  // Write the content to the output file
-  fs.writeFileSync(outputFilename, fileListContent);
+  // Write the content to the resolved output file path
+  fs.writeFileSync(absoluteOutputFilePath, fileListContent);
 
-  console.log(`File list written to ${outputFilename}`);
+  console.log(`File list successfully written to ${absoluteOutputFilePath}`);
 
 } catch (error) {
   console.error(`Operation failed: ${error.message}`);
-  // Optionally exit with an error code for scripting purposes
   process.exit(1);
 }
