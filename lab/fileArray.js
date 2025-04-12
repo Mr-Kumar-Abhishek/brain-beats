@@ -214,5 +214,5 @@ try {
 /*
 Usage:
 
-node fileArray.js /path/dir -e .tmp --exclude-no-ext --exclude-root
+ node fileArray.js ../ fileLister.js  -e .xml,.md --exclude-no-ext --exclude-root
 */
