@@ -1454,12 +1454,39 @@ function warning(whichy){
 }
 
 
-function disclaimer(){
+function disclaimer() {
   document.addEventListener('DOMContentLoaded', () => {
-    const myModal = new bootstrap.Modal(document.getElementById('instructionModal'), {
-    backdrop: 'static',
-    keyboard: false
+    // Get the modal element
+    const instructionModalElement = document.getElementById('instructionModal');
+    if (!instructionModalElement) {
+        console.error("Modal element #instructionModal not found!");
+        return; // Exit if modal doesn't exist
+    }
+
+    const myModal = new bootstrap.Modal(instructionModalElement, {
+      backdrop: 'static', // Prevents closing by clicking outside
+      keyboard: false    // Prevents closing with the Escape key
     });
+
+    // --- Add this event listener ---
+    instructionModalElement.addEventListener('hidden.bs.modal', function (event) {
+      // Find the search input element
+      const searchInput = document.getElementById('search-me');
+      // If the search input exists, set focus to it
+      if (searchInput) {
+        searchInput.focus();
+      } else {
+        // Fallback: focus the body if search input isn't found for some reason
+        document.body.focus();
+      }
+    });
+    // --- End of added listener ---
+
+    // Show the modal
     myModal.show();
   });
 }
+
+// Make sure the disclaimer function is called somewhere if it wasn't already
+// (Though it seems to be called at the end of search.html)
+// disclaimer();
