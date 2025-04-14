@@ -83,10 +83,16 @@ The web app currently features the following types of sounds and generators:
    ```bash
    npx http-server
    ```
+   or if you are changing something in the service worker use self-signed SSL in apache.
 2. Open your browser to:
    ```
    http://localhost:8080
    ```
+   or:
+   ```
+   https://localhost
+   ```
+   if you are using self-signed SSL in local apache apache server.
 
 ### Making Updates
 1. After making changes to the project files, test them locally.
