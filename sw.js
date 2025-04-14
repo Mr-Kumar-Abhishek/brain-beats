@@ -1,18 +1,18 @@
+// /var/www/html/sw.js (Your SOURCE file)
 importScripts('/js/workbox/workbox-v7.3.0/workbox-sw.js');
-importScripts('fileList.js');
+// importScripts('fileList.js'); // REMOVE THIS LINE
 
 workbox.setConfig({
     modulePathPrefix: '/js/workbox/workbox-v7.3.0/',
-  });
-
-
+});
 
 if (workbox) {
     console.log("Yay! Workbox is loaded !");
-    workbox.precaching.precacheAndRoute(fileList);
-/*  cache images in the e.g others folder; edit to other folders you got
-   and config in the sw.js file
-    */
+
+    // Use the injected manifest:
+    workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
+
+    /*  cache images ... */
     workbox.routing.registerRoute(
         /(.*)img(.*)\.(?:png|gif|jpg|svg)/,
         new workbox.strategies.CacheFirst({
@@ -25,19 +25,16 @@ if (workbox) {
             ]
         })
     );
-    /* Make your JS and CSS as fast by returning the assets from the cache,
-  while making sure they are updated in the background for the next use.
-  */
+
+    /* Make your JS and CSS fast ... */
     workbox.routing.registerRoute(
-    // cache js, css, scss, json files
         /.*\.(?:css|js|scss|json|)/,
-        // use cache but update in the background ASAP
         new workbox.strategies.StaleWhileRevalidate({
-            // use a custom cache name
             cacheName: "assets",
         })
     );
-// cache google fonts
+
+    // cache google fonts
     workbox.routing.registerRoute(
         new RegExp("https://fonts.(?:googleapis|gstatic).com/(.*)"),
         new workbox.strategies.CacheFirst({
@@ -49,11 +46,11 @@ if (workbox) {
             ],
         })
     );
-/* Install a new service worker and have it update
-and control a web page as soon as possible
-*/
-self.skipWaiting();
+
+    /* Install a new service worker ... */
+    self.skipWaiting();
     workbox.core.clientsClaim();
+
 } else {
     console.log("Oops! Workbox didn't load");
 }
