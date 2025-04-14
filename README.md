@@ -58,6 +58,57 @@ The web app currently features the following types of sounds and generators:
 *   **Disclaimer:** The Brain Beats web application and its frequencies are **not a substitute for professional medical care.** Use the application and its presets at your own risk and discretion. Consult with a healthcare professional for any health concerns.
 *   **Dreamachine Usage:** The Dreamachine Generator requires specific usage conditions (dark room, closed eyes) for safety and effectiveness.
 
+## Development Setup
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/brain-beats.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Install Workbox CLI globally:
+   ```bash
+   npm install -g workbox-cli
+   ```
+
+### Running the Project
+1. Start a local development server (you can use any static server like `http-server` or `live-server`):
+   ```bash
+   npx http-server
+   ```
+2. Open your browser to:
+   ```
+   http://localhost:8080
+   ```
+
+### Making Updates
+1. After making changes to the project files, test them locally.
+2. To update the service worker (if you've made changes to service worker files):
+   ```bash
+   workbox generateSW workbox-config.js
+   ```
+3. Commit your changes:
+   ```bash
+   git add .
+   git commit -m "Your commit message"
+   git push
+   ```
+
+### Workbox CLI Usage
+The project uses Workbox for service worker generation. After making changes to service worker files:
+1. Run the Workbox CLI to regenerate the service worker:
+   ```bash
+   workbox generateSW workbox-config.js
+   ```
+2. This will update the `sw.js` file based on the configuration in `workbox-config.js`
+
 ## Contributing and Support
 
 This web application is developed and maintained by Abhishek Kumar.
