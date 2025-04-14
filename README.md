@@ -92,7 +92,7 @@ The web app currently features the following types of sounds and generators:
 1. After making changes to the project files, test them locally.
 2. To update the service worker (if you've made changes to service worker files):
    ```bash
-   workbox generateSW workbox-config.js
+   npx workbox-cli injectManifest workbox-config.js
    ```
 3. Commit your changes:
    ```bash
@@ -105,7 +105,7 @@ The web app currently features the following types of sounds and generators:
 The project uses Workbox for service worker generation. After making changes to service worker files:
 1. Run the Workbox CLI to regenerate the service worker:
    ```bash
-   workbox generateSW workbox-config.js
+   npx workbox-cli injectManifest workbox-config.js
    ```
 2. This will update the `sw.js` file based on the configuration in `workbox-config.js`
 
