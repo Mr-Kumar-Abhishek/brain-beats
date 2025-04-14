@@ -121,7 +121,7 @@ This web application is developed and maintained by Abhishek Kumar.
 
 For support, questions, or feedback, you can:
 
-*   **Email:** brainbeats@protonmail.com
+*   **Email:** brainbeats (at) protonmail.com
 *   **Chat:** [Discord Chat Link](https://discord.gg/JNRPJDFWdY)
 *   **Support the Project:** [Coffee Donation Link](https://ko-fi.com/brainbeats)
 *   **Blog:** [Blog Link](https://brain-beats.in/blog/)
