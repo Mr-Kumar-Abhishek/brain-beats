@@ -21,6 +21,13 @@
       "data_id":"uf07weww3"
    },
    {
+      "data_name":"0.15 Hz Binaural Beats over 639 Hz Solfeggio Frequency",
+      "data_description":"Binaural Beats for relief from depression [Phase 3] due to past events. This is for major depression and grief[Phase 3]. Range Binaurals for it are comming soon which will be more effective.",
+      "data_start":"play_binaural(639, 639.15);",
+      "data_stop":"stop_binaural();",
+      "data_id":"uf07weww4"
+   },
+   {
       "data_name":"0.15 Hz Binaural Beats over 963 Hz Solfeggio Frequency",
       "data_description":"Binaural Beats for relief from depression [Phase 2]. This is for major depression [Phase 2]. Range Binaurals are comming soon which will be more effective.",
       "data_start":"play_binaural(963, 963.15);",
