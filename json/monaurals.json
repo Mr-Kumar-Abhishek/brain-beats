@@ -21,6 +21,13 @@
       "data_id":"unskywp54"
    },
    {
+      "data_name":"0.15 Hz Monaural Beats over 639 Hz Solfeggio Frequency",
+      "data_description":"Monaural Beats for relief from depression [Phase 3] due to past events. This is for major depression and grief[Phase 3]. Range Monaurals for it are comming soon which will be more effective.",
+      "data_start":"play_monaural(639, 639.15);",
+      "data_stop":"stop_monaural();",
+      "data_id":"unskywp55"
+   },
+   {
       "data_name":"0.15 Hz Monaural Beats over 963 Hz Solfeggio Frequency",
       "data_description":"Monaural Beats for relief from depression [Phase 2]. This is for major depression [Phase 2]. Range Monaurals are comming soon which will be more effective.",
       "data_start":"play_monaural(963, 963.15);",
