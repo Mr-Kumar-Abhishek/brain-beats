@@ -273,6 +273,13 @@
       "data_id":"2vtp6ugkq"
    },
    {
+      "data_name":"3.5 Hz Binaural Beats over 639 Hz Solfeggio Frequency",
+      "data_description":"Binaural beats for enhancement of receptivity of relief from depression [Phase 2] [Phase 3].",
+      "data_start":"play_binaural(639, 642.5);",
+      "data_stop":"stop_binaural();",
+      "data_id":"2vtp6ugkr"
+   },
+   {
       "data_name":"3.5 Hz Binaural Beats over 741 Hz Solfeggio Frequency",
       "data_description":"Binaural beats for relief from anxiety [Phase 2, 2nd flavor] via throat chakra (visuddha). Accelerated language retention [Phase 1]",
       "data_start":"play_binaural(741, 744.5);",
@@ -281,14 +288,14 @@
    },
    {
       "data_name":"3.5 Hz Binaural Beats over 852 Hz Solfeggio Frequency",
-      "data_description":"Binaural beats for feeling with unity everything [Phase 1], accelerated language retention [Phase 2], enhancement of receptivity relief from depression [Phase 1].",
+      "data_description":"Binaural beats for feeling with unity everything [Phase 1], accelerated language retention [Phase 2], enhancement of receptivity of relief from depression [Phase 1].",
       "data_start":"play_binaural(852, 855.5);",
       "data_stop":"stop_binaural();",
       "data_id":"57c4xsf65"
    },
    {
       "data_name":"3.5 Hz Binaural Beats over 963 Hz Solfeggio Frequency",
-      "data_description":"Binaural beats for feeling with unity everything [Phase 2], accelerated language retention [Phase 3], enhancement of receptivity relief from depression [Phase 2].",
+      "data_description":"Binaural beats for feeling with unity everything [Phase 2], accelerated language retention [Phase 3], enhancement of receptivity of relief from depression [Phase 2].",
       "data_start":"play_binaural(963, 966.5);",
       "data_stop":"stop_binaural();",
       "data_id":"2b32jy4d1"
