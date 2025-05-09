@@ -1,5 +1,7 @@
 # Brain Beats - Brainwave Entrainment Web Application
 
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Mr-Kumar-Abhishek/brain-beats)
+ 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Mr-Kumar-Abhishek/brain-beats)
 
 Brain Beats is a web application designed to produce sounds that help alter brainwaves for various purposes such as meditation, sleep improvement, and relief from physical discomforts like headaches. It offers a range of sound types and generators to cater to different brainwave entrainment needs.
