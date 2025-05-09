@@ -26,5 +26,4 @@ tasks:
 
 ports:
   - port: 80
-  - port: 443
     onOpen: open-browser
