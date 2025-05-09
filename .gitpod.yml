@@ -4,26 +4,9 @@
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 tasks:
-  - init: |
-      sudo apt-get update
-      sudo apt-get install -y apache2
-      sudo a2enmod rewrite # If you plan on using .htaccess for rewrites
-      # Configure Apache to serve your static files
-      echo "<VirtualHost *:80>
-          ServerAdmin webmaster@localhost
-          DocumentRoot /workspace/your-project-directory
-          <Directory /workspace/your-project-directory>
-              Options Indexes FollowSymLinks
-              AllowOverride All
-              Require all granted
-          </Directory>
-          ErrorLog \${APACHE_LOG_DIR}/error.log
-          CustomLog \${APACHE_LOG_DIR}/access.log combined
-      </VirtualHost>" | sudo tee /etc/apache2/sites-available/000-default.conf
-      sudo a2ensite 000-default.conf
-      sudo systemctl restart apache2
-    command: echo "Apache is running! Check the preview."
+  - init: echo "No initialization needed for Python simple HTTP server"
+  - command: python3 -m http.server 8000 --directory /workspace/brain-beats
 
 ports:
-  - port: 80
+  - port: 8000
     onOpen: open-browser
