@@ -70,6 +70,13 @@
      "data_id": "j5arlnle5"
    },
    {
+    "data_name": "1.5 hz Dreamachine Beats",
+    "data_description": "Dreamachine beats for Abhraham's universal healing rate. Used for sleep [Flavour 1]. Subjects who's ailments have manifested into the 4th stage chronic fatigue, where some of disease is apparent, experienced a release from those negative sensations of thier symptoms when moved to 1.5 Hz [Flavour 1].",
+    "data_start": "start_dreamachine(1.5);",
+    "data_stop": "stop_dreamachine();",
+    "data_id": "j5arlnle6"
+   },
+   {
     "data_name": "2 hz Dreamachine Beats",
     "data_description": "Dreamachine beats for nerve regeneration.",
     "data_start": "start_dreamachine(2);",
