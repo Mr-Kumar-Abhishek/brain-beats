@@ -5,9 +5,9 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 tasks:
   - name: backend
-  - init: echo "No initialization needed for Python simple HTTP server"
-  - command: python3 -m http.server 8000 --directory /workspace/brain-beats
+    init: echo "No initialization needed for Python simple HTTP server"
+    command: python3 -m http.server 8000 --directory /workspace/brain-beats
 
 ports:
-  - port: 8000git co
+  - port: 8000
     onOpen: open-browser
