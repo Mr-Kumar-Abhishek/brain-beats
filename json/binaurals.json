@@ -245,6 +245,13 @@
       "data_id":"o8rt1cav6"
    },
    {
+      "data_name":"2.4 Hz Binaural Beats over 639 Hz Solfeggio Frequency",
+      "data_description":"Binaural beats for deep sleep [Phase 3].",
+      "data_start":"play_binaural(639, 641.4);",
+      "data_stop":"stop_binaural();",
+      "data_id":"o8rt1cav7"
+   },
+   {
       "data_name":"3.5 Hz Binaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"whole being regeneration [Phase 1]. Lower Earth Resonance [Phase 1] or hell resonance [Phase 1]. DNA stimulation [Phase 1]. Relief from anxiety [Phase 0, 2nd flavor]",
       "data_start":"play_binaural(174, 177.5);",
