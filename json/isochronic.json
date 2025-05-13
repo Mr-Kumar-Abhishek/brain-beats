@@ -252,7 +252,7 @@
 	  "data_id": "vugpa2woz"
 	},
 	{
-		"data_name": "2.4 Hz Isochronic Tone over 528 Hz Solfeggio Frequency",
+		"data_name": "2.4 Hz Isochronic Tone over 639 Hz Solfeggio Frequency",
 		"data_description": "Isochronic Tone for deep sleep [Phase 3].",
 		"data_start": "play_isochronic(639, 641.4);",
 		"data_stop": "stop_isochronic();",
