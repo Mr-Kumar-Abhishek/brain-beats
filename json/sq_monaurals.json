@@ -246,6 +246,13 @@
       "data_id":"dwosxjyzh"
    },
    {
+      "data_name":"2.4 Hz Square Wave Monaural Beats over 639 Hz Solfeggio Frequency",
+      "data_description":"Square Wave Monaural Beats for deep sleep [Phase 3].",
+      "data_start":"play_sq_monaural(639, 641.4);",
+      "data_stop":"stop_sq_monaural();",
+      "data_id":"dwosxjyzi"
+   },
+   {
       "data_name":"3.5 Hz Square Wave Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"whole being regeneration [Phase 1]. Lower Earth Resonance [Phase 1] or hell resonance [Phase 1]. DNA stimulation [Phase 1].",
       "data_start":"play_sq_monaural(174, 177.5);",
