@@ -36,10 +36,38 @@
 	},
 	{
 	  "data_name": "0.20 Hz Isochronic Tone over 396 Hz Solfeggio Frequency",
-	  "data_description": "Isochronic Tone for relief from post-traumatics[Phase 1].",
+	  "data_description": "Isochronic Tone for relief from post-traumatics [Phase 1].",
 	  "data_start": "play_isochronic(396, 396.20);",
 	  "data_stop": "stop_isochronic();",
 	  "data_id": "cnf0mobar"
+	},
+	{
+		"data_name": "0.20 Hz Isochronic Tone over 417 Hz Solfeggio Frequency",
+		"data_description": "Isochronic Tone for relief from post-traumatics [Phase 2].",
+		"data_start": "play_isochronic(417, 417.20);",
+		"data_stop": "stop_isochronic();",
+		"data_id": "cnf0mobas"
+	},
+	{
+		"data_name": "0.20 Hz Isochronic Tone over 618 Hz Solfeggio Frequency",
+		"data_description": "Isochronic Tone for relief from post-traumatics [Phase 3].",
+		"data_start": "play_isochronic(618, 618.20);",
+		"data_stop": "stop_isochronic();",
+		"data_id": "cnf0mobat"
+	},
+	{
+		"data_name": "0.20 Hz Isochronic Tone over 639 Hz Solfeggio Frequency",
+		"data_description": "Isochronic Tone for relief from post-traumatics [Phase 4].",
+		"data_start": "play_isochronic(639, 639.20);",
+		"data_stop": "stop_isochronic();",
+		"data_id": "cnf0mobau"
+	},
+	{
+		"data_name": "0.20 Hz Isochronic Tone over 669 Hz Solfeggio Frequency",
+		"data_description": "Isochronic Tone for relief from post-traumatics [Phase 5].",
+		"data_start": "play_isochronic(669, 669.20);",
+		"data_stop": "stop_isochronic();",
+		"data_id": "cnf0mobav"
 	},
 	{
 	  "data_name": "0.26 Hz Isochronic Tone over 174 Hz Solfeggio Frequency",
