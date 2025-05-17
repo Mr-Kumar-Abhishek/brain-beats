@@ -56,6 +56,13 @@
 		"data_id": "cnf0mobat"
 	},
 	{
+		"data_name": "0.20 Hz Isochronic Tone over 639 Hz Solfeggio Frequency",
+		"data_description": "Isochronic Tone for relief from post-traumatics [Phase 4].",
+		"data_start": "play_isochronic(639, 639.20);",
+		"data_stop": "stop_isochronic();",
+		"data_id": "cnf0mobau"
+	},
+	{
 	  "data_name": "0.26 Hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 	  "data_description": " Isochronic Tone for relief in dental pain and gum inflamation (go see a dentist if you are using this).  [Phase 1] Switch to monaural if this doesn't work.",
 	  "data_start": "play_isochronic(174, 174.26);",
