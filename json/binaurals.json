@@ -63,7 +63,7 @@
       "data_id":"ugl5mdwws"
    },
    {
-      "data_name":"0.20 Hz Binaural Beats over 639 Hz Solfeggio Frequency",
+      "data_name":"0.20 Hz Binaural Beats over 669 Hz Solfeggio Frequency",
       "data_description":"Binaural Beats for relief for post-traumatics[Phase 5].",
       "data_start":"play_binaural(669, 669.20);",
       "data_stop":"stop_binaural();",
