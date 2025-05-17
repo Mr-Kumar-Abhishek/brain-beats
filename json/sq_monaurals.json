@@ -50,9 +50,9 @@
       "data_id":"otthy5cwy"
    },
    {
-      "data_name":"0.20 Hz Square Wave Monaural Beats over 418 Hz Solfeggio Frequency",
+      "data_name":"0.20 Hz Square Wave Monaural Beats over 618 Hz Solfeggio Frequency",
       "data_description":"Square Wave Monaural Beats for relief for post-traumatics [Phase 3].",
-      "data_start":"play_sq_monaural(418, 418.20);",
+      "data_start":"play_sq_monaural(618, 618.20);",
       "data_stop":"stop_sq_monaural();",
       "data_id":"otthy5cwz"
    },
