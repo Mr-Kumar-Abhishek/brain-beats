@@ -49,6 +49,13 @@
       "data_id":"ugl5mdwwq"
    },
    {
+      "data_name":"0.20 Hz Binaural Beats over 618 Hz Solfeggio Frequency",
+      "data_description":"Binaural Beats for relief for post-traumatics[Phase 3].",
+      "data_start":"play_binaural(618, 618.20);",
+      "data_stop":"stop_binaural();",
+      "data_id":"ugl5mdwwr"
+   },
+   {
       "data_name":"0.26 Hz Binaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":" Binaural beats for relief in dental pain and gum inflamation (go see a dentist if you are using this).  [Phase 1] Switch to monaural if this doesn't work.",
       "data_start":"play_binaural(174, 174.26);",
