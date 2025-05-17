@@ -63,6 +63,13 @@
       "data_id":"s0e7rub83"
    },
    {
+      "data_name":"0.20 Hz Monaural Beats over 669 Hz Solfeggio Frequency",
+      "data_description":"Monaural Beats for relief from post-traumatics [Phase 5].",
+      "data_start":"play_monaural(669, 669.20);",
+      "data_stop":"stop_monaural();",
+      "data_id":"s0e7rub84"
+   },
+   {
       "data_name":"0.26 Hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":" Monaural beats for relief in dental pain and gum inflamation (go see a dentist if you are using this).  [Phase 1] Switch to monaural if this doesn't work.",
       "data_start":"play_monaural(174, 174.26);",
