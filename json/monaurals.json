@@ -36,35 +36,35 @@
    },
    {
       "data_name":"0.20 Hz Monaural Beats over 396 Hz Solfeggio Frequency",
-      "data_description":"Monaural Beats for relief from post-traumatics[Phase 1].",
+      "data_description":"Monaural Beats for relief for post-traumatics[Phase 1].",
       "data_start":"play_monaural(396, 396.20);",
       "data_stop":"stop_monaural();",
       "data_id":"s0e7rub80"
    },
    {
       "data_name":"0.20 Hz Monaural Beats over 417 Hz Solfeggio Frequency",
-      "data_description":"Monaural Beats for relief from post-traumatics [Phase 2].",
+      "data_description":"Monaural Beats for relief for post-traumatics [Phase 2].",
       "data_start":"play_monaural(417, 417.20);",
       "data_stop":"stop_monaural();",
       "data_id":"s0e7rub81"
    },
    {
       "data_name":"0.20 Hz Monaural Beats over 618 Hz Solfeggio Frequency",
-      "data_description":"Monaural Beats for relief from post-traumatics [Phase 3].",
+      "data_description":"Monaural Beats for relief for post-traumatics [Phase 3].",
       "data_start":"play_monaural(618, 618.20);",
       "data_stop":"stop_monaural();",
       "data_id":"s0e7rub82"
    },
    {
       "data_name":"0.20 Hz Monaural Beats over 639 Hz Solfeggio Frequency",
-      "data_description":"Monaural Beats for relief from post-traumatics [Phase 4].",
+      "data_description":"Monaural Beats for relief for post-traumatics [Phase 4].",
       "data_start":"play_monaural(639, 639.20);",
       "data_stop":"stop_monaural();",
       "data_id":"s0e7rub83"
    },
    {
       "data_name":"0.20 Hz Monaural Beats over 669 Hz Solfeggio Frequency",
-      "data_description":"Monaural Beats for relief from post-traumatics [Phase 5].",
+      "data_description":"Monaural Beats for relief for post-traumatics [Phase 5].",
       "data_start":"play_monaural(669, 669.20);",
       "data_stop":"stop_monaural();",
       "data_id":"s0e7rub84"
