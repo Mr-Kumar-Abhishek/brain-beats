@@ -778,11 +778,11 @@ function play_sine_3d_auto(tone_freq_array) {
 
     boolSine3Dauto = 1;
 
-    if(tone_freq_array.length == 1 && tone_freq_array[0] < 100 ){
+    if(tone_freq_array.length == 1 && tone_freq_array[0] < 63 ){
 
       play_binaural(174, 174+tone_freq_array[0]);
 
-    }else if(tone_freq_array.length == 1 && tone_freq_array[0] >= 100){
+    }else if(tone_freq_array.length == 1 && tone_freq_array[0] >= 63){
       
       play_pure_tone(tone_freq_array[0]);
     
