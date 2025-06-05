@@ -782,7 +782,7 @@ function play_sine_3d_auto(tone_freq_array) {
 
       play_binaural(174, 174+tone_freq_array[0]);
 
-    } else if(tone_freq_array.length == 1 && tone_freq_array[0] >= 100)
+    }else if(tone_freq_array.length == 1 && tone_freq_array[0] >= 100){
       
       play_pure_tone(tone_freq_array[0]);
     
@@ -803,7 +803,7 @@ function play_sine_3d_auto(tone_freq_array) {
 
     }
     
-  } else {
+  }else{
     stop_sine_3d_auto();
     play_sine_3d_auto(tone_freq_array);
   }
