@@ -72,7 +72,7 @@
   {
     "data_name": "Acupuncture Disturbance Field  Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Acupuncture disturbance field (scar focus). The frequencies in this preset are: 5.9 hz",
-    "data_start": "play_pure_tone(5.9);",
+    "data_start": "play_rife_3d_auto([5.9]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "qy2z2u0s"
   },
@@ -485,21 +485,21 @@
   {
     "data_name": "Arthritis Arthralgia Due To Gout Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Arthritis arthralgia due to gout. The frequencies in this preset are: 9.39 hz",
-    "data_start": "play_pure_tone(9.39);",
+    "data_start": "play_rife_3d_auto([9.39]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "byn8fso0"
   },
   {
     "data_name": "Arthritis  Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Arthritis (arthrosis and parathyroid disturbances affecting calcium metabolism). The frequencies in this preset are: 9.6 hz",
-    "data_start": "play_pure_tone(9.6);",
+    "data_start": "play_rife_3d_auto([9.6]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "mjnwjcfq"
   },
   {
     "data_name": "Arthritis  Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Arthritis (focal origin gastrogenic tonsiltogenic and paresis). The frequencies in this preset are: 9.39 hz",
-    "data_start": "play_pure_tone(9.39);",
+    "data_start": "play_rife_3d_auto([9.39]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "y5y4syi8"
   },
@@ -1052,7 +1052,7 @@
   {
     "data_name": "Brachial Neuralgia Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Brachial neuralgia. The frequencies in this preset are: 0.5 hz",
-    "data_start": "play_pure_tone(0.5);",
+    "data_start": "play_rife_3d_auto([0.5]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "35p3h3i8"
   },
@@ -1780,7 +1780,7 @@
   {
     "data_name": "Cardiacedema Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Cardiacedema. The frequencies in this preset are: 9.19 hz",
-    "data_start": "play_pure_tone(9.19);",
+    "data_start": "play_rife_3d_auto([9.19]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "xxmi529k"
   },
@@ -2900,7 +2900,7 @@
   {
     "data_name": "Dog And Cat Hostility 1 Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Dog and cat hostility 1. The frequencies in this preset are: 3.6 hz",
-    "data_start": "play_pure_tone(3.6);",
+    "data_start": "play_rife_3d_auto([3.6]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "q9co86bu"
   },
@@ -3033,7 +3033,7 @@
   {
     "data_name": "Eczema Vascular And Lung Disturbances Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Eczema vascular and lung disturbances. The frequencies in this preset are: 9.39 hz",
-    "data_start": "play_pure_tone(9.39);",
+    "data_start": "play_rife_3d_auto([9.39]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "rhyxiu5d"
   },
@@ -3054,7 +3054,7 @@
   {
     "data_name": "Electrosmog 1 Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Electrosmog 1. The frequencies in this preset are: 99.5 hz",
-    "data_start": "play_pure_tone(99.5);",
+    "data_start": "play_rife_3d_auto([99.5]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "arqlhz3q"
   },
@@ -3306,7 +3306,7 @@
   {
     "data_name": "Erythema Nosodum Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Erythema nosodum. The frequencies in this preset are: 9.39 hz",
-    "data_start": "play_pure_tone(9.39);",
+    "data_start": "play_rife_3d_auto([9.39]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "25fbujfe"
   },
@@ -3376,7 +3376,7 @@
   {
     "data_name": "Facial Toning Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Facial toning. The frequencies in this preset are: 1.2 hz",
-    "data_start": "play_pure_tone(1.2);",
+    "data_start": "play_rife_3d_auto([1.2]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "7j0tzkhq"
   },
@@ -4419,7 +4419,7 @@
   {
     "data_name": "Hormonal Imbalances Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Hormonal imbalances. The frequencies in this preset are: 5.5 hz",
-    "data_start": "play_pure_tone(5.5);",
+    "data_start": "play_rife_3d_auto([5.5]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "fubvjbwv"
   },
@@ -5441,7 +5441,7 @@
   {
     "data_name": "Liver Stores Bile Cholesterol Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Liver stores bile cholesterol. The frequencies in this preset are: 21.34 hz",
-    "data_start": "play_pure_tone(21.34);",
+    "data_start": "play_rife_3d_auto([21.34]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "fwalknz2"
   },
@@ -6155,7 +6155,7 @@
   {
     "data_name": "Multiple Sclerosis Stiff Legs Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Multiple sclerosis stiff legs. The frequencies in this preset are: 315.77 hz",
-    "data_start": "play_pure_tone(315.77);",
+    "data_start": "play_rife_3d_auto([315.77]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "ne2bvn20"
   },
@@ -6575,7 +6575,7 @@
   {
     "data_name": "Osteoitis Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Osteoitis. The frequencies in this preset are: 2.65 hz",
-    "data_start": "play_pure_tone(2.65);",
+    "data_start": "play_rife_3d_auto([2.65]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "erm9ukr3"
   },
@@ -6624,7 +6624,7 @@
   {
     "data_name": "Otosclerosis Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Otosclerosis. The frequencies in this preset are: 9.19 hz",
-    "data_start": "play_pure_tone(9.19);",
+    "data_start": "play_rife_3d_auto([9.19]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "5lps6d4v"
   },
@@ -7436,14 +7436,14 @@
   {
     "data_name": "Paresis Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Paresis. The frequencies in this preset are: 9.4 hz",
-    "data_start": "play_pure_tone(9.4);",
+    "data_start": "play_rife_3d_auto([9.4]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "pa44dxs7"
   },
   {
     "data_name": "Paresthesia Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Paresthesia. The frequencies in this preset are: 5.5 hz",
-    "data_start": "play_pure_tone(5.5);",
+    "data_start": "play_rife_3d_auto([5.5]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "p28lm261"
   },
@@ -7800,7 +7800,7 @@
   {
     "data_name": "Propionibacterium Acnes  Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Propionibacterium acnes (may be secondary cause of some prostate cancers. Sweep from 5996.1 to 6078.1 by 0.03125 dwell 1 pulse 64 75 plus 6046.9 for mental relief for 6 min). The frequencies in this preset are: 6046.9 hz",
-    "data_start": "play_pure_tone(6046.9);",
+    "data_start": "play_rife_3d_auto([6046.9]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "k1u6992v"
   },
@@ -8066,7 +8066,7 @@
   {
     "data_name": "Renal Excretory Insufficiency Diastolic Hypertensive  Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Renal excretory insufficiency diastolic hypertensive (also see Kidney insufficiency). The frequencies in this preset are: 9.2 hz",
-    "data_start": "play_pure_tone(9.2);",
+    "data_start": "play_rife_3d_auto([9.2]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "s2whs9g7"
   },
@@ -8395,7 +8395,7 @@
   {
     "data_name": "Sedative Effect  Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Sedative effect (Reported use on bleeding, bruises, insomnia, sinusitis). The frequencies in this preset are: 2.5 hz",
-    "data_start": "play_pure_tone(2.5);",
+    "data_start": "play_rife_3d_auto([2.5]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "m4dtx4bo"
   },
@@ -8633,7 +8633,7 @@
   {
     "data_name": "Spasms Muscle Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Spasms muscle. The frequencies in this preset are: 6.8 hz",
-    "data_start": "play_pure_tone(6.8);",
+    "data_start": "play_rife_3d_auto([6.8]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "nh7fvgug"
   },
@@ -9032,7 +9032,7 @@
   {
     "data_name": "Subluxation Induced Disorders Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Subluxation induced disorders. The frequencies in this preset are: 9.6 hz",
-    "data_start": "play_pure_tone(9.6);",
+    "data_start": "play_rife_3d_auto([9.6]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "oahkpel3"
   },
@@ -9109,7 +9109,7 @@
   {
     "data_name": "Tachycardia  Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Tachycardia (rapid heart beat. For lab animals only. See also Heart tonic, Relaxation sets.). The frequencies in this preset are: 1.2 hz",
-    "data_start": "play_pure_tone(1.2);",
+    "data_start": "play_rife_3d_auto([1.2]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "gbtjb4df"
   },
@@ -9767,7 +9767,7 @@
   {
     "data_name": "Yersenia Pestis 1 Rife 3D frequencies",
     "data_description": "This is Rife 3D frequencies healing preset for mental relief for Yersenia pestis 1. The frequencies in this preset are: 337.6 hz",
-    "data_start": "play_pure_tone(337.6);",
+    "data_start": "play_rife_3d_auto([337.6]);",
     "data_stop": "stop_rife_3d_auto();",
     "data_id": "0ykf10ii"
   },
