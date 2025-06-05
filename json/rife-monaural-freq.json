@@ -72,7 +72,7 @@
     {
       "data_name": "Acupuncture Disturbance Field  Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Acupuncture disturbance field (scar focus). The frequencies in this preset are: 5.9 hz",
-      "data_start": "play_pure_tone(5.9);",
+      "data_start": "play_rife_monaural([5.9]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "ym80r1n2y"
     },
@@ -485,21 +485,21 @@
     {
       "data_name": "Arthritis Arthralgia Due To Gout Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Arthritis arthralgia due to gout. The frequencies in this preset are: 9.39 hz",
-      "data_start": "play_pure_tone(9.39);",
+      "data_start": "play_rife_monaural([9.39]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "t109h3sfg"
     },
     {
       "data_name": "Arthritis  Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Arthritis (arthrosis and parathyroid disturbances affecting calcium metabolism). The frequencies in this preset are: 9.6 hz",
-      "data_start": "play_pure_tone(9.6);",
+      "data_start": "play_rife_monaural([9.6]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "iwq27aewb"
     },
     {
       "data_name": "Arthritis  Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Arthritis (focal origin gastrogenic tonsiltogenic and paresis). The frequencies in this preset are: 9.39 hz",
-      "data_start": "play_pure_tone(9.39);",
+      "data_start": "play_rife_monaural([9.39]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "mx5ibzqew"
     },
@@ -1052,7 +1052,7 @@
     {
       "data_name": "Brachial Neuralgia Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Brachial neuralgia. The frequencies in this preset are: 0.5 hz",
-      "data_start": "play_pure_tone(0.5);",
+      "data_start": "play_rife_monaural([0.5]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "sgq4hu0yv"
     },
@@ -1780,7 +1780,7 @@
     {
       "data_name": "Cardiacedema Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Cardiacedema. The frequencies in this preset are: 9.19 hz",
-      "data_start": "play_pure_tone(9.19);",
+      "data_start": "play_rife_monaural([9.19]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "6nhrshdz8"
     },
@@ -2900,7 +2900,7 @@
     {
       "data_name": "Dog And Cat Hostility 1 Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Dog and cat hostility 1. The frequencies in this preset are: 3.6 hz",
-      "data_start": "play_pure_tone(3.6);",
+      "data_start": "play_rife_monaural([3.6]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "zeuno68jd"
     },
@@ -3033,7 +3033,7 @@
     {
       "data_name": "Eczema Vascular And Lung Disturbances Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Eczema vascular and lung disturbances. The frequencies in this preset are: 9.39 hz",
-      "data_start": "play_pure_tone(9.39);",
+      "data_start": "play_rife_monaural([9.39]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "f1ldkz2u1"
     },
@@ -3054,7 +3054,7 @@
     {
       "data_name": "Electrosmog 1 Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Electrosmog 1. The frequencies in this preset are: 99.5 hz",
-      "data_start": "play_pure_tone(99.5);",
+      "data_start": "play_rife_monaural([99.5]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "l08s3zp3r"
     },
@@ -3306,7 +3306,7 @@
     {
       "data_name": "Erythema Nosodum Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Erythema nosodum. The frequencies in this preset are: 9.39 hz",
-      "data_start": "play_pure_tone(9.39);",
+      "data_start": "play_rife_monaural([9.39]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "15sul0v5g"
     },
@@ -3376,7 +3376,7 @@
     {
       "data_name": "Facial Toning Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Facial toning. The frequencies in this preset are: 1.2 hz",
-      "data_start": "play_pure_tone(1.2);",
+      "data_start": "play_rife_monaural([1.2]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "q6kkcltcs"
     },
@@ -4419,7 +4419,7 @@
     {
       "data_name": "Hormonal Imbalances Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Hormonal imbalances. The frequencies in this preset are: 5.5 hz",
-      "data_start": "play_pure_tone(5.5);",
+      "data_start": "play_rife_monaural([5.5]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "y09km51ck"
     },
@@ -5441,7 +5441,7 @@
     {
       "data_name": "Liver Stores Bile Cholesterol Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Liver stores bile cholesterol. The frequencies in this preset are: 21.34 hz",
-      "data_start": "play_pure_tone(21.34);",
+      "data_start": "play_rife_monaural([21.34]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "2u2shgrut"
     },
@@ -6155,7 +6155,7 @@
     {
       "data_name": "Multiple Sclerosis Stiff Legs Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Multiple sclerosis stiff legs. The frequencies in this preset are: 315.77 hz",
-      "data_start": "play_pure_tone(315.77);",
+      "data_start": "play_rife_monaural([315.77]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "qarsumlae"
     },
@@ -6575,7 +6575,7 @@
     {
       "data_name": "Osteoitis Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Osteoitis. The frequencies in this preset are: 2.65 hz",
-      "data_start": "play_pure_tone(2.65);",
+      "data_start": "play_rife_monaural([2.65]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "baazg0fej"
     },
@@ -6624,7 +6624,7 @@
     {
       "data_name": "Otosclerosis Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Otosclerosis. The frequencies in this preset are: 9.19 hz",
-      "data_start": "play_pure_tone(9.19);",
+      "data_start": "play_rife_monaural([9.19]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "ig111jiit"
     },
@@ -7436,14 +7436,14 @@
     {
       "data_name": "Paresis Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Paresis. The frequencies in this preset are: 9.4 hz",
-      "data_start": "play_pure_tone(9.4);",
+      "data_start": "play_rife_monaural([9.4]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "bqn2c1w00"
     },
     {
       "data_name": "Paresthesia Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Paresthesia. The frequencies in this preset are: 5.5 hz",
-      "data_start": "play_pure_tone(5.5);",
+      "data_start": "play_rife_monaural([5.5]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "spdixl4zp"
     },
@@ -7800,7 +7800,7 @@
     {
       "data_name": "Propionibacterium Acnes  Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Propionibacterium acnes (may be secondary cause of some prostate cancers. Sweep from 5996.1 to 6078.1 by 0.03125 dwell 1 pulse 64 75 plus 6046.9 for mental relief for 6 min). The frequencies in this preset are: 6046.9 hz",
-      "data_start": "play_pure_tone(6046.9);",
+      "data_start": "play_rife_monaural([6046.9]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "74u9mujyt"
     },
@@ -8066,7 +8066,7 @@
     {
       "data_name": "Renal Excretory Insufficiency Diastolic Hypertensive  Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Renal excretory insufficiency diastolic hypertensive (also see Kidney insufficiency). The frequencies in this preset are: 9.2 hz",
-      "data_start": "play_pure_tone(9.2);",
+      "data_start": "play_rife_monaural([9.2]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "o959qp7kk"
     },
@@ -8395,7 +8395,7 @@
     {
       "data_name": "Sedative Effect  Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Sedative effect (Reported use on bleeding, bruises, insomnia, sinusitis). The frequencies in this preset are: 2.5 hz",
-      "data_start": "play_pure_tone(2.5);",
+      "data_start": "play_rife_monaural([2.5]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "yimdmyce2"
     },
@@ -8633,7 +8633,7 @@
     {
       "data_name": "Spasms Muscle Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Spasms muscle. The frequencies in this preset are: 6.8 hz",
-      "data_start": "play_pure_tone(6.8);",
+      "data_start": "play_rife_monaural([6.8]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "1q9amrdpn"
     },
@@ -9032,7 +9032,7 @@
     {
       "data_name": "Subluxation Induced Disorders Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Subluxation induced disorders. The frequencies in this preset are: 9.6 hz",
-      "data_start": "play_pure_tone(9.6);",
+      "data_start": "play_rife_monaural([9.6]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "n1h3a2bh4"
     },
@@ -9109,7 +9109,7 @@
     {
       "data_name": "Tachycardia  Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Tachycardia (rapid heart beat. For lab animals only. See also Heart tonic, Relaxation sets.). The frequencies in this preset are: 1.2 hz",
-      "data_start": "play_pure_tone(1.2);",
+      "data_start": "play_rife_monaural([1.2]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "vf1q64ymp"
     },
@@ -9767,7 +9767,7 @@
     {
       "data_name": "Yersenia Pestis 1 Rife Monaural frequencies",
       "data_description": "This is Rife Monaural frequencies healing preset for mental relief for Yersenia pestis 1. The frequencies in this preset are: 337.6 hz",
-      "data_start": "play_pure_tone(337.6);",
+      "data_start": "play_rife_monaural([337.6]);",
       "data_stop": "stop_pure_tone();",
       "data_id": "0c5g7wzvv"
     },
