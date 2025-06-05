@@ -1248,6 +1248,7 @@ function stop_rife_3d_auto() {
 function stop_sine_3d_auto() {
   stop_sine();
   stop_binaural();
+  stop_pure_tone();
   boolSine3Dauto = 0;
 }
 
