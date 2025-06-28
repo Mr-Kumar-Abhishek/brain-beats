@@ -25,8 +25,8 @@ fetch(jsonData)
   const sectionDescription = sectionNode.querySelector(".card-text");
   const sectionLink = sectionNode.querySelector(".linker");
   const sectionID = sectionNode.querySelector(".fav");
-  sectionTitle.textContent = indexSection.section_name;
-  sectionDescription.textContent = indexSection.section_description;
+  sectionTitle.innerHTML = indexSection.section_name;
+  sectionDescription.innerHTML = indexSection.section_description;
   sectionLink.setAttribute("href", indexSection.section_link);
   sectionID.setAttribute("id", indexSection.data_id);
   console.log(favorites);
