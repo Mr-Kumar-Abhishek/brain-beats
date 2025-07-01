@@ -268,6 +268,16 @@ tr:hover {
 }
 
 
+.card-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(-360deg); }  /* Use negative value for anti-clockwise spin */
