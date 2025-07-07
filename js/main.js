@@ -991,6 +991,12 @@ function play_mind_machine_binaural(freq1, freq2){
     if (freq1 < 0 || freq2 < 0) {
       console.error("Frequency values must be non-negative.");
       return;
+    } else if (freq1 == null || freq2 == null) {
+      console.error("Frequency values cannot be null.");
+      return;
+    } else if (freq1 == undefined || freq2 == undefined) {
+      console.error("Frequency values cannot be undefined.");
+      return;
     }
     
     bool_mind_machine_binaural = 1;
