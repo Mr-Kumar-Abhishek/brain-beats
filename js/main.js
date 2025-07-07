@@ -988,6 +988,11 @@ function play_mind_machine_binaural(freq1, freq2){
 
   if (bool_mind_machine_binaural == 0) {
 
+    if (freq1 < 0 || freq2 < 0) {
+      console.error("Frequency values must be non-negative.");
+      return;
+    }
+    
     bool_mind_machine_binaural = 1;
     var freq = Math.abs(freq2 - freq1);
 
