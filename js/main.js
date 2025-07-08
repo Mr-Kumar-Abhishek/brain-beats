@@ -1471,7 +1471,7 @@ function warning(whichy){
 }
 
 
-function disclaimer(modalName = 'instructionModal', focusName = 'search-me') {
+function modalCaller(modalName = 'instructionModal', focusName = 'search-me') {
   document.addEventListener('DOMContentLoaded', () => {
     // Get the modal element
     const instructionModalElement = document.getElementById(modalName);
@@ -1506,4 +1506,4 @@ function disclaimer(modalName = 'instructionModal', focusName = 'search-me') {
 
 // Make sure the disclaimer function is called somewhere if it wasn't already
 // (Though it seems to be called at the end of search.html)
-// disclaimer();
+// modalCaller();
