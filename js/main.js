@@ -1300,6 +1300,7 @@ function play_sq_monaural_generator(){
 function play_mind_machine_binaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
+  
   play_mind_machine_binaural(freq1, freq2);
 }
 
@@ -1470,10 +1471,10 @@ function warning(whichy){
 }
 
 
-function disclaimer() {
+function disclaimer(modalName = 'instructionModal', focusName = 'search-me') {
   document.addEventListener('DOMContentLoaded', () => {
     // Get the modal element
-    const instructionModalElement = document.getElementById('instructionModal');
+    const instructionModalElement = document.getElementById(modalName);
     if (!instructionModalElement) {
         console.error("Modal element #instructionModal not found!");
         return; // Exit if modal doesn't exist
@@ -1487,7 +1488,7 @@ function disclaimer() {
     // --- Add this event listener ---
     instructionModalElement.addEventListener('hidden.bs.modal', function (event) {
       // Find the search input element
-      const searchInput = document.getElementById('search-me');
+      const searchInput = document.getElementById(focusName);
       // If the search input exists, set focus to it
       if (searchInput) {
         searchInput.focus();
