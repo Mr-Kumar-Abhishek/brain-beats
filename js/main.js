@@ -1300,8 +1300,50 @@ function play_sq_monaural_generator(){
 function play_mind_machine_binaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
-  
-  play_mind_machine_binaural(freq1, freq2);
+
+  if (freq1 < 0) {
+    modalCaller("freq1NegativeModal", "freq1");
+    return;
+  }
+  else if (freq2 < 0) {
+    modalCaller("freq2NegativeModal", "freq2");
+    return;
+  } else if (freq1 == null) {
+    modalCaller("freq1NullModal", "freq1");
+    return;
+  } else if (freq2 == null) {
+    modalCaller("freq2NullModal", "freq2");
+    return;
+  } else if (freq1 == undefined) {
+    modalCaller("freq1UndefinedModal", "freq1");
+    return;
+  } else if (freq2 == undefined) {
+    modalCaller("freq2UndefinedModal", "freq2");
+    return;
+  } else if (freq1 == "" ) {
+    modalCaller("freq1EmptyModal", "freq1");
+    return;
+  } else if (freq2 == "") {
+    modalCaller("freq2EmptyModal", "freq2");
+    return;
+  } else if (freq1 == freq2) {
+    modalCaller("freq1EqualFreq2Modal", "freq1");
+    return;
+  } else if (freq1 < 20) {
+    modalCaller("freq1TooLowModal", "freq1");
+    return;
+  } else if (freq2 < 20) { 
+    modalCaller("freq2TooLowModal", "freq2");
+    return;
+  } else if (freq1 > 20000) {
+    modalCaller("freq1TooHighModal", "freq1");
+    return;
+  } else if (freq2 > 20000) { 
+    modalCaller("freq2TooHighModal", "freq2");
+    return;
+  }else{
+    play_mind_machine_binaural(freq1, freq2);
+  }
 }
 
 function toggle_volume(){
