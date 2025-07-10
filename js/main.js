@@ -1474,24 +1474,24 @@ function warning(whichy){
 function modalCaller(modalName = 'instructionModal', focusName = 'search-me') {
   document.addEventListener('DOMContentLoaded', () => {
     // Get the modal element
-    const instructionModalElement = document.getElementById(modalName);
-    if (!instructionModalElement) {
-        console.error("Modal element #instructionModal not found!");
+    const modalElement = document.getElementById(modalName);
+    if (!modalElement) {
+        console.error("Modal element #" + modalName + "not found!");
         return; // Exit if modal doesn't exist
     }
 
-    const myModal = new bootstrap.Modal(instructionModalElement, {
+    const myModal = new bootstrap.Modal(modalElement, {
       backdrop: 'static', // Prevents closing by clicking outside
       keyboard: false    // Prevents closing with the Escape key
     });
 
     // --- Add this event listener ---
-    instructionModalElement.addEventListener('hidden.bs.modal', function (event) {
+    modalElement.addEventListener('hidden.bs.modal', function (event) {
       // Find the search input element
-      const searchInput = document.getElementById(focusName);
+      const focusElement = document.getElementById(focusName);
       // If the search input exists, set focus to it
-      if (searchInput) {
-        searchInput.focus();
+      if (focusElement) {
+        focusElement.focus();
       } else {
         // Fallback: focus the body if search input isn't found for some reason
         document.body.focus();
