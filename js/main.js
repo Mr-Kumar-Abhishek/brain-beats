@@ -114,6 +114,45 @@ var panning_model = 'HRTF'; // used in binaural and 3D sounds
 
   // Define a variable to store the animation duration
   var duration = 0.01;
+
+
+function modalCaller(modalName = 'instructionModal', focusName = 'search-me') {
+  document.addEventListener('DOMContentLoaded', () => {
+    // Get the modal element
+    const modalElement = document.getElementById(modalName);
+    if (!modalElement) {
+        console.error("Modal element #" + modalName + "not found!");
+        return; // Exit if modal doesn't exist
+    }
+
+    const myModal = new bootstrap.Modal(modalElement, {
+      backdrop: 'static', // Prevents closing by clicking outside
+      keyboard: false    // Prevents closing with the Escape key
+    });
+
+    // --- Add this event listener ---
+    modalElement.addEventListener('hidden.bs.modal', function (event) {
+      // Find the search input element
+      const focusElement = document.getElementById(focusName);
+      // If the search input exists, set focus to it
+      if (focusElement) {
+        focusElement.focus();
+      } else {
+        // Fallback: focus the body if search input isn't found for some reason
+        document.body.focus();
+      }
+    });
+    // --- End of added listener ---
+
+    // Show the modal
+    myModal.show();
+  });
+}
+
+// Make sure the disclaimer function is called somewhere if it wasn't already
+// (Though it seems to be called at the end of search.html)
+// modalCaller();
+
   
 
 function start_dreamachine(freq) {
@@ -1525,40 +1564,3 @@ function warning(whichy){
       
 }
 
-
-function modalCaller(modalName = 'instructionModal', focusName = 'search-me') {
-  document.addEventListener('DOMContentLoaded', () => {
-    // Get the modal element
-    const modalElement = document.getElementById(modalName);
-    if (!modalElement) {
-        console.error("Modal element #" + modalName + "not found!");
-        return; // Exit if modal doesn't exist
-    }
-
-    const myModal = new bootstrap.Modal(modalElement, {
-      backdrop: 'static', // Prevents closing by clicking outside
-      keyboard: false    // Prevents closing with the Escape key
-    });
-
-    // --- Add this event listener ---
-    modalElement.addEventListener('hidden.bs.modal', function (event) {
-      // Find the search input element
-      const focusElement = document.getElementById(focusName);
-      // If the search input exists, set focus to it
-      if (focusElement) {
-        focusElement.focus();
-      } else {
-        // Fallback: focus the body if search input isn't found for some reason
-        document.body.focus();
-      }
-    });
-    // --- End of added listener ---
-
-    // Show the modal
-    myModal.show();
-  });
-}
-
-// Make sure the disclaimer function is called somewhere if it wasn't already
-// (Though it seems to be called at the end of search.html)
-// modalCaller();
