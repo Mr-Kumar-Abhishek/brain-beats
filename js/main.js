@@ -116,9 +116,8 @@ var panning_model = 'HRTF'; // used in binaural and 3D sounds
   var duration = 0.01;
 
 
-function modalCaller(modalName = 'instructionModal', focusName = 'search-me') {
-  document.addEventListener('DOMContentLoaded', () => {
-    // Get the modal element
+function modalDisplayer(modalName = 'instructionModal', focusName = 'search-me') {
+  // Get the modal element
     const modalElement = document.getElementById(modalName);
     if (!modalElement) {
         console.error("Modal element #" + modalName + "not found!");
@@ -145,8 +144,17 @@ function modalCaller(modalName = 'instructionModal', focusName = 'search-me') {
     // --- End of added listener ---
 
     // Show the modal
-    myModal.show();
-  });
+    myModal.show();;
+}
+
+function modalCaller(modalName = 'instructionModal', focusName = 'search-me') {
+  if (modalName === 'instructionModal') {
+    document.addEventListener('DOMContentLoaded', () => {
+      modalDisplayer(modalName, focusName);
+    });
+  } else {
+    modalDisplayer(modalName, focusName);
+  }
 }
 
 // Make sure the disclaimer function is called somewhere if it wasn't already
