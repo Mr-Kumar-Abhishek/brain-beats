@@ -1301,11 +1301,11 @@ function play_mind_machine_binaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
 
-  if (freq1 < 0) {
+  if (freq1 <= 0) {
     modalCaller("freq1NegativeModal", "freq1");
     return;
   }
-  else if (freq2 < 0) {
+  else if (freq2 <= 0) {
     modalCaller("freq2NegativeModal", "freq2");
     return;
   } else if (freq1 == null) {
