@@ -84,6 +84,7 @@ var boolRife3D = 0;
 var boolSine3Dauto = 0;
 var boolRife3Dauto = 0;
 var boolALT3dauto = 0;
+var boolBIO3dauto = 0;
 var boolYellow = 0;
 var boolTurquoise = 0;
 var bool_mind_machine_binaural = 0;
@@ -798,6 +799,15 @@ function distributePoints(n) {
   // Return the 2D array
   return points;
 }
+function play_BIO_3d_auto(tone_freq_array){
+  if(boolBIO3dauto == 0){
+    boolBIO3dauto = 1;
+    play_sine_3d_auto(tone_freq_array);
+  }else {
+    stop_BIO_3d_auto();
+    play_BIO_3d_auto(tone_freq_array);
+  }
+}
 
 function play_ALT_3d_auto(tone_freq_array){
   if(boolALT3dauto == 0){
@@ -1271,6 +1281,12 @@ function stop_ALT_3d_auto(){
   boolALT3dauto = 0;
   stop_sine_3d_auto();
 }
+
+function stop_BIO_3d_auto(){
+  boolBIO3dauto = 0;  
+  stop_sine_3d_auto();
+}
+
 
 function stop_ALT_monaural(){
   boolALTMonaural = 0;
