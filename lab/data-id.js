@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // Read JSON file
-const jsonData = JSON.parse(fs.readFileSync('../json/alt-freq-monaural.json', 'utf-8'));
+const jsonData = JSON.parse(fs.readFileSync('../json/bio-monaural-freq.json', 'utf-8'));
 
 // Function to generate unique ID
 function generateID() {
@@ -14,4 +14,4 @@ jsonData.forEach(obj => {
 });
 
 // Write updated JSON to file
-fs.writeFileSync('../json/alt-freq-monaural.json', JSON.stringify(jsonData));
+fs.writeFileSync('../json/bio-monaural-freq.json', JSON.stringify(jsonData));
