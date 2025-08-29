@@ -13,4 +13,5 @@ const jsonData11 = "./json/rife-frequencies-cafl-xref.json";
 const jsonData12 = "./json/alt-freq-auto.json";
 const jsonData13 = "./json/alt-freq-monaural.json";
 const jsonData14 = "./json/bio-freq-auto.json";
-const jsonDataArray = [jsonData0, jsonData1, jsonData2, jsonData3, jsonData4, jsonData5, jsonData6, jsonData7, jsonData8, jsonData9, jsonData10, jsonData11, jsonData12, jsonData13, jsonData14];
+const jsonData15 = "./json/bio-monaural-freq.json";
+const jsonDataArray = [jsonData0, jsonData1, jsonData2, jsonData3, jsonData4, jsonData5, jsonData6, jsonData7, jsonData8, jsonData9, jsonData10, jsonData11, jsonData12, jsonData13, jsonData14, jsonData15];
