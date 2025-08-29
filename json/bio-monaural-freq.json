@@ -2,1856 +2,1856 @@
   {
     "data_name": "Actinomyces Israelii BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Actinomyces Israelii. The frequencies in this preset are: 222 Hz, 262 Hz, 2154 Hz",
-    "data_start": "play_BIO_3d_auto([222, 262, 2154]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([222, 262, 2154]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "o3O9wrMk"
   },
   {
     "data_name": "Adenovirus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Adenovirus. The frequencies in this preset are: 333 Hz, 523 Hz, 786 Hz",
-    "data_start": "play_BIO_3d_auto([333, 523, 786]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([333, 523, 786]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "0slKhEHI"
   },
   {
     "data_name": "AIDS Kaposi's Sarcoma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for AIDS Kaposi's Sarcoma. The frequencies in this preset are: 249 Hz, 418 Hz",
-    "data_start": "play_BIO_3d_auto([249, 418]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([249, 418]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "USaxV6SS"
   },
   {
     "data_name": "Amoeba Hepar Abscess,Liver BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Amoeba Hepar Abscess,Liver. The frequencies in this preset are: 344 Hz",
-    "data_start": "play_BIO_3d_auto([344]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([344]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "gW3v867i"
   },
   {
     "data_name": "Amoeba BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Amoeba. The frequencies in this preset are: 310 Hz, 333 Hz, 532 Hz, 732 Hz, 827 Hz, 1522 Hz",
-    "data_start": "play_BIO_3d_auto([310, 333, 532, 732, 827, 1522]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([310, 333, 532, 732, 827, 1522]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "FNCLY5jq"
   },
   {
     "data_name": "Anthracinum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Anthracinum. The frequencies in this preset are: 633 Hz",
-    "data_start": "play_BIO_3d_auto([633]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([633]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "5rctExXi"
   },
   {
     "data_name": "Aremes Tennus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Aremes Tennus. The frequencies in this preset are: 667 Hz",
-    "data_start": "play_BIO_3d_auto([667]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([667]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "HvWcMrRP"
   },
   {
     "data_name": "Arnica BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Arnica. The frequencies in this preset are: 1042 Hz",
-    "data_start": "play_BIO_3d_auto([1042]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([1042]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "3FsvCQhX"
   },
   {
     "data_name": "Aspergillus Glaucus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Aspergillus Glaucus. The frequencies in this preset are: 524 Hz",
-    "data_start": "play_BIO_3d_auto([524]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([524]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "1nCpvVe1"
   },
   {
     "data_name": "Aspergillus Niger BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Aspergillus Niger. The frequencies in this preset are: 374 Hz",
-    "data_start": "play_BIO_3d_auto([374]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([374]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "u7m4x1x3"
   },
   {
     "data_name": "Asthma,Lung BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Asthma,Lung. The frequencies in this preset are: 1233 Hz, 1283 Hz",
-    "data_start": "play_BIO_3d_auto([1233, 1283]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([1233, 1283]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "EPQ6mLw5"
   },
   {
     "data_name": "Bacterium Coli BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Bacterium Coli. The frequencies in this preset are: 642 Hz",
-    "data_start": "play_BIO_3d_auto([642]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([642]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "7yaUGw1U"
   },
   {
     "data_name": "Bacterium Lactis Nosode BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Bacterium Lactis Nosode. The frequencies in this preset are: 512 Hz, 526 Hz, 798 Hz, 951 Hz, 5412 Hz",
-    "data_start": "play_BIO_3d_auto([512, 526, 798, 951, 5412]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([512, 526, 798, 951, 5412]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "K3GwJmvY"
   },
   {
     "data_name": "Banti's Syndrome BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Banti's Syndrome. The frequencies in this preset are: 1778 Hz",
-    "data_start": "play_BIO_3d_auto([1778]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([1778]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "xceFJRi1"
   },
   {
     "data_name": "Barley Smut BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Barley Smut. The frequencies in this preset are: 377 Hz",
-    "data_start": "play_BIO_3d_auto([377]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([377]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "jrgQbWPS"
   },
   {
     "data_name": "Bermuda Smut BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Bermuda Smut. The frequencies in this preset are: 971 Hz",
-    "data_start": "play_BIO_3d_auto([971]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([971]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "kfkLywrC"
   },
   {
     "data_name": "Biliary Cirrhosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Biliary Cirrhosis. The frequencies in this preset are: 381 Hz, 514 Hz, 677 Hz, 2271 Hz",
-    "data_start": "play_BIO_3d_auto([381, 514, 677, 2271]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([381, 514, 677, 2271]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "cS9yiC81"
   },
   {
     "data_name": "Bilirubin BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Bilirubin. The frequencies in this preset are: 717 Hz, 726 Hz, 731 Hz, 863 Hz",
-    "data_start": "play_BIO_3d_auto([717, 726, 731, 863]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([717, 726, 731, 863]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "kLgiFPtY"
   },
   {
     "data_name": "Blastocystis Hominis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Blastocystis Hominis. The frequencies in this preset are: 365 Hz, 595 Hz, 844 Hz, 848 Hz, 1201 Hz, 1243 Hz",
-    "data_start": "play_BIO_3d_auto([365, 595, 844, 848, 1201, 1243]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([365, 595, 844, 848, 1201, 1243]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "XZS9dgl1"
   },
   {
     "data_name": "Blue Cohosh BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Blue Cohosh. The frequencies in this preset are: 364 Hz",
-    "data_start": "play_BIO_3d_auto([364]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([364]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "npFa94zd"
   },
   {
     "data_name": "Borreliosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Borreliosis. The frequencies in this preset are: 254 Hz, 345 Hz, 525 Hz, 605 Hz, 644 Hz, 673 Hz, 797 Hz, 884 Hz, 1455 Hz",
-    "data_start": "play_BIO_3d_auto([254, 345, 525, 605, 644, 673, 797, 884, 1455]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([254, 345, 525, 605, 644, 673, 797, 884, 1455]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "DMUXgn2A"
   },
   {
     "data_name": "Botrytis Cinereas BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Botrytis Cinereas. The frequencies in this preset are: 1132 Hz",
-    "data_start": "play_BIO_3d_auto([1132]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([1132]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "okeYgLqc"
   },
   {
     "data_name": "Brain Tumor Astrocytoma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Brain Tumor Astrocytoma. The frequencies in this preset are: 857 Hz",
-    "data_start": "play_BIO_3d_auto([857]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([857]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "oanJt2IW"
   },
   {
     "data_name": "Bronchiectasis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Bronchiectasis. The frequencies in this preset are: 342 Hz",
-    "data_start": "play_BIO_3d_auto([342]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([342]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Z2kbknv4"
   },
   {
     "data_name": "Cancer Astrocytoma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Astrocytoma. The frequencies in this preset are: 857 Hz",
-    "data_start": "play_BIO_3d_auto([857]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([857]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Is0ENdEP"
   },
   {
     "data_name": "Cancer Bronchial BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Bronchial. The frequencies in this preset are: 462 Hz, 852 Hz, 1582 Hz",
-    "data_start": "play_BIO_3d_auto([462, 852, 1582]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([462, 852, 1582]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "XmVdnKlO"
   },
   {
     "data_name": "Cancer Colon BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Colon. The frequencies in this preset are: 656 Hz",
-    "data_start": "play_BIO_3d_auto([656]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([656]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "91jmOsjf"
   },
   {
     "data_name": "Cancer Gliomas BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Gliomas. The frequencies in this preset are: 543 Hz, 641 Hz",
-    "data_start": "play_BIO_3d_auto([543, 641]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([543, 641]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "rZbajsk4"
   },
   {
     "data_name": "Cancer Hairy Cell BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Hairy Cell. The frequencies in this preset are: 122 Hz, 622 Hz, 932 Hz, 5122 Hz, 1522 Hz",
-    "data_start": "play_BIO_3d_auto([122, 622, 932, 5122, 1522]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([122, 622, 932, 5122, 1522]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "pvM3BBGn"
   },
   {
     "data_name": "Cancer Hodgkin's Disease BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Hodgkin's Disease. The frequencies in this preset are: 552 Hz, 1522 Hz",
-    "data_start": "play_BIO_3d_auto([552, 1522]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([552, 1522]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "QaH8z7vp"
   },
   {
     "data_name": "Cancer Kaposi's Sarcoma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Kaposi's Sarcoma. The frequencies in this preset are: 249 Hz, 418 Hz",
-    "data_start": "play_BIO_3d_auto([249, 418]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([249, 418]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "zrOXIvN5"
   },
   {
     "data_name": "Cancer Leukemia BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Leukemia. The frequencies in this preset are: 424 Hz, 830 Hz, 901 Hz, 918 Hz",
-    "data_start": "play_BIO_3d_auto([424, 830, 901, 918]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([424, 830, 901, 918]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "oEIMBvdt"
   },
   {
     "data_name": "Cancer Lymphatic BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Lymphatic. The frequencies in this preset are: 478 Hz, 833 Hz",
-    "data_start": "play_BIO_3d_auto([478, 833]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([478, 833]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "KqZfVgMQ"
   },
   {
     "data_name": "Cancer Mycosis Fungoides BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Mycosis Fungoides. The frequencies in this preset are: 852 Hz",
-    "data_start": "play_BIO_3d_auto([852]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([852]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "6FHO01kn"
   },
   {
     "data_name": "Cancer Myeloid BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Myeloid. The frequencies in this preset are: 422 Hz, 822 Hz",
-    "data_start": "play_BIO_3d_auto([422, 822]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([422, 822]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "ei4ilmZF"
   },
   {
     "data_name": "Cancer Plasmacytoma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Plasmacytoma. The frequencies in this preset are: 475 Hz",
-    "data_start": "play_BIO_3d_auto([475]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([475]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "ldxvzEPu"
   },
   {
     "data_name": "Cancer Uterine Fermentative BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cancer Uterine Fermentative. The frequencies in this preset are: 127 Hz",
-    "data_start": "play_BIO_3d_auto([127]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([127]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "HeZdv5xb"
   },
   {
     "data_name": "Candida Tropicalis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Candida Tropicalis. The frequencies in this preset are: 1403 Hz",
-    "data_start": "play_BIO_3d_auto([1403]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([1403]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Z4fMC6TV"
   },
   {
     "data_name": "Candida BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Candida. The frequencies in this preset are: 866 Hz",
-    "data_start": "play_BIO_3d_auto([866]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([866]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "jZZg48Ua"
   },
   {
     "data_name": "Carvularia Spirafera BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Carvularia Spirafera. The frequencies in this preset are: 879 Hz",
-    "data_start": "play_BIO_3d_auto([879]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([879]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "y0IKNRXm"
   },
   {
     "data_name": "Cataract Complicated BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cataract Complicated. The frequencies in this preset are: 496 Hz",
-    "data_start": "play_BIO_3d_auto([496]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([496]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "dsVhEY3l"
   },
   {
     "data_name": "Causticum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Causticum. The frequencies in this preset are: 540 Hz, 1013 Hz",
-    "data_start": "play_BIO_3d_auto([540, 1013]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([540, 1013]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "DKh3zDRk"
   },
   {
     "data_name": "Cephalosporium BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cephalosporium. The frequencies in this preset are: 481 Hz, 3966 Hz",
-    "data_start": "play_BIO_3d_auto([481, 3966]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([481, 3966]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "xnnma7fk"
   },
   {
     "data_name": "Cervix Adenoma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cervix Adenoma. The frequencies in this preset are: 433 Hz",
-    "data_start": "play_BIO_3d_auto([433]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([433]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "yftvDcbd"
   },
   {
     "data_name": "Chaetomium Globosum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Chaetomium Globosum. The frequencies in this preset are: 221 Hz, 867 Hz",
-    "data_start": "play_BIO_3d_auto([221, 867]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([221, 867]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "TEIuD9K9"
   },
   {
     "data_name": "Chicken Pox BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Chicken Pox. The frequencies in this preset are: 787 Hz, 3343 Hz",
-    "data_start": "play_BIO_3d_auto([787, 3343]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([787, 3343]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Kk0reA63"
   },
   {
     "data_name": "Chlamydia BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Chlamydia. The frequencies in this preset are: 430 Hz, 620 Hz, 624 Hz, 840 Hz, 2213 Hz",
-    "data_start": "play_BIO_3d_auto([430, 620, 624, 840, 2213]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([430, 620, 624, 840, 2213]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "afDH1KSE"
   },
   {
     "data_name": "Cholecystitis Chronic BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cholecystitis Chronic. The frequencies in this preset are: 432 Hz",
-    "data_start": "play_BIO_3d_auto([432]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([432]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "55fENnzE"
   },
   {
     "data_name": "Cholera BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cholera. The frequencies in this preset are: 330 Hz, 843 Hz, 844 Hz, 1035 Hz",
-    "data_start": "play_BIO_3d_auto([330, 843, 844, 1035]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([330, 843, 844, 1035]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "6HncZxTs"
   },
   {
     "data_name": "Cirrhosis Biliary BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cirrhosis Biliary. The frequencies in this preset are: 381 Hz, 514 Hz, 677 Hz, 2271 Hz",
-    "data_start": "play_BIO_3d_auto([381, 514, 677, 2271]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([381, 514, 677, 2271]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "AetclbS6"
   },
   {
     "data_name": "CMV BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for CMV. The frequencies in this preset are: 126 Hz, 597 Hz, 1045 Hz, 2145 Hz",
-    "data_start": "play_BIO_3d_auto([126, 597, 1045, 2145]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([126, 597, 1045, 2145]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "muFOxrLW"
   },
   {
     "data_name": "Coeliacia BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Coeliacia. The frequencies in this preset are: 154 Hz, 594 Hz, 656 Hz",
-    "data_start": "play_BIO_3d_auto([154, 594, 656]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([154, 594, 656]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "J5majIcr"
   },
   {
     "data_name": "Condylomata BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Condylomata. The frequencies in this preset are: 466 Hz",
-    "data_start": "play_BIO_3d_auto([466]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([466]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "TgDGDe79"
   },
   {
     "data_name": "Corn Smut BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Corn Smut. The frequencies in this preset are: 546 Hz, 1642 Hz",
-    "data_start": "play_BIO_3d_auto([546, 1642]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([546, 1642]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "F6l8FV5f"
   },
   {
     "data_name": "Coxsackie Type B1 BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Coxsackie Type B1. The frequencies in this preset are: 834 Hz",
-    "data_start": "play_BIO_3d_auto([834]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([834]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "8bFh66R5"
   },
   {
     "data_name": "Crinis Humansis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Crinis Humansis. The frequencies in this preset are: 646 Hz",
-    "data_start": "play_BIO_3d_auto([646]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([646]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "iX9dN1KD"
   },
   {
     "data_name": "Critter 1 BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Critter 1. The frequencies in this preset are: 1033 Hz",
-    "data_start": "play_BIO_3d_auto([1033]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([1033]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "upfbt28i"
   },
   {
     "data_name": "Cyst Ovarian BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cyst Ovarian. The frequencies in this preset are: 982 Hz",
-    "data_start": "play_BIO_3d_auto([982]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([982]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "DBS5IqKK"
   },
   {
     "data_name": "Cystitis Chronic BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Cystitis Chronic. The frequencies in this preset are: 246 Hz",
-    "data_start": "play_BIO_3d_auto([246]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([246]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "ffGo62uk"
   },
   {
     "data_name": "Dematium Nigrum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Dematium Nigrum. The frequencies in this preset are: 243 Hz",
-    "data_start": "play_BIO_3d_auto([243]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([243]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "KBIFlKjI"
   },
   {
     "data_name": "Dental BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Dental. The frequencies in this preset are: 635 Hz, 640 Hz, 1036 Hz, 1043 Hz, 1094 Hz",
-    "data_start": "play_BIO_3d_auto([635, 640, 1036, 1043, 1094]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([635, 640, 1036, 1043, 1094]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "lmmBhHkG"
   },
   {
     "data_name": "Distemper BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Distemper. The frequencies in this preset are: 242 Hz, 254 Hz, 312 Hz, 442 Hz, 551 Hz, 573 Hz, 624 Hz, 671 Hz, 712 Hz, 940 Hz, 1269 Hz, 1950 Hz",
-    "data_start": "play_BIO_3d_auto([242, 254, 312, 442, 551, 573, 624, 671, 712, 940, 1269, 1950]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([242, 254, 312, 442, 551, 573, 624, 671, 712, 940, 1269, 1950]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "p3zpSxTr"
   },
   {
     "data_name": "Diverticulosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Diverticulosis. The frequencies in this preset are: 154 Hz, 934 Hz",
-    "data_start": "play_BIO_3d_auto([154, 934]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([154, 934]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "UDWz8b8f"
   },
   {
     "data_name": "E Coli BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for E Coli. The frequencies in this preset are: 282 Hz, 333 Hz, 413 Hz, 957 Hz, 1320 Hz, 1722 Hz",
-    "data_start": "play_BIO_3d_auto([282, 333, 413, 957, 1320, 1722]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([282, 333, 413, 957, 1320, 1722]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "oF6VuDAV"
   },
   {
     "data_name": "Echinococcinum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Echinococcinum. The frequencies in this preset are: 164 Hz, 453 Hz, 542 Hz, 623 Hz",
-    "data_start": "play_BIO_3d_auto([164, 453, 542, 623]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([164, 453, 542, 623]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "FLlJO0k5"
   },
   {
     "data_name": "Echo Virus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Echo Virus. The frequencies in this preset are: 620 Hz",
-    "data_start": "play_BIO_3d_auto([620]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([620]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "6ZbmZX2F"
   },
   {
     "data_name": "Endometriosis Chronic BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Endometriosis Chronic. The frequencies in this preset are: 246 Hz",
-    "data_start": "play_BIO_3d_auto([246]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([246]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "gRSa83uo"
   },
   {
     "data_name": "Enterococcinum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Enterococcinum. The frequencies in this preset are: 686 Hz",
-    "data_start": "play_BIO_3d_auto([686]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([686]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "aOhBARpd"
   },
   {
     "data_name": "Enterohepatitis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Enterohepatitis. The frequencies in this preset are: 552 Hz, 932 Hz, 953 Hz",
-    "data_start": "play_BIO_3d_auto([552, 932, 953]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([552, 932, 953]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "wyn5oRoC"
   },
   {
     "data_name": "Epidermophyton Floccinum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Epidermophyton Floccinum. The frequencies in this preset are: 644 Hz, 766 Hz",
-    "data_start": "play_BIO_3d_auto([644, 766]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([644, 766]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "4YefZV9X"
   },
   {
     "data_name": "Epstein Barr Virus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Epstein Barr Virus. The frequencies in this preset are: 105 Hz, 172 Hz, 253 Hz, 660 Hz, 663 Hz, 669 Hz, 744 Hz, 825 Hz, 1032 Hz, 1920 Hz",
-    "data_start": "play_BIO_3d_auto([105, 172, 253, 660, 663, 669, 744, 825, 1032, 1920]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([105, 172, 253, 660, 663, 669, 744, 825, 1032, 1920]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "5ReVlF2e"
   },
   {
     "data_name": "Escherichia Coli BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Escherichia Coli. The frequencies in this preset are: 282 Hz, 333 Hz, 413 Hz, 957 Hz, 1320 Hz, 1722 Hz",
-    "data_start": "play_BIO_3d_auto([282, 333, 413, 957, 1320, 1722]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([282, 333, 413, 957, 1320, 1722]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "caKErcBC"
   },
   {
     "data_name": "Fasciola Hepatica BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Fasciola Hepatica. The frequencies in this preset are: 143 Hz, 275 Hz",
-    "data_start": "play_BIO_3d_auto([143, 275]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([143, 275]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "DhQvMs4m"
   },
   {
     "data_name": "Febris Wolhynia BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Febris Wolhynia. The frequencies in this preset are: 547 Hz",
-    "data_start": "play_BIO_3d_auto([547]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([547]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Si1Y3N5h"
   },
   {
     "data_name": "Fel Tauri BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Fel Tauri. The frequencies in this preset are: 672 Hz",
-    "data_start": "play_BIO_3d_auto([672]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([672]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "PKuNdWKf"
   },
   {
     "data_name": "Fell BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Fell. The frequencies in this preset are: 435 Hz",
-    "data_start": "play_BIO_3d_auto([435]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([435]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "2V63x8h3"
   },
   {
     "data_name": "Fibrosarcoma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Fibrosarcoma. The frequencies in this preset are: 1744 Hz",
-    "data_start": "play_BIO_3d_auto([1744]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([1744]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "gy0OUd7e"
   },
   {
     "data_name": "Filariose BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Filariose. The frequencies in this preset are: 112 Hz, 120 Hz",
-    "data_start": "play_BIO_3d_auto([112, 120]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([112, 120]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "YSKYjHyn"
   },
   {
     "data_name": "Fischpyrogen BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Fischpyrogen. The frequencies in this preset are: 832 Hz",
-    "data_start": "play_BIO_3d_auto([832]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([832]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "ju64jtKA"
   },
   {
     "data_name": "Fistula Dentalis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Fistula Dentalis. The frequencies in this preset are: 550 Hz, 727 Hz, 844 Hz, 1122 Hz",
-    "data_start": "play_BIO_3d_auto([550, 727, 844, 1122]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([550, 727, 844, 1122]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "kbUICGRa"
   },
   {
     "data_name": "FIV BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for FIV. The frequencies in this preset are: 262 Hz, 323 Hz, 372 Hz, 404 Hz, 567 Hz, 712 Hz, 742 Hz, 760 Hz, 773 Hz, 916 Hz, 1103 Hz, 1132 Hz, 3701 Hz",
-    "data_start": "play_BIO_3d_auto([262, 323, 372, 404, 567, 712, 742, 760, 773, 916, 1103, 1132, 3701]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([262, 323, 372, 404, 567, 712, 742, 760, 773, 916, 1103, 1132, 3701]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Lusu8HhA"
   },
   {
     "data_name": "Flu 1979 BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Flu 1979. The frequencies in this preset are: 123 Hz",
-    "data_start": "play_BIO_3d_auto([123]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([123]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "mRkaZZuo"
   },
   {
     "data_name": "Flu 1983 BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Flu 1983. The frequencies in this preset are: 730 Hz, 734 Hz",
-    "data_start": "play_BIO_3d_auto([730, 734]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([730, 734]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "NpyHRge5"
   },
   {
     "data_name": "Flu Spanish BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Flu Spanish. The frequencies in this preset are: 462 Hz",
-    "data_start": "play_BIO_3d_auto([462]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([462]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "uY9FoAtO"
   },
   {
     "data_name": "Flukeworm BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Flukeworm. The frequencies in this preset are: 524 Hz, 854 Hz",
-    "data_start": "play_BIO_3d_auto([524, 854]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([524, 854]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "huM9HyrG"
   },
   {
     "data_name": "Fusarium Oxysporum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Fusarium Oxysporum. The frequencies in this preset are: 102 Hz, 705 Hz",
-    "data_start": "play_BIO_3d_auto([102, 705]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([102, 705]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "87G2GUsd"
   },
   {
     "data_name": "Gallbladder Inflammation BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Gallbladder Inflammation. The frequencies in this preset are: 432 Hz",
-    "data_start": "play_BIO_3d_auto([432]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([432]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "hNwxuhkj"
   },
   {
     "data_name": "Gallstone Attack BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Gallstone Attack. The frequencies in this preset are: 481 Hz, 743 Hz, 865 Hz, 928 Hz",
-    "data_start": "play_BIO_3d_auto([481, 743, 865, 928]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([481, 743, 865, 928]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "PZ7pFN2j"
   },
   {
     "data_name": "Grippe 1987 BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Grippe 1987. The frequencies in this preset are: 332 Hz, 953 Hz",
-    "data_start": "play_BIO_3d_auto([332, 953]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([332, 953]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "SkC5fUeS"
   },
   {
     "data_name": "Grippe BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Grippe. The frequencies in this preset are: 343 Hz, 500 Hz, 512 Hz, 541 Hz, 862 Hz, 1000 Hz, 1192 Hz, 3012 Hz, 3423 Hz, 10223 Hz",
-    "data_start": "play_BIO_3d_auto([343, 500, 512, 541, 862, 1000, 1192, 3012, 3423, 10223]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([343, 500, 512, 541, 862, 1000, 1192, 3012, 3423, 10223]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "uxSURmHu"
   },
   {
     "data_name": "Haemophilia BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Haemophilia. The frequencies in this preset are: 845 Hz",
-    "data_start": "play_BIO_3d_auto([845]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([845]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "6D355kTz"
   },
   {
     "data_name": "Hair Human BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Hair Human. The frequencies in this preset are: 646 Hz",
-    "data_start": "play_BIO_3d_auto([646]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([646]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "VGqK09Cy"
   },
   {
     "data_name": "Hand Foot and Mouth Syndrome BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Hand Foot and Mouth Syndrome. The frequencies in this preset are: 232 Hz, 237 Hz, 1214 Hz, 1243 Hz, 1244 Hz, 1271 Hz, 5411 Hz",
-    "data_start": "play_BIO_3d_auto([232, 237, 1214, 1243, 1244, 1271, 5411]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([232, 237, 1214, 1243, 1244, 1271, 5411]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "zCFXTfJv"
   },
   {
     "data_name": "Heartworms BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Heartworms. The frequencies in this preset are: 543 Hz, 2322 Hz",
-    "data_start": "play_BIO_3d_auto([543, 2322]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([543, 2322]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "726jIBra"
   },
   {
     "data_name": "Helminthosporium BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Helminthosporium. The frequencies in this preset are: 793 Hz, 969 Hz",
-    "data_start": "play_BIO_3d_auto([793, 969]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([793, 969]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "2e4xCTR3"
   },
   {
     "data_name": "Hemobartinella Felis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Hemobartinella Felis. The frequencies in this preset are: 603 Hz, 957 Hz",
-    "data_start": "play_BIO_3d_auto([603, 957]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([603, 957]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "YyScpDLN"
   },
   {
     "data_name": "Hemorrhoids BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Hemorrhoids. The frequencies in this preset are: 447 Hz",
-    "data_start": "play_BIO_3d_auto([447]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([447]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "zUdZmfnZ"
   },
   {
     "data_name": "Hepatitis New Numbers BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Hepatitis New Numbers. The frequencies in this preset are: 477 Hz, 922 Hz",
-    "data_start": "play_BIO_3d_auto([477, 922]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([477, 922]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "D5HNTVna"
   },
   {
     "data_name": "Hepatitis Type A BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Hepatitis Type A. The frequencies in this preset are: 321 Hz, 3220 Hz",
-    "data_start": "play_BIO_3d_auto([321, 3220]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([321, 3220]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "ZX1FSBwB"
   },
   {
     "data_name": "Hepatitis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Hepatitis. The frequencies in this preset are: 224 Hz, 317 Hz, 1351 Hz",
-    "data_start": "play_BIO_3d_auto([224, 317, 1351]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([224, 317, 1351]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "JYvZCI1x"
   },
   {
     "data_name": "Herpes Simplex II BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Herpes Simplex II. The frequencies in this preset are: 556 Hz, 832 Hz",
-    "data_start": "play_BIO_3d_auto([556, 832]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([556, 832]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "zX06HKqb"
   },
   {
     "data_name": "Herpes Simplex IU.2 BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Herpes Simplex IU.2. The frequencies in this preset are: 808 Hz",
-    "data_start": "play_BIO_3d_auto([808]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([808]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "BhJRucwF"
   },
   {
     "data_name": "Herpes Type 2A BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Herpes Type 2A. The frequencies in this preset are: 532 Hz",
-    "data_start": "play_BIO_3d_auto([532]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([532]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "tpJPy0qn"
   },
   {
     "data_name": "Herpes Type 5 BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Herpes Type 5. The frequencies in this preset are: 126 Hz, 597 Hz, 1045 Hz, 2145 Hz",
-    "data_start": "play_BIO_3d_auto([126, 597, 1045, 2145]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([126, 597, 1045, 2145]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "mULYAuip"
   },
   {
     "data_name": "Herpes Type C BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Herpes Type C. The frequencies in this preset are: 395 Hz, 424 Hz, 460 Hz, 533 Hz, 554 Hz, 701 Hz, 745 Hz, 2450 Hz",
-    "data_start": "play_BIO_3d_auto([395, 424, 460, 533, 554, 701, 745, 2450]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([395, 424, 460, 533, 554, 701, 745, 2450]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "8XXnruh3"
   },
   {
     "data_name": "HIV BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for HIV. The frequencies in this preset are: 683 Hz, 714 Hz, 3554 Hz",
-    "data_start": "play_BIO_3d_auto([683, 714, 3554]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([683, 714, 3554]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "peoWPpuc"
   },
   {
     "data_name": "Hodgkin's Disease BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Hodgkin's Disease. The frequencies in this preset are: 552 Hz, 1522 Hz",
-    "data_start": "play_BIO_3d_auto([552, 1522]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([552, 1522]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "bHw7rc6F"
   },
   {
     "data_name": "Household Insect Mix BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Household Insect Mix. The frequencies in this preset are: 723 Hz",
-    "data_start": "play_BIO_3d_auto([723]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([723]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "8ohGMCvJ"
   },
   {
     "data_name": "Icterus Haemolytic BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Icterus Haemolytic. The frequencies in this preset are: 243 Hz",
-    "data_start": "play_BIO_3d_auto([243]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([243]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "CjQeB2bi"
   },
   {
     "data_name": "Influenza Spanish BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Influenza Spanish. The frequencies in this preset are: 462 Hz",
-    "data_start": "play_BIO_3d_auto([462]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([462]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "RpR6DExH"
   },
   {
     "data_name": "Influenza Swine BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Influenza Swine. The frequencies in this preset are: 413 Hz, 432 Hz, 663 Hz, 839 Hz, 995 Hz",
-    "data_start": "play_BIO_3d_auto([413, 432, 663, 839, 995]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([413, 432, 663, 839, 995]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Ji2timTL"
   },
   {
     "data_name": "Influenza Triple Nosode BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Influenza Triple Nosode. The frequencies in this preset are: 421 Hz, 632 Hz, 1242 Hz, 1422 Hz, 1922 Hz, 3122 Hz",
-    "data_start": "play_BIO_3d_auto([421, 632, 1242, 1422, 1922, 3122]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([421, 632, 1242, 1422, 1922, 3122]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "e4oavXfJ"
   },
   {
     "data_name": "Influenza Virus A Port Chalmers BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Influenza Virus A Port Chalmers. The frequencies in this preset are: 332 Hz",
-    "data_start": "play_BIO_3d_auto([332]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([332]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "1qBC44RJ"
   },
   {
     "data_name": "Influenzum Bach Poly Flu BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Influenzum Bach Poly Flu. The frequencies in this preset are: 122 Hz, 350 Hz, 487 Hz, 634 Hz, 823 Hz",
-    "data_start": "play_BIO_3d_auto([122, 350, 487, 634, 823]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([122, 350, 487, 634, 823]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Dvzzp2aV"
   },
   {
     "data_name": "Influenzum Toxicum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Influenzum Toxicum. The frequencies in this preset are: 854 Hz",
-    "data_start": "play_BIO_3d_auto([854]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([854]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "t4sKCmGl"
   },
   {
     "data_name": "Kaposi's Sarcoma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Kaposi's Sarcoma. The frequencies in this preset are: 249 Hz, 418 Hz",
-    "data_start": "play_BIO_3d_auto([249, 418]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([249, 418]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "TbHQcPIs"
   },
   {
     "data_name": "Kidney Papilloma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Kidney Papilloma. The frequencies in this preset are: 110 Hz, 767 Hz, 917 Hz",
-    "data_start": "play_BIO_3d_auto([110, 767, 917]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([110, 767, 917]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "ki5tbL87"
   },
   {
     "data_name": "Kieferosteitis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Kieferosteitis. The frequencies in this preset are: 432 Hz, 516 Hz",
-    "data_start": "play_BIO_3d_auto([432, 516]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([432, 516]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "UmzFtnua"
   },
   {
     "data_name": "Klebsiella Pneumoniae BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Klebsiella Pneumoniae. The frequencies in this preset are: 412 Hz, 766 Hz",
-    "data_start": "play_BIO_3d_auto([412, 766]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([412, 766]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "yQ3bTCHV"
   },
   {
     "data_name": "Lamblia BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Lamblia. The frequencies in this preset are: 334 Hz",
-    "data_start": "play_BIO_3d_auto([334]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([334]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "dBVBiHpx"
   },
   {
     "data_name": "Lateral Sclerose BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Lateral Sclerose. The frequencies in this preset are: 254 Hz",
-    "data_start": "play_BIO_3d_auto([254]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([254]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "e8e5IhJT"
   },
   {
     "data_name": "Leishman-Donovan Bodies BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Leishman-Donovan Bodies. The frequencies in this preset are: 525 Hz",
-    "data_start": "play_BIO_3d_auto([525]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([525]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Xn87T9tG"
   },
   {
     "data_name": "Leptospirosis PC BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Leptospirosis PC. The frequencies in this preset are: 612 Hz",
-    "data_start": "play_BIO_3d_auto([612]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([612]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "VSwEc7PM"
   },
   {
     "data_name": "Leukemia Hairy Cell BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Leukemia Hairy Cell. The frequencies in this preset are: 122 Hz, 622 Hz, 932 Hz, 5122 Hz",
-    "data_start": "play_BIO_3d_auto([122, 622, 932, 5122]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([122, 622, 932, 5122]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "JOr5xSMW"
   },
   {
     "data_name": "Leukemia Lymphatic BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Leukemia Lymphatic. The frequencies in this preset are: 478 Hz, 833 Hz",
-    "data_start": "play_BIO_3d_auto([478, 833]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([478, 833]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "roRwRRaC"
   },
   {
     "data_name": "Leukemia BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Leukemia. The frequencies in this preset are: 424 Hz, 830 Hz, 901 Hz, 918 Hz",
-    "data_start": "play_BIO_3d_auto([424, 830, 901, 918]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([424, 830, 901, 918]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "ngUvKULt"
   },
   {
     "data_name": "Leukoencephalitis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Leukoencephalitis. The frequencies in this preset are: 324 Hz, 572 Hz, 932 Hz, 1035 Hz, 1079 Hz, 1111 Hz, 1160 Hz, 1333 Hz, 1630 Hz",
-    "data_start": "play_BIO_3d_auto([324, 572, 932, 1035, 1079, 1111, 1160, 1333, 1630]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([324, 572, 932, 1035, 1079, 1111, 1160, 1333, 1630]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "mNG8WJDY"
   },
   {
     "data_name": "Leukose BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Leukose. The frequencies in this preset are: 612 Hz, 633 Hz, 653 Hz, 3722 Hz, 41224 Hz",
-    "data_start": "play_BIO_3d_auto([612, 633, 653, 3722, 41224]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([612, 633, 653, 3722, 41224]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "vlC6MV3s"
   },
   {
     "data_name": "Lipoma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Lipoma. The frequencies in this preset are: 47 Hz",
-    "data_start": "play_BIO_3d_auto([47]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([47]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "GJ6WCfAc"
   },
   {
     "data_name": "Lung Sinus Bacteria BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Lung Sinus Bacteria. The frequencies in this preset are: 548 Hz",
-    "data_start": "play_BIO_3d_auto([548]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([548]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "VL7CKdth"
   },
   {
     "data_name": "Lupus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Lupus. The frequencies in this preset are: 205 Hz, 243 Hz, 244 Hz, 352 Hz, 386 Hz, 633 Hz, 921 Hz, 942 Hz, 993 Hz, 1333 Hz, 1464 Hz",
-    "data_start": "play_BIO_3d_auto([205, 243, 244, 352, 386, 633, 921, 942, 993, 1333, 1464]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([205, 243, 244, 352, 386, 633, 921, 942, 993, 1333, 1464]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "KuGGxshs"
   },
   {
     "data_name": "Lyme Disease BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Lyme Disease. The frequencies in this preset are: 254 Hz, 345 Hz, 525 Hz, 605 Hz, 644 Hz, 673 Hz, 797 Hz, 884 Hz, 1455 Hz",
-    "data_start": "play_BIO_3d_auto([254, 345, 525, 605, 644, 673, 797, 884, 1455]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([254, 345, 525, 605, 644, 673, 797, 884, 1455]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "KhvILCaS"
   },
   {
     "data_name": "Lyssinum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Lyssinum. The frequencies in this preset are: 547 Hz, 793 Hz",
-    "data_start": "play_BIO_3d_auto([547, 793]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([547, 793]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "hnSVL7YK"
   },
   {
     "data_name": "Malaria BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Malaria. The frequencies in this preset are: 222 Hz, 550 Hz, 713 Hz, 930 Hz, 1032 Hz, 1433 Hz",
-    "data_start": "play_BIO_3d_auto([222, 550, 713, 930, 1032, 1433]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([222, 550, 713, 930, 1032, 1433]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "TzmvhBol"
   },
   {
     "data_name": "Mallei BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mallei. The frequencies in this preset are: 1273 Hz",
-    "data_start": "play_BIO_3d_auto([1273]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([1273]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "HE12lv8g"
   },
   {
     "data_name": "Mannan BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mannan. The frequencies in this preset are: 961 Hz",
-    "data_start": "play_BIO_3d_auto([961]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([961]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "pwg0Hxfz"
   },
   {
     "data_name": "Marsh Elder BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Marsh Elder. The frequencies in this preset are: 474 Hz",
-    "data_start": "play_BIO_3d_auto([474]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([474]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "eu1QVqNB"
   },
   {
     "data_name": "Mastitis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mastitis. The frequencies in this preset are: 654 Hz",
-    "data_start": "play_BIO_3d_auto([654]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([654]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "i8pEZweY"
   },
   {
     "data_name": "Mastoiditis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mastoiditis. The frequencies in this preset are: 287 Hz",
-    "data_start": "play_BIO_3d_auto([287]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([287]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "LdgPvmCS"
   },
   {
     "data_name": "Measles Rubella BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Measles Rubella. The frequencies in this preset are: 431 Hz, 510 Hz",
-    "data_start": "play_BIO_3d_auto([431, 510]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([431, 510]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Knb0Jnxj"
   },
   {
     "data_name": "Measles Rubeola Vaccine BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Measles Rubeola Vaccine. The frequencies in this preset are: 962 Hz",
-    "data_start": "play_BIO_3d_auto([962]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([962]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "8W63qYZa"
   },
   {
     "data_name": "Medorrhinum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Medorrhinum. The frequencies in this preset are: 230 Hz, 442 Hz, 554 Hz, 843 Hz, 854 Hz, 1700 Hz, 1880 Hz, 2222 Hz",
-    "data_start": "play_BIO_3d_auto([230, 442, 554, 843, 854, 1700, 1880, 2222]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([230, 442, 554, 843, 854, 1700, 1880, 2222]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "GtukEiz9"
   },
   {
     "data_name": "Melanoma Metastasis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Melanoma Metastasis. The frequencies in this preset are: 979 Hz",
-    "data_start": "play_BIO_3d_auto([979]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([979]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "2qPj10QG"
   },
   {
     "data_name": "Meningococcinum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Meningococcinum. The frequencies in this preset are: 130 Hz, 517 Hz, 676 Hz, 677 Hz",
-    "data_start": "play_BIO_3d_auto([130, 517, 676, 677]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([130, 517, 676, 677]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "dGMIWEWe"
   },
   {
     "data_name": "Meningococcus Virus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Meningococcus Virus. The frequencies in this preset are: 720 Hz",
-    "data_start": "play_BIO_3d_auto([720]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([720]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "DhugdnzK"
   },
   {
     "data_name": "Microsporum Audouini BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Microsporum Audouini. The frequencies in this preset are: 422 Hz, 831 Hz, 1222 Hz",
-    "data_start": "play_BIO_3d_auto([422, 831, 1222]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([422, 831, 1222]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "eNnDl7pc"
   },
   {
     "data_name": "Mold Mix A BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mold Mix A. The frequencies in this preset are: 594 Hz",
-    "data_start": "play_BIO_3d_auto([594]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([594]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "7d1Ehj7H"
   },
   {
     "data_name": "Mold Mix B BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mold Mix B. The frequencies in this preset are: 158 Hz, 512 Hz, 623 Hz, 774 Hz, 1016 Hz, 1463 Hz",
-    "data_start": "play_BIO_3d_auto([158, 512, 623, 774, 1016, 1463]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([158, 512, 623, 774, 1016, 1463]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "hamWuoWI"
   },
   {
     "data_name": "Mold BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mold. The frequencies in this preset are: 222 Hz, 242 Hz, 523 Hz, 565 Hz, 592 Hz, 623 Hz, 745 Hz, 933 Hz, 1130 Hz, 1155 Hz, 1333 Hz, 1833 Hz, 4442 Hz",
-    "data_start": "play_BIO_3d_auto([222, 242, 523, 565, 592, 623, 745, 933, 1130, 1155, 1333, 1833, 4442]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([222, 242, 523, 565, 592, 623, 745, 933, 1130, 1155, 1333, 1833, 4442]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "brcfwycf"
   },
   {
     "data_name": "Monilia BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Monilia. The frequencies in this preset are: 866 Hz, 886 Hz",
-    "data_start": "play_BIO_3d_auto([866, 886]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([866, 886]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "MKRBUM6A"
   },
   {
     "data_name": "Monotospora Languinosa BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Monotospora Languinosa. The frequencies in this preset are: 788 Hz",
-    "data_start": "play_BIO_3d_auto([788]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([788]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "kyMhiaBR"
   },
   {
     "data_name": "Morbus Parkinson BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Morbus Parkinson. The frequencies in this preset are: 813 Hz",
-    "data_start": "play_BIO_3d_auto([813]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([813]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "e2uWq3UJ"
   },
   {
     "data_name": "Morgan BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Morgan. The frequencies in this preset are: 778 Hz",
-    "data_start": "play_BIO_3d_auto([778]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([778]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "hwCznoIl"
   },
   {
     "data_name": "Mucocutan Perniciosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mucocutan Perniciosis. The frequencies in this preset are: 833 Hz",
-    "data_start": "play_BIO_3d_auto([833]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([833]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "FLcHDiFH"
   },
   {
     "data_name": "Mucor Mucedo BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mucor Mucedo. The frequencies in this preset are: 612 Hz, 1000 Hz",
-    "data_start": "play_BIO_3d_auto([612, 1000]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([612, 1000]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "lGC9KTtd"
   },
   {
     "data_name": "Mucor Plumbeus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mucor Plumbeus. The frequencies in this preset are: 361 Hz",
-    "data_start": "play_BIO_3d_auto([361]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([361]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "yJnbYSPH"
   },
   {
     "data_name": "Mucor Racemosus Sinus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mucor Racemosus Sinus. The frequencies in this preset are: 310 Hz, 474 Hz",
-    "data_start": "play_BIO_3d_auto([310, 474]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([310, 474]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "sZ5iZouM"
   },
   {
     "data_name": "Mucoviscidosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mucoviscidosis. The frequencies in this preset are: 523 Hz",
-    "data_start": "play_BIO_3d_auto([523]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([523]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "ietXg5Nl"
   },
   {
     "data_name": "Mumps Vaccine BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mumps Vaccine. The frequencies in this preset are: 273 Hz, 551 Hz, 711 Hz, 730 Hz, 1419 Hz",
-    "data_start": "play_BIO_3d_auto([273, 551, 711, 730, 1419]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([273, 551, 711, 730, 1419]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "1pSmqrwF"
   },
   {
     "data_name": "Mumps BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mumps. The frequencies in this preset are: 152 Hz, 190 Hz, 235 Hz, 242 Hz, 516 Hz, 642 Hz, 674 Hz, 922 Hz, 1243 Hz, 1660 Hz, 2630 Hz, 3142 Hz",
-    "data_start": "play_BIO_3d_auto([152, 190, 235, 242, 516, 642, 674, 922, 1243, 1660, 2630, 3142]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([152, 190, 235, 242, 516, 642, 674, 922, 1243, 1660, 2630, 3142]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "KbadrpLg"
   },
   {
     "data_name": "Muscular Dystrophy BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Muscular Dystrophy. The frequencies in this preset are: 153 Hz",
-    "data_start": "play_BIO_3d_auto([153]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([153]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "wLW8LWcT"
   },
   {
     "data_name": "Mycogone Species (spp) BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mycogone Species (spp). The frequencies in this preset are: 371 Hz, 446 Hz, 1123 Hz",
-    "data_start": "play_BIO_3d_auto([371, 446, 1123]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([371, 446, 1123]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Vh5H41Y9"
   },
   {
     "data_name": "Mycoplasma Pneumonia BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mycoplasma Pneumonia. The frequencies in this preset are: 688 Hz",
-    "data_start": "play_BIO_3d_auto([688]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([688]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "H8k0jprI"
   },
   {
     "data_name": "Mycosis Fungoides BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Mycosis Fungoides. The frequencies in this preset are: 532 Hz, 662 Hz, 678 Hz, 852 Hz, 1444 Hz",
-    "data_start": "play_BIO_3d_auto([532, 662, 678, 852, 1444]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([532, 662, 678, 852, 1444]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "WhPzjSsN"
   },
   {
     "data_name": "Myeloid Leukemia BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Myeloid Leukemia. The frequencies in this preset are: 422 Hz, 822 Hz",
-    "data_start": "play_BIO_3d_auto([422, 822]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([422, 822]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "2YxJsuos"
   },
   {
     "data_name": "Myocardial Necrosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Myocardial Necrosis. The frequencies in this preset are: 706 Hz, 789 Hz",
-    "data_start": "play_BIO_3d_auto([706, 789]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([706, 789]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "WojCJ2id"
   },
   {
     "data_name": "Myositis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Myositis. The frequencies in this preset are: 120 Hz, 122 Hz, 125 Hz, 129 Hz, 1124 Hz, 1169 Hz",
-    "data_start": "play_BIO_3d_auto([120, 122, 125, 129, 1124, 1169]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([120, 122, 125, 129, 1124, 1169]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "JrLi7RrT"
   },
   {
     "data_name": "Nagel Mycosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Nagel Mycosis. The frequencies in this preset are: 462 Hz, 654 Hz",
-    "data_start": "play_BIO_3d_auto([462, 654]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([462, 654]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "7gGMoL6Q"
   },
   {
     "data_name": "Nagel Trichophyton BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Nagel Trichophyton. The frequencies in this preset are: 133 Hz, 381 Hz, 812 Hz, 2422 Hz",
-    "data_start": "play_BIO_3d_auto([133, 381, 812, 2422]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([133, 381, 812, 2422]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "n2bNPEjy"
   },
   {
     "data_name": "Nasal Polyp BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Nasal Polyp. The frequencies in this preset are: 542 Hz, 1436 Hz",
-    "data_start": "play_BIO_3d_auto([542, 1436]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([542, 1436]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "V5p17mq4"
   },
   {
     "data_name": "Nasturtium BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Nasturtium. The frequencies in this preset are: 143 Hz",
-    "data_start": "play_BIO_3d_auto([143]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([143]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "dUsKPYwd"
   },
   {
     "data_name": "Nematodes BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Nematodes. The frequencies in this preset are: 771 Hz",
-    "data_start": "play_BIO_3d_auto([771]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([771]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "kK3l2Tvf"
   },
   {
     "data_name": "Nephritis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Nephritis. The frequencies in this preset are: 264 Hz",
-    "data_start": "play_BIO_3d_auto([264]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([264]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Dgp5kAbe"
   },
   {
     "data_name": "Neurospora Sitophila BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Neurospora Sitophila. The frequencies in this preset are: 705 Hz",
-    "data_start": "play_BIO_3d_auto([705]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([705]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "mWDmgScH"
   },
   {
     "data_name": "Nigrospora Species (spp) BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Nigrospora Species (spp). The frequencies in this preset are: 302 Hz",
-    "data_start": "play_BIO_3d_auto([302]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([302]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "SkAJhIeZ"
   },
   {
     "data_name": "Ornithosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Ornithosis. The frequencies in this preset are: 331 Hz, 583 Hz, 1217 Hz",
-    "data_start": "play_BIO_3d_auto([331, 583, 1217]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([331, 583, 1217]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "XQv3xW23"
   },
   {
     "data_name": "Osteitis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Osteitis. The frequencies in this preset are: 770 Hz",
-    "data_start": "play_BIO_3d_auto([770]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([770]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "dmZX2wYf"
   },
   {
     "data_name": "Osteomyelosclerosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Osteomyelosclerosis. The frequencies in this preset are: 79 Hz, 330 Hz",
-    "data_start": "play_BIO_3d_auto([79, 330]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([79, 330]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "g22Ox6xW"
   },
   {
     "data_name": "Osteosinusitis Max BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Osteosinusitis Max. The frequencies in this preset are: 243 Hz",
-    "data_start": "play_BIO_3d_auto([243]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([243]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "YJWY75iQ"
   },
   {
     "data_name": "Ovarian Cyst BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Ovarian Cyst. The frequencies in this preset are: 982 Hz",
-    "data_start": "play_BIO_3d_auto([982]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([982]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "oZlcOekZ"
   },
   {
     "data_name": "Ovum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Ovum. The frequencies in this preset are: 752 Hz",
-    "data_start": "play_BIO_3d_auto([752]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([752]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "QvZ39YJW"
   },
   {
     "data_name": "Ox Bile BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Ox Bile. The frequencies in this preset are: 672 Hz",
-    "data_start": "play_BIO_3d_auto([672]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([672]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "38NvHFcd"
   },
   {
     "data_name": "Papillomavirus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Papillomavirus. The frequencies in this preset are: 907 Hz",
-    "data_start": "play_BIO_3d_auto([907]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([907]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "g7ms837j"
   },
   {
     "data_name": "Paradontose BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Paradontose. The frequencies in this preset are: 424 Hz, 1552 Hz",
-    "data_start": "play_BIO_3d_auto([424, 1552]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([424, 1552]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "KfsHZ3pb"
   },
   {
     "data_name": "Parkinson's Disease BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Parkinson's Disease. The frequencies in this preset are: 813 Hz",
-    "data_start": "play_BIO_3d_auto([813]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([813]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "gq7vr47j"
   },
   {
     "data_name": "Parvovirus Canine BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Parvovirus Canine. The frequencies in this preset are: 185 Hz, 323 Hz, 562 Hz, 613 Hz, 622 Hz, 1000 Hz, 4027 Hz",
-    "data_start": "play_BIO_3d_auto([185, 323, 562, 613, 622, 1000, 4027]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([185, 323, 562, 613, 622, 1000, 4027]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "tMIO6XY8"
   },
   {
     "data_name": "Pasteurella Combination BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Pasteurella Combination. The frequencies in this preset are: 913 Hz",
-    "data_start": "play_BIO_3d_auto([913]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([913]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Rsjuqw9K"
   },
   {
     "data_name": "Penicillium Chrysogenum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Penicillium Chrysogenum. The frequencies in this preset are: 344 Hz, 868 Hz, 1070 Hz, 2411 Hz",
-    "data_start": "play_BIO_3d_auto([344, 868, 1070, 2411]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([344, 868, 1070, 2411]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "erHTa594"
   },
   {
     "data_name": "Penicillium Notatum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Penicillium Notatum. The frequencies in this preset are: 321 Hz, 555 Hz, 629 Hz, 825 Hz, 942 Hz",
-    "data_start": "play_BIO_3d_auto([321, 555, 629, 825, 942]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([321, 555, 629, 825, 942]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "22ik9ma5"
   },
   {
     "data_name": "Pepto Streptococcus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Pepto Streptococcus. The frequencies in this preset are: 201 Hz",
-    "data_start": "play_BIO_3d_auto([201]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([201]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "bVgyq8eA"
   },
   {
     "data_name": "Perniosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Perniosis. The frequencies in this preset are: 232 Hz, 622 Hz, 822 Hz, 4211 Hz",
-    "data_start": "play_BIO_3d_auto([232, 622, 822, 4211]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([232, 622, 822, 4211]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "WIfiOFkF"
   },
   {
     "data_name": "Pertussis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Pertussis. The frequencies in this preset are: 526 Hz, 765 Hz",
-    "data_start": "play_BIO_3d_auto([526, 765]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([526, 765]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "zq6ejhWH"
   },
   {
     "data_name": "Plague BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Plague. The frequencies in this preset are: 333 Hz",
-    "data_start": "play_BIO_3d_auto([333]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([333]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Gw7gWVDt"
   },
   {
     "data_name": "Pneumococcus Mixed Flora BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Pneumococcus Mixed Flora. The frequencies in this preset are: 158 Hz, 174 Hz, 645 Hz, 801 Hz",
-    "data_start": "play_BIO_3d_auto([158, 174, 645, 801]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([158, 174, 645, 801]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "OgDK7xpy"
   },
   {
     "data_name": "Pneumocystis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Pneumocystis. The frequencies in this preset are: 204 Hz, 340 Hz, 742 Hz",
-    "data_start": "play_BIO_3d_auto([204, 340, 742]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([204, 340, 742]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "3r5HSFML"
   },
   {
     "data_name": "Pneumonia Klebsiella Pneumoniae BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Pneumonia Klebsiella Pneumoniae. The frequencies in this preset are: 412 Hz, 766 Hz",
-    "data_start": "play_BIO_3d_auto([412, 766]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([412, 766]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "3oCSAMwp"
   },
   {
     "data_name": "Pneumonia Mycoplasma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Pneumonia Mycoplasma. The frequencies in this preset are: 688 Hz",
-    "data_start": "play_BIO_3d_auto([688]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([688]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "blJPvb3I"
   },
   {
     "data_name": "Polio BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Polio. The frequencies in this preset are: 742 Hz, 1500 Hz, 2632 Hz",
-    "data_start": "play_BIO_3d_auto([742, 1500, 2632]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([742, 1500, 2632]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "kI3F0h0K"
   },
   {
     "data_name": "Porphyria BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Porphyria. The frequencies in this preset are: 698 Hz",
-    "data_start": "play_BIO_3d_auto([698]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([698]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "5s48cYZ1"
   },
   {
     "data_name": "Protozoa BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Protozoa. The frequencies in this preset are: 432 Hz, 753 Hz",
-    "data_start": "play_BIO_3d_auto([432, 753]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([432, 753]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "waxrcOyj"
   },
   {
     "data_name": "Pseudomonas BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Pseudomonas. The frequencies in this preset are: 174 Hz, 482 Hz, 5311 Hz",
-    "data_start": "play_BIO_3d_auto([174, 482, 5311]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([174, 482, 5311]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "1qlDRpfJ"
   },
   {
     "data_name": "Psittacosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Psittacosis. The frequencies in this preset are: 583 Hz, 1217 Hz",
-    "data_start": "play_BIO_3d_auto([583, 1217]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([583, 1217]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "bMbiqH2v"
   },
   {
     "data_name": "Psorinum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Psorinum. The frequencies in this preset are: 786 Hz",
-    "data_start": "play_BIO_3d_auto([786]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([786]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "AhHFdPMZ"
   },
   {
     "data_name": "Pullularia Pullulans BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Pullularia Pullulans. The frequencies in this preset are: 1364 Hz",
-    "data_start": "play_BIO_3d_auto([1364]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([1364]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "1QLh4iuk"
   },
   {
     "data_name": "Pyocyaneus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Pyocyaneus. The frequencies in this preset are: 437 Hz",
-    "data_start": "play_BIO_3d_auto([437]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([437]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "L3YpG4U8"
   },
   {
     "data_name": "Pyrogenium Mayo BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Pyrogenium Mayo. The frequencies in this preset are: 1625 Hz",
-    "data_start": "play_BIO_3d_auto([1625]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([1625]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "jtdh3cRG"
   },
   {
     "data_name": "Q Fever BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Q Fever. The frequencies in this preset are: 1357 Hz",
-    "data_start": "play_BIO_3d_auto([1357]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([1357]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "R8bjRsz5"
   },
   {
     "data_name": "Rabies BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Rabies. The frequencies in this preset are: 547 Hz, 793 Hz",
-    "data_start": "play_BIO_3d_auto([547, 793]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([547, 793]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "XWuoLx3c"
   },
   {
     "data_name": "Rhesus Gravidatum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Rhesus Gravidatum. The frequencies in this preset are: 684 Hz",
-    "data_start": "play_BIO_3d_auto([684]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([684]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "qShTkiEN"
   },
   {
     "data_name": "Rheumaticus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Rheumaticus. The frequencies in this preset are: 333 Hz, 376 Hz",
-    "data_start": "play_BIO_3d_auto([333, 376]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([333, 376]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "poLgx6uu"
   },
   {
     "data_name": "Rhinopneumonitis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Rhinopneumonitis. The frequencies in this preset are: 185 Hz, 367 Hz, 820 Hz",
-    "data_start": "play_BIO_3d_auto([185, 367, 820]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([185, 367, 820]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "rLo7vDNc"
   },
   {
     "data_name": "Rhizopus Nigricans BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Rhizopus Nigricans. The frequencies in this preset are: 132 Hz",
-    "data_start": "play_BIO_3d_auto([132]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([132]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "t1w8sGWV"
   },
   {
     "data_name": "Rhodo Torula BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Rhodo Torula. The frequencies in this preset are: 833 Hz",
-    "data_start": "play_BIO_3d_auto([833]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([833]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "zoQeESTT"
   },
   {
     "data_name": "Rhodococcus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Rhodococcus. The frequencies in this preset are: 124 Hz, 835 Hz",
-    "data_start": "play_BIO_3d_auto([124, 835]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([124, 835]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "FXq9sSUb"
   },
   {
     "data_name": "Rickettsia BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Rickettsia. The frequencies in this preset are: 129 Hz, 632 Hz, 943 Hz, 1062 Hz",
-    "data_start": "play_BIO_3d_auto([129, 632, 943, 1062]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([129, 632, 943, 1062]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "6RNplLS5"
   },
   {
     "data_name": "Rocky Mountain Spotted Fever BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Rocky Mountain Spotted Fever. The frequencies in this preset are: 375 Hz, 862 Hz, 943 Hz",
-    "data_start": "play_BIO_3d_auto([375, 862, 943]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([375, 862, 943]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "kJi8GiOL"
   },
   {
     "data_name": "Round Worms BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Round Worms. The frequencies in this preset are: 240 Hz, 650 Hz, 688 Hz",
-    "data_start": "play_BIO_3d_auto([240, 650, 688]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([240, 650, 688]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "HCJRGUXs"
   },
   {
     "data_name": "Rubella BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Rubella. The frequencies in this preset are: 431 Hz, 510 Hz",
-    "data_start": "play_BIO_3d_auto([431, 510]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([431, 510]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "O5RpCWev"
   },
   {
     "data_name": "Rubeola Vaccine BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Rubeola Vaccine. The frequencies in this preset are: 962 Hz",
-    "data_start": "play_BIO_3d_auto([962]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([962]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "PpsNuWcK"
   },
   {
     "data_name": "Rubeola BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Rubeola. The frequencies in this preset are: 342 Hz, 467 Hz, 520 Hz, 1489 Hz",
-    "data_start": "play_BIO_3d_auto([342, 467, 520, 1489]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([342, 467, 520, 1489]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "LNGHFpjn"
   },
   {
     "data_name": "Salivary Gland Virus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Salivary Gland Virus. The frequencies in this preset are: 126 Hz, 597 Hz, 1045 Hz, 2145 Hz",
-    "data_start": "play_BIO_3d_auto([126, 597, 1045, 2145]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([126, 597, 1045, 2145]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "bQ6gg1BX"
   },
   {
     "data_name": "Salmonella Type B BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Salmonella Type B. The frequencies in this preset are: 546 Hz, 1634 Hz",
-    "data_start": "play_BIO_3d_auto([546, 1634]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([546, 1634]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "nGZDzHeL"
   },
   {
     "data_name": "Sanguis Menstrualis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Sanguis Menstrualis. The frequencies in this preset are: 591 Hz",
-    "data_start": "play_BIO_3d_auto([591]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([591]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "O0PfFPjV"
   },
   {
     "data_name": "Schuman B Cell BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Schuman B Cell. The frequencies in this preset are: 322 Hz, 425 Hz, 428 Hz, 561 Hz, 600 Hz, 620 Hz, 623 Hz, 780 Hz, 781 Hz, 950 Hz, 952 Hz, 1023 Hz, 1524 Hz",
-    "data_start": "play_BIO_3d_auto([322, 425, 428, 561, 600, 620, 623, 780, 781, 950, 952, 1023, 1524]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([322, 425, 428, 561, 600, 620, 623, 780, 781, 950, 952, 1023, 1524]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "sVTOOGKR"
   },
   {
     "data_name": "Sinusitis Frontalis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Sinusitis Frontalis. The frequencies in this preset are: 952 Hz",
-    "data_start": "play_BIO_3d_auto([952]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([952]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "ATS4ITM5"
   },
   {
     "data_name": "Sinusitis Maxillariss BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Sinusitis Maxillariss. The frequencies in this preset are: 160 Hz",
-    "data_start": "play_BIO_3d_auto([160]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([160]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "ew0gcLLF"
   },
   {
     "data_name": "Smallpox BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Smallpox. The frequencies in this preset are: 142 Hz, 476 Hz, 511 Hz, 876 Hz, 1644 Hz, 2132 Hz, 2544 Hz",
-    "data_start": "play_BIO_3d_auto([142, 476, 511, 876, 1644, 2132, 2544]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([142, 476, 511, 876, 1644, 2132, 2544]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "0yMPYOEK"
   },
   {
     "data_name": "Solitary Cyst BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Solitary Cyst. The frequencies in this preset are: 75 Hz, 543 Hz",
-    "data_start": "play_BIO_3d_auto([75, 543]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([75, 543]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "6DFAZZUc"
   },
   {
     "data_name": "Sorghum Smut BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Sorghum Smut. The frequencies in this preset are: 294 Hz",
-    "data_start": "play_BIO_3d_auto([294]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([294]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "36YBPhj0"
   },
   {
     "data_name": "Sporobolomyces BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Sporobolomyces. The frequencies in this preset are: 753 Hz",
-    "data_start": "play_BIO_3d_auto([753]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([753]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "dPQiAHii"
   },
   {
     "data_name": "Staphylococcus Coagulae Positive BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Staphylococcus Coagulae Positive. The frequencies in this preset are: 643 Hz",
-    "data_start": "play_BIO_3d_auto([643]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([643]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "lZRRpNh2"
   },
   {
     "data_name": "Stemphylium BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Stemphylium. The frequencies in this preset are: 461 Hz",
-    "data_start": "play_BIO_3d_auto([461]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([461]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "anmQKxeI"
   },
   {
     "data_name": "Streptococcus Virus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Streptococcus Virus. The frequencies in this preset are: 563 Hz, 611 Hz, 727 Hz",
-    "data_start": "play_BIO_3d_auto([563, 611, 727]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([563, 611, 727]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "d6JDnfa1"
   },
   {
     "data_name": "Strongyloides BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Strongyloides. The frequencies in this preset are: 332 Hz, 422 Hz, 721 Hz, 942 Hz, 3212 Hz",
-    "data_start": "play_BIO_3d_auto([332, 422, 721, 942, 3212]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([332, 422, 721, 942, 3212]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "kaKZFLQY"
   },
   {
     "data_name": "Struma Cystica BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Struma Cystica. The frequencies in this preset are: 5311 Hz",
-    "data_start": "play_BIO_3d_auto([5311]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([5311]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Kq3tN27L"
   },
   {
     "data_name": "Struma Parenchyma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Struma Parenchyma. The frequencies in this preset are: 121 Hz",
-    "data_start": "play_BIO_3d_auto([121]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([121]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "tytCyFbX"
   },
   {
     "data_name": "Sudor Pedis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Sudor Pedis. The frequencies in this preset are: 148 Hz",
-    "data_start": "play_BIO_3d_auto([148]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([148]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "NiiKPzbZ"
   },
   {
     "data_name": "Swine Flu BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Swine Flu. The frequencies in this preset are: 413 Hz, 432 Hz, 663 Hz, 839 Hz, 995 Hz",
-    "data_start": "play_BIO_3d_auto([413, 432, 663, 839, 995]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([413, 432, 663, 839, 995]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "8oZEnVdl"
   },
   {
     "data_name": "Tetanus Antitoxin BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Tetanus Antitoxin. The frequencies in this preset are: 363 Hz, 458 Hz",
-    "data_start": "play_BIO_3d_auto([363, 458]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([363, 458]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "Y8ZSf4Mg"
   },
   {
     "data_name": "Tetanus BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Tetanus. The frequencies in this preset are: 352 Hz, 554 Hz, 1142 Hz",
-    "data_start": "play_BIO_3d_auto([352, 554, 1142]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([352, 554, 1142]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "4njvMTh9"
   },
   {
     "data_name": "Thermi Bacteria BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Thermi Bacteria. The frequencies in this preset are: 233 Hz, 441 Hz",
-    "data_start": "play_BIO_3d_auto([233, 441]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([233, 441]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "pJ7wCtCX"
   },
   {
     "data_name": "Threadworm BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Threadworm. The frequencies in this preset are: 422 Hz, 423 Hz, 732 Hz, 4412 Hz",
-    "data_start": "play_BIO_3d_auto([422, 423, 732, 4412]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([422, 423, 732, 4412]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "k0LLNOzA"
   },
   {
     "data_name": "Tobacco Mosaic BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Tobacco Mosaic. The frequencies in this preset are: 233 Hz, 274 Hz, 543 Hz, 782 Hz, 1052 Hz",
-    "data_start": "play_BIO_3d_auto([233, 274, 543, 782, 1052]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([233, 274, 543, 782, 1052]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "72GL0Z92"
   },
   {
     "data_name": "Tonsillar NOS BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Tonsillar NOS. The frequencies in this preset are: 1656 Hz",
-    "data_start": "play_BIO_3d_auto([1656]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([1656]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "l31Rue6Z"
   },
   {
     "data_name": "Torulopsis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Torulopsis. The frequencies in this preset are: 354 Hz, 522 Hz, 872 Hz, 2121 Hz",
-    "data_start": "play_BIO_3d_auto([354, 522, 872, 2121]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([354, 522, 872, 2121]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "HaPWoHpk"
   },
   {
     "data_name": "Toxoplasmosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Toxoplasmosis. The frequencies in this preset are: 434 Hz, 852 Hz",
-    "data_start": "play_BIO_3d_auto([434, 852]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([434, 852]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "ABf45NcI"
   },
   {
     "data_name": "Trichinosis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Trichinosis. The frequencies in this preset are: 101 Hz, 541 Hz, 822 Hz, 1054 Hz, 1372 Hz",
-    "data_start": "play_BIO_3d_auto([101, 541, 822, 1054, 1372]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([101, 541, 822, 1054, 1372]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "YFZbJg7J"
   },
   {
     "data_name": "Trichoderma BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Trichoderma. The frequencies in this preset are: 711 Hz",
-    "data_start": "play_BIO_3d_auto([711]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([711]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "uqPLJUat"
   },
   {
     "data_name": "Trichophyton Mentagrophytes BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Trichophyton Mentagrophytes. The frequencies in this preset are: 311 Hz",
-    "data_start": "play_BIO_3d_auto([311]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([311]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "XBX5LS8z"
   },
   {
     "data_name": "Trichophyton Rubrum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Trichophyton Rubrum. The frequencies in this preset are: 752 Hz, 923 Hz",
-    "data_start": "play_BIO_3d_auto([752, 923]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([752, 923]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "3GijgmWR"
   },
   {
     "data_name": "Trichophyton BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Trichophyton. The frequencies in this preset are: 132 Hz, 812 Hz, 2422 Hz, 9493 Hz",
-    "data_start": "play_BIO_3d_auto([132, 812, 2422, 9493]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([132, 812, 2422, 9493]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "lb7BxxIj"
   },
   {
     "data_name": "Trypanosoma Gambiense BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Trypanosoma Gambiense. The frequencies in this preset are: 255 Hz, 316 Hz",
-    "data_start": "play_BIO_3d_auto([255, 316]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([255, 316]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "0soxW3Bg"
   },
   {
     "data_name": "Tuberculosis Bovine BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Tuberculosis Bovine. The frequencies in this preset are: 523 Hz, 3353 Hz",
-    "data_start": "play_BIO_3d_auto([523, 3353]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([523, 3353]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "lXQdge00"
   },
   {
     "data_name": "Tuberculosis Klebsiella BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Tuberculosis Klebsiella. The frequencies in this preset are: 221 Hz, 1132 Hz, 1644 Hz, 2313 Hz, 6516 Hz",
-    "data_start": "play_BIO_3d_auto([221, 1132, 1644, 2313, 6516]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([221, 1132, 1644, 2313, 6516]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "9guwuisy"
   },
   {
     "data_name": "Tumor Brain BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Tumor Brain. The frequencies in this preset are: 543 Hz, 641 Hz, 857 Hz",
-    "data_start": "play_BIO_3d_auto([543, 641, 857]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([543, 641, 857]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "fAZmD75K"
   },
   {
     "data_name": "Ulcer Ventricular BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Ulcer Ventricular. The frequencies in this preset are: 232 Hz, 1000 Hz",
-    "data_start": "play_BIO_3d_auto([232, 1000]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([232, 1000]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "F95Sk4y8"
   },
   {
     "data_name": "Uterine Polyp BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Uterine Polyp. The frequencies in this preset are: 689 Hz",
-    "data_start": "play_BIO_3d_auto([689]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([689]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "eKXaXxKK"
   },
   {
     "data_name": "Vaccininum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Vaccininum. The frequencies in this preset are: 476 Hz",
-    "data_start": "play_BIO_3d_auto([476]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([476]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "fPgE3InS"
   },
   {
     "data_name": "Varicella BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Varicella. The frequencies in this preset are: 345 Hz, 668 Hz, 716 Hz, 738 Hz",
-    "data_start": "play_BIO_3d_auto([345, 668, 716, 738]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([345, 668, 716, 738]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "wGSeWT54"
   },
   {
     "data_name": "Variola BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Variola. The frequencies in this preset are: 142 Hz, 476 Hz, 511 Hz, 876 Hz, 1644 Hz, 2132 Hz, 2544 Hz",
-    "data_start": "play_BIO_3d_auto([142, 476, 511, 876, 1644, 2132, 2544]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([142, 476, 511, 876, 1644, 2132, 2544]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "ykrlLwzp"
   },
   {
     "data_name": "Variolinum BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Variolinum. The frequencies in this preset are: 542 Hz, 569 Hz, 832 Hz, 3222 Hz",
-    "data_start": "play_BIO_3d_auto([542, 569, 832, 3222]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([542, 569, 832, 3222]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "DaGZlg7O"
   },
   {
     "data_name": "Verruca BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Verruca. The frequencies in this preset are: 644 Hz, 767 Hz, 953 Hz",
-    "data_start": "play_BIO_3d_auto([644, 767, 953]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([644, 767, 953]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "K4OdSBOk"
   },
   {
     "data_name": "Werlhof BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Werlhof. The frequencies in this preset are: 690 Hz",
-    "data_start": "play_BIO_3d_auto([690]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([690]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "MlbvbHec"
   },
   {
     "data_name": "Wolhynia Fever BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Wolhynia Fever. The frequencies in this preset are: 547 Hz",
-    "data_start": "play_BIO_3d_auto([547]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([547]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "OF8qzeDP"
   },
   {
     "data_name": "Yersinia Pestis BIO Monaural frequencies",
     "data_description": "This is BIO Monaural frequencies healing preset for Yersinia Pestis. The frequencies in this preset are: 333 Hz",
-    "data_start": "play_BIO_3d_auto([333]);",
-    "data_stop": "stop_BIO_3d_auto();",
+    "data_start": "play_BIO_monaural([333]);",
+    "data_stop": "stop_BIO_monaural();",
     "data_id": "BDaOAVBB"
   }
 ]
