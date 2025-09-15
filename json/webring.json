@@ -1,15 +1,9 @@
 [
     {
-        "section_name": "<a href='https://www.lunarsight.com/'>Lunarsight</a>",
-        "section_description": "Founded in 1996, Lunarsight has historically served as multimedia mad science lab on the web. Currently, Lunarsight's interests include digital artwork, three-dimensional rendering, music synthesis, sonic alchemy, and brainwave entrainment. ",
-        "section_link": "https://www.lunarsight.com/",
-        "data_id": "svdc8agk1"
-    },
-    {
-        "section_name": "<a href='https://sines-and-cymbals.neocities.org/'>Virtual Dreamscape</a>",
-        "section_description": "Virtual Dreamscape is a personal website with a mystical and retro-futuristic theme. It advocates for absolute free speech and emphasizes creation over consumption in the digital realm, encouraging visitors to produce original content. The site features links to various 'wizards' and a 'Cyber Ritual Site', suggesting a focus on digital art, individual expression, and a community or webring.",
-        "section_link": "https://sines-and-cymbals.neocities.org/",
-        "data_id": "o6gxwpp9d"
+        "section_name": "<a href='https://www.audioterapia.net/'>AudioTerapia</a>",
+        "section_description": "AudioTerapia, also known as SubLimen, is a website and project dedicated to research and experimentation in evolutionary audio therapy and beneficial metamusic. The site focuses on modern sound and audio-therapeutic techniques, combining them with advanced inductive methodologies, psychoneuroacoustics, and ancient Vedic and esoteric knowledge. Its goal is not only to alleviate ailments but also to stimulate higher consciousness and expand awareness.",
+        "section_link": "https://www.audioterapia.net/",
+        "data_id": "hne3dicx9"
     },
     {
         "section_name": "<a href='https://curativesoul.com/'>Curative Souls</a>",
@@ -18,16 +12,16 @@
         "data_id": "sfhx0dk7s"
     },
     {
-        "section_name": "<a href='https://vasunasite.wordpress.com/'>Vasuna Site</a>",
-        "section_description": "The Vasuna Site is a personal blog by an author named Vasuna. The content covers a range of metaphysical, spiritual, and philosophical topics, including Feng Shui, Bazi (Four Pillars of Destiny), chakras, and Chinese metaphysics. The author notes that some information is based on personal spiritual insight rather than classical knowledge. The site also contains a post in Slovenian about the symbolism of Satan and Lucifer.",
-        "section_link": "https://vasunasite.wordpress.com/",
-        "data_id": "ouc61jkp9"
+        "section_name": "<a href='https://www.drtotaldetox.com/'>Indian Institute of Research in Detoxification</a>",
+        "section_description": "The website is for the Indian Institute of Research in Detoxification, founded by Dr. M.R. NarayanRao. It promotes a patented 'Total Body Detoxification' program that blends modern medicine with ancient Vedic wisdom. The seven-morning workshop, free of chemicals and machines, aims to remove toxins, activate chakras, and improve overall health and energy.",
+        "section_link": "https://www.drtotaldetox.com/",
+        "data_id": "i0fykav90"
     },
     {
-        "section_name": "<a href='https://www.audioterapia.net/'>AudioTerapia</a>",
-        "section_description": "AudioTerapia, also known as SubLimen, is a website and project dedicated to research and experimentation in evolutionary audio therapy and beneficial metamusic. The site focuses on modern sound and audio-therapeutic techniques, combining them with advanced inductive methodologies, psychoneuroacoustics, and ancient Vedic and esoteric knowledge. Its goal is not only to alleviate ailments but also to stimulate higher consciousness and expand awareness.",
-        "section_link": "https://www.audioterapia.net/",
-        "data_id": "hne3dicx9"
+        "section_name": "<a href='https://www.lunarsight.com/'>Lunarsight</a>",
+        "section_description": "Founded in 1996, Lunarsight has historically served as multimedia mad science lab on the web. Currently, Lunarsight's interests include digital artwork, three-dimensional rendering, music synthesis, sonic alchemy, and brainwave entrainment. ",
+        "section_link": "https://www.lunarsight.com/",
+        "data_id": "svdc8agk1"
     },
     {
         "section_name": "<a href='https://www.planetware.de/'>Planetware</a>",
@@ -36,9 +30,15 @@
         "data_id": "evnyiy4yo"
     },
     {
-        "section_name": "<a href='https://www.drtotaldetox.com/'>Indian Institute of Research in Detoxification</a>",
-        "section_description": "The website is for the Indian Institute of Research in Detoxification, founded by Dr. M.R. NarayanRao. It promotes a patented 'Total Body Detoxification' program that blends modern medicine with ancient Vedic wisdom. The seven-morning workshop, free of chemicals and machines, aims to remove toxins, activate chakras, and improve overall health and energy.",
-        "section_link": "https://www.drtotaldetox.com/",
-        "data_id": "i0fykav90"
+        "section_name": "<a href='https://sines-and-cymbals.neocities.org/'>Virtual Dreamscape</a>",
+        "section_description": "Virtual Dreamscape is a personal website with a mystical and retro-futuristic theme. It advocates for absolute free speech and emphasizes creation over consumption in the digital realm, encouraging visitors to produce original content. The site features links to various 'wizards' and a 'Cyber Ritual Site', suggesting a focus on digital art, individual expression, and a community or webring.",
+        "section_link": "https://sines-and-cymbals.neocities.org/",
+        "data_id": "o6gxwpp9d"
+    },
+    {
+        "section_name": "<a href='https://vasunasite.wordpress.com/'>Vasuna Site</a>",
+        "section_description": "The Vasuna Site is a personal blog by an author named Vasuna. The content covers a range of metaphysical, spiritual, and philosophical topics, including Feng Shui, Bazi (Four Pillars of Destiny), chakras, and Chinese metaphysics. The author notes that some information is based on personal spiritual insight rather than classical knowledge. The site also contains a post in Slovenian about the symbolism of Satan and Lucifer.",
+        "section_link": "https://vasunasite.wordpress.com/",
+        "data_id": "ouc61jkp9"
     }
 ]
