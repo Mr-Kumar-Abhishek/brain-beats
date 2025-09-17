@@ -30,15 +30,15 @@
         "data_id": "evnyiy4yo"
     },
     {
-        "section_name": "<a href='https://sines-and-cymbals.neocities.org/'>Virtual Dreamscape</a>",
-        "section_description": "Virtual Dreamscape is a personal website with a mystical and retro-futuristic theme. It advocates for absolute free speech and emphasizes creation over consumption in the digital realm, encouraging visitors to produce original content. The site features links to various 'wizards' and a 'Cyber Ritual Site', suggesting a focus on digital art, individual expression, and a community or webring.",
-        "section_link": "https://sines-and-cymbals.neocities.org/",
-        "data_id": "o6gxwpp9d"
-    },
-    {
         "section_name": "<a href='https://vasunasite.wordpress.com/'>Vasuna Site</a>",
         "section_description": "The Vasuna Site is a personal blog by an author named Vasuna. The content covers a range of metaphysical, spiritual, and philosophical topics, including Feng Shui, Bazi (Four Pillars of Destiny), chakras, and Chinese metaphysics. The author notes that some information is based on personal spiritual insight rather than classical knowledge. The site also contains a post in Slovenian about the symbolism of Satan and Lucifer.",
         "section_link": "https://vasunasite.wordpress.com/",
         "data_id": "ouc61jkp9"
+    },
+    {
+        "section_name": "<a href='https://sines-and-cymbals.neocities.org/'>Virtual Dreamscape</a>",
+        "section_description": "Virtual Dreamscape is a personal website with a mystical and retro-futuristic theme. It advocates for absolute free speech and emphasizes creation over consumption in the digital realm, encouraging visitors to produce original content. The site features links to various 'wizards' and a 'Cyber Ritual Site', suggesting a focus on digital art, individual expression, and a community or webring.",
+        "section_link": "https://sines-and-cymbals.neocities.org/",
+        "data_id": "o6gxwpp9d"
     }
 ]
