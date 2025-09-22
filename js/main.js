@@ -1377,64 +1377,68 @@ function play_sq_monaural_generator(){
   play_sq_monaural(freq1, freq2);
 }
 
+
+function binaural_field_Modal_Manager(){
+  if (freq1 == undefined) {
+    console.error("Frequency values cannot be undefined.");
+    modalCaller("freq1UndefinedModal", "freq1");
+    return false;
+  } else if (freq2 == undefined) {
+    console.error("Frequency values cannot be undefined.");
+    modalCaller("freq2UndefinedModal", "freq2");
+    return false;
+  } else if (freq1 == null) {
+    console.error("Frequency values cannot be null.");
+    modalCaller("freq1NullModal", "freq1");
+    return false;
+  } else if (freq2 == null) {
+    console.error("Frequency values cannot be null.");
+    modalCaller("freq2NullModal", "freq2");
+    return false;
+  } else if (freq1 == "" ) {
+    console.error("Frequency values cannot be empty.");
+    modalCaller("freq1EmptyModal", "freq1");
+    return false;
+  } else if (freq2 == "") {
+    console.error("Frequency values cannot be empty.");
+    modalCaller("freq2EmptyModal", "freq2");
+    return false;
+  } else if (freq2 <= 0) {
+    console.error("Frequency values must be non-negative.");
+    modalCaller("freq2NegativeModal", "freq2");
+    return false;
+  } else if (freq1 <= 0 ) {
+    console.error("Frequency values must be non-negative.");
+    modalCaller("freq1NegativeModal", "freq1");
+    return false;
+  } else if (freq1 == freq2) {
+    console.error("For binaural beats, the two frequencies must be different.");
+    modalCaller("freq1EqualFreq2Modal", "freq1");
+    return false;
+  } else if (freq1 < 20) {
+    console.error("Frequency values must be between 20 Hz and 20,000 Hz.");
+    modalCaller("freq1TooLowModal", "freq1");
+    return false;
+  } else if (freq2 < 20) { 
+    console.error("Frequency values must be between 20 Hz and 20,000 Hz.");
+    modalCaller("freq2TooLowModal", "freq2");
+    return false;
+  } else if (freq1 > 20000) {
+    console.error("Frequency values must be between 20 Hz and 20,000 Hz.");
+    modalCaller("freq1TooHighModal", "freq1");
+    return false;
+  } else if (freq2 > 20000) { 
+    console.error("Frequency values must be between 20 Hz and 20,000 Hz.");
+    modalCaller("freq2TooHighModal", "freq2");
+    return true;
+}
+
 function play_mind_machine_binaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
 
-  
-  if (freq1 == undefined) {
-    console.error("Frequency values cannot be undefined.");
-    modalCaller("freq1UndefinedModal", "freq1");
-  } else if (freq2 == undefined) {
-    console.error("Frequency values cannot be undefined.");
-    modalCaller("freq2UndefinedModal", "freq2");
-    return;
-  } else if (freq1 == null) {
-    console.error("Frequency values cannot be null.");
-    modalCaller("freq1NullModal", "freq1");
-    return;
-  } else if (freq2 == null) {
-    console.error("Frequency values cannot be null.");
-    modalCaller("freq2NullModal", "freq2");
-    return;
-  } else if (freq1 == "" ) {
-    console.error("Frequency values cannot be empty.");
-    modalCaller("freq1EmptyModal", "freq1");
-    return;
-  } else if (freq2 == "") {
-    console.error("Frequency values cannot be empty.");
-    modalCaller("freq2EmptyModal", "freq2");
-    return;
-  } else if (freq2 <= 0) {
-    console.error("Frequency values must be non-negative.");
-    modalCaller("freq2NegativeModal", "freq2");
-    return;
-  } else if (freq1 <= 0 ) {
-    console.error("Frequency values must be non-negative.");
-    modalCaller("freq1NegativeModal", "freq1");
-    return;
-  } else if (freq1 == freq2) {
-    console.error("For binaural beats, the two frequencies must be different.");
-    modalCaller("freq1EqualFreq2Modal", "freq1");
-    return;
-  } else if (freq1 < 20) {
-    console.error("Frequency values must be between 20 Hz and 20,000 Hz.");
-    modalCaller("freq1TooLowModal", "freq1");
-    return;
-  } else if (freq2 < 20) { 
-    console.error("Frequency values must be between 20 Hz and 20,000 Hz.");
-    modalCaller("freq2TooLowModal", "freq2");
-    return;
-  } else if (freq1 > 20000) {
-    console.error("Frequency values must be between 20 Hz and 20,000 Hz.");
-    modalCaller("freq1TooHighModal", "freq1");
-    return;
-  } else if (freq2 > 20000) { 
-    console.error("Frequency values must be between 20 Hz and 20,000 Hz.");
-    modalCaller("freq2TooHighModal", "freq2");
-    return;
-  }else{
-    play_mind_machine_binaural(freq1, freq2);
+  if (binaural_field_Modal_Manager() == true) {
+     play_mind_machine_binaural(freq1, freq2)
   }
 }
 
