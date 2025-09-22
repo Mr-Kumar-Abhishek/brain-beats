@@ -1342,6 +1342,7 @@ function stop_sine_3d_auto() {
   stop_pure_tone();
   boolSine3Dauto = 0;
 }
+
 function binaural_field_Modal_Manager(){
   if (freq1 == undefined) {
     console.error("Frequency values cannot be undefined.");
