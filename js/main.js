@@ -1395,6 +1395,8 @@ function binaural_field_Modal_Manager(){
   } else if (freq2 > 20000) { 
     console.error("Frequency values must be between 20 Hz and 20,000 Hz.");
     modalCaller("freq2TooHighModal", "freq2");
+    return false;
+  }else{
     return true;
   }
 }
