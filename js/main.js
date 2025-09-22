@@ -1408,7 +1408,7 @@ function play_monaural_generator(){
 function play_binaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
-  if (binaural_field_Modal_Manager() == true) {
+  if (binaural_field_Modal_Manager(freq1, freq2) == true) {
     play_binaural(freq1, freq2);
   }
 }
