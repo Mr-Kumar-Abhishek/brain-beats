@@ -1343,41 +1343,6 @@ function stop_sine_3d_auto() {
   boolSine3Dauto = 0;
 }
 
-function play_monaural_generator(){
-  var freq1 = $("#freq1").val();
-  var freq2 = $("#freq2").val();
-  play_monaural(freq1, freq2);
-}
-
-function play_binaural_generator(){
-  var freq1 = $("#freq1").val();
-  var freq2 = $("#freq2").val();
-  play_binaural(freq1, freq2);
-}
-
-function play_isochronic_generator(){
-  var freq1 = $("#freq1").val();
-  var freq2 = $("#freq2").val();
-  play_isochronic(freq1, freq2);
-}
-
-function play_pure_tone_generator(){
-  var tone_freq = $("#freq").val();
-  play_pure_tone(tone_freq);
-}
-
-function play_single_tone_generator(){
-  var tone_freq = $("#freq").val();
-  play_pure_tone(tone_freq);
-}
-
-function play_sq_monaural_generator(){
-  var freq1 = $("#freq1").val();
-  var freq2 = $("#freq2").val();
-  play_sq_monaural(freq1, freq2);
-}
-
-
 function binaural_field_Modal_Manager(){
   if (freq1 == undefined) {
     console.error("Frequency values cannot be undefined.");
@@ -1432,6 +1397,43 @@ function binaural_field_Modal_Manager(){
     modalCaller("freq2TooHighModal", "freq2");
     return true;
 }
+
+function play_monaural_generator(){
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  play_monaural(freq1, freq2);
+}
+
+function play_binaural_generator(){
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  if (binaural_field_Modal_Manager() == true) {
+    play_binaural(freq1, freq2);
+  }
+}
+
+function play_isochronic_generator(){
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  play_isochronic(freq1, freq2);
+}
+
+function play_pure_tone_generator(){
+  var tone_freq = $("#freq").val();
+  play_pure_tone(tone_freq);
+}
+
+function play_single_tone_generator(){
+  var tone_freq = $("#freq").val();
+  play_pure_tone(tone_freq);
+}
+
+function play_sq_monaural_generator(){
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  play_sq_monaural(freq1, freq2);
+}
+
 
 function play_mind_machine_binaural_generator(){
   var freq1 = $("#freq1").val();
