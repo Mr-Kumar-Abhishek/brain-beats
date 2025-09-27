@@ -1413,9 +1413,10 @@ function play_binaural_generator(){
   var freq2 = $("#freq2").val();
    if(binaural_generator_validator(freq1, freq2)){
     play_binaural(freq1, freq2);
+  } else {
+    return console.error("Binaural generator validation failed.");
   }
 }
-  
 
 function play_isochronic_generator(){
   var freq1 = $("#freq1").val();
