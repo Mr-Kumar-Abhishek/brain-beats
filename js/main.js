@@ -1349,7 +1349,7 @@ function play_monaural_generator(){
   play_monaural(freq1, freq2);
 }
 
-function binaural_generator_validator(freq1, freq2) {
+function generator_validator(freq1, freq2, freq_type) {
   if (freq1 == undefined) {
     console.error("Frequency values cannot be undefined.");
     modalCaller("freq1UndefinedModal", "freq1");
@@ -1382,7 +1382,7 @@ function binaural_generator_validator(freq1, freq2) {
     console.error("Frequency values must be non-negative.");
     modalCaller("freq1NegativeModal", "freq1");
     return false;
-  } else if (freq1 == freq2) {
+  } else if (freq_type == "binaural" && freq1 == freq2) {
     console.error("For binaural beats, the two frequencies must be different.");
     modalCaller("freq1EqualFreq2Modal", "freq1");
     return false;
@@ -1411,7 +1411,7 @@ function binaural_generator_validator(freq1, freq2) {
 function play_binaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
-   if(binaural_generator_validator(freq1, freq2)){
+   if(generator_validator(freq1, freq2, "binaural")){
     play_binaural(freq1, freq2);
   } else {
     return console.error("Binaural generator validation failed.");
@@ -1445,7 +1445,7 @@ function play_mind_machine_binaural_generator(){
   var freq2 = $("#freq2").val();
    
 
-  if(binaural_generator_validator(freq1, freq2)){
+  if(generator_validator(freq1, freq2, "binaural")){
     play_mind_machine_binaural(freq1, freq2);
   }
 }
