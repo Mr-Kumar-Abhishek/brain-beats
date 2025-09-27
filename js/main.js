@@ -1352,8 +1352,11 @@ function play_monaural_generator(){
 function play_binaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
-  play_binaural(freq1, freq2);
+   if(binaural_generator_validator(freq1, freq2)){
+    play_binaural(freq1, freq2);
+  }
 }
+  
 
 function play_isochronic_generator(){
   var freq1 = $("#freq1").val();
