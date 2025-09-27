@@ -399,26 +399,308 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="leftEarFrequencyNullModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h5 class="modal-title" id="modalLabel"> ~ Validation Check Error ~</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <!-- Modal Body -->
-          <div class="modal-body">
-            <p>Please enter the frequency in left ear frequency field!</p>
-          </div>
-          <!-- Modal Footer (Optional) -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Alright!</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
+				<div class="modal fade" id="freq1NegativeModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								First frequency field can't be 0 or less.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq2NegativeModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								Second frequency field can't be 0 or less.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq1NullModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								First frequency field can't be null or empty.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq2NullModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								Second frequency field can't be null or empty.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq1UndefinedModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								First frequency field can't be undefined.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq2UndefinedModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								Second frequency field can't be undefined.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq2UndefinedModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								Second frequency field can't be undefined.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq1EmptyModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								First frequency field can't be empty.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq2EmptyModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								Second frequency field can't be empty.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq1EqualFreq2Modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								For a binaural mind machine we can't have both the frequencies as same.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq1TooLowModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								For a binaural mind machine we can't have first frequency value below than 20 hz.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq2TooLowModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								For a binaural mind machine we can't have second frequency value below than 20 hz.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq1TooHighModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								For a binaural mind machine we can't have first frequency value above than 20000 hz.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="freq2TooHighModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Error ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								For a binaural mind machine we can't have second frequency value above than 20000 hz.
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="instructionModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel"> ~ Instructions ~</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<!-- Modal Body -->
+							<div class="modal-body">
+								<br>
+								<ol>
+									<li>Sit in a dark room.</li>
+									<li>Lower your volume and use earphones/headphones!</li>
+									<li>Set the desired frequency. The generator will produce the difference of the two frequencies you enter.</li>
+									<li>Keep it in front of your eyes.</li>
+									<li>Play the mind machine generator</li>
+									<li>Lastly and the most important step, <strong>CLOSE YOUR EYES!</strong></li>
+								</ol>
+								<br>
+								<h6>Note:</h6>
+								<br>
+								<ul>
+									<li>The mind machine generator works with the difference of the two frequencies. The generator will produce a frequency which is the difference of two frequencies you enter.</li>
+									<li>The upper limit of individual frequency (of the two) which a human brain can detect binaural beats is till 1000 Hz.</p>
+									<li>The human hearing range is from 20 Hz to 20000 Hz. Individial frequencies should be in this range.</li>
+								</ul>
+								<br>
+							</div>
+							<!-- Modal Footer (Optional) -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+							</div>
+						</div>
+					</div>
+				</div>
      <!-- Modal -->
     <div class="modal fade" id="instructionModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
       <div class="modal-dialog">
