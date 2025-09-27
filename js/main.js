@@ -1349,37 +1349,6 @@ function play_monaural_generator(){
   play_monaural(freq1, freq2);
 }
 
-function play_binaural_generator(){
-  var freq1 = $("#freq1").val();
-  var freq2 = $("#freq2").val();
-   if(binaural_generator_validator(freq1, freq2)){
-    play_binaural(freq1, freq2);
-  }
-}
-  
-
-function play_isochronic_generator(){
-  var freq1 = $("#freq1").val();
-  var freq2 = $("#freq2").val();
-  play_isochronic(freq1, freq2);
-}
-
-function play_pure_tone_generator(){
-  var tone_freq = $("#freq").val();
-  play_pure_tone(tone_freq);
-}
-
-function play_single_tone_generator(){
-  var tone_freq = $("#freq").val();
-  play_pure_tone(tone_freq);
-}
-
-function play_sq_monaural_generator(){
-  var freq1 = $("#freq1").val();
-  var freq2 = $("#freq2").val();
-  play_sq_monaural(freq1, freq2);
-}
-
 function binaural_generator_validator(freq1, freq2) {
   if (freq1 == undefined) {
     console.error("Frequency values cannot be undefined.");
@@ -1437,6 +1406,38 @@ function binaural_generator_validator(freq1, freq2) {
       return true;
    }
 } 
+
+
+function play_binaural_generator(){
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+   if(binaural_generator_validator(freq1, freq2)){
+    play_binaural(freq1, freq2);
+  }
+}
+  
+
+function play_isochronic_generator(){
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  play_isochronic(freq1, freq2);
+}
+
+function play_pure_tone_generator(){
+  var tone_freq = $("#freq").val();
+  play_pure_tone(tone_freq);
+}
+
+function play_single_tone_generator(){
+  var tone_freq = $("#freq").val();
+  play_pure_tone(tone_freq);
+}
+
+function play_sq_monaural_generator(){
+  var freq1 = $("#freq1").val();
+  var freq2 = $("#freq2").val();
+  play_sq_monaural(freq1, freq2);
+}
 
 function play_mind_machine_binaural_generator(){
   var freq1 = $("#freq1").val();
