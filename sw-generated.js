@@ -24,8 +24,8 @@ if (workbox) {
     // This runs *after* install is complete and the SW is controlling the page(s)
     self.addEventListener('activate', event => {
         console.log('Service Worker: Activating...');
-        // Ensure the SW takes control of clients without waiting for reload
         alert("Brain Beats sync operation is being deployed, app may be unresponsive until syncing is complete!");
+        // Ensure the SW takes control of clients without waiting for reload
         event.waitUntil(clients.claim());
 
         // --- Show Notification Here ---
