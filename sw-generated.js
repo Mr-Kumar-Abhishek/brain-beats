@@ -15,7 +15,7 @@ if (workbox) {
     // Add an install listener primarily to trigger skipWaiting
     self.addEventListener('install', event => {
         console.log('Service Worker: Installing...');
-        alert("Brain Beats is installing...")
+        alert("Brain Beats is installing...");
         // Force the waiting service worker to become the active service worker.
         self.skipWaiting();
     });
@@ -25,7 +25,7 @@ if (workbox) {
     self.addEventListener('activate', event => {
         console.log('Service Worker: Activating...');
         // Ensure the SW takes control of clients without waiting for reload
-        alert("Brain Beats sync operation is being deployed, app may be unresponsive until syncing is complete!")
+        alert("Brain Beats sync operation is being deployed, app may be unresponsive until syncing is complete!");
         event.waitUntil(clients.claim());
 
         // --- Show Notification Here ---
@@ -38,7 +38,7 @@ if (workbox) {
             console.log('Service Worker: Offline ready notification shown.');
         }).catch(err => {
             console.error('Service Worker: Notification failed:', err);
-            alert("Notification failed: However the Brain Beats is ready for offline use.")
+            alert("Notification failed: However the Brain Beats is ready for offline use.");
             // Fail silently if notifications aren't permitted or supported
         });
 
