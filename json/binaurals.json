@@ -36,7 +36,7 @@
    },
    {
       "data_name":"0.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 Hz Binaural Beats over 63 Hz Solfeggio Frequency",
-      "data_description":"Binaural Beats for stabilizing field of meaning (It should be used during sleep) [Phase 0]. Used for samadhi state [Phase 0]",
+      "data_description":"Binaural Beats for stabilizing field of meaning (It should be used during sleep) [Phase 0]. Used for samadhi state [Phase 0].",
       "data_start":"play_binaural(63, 63.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475);",
       "data_stop":"stop_binaural();",
       "data_id":"jfo5p4toe"
