@@ -14,13 +14,6 @@
       "data_id":"hvgium6w3v"
    },
    {
-      "data_name":"0.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 Hz Monaural Beats over 40 Hz Pure Tone Frequency",
-      "data_description":"Monaural Beats for stabilizing field of meaning (It should be used during sleep) [Phase 0]. Used for samadhi state [Phase 0].",
-      "data_start":"play_monaural(40, 40.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475);",
-      "data_stop":"stop_monaural();",
-      "data_id":"hvgium6w3w"
-   },
-   {
       "data_name":"0.15 Hz Monaural Beats over 417 Hz Solfeggio Frequency",
       "data_description":"Monaural Beats for relief from depression [Phase 1] due to past events. This is for mild depression[Phase 1]. Range Monaurals for it are comming soon which will be more effective.",
       "data_start":"play_monaural(417, 417.15);",
@@ -40,6 +33,13 @@
       "data_start":"play_monaural(963, 963.15);",
       "data_stop":"stop_monaural();",
       "data_id":"ric5jfhj5"
+   },
+   {
+      "data_name":"0.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 Hz Monaural Beats over 40 Hz Pure Tone Frequency",
+      "data_description":"Monaural Beats for stabilizing field of meaning (It should be used during sleep) [Phase 0]. Used for samadhi state [Phase 0].",
+      "data_start":"play_monaural(40, 40.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475);",
+      "data_stop":"stop_monaural();",
+      "data_id":"ric5jfhj6"
    },
    {
       "data_name":"0.20 Hz Monaural Beats over 396 Hz Solfeggio Frequency",
