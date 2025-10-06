@@ -36,6 +36,13 @@
       "data_id":"5cfv4p5d1"
    },
    {
+      "data_name":"0.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 Hz Square Wave Monaural Beats over 40 Hz Pure Tone Frequency",
+      "data_description":"Square Wave Monaural Beats for stabilizing field of meaning (It should be used during sleep) [Phase 0]. Used for samadhi state [Phase 0].",
+      "data_start":"play_sq_monaural(40, 40.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475);",
+      "data_stop":"stop_sq_monaural();",
+      "data_id":"5cfv4p5d2"
+   },
+   {
       "data_name":"0.20 Hz Square Wave Monaural Beats over 396 Hz Solfeggio Frequency",
       "data_description":"Square Wave Monaural Beats for relief for post-traumatics [Phase 1].",
       "data_start":"play_sq_monaural(396, 396.20);",
