@@ -35,6 +35,13 @@
       "data_id":"jfo5p4tod"
    },
    {
+      "data_name":"0.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 Hz Binaural Beats over 20 Hz Rife Frequency",
+      "data_description":"Binaural Beats for stabilizing field of meaning (It should be used during sleep) [Phase (-1)]. Used for samadhi state [Phase (-1)].",
+      "data_start":"play_binaural(20, 20.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475);",
+      "data_stop":"stop_binaural();",
+      "data_id":"jfo5p4tnf"
+   },
+   {
       "data_name":"0.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 Hz Binaural Beats over 40 Hz Pure Tone Frequency",
       "data_description":"Binaural Beats for stabilizing field of meaning (It should be used during sleep) [Phase 0]. Used for samadhi state [Phase 0].",
       "data_start":"play_binaural(40, 40.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475);",
