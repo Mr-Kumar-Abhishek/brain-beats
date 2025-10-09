@@ -35,6 +35,13 @@
       "data_id":"ric5jfhj5"
    },
    {
+      "data_name":"0.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 Hz Monaural Beats over 20 Hz Rife Frequency",
+      "data_description":"Monaural Beats for stabilizing field of meaning (It should be used during sleep) [Phase 0]. Used for samadhi state [Phase (-1)].",
+      "data_start":"play_monaural(20, 20.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475);",
+      "data_stop":"stop_monaural();",
+      "data_id":"ric5jfhi6"
+   },
+   {
       "data_name":"0.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 Hz Monaural Beats over 40 Hz Pure Tone Frequency",
       "data_description":"Monaural Beats for stabilizing field of meaning (It should be used during sleep) [Phase 0]. Used for samadhi state [Phase 0].",
       "data_start":"play_monaural(40, 40.161803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475);",
