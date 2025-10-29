@@ -14,6 +14,13 @@
       "data_id":"dcpn82qv4p"
    },
    {
+      "data_name":"0.15 Hz Binaural Beats over 20 Hz Rife Frequency",
+      "data_description":"Binaural Beats for relief from work related burnouts. It should be used with base-boosted bluethooth earbuds during sleep with comfortable volume.",
+      "data_start":"play_binaural(20, 20.15);",
+      "data_stop":"stop_binaural();",
+      "data_id":"uf07weww2"
+   },
+   {
       "data_name":"0.15 Hz Binaural Beats over 417 Hz Solfeggio Frequency",
       "data_description":"Binaural Beats for relief from depression [Phase 1] due to past events. This is for mild depression[Phase 1]. Range Binaurals for it are comming soon which will be more effective.",
       "data_start":"play_binaural(417, 417.15);",
