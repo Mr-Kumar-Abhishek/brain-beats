@@ -784,7 +784,7 @@
       "data_id":"xlf1a1lbi"
    },
    {
-      "data_name":"12.3 Hz Monaural Beats over 787 Hz Rife",
+      "data_name":"12.3 Hz Monaural Beats over 787 Hz Rife Frequency",
       "data_description":"Associated with eyes. It gives better visualization [Phase 3].",
       "data_start":"play_monaural(787, 799.3);",
       "data_stop":"stop_monaural();",

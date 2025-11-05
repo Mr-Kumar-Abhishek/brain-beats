@@ -784,7 +784,7 @@
 	  "data_id": "ai523rv1b"
 	},
 	{
-	  "data_name": "12.3 Hz Isochronic Tone over 787 Hz Rife",
+	  "data_name": "12.3 Hz Isochronic Tone over 787 Hz Rife Frequency",
 	  "data_description": "Associated with eyes. It gives better visualization [Phase 3].",
 	  "data_start": "play_isochronic(787, 799.3);",
 	  "data_stop": "stop_isochronic();",
