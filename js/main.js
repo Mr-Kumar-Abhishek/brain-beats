@@ -1346,6 +1346,11 @@ function stop_sine_3d_auto() {
 function play_monaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
+   if(generator_validator(freq1, freq2, "monaural")){
+    play_binaural(freq1, freq2);
+  } else {
+    return console.error("Monaural generator validation failed.");
+  }
   play_monaural(freq1, freq2);
 }
 
