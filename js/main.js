@@ -1212,6 +1212,17 @@ function kundalini_toggler(){
 }
 
 
+function astral_broadcast_toggler(){
+  if ( $(".yin-yang").data('state') == 0) {
+    $(".yin-yang").data('state', 1); 
+    astral_broadcast_rotator_rotator();
+  }else if ($(".yin-yang").data('state') == 1) {
+    $(".yin-yang").data('state', 0);
+    stop_astral_broadcast();
+    k_indexer--;
+  }
+}
+
 
 function stop_white_noise() {
   if (boolWhite == 1 ) {
@@ -1527,7 +1538,7 @@ function live_volume_set(){
     angel_flag == 1 || boolSineMonaural == 1 || boolSine3D == 1 || 
     boolSine3Dauto == 1 || boolRife3Dauto == 1 || boolRifeMonaural == 1 || 
     boolRife3D == 1 || monaural_flag == 1 || binaural_flag == 1 || 
-    sq_monaural_flag == 1 || double_tone_flag == 1 || kundalini_flag == 1 || 
+    sq_monaural_flag == 1 || double_tone_flag == 1 || kundalini_flag == 1 ||  astral_broadcast_flag == 1 ||
     boolALT3dauto == 1 || boolALTMonaural == 1 || bool_mind_machine_binaural == 1){
 
    if(volume.gain.value != undefined) {
