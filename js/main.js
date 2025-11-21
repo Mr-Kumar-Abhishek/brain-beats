@@ -358,9 +358,9 @@ function play_astral_broadcast(beat_freq_1) {
   
   beat_freq_2 = beat_freq_1 + 4;
 
-  if (kundalini_flag == 0) {
+  if (astral_broadcast_flag == 0) {
   
-    kundalini_flag = 1;
+     astral_broadcast_flag = 1;
   
     play_binaural(beat_freq_1, beat_freq_2);
 
