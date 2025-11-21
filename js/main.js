@@ -1215,7 +1215,7 @@ function kundalini_toggler(){
 function astral_broadcast_toggler(){
   if ( $(".yin-yang").data('state') == 0) {
     $(".yin-yang").data('state', 1); 
-    astral_broadcast_rotator_rotator();
+    astral_broadcast_rotator();
   }else if ($(".yin-yang").data('state') == 1) {
     $(".yin-yang").data('state', 0);
     stop_astral_broadcast();
