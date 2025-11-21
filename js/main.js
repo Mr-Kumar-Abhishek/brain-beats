@@ -95,6 +95,7 @@ var z_values;
 
 var k_arr = [63, 174, 285, 396, 417, 528, 549.21, 618, 639, 669, 741, 762, 831, 852, 963, 1074, 1185, 1296, 1407, 1518, 1629, 1740, 1782, 1803, 1851, 1953, 1962, 1974, 2073, 2085, 2184, 2196, 2295, 2406, 2517, 2628, 2739, 2850, 2961];
 var kundalini_flag = 0;
+var astral_broadcast_flag = 0;
 var k_indexer = 0;
 
 var notification;
@@ -353,6 +354,24 @@ function play_kundalini(beat_freq_1) {
 
 }
 
+function play_astral_broadcast(beat_freq_1) {
+  
+  beat_freq_2 = beat_freq_1 + 4;
+
+  if (kundalini_flag == 0) {
+  
+    kundalini_flag = 1;
+  
+    play_binaural(beat_freq_1, beat_freq_2);
+
+  }else {
+
+    stop_astral_broadcast();
+    play_astral_broadcast(beat_freq_1);
+  }
+
+}
+
 function play_monaural(freq1, freq2){
   
   beat_freq_1 = freq1;
@@ -477,6 +496,25 @@ async function kundalini_rotator() {
       break;
     }
     play_kundalini(k_arr[k_indexer]);
+    k_indexer++;
+    // Use a break statement to exit the loop when you want to stop the function
+    
+    // Use a sleep function to pause the execution for 1000 milliseconds
+    await new Promise(done => setTimeout(() => done(), 1000));
+  }
+}
+
+
+async function astral_broadcast_rotator() {
+  // Use a while loop to keep running the function until some condition is met
+  while (true) {
+    if(k_indexer == k_arr.length) {
+      k_indexer = 0;
+    }
+    if ($(".yin-yang").data('state') == 0) {
+      break;
+    }
+    play_astral_broadcast(k_arr[k_indexer]);
     k_indexer++;
     // Use a break statement to exit the loop when you want to stop the function
     
@@ -1140,9 +1178,24 @@ function stop_kundalini() {
   }
 }
 
+function stop_astral_broadcast() {
+  console.log("kundalini flag value = " + kundalini_flag);
+  if (astral_broadcast_flag == 1 ) {
+    astral_broadcast_flag = 0;
+    console.log("Stop Kundalini Called.");
+    stop_binaural();
+  }
+}
+
 function kundalini_halter() {
   $(".yin-yang").data('state', 0);
   stop_kundalini();
+  k_indexer = 0;
+}
+
+function astral_broadcast_halter() {
+  $(".yin-yang").data('state', 0);
+  stop_astral_broadcast();
   k_indexer = 0;
 }
 
