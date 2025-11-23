@@ -1179,10 +1179,10 @@ function stop_kundalini() {
 }
 
 function stop_astral_broadcast() {
-  console.log("kundalini flag value = " + kundalini_flag);
+  console.log("kundalini flag value = " + astral_broadcast_flag);
   if (astral_broadcast_flag == 1 ) {
     astral_broadcast_flag = 0;
-    console.log("Stop Kundalini Called.");
+    console.log("Stop Astral Broadcaster Called.");
     stop_binaural();
   }
 }
