@@ -252,23 +252,23 @@
       "data_id": "ezlajbvzv"
    },
    {
-      "data_name":"1.618033988749 Hz Monaural Beats over 174 Hz Solfeggio Frequency",
+      "data_name":"1.61803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 Hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for perfect body and face (golden ratio) [Phase 0].",
-      "data_start":"play_monaural(174, 175.618033988749);",
+      "data_start":"play_monaural(174, 175.61803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475);",
       "data_stop":"stop_monaural();",
       "data_id":"h19zpydhm"
    },
    {
-      "data_name":"1.618033988749 Hz Monaural Beats over 285 Hz Solfeggio Frequency",
+      "data_name":"1.61803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 Hz Monaural Beats over 285 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for perfect body and face (golden ratio) [Phase 1].",
-      "data_start":"play_monaural(285, 286.618033988749);",
+      "data_start":"play_monaural(285, 286.61803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475);",
       "data_stop":"stop_monaural();",
       "data_id":"h20zpydhn"
    },
    {
-      "data_name":"1.618033988749 Hz Monaural Beats over 528 Hz Solfeggio Frequency",
+      "data_name":"1.61803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 Hz Monaural Beats over 528 Hz Solfeggio Frequency",
       "data_description":"Monaural beats for perfect body and face (golden ratio) [Phase 2].",
-      "data_start":"play_monaural(528, 529.618033988749);",
+      "data_start":"play_monaural(528, 529.61803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475);",
       "data_stop":"stop_monaural();",
       "data_id":"h21zpydhp"
    },
