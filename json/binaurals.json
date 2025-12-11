@@ -385,6 +385,13 @@
       "data_id":"75ejrpsyb"
    },
    {
+      "data_name":"4 Hz Binaural Beats over 40 Hz Pure Tone",
+      "data_description":"Binaural beats for telepathic knowledge distribution. Only to be used by skilled telpathic professionals.",
+      "data_start":"play_binaural(40, 44);",
+      "data_stop":"stop_binaural();",
+      "data_id":"ugzck7omq"
+   },
+   {
       "data_name":"4 Hz Binaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Binaural beats for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed [Phase 1]. Schizophrenia patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 3].",
       "data_start":"play_binaural(174, 178);",
