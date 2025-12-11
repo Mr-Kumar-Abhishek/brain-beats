@@ -372,6 +372,13 @@
       "data_id":"4u5rsi22y"
    },
    {
+      "data_name":"4 Hz Square Wave Monaural Beats over 40 Hz Pure Tone",
+      "data_description":"Square Wave Monaural Beats for telepathic knowledge distributions. Only to be used by skilled telpathic professionals.",
+      "data_start":"play_sq_monaural(40, 44);",
+      "data_stop":"stop_sq_monaural();",
+      "data_id":"utg39hycp"
+   },
+   {
       "data_name":"4 Hz Square Wave Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Square Wave Monaural Beats for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed [Phase 1]. Schizophrenia patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 3].",
       "data_start":"play_sq_monaural(174, 178);",
