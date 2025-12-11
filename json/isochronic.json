@@ -378,6 +378,13 @@
 	  "data_id": "eue4dfp36"
 	},
 	{
+	  "data_name": "4 Hz Isochronic Tone over 40 Hz Pure Tone",
+	  "data_description": "Isochronic Tone for telepathic knowledge distribution. Only to be used by skilled telpathic professionals.",
+	  "data_start": "play_isochronic(40, 44);",
+	  "data_stop": "stop_isochronic();",
+	  "data_id": "an7kl3uix"
+	},
+	{
 	  "data_name": "4 Hz Isochronic Tone over 174 Hz Solfeggio Frequency",
 	  "data_description": "Isochronic Tone for subjects who suffer from chronic fatigue who exhaust very easily, when they moved to 4HZ these individuals showed marked improvement in the length of time between the occurrence of exhaustion after certain exercises were completed [Phase 1]. Schizophrenia patients have reported hearing of less hallucinatory voices after listening to these beats regularly [Phase 3].",
 	  "data_start": "play_isochronic(174, 178);",
