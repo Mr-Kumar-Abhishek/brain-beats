@@ -1221,7 +1221,7 @@ function astral_broadcast_toggler(){
   }else if ($(".yin-yang").data('state') == 1) {
     $(".yin-yang").data('state', 0);
     stop_astral_broadcast();
-    k_indexer--;
+    a_indexer--;
   }
 }
 
