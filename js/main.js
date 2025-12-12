@@ -94,6 +94,7 @@ var y_values;
 var z_values;
 
 var k_arr = [63, 174, 285, 396, 417, 528, 549.21, 618, 639, 669, 741, 762, 831, 852, 963, 1074, 1185, 1296, 1407, 1518, 1629, 1740, 1782, 1803, 1851, 1953, 1962, 1974, 2073, 2085, 2184, 2196, 2295, 2406, 2517, 2628, 2739, 2850, 2961];
+var a_arr = [40, 63, 174, 285, 396, 417, 528, 549.21, 618, 639, 669, 741, 762, 831, 852, 963, 1074, 1185, 1296, 1407, 1518, 1629, 1740, 1782, 1803, 1851, 1953, 1962, 1974, 2073, 2085, 2184, 2196, 2295, 2406, 2517, 2628, 2739, 2850, 2961];
 var kundalini_flag = 0;
 var astral_broadcast_flag = 0;
 var k_indexer = 0;
@@ -508,18 +509,18 @@ async function kundalini_rotator() {
 async function astral_broadcast_rotator() {
   // Use a while loop to keep running the function until some condition is met
   while (true) {
-    if(k_indexer == k_arr.length) {
-      k_indexer = 0;
+    if(a_indexer == a_arr.length) {
+      a_indexer = 0;
     }
     if ($(".yin-yang").data('state') == 0) {
       break;
     }
-    play_astral_broadcast(k_arr[k_indexer]);
+    play_astral_broadcast(a_arr[a_indexer]);
     k_indexer++;
     // Use a break statement to exit the loop when you want to stop the function
     
-    // Use a sleep function to pause the execution for 1000 milliseconds
-    await new Promise(done => setTimeout(() => done(), 1000));
+    // Use a sleep function to pause the execution for 1618 milliseconds
+    await new Promise(done => setTimeout(() => done(), 1618.03398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475));
   }
 }
 
