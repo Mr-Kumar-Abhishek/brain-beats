@@ -98,6 +98,7 @@ var a_arr = [40, 63, 174, 285, 396, 417, 528, 549.21, 618, 639, 669, 741, 762, 8
 var kundalini_flag = 0;
 var astral_broadcast_flag = 0;
 var k_indexer = 0;
+var a_indexer = 0;
 
 var notification;
 var toggler;
