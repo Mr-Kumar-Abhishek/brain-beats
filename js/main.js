@@ -517,7 +517,7 @@ async function astral_broadcast_rotator() {
       break;
     }
     play_astral_broadcast(a_arr[a_indexer]);
-    k_indexer++;
+    a_indexer++;
     // Use a break statement to exit the loop when you want to stop the function
     
     // Use a sleep function to pause the execution for 1618 milliseconds
