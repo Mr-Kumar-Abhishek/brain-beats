@@ -7,6 +7,13 @@
     "data_id": "KyiorBn1"
   },
   {
+    "data_name": "All physical plane chakra balancing 3D ALT frequencies",
+    "data_description": "This is 3D ALT frequencies healing preset for balancing all basic physical plane chakras. The frequencies in this preset are: 40hz, 63 Hz, 174 Hz, 285 Hz, 396 Hz, 417 Hz, 528 Hz, 549.21 Hz, 618 Hz, 639 Hz, 669 Hz, 741 Hz, 762 Hz, 831 Hz, 852 Hz, 963 Hz",
+    "data_start": "play_ALT_3d_auto([40, 63, 174, 285, 396, 417, 528, 549.21, 618, 639, 669, 741, 762, 852, 963]);",
+    "data_stop": "stop_ALT_3d_auto();",
+    "data_id": "KziorBn1"
+  },
+  {
     "data_name": "All chakra balancing 3D ALT frequencies",
     "data_description": "This is 3D ALT frequencies healing preset for balancing all chakras. The frequencies in this preset are: 40hz, 63 Hz, 174 Hz, 285 Hz, 396 Hz, 417 Hz, 528 Hz, 549.21 Hz, 618 Hz, 639 Hz, 669 Hz, 741 Hz, 762 Hz, 831 Hz, 852 Hz, 963 Hz, 1074 Hz, 1185 Hz, 1296 Hz, 1407 Hz, 1518 Hz, 1629 Hz, 1740 Hz, 1782 Hz, 1803 Hz, 1851 Hz, 1953 Hz, 1962 Hz, 1974 Hz, 2073 Hz, 2085 Hz, 2184 Hz, 2196 Hz, 2295 Hz, 2406 Hz, 2517 Hz, 2628 Hz, 2739 Hz, 2850 Hz, 2961 Hz",
     "data_start": "play_ALT_3d_auto([40, 63, 174, 285, 396, 417, 528, 549.21, 618, 639, 669, 741, 762, 831, 852, 963, 1074, 1185, 1296, 1407, 1518, 1629, 1740, 1782, 1803, 1851, 1953, 1962, 1974, 2073, 2085, 2184, 2196, 2295, 2406, 2517, 2628, 2739, 2850, 2961]);",
