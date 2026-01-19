@@ -527,7 +527,7 @@ async function astral_broadcast_rotator() {
 
 async function play_white_noise() {
   if (boolWhite == 0) {
-    stop_all();
+    stop_noise();
     boolWhite = 1;
     audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/white-noise-processor.js');
@@ -541,7 +541,7 @@ async function play_white_noise() {
 
 async function play_pink_noise() {
   if (boolPink == 0 ){
-    stop_all();
+    stop_noise();
     boolPink = 1;
     audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/pink-noise-processor.js');
@@ -555,7 +555,7 @@ async function play_pink_noise() {
 
 async function play_brown_noise() {
   if(boolBrown == 0) {
-      stop_all();
+      stop_noise();
       boolBrown = 1;
       audioContext = new AudioContext();
       await audioContext.audioWorklet.addModule('noise-processor/brown-noise-processor.js');
@@ -569,7 +569,7 @@ async function play_brown_noise() {
 
 async function play_red_noise() {
   if(boolRed == 0) {
-      stop_all();
+      stop_noise();
       boolRed = 1;
       audioContext = new AudioContext();
       await audioContext.audioWorklet.addModule('noise-processor/red-noise-processor.js');
@@ -583,7 +583,7 @@ async function play_red_noise() {
 
 async function play_black_noise() {
   if (boolBlack == 0) {
-    stop_all();
+    stop_noise();
     boolBlack = 1;
     var audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/black-noise-processor.js');
@@ -597,7 +597,7 @@ async function play_black_noise() {
 
 async function play_blue_noise() {
   if (boolBlue == 0) {
-    stop_all();
+    stop_noise();
     boolBlue = 1;
     var audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/blue-noise-processor.js');
@@ -612,7 +612,7 @@ async function play_blue_noise() {
 
 async function play_violet_noise() {
   if (boolViolet == 0) {
-    stop_all();
+    stop_noise();
     boolViolet = 1;
     var audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/violet-noise-processor.js');
@@ -627,7 +627,7 @@ async function play_violet_noise() {
 
 async function play_grey_noise() {
   if (boolGrey == 0) {
-    stop_all();
+    stop_noise();
     boolGrey = 1;
     var audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/grey-noise-processor.js');
@@ -653,7 +653,7 @@ async function play_grey_noise() {
 
 async function play_velvet_noise() {
   if (boolVelvet == 0) {
-    stop_all();
+    stop_noise();
     boolVelvet = 1;
     var audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/velvet-noise-processor.js');
@@ -670,7 +670,7 @@ async function play_velvet_noise() {
 
 async function play_green_noise() {
   if (boolGreen == 0) {
-    stop_all();
+    stop_noise();
     boolGreen = 1;
     var audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/green-noise-processor.js');
@@ -692,7 +692,7 @@ async function play_green_noise() {
 
 async function play_orange_noise() {
   if (boolOrange == 0) {
-    stop_all();
+    stop_noise();
     boolOrange = 1;
     var audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/orange-noise-processor.js');
@@ -716,31 +716,9 @@ async function play_orange_noise() {
   }
 }
 
-function play_rife_monaural_generator(){
-  play_sine_monaural_generator();
-}
-
-function play_sine_monaural_generator(){
-  // Create an empty array to store the frequency values
-  tone_freq_array = [];
-
-  // Loop through all the input elements with id starting with "freq-"
-  $("input[id^='freq-']").each(function(){
-    // Get the value of each input element and push it to the array
-    var tone_freq = $(this).val();
-    tone_freq_array.push(tone_freq);
-  });
-
-  // Pass the array as an argument to play_pure_tone
-  // play_pure_tone(tone_freq_array);
-  // console.log(tone_freq_array);
-    play_sine_monaural(tone_freq_array);
-
-}
-
 async function play_yellow_noise() {
   if (boolYellow == 0) {
-    stop_all();
+    stop_noise();
     boolYellow = 1;
     var audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/yellow-noise-processor.js');
@@ -766,7 +744,7 @@ async function play_yellow_noise() {
 
 async function play_turquoise_noise() {
   if (boolTurquoise == 0) {
-    stop_all();
+    stop_noise();
     boolTurquoise = 1;
     var audioContext = new AudioContext();
     await audioContext.audioWorklet.addModule('noise-processor/turquoise-noise-processor.js');
@@ -789,6 +767,29 @@ async function play_turquoise_noise() {
     turquoiseNoiseNodeGain.connect(audioContext.destination);
   }
 }
+function play_rife_monaural_generator(){
+  play_sine_monaural_generator();
+}
+
+function play_sine_monaural_generator(){
+  // Create an empty array to store the frequency values
+  tone_freq_array = [];
+
+  // Loop through all the input elements with id starting with "freq-"
+  $("input[id^='freq-']").each(function(){
+    // Get the value of each input element and push it to the array
+    var tone_freq = $(this).val();
+    tone_freq_array.push(tone_freq);
+  });
+
+  // Pass the array as an argument to play_pure_tone
+  // play_pure_tone(tone_freq_array);
+  // console.log(tone_freq_array);
+    play_sine_monaural(tone_freq_array);
+
+}
+
+
 function play_rife_3d_auto_generator() {
   play_sine_3d_auto_generator();
 }
