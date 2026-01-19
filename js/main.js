@@ -1614,7 +1614,7 @@ $("#volume").change(function(){
 $("#volume").inputSpinner();
 
 function stop_noise(){
-    if (boolWhite == 1 ) { stop_white_noise(); }
+  if (boolWhite == 1 ) { stop_white_noise(); }
   if (boolPink == 1 ) { stop_pink_noise(); }
   if (boolBrown == 1 ) { stop_brown_noise(); }
   if (boolRed == 1 ) { stop_red_noise(); }
@@ -1629,16 +1629,21 @@ function stop_noise(){
   if (boolTurquoise == 1 ) { stop_turquoise_noise(); }
 }
 
-function stop_all() {
-
-  stop_noise();
-  if (solfeggio_flag == 1 ) { stop_solfeggio(); }
-  if (pure_tone_flag == 1 ) { stop_pure_tone(); }
+function stop_all_double_tone() {
   if (binaural_flag == 1 ) { stop_binaural(); }
   if (monaural_flag == 1 ) { stop_monaural (); }
   if (sq_monaural_flag == 1 ) { stop_sq_monaural(); }
-  if (single_tone_flag == 1 ) { stop_single_tone(); }
   if (double_tone_flag == 1 ) { stop_double_tone(); }
+}
+
+
+function stop_all() {
+
+  stop_noise();
+  stop_all_double_tone();
+  if (solfeggio_flag == 1 ) { stop_solfeggio(); }
+  if (pure_tone_flag == 1 ) { stop_pure_tone(); }
+  if (single_tone_flag == 1 ) { stop_single_tone(); }
   if (angel_flag == 1 ) { stop_angel(); }
   if (boolSine3D == 1) { stop_sine_3d(); }
   if (boolSineMonaural == 1 ) { stop_sine_monaural(); } 
