@@ -1643,17 +1643,21 @@ function stop_all_single_tone() {
   if (angel_flag == 1 ) { stop_angel(); }
 }
 
+function stop_all_sine_3d() {  
+    if (boolSine3D == 1) { stop_sine_3d(); }
+    if (boolRife3Dauto == 1 ) { stop_rife_3d_auto(); }
+    if (boolRife3D ==  1) { stop_rife_3d(); }
+    if (boolALT3dauto == 1) { stop_ALT_3d_auto(); }
+}
+
 function stop_all() {
 
   stop_noise();
   stop_all_double_tone();
   stop_all_single_tone();
-  if (boolSine3D == 1) { stop_sine_3d(); }
+  stop_all_sine_3d();
   if (boolSineMonaural == 1 ) { stop_sine_monaural(); } 
-  if (boolRife3Dauto == 1 ) { stop_rife_3d_auto(); }
   if (boolRifeMonaural == 1 ) { stop_rife_monaural(); }
-  if (boolRife3D ==  1) { stop_rife_3d(); }
-  if (boolALT3dauto == 1) { stop_ALT_3d_auto(); }
   if (boolALTMonaural == 1) { stop_ALT_monaural(); }
   if (bool_mind_machine_binaural == 1) { stop_mind_machine_binaural(); }
 }
