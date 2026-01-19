@@ -226,7 +226,7 @@ function volume_set(){
 
 function play_solfeggio(freq) {
   if (solfeggio_flag == 0 ){
-    stop_all();
+    stop_all_single_tone();
     solfeggio_flag = 1;
     play_single_tone(freq);
   }else {
@@ -242,7 +242,7 @@ function stop_solfeggio(){
 
 function play_pure_tone(freq) {
  if (pure_tone_flag == 0) {
-  stop_all();
+  stop_single_tone();
   pure_tone_flag = 1;
   play_single_tone(freq);
  }else {
@@ -259,7 +259,7 @@ function stop_pure_tone() {
 
 function play_angel(freq) {
   if (angel_flag == 0 ){
-    stop_all();
+    stop_all_single_tone();
     angel_flag = 1;
     play_single_tone(freq);
   }else {
@@ -318,7 +318,7 @@ function play_single_tone(freq, oscillator_type) {
   single_tone_freq = adjustFrequency(freq);
 
   if (single_tone_flag == 0 ) {
-    stop_all();
+    stop_all_single_tone();
     single_tone_flag = 1;
     single_tone_oscillator = audioCtx.createOscillator();
 
@@ -476,6 +476,7 @@ function play_double_tone (freq1, freq2, form, deviation) {
 
 function play_isochronic(freq1, freq2) {
   if (isochronic_flag == 0) {
+    stop_all_single_tone();
     isochronic_flag = 1;
     beat_freq_1 = freq1;
     beat_freq_2 = freq2 - freq1;
