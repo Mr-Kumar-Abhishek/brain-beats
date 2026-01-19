@@ -416,7 +416,7 @@ function play_binaural(freq1, freq2){
     if (binaural_flag == 0){
       binaural_flag = 1;
      
-      play_double_tone(beat_freq_1, beat_freq_2, 'sine', 'binaural');
+      play_double_tone(beat_freq_1, beat_freq_2, oscillator_type, 'binaural');
       
   }else {
     stop_binaural();
