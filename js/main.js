@@ -1650,15 +1650,19 @@ function stop_all_sine_3d() {
     if (boolALT3dauto == 1) { stop_ALT_3d_auto(); }
 }
 
+function stop_all_multi_monaurals(){
+  if (boolSineMonaural == 1 ) { stop_sine_monaural(); } 
+  if (boolRifeMonaural == 1 ) { stop_rife_monaural(); }
+  if (boolALTMonaural == 1) { stop_ALT_monaural(); }
+}
+
 function stop_all() {
 
   stop_noise();
   stop_all_double_tone();
   stop_all_single_tone();
   stop_all_sine_3d();
-  if (boolSineMonaural == 1 ) { stop_sine_monaural(); } 
-  if (boolRifeMonaural == 1 ) { stop_rife_monaural(); }
-  if (boolALTMonaural == 1) { stop_ALT_monaural(); }
+  stop_all_multi_monaurals();
   if (bool_mind_machine_binaural == 1) { stop_mind_machine_binaural(); }
 }
 
