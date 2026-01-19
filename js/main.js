@@ -1612,8 +1612,8 @@ $("#volume").change(function(){
 
 $("#volume").inputSpinner();
 
-function stop_all() {
-  if (boolWhite == 1 ) { stop_white_noise(); }
+function stop_noise(){
+    if (boolWhite == 1 ) { stop_white_noise(); }
   if (boolPink == 1 ) { stop_pink_noise(); }
   if (boolBrown == 1 ) { stop_brown_noise(); }
   if (boolRed == 1 ) { stop_red_noise(); }
@@ -1626,6 +1626,11 @@ function stop_all() {
   if (boolOrange == 1 ) { stop_orange_noise(); }
   if (boolYellow == 1) { stop_yellow_noise(); }
   if (boolTurquoise == 1 ) { stop_turquoise_noise(); }
+}
+
+function stop_all() {
+
+  stop_noise();
   if (solfeggio_flag == 1 ) { stop_solfeggio(); }
   if (pure_tone_flag == 1 ) { stop_pure_tone(); }
   if (binaural_flag == 1 ) { stop_binaural(); }
