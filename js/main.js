@@ -242,7 +242,7 @@ function stop_solfeggio(){
 
 function play_pure_tone(freq) {
  if (pure_tone_flag == 0) {
-  stop_single_tone();
+  stop_all_single_tone();
   pure_tone_flag = 1;
   play_single_tone(freq);
  }else {
@@ -318,7 +318,6 @@ function play_single_tone(freq, oscillator_type) {
   single_tone_freq = adjustFrequency(freq);
 
   if (single_tone_flag == 0 ) {
-    stop_all_single_tone();
     single_tone_flag = 1;
     single_tone_oscillator = audioCtx.createOscillator();
 
