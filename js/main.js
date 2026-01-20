@@ -379,7 +379,7 @@ function play_monaural(freq1, freq2){
   beat_freq_2 = freq2;
   
   if (monaural_flag == 0){
-    stop_all();
+    stop_all_double_tone();
     monaural_flag = 1;
     play_double_tone(beat_freq_1, beat_freq_2, 'sine', 'monaural');
     
@@ -396,7 +396,7 @@ function play_sq_monaural(freq1, freq2){
   beat_freq_2 = freq2;
   
   if (sq_monaural_flag == 0){
-    stop_all();
+    stop_all_double_tone();
     sq_monaural_flag = 1;
     
     play_double_tone(beat_freq_1, beat_freq_2, 'square', 'monaural');
@@ -413,8 +413,9 @@ function play_binaural(freq1, freq2){
     beat_freq_2 = freq2;
   
     if (binaural_flag == 0){
+      stop_all_double_tone();
+
       binaural_flag = 1;
-     
       play_double_tone(beat_freq_1, beat_freq_2, oscillator_type, 'binaural');
       
   }else {
