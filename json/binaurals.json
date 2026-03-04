@@ -518,6 +518,13 @@
       "data_id":"ixcq4ttc6"
    },
    {
+      "data_name":"6 Hz Binaural Beats over 40 Hz Pure Tone",
+      "data_description":"Binaural beats for super-learning. The body should be physically fit to use this.",
+      "data_start":"play_binaural(40, 46);",
+      "data_stop":"stop_binaural();",
+      "data_id":"x9q7ruki4"
+   },
+   {
       "data_name":"6 Hz Binaural Beats over 417 Hz Solfeggio Frequency",
       "data_description":"Binaural beats for reduction in unwillingness to do work due to past memories. Must be used during sleep otherwise it may bring in depression and confusion. Typically it is designed to bring your mind to a more relaxed states which if listened too much (around 12 hours) being awake could cause undesired effects.",
       "data_start":"play_binaural(417, 423);",
