@@ -980,6 +980,13 @@
       "data_id":"cjbxbet5x"
    },
    {
+      "data_name":"40 Hz Monaural Beats over 20 Hz Pure Tone",
+      "data_description":"Monaural beats at this frequency is used environmental alertness.",
+      "data_start":"play_monaural(20, 60);",
+      "data_stop":"stop_monaural();",
+      "data_id":"cjbxbet5y"
+   },
+   {
       "data_name":"40 Hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Monaural beats at this frequency is used for Alzheimer's therapy [Phase 0] studies to stimulate an increased neural response and fight symptoms of dementia. This Monaural beat has been linked to gamma brain waves and the stimulation of memory. It is associated with improved cognitive functioning at level of memory, reaction time, verbal recall, math learning, various types of memory recall, and musical performance. It reduces effects of early schizophrenia as well (could be used by advanced patients too).",
       "data_start":"play_monaural(174, 214);",
