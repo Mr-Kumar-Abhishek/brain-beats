@@ -13,6 +13,13 @@
       "data_stop":"stop_binaural();",
       "data_id":"dcpn82qv4p"
    },
+    {
+      "data_name":"0.1 Hz Binaural Beats over 295 Hz Pure Tone",
+      "data_description":"Binaural Beats for visceral fat removal from organs [Phase 1]. To be used during excercise and fasting. Side effects includes stimulation of Pineal Gland.",
+      "data_start":"play_binaural(295, 295.1);",
+      "data_stop":"stop_binaural();",
+      "data_id":"dcpn82qv4q"
+   },
    {
       "data_name":"0.15 Hz Binaural Beats over 20 Hz Rife Frequency",
       "data_description":"Binaural Beats for relief from work related burnouts. It should be used with base-boosted bluetooth earbuds during sleep with comfortable volume.",
