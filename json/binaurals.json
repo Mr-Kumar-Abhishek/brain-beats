@@ -322,6 +322,13 @@
       "data_id":"o8rt1cav7"
    },
    {
+      "data_name":"3.5 Hz Binaural Beats over 63 Hz Solfeggio Frequency",
+      "data_description":"whole being regeneration [Phase 1]. Lower Earth Resonance [Phase 0] or hell resonance [Phase 0]. DNA stimulation [Phase 1]. Relief from anxiety [Phase -1, 2nd flavor]",
+      "data_start":"play_binaural(63, 66.5);",
+      "data_stop":"stop_binaural();",
+      "data_id":"676rh9wdx"
+   },
+   {
       "data_name":"3.5 Hz Binaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"whole being regeneration [Phase 1]. Lower Earth Resonance [Phase 1] or hell resonance [Phase 1]. DNA stimulation [Phase 1]. Relief from anxiety [Phase 0, 2nd flavor]",
       "data_start":"play_binaural(174, 177.5);",
