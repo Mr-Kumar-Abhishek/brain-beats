@@ -910,6 +910,13 @@
       "data_id":"ahu36pxsc"
    },
    {
+      "data_name":"20 Hz Monaural Beats over 40 Hz Pure Tone",
+      "data_description":"Monaural Beats for management of non-living things. It is used for controlling machines and other non-living things. It should not to be used during labour as it causes distress.",
+      "data_start":"play_monaural(40, 60);",
+      "data_stop":"stop_monaural();",
+      "data_id":"c9l9sl2se"
+   },
+   {
       "data_name":"20 Hz Monaural Beats over 174 Hz Solfeggio Frequency",
       "data_description":"Human Hearing Threshold. Schumann Resonance (3rd frequency of 7). It helps with tinnitis (a condition that causes ear-ringing and loss of hearing if not treated). It is used on sinus disorders [Phase 1], sinus infection [Phase 1], head cold [Phase 1], headache [Phase 1]. Commonly used 'cure-all' Rife Frequency [Phase 1].   It should not to be used during labour as it causes distress.  ",
       "data_start":"play_monaural(174, 194);",
