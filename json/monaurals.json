@@ -910,6 +910,13 @@
       "data_id":"ahu36pxsc"
    },
    {
+      "data_name":"10 Hz Monaural Beats over 40 Hz Pure Tone",
+      "data_description":"Monaural Beats for guiding people.",
+      "data_start":"play_monaural(40, 60);",
+      "data_stop":"stop_monaural();",
+      "data_id":"c9l9sl2sd"
+   },
+   {
       "data_name":"20 Hz Monaural Beats over 40 Hz Pure Tone",
       "data_description":"Monaural Beats for management of non-living things. It is used for controlling machines and other non-living things. It should not to be used during labour as it causes distress.",
       "data_start":"play_monaural(40, 60);",
