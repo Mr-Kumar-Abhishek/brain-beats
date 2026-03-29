@@ -428,21 +428,21 @@
    },
    {
       "data_name":"4 Hz Binaural Beats over 396 Hz Solfeggio Frequency",
-      "data_description":"Binaural beats for seduction [Phase 3] of whole being.   It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people.  ",
+      "data_description":"Binaural beats for connection [Phase 3] of whole being.   It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people.  ",
       "data_start":"play_binaural(396, 400);",
       "data_stop":"stop_binaural();",
       "data_id":"u9pusdm6e"
    },
    {
       "data_name":"4 Hz Binaural Beats over 417 Hz Solfeggio Frequency",
-      "data_description":"Binaural beats for seduction [Phase 1] of sacral intuition.   It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people. ",
+      "data_description":"Binaural beats for connection [Phase 1] of sacral intuition.   It should never be used with strangers, acquaintances, blood relatives or family, religious or spiritual people. ",
       "data_start":"play_binaural(417, 421);",
       "data_stop":"stop_binaural();",
       "data_id":"jm5i5qddl"
    },
    {
       "data_name":"4 Hz Binaural Beats over 639 Hz Solfeggio Frequency",
-      "data_description":"Binaural beats for seduction [Phase 2] of heart.   It should not be used in public places if you value your security from strangers.  ",
+      "data_description":"Binaural beats for connection [Phase 2] of heart.   It should not be used in public places if you value your security from strangers.  ",
       "data_start":"play_binaural(639, 643);",
       "data_stop":"stop_binaural();",
       "data_id":"o9kawg302"
