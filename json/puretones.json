@@ -1,8 +1,15 @@
-[
+[  
+   {
+      "data_name":"20 hz - Pure Tone",
+      "data_description":"Pure Tone for environmental awareness.",
+      "data_start":"play_pure_tone(20);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"a2u69fptm"
+   },
    {
       "data_name":"40 hz - Pure Tone",
       "data_description":"Pure Tone for rationality and communication. ",
-      "data_start":"play_pure_tone(126.22);",
+      "data_start":"play_pure_tone(40);",
       "data_stop":"stop_pure_tone();",
       "data_id":"a2u69fptn"
    },
