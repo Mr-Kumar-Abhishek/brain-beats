@@ -1,5 +1,12 @@
 [
    {
+      "data_name":"40 hz - Pure Tone",
+      "data_description":"Pure Tone for rationality and communication. ",
+      "data_start":"play_pure_tone(126.22);",
+      "data_stop":"stop_pure_tone();",
+      "data_id":"a2u69fptn"
+   },
+   {
       "data_name":"126.22 hz - Pure Tone",
       "data_description":"Pure Tone for Manipura Chakra (slightly below solar plexus). This Manipura Chakra meditation has physical enhancements to give strength against digestive and intestinal disorders, indigestion, food allergies, eating disorders, poor metabolism, diabetes, obesity, eczema, acne and other stress related skin conditions. Improves lack of memory and concentration, frequent fearing, removes feeling uncentered, insomnia and eating disorders.",
       "data_start":"play_pure_tone(126.22);",
