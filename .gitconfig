@@ -1,6 +1,6 @@
 [user]
 	name = Abhishek Kumar
-	email = mr.kumar.abhishek@email.com
+	email = mr.kumar.abhishek@outlook.in
 [credential]
 	helper = cache --timeout=3600
 [core]
