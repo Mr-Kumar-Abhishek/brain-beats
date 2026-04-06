@@ -122,7 +122,7 @@ var panning_model = 'HRTF'; // used in binaural and 3D sounds
   var duration = 0.01;
 
 function deoctaver(freq, target_freq = 20000){
-  while(freq > target_freq){
+  while(freq >= target_freq){
     freq = freq / 2; 
   }
   return freq;
