@@ -135,6 +135,15 @@ function octaver(freq, target_freq){
   return freq;
 }
 
+function deoctave_to_human(tone_freq_array){
+  for(i = 0; i < tone_freq_array.length; i++){
+    if(tone_freq_array[i] > 20000){
+      tone_freq_array[i] = deoctaver(tone_freq_array[i])
+    }
+  }
+  return tone_freq_array;
+}
+
 function modalDisplayer(modalName = 'instructionModal', focusName = 'search-me') {
   // Get the modal element
     const modalElement = document.getElementById(modalName);
@@ -917,12 +926,14 @@ function play_sine_3d_auto(tone_freq_array) {
 
       play_binaural(174, 174+tone_freq_array[0]);
 
-    }else if(tone_freq_array.length == 1 && tone_freq_array[0] >= 63){
+    }else if(tone_freq_array.length == 1 && tone_freq_array[0] >= 20){
       
       play_pure_tone(tone_freq_array[0]);
     
     }else { 
 
+      tone_freq_array = deoctave_to_human(tone_freq_array);
+      
       var auto_matrix = distributePoints(tone_freq_array.length);
 
   //  console.log(auto_matrix);
