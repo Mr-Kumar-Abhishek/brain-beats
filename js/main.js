@@ -129,7 +129,7 @@ function deoctaver(freq, target_freq){
 }
 
 function octaver(freq, target_freq){
-  while(freq < target_freq){
+  while(freq <= target_freq){
     freq = freq * 2;
   }
   return freq;
@@ -138,7 +138,7 @@ function octaver(freq, target_freq){
 function deoctave_to_human(tone_freq_array){
   for(i = 0; i < tone_freq_array.length; i++){
     if(tone_freq_array[i] > 20000){
-      tone_freq_array[i] = deoctaver(tone_freq_array[i])
+      tone_freq_array[i] = deoctaver(tone_freq_array[i], 20000)
     }
   }
   return tone_freq_array;
@@ -933,7 +933,7 @@ function play_sine_3d_auto(tone_freq_array) {
     }else { 
 
       tone_freq_array = deoctave_to_human(tone_freq_array);
-      
+
       var auto_matrix = distributePoints(tone_freq_array.length);
 
   //  console.log(auto_matrix);
