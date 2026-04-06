@@ -121,14 +121,14 @@ var panning_model = 'HRTF'; // used in binaural and 3D sounds
   // Define a variable to store the animation duration
   var duration = 0.01;
 
-function deoctaver(freq, target_freq){
+function deoctaver(freq, target_freq = 20000){
   while(freq > target_freq){
     freq = freq / 2; 
   }
   return freq;
 }
 
-function octaver(freq, target_freq){
+function octaver(freq, target_freq = 20){
   while(freq <= target_freq){
     freq = freq * 2;
   }
