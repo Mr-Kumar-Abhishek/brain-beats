@@ -892,7 +892,7 @@ function play_KHZ_3d_auto(tone_freq_array){
     boolKHZ3Dauto = 1;
     play_sine_3d_auto(tone_freq_array);
   }else{
-    stop_KHZ_3d_auto();
+    stop_KHZ_3d();
     play_rife_3d_auto(tone_freq_array);
   }
 }
@@ -1423,7 +1423,7 @@ function stop_sine_monaural() {
   boolSineMonaural = 0;
 }
 
-function stop_KHZ_3d_auto(){
+function stop_KHZ_3d(){
   boolKHZ3Dauto = 0;
   stop_sine_3d_auto();
 }
@@ -1677,7 +1677,7 @@ function stop_all_single_tone() {
 function stop_all_sine_3d() {  
     if (boolSine3D == 1) { stop_sine_3d(); }
     if (boolRife3Dauto == 1 ) { stop_rife_3d_auto(); }
-    if (boolKHZ3Dauto == 1 ) {stop_KHZ_3d_auto(); }
+    if (boolKHZ3Dauto == 1 ) {stop_KHZ_3d(); }
     if (boolRife3D ==  1) { stop_rife_3d(); }
     if (boolALT3dauto == 1) { stop_ALT_3d_auto(); }
 }
