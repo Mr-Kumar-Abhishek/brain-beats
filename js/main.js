@@ -86,6 +86,7 @@ var boolSine3Dauto = 0;
 var boolRife3Dauto = 0;
 var boolALT3dauto = 0;
 var boolBIO3dauto = 0;
+var boolKHZ3Dauto = 0;
 var boolYellow = 0;
 var boolTurquoise = 0;
 var bool_mind_machine_binaural = 0;
@@ -873,6 +874,16 @@ function play_ALT_3d_auto(tone_freq_array){
   }
 }
 
+function play_KHZ_3d_auto(){
+  if(boolKHZ3Dauto == 0){
+    boolKHZ3Dauto = 1;
+    play_sine_3d_auto(tone_freq_array);
+  }else{
+    stop_KHZ_3d_auto();
+    play_rife_3d_auto(tone_freq_array);
+  }
+}
+
 function play_rife_3d_auto(tone_freq_array) {
   if (boolRife3Dauto == 0){
     boolRife3Dauto = 1;
@@ -1399,10 +1410,16 @@ function stop_sine_monaural() {
   boolSineMonaural = 0;
 }
 
+function stop_KHZ_3d_auto(){
+  boolKHZ3Dauto = 0;
+  stop_sine_3d_auto();
+}
+
 function stop_rife_3d_auto() {
   boolRife3Dauto = 0;
   stop_sine_3d_auto();
 }
+
 
 function stop_sine_3d_auto() {
   stop_sine();
@@ -1540,7 +1557,7 @@ function live_volume_set(){
   
   if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1 || 
     angel_flag == 1 || boolSineMonaural == 1 || boolSine3D == 1 || 
-    boolSine3Dauto == 1 || boolRife3Dauto == 1 || boolRifeMonaural == 1 || 
+    boolSine3Dauto == 1 || boolRife3Dauto == 1 ||  boolKHZ3Dauto == 1 || boolRifeMonaural == 1 || 
     boolRife3D == 1 || monaural_flag == 1 || binaural_flag == 1 || 
     sq_monaural_flag == 1 || double_tone_flag == 1 || kundalini_flag == 1 ||  astral_broadcast_flag == 1 ||
     boolALT3dauto == 1 || boolALTMonaural == 1 || bool_mind_machine_binaural == 1){
@@ -1647,6 +1664,7 @@ function stop_all_single_tone() {
 function stop_all_sine_3d() {  
     if (boolSine3D == 1) { stop_sine_3d(); }
     if (boolRife3Dauto == 1 ) { stop_rife_3d_auto(); }
+    if (boolKHZ3Dauto == 1 ) {stop_KHZ_3d_auto(); }
     if (boolRife3D ==  1) { stop_rife_3d(); }
     if (boolALT3dauto == 1) { stop_ALT_3d_auto(); }
 }
