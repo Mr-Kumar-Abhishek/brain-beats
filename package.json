@@ -1,5 +1,8 @@
 {
   "devDependencies": {
-    "workbox-cli": "^7.3.0"
+    "workbox-cli": "^7.0.0"
+  },
+  "dependencies": {
+    "glob": "^13.0.6"
   }
 }
