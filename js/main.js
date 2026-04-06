@@ -887,7 +887,7 @@ function play_ALT_3d_auto(tone_freq_array){
   }
 }
 
-function play_KHZ_3d_auto(){
+function play_KHZ_3d_auto(tone_freq_array){
   if(boolKHZ3Dauto == 0){
     boolKHZ3Dauto = 1;
     play_sine_3d_auto(tone_freq_array);
