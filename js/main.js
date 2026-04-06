@@ -121,6 +121,19 @@ var panning_model = 'HRTF'; // used in binaural and 3D sounds
   // Define a variable to store the animation duration
   var duration = 0.01;
 
+function deoctaver(freq, target_freq){
+  while(freq > target_freq){
+    freq = freq / 2; 
+  }
+  return freq;
+}
+
+function octaver(freq, target_freq){
+  while(freq < target_freq){
+    freq = freq * 2;
+  }
+  return freq;
+}
 
 function modalDisplayer(modalName = 'instructionModal', focusName = 'search-me') {
   // Get the modal element
