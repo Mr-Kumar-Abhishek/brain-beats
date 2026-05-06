@@ -7,6 +7,29 @@ const searchInput = document.querySelector(".searching");
 const mainSearchInput = document.querySelector(".init_search");
 const loadingSpinner = document.getElementById('loading-spinner');
 
+const setSafeHTML = (element, html) => {
+  element.innerHTML = '';
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(html, 'text/html');
+  Array.from(doc.body.childNodes).forEach(node => {
+    if (node.nodeType === Node.TEXT_NODE) {
+      element.appendChild(document.createTextNode(node.textContent));
+    } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'A') {
+      const a = document.createElement('a');
+      const href = node.getAttribute('href');
+      if (href && !href.toLowerCase().startsWith('javascript:')) {
+        a.href = href;
+      }
+      const title = node.getAttribute('title');
+      if (title) {
+        a.title = title;
+      }
+      a.textContent = node.textContent;
+      element.appendChild(a);
+    }
+  });
+};
+
 let dPresets = [];
 
 // Debounce function to limit the rate at which a function can fire
@@ -43,8 +66,8 @@ const fetchData = async (jsonData) => {
       const dataPlay = dataNode.querySelector(".play");
       const dataStop = dataNode.querySelector(".stop");
       const dataID = dataNode.querySelector(".fav");
-      dataTitle.textContent = dataPreset.data_name;
-      dataDescription.textContent = dataPreset.data_description;
+      setSafeHTML(dataTitle, dataPreset.data_name);
+      setSafeHTML(dataDescription, dataPreset.data_description);
       dataPlay.setAttribute("onclick", dataPreset.data_start);
       dataStop.setAttribute("onclick", dataPreset.data_stop);
       dataID.setAttribute("id", dataPreset.data_id);
