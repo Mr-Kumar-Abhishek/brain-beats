@@ -5,7 +5,28 @@ const dataUserIndex = document.querySelector(".data-user-index");
 const dataSectionContainer = document.querySelector(".sectionContainer");
 const searchInput = document.querySelector(".searching");
 
-
+const setSafeHTML = (element, html) => {
+  element.innerHTML = '';
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(html, 'text/html');
+  Array.from(doc.body.childNodes).forEach(node => {
+    if (node.nodeType === Node.TEXT_NODE) {
+      element.appendChild(document.createTextNode(node.textContent));
+    } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'A') {
+      const a = document.createElement('a');
+      const href = node.getAttribute('href');
+      if (href && !href.toLowerCase().startsWith('javascript:')) {
+        a.href = href;
+      }
+      const title = node.getAttribute('title');
+      if (title) {
+        a.title = title;
+      }
+      a.textContent = node.textContent;
+      element.appendChild(a);
+    }
+  });
+};
 let iSections = [];
 searchInput.addEventListener("input", (e)=> {
   const value  = e.target.value.toLowerCase(); 
@@ -25,8 +46,8 @@ fetch(jsonData)
   const sectionDescription = sectionNode.querySelector(".card-text");
   const sectionLink = sectionNode.querySelector(".linker");
   const sectionID = sectionNode.querySelector(".fav");
-  sectionTitle.textContent = indexSection.section_name;
-  sectionDescription.textContent = indexSection.section_description;
+  setSafeHTML(sectionTitle, indexSection.section_name);
+  setSafeHTML(sectionDescription, indexSection.section_description);
   sectionLink.setAttribute("href", indexSection.section_link);
   sectionID.setAttribute("id", indexSection.data_id);
   console.log(favorites);
