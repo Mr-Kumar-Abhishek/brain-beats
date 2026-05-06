@@ -65,3 +65,26 @@ $("#search-form").submit(function(e) {
 });
 
 const eventer = dataSectionContainer;
+const mainSearchInput = document.querySelector(".init_search");
+if (mainSearchInput) {
+  mainSearchInput.addEventListener("input", (e)=> {
+    const value  = e.target.value.toLowerCase(); 
+    iSections.forEach(iSection => {
+      const isVisible = iSection.iTitle.toLowerCase().includes(value) || iSection.iDesc.toLowerCase().includes(value);
+      iSection.element.classList.toggle("d-none", !isVisible);
+    });
+  });
+
+  $("#search-me").click(function() {
+    $("#search-me").addClass("on");
+    $("#hilter-front").addClass("on");
+    $("#hilter-back").addClass("on");
+  });
+
+  $("#hilter-back, #hilter-front").click(function() {
+    $("#hilter-front").removeClass("on");
+    $("#hilter-back").removeClass("on");
+    $("#search-me").removeClass("on");
+    $("#search-me").val("").trigger("input");
+  });
+}
