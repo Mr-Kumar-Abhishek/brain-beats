@@ -26,8 +26,8 @@ fetch(jsonData)
   const dataPlay = dataNode.querySelector(".play");
   const dataStop = dataNode.querySelector(".stop");
   const dataID = dataNode.querySelector(".fav");
-  dataTitle.innerHTML = dataPreset.data_name;
-  dataDescription.innerHTML = dataPreset.data_description;
+  dataTitle.textContent = dataPreset.data_name;
+  dataDescription.textContent = dataPreset.data_description;
   dataPlay.setAttribute("onclick", dataPreset.data_start);
   dataStop.setAttribute("onclick", dataPreset.data_stop);
   dataID.setAttribute("id", dataPreset.data_id);
