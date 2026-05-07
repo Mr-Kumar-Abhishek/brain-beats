@@ -1,8 +1,13 @@
 {
-  "devDependencies": {
-    "workbox-cli": "^7.0.0"
-  },
   "dependencies": {
     "glob": "^13.0.6"
+  },
+  "devDependencies": {
+    "inquirer": "^13.4.2",
+    "tmp": "^0.2.5",
+    "workbox-cli": "^7.4.1"
+  },
+  "overrides": {
+    "tmp": "^0.2.5"
   }
 }
