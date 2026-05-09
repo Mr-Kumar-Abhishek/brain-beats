@@ -62,6 +62,19 @@ The web app currently features the following types of sounds and generators:
 *   **Disclaimer:** The Brain Beats web application and its frequencies are **not a substitute for professional medical care.** Use the application and its presets at your own risk and discretion. Consult with a healthcare professional for any health concerns.
 *   **Dreamachine Usage:** The Dreamachine Generator requires specific usage conditions (dark room, closed eyes) for safety and effectiveness.
 
+## Recent Updates (Security & Features)
+
+The application has undergone several significant improvements recently, focusing on enhanced security and improved user experience:
+
+*   **Security Enhancements:**
+    *   Systematically identified and patched DOM-based Cross-Site Scripting (XSS) vulnerabilities across data rendering scripts and third-party libraries (including Jekyll Search and Bootstrap input spinners) by replacing insecure `.innerHTML` usage with `DOMParser`-based sanitization.
+    *   Fixed a Remote Code Execution (RCE) vulnerability related to javascript serialization dependencies.
+    *   Addressed potential directory traversal vulnerabilities and improved URL scheme validation.
+*   **Feature Updates:**
+    *   Integrated a responsive search bar into all dynamic JSON data pages for easier navigation and preset discovery.
+    *   Restored clickable links safely in data rendering without compromising security.
+    *   Updated donation links and cleaned up legacy components.
+
 ## Development Setup
 
 ### Prerequisites
