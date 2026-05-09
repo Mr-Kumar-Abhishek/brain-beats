@@ -163,7 +163,7 @@ SOFTWARE.
                         } else if (node.nodeType === Node.ELEMENT_NODE) {
                             const safeNode = document.createElement(node.tagName)
                             Array.from(node.attributes).forEach(attr => {
-                                if (attr.name.toLowerCase() === 'href' && attr.value.toLowerCase().startsWith('javascript:')) return
+                                if (attr.name.toLowerCase() === 'href' && /^\s*javascript:/i.test(attr.value)) return
                                 safeNode.setAttribute(attr.name, attr.value)
                             })
                             safeNode.textContent = node.textContent

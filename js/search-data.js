@@ -17,7 +17,7 @@ const setSafeHTML = (element, html) => {
     } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'A') {
       const a = document.createElement('a');
       const href = node.getAttribute('href');
-      if (href && !href.toLowerCase().startsWith('javascript:')) {
+      if (href && !/^\s*javascript:/i.test(href)) {
         a.href = href;
       }
       const title = node.getAttribute('title');
