@@ -154,32 +154,12 @@ SOFTWARE.
                 const prefix = $original.attr("data-prefix") || ""
                 const suffix = $original.attr("data-suffix") || ""
 
-                function sanitizeAndAppend(targetElement, htmlString) {
-                    const parser = new DOMParser()
-                    const doc = parser.parseFromString(htmlString, 'text/html')
-                    Array.from(doc.body.childNodes).forEach(node => {
-                        if (node.nodeType === Node.TEXT_NODE) {
-                            targetElement.append(document.createTextNode(node.textContent))
-                        } else if (node.nodeType === Node.ELEMENT_NODE) {
-                            const safeNode = document.createElement(node.tagName)
-                            Array.from(node.attributes).forEach(attr => {
-                                if (attr.name.toLowerCase() === 'href' && /^\s*javascript:/i.test(attr.value)) return
-                                safeNode.setAttribute(attr.name, attr.value)
-                            })
-                            safeNode.textContent = node.textContent
-                            targetElement.append(safeNode)
-                        }
-                    })
-                }
-
                 if (prefix) {
-                    const prefixElement = $('<span class="input-group-text"></span>')
-                    sanitizeAndAppend(prefixElement, prefix)
+                    const prefixElement = $('<span class="input-group-text"></span>').text(prefix)
                     $inputGroup.find("input").before(prefixElement)
                 }
                 if (suffix) {
-                    const suffixElement = $('<span class="input-group-text"></span>')
-                    sanitizeAndAppend(suffixElement, suffix)
+                    const suffixElement = $('<span class="input-group-text"></span>').text(suffix)
                     $inputGroup.find("input").after(suffixElement)
                 }
 
