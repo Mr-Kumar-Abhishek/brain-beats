@@ -39,7 +39,8 @@
   bottom: 1px;
   right: 1px;
   margin-top: 0;
-  height: 8rem;
+  height: auto;
+  min-height: 8rem;
   opacity: 1;
   border-radius: 10px;
   background: white;

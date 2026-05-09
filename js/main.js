@@ -8,6 +8,10 @@ var double_tone_oscillator_2;
 var single_tone_oscillator;
 var sine_oscillators;
 
+var binaural_polarity = 1;
+var double_tone_panner_1;
+var double_tone_panner_2;
+
 var monaural_flag = 0;
 var binaural_flag = 0;
 var pure_tone_flag = 0;
@@ -459,8 +463,8 @@ function play_double_tone (freq1, freq2, form, deviation) {
     double_tone_oscillator_1 = audioCtx.createOscillator();
     double_tone_oscillator_2 = audioCtx.createOscillator();
     
-    var pannerNode_1 = audioCtx.createPanner();
-    var pannerNode_2 = audioCtx.createPanner();
+    double_tone_panner_1 = audioCtx.createPanner();
+    double_tone_panner_2 = audioCtx.createPanner();
       
     double_tone_oscillator_1.type = double_tone_oscillator_2.type = oscillator_type;
 
@@ -470,20 +474,20 @@ function play_double_tone (freq1, freq2, form, deviation) {
     
     volume = audioCtx.createGain();
     
-    double_tone_oscillator_1.connect(pannerNode_1);
-    double_tone_oscillator_2.connect(pannerNode_2);
+    double_tone_oscillator_1.connect(double_tone_panner_1);
+    double_tone_oscillator_2.connect(double_tone_panner_2);
       
-    pannerNode_1.connect(volume);
-    pannerNode_2.connect(volume);
+    double_tone_panner_1.connect(volume);
+    double_tone_panner_2.connect(volume);
     
     volume.connect(audioCtx.destination);
 
     if (deviation == "binaural") {
-      pannerNode_1.positionX.setValueAtTime(-1, audioCtx.currentTime);
-      pannerNode_2.positionX.setValueAtTime(1, audioCtx.currentTime);
+      double_tone_panner_1.positionX.setValueAtTime(-1 * binaural_polarity, audioCtx.currentTime);
+      double_tone_panner_2.positionX.setValueAtTime(1 * binaural_polarity, audioCtx.currentTime);
     } else if (deviation == "monaural") {
-      pannerNode_1.positionX.setValueAtTime(0, audioCtx.currentTime);
-      pannerNode_2.positionX.setValueAtTime(0, audioCtx.currentTime);
+      double_tone_panner_1.positionX.setValueAtTime(0, audioCtx.currentTime);
+      double_tone_panner_2.positionX.setValueAtTime(0, audioCtx.currentTime);
     }
     
     volume.gain.value = volume_set();
@@ -1645,7 +1649,21 @@ function live_volume_set(){
   }else if (boolTurquoise == 1) {
     if (turquoiseNoiseNodeGain.gain.value != undefined) {
       turquoiseNoiseNodeGain.gain.value = volume_set();
-    }
+   }
+  }
+}
+
+function switch_binaural_polarity(checkboxElem) {
+  if (checkboxElem.checked) {
+    binaural_polarity = -1;
+  } else {
+    binaural_polarity = 1;
+  }
+
+  // Update dynamically if playing
+  if (double_tone_flag == 1 && deviation_type == "binaural" && double_tone_panner_1 && double_tone_panner_2) {
+      double_tone_panner_1.positionX.setValueAtTime(-1 * binaural_polarity, audioCtx.currentTime);
+      double_tone_panner_2.positionX.setValueAtTime(1 * binaural_polarity, audioCtx.currentTime);
   }
 }
     

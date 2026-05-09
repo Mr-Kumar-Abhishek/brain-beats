@@ -336,7 +336,13 @@
                     </div>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row align-items-center mt-3">
+                  <div class="col text-start">
+                    <div class="form-check form-switch d-inline-block">
+                      <input class="form-check-input" type="checkbox" id="polaritySwitch" onchange="switch_binaural_polarity(this)">
+                      <label class="form-check-label" for="polaritySwitch">Switch Polarity</label>
+                    </div>
+                  </div>
                   <div class="col text-end">
                     <button onclick="play_binaural_generator();" class="btn btn-play-stop btn-primary">
                       Play
