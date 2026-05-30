@@ -4,10 +4,10 @@
   },
   "devDependencies": {
     "inquirer": "^13.4.2",
-    "tmp": "^0.2.5",
+    "tmp": "^0.2.6",
     "workbox-cli": "^7.4.1"
   },
   "overrides": {
-    "tmp": "^0.2.5"
+    "tmp": "^0.2.6"
   }
 }
