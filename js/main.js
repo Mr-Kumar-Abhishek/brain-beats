@@ -902,8 +902,8 @@ function play_KHZ_3d_auto(tone_freq_array){
     boolKHZ3Dauto = 1;
     play_sine_3d_auto(tone_freq_array);
   }else{
-    stop_HC_3d();
-    play_HC_3d_auto(tone_freq_array);
+    stop_KHZ_3d();
+    play_KHZ_3d_auto(tone_freq_array);
   }
 }
 
@@ -913,7 +913,7 @@ function play_HC_3d_auto(tone_freq_array){
     boolHC3Dauto = 1;
     play_sine_3d_auto(tone_freq_array);
   }else{
-    stop_KHZ_3d();
+    stop_HC_3d();
     play_rife_3d_auto(tone_freq_array);
   }
 }
@@ -1599,8 +1599,8 @@ function live_volume_set(){
   
   if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1 || 
     angel_flag == 1 || boolSineMonaural == 1 || boolSine3D == 1 || 
-    boolSine3Dauto == 1 || boolRife3Dauto == 1 ||  boolKHZ3Dauto == 1 || boolRifeMonaural == 1 || 
-    boolRife3D == 1 || monaural_flag == 1 || binaural_flag == 1 || 
+    boolSine3Dauto == 1 || boolRife3Dauto == 1 ||  boolKHZ3Dauto == 1 || boolHC3Dauto == 1 ||boolRifeMonaural == 1 || 
+    boolRife3D == 1 || boolBIO3dauto == 1 || boolBIOMonaural == 1 || monaural_flag == 1 || binaural_flag == 1 || 
     sq_monaural_flag == 1 || double_tone_flag == 1 || kundalini_flag == 1 ||  astral_broadcast_flag == 1 ||
     boolALT3dauto == 1 || boolALTMonaural == 1 || bool_mind_machine_binaural == 1){
 
