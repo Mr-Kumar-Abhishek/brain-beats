@@ -1,0 +1,1402 @@
+[
+  {
+    "data_name": "Adenovirus 2nd HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Adenovirus 2nd. The frequencies in this preset are: 371450 hz, 386900 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([371450, 386900, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "4nM5O8w5"
+  },
+  {
+    "data_name": "Adenovirus 3rd HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Adenovirus 3rd. The frequencies in this preset are: 371000 hz",
+    "data_start": "play_HC_3d_auto([371000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "T1zMci0P"
+  },
+  {
+    "data_name": "Adenovirus 4th HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Adenovirus 4th. The frequencies in this preset are: 334000 hz",
+    "data_start": "play_HC_3d_auto([334000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "ZixEaYj0"
+  },
+  {
+    "data_name": "Adenovirus 5th HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Adenovirus 5th. The frequencies in this preset are: 568000 hz",
+    "data_start": "play_HC_3d_auto([568000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "jtsjZH92"
+  },
+  {
+    "data_name": "Adenovirus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Adenovirus. The frequencies in this preset are: 393000 hz",
+    "data_start": "play_HC_3d_auto([393000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "XvIue8i6"
+  },
+  {
+    "data_name": "Aflatoxin 1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Aflatoxin 1. The frequencies in this preset are: 177000 hz",
+    "data_start": "play_HC_3d_auto([177000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "fVKW3aSs"
+  },
+  {
+    "data_name": "Agyfla HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Agyfla. The frequencies in this preset are: 71000 hz",
+    "data_start": "play_HC_3d_auto([71000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "ZLEJhjsC"
+  },
+  {
+    "data_name": "Alpha Streptococcus 1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Alpha Streptococcus 1. The frequencies in this preset are: 369750 hz, 385400 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([369750, 385400, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "wZDWdDlb"
+  },
+  {
+    "data_name": "Alpha Streptococcus 2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Alpha Streptococcus 2. The frequencies in this preset are: 375000 hz",
+    "data_start": "play_HC_3d_auto([375000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "wa61mvHK"
+  },
+  {
+    "data_name": "Anaplasma Marginale 2nd HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Anaplasma Marginale 2nd. The frequencies in this preset are: 415300 hz, 424000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([415300, 424000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "ZHndwRy7"
+  },
+  {
+    "data_name": "Anaplasma Marginale HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Anaplasma Marginale. The frequencies in this preset are: 386400 hz, 388000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([386400, 388000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "oCZm8qvN"
+  },
+  {
+    "data_name": "Ancylostoma Braziliense HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Ancylostoma Braziliense. The frequencies in this preset are: 397600 hz, 403250 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([397600, 403250, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "yVQLJuL4"
+  },
+  {
+    "data_name": "Ancylostoma Caninum_1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Ancylostoma Caninum_1. The frequencies in this preset are: 383100 hz, 402900 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([383100, 402900, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "G8QDfK17"
+  },
+  {
+    "data_name": "Ancylostoma Caninum_2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Ancylostoma Caninum_2. The frequencies in this preset are: 393000 hz",
+    "data_start": "play_HC_3d_auto([393000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "WyEgtKlv"
+  },
+  {
+    "data_name": "Ancylostoma Caninum_3 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Ancylostoma Caninum_3. The frequencies in this preset are: 383100 hz, 402900 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([383100, 402900, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "dZI8P0Xt"
+  },
+  {
+    "data_name": "Ascaris Larvae HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Ascaris Larvae. The frequencies in this preset are: 404900 hz, 409150 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([404900, 409150, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "ajErhHcZ"
+  },
+  {
+    "data_name": "Ascaris Megalocephala (Male) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Ascaris Megalocephala (Male). The frequencies in this preset are: 403850 hz, 409700 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([403850, 409700, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "a3kkngOA"
+  },
+  {
+    "data_name": "Bacillus Anthracis 2nd HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bacillus Anthracis 2nd. The frequencies in this preset are: 363200 hz, 365300 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([363200, 365300, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "yD3xrqiB"
+  },
+  {
+    "data_name": "Bacillus Anthracis 3rd HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bacillus Anthracis 3rd. The frequencies in this preset are: 359400 hz, 370500 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([359400, 370500, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "llfX1GJR"
+  },
+  {
+    "data_name": "Bacillus Anthracis Spores HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bacillus Anthracis Spores. The frequencies in this preset are: 391450 hz, 386950 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([391450, 386950, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "30rOKIsv"
+  },
+  {
+    "data_name": "Bacillus Anthracis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bacillus Anthracis. The frequencies in this preset are: 393500 hz, 398000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([393500, 398000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "OFvlsFuC"
+  },
+  {
+    "data_name": "Bacillus Cereus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bacillus Cereus. The frequencies in this preset are: 373650 hz, 375850 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([373650, 375850, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "I85UvoQD"
+  },
+  {
+    "data_name": "Bacillus Subtilis Niger_1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bacillus Subtilis Niger_1. The frequencies in this preset are: 371850 hz, 387100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([371850, 387100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Fwjk4Z8y"
+  },
+  {
+    "data_name": "Bacillus Subtilis Niger_2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bacillus Subtilis Niger_2. The frequencies in this preset are: 380000 hz",
+    "data_start": "play_HC_3d_auto([380000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "HobqeL29"
+  },
+  {
+    "data_name": "Bacillus Subtilis Niger_3 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bacillus Subtilis Niger_3. The frequencies in this preset are: 375000 hz",
+    "data_start": "play_HC_3d_auto([375000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "nvbrmtEk"
+  },
+  {
+    "data_name": "Bacterial Capsules (Capsular) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bacterial Capsules (Capsular). The frequencies in this preset are: 416050 hz, 418750 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([416050, 418750, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "5TiKQCHZ"
+  },
+  {
+    "data_name": "Bacterial Capsules HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bacterial Capsules. The frequencies in this preset are: 362400 hz, 357600 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([362400, 357600, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "dKC2fzxm"
+  },
+  {
+    "data_name": "Bacteroides Fragilis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bacteroides Fragilis. The frequencies in this preset are: 324300 hz, 325000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([324300, 325000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "XDBOkj53"
+  },
+  {
+    "data_name": "Balantidium Coli Cysts HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Balantidium Coli Cysts. The frequencies in this preset are: 458800 hz, 462900 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([458800, 462900, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Hmb2lXOk"
+  },
+  {
+    "data_name": "Besnoitia (Lung Sect.) Protozoan HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Besnoitia (Lung Sect.) Protozoan. The frequencies in this preset are: 352800 hz, 361400 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([352800, 361400, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "RfnK8mRG"
+  },
+  {
+    "data_name": "Beta Streptococcus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Beta Streptococcus. The frequencies in this preset are: 380600 hz, 387400 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([380600, 387400, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "45BvwpWT"
+  },
+  {
+    "data_name": "Blepharisma HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Blepharisma. The frequencies in this preset are: 405650 hz, 407450 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([405650, 407450, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "aXJeNlr6"
+  },
+  {
+    "data_name": "Blue-green Algae HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Blue-green Algae. The frequencies in this preset are: 256000 hz",
+    "data_start": "play_HC_3d_auto([256000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "mewYML02"
+  },
+  {
+    "data_name": "Bordetella Pertussis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bordetella Pertussis. The frequencies in this preset are: 329850 hz, 332250 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([329850, 332250, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "ROmTC7OX"
+  },
+  {
+    "data_name": "Borrelia Burgdorferi Lyme Disease HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Borrelia Burgdorferi Lyme Disease. The frequencies in this preset are: 378950 hz, 382000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([378950, 382000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "TaHj2eqa"
+  },
+  {
+    "data_name": "Bryozoa Cristatalla HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Bryozoa Cristatalla. The frequencies in this preset are: 396000 hz",
+    "data_start": "play_HC_3d_auto([396000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "LYwrQJfD"
+  },
+  {
+    "data_name": "Campylobacter Fetus Smear HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Campylobacter Fetus Smear. The frequencies in this preset are: 365300 hz, 370600 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([365300, 370600, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "gPYLUiOc"
+  },
+  {
+    "data_name": "Campylobacter Pyloridis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Campylobacter Pyloridis. The frequencies in this preset are: 352000 hz, 357200 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([352000, 357200, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "erkQXy2O"
+  },
+  {
+    "data_name": "Capillaria Hepatica (Liver Sect) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Capillaria Hepatica (Liver Sect). The frequencies in this preset are: 424250 hz, 430650 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([424250, 430650, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "hKdTRCPb"
+  },
+  {
+    "data_name": "Central Spores (Bacillus Smear) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Central Spores (Bacillus Smear). The frequencies in this preset are: 372450 hz, 378650 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([372450, 378650, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "rGYQZl8G"
+  },
+  {
+    "data_name": "Chilomastix Cysts (Rat) 2nd HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Chilomastix Cysts (Rat) 2nd. The frequencies in this preset are: 425200 hz, 427300 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([425200, 427300, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "0NqOBGBv"
+  },
+  {
+    "data_name": "Chilomastix Cysts (Rat) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Chilomastix Cysts (Rat). The frequencies in this preset are: 388950 hz, 390700 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([388950, 390700, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "hI1EGzqQ"
+  },
+  {
+    "data_name": "Chilomonas Whole Mount HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Chilomonas Whole Mount. The frequencies in this preset are: 393750 hz, 400000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([393750, 400000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "AzBPMcPm"
+  },
+  {
+    "data_name": "Chlamydia Trachomatis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Chlamydia Trachomatis. The frequencies in this preset are: 379700 hz, 383950 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([379700, 383950, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "osiZ5mrk"
+  },
+  {
+    "data_name": "Clonorchis Sinensis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Clonorchis Sinensis. The frequencies in this preset are: 425700 hz, 428750 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([425700, 428750, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "RBNcn8aU"
+  },
+  {
+    "data_name": "Clostridium Acetobutylicum HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Clostridium Acetobutylicum. The frequencies in this preset are: 382800 hz, 391150 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([382800, 391150, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "dG5i5PKi"
+  },
+  {
+    "data_name": "Clostridium Botulinum HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Clostridium Botulinum. The frequencies in this preset are: 361000 hz, 364550 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([361000, 364550, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "tOiVKNCb"
+  },
+  {
+    "data_name": "Clostridium Perringens Spores HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Clostridium Perringens Spores. The frequencies in this preset are: 394200 hz, 393100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([394200, 393100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "9wDBsxZe"
+  },
+  {
+    "data_name": "Clostridium Septicum HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Clostridium Septicum. The frequencies in this preset are: 362050 hz, 365600 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([362050, 365600, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "aWZoiMMQ"
+  },
+  {
+    "data_name": "Corynebacterium Diphtheriae HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Corynebacterium Diphtheriae. The frequencies in this preset are: 340000 hz, 344000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([340000, 344000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "sMbFyx5t"
+  },
+  {
+    "data_name": "Corynebacterium Xerosis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Corynebacterium Xerosis. The frequencies in this preset are: 315650 hz, 316800 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([315650, 316800, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "YgYdyaph"
+  },
+  {
+    "data_name": "Coxsackie B1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Coxsackie B1. The frequencies in this preset are: 360500 hz, 366100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([360500, 366100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "QFWQj4eM"
+  },
+  {
+    "data_name": "Coxsackie B4 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Coxsackie B4. The frequencies in this preset are: 361450 hz, 363700 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([361450, 363700, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "w7jnY6iw"
+  },
+  {
+    "data_name": "Cryptocotyle Lingua (Adult) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Cryptocotyle Lingua (Adult). The frequencies in this preset are: 409950 hz, 416000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([409950, 416000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "gi9QxMDO"
+  },
+  {
+    "data_name": "Cytochalasin B_1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Cytochalasin B_1. The frequencies in this preset are: 77000 hz",
+    "data_start": "play_HC_3d_auto([77000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "C643o0zZ"
+  },
+  {
+    "data_name": "Cytochalasin B_2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Cytochalasin B_2. The frequencies in this preset are: 91000 hz",
+    "data_start": "play_HC_3d_auto([91000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "xgRVAcfz"
+  },
+  {
+    "data_name": "Cytomegalovirus (CMV) Antigen HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Cytomegalovirus (CMV) Antigen. The frequencies in this preset are: 403350 hz, 410750 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([403350, 410750, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "9XCZsumw"
+  },
+  {
+    "data_name": "Cytophaga Rubra HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Cytophaga Rubra. The frequencies in this preset are: 428100 hz, 432200 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([428100, 432200, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "qZFZ21qp"
+  },
+  {
+    "data_name": "Demodex Folliculorum Follicle Mite HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Demodex Folliculorum Follicle Mite. The frequencies in this preset are: 682000 hz",
+    "data_start": "play_HC_3d_auto([682000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "PkqIPrlt"
+  },
+  {
+    "data_name": "Dermatophagoides Dust Mite HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Dermatophagoides Dust Mite. The frequencies in this preset are: 707000 hz",
+    "data_start": "play_HC_3d_auto([707000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "YsfsnT28"
+  },
+  {
+    "data_name": "Dientamoeba Fragilis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Dientamoeba Fragilis. The frequencies in this preset are: 401350 hz, 406050 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([401350, 406050, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "BKwErfvI"
+  },
+  {
+    "data_name": "Diplococcus Diphtheriae HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Diplococcus Diphtheriae. The frequencies in this preset are: 357950 hz, 364000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([357950, 364000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "1BZ1faSt"
+  },
+  {
+    "data_name": "Diplococcus Pneumoniae_1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Diplococcus Pneumoniae_1. The frequencies in this preset are: 351650 hz, 386450 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([351650, 386450, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "hVDDz4Q1"
+  },
+  {
+    "data_name": "Diplococcus Pneumoniae_2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Diplococcus Pneumoniae_2. The frequencies in this preset are: 365000 hz",
+    "data_start": "play_HC_3d_auto([365000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "qnpGrbyR"
+  },
+  {
+    "data_name": "Dirofilaria Immitis Dog Heartworm HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Dirofilaria Immitis Dog Heartworm. The frequencies in this preset are: 408150 hz, 411150 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([408150, 411150, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "0P2gMuct"
+  },
+  {
+    "data_name": "Echinoporyphium Recurvatum HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Echinoporyphium Recurvatum. The frequencies in this preset are: 418550 hz, 423900 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([418550, 423900, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "gFVFwKMF"
+  },
+  {
+    "data_name": "Echinostoma Revolutum HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Echinostoma Revolutum. The frequencies in this preset are: 425500 hz, 429650 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([425500, 429650, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "8xHVhcUW"
+  },
+  {
+    "data_name": "Elkanella Corroderis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Elkanella Corroderis. The frequencies in this preset are: 379500 hz, 384300 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([379500, 384300, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "HhdPlrSx"
+  },
+  {
+    "data_name": "Endolimax Nana Trophozoites and Cysts 2nd HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Endolimax Nana Trophozoites and Cysts 2nd. The frequencies in this preset are: 430500 hz, 433350 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([430500, 433350, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "6f2AqRcg"
+  },
+  {
+    "data_name": "Endolimax Nana Trophozoites and Cysts HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Endolimax Nana Trophozoites and Cysts. The frequencies in this preset are: 394250 hz, 397100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([394250, 397100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "r8PZs6Ms"
+  },
+  {
+    "data_name": "Entamoeba Coli Trophozoites HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Entamoeba Coli Trophozoites. The frequencies in this preset are: 397000 hz, 400350 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([397000, 400350, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "MEW4adK1"
+  },
+  {
+    "data_name": "Entamoeba Gingivalis Trophozoite HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Entamoeba Gingivalis Trophozoite. The frequencies in this preset are: 433800 hz, 441000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([433800, 441000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "1oBTepu4"
+  },
+  {
+    "data_name": "Entamoeba Histolytica Trophozoite HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Entamoeba Histolytica Trophozoite. The frequencies in this preset are: 381100 hz, 367800 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([381100, 367800, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "WfDFMu1M"
+  },
+  {
+    "data_name": "Enterobacter Aerogenes HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Enterobacter Aerogenes. The frequencies in this preset are: 374000 hz, 374000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([374000, 374000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "HTcBBLFU"
+  },
+  {
+    "data_name": "Enterobius Vermicularis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Enterobius Vermicularis. The frequencies in this preset are: 420950 hz, 425300 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([420950, 425300, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "twXgCZlw"
+  },
+  {
+    "data_name": "Epstein Barr Virus_1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Epstein Barr Virus_1. The frequencies in this preset are: 372500 hz, 382350 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([372500, 382350, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "gM8Lut6N"
+  },
+  {
+    "data_name": "Epstein Barr Virus_2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Epstein Barr Virus_2. The frequencies in this preset are: 375000 hz",
+    "data_start": "play_HC_3d_auto([375000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "NQzH7JSK"
+  },
+  {
+    "data_name": "Ergot HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Ergot. The frequencies in this preset are: 295000 hz",
+    "data_start": "play_HC_3d_auto([295000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "rpfAylcg"
+  },
+  {
+    "data_name": "Erwinia Amylovora HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Erwinia Amylovora. The frequencies in this preset are: 347200 hz, 352100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([347200, 352100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "VlV8FBaN"
+  },
+  {
+    "data_name": "Escherichia Coli (E Coli) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Escherichia Coli (E Coli). The frequencies in this preset are: 356000 hz",
+    "data_start": "play_HC_3d_auto([356000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "xz35H7FN"
+  },
+  {
+    "data_name": "Eurytrema Pancreaticum HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Eurytrema Pancreaticum. The frequencies in this preset are: 420350 hz, 422300 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([420350, 422300, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "kyQMb0vW"
+  },
+  {
+    "data_name": "Fasciola Hepatica Eggs HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Fasciola Hepatica Eggs. The frequencies in this preset are: 422000 hz, 427600 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([422000, 427600, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "LcfMvVBM"
+  },
+  {
+    "data_name": "Fasciola Hepatica Miracidia HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Fasciola Hepatica Miracidia. The frequencies in this preset are: 421750 hz, 424700 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([421750, 424700, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "gxjPoE7w"
+  },
+  {
+    "data_name": "Fasciola Hepatica Rediae HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Fasciola Hepatica Rediae. The frequencies in this preset are: 420600 hz, 427500 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([420600, 427500, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "uqssXCBg"
+  },
+  {
+    "data_name": "Fasciolopsis Buski Adult HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Fasciolopsis Buski Adult. The frequencies in this preset are: 427700 hz, 435100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([427700, 435100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "eUhsQkS2"
+  },
+  {
+    "data_name": "Fasciolopsis Buski Eggs HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Fasciolopsis Buski Eggs. The frequencies in this preset are: 427350 hz, 435450 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([427350, 435450, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "A2Qtr6sB"
+  },
+  {
+    "data_name": "Fasciolopsis Cercariae HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Fasciolopsis Cercariae. The frequencies in this preset are: 429500 hz, 435250 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([429500, 435250, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "hqmjQPnC"
+  },
+  {
+    "data_name": "Fasciolopsis Miracidia HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Fasciolopsis Miracidia. The frequencies in this preset are: 427350 hz, 435200 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([427350, 435200, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Nisj9uIw"
+  },
+  {
+    "data_name": "Fasciolopsis Rediae HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Fasciolopsis Rediae. The frequencies in this preset are: 427300 hz, 433000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([427300, 433000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "WylUOF3P"
+  },
+  {
+    "data_name": "Fischoedrius Elongatus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Fischoedrius Elongatus. The frequencies in this preset are: 441750 hz, 443200 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([441750, 443200, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "0LJ1ojmy"
+  },
+  {
+    "data_name": "Gaffkya Tetragena HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Gaffkya Tetragena. The frequencies in this preset are: 344850 hz, 352500 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([344850, 352500, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "k13Pp5QZ"
+  },
+  {
+    "data_name": "Gardnerella Vaginalis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Gardnerella Vaginalis. The frequencies in this preset are: 333000 hz, 342550 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([333000, 342550, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "4F9LwRMl"
+  },
+  {
+    "data_name": "Gastrothylax Elongatus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Gastrothylax Elongatus. The frequencies in this preset are: 451900 hz, 457100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([451900, 457100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Av9Lm5qL"
+  },
+  {
+    "data_name": "Giardia Lamblia Trophozoites HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Giardia Lamblia Trophozoites. The frequencies in this preset are: 421400 hz, 426300 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([421400, 426300, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "TZaOVg2g"
+  },
+  {
+    "data_name": "Griseofulvin HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Griseofulvin. The frequencies in this preset are: 288000 hz",
+    "data_start": "play_HC_3d_auto([288000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "fiBKbDaK"
+  },
+  {
+    "data_name": "Gyrodactylus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Gyrodactylus. The frequencies in this preset are: 378750 hz, 381800 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([378750, 381800, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "4vw2S3y1"
+  },
+  {
+    "data_name": "Haemonchus Contortus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Haemonchus Contortus. The frequencies in this preset are: 386800 hz, 395000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([386800, 395000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "dXrnI6Yd"
+  },
+  {
+    "data_name": "Haemophilus Influenzae HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Haemophilus Influenzae. The frequencies in this preset are: 336410 hz",
+    "data_start": "play_HC_3d_auto([336410]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "vmmQlpKl"
+  },
+  {
+    "data_name": "Heart Disease HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Heart Disease. The frequencies in this preset are: 381000 hz",
+    "data_start": "play_HC_3d_auto([381000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "XvpgWede"
+  },
+  {
+    "data_name": "Hepatitis B Antigen HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Hepatitis B Antigen. The frequencies in this preset are: 414550 hz, 420800 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([414550, 420800, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "tkxS2QIM"
+  },
+  {
+    "data_name": "Herpes Simplex 1 2nd HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Herpes Simplex 1 2nd. The frequencies in this preset are: 345350 hz, 345760 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([345350, 345760, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Qet0myNu"
+  },
+  {
+    "data_name": "Herpes Simplex 1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Herpes Simplex 1. The frequencies in this preset are: 291250 hz, 293050 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([291250, 293050, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Uto4bEr3"
+  },
+  {
+    "data_name": "Herpes Simplex 2_1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Herpes Simplex 2_1. The frequencies in this preset are: 353900 hz, 362900 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([353900, 362900, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "tWcQwza9"
+  },
+  {
+    "data_name": "Histomonas Meleagridis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Histomonas Meleagridis. The frequencies in this preset are: 376550 hz, 373700 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([376550, 373700, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "s0gUSFRX"
+  },
+  {
+    "data_name": "HIV HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for HIV. The frequencies in this preset are: 365000 hz",
+    "data_start": "play_HC_3d_auto([365000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "sWb3Gndv"
+  },
+  {
+    "data_name": "Influenza A and B_1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Influenza A and B_1. The frequencies in this preset are: 313350 hz, 323900 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([313350, 323900, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "lvJYfFKq"
+  },
+  {
+    "data_name": "Klebsiella Pneumoniae 2nd HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Klebsiella Pneumoniae 2nd. The frequencies in this preset are: 419000 hz",
+    "data_start": "play_HC_3d_auto([419000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "0eLT5rVY"
+  },
+  {
+    "data_name": "Klebsiella Pneumoniae HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Klebsiella Pneumoniae. The frequencies in this preset are: 393450 hz, 404660 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([393450, 404660, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Ne051OYh"
+  },
+  {
+    "data_name": "Lactobacillus Acidophilus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Lactobacillus Acidophilus. The frequencies in this preset are: 346050 hz, 351650 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([346050, 351650, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "p0OQcN0p"
+  },
+  {
+    "data_name": "Leishmania Braziliensis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Leishmania Braziliensis. The frequencies in this preset are: 400050 hz, 405100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([400050, 405100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "8jvy47XG"
+  },
+  {
+    "data_name": "Leishmania Donovani HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Leishmania Donovani. The frequencies in this preset are: 398000 hz, 402650 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([398000, 402650, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "EiUlL3Gw"
+  },
+  {
+    "data_name": "Leishmania Mexicana HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Leishmania Mexicana. The frequencies in this preset are: 400200 hz, 403800 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([400200, 403800, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "2CopHOmP"
+  },
+  {
+    "data_name": "Leishmania Tropica HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Leishmania Tropica. The frequencies in this preset are: 402100 hz, 407400 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([402100, 407400, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "73gwFgbk"
+  },
+  {
+    "data_name": "Leptospira Interrogans Spirochete HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Leptospira Interrogans Spirochete. The frequencies in this preset are: 397050 hz, 401100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([397050, 401100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "3hAt22NZ"
+  },
+  {
+    "data_name": "Leucocytozoon HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Leucocytozoon. The frequencies in this preset are: 397460 hz, 402550 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([397460, 402550, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "aBHioIk1"
+  },
+  {
+    "data_name": "Loa Loa HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Loa Loa. The frequencies in this preset are: 360551 hz",
+    "data_start": "play_HC_3d_auto([360551]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "cp2xLoh7"
+  },
+  {
+    "data_name": "Lycogala HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Lycogala. The frequencies in this preset are: 126000 hz",
+    "data_start": "play_HC_3d_auto([126000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "DvJgDqPr"
+  },
+  {
+    "data_name": "Macracanthorhynchus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Macracanthorhynchus. The frequencies in this preset are: 438850 hz, 442800 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([438850, 442800, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "xlLHUVU9"
+  },
+  {
+    "data_name": "Meal Mite HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Meal Mite. The frequencies in this preset are: 718000 hz",
+    "data_start": "play_HC_3d_auto([718000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "4UwXJc5h"
+  },
+  {
+    "data_name": "Metagonimus Yokogawai HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Metagonimus Yokogawai. The frequencies in this preset are: 437350 hz, 442100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([437350, 442100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Jyk6Qy7X"
+  },
+  {
+    "data_name": "Mucor Mucedo HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Mucor Mucedo. The frequencies in this preset are: 288000 hz",
+    "data_start": "play_HC_3d_auto([288000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "oKzF3xv3"
+  },
+  {
+    "data_name": "Mumps Antigen HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Mumps Antigen. The frequencies in this preset are: 377600 hz, 384650 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([377600, 384650, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Kc5SN1jU"
+  },
+  {
+    "data_name": "Mycobacterium Phlei HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Mycobacterium Phlei. The frequencies in this preset are: 409650 hz, 410650 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([409650, 410650, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "30eXiKfI"
+  },
+  {
+    "data_name": "Mycobacterium Tuberculosis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Mycobacterium Tuberculosis. The frequencies in this preset are: 430550 hz, 434200 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([430550, 434200, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "M7XqTmoi"
+  },
+  {
+    "data_name": "Mycoplasma 2nd HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Mycoplasma 2nd. The frequencies in this preset are: 342750 hz, 349300 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([342750, 349300, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "i4qX5keE"
+  },
+  {
+    "data_name": "Mycoplasma HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Mycoplasma. The frequencies in this preset are: 322850 hz, 323900 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([322850, 323900, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "sDbL4aAV"
+  },
+  {
+    "data_name": "Myxosoma HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Myxosoma. The frequencies in this preset are: 409600 hz, 416950 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([409600, 416950, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "1eFOL01y"
+  },
+  {
+    "data_name": "Naegleria Fowleri HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Naegleria Fowleri. The frequencies in this preset are: 356900 hz, 364350 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([356900, 364350, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "s7wj8cav"
+  },
+  {
+    "data_name": "Neisseria Gonorrhea HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Neisseria Gonorrhea. The frequencies in this preset are: 333850 hz, 336500 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([333850, 336500, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "TudDt1o4"
+  },
+  {
+    "data_name": "Nocardia Asteroides HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Nocardia Asteroides. The frequencies in this preset are: 354950 hz, 355350 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([354950, 355350, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Ko5uUula"
+  },
+  {
+    "data_name": "Onchocerca Volvulus (Tumor) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Onchocerca Volvulus (Tumor). The frequencies in this preset are: 435300 hz, 442100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([435300, 442100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "F9eokuoY"
+  },
+  {
+    "data_name": "Ornithonyssus Bird Mite_1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Ornithonyssus Bird Mite_1. The frequencies in this preset are: 877000 hz",
+    "data_start": "play_HC_3d_auto([877000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "J7Bj1IEA"
+  },
+  {
+    "data_name": "Ornithonyssus Bird Mite_2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Ornithonyssus Bird Mite_2. The frequencies in this preset are: 878000 hz",
+    "data_start": "play_HC_3d_auto([878000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "3AlaMJSz"
+  },
+  {
+    "data_name": "Paragonimus Westermani Adult_1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Paragonimus Westermani Adult_1. The frequencies in this preset are: 437800 hz, 454200 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([437800, 454200, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "7q2wT4fo"
+  },
+  {
+    "data_name": "Paragonimus Westermani Adult_2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Paragonimus Westermani Adult_2. The frequencies in this preset are: 447000 hz",
+    "data_start": "play_HC_3d_auto([447000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "rubSpBq2"
+  },
+  {
+    "data_name": "Passalurus Ambiguus_1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Passalurus Ambiguus_1. The frequencies in this preset are: 428800 hz, 444150 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([428800, 444150, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "OGyOtshq"
+  },
+  {
+    "data_name": "Passalurus Ambiguus_2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Passalurus Ambiguus_2. The frequencies in this preset are: 437000 hz",
+    "data_start": "play_HC_3d_auto([437000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "MU1DEpxC"
+  },
+  {
+    "data_name": "Plasmodium Cynomolgi HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Plasmodium Cynomolgi. The frequencies in this preset are: 417300 hz, 424500 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([417300, 424500, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "MW3CXqnT"
+  },
+  {
+    "data_name": "Plasmodium Falciparum Smear HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Plasmodium Falciparum Smear. The frequencies in this preset are: 372300 hz, 373800 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([372300, 373800, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "q8OsBCpK"
+  },
+  {
+    "data_name": "Plasmodium Vivax Smear HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Plasmodium Vivax Smear. The frequencies in this preset are: 438150 hz, 445100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([438150, 445100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "FCIoNtgI"
+  },
+  {
+    "data_name": "Pneumocystis Carnil (Lung) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Pneumocystis Carnil (Lung). The frequencies in this preset are: 405750 hz, 409150 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([405750, 409150, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "EWu2k87f"
+  },
+  {
+    "data_name": "Propionibacterium Acnes HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Propionibacterium Acnes. The frequencies in this preset are: 383750 hz, 389000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([383750, 389000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "VINxhNf8"
+  },
+  {
+    "data_name": "Prostnogonimus Macrorchis Egg HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Prostnogonimus Macrorchis Egg. The frequencies in this preset are: 396850 hz, 404750 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([396850, 404750, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "PqA8eKO8"
+  },
+  {
+    "data_name": "Proteus Mirabilis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Proteus Mirabilis. The frequencies in this preset are: 320550 hz, 326000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([320550, 326000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "VAA74nrn"
+  },
+  {
+    "data_name": "Proteus Vulgaris HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Proteus Vulgaris. The frequencies in this preset are: 408750 hz, 416450 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([408750, 416450, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "4yrrtouT"
+  },
+  {
+    "data_name": "Pseudomonas Aeruginosa HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Pseudomonas Aeruginosa. The frequencies in this preset are: 331250 hz, 334600 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([331250, 334600, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "xbUpvRjj"
+  },
+  {
+    "data_name": "Respiratory Syncytial Virus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Respiratory Syncytial Virus. The frequencies in this preset are: 378950 hz, 383150 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([378950, 383150, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "MPII8hMt"
+  },
+  {
+    "data_name": "Rhizobium Meliloti HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Rhizobium Meliloti. The frequencies in this preset are: 330000 hz",
+    "data_start": "play_HC_3d_auto([330000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "m2LLIkmp"
+  },
+  {
+    "data_name": "Rotifer HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Rotifer. The frequencies in this preset are: 1151000 hz",
+    "data_start": "play_HC_3d_auto([1151000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "9jAYUDCV"
+  },
+  {
+    "data_name": "Salmonella Enteriditis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Salmonella Enteriditis. The frequencies in this preset are: 329000 hz, 329000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([329000, 329000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "KQhS8b4Q"
+  },
+  {
+    "data_name": "Salmonella Paratyphi HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Salmonella Paratyphi. The frequencies in this preset are: 365050 hz, 370100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([365050, 370100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "2FbCDA8C"
+  },
+  {
+    "data_name": "Salmonella Typhimurium 1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Salmonella Typhimurium 1. The frequencies in this preset are: 382300 hz, 386550 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([382300, 386550, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "efMB1eF4"
+  },
+  {
+    "data_name": "Salmonella Typhimurium 2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Salmonella Typhimurium 2. The frequencies in this preset are: 386000 hz",
+    "data_start": "play_HC_3d_auto([386000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "vOrWLKp3"
+  },
+  {
+    "data_name": "Sarcocystis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Sarcocystis. The frequencies in this preset are: 450550 hz, 454950 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([450550, 454950, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "VMn18cXX"
+  },
+  {
+    "data_name": "Sarcoptes Scabiei Itch HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Sarcoptes Scabiei Itch. The frequencies in this preset are: 735000 hz",
+    "data_start": "play_HC_3d_auto([735000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "eWbbJQvZ"
+  },
+  {
+    "data_name": "Schistosoma Haematobium HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Schistosoma Haematobium. The frequencies in this preset are: 473000 hz",
+    "data_start": "play_HC_3d_auto([473000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "bQq0b5dj"
+  },
+  {
+    "data_name": "Schistosoma Mansoni HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Schistosoma Mansoni. The frequencies in this preset are: 353000 hz",
+    "data_start": "play_HC_3d_auto([353000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "xfQf1bkK"
+  },
+  {
+    "data_name": "Shigella Dysenteriae HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Shigella Dysenteriae. The frequencies in this preset are: 390089 hz",
+    "data_start": "play_HC_3d_auto([390089]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "wuyQ4PPb"
+  },
+  {
+    "data_name": "Shigella Flexneri HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Shigella Flexneri. The frequencies in this preset are: 394000 hz",
+    "data_start": "play_HC_3d_auto([394000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "YEOIGY4p"
+  },
+  {
+    "data_name": "Shigella Sonnei HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Shigella Sonnei. The frequencies in this preset are: 318000 hz",
+    "data_start": "play_HC_3d_auto([318000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "DsJguGG6"
+  },
+  {
+    "data_name": "Sorghum Syrup HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Sorghum Syrup. The frequencies in this preset are: 277000 hz",
+    "data_start": "play_HC_3d_auto([277000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "IZvpDUI0"
+  },
+  {
+    "data_name": "Sphaerotilus Natans HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Sphaerotilus Natans. The frequencies in this preset are: 388400 hz, 393450 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([388400, 393450, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "kk6QeNM4"
+  },
+  {
+    "data_name": "Spirillum Serpens HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Spirillum Serpens. The frequencies in this preset are: 378350 hz, 382800 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([378350, 382800, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "5CALlSAX"
+  },
+  {
+    "data_name": "Staphylococcus Aureus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Staphylococcus Aureus. The frequencies in this preset are: 376270 hz, 380850 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([376270, 380850, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Px8aOisR"
+  },
+  {
+    "data_name": "Stemonius HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Stemonius. The frequencies in this preset are: 211000 hz",
+    "data_start": "play_HC_3d_auto([211000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "3GtiodCy"
+  },
+  {
+    "data_name": "Stephanurus Dentalus (Ova) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Stephanurus Dentalus (Ova). The frequencies in this preset are: 467350 hz, 463100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([467350, 463100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "2fEKBpYk"
+  },
+  {
+    "data_name": "Sterigmatocystin_1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Sterigmatocystin_1. The frequencies in this preset are: 88000 hz",
+    "data_start": "play_HC_3d_auto([88000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "HSMKC8qV"
+  },
+  {
+    "data_name": "Sterigmatocystin_2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Sterigmatocystin_2. The frequencies in this preset are: 96000 hz",
+    "data_start": "play_HC_3d_auto([96000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "y3eUZ0IR"
+  },
+  {
+    "data_name": "Sterigmatocystin_3 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Sterigmatocystin_3. The frequencies in this preset are: 126000 hz",
+    "data_start": "play_HC_3d_auto([126000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Vh0rBCOU"
+  },
+  {
+    "data_name": "Sterigmatocystin_4 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Sterigmatocystin_4. The frequencies in this preset are: 133000 hz",
+    "data_start": "play_HC_3d_auto([133000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "WL97Irin"
+  },
+  {
+    "data_name": "Stigeoclonium 1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Stigeoclonium 1. The frequencies in this preset are: 404250 hz, 415250 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([404250, 415250, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "pH64TXmM"
+  },
+  {
+    "data_name": "Stigeoclonium 2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Stigeoclonium 2. The frequencies in this preset are: 407000 hz",
+    "data_start": "play_HC_3d_auto([407000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "ghAYTo65"
+  },
+  {
+    "data_name": "Streptococcus Lactis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Streptococcus Lactis. The frequencies in this preset are: 382000 hz, 387000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([382000, 387000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "5CDWeBHd"
+  },
+  {
+    "data_name": "Streptococcus Mitis Abscesses Stiff Knees HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Streptococcus Mitis Abscesses Stiff Knees. The frequencies in this preset are: 313800 hz, 321100 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([313800, 321100, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "ALlQvqAV"
+  },
+  {
+    "data_name": "Streptococcus Pneumoniae HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Streptococcus Pneumoniae. The frequencies in this preset are: 366850 hz, 370200 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([366850, 370200, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "sh3h8q47"
+  },
+  {
+    "data_name": "Streptococcus Pyogenes HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Streptococcus Pyogenes. The frequencies in this preset are: 360500 hz, 375300 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([360500, 375300, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "Yu4SbEqX"
+  },
+  {
+    "data_name": "Streptococcus Species Group G HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Streptococcus Species Group G. The frequencies in this preset are: 368150 hz, 368850 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([368150, 368850, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "QB5yjctw"
+  },
+  {
+    "data_name": "Strongyloides (Filariform Larva) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Strongyloides (Filariform Larva). The frequencies in this preset are: 398400 hz, 402000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([398400, 402000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "7FBTx3Oq"
+  },
+  {
+    "data_name": "Tobacco Mosaic Virus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Tobacco Mosaic Virus. The frequencies in this preset are: 427150 hz, 429550 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([427150, 429550, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "dlvpWqGK"
+  },
+  {
+    "data_name": "Toxoplasma (Human Strain) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Toxoplasma (Human Strain). The frequencies in this preset are: 395000 hz",
+    "data_start": "play_HC_3d_auto([395000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "daXwcLM5"
+  },
+  {
+    "data_name": "Treponema Pallidum HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Treponema Pallidum. The frequencies in this preset are: 346850 hz, 347400 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([346850, 347400, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "93mf0eyV"
+  },
+  {
+    "data_name": "Trichinella Spiralis Muscle HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Trichinella Spiralis Muscle. The frequencies in this preset are: 403850 hz, 405570 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([403850, 405570, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "u2w70SM2"
+  },
+  {
+    "data_name": "Trichomonas Vaginalis HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Trichomonas Vaginalis. The frequencies in this preset are: 378000 hz, 383600 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([378000, 383600, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "HbyO2BST"
+  },
+  {
+    "data_name": "Trichuris Species Male HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Trichuris Species Male. The frequencies in this preset are: 388300 hz, 408900 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([388300, 408900, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "XJrTWLSS"
+  },
+  {
+    "data_name": "Troglodytella Abrassari 2nd HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Troglodytella Abrassari 2nd. The frequencies in this preset are: 416900 hz, 422200 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([416900, 422200, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "6lIDaoGE"
+  },
+  {
+    "data_name": "Troglodytella Abrassari HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Troglodytella Abrassari. The frequencies in this preset are: 377750 hz, 385200 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([377750, 385200, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "me056ODh"
+  },
+  {
+    "data_name": "Trypanosoma Brucei HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Trypanosoma Brucei. The frequencies in this preset are: 423200 hz, 431400 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([423200, 431400, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "PoEWn3XA"
+  },
+  {
+    "data_name": "Trypanosoma Cruzi (Brain Tissue) HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Trypanosoma Cruzi (Brain Tissue). The frequencies in this preset are: 460200 hz, 465650 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([460200, 465650, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "u0fyDfcK"
+  },
+  {
+    "data_name": "Trypanosoma Equiperdum 1 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Trypanosoma Equiperdum 1. The frequencies in this preset are: 434600 hz, 451250 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([434600, 451250, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "FNh0yYYU"
+  },
+  {
+    "data_name": "Trypanosoma Equiperdum 2 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Trypanosoma Equiperdum 2. The frequencies in this preset are: 442000 hz",
+    "data_start": "play_HC_3d_auto([442000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "ikBwa2pm"
+  },
+  {
+    "data_name": "Trypanosoma Equiperdum 3 HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Trypanosoma Equiperdum 3. The frequencies in this preset are: 434600 hz, 451250 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([434600, 451250, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "IlbV58bh"
+  },
+  {
+    "data_name": "Trypanosoma Gambiense HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Trypanosoma Gambiense. The frequencies in this preset are: 393750 hz, 398700 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([393750, 398700, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "nc9gH4pX"
+  },
+  {
+    "data_name": "Trypanosoma Lewisi HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Trypanosoma Lewisi. The frequencies in this preset are: 424500 hz, 426000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([424500, 426000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "eAcUYBfl"
+  },
+  {
+    "data_name": "Trypanosoma Rhodesiense HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Trypanosoma Rhodesiense. The frequencies in this preset are: 423500 hz, 428550 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([423500, 428550, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "3Kk6ECEO"
+  },
+  {
+    "data_name": "Urocleidus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Urocleidus. The frequencies in this preset are: 442350 hz, 450000 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([442350, 450000, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "mS1suF9H"
+  },
+  {
+    "data_name": "Veillonella Dispar HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Veillonella Dispar. The frequencies in this preset are: 401750 hz, 405200 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([401750, 405200, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "U8A6YR4M"
+  },
+  {
+    "data_name": "Wart Human Papilloma Plantar HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Wart Human Papilloma Plantar. The frequencies in this preset are: 404700 hz, 406750 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([404700, 406750, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "etj1Skxo"
+  },
+  {
+    "data_name": "Wart Human Papilloma Virus HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Wart Human Papilloma Virus. The frequencies in this preset are: 402850 hz, 410700 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([402850, 410700, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "nChQ5xv2"
+  },
+  {
+    "data_name": "Wart Papilloma Cervix Smear HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Wart Papilloma Cervix Smear. The frequencies in this preset are: 404050 hz, 404600 hz, 3600 hz",
+    "data_start": "play_HC_3d_auto([404050, 404600, 3600]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "9qHI93Ik"
+  },
+  {
+    "data_name": "Zearalenone HC 3D frequencies",
+    "data_description": "This is HC 3D frequencies healing preset for Zearalenone. The frequencies in this preset are: 100000 hz",
+    "data_start": "play_HC_3d_auto([100000]);",
+    "data_stop": "stop_HC_3d();",
+    "data_id": "lLdmmwqa"
+  }
+]
