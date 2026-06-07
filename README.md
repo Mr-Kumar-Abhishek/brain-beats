@@ -23,6 +23,10 @@ The web app currently features the following types of sounds and generators:
 *   **Monaural Rife Frequencies:** Monaural Rife frequency presets designed to provide mental relief by simultaneously playing frequencies associated with specific ailments.
 *   **3D ALT Frequencies:** 3D spatial audio presets using ALT frequencies.
 *   **Monaural ALT Frequencies:** Monaural presets using ALT frequencies.
+*   **3D HC Frequency Presets:** Dr. Hulda Clark healing frequency presets with 3D spatial audio coordinates, designed for therapeutic and wellness applications.
+*   **3D KHZ Frequency Presets:** Kilohertz-range frequency presets with 3D spatial audio coordinates for specialized therapeutic applications.
+*   **3D BIO Frequency Presets:** Bio-frequency presets with 3D spatial audio coordinates for biological resonance therapy.
+*   **Monaural BIO Frequencies:** Monaural bio-frequency presets designed for biological resonance therapy.
 *   **Rife Frequencies CAFL XREF:** A collection of pure tones based on the Consolidated Annotated Frequency List (CAFL), associated with the work of Royal Rife and believed to have therapeutic effects.
 
 ### Generators:
@@ -42,6 +46,8 @@ The web app currently features the following types of sounds and generators:
 
 *   **Noise Colors:** Presets for different colors of noise (White, Pink, Brown, etc.) for sound masking and relaxation.
 *   **Kundalini Ascension:** A special preset designed for spiritual practices, incorporating specific frequencies and rotating visual elements.
+*   **Astral Broadcaster:** A spiritual preset incorporating specific frequencies with rotating elements timed to the golden ratio, designed for astral projection and consciousness exploration.
+*   **Favorites:** Save and quickly access your most-used presets from any section of the application.
 
 ## Usage Instructions
 
@@ -70,6 +76,14 @@ The application has undergone several significant improvements recently, focusin
     *   Systematically identified and patched DOM-based Cross-Site Scripting (XSS) vulnerabilities across data rendering scripts and third-party libraries (including Jekyll Search and Bootstrap input spinners) by replacing insecure `.innerHTML` usage with `DOMParser`-based sanitization.
     *   Fixed a Remote Code Execution (RCE) vulnerability related to javascript serialization dependencies.
     *   Addressed potential directory traversal vulnerabilities and improved URL scheme validation.
+*   **New Features:**
+    *   **3D HC Frequency Presets:** Added Dr. Hulda Clark healing frequency presets with 3D spatial audio support, featuring ~280 presets for therapeutic applications.
+    *   **3D KHZ & BIO Frequency Presets:** Introduced kilohertz-range and bio-frequency presets with 3D spatial audio coordinates.
+    *   **Monaural BIO Frequencies:** New monaural bio-frequency presets for biological resonance therapy.
+    *   **Astral Broadcaster:** A new spiritual preset with rotating frequencies timed to the golden ratio for astral projection and consciousness exploration.
+    *   **Favorites System:** Added a favorites page allowing users to save and quickly access preferred presets across all sections.
+    *   **Divine Alignment Presets:** Added monaural ALT frequency presets including "Devine Restructure of the Body."
+    *   **Updated Donation Options:** Integrated NowPayments for expanded donation and support options.
 *   **Feature Updates:**
     *   Integrated a responsive search bar into all dynamic JSON data pages for easier navigation and preset discovery.
     *   Restored clickable links safely in data rendering without compromising security.
@@ -151,10 +165,14 @@ _redirects
 .gitconfig
 .gitignore
 3d-alt-frequency.html
+3d-bio-frequency.html
+3d-hc-frequency-presets.html
+3d-khz-frequency-presets.html
 3d-rife-machine.html
 ads.txt
 angel-frequency.html
 app-ads.txt
+astral-broadcaster.html
 binaural-base-beats.html
 binaural-beats-generator.html
 binaural-mind-machine-generator.html
@@ -163,7 +181,6 @@ blog/
 css/
 dreamachine-generator.html
 dreamachine-presets.html
-favicon.ico
 favorites.html
 google7484c80835cfba45.html
 img/
@@ -179,11 +196,11 @@ manifest.json
 monaural-alt-frequency.html
 monaural-base-beats.html
 monaural-beats-generator.html
+monaural-bio-frequency.html
 monaural-rife-machine.html
 netlify.toml
 noise-processor/
 noise.html
-node_modules/
 privacy-policy.html
 pure-tone-generator.html
 pure-tones.html
