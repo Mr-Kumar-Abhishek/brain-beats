@@ -63,7 +63,7 @@ The web app currently features the following types of sounds and generators:
 
 **Important Notes:**
 
-*   **Headphones/Earphones:** While not always mandatory, using headphones or earphones is generally recommended for binaural and monaural beats to enhance the intended brainwave entrainment effects.
+*   **Headphones/Earphones:** Headphones or earphones are **necessary** for binaural beats and all 3D spatial audio presets to achieve the intended brainwave entrainment effects. For monaural beats and pure tones, headphones are recommended but not mandatory. **Using speakers for binaural beats or 3D audio will not produce the intended effects.**
 *   **Volume Levels:** Start with low volume levels and gradually adjust to avoid discomfort or hearing damage.
 *   **Disclaimer:** The Brain Beats web application and its frequencies are **not a substitute for professional medical care.** Use the application and its presets at your own risk and discretion. Consult with a healthcare professional for any health concerns.
 *   **Dreamachine Usage:** The Dreamachine Generator requires specific usage conditions (dark room, closed eyes) for safety and effectiveness.
@@ -161,64 +161,64 @@ For support, questions, or feedback, you can:
 ## Files and Directories
 
 ```
-_redirects
-.gitconfig
-.gitignore
-3d-alt-frequency.html
-3d-bio-frequency.html
-3d-hc-frequency-presets.html
-3d-khz-frequency-presets.html
-3d-rife-machine.html
-ads.txt
-angel-frequency.html
-app-ads.txt
-astral-broadcaster.html
-binaural-base-beats.html
-binaural-beats-generator.html
-binaural-mind-machine-generator.html
-BingSiteAuth.xml
-blog/
-css/
-dreamachine-generator.html
-dreamachine-presets.html
-favorites.html
-google7484c80835cfba45.html
-img/
-index.html
-isochronic-tones-generator.html
-isochronic-tones.html
-js/
-json/
-kundalini-ascension.html
-lab/
-LICENSE
-manifest.json
-monaural-alt-frequency.html
-monaural-base-beats.html
-monaural-beats-generator.html
-monaural-bio-frequency.html
-monaural-rife-machine.html
-netlify.toml
-noise-processor/
-noise.html
-privacy-policy.html
-pure-tone-generator.html
-pure-tones.html
-README.md
-rife-3d-auto-generator.html
-rife-3d-generator.html
-rife-frequencies-cafl-xref.html
-rife-monaural-generator.html
-robots.txt
-search.html
-sine-wave-3d-auto-generator.html
-sine-wave-3d-generator.html
-sine-wave-monaural-generator.html
-sitemap-old.xml
-solfeggio-frequency.html
-square-wave-monaural-base-beats.html
-square-wave-monaural-beats-generator.html
-sw.js
+├── _redirects
+├── .gitconfig
+├── .gitignore
+├── 3d-alt-frequency.html
+├── 3d-bio-frequency.html
+├── 3d-hc-frequency-presets.html
+├── 3d-khz-frequency-presets.html
+├── 3d-rife-machine.html
+├── ads.txt
+├── angel-frequency.html
+├── app-ads.txt
+├── astral-broadcaster.html
+├── binaural-base-beats.html
+├── binaural-beats-generator.html
+├── binaural-mind-machine-generator.html
+├── BingSiteAuth.xml
+├── blog/
+├── css/
+├── dreamachine-generator.html
+├── dreamachine-presets.html
+├── favorites.html
+├── google7484c80835cfba45.html
+├── img/
+├── index.html
+├── isochronic-tones-generator.html
+├── isochronic-tones.html
+├── js/
+├── json/
+├── kundalini-ascension.html
+├── lab/
+├── LICENSE
+├── manifest.json
+├── monaural-alt-frequency.html
+├── monaural-base-beats.html
+├── monaural-beats-generator.html
+├── monaural-bio-frequency.html
+├── monaural-rife-machine.html
+├── netlify.toml
+├── noise-processor/
+├── noise.html
+├── privacy-policy.html
+├── pure-tone-generator.html
+├── pure-tones.html
+├── README.md
+├── rife-3d-auto-generator.html
+├── rife-3d-generator.html
+├── rife-frequencies-cafl-xref.html
+├── rife-monaural-generator.html
+├── robots.txt
+├── search.html
+├── sine-wave-3d-auto-generator.html
+├── sine-wave-3d-generator.html
+├── sine-wave-monaural-generator.html
+├── sitemap-old.xml
+├── solfeggio-frequency.html
+├── square-wave-monaural-base-beats.html
+├── square-wave-monaural-beats-generator.html
+├── sw.js
 ```
 
 This README.md provides a comprehensive overview of the Brain Beats web application. Use it to understand the features, usage, and important disclaimers before using the application.
