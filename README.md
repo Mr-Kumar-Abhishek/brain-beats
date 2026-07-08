@@ -72,6 +72,8 @@ The web app currently features the following types of sounds and generators:
 
 The application has undergone several significant improvements recently, focusing on enhanced security and improved user experience:
 
+- Project estimation note: [COCOMO production cost estimate](cocomo-cost-estimate.md)
+
 *   **Security Enhancements:**
     *   Systematically identified and patched DOM-based Cross-Site Scripting (XSS) vulnerabilities across data rendering scripts and third-party libraries (including Jekyll Search and Bootstrap input spinners) by replacing insecure `.innerHTML` usage with `DOMParser`-based sanitization.
     *   Fixed a Remote Code Execution (RCE) vulnerability related to javascript serialization dependencies.
