@@ -31,6 +31,9 @@ Allow: /
 User-agent: AdsBot-Google-Mobile
 Allow: /
 
+User-agent: xAI-Bot
+Allow: /
+
 User-agent: *
 Disallow:
 Allow: /
