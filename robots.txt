@@ -1,5 +1,5 @@
 User-agent: Google-Extended
-Disallow: /  
+Allow: /
 
 User-agent: GPTbot
 Disallow: / 
