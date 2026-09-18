@@ -18,7 +18,7 @@ keywords: Brain beats blog , binaural beats blog
 		<ul class="posts">
 
 			{% for post in paginator.posts %}
-			  <li><span><time datetime="{{post.date}}">{{ post.date | date_to_string }}</time></span> » <cite><a href="{{site.url}}/blog{{ post.url }}" title="{{post.title}}" >{{ post.title }}</a></cite></li>
+			  <li><span><time datetime="{{post.date}}">{{ post.date | date_to_string }}</time></span> » <cite><a href="{{site.url}}{{ post.url }}" title="{{post.title}}" >{{ post.title }}</a></cite></li>
 			{% endfor %}
 		  </ul>
 	  </section>
@@ -26,7 +26,7 @@ keywords: Brain beats blog , binaural beats blog
 	  <nav>
 		  <ul class="pagination justify-content-center">
 			  {% if paginator.previous_page %}
-				<li class="page-item"><a  class="page-link" href="{{site.url}}/blog{{ paginator.previous_page_path }}" class="previous">
+				<li class="page-item"><a class="page-link" href="{{site.url}}{{ paginator.previous_page_path }}" class="previous">
 				  Previous
 				</a></li>
 			  {% else %}
@@ -39,7 +39,7 @@ keywords: Brain beats blog , binaural beats blog
 			  </li>
 			  {% if paginator.next_page %}
 			   <li class="page-item">
-				<a  class="page-link" href="{{site.url}}/blog{{ paginator.next_page_path }}" class="next">Next</a>
+				<a class="page-link" href="{{site.url}}{{ paginator.next_page_path }}" class="next">Next</a>
 			  </li>
 			  {% else %}
 			  <li class="page-item">
