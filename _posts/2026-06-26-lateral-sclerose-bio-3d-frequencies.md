@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Lateral Sclerose BIO 3D frequencies"
+description: "This is BIO 3D frequencies healing preset for mental relief for Lateral Sclerose. The frequencies in this preset are: 254 Hz"
+subject: "Lateral Sclerose BIO 3D frequencies"
+apple-title: "Lateral Sclerose BIO 3D frequencies"
+app-name: "Lateral Sclerose BIO 3D frequencies"
+tweet-title: "Lateral Sclerose BIO 3D frequencies"
+tweet-description: "This is BIO 3D frequencies healing preset for mental relief for Lateral Sclerose. The frequencies in this preset are: 254 Hz"
+date: 2026-06-26
+keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy"
+---
+
+This is BIO 3D frequencies healing preset for mental relief for Lateral Sclerose. The frequencies in this preset are: 254 Hz
+
+### What is Lateral Sclerose BIO 3D frequencies?
+This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.
+
