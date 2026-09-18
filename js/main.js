@@ -1,5 +1,32 @@
 // create web audio api context
-var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+var audioCtx = null;
+
+function getAudioContext() {
+  if (!audioCtx || audioCtx.state === 'closed') {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+  if (audioCtx.state === 'suspended') {
+    audioCtx.resume();
+  }
+  return audioCtx;
+}
+
+try {
+  audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+} catch (e) {
+  console.warn("AudioContext init deferred to user gesture:", e);
+}
+
+// Resume AudioContext on any user gesture to satisfy modern browser autoplay policies
+if (typeof document !== 'undefined') {
+  ['click', 'touchstart', 'touchend', 'keydown', 'mousedown'].forEach(function(evt) {
+    document.addEventListener(evt, function() {
+      if (audioCtx && audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }, { passive: true });
+  });
+}
 
 // create Oscillator node
 
@@ -343,14 +370,15 @@ function adjustFrequency(frequency) {
   }
 }
 
-function play_single_tone(freq, oscillator_type) {
+function play_single_tone(freq, oscillator_type = 'sine') {
+  getAudioContext();
   single_tone_freq = adjustFrequency(freq);
 
   if (single_tone_flag == 0 ) {
     single_tone_flag = 1;
     single_tone_oscillator = audioCtx.createOscillator();
 
-    single_tone_oscillator.type = oscillator_type;
+    single_tone_oscillator.type = oscillator_type || 'sine';
     
    volume = audioCtx.createGain();
    single_tone_oscillator.connect(volume);
@@ -455,6 +483,7 @@ function play_binaural(freq1, freq2){
 }
 
 function play_double_tone (freq1, freq2, form, deviation) {
+  getAudioContext();
   if (double_tone_flag == 0) {
     double_tone_flag = 1;
 
@@ -485,11 +514,21 @@ function play_double_tone (freq1, freq2, form, deviation) {
     volume.connect(audioCtx.destination);
 
     if (deviation == "binaural") {
-      pannerNode_1.positionX.setValueAtTime(-1, audioCtx.currentTime);
-      pannerNode_2.positionX.setValueAtTime(1, audioCtx.currentTime);
+      if (pannerNode_1.positionX && pannerNode_1.positionX.setValueAtTime) {
+        pannerNode_1.positionX.setValueAtTime(-1, audioCtx.currentTime);
+        pannerNode_2.positionX.setValueAtTime(1, audioCtx.currentTime);
+      } else if (pannerNode_1.setPosition) {
+        pannerNode_1.setPosition(-1, 0, 0);
+        pannerNode_2.setPosition(1, 0, 0);
+      }
     } else if (deviation == "monaural") {
-      pannerNode_1.positionX.setValueAtTime(0, audioCtx.currentTime);
-      pannerNode_2.positionX.setValueAtTime(0, audioCtx.currentTime);
+      if (pannerNode_1.positionX && pannerNode_1.positionX.setValueAtTime) {
+        pannerNode_1.positionX.setValueAtTime(0, audioCtx.currentTime);
+        pannerNode_2.positionX.setValueAtTime(0, audioCtx.currentTime);
+      } else if (pannerNode_1.setPosition) {
+        pannerNode_1.setPosition(0, 0, 0);
+        pannerNode_2.setPosition(0, 0, 0);
+      }
     }
     
     volume.gain.value = volume_set();
@@ -555,17 +594,62 @@ async function astral_broadcast_rotator() {
   }
 }
 
+const loadedNoiseWorklets = new Set();
+async function getNoiseNode(processorName, processorFile) {
+  var ctx = getAudioContext();
+  if (ctx.audioWorklet) {
+    if (!loadedNoiseWorklets.has(processorName)) {
+      try {
+        await ctx.audioWorklet.addModule('noise-processor/' + processorFile);
+        loadedNoiseWorklets.add(processorName);
+      } catch (err) {
+        try {
+          await ctx.audioWorklet.addModule('/noise-processor/' + processorFile);
+          loadedNoiseWorklets.add(processorName);
+        } catch (e2) {
+          console.warn("AudioWorklet module failed, using buffer fallback:", e2);
+        }
+      }
+    }
+    if (loadedNoiseWorklets.has(processorName)) {
+      return new AudioWorkletNode(ctx, processorName);
+    }
+  }
+
+  // Fallback: create looping noise buffer
+  var bufferSize = Math.max(ctx.sampleRate * 2, 4096);
+  var noiseBuffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+  var output = noiseBuffer.getChannelData(0);
+  var lastOut = 0.0;
+  for (var i = 0; i < bufferSize; i++) {
+    var white = Math.random() * 2 - 1;
+    if (processorName.includes('pink')) {
+      output[i] = (lastOut * 0.95) + (white * 0.05);
+      lastOut = output[i];
+    } else if (processorName.includes('brown') || processorName.includes('red')) {
+      output[i] = (lastOut + (0.02 * white)) / 1.02;
+      lastOut = output[i];
+    } else {
+      output[i] = white;
+    }
+  }
+  var node = ctx.createBufferSource();
+  node.buffer = noiseBuffer;
+  node.loop = true;
+  node.start();
+  return node;
+}
+
 async function play_white_noise() {
   if (boolWhite == 0) {
     stop_noise();
     boolWhite = 1;
-    audioContext = new AudioContext();
-    await audioContext.audioWorklet.addModule('noise-processor/white-noise-processor.js');
-    whiteNoiseNode = new AudioWorkletNode(audioContext, 'white-noise-processor');
-    whiteNoiseNodeGain = audioContext.createGain();
+    var ctx = getAudioContext();
+    whiteNoiseNode = await getNoiseNode('white-noise-processor', 'white-noise-processor.js');
+    whiteNoiseNodeGain = ctx.createGain();
     whiteNoiseNodeGain.gain.value = volume_set();
     whiteNoiseNode.connect(whiteNoiseNodeGain);
-    whiteNoiseNodeGain.connect(audioContext.destination);
+    whiteNoiseNodeGain.connect(ctx.destination);
   }
 }
 
@@ -573,41 +657,38 @@ async function play_pink_noise() {
   if (boolPink == 0 ){
     stop_noise();
     boolPink = 1;
-    audioContext = new AudioContext();
-    await audioContext.audioWorklet.addModule('noise-processor/pink-noise-processor.js');
-    pinkNoiseNode = new AudioWorkletNode(audioContext, 'pink-noise-processor');
-    pinkNoiseNodeGain = audioContext.createGain();
+    var ctx = getAudioContext();
+    pinkNoiseNode = await getNoiseNode('pink-noise-processor', 'pink-noise-processor.js');
+    pinkNoiseNodeGain = ctx.createGain();
     pinkNoiseNodeGain.gain.value = volume_set();
     pinkNoiseNode.connect(pinkNoiseNodeGain);
-    pinkNoiseNodeGain.connect(audioContext.destination);
+    pinkNoiseNodeGain.connect(ctx.destination);
   }
 }
 
 async function play_brown_noise() {
   if(boolBrown == 0) {
-      stop_noise();
-      boolBrown = 1;
-      audioContext = new AudioContext();
-      await audioContext.audioWorklet.addModule('noise-processor/brown-noise-processor.js');
-      brownNoiseNode = new AudioWorkletNode(audioContext, 'brown-noise-processor');
-      brownNoiseNodeGain = audioContext.createGain();
-      brownNoiseNodeGain.gain.value = volume_set();
-      brownNoiseNode.connect(brownNoiseNodeGain);
-      brownNoiseNodeGain.connect(audioContext.destination);
+    stop_noise();
+    boolBrown = 1;
+    var ctx = getAudioContext();
+    brownNoiseNode = await getNoiseNode('brown-noise-processor', 'brown-noise-processor.js');
+    brownNoiseNodeGain = ctx.createGain();
+    brownNoiseNodeGain.gain.value = volume_set();
+    brownNoiseNode.connect(brownNoiseNodeGain);
+    brownNoiseNodeGain.connect(ctx.destination);
   }
 }
 
 async function play_red_noise() {
   if(boolRed == 0) {
-      stop_noise();
-      boolRed = 1;
-      audioContext = new AudioContext();
-      await audioContext.audioWorklet.addModule('noise-processor/red-noise-processor.js');
-      redNoiseNode = new AudioWorkletNode(audioContext, 'red-noise-processor');
-      redNoiseNodeGain = audioContext.createGain();
-      redNoiseNodeGain.gain.value = volume_set();
-      redNoiseNode.connect(redNoiseNodeGain);
-      redNoiseNodeGain.connect(audioContext.destination);
+    stop_noise();
+    boolRed = 1;
+    var ctx = getAudioContext();
+    redNoiseNode = await getNoiseNode('red-noise-processor', 'red-noise-processor.js');
+    redNoiseNodeGain = ctx.createGain();
+    redNoiseNodeGain.gain.value = volume_set();
+    redNoiseNode.connect(redNoiseNodeGain);
+    redNoiseNodeGain.connect(ctx.destination);
   }
 }
 
@@ -615,13 +696,12 @@ async function play_black_noise() {
   if (boolBlack == 0) {
     stop_noise();
     boolBlack = 1;
-    var audioContext = new AudioContext();
-    await audioContext.audioWorklet.addModule('noise-processor/black-noise-processor.js');
-    blackNoiseNode = new AudioWorkletNode(audioContext, 'black-noise-processor');
-    blackNoiseNodeGain = audioContext.createGain();
+    var ctx = getAudioContext();
+    blackNoiseNode = await getNoiseNode('black-noise-processor', 'black-noise-processor.js');
+    blackNoiseNodeGain = ctx.createGain();
     blackNoiseNodeGain.gain.value = volume_set();
     blackNoiseNode.connect(blackNoiseNodeGain);
-    blackNoiseNodeGain.connect(audioContext.destination);
+    blackNoiseNodeGain.connect(ctx.destination);
   }
 }
 
@@ -629,55 +709,45 @@ async function play_blue_noise() {
   if (boolBlue == 0) {
     stop_noise();
     boolBlue = 1;
-    var audioContext = new AudioContext();
-    await audioContext.audioWorklet.addModule('noise-processor/blue-noise-processor.js');
-    blueNoiseNode = new AudioWorkletNode(audioContext, 'blue-noise-processor');
-    blueNoiseNodeGain = audioContext.createGain();
+    var ctx = getAudioContext();
+    blueNoiseNode = await getNoiseNode('blue-noise-processor', 'blue-noise-processor.js');
+    blueNoiseNodeGain = ctx.createGain();
     blueNoiseNodeGain.gain.value = volume_set();
     blueNoiseNode.connect(blueNoiseNodeGain);
-    blueNoiseNodeGain.connect(audioContext.destination);
+    blueNoiseNodeGain.connect(ctx.destination);
   }
 }
-
 
 async function play_violet_noise() {
   if (boolViolet == 0) {
     stop_noise();
     boolViolet = 1;
-    var audioContext = new AudioContext();
-    await audioContext.audioWorklet.addModule('noise-processor/violet-noise-processor.js');
-    violetNoiseNode = new AudioWorkletNode(audioContext, 'violet-noise-processor');
-    violetNoiseNodeGain = audioContext.createGain();
+    var ctx = getAudioContext();
+    violetNoiseNode = await getNoiseNode('violet-noise-processor', 'violet-noise-processor.js');
+    violetNoiseNodeGain = ctx.createGain();
     violetNoiseNodeGain.gain.value = volume_set();
     violetNoiseNode.connect(violetNoiseNodeGain);
-    violetNoiseNodeGain.connect(audioContext.destination);
+    violetNoiseNodeGain.connect(ctx.destination);
   }
 }
-
 
 async function play_grey_noise() {
   if (boolGrey == 0) {
     stop_noise();
     boolGrey = 1;
-    var audioContext = new AudioContext();
-    await audioContext.audioWorklet.addModule('noise-processor/grey-noise-processor.js');
-    greyNoiseNode = new AudioWorkletNode(audioContext, 'grey-noise-processor');
-    greyNoiseNodeGain = audioContext.createGain();
+    var ctx = getAudioContext();
+    greyNoiseNode = await getNoiseNode('grey-noise-processor', 'grey-noise-processor.js');
+    greyNoiseNodeGain = ctx.createGain();
     greyNoiseNodeGain.gain.value = volume_set();
     
-    // Create a biquad filter node and set its type to 'highshelf'
-    greyNoiseFilter = audioContext.createBiquadFilter();
+    greyNoiseFilter = ctx.createBiquadFilter();
     greyNoiseFilter.type = 'highshelf';
+    greyNoiseFilter.frequency.value = 1000;
+    greyNoiseFilter.gain.value = -10;
     
-    // Adjust the frequency and gain parameters to create a grey noise effect
-    // You can experiment with different values to get different results
-    greyNoiseFilter.frequency.value = 1000; // The cutoff frequency in Hz
-    greyNoiseFilter.gain.value = -10; // The amount of boost or attenuation in dB
-    
-    // Connect the nodes in the following order: source -> filter -> gain -> destination
     greyNoiseNode.connect(greyNoiseFilter);
     greyNoiseFilter.connect(greyNoiseNodeGain);
-    greyNoiseNodeGain.connect(audioContext.destination);
+    greyNoiseNodeGain.connect(ctx.destination);
   }
 }
 
@@ -685,38 +755,32 @@ async function play_velvet_noise() {
   if (boolVelvet == 0) {
     stop_noise();
     boolVelvet = 1;
-    var audioContext = new AudioContext();
-    await audioContext.audioWorklet.addModule('noise-processor/velvet-noise-processor.js');
-    velvetNoiseNode = new AudioWorkletNode(audioContext, 'velvet-noise-processor');
-    velvetNoiseNodeGain = audioContext.createGain();
+    var ctx = getAudioContext();
+    velvetNoiseNode = await getNoiseNode('velvet-noise-processor', 'velvet-noise-processor.js');
+    velvetNoiseNodeGain = ctx.createGain();
     velvetNoiseNodeGain.gain.value = volume_set();
     
-    // Connect the nodes in the following order: source -> gain -> destination
     velvetNoiseNode.connect(velvetNoiseNodeGain);
-    velvetNoiseNodeGain.connect(audioContext.destination);
+    velvetNoiseNodeGain.connect(ctx.destination);
   }
 }
-
 
 async function play_green_noise() {
   if (boolGreen == 0) {
     stop_noise();
     boolGreen = 1;
-    var audioContext = new AudioContext();
-    await audioContext.audioWorklet.addModule('noise-processor/green-noise-processor.js');
-    greenNoiseNode = new AudioWorkletNode(audioContext, 'green-noise-processor');
-    greenNoiseNodeGain = audioContext.createGain();
+    var ctx = getAudioContext();
+    greenNoiseNode = await getNoiseNode('green-noise-processor', 'green-noise-processor.js');
+    greenNoiseNodeGain = ctx.createGain();
     greenNoiseNodeGain.gain.value = volume_set();
 
-    // Add a lowpass filter
-    const filter = audioContext.createBiquadFilter();
+    const filter = ctx.createBiquadFilter();
     filter.type = "lowpass";
     filter.frequency.value = 1000;
 
-    // Connect the nodes
     greenNoiseNode.connect(filter);
     filter.connect(greenNoiseNodeGain);
-    greenNoiseNodeGain.connect(audioContext.destination);
+    greenNoiseNodeGain.connect(ctx.destination);
   }
 }
 
@@ -724,25 +788,19 @@ async function play_orange_noise() {
   if (boolOrange == 0) {
     stop_noise();
     boolOrange = 1;
-    var audioContext = new AudioContext();
-    await audioContext.audioWorklet.addModule('noise-processor/orange-noise-processor.js');
-    orangeNoiseNode = new AudioWorkletNode(audioContext, 'orange-noise-processor');
-    orangeNoiseNodeGain = audioContext.createGain();
+    var ctx = getAudioContext();
+    orangeNoiseNode = await getNoiseNode('orange-noise-processor', 'orange-noise-processor.js');
+    orangeNoiseNodeGain = ctx.createGain();
     orangeNoiseNodeGain.gain.value = volume_set();
     
-    // Create a biquad filter node and set its type to 'lowshelf'
-    orangeNoiseFilter = audioContext.createBiquadFilter();
+    orangeNoiseFilter = ctx.createBiquadFilter();
     orangeNoiseFilter.type = 'lowshelf';
+    orangeNoiseFilter.frequency.value = 500;
+    orangeNoiseFilter.gain.value = -30;
     
-    // Adjust the frequency and gain parameters to create an orange noise effect
-    // You can experiment with different values to get different results
-    orangeNoiseFilter.frequency.value = 500; // The cutoff frequency in Hz
-    orangeNoiseFilter.gain.value = -30; // The amount of boost or attenuation in dB
-    
-    // Connect the nodes in the following order: source -> filter -> gain -> destination
     orangeNoiseNode.connect(orangeNoiseFilter);
     orangeNoiseFilter.connect(orangeNoiseNodeGain);
-    orangeNoiseNodeGain.connect(audioContext.destination);
+    orangeNoiseNodeGain.connect(ctx.destination);
   }
 }
 
@@ -750,25 +808,19 @@ async function play_yellow_noise() {
   if (boolYellow == 0) {
     stop_noise();
     boolYellow = 1;
-    var audioContext = new AudioContext();
-    await audioContext.audioWorklet.addModule('noise-processor/yellow-noise-processor.js');
-    yellowNoiseNode = new AudioWorkletNode(audioContext, 'yellow-noise-processor');
-    yellowNoiseNodeGain = audioContext.createGain();
+    var ctx = getAudioContext();
+    yellowNoiseNode = await getNoiseNode('yellow-noise-processor', 'yellow-noise-processor.js');
+    yellowNoiseNodeGain = ctx.createGain();
     yellowNoiseNodeGain.gain.value = volume_set();
     
-    // Create a biquad filter node and set its type to 'lowpass'
-    yellowNoiseFilter = audioContext.createBiquadFilter();
+    yellowNoiseFilter = ctx.createBiquadFilter();
     yellowNoiseFilter.type = 'lowpass';
+    yellowNoiseFilter.frequency.value = 200;
+    yellowNoiseFilter.Q.value = 0.5;
     
-    // Adjust the frequency and Q parameters to create a yellow noise effect
-    // You can experiment with different values to get different results
-    yellowNoiseFilter.frequency.value = 200; // The cutoff frequency in Hz (was 100)
-    yellowNoiseFilter.Q.value = 0.5; // The quality factor
-    
-    // Connect the nodes in the following order: source -> filter -> gain -> destination
     yellowNoiseNode.connect(yellowNoiseFilter);
     yellowNoiseFilter.connect(yellowNoiseNodeGain);
-    yellowNoiseNodeGain.connect(audioContext.destination);
+    yellowNoiseNodeGain.connect(ctx.destination);
   }
 }
 
@@ -776,27 +828,22 @@ async function play_turquoise_noise() {
   if (boolTurquoise == 0) {
     stop_noise();
     boolTurquoise = 1;
-    var audioContext = new AudioContext();
-    await audioContext.audioWorklet.addModule('noise-processor/turquoise-noise-processor.js');
-    turquoiseNoiseNode = new AudioWorkletNode(audioContext, 'turquoise-noise-processor');
-    turquoiseNoiseNodeGain = audioContext.createGain();
+    var ctx = getAudioContext();
+    turquoiseNoiseNode = await getNoiseNode('turquoise-noise-processor', 'turquoise-noise-processor.js');
+    turquoiseNoiseNodeGain = ctx.createGain();
     turquoiseNoiseNodeGain.gain.value = volume_set();
     
-    // Create a biquad filter node and set its type to 'highpass'
-    turquoiseNoiseFilter = audioContext.createBiquadFilter();
+    turquoiseNoiseFilter = ctx.createBiquadFilter();
     turquoiseNoiseFilter.type = 'highpass';
+    turquoiseNoiseFilter.frequency.value = 1000;
+    turquoiseNoiseFilter.Q.value = 0.5;
     
-    // Adjust the frequency and Q parameters to create a turquoise noise effect
-    // You can experiment with different values to get different results
-    turquoiseNoiseFilter.frequency.value = 1000; // The cutoff frequency in Hz
-    turquoiseNoiseFilter.Q.value = 0.5; // The quality factor
-    
-    // Connect the nodes in the following order: source -> filter -> gain -> destination
     turquoiseNoiseNode.connect(turquoiseNoiseFilter);
     turquoiseNoiseFilter.connect(turquoiseNoiseNodeGain);
-    turquoiseNoiseNodeGain.connect(audioContext.destination);
+    turquoiseNoiseNodeGain.connect(ctx.destination);
   }
 }
+
 function play_rife_monaural_generator(){
   play_sine_monaural_generator();
 }
@@ -1094,6 +1141,7 @@ function play_rife_3d(tone_freq_array, x_values, y_values, z_values) {
 }
 
 function play_sine_3d(tone_freq_array, x_values, y_values, z_values) {
+  getAudioContext();
   if (boolSine3D == 0 ) {
     boolSine3D = 1;
   
@@ -1113,10 +1161,17 @@ function play_sine_3d(tone_freq_array, x_values, y_values, z_values) {
         var panners = [];
         for (var i = 0; i < tone_freq_array.length; i++) {
           var panner = audioCtx.createPanner();
-          panner.panningModel = panning_model; 
-          panner.positionX.setValueAtTime(x_values[i], audioCtx.currentTime);
-          panner.positionY.setValueAtTime(y_values[i], audioCtx.currentTime);
-          panner.positionZ.setValueAtTime(z_values[i], audioCtx.currentTime);
+          panner.panningModel = panning_model;
+          var px = (x_values && x_values[i] !== undefined) ? x_values[i] : 0;
+          var py = (y_values && y_values[i] !== undefined) ? y_values[i] : 0;
+          var pz = (z_values && z_values[i] !== undefined) ? z_values[i] : 0;
+          if (panner.positionX && panner.positionX.setValueAtTime) {
+            panner.positionX.setValueAtTime(px, audioCtx.currentTime);
+            panner.positionY.setValueAtTime(py, audioCtx.currentTime);
+            panner.positionZ.setValueAtTime(pz, audioCtx.currentTime);
+          } else if (panner.setPosition) {
+            panner.setPosition(px, py, pz);
+          }
           panners.push(panner);
         }
 
@@ -1281,109 +1336,105 @@ function astral_broadcast_toggler(){
 }
 
 
+function disconnectNoiseNode(node, gainNode) {
+  if (node) {
+    try { if (node.stop) node.stop(); } catch(e){}
+    try { node.disconnect(); } catch(e){}
+  }
+  if (gainNode) {
+    try { gainNode.disconnect(); } catch(e){}
+  }
+}
+
 function stop_white_noise() {
   if (boolWhite == 1 ) {
     boolWhite = 0;
-    whiteNoiseNodeGain.disconnect();
+    disconnectNoiseNode(whiteNoiseNode, whiteNoiseNodeGain);
   }
-  stop_noise();
 }
 
 function stop_pink_noise() {
   if (boolPink == 1 ){
     boolPink = 0;
-    pinkNoiseNodeGain.disconnect();
+    disconnectNoiseNode(pinkNoiseNode, pinkNoiseNodeGain);
   }
-  stop_noise();
 }
 
 function stop_brown_noise() {
   if(boolBrown == 1) {
-      boolBrown = 0;
-      brownNoiseNodeGain.disconnect();
+    boolBrown = 0;
+    disconnectNoiseNode(brownNoiseNode, brownNoiseNodeGain);
   }
-  stop_noise();
 }
 
 function stop_red_noise() {
   if(boolRed == 1) {
-      boolRed = 0;
-      redNoiseNodeGain.disconnect();
+    boolRed = 0;
+    disconnectNoiseNode(redNoiseNode, redNoiseNodeGain);
   }
-  stop_noise();
 }
 
 function stop_black_noise() {
   if(boolBlack == 1) {
-      boolBlack = 0;
-      blackNoiseNodeGain.disconnect();
+    boolBlack = 0;
+    disconnectNoiseNode(blackNoiseNode, blackNoiseNodeGain);
   }
-  stop_noise();
 }
 
 function stop_green_noise() {
   if(boolGreen == 1) {
-      boolGreen = 0;
-      greenNoiseNodeGain.disconnect();
+    boolGreen = 0;
+    disconnectNoiseNode(greenNoiseNode, greenNoiseNodeGain);
   }
-  stop_noise();
 }
 
 function stop_blue_noise() {
   if(boolBlue == 1) {
-      boolBlue = 0;
-      blueNoiseNodeGain.disconnect();
+    boolBlue = 0;
+    disconnectNoiseNode(blueNoiseNode, blueNoiseNodeGain);
   }
-  stop_noise();
 }
-
 
 function stop_violet_noise() {
   if(boolViolet == 1) {
-      boolViolet = 0;
-      violetNoiseNodeGain.disconnect();
+    boolViolet = 0;
+    disconnectNoiseNode(violetNoiseNode, violetNoiseNodeGain);
   }
-  stop_noise();
 }
 
 function stop_grey_noise() {
   if(boolGrey == 1) {
-      boolGrey = 0;
-      greyNoiseNodeGain.disconnect();
+    boolGrey = 0;
+    disconnectNoiseNode(greyNoiseNode, greyNoiseNodeGain);
   }
-  stop_noise();
 }
 
 function stop_velvet_noise() {
   if(boolVelvet == 1) {
-      boolVelvet = 0;
-      velvetNoiseNodeGain.disconnect();
+    boolVelvet = 0;
+    disconnectNoiseNode(velvetNoiseNode, velvetNoiseNodeGain);
   }
-  stop_noise();
 }
 
 function stop_orange_noise() {
   if(boolOrange == 1) {
     boolOrange = 0;
-    orangeNoiseNodeGain.disconnect();
+    disconnectNoiseNode(orangeNoiseNode, orangeNoiseNodeGain);
   }
-  stop_noise();
 }
 
 function stop_yellow_noise() {
   if(boolYellow == 1) {
     boolYellow = 0;
-    yellowNoiseNodeGain.disconnect();
+    disconnectNoiseNode(yellowNoiseNode, yellowNoiseNodeGain);
   }
-  stop_noise();
 }
 
 function stop_turquoise_noise() {
   if(boolTurquoise == 1) {
     boolTurquoise = 0;
-    turquoiseNoiseNodeGain.disconnect();
+    disconnectNoiseNode(turquoiseNoiseNode, turquoiseNoiseNodeGain);
   }
-  stop_noise();
 }
 
 function stop_isochronic() {
