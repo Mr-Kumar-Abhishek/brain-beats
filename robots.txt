@@ -1,5 +1,5 @@
 User-agent: Google-Extended
-Disallow: /  
+Allow: /
 
 User-agent: GPTbot
 Disallow: / 
@@ -29,6 +29,9 @@ User-agent: AdsBot-Google
 Allow: /
 
 User-agent: AdsBot-Google-Mobile
+Allow: /
+
+User-agent: xAI-Bot
 Allow: /
 
 User-agent: *
