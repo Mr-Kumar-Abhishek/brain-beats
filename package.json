@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test": "node tests/audio-engine.test.js"
+  },
   "dependencies": {
     "glob": "^13.0.6"
   },
