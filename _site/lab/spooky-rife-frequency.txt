@@ -1,0 +1,26 @@
+Actinomycosis (Streptothrix),"192000,",RIFE 
+Anthrax,Skin Lung Intestines,"139200,",RIFE 
+B Coli Filterable Virus,"770000,",RIFE 
+B Coli Rod Form,"417000,",RIFE 
+Bacillus X Filter Cancer Carcinoma,"1604000,",RIFE 
+Bubonic Plague,"160000,512466,",RIFE 
+Catarrh,"1800000,1713100,",RIFE 
+Cholera Spirillum,"851000,960873,",RIFE 
+Contagious Conjunctivitis,"1206000,2025625,",RIFE 
+Diphtheria,"800000,1090154,",RIFE 
+Glanders,"986000,736591,",RIFE 
+Gonorrhea,"233000,600000,150649,",RIFE 
+Influenza,"1674000,1946704,",RIFE 
+Leprosy,"743000,251926,",RIFE 
+Pneumonia,"1200000,381901,",RIFE 
+Spinal Meningitis,"427000,",RIFE 
+Staphylococcus Pyogenes Albus,"549070,",RIFE 
+Staphylococcus Pyogenes Aureus,"478000,",RIFE 
+Streptococcus Pyogenes,"720000,",RIFE 
+Syphilis (Treponema Pallidum),"789000,",RIFE 
+Tetanus,"234000,",RIFE 
+Tuberculosis Rod Form,"369000,",RIFE 
+Tuberculosis Virus Form,"16000,",RIFE 
+Typhoid Fever Filter Passing,"1445000,",RIFE 
+Typhoid Fever Rod Form,"760000,",RIFE 
+Worms,"2400,",RIFE 
