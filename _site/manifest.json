@@ -1,0 +1,49 @@
+{"name" : "brain beats",
+    "short_name" : "brain beats",
+    "description" : "A guided meditation app.",
+    "start_url" : "./",
+    "display" : "standalone",
+    "orientation" : "portrait-primary",
+    "lang" : "English",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons" : [{
+      "src": "./img/128x128-mandala-1757304_1280.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    }, {
+      "src": "./img/144x144-mandala-1757304_1280.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }, {
+      "src": "./img/152x152-mandala-1757304_1280.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    }, {
+      "src": "./img/192x192-mandala-1757304_1280.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }, {
+      "src": "./img/256x256-mandala-1757304_1280.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    }, {
+      "src": "./img/512x512-mandala-1757304_1280.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./img/maskable_icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
+

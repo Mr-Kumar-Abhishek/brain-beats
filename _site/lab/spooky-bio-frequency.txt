@@ -1,0 +1,265 @@
+Actinomyces Israelii,"222,262,2154,",BIO 
+Adenovirus,"333,523,786,",BIO 
+AIDS Kaposi's Sarcoma,"249,418,",BIO 
+Amoeba Hepar Abscess,Liver,"344,",BIO 
+Amoeba,"310,333,532,732,827,1522,",BIO 
+Anthracinum,"633,",BIO 
+Aremes Tennus,"667,",BIO 
+Arnica,"1042,",BIO 
+Aspergillus Glaucus,"524,",BIO 
+Aspergillus Niger,"374,",BIO 
+Asthma,Lung,"1233,1283,",BIO 
+Bacterium Coli,"642,",BIO 
+Bacterium Lactis Nosode,"512,526,798,951,5412,",BIO 
+Banti's Syndrome,"1778,",BIO 
+Barley Smut,"377,",BIO 
+Bermuda Smut,"971,",BIO 
+Biliary Cirrhosis,"381,514,677,2271,",BIO 
+Bilirubin,"717,726,731,863,",BIO 
+Blastocystis Hominis,"365,595,844,848,1201,1243,",BIO 
+Blue Cohosh,"364,",BIO 
+Borreliosis,"254,345,525,605,644,673,797,884,1455,",BIO 
+Botrytis Cinereas,"1132,",BIO 
+Brain Tumor Astrocytoma,"857,",BIO 
+Bronchiectasis,"342,",BIO 
+Cancer Astrocytoma,"857,",BIO 
+Cancer Bronchial,"462,852,1582,",BIO 
+Cancer Colon,"656,",BIO 
+Cancer Gliomas,"543,641,",BIO 
+Cancer Hairy Cell,"122,622,932,5122,1522,",BIO 
+Cancer Hodgkin's Disease,"552,1522,",BIO 
+Cancer Kaposi's Sarcoma,"249,418,",BIO 
+Cancer Leukemia,"424,830,901,918,",BIO 
+Cancer Lymphatic,"478,833,",BIO 
+Cancer Mycosis Fungoides,"852,",BIO 
+Cancer Myeloid,"422,822,",BIO 
+Cancer Plasmacytoma,"475,",BIO 
+Cancer Uterine Fermentative,"127,",BIO 
+Candida Tropicalis,"1403,",BIO 
+Candida,"866,",BIO 
+Carvularia Spirafera,"879,",BIO 
+Cataract Complicated,"496,",BIO 
+Causticum,"540,1013,",BIO 
+Cephalosporium,"481,3966,",BIO 
+Cervix Adenoma,"433,",BIO 
+Chaetomium Globosum,"221,867,",BIO 
+Chicken Pox,"787,3343,",BIO 
+Chlamydia,"430,620,624,840,2213,",BIO 
+Cholecystitis Chronic,"432,",BIO 
+Cholera,"330,843,844,1035,",BIO 
+Cirrhosis Biliary,"381,514,677,2271,",BIO 
+CMV,"126,597,1045,2145,",BIO 
+Coeliacia,"154,594,656,",BIO 
+Condylomata,"466,",BIO 
+Corn Smut,"546,1642,",BIO 
+Coxsackie Type B1,"834,",BIO 
+Crinis Humansis,"646,",BIO 
+Critter 1,"1033,",BIO 
+Cyst Ovarian,"982,",BIO 
+Cystitis Chronic,"246,",BIO 
+Dematium Nigrum,"243,",BIO 
+Dental,"635,640,1036,1043,1094,",BIO 
+Distemper,"242,254,312,442,551,573,624,671,712,940,1269,1950,",BIO 
+Diverticulosis,"154,934,",BIO 
+E Coli,"282,333,413,957,1320,1722,",BIO 
+Echinococcinum,"164,453,542,623,",BIO 
+Echo Virus,"620,",BIO 
+Endometriosis Chronic,"246,",BIO 
+Enterococcinum,"686,",BIO 
+Enterohepatitis,"552,932,953,",BIO 
+Epidermophyton Floccinum,"644,766,",BIO 
+Epstein Barr Virus,"105,172,253,660,663,669,744,825,1032,1920,",BIO 
+Escherichia Coli,"282,333,413,957,1320,1722,",BIO 
+Fasciola Hepatica,"143,275,",BIO 
+Febris Wolhynia,"547,",BIO 
+Fel Tauri,"672,",BIO 
+Fell,"435,",BIO 
+Fibrosarcoma,"1744,",BIO 
+Filariose,"112,120,",BIO 
+Fischpyrogen,"832,",BIO 
+Fistula Dentalis,"550,727,844,1122,",BIO 
+FIV,"262,323,372,404,567,712,742,760,773,916,1103,1132,3701,",BIO 
+Flu 1979,"123,",BIO 
+Flu 1983,"730,734,",BIO 
+Flu Spanish,"462,",BIO 
+Flukeworm,"524,854,",BIO 
+Fusarium Oxysporum,"102,705,",BIO 
+Gallbladder Inflammation,"432,",BIO 
+Gallstone Attack,"481,743,865,928,",BIO 
+Grippe 1987,"332,953,",BIO 
+Grippe,"343,500,512,541,862,1000,1192,3012,3423,10223,",BIO 
+Haemophilia,"845,",BIO 
+Hair Human,"646,",BIO 
+Hand Foot and Mouth Syndrome,"232,237,1214,1243,1244,1271,5411,",BIO 
+Heartworms,"543,2322,",BIO 
+Helminthosporium,"793,969,",BIO 
+Hemobartinella Felis,"603,957,",BIO 
+Hemorrhoids,"447,",BIO 
+Hepatitis New Numbers,"477,922,",BIO 
+Hepatitis Type A,"321,3220,",BIO 
+Hepatitis,"224,317,1351,",BIO 
+Herpes Simplex II,"556,832,",BIO 
+Herpes Simplex IU.2,"808,",BIO 
+Herpes Type 2A,"532,",BIO 
+Herpes Type 5,"126,597,1045,2145,",BIO 
+Herpes Type C,"395,424,460,533,554,701,745,2450,",BIO 
+HIV,"683,714,3554,",BIO 
+Hodgkin's Disease,"552,1522,",BIO 
+Household Insect Mix,"723,",BIO 
+Icterus Haemolytic,"243,",BIO 
+Influenza Spanish,"462,",BIO 
+Influenza Swine,"413,432,663,839,995,",BIO 
+Influenza Triple Nosode,"421,632,1242,1422,1922,3122,",BIO 
+Influenza Virus A Port Chalmers,"332,",BIO 
+Influenzum Bach Poly Flu,"122,350,487,634,823,",BIO 
+Influenzum Toxicum,"854,",BIO 
+Kaposi's Sarcoma,"249,418,",BIO 
+Kidney Papilloma,"110,767,917,",BIO 
+Kieferosteitis,"432,516,",BIO 
+Klebsiella Pneumoniae,"412,766,",BIO 
+Lamblia,"334,",BIO 
+Lateral Sclerose,"254,",BIO 
+Leishman-Donovan Bodies,"525,",BIO 
+Leptospirosis PC,"612,",BIO 
+Leukemia Hairy Cell,"122,622,932,5122,",BIO 
+Leukemia Lymphatic,"478,833,",BIO 
+Leukemia,"424,830,901,918,",BIO 
+Leukoencephalitis,"324,572,932,1035,1079,1111,1160,1333,1630,",BIO 
+Leukose,"612,633,653,3722,41224,",BIO 
+Lipoma,"47,",BIO 
+Lung Sinus Bacteria,"548,",BIO 
+Lupus,"205,243,244,352,386,633,921,942,993,1333,1464,",BIO 
+Lyme Disease,"254,345,525,605,644,673,797,884,1455,",BIO 
+Lyssinum,"547,793,",BIO 
+Malaria,"222,550,713,930,1032,1433,",BIO 
+Mallei,"1273,",BIO 
+Mannan,"961,",BIO 
+Marsh Elder,"474,",BIO 
+Mastitis,"654,",BIO 
+Mastoiditis,"287,",BIO 
+Measles Rubella,"431,510,",BIO 
+Measles Rubeola Vaccine,"962,",BIO 
+Medorrhinum,"230,442,554,843,854,1700,1880,2222,",BIO 
+Melanoma Metastasis,"979,",BIO 
+Meningococcinum,"130,517,676,677,",BIO 
+Meningococcus Virus,"720,",BIO 
+Microsporum Audouini,"422,831,1222,",BIO 
+Mold Mix A,"594,",BIO 
+Mold Mix B,"158,512,623,774,1016,1463,",BIO 
+Mold,"222,242,523,565,592,623,745,933,1130,1155,1333,1833,4442,",BIO 
+Monilia,"866,886,",BIO 
+Monotospora Languinosa,"788,",BIO 
+Morbus Parkinson,"813,",BIO 
+Morgan,"778,",BIO 
+Mucocutan Perniciosis,"833,",BIO 
+Mucor Mucedo,"612,1000,",BIO 
+Mucor Plumbeus,"361,",BIO 
+Mucor Racemosus Sinus,"310,474,",BIO 
+Mucoviscidosis,"523,",BIO 
+Mumps Vaccine,"273,551,711,730,1419,",BIO 
+Mumps,"152,190,235,242,516,642,674,922,1243,1660,2630,3142,",BIO 
+Muscular Dystrophy,"153,",BIO 
+Mycogone Species (spp),"371,446,1123,",BIO 
+Mycoplasma Pneumonia,"688,",BIO 
+Mycosis Fungoides,"532,662,678,852,1444,",BIO 
+Myeloid Leukemia,"422,822,",BIO 
+Myocardial Necrosis,"706,789,",BIO 
+Myositis,"120,122,125,129,1124,1169,",BIO 
+Nagel Mycosis,"462,654,",BIO 
+Nagel Trichophyton,"133,381,812,2422,",BIO 
+Nasal Polyp,"542,1436,",BIO 
+Nasturtium,"143,",BIO 
+Nematodes,"771,",BIO 
+Nephritis,"264,",BIO 
+Neurospora Sitophila,"705,",BIO 
+Nigrospora Species (spp),"302,",BIO 
+Ornithosis,"331,583,1217,",BIO 
+Osteitis,"770,",BIO 
+Osteomyelosclerosis,"79,330,",BIO 
+Osteosinusitis Max,"243,",BIO 
+Ovarian Cyst,"982,",BIO 
+Ovum,"752,",BIO 
+Ox Bile,"672,",BIO 
+Papillomavirus,"907,",BIO 
+Paradontose,"424,1552,",BIO 
+Parkinson's Disease,"813,",BIO 
+Parvovirus Canine,"185,323,562,613,622,1000,4027,",BIO 
+Pasteurella Combination,"913,",BIO 
+Penicillium Chrysogenum,"344,868,1070,2411,",BIO 
+Penicillium Notatum,"321,555,629,825,942,",BIO 
+Pepto Streptococcus,"201,",BIO 
+Perniosis,"232,622,822,4211,",BIO 
+Pertussis,"526,765,",BIO 
+Plague,"333,",BIO 
+Pneumococcus Mixed Flora,"158,174,645,801,",BIO 
+Pneumocystis,"204,340,742,",BIO 
+Pneumonia Klebsiella Pneumoniae,"412,766,",BIO 
+Pneumonia Mycoplasma,"688,",BIO 
+Polio,"742,1500,2632,",BIO 
+Porphyria,"698,",BIO 
+Protozoa,"432,753,",BIO 
+Pseudomonas,"174,482,5311,",BIO 
+Psittacosis,"583,1217,",BIO 
+Psorinum,"786,",BIO 
+Pullularia Pullulans,"1364,",BIO 
+Pyocyaneus,"437,",BIO 
+Pyrogenium Mayo,"1625,",BIO 
+Q Fever,"1357,",BIO 
+Rabies,"547,793,",BIO 
+Rhesus Gravidatum,"684,",BIO 
+Rheumaticus,"333,376,",BIO 
+Rhinopneumonitis,"185,367,820,",BIO 
+Rhizopus Nigricans,"132,",BIO 
+Rhodo Torula,"833,",BIO 
+Rhodococcus,"124,835,",BIO 
+Rickettsia,"129,632,943,1062,",BIO 
+Rocky Mountain Spotted Fever,"375,862,943,",BIO 
+Round Worms,"240,650,688,",BIO 
+Rubella,"431,510,",BIO 
+Rubeola Vaccine,"962,",BIO 
+Rubeola,"342,467,520,1489,",BIO 
+Salivary Gland Virus,"126,597,1045,2145,",BIO 
+Salmonella Type B,"546,1634,",BIO 
+Sanguis Menstrualis,"591,",BIO 
+Schuman B Cell,"322,425,428,561,600,620,623,780,781,950,952,1023,1524,",BIO 
+Sinusitis Frontalis,"952,",BIO 
+Sinusitis Maxillariss,"160,",BIO 
+Smallpox,"142,476,511,876,1644,2132,2544,",BIO 
+Solitary Cyst,"75,543,",BIO 
+Sorghum Smut,"294,",BIO 
+Sporobolomyces,"753,",BIO 
+Staphylococcus Coagulae Positive,"643,",BIO 
+Stemphylium,"461,",BIO 
+Streptococcus Virus,"563,611,727,",BIO 
+Strongyloides,"332,422,721,942,3212,",BIO 
+Struma Cystica,"5311,",BIO 
+Struma Parenchyma,"121,",BIO 
+Sudor Pedis,"148,",BIO 
+Swine Flu,"413,432,663,839,995,",BIO 
+Tetanus Antitoxin,"363,458,",BIO 
+Tetanus,"352,554,1142,",BIO 
+Thermi Bacteria,"233,441,",BIO 
+Threadworm,"422,423,732,4412,",BIO 
+Tobacco Mosaic,"233,274,543,782,1052,",BIO 
+Tonsillar NOS,"1656,",BIO 
+Torulopsis,"354,522,872,2121,",BIO 
+Toxoplasmosis,"434,852,",BIO 
+Trichinosis,"101,541,822,1054,1372,",BIO 
+Trichoderma,"711,",BIO 
+Trichophyton Mentagrophytes,"311,",BIO 
+Trichophyton Rubrum,"752,923,",BIO 
+Trichophyton,"132,812,2422,9493,",BIO 
+Trypanosoma Gambiense,"255,316,",BIO 
+Tuberculosis Bovine,"523,3353,",BIO 
+Tuberculosis Klebsiella,"221,1132,1644,2313,6516,",BIO 
+Tumor Brain,"543,641,857,",BIO 
+Ulcer Ventricular,"232,1000,",BIO 
+Uterine Polyp,"689,",BIO 
+Vaccininum,"476,",BIO 
+Varicella,"345,668,716,738,",BIO 
+Variola,"142,476,511,876,1644,2132,2544,",BIO 
+Variolinum,"542,569,832,3222,",BIO 
+Verruca,"644,767,953,",BIO 
+Werlhof,"690,",BIO 
+Wolhynia Fever,"547,",BIO 
+Yersinia Pestis,"333,",BIO 
