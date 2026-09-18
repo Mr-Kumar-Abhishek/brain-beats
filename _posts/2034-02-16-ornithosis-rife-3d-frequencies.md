@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Ornithosis  Rife 3D frequencies"
+description: "This is Rife 3D frequencies healing preset for mental relief for Ornithosis (Psittacosis or Parrot Fever; an infectious pneumonia transmitted by certain birds). The frequencies in this preset are: 233 hz, 331 hz, 332 hz, 583 hz, 859 hz, 1217 hz"
+subject: "Ornithosis  Rife 3D frequencies"
+apple-title: "Ornithosis  Rife 3D frequencies"
+app-name: "Ornithosis  Rife 3D frequencies"
+tweet-title: "Ornithosis  Rife 3D frequencies"
+tweet-description: "This is Rife 3D frequencies healing preset for mental relief for Ornithosis (Psittacosis or Parrot Fever; an infectious pneumonia transmitted by certain birds). The frequencies in this preset are: 233 hz, 331 hz, 332 hz, 583 hz, 859 hz, 1217 hz"
+date: 2034-02-16
+keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy"
+---
+
+This is Rife 3D frequencies healing preset for mental relief for Ornithosis (Psittacosis or Parrot Fever; an infectious pneumonia transmitted by certain birds). The frequencies in this preset are: 233 hz, 331 hz, 332 hz, 583 hz, 859 hz, 1217 hz
+
+### What is Ornithosis  Rife 3D frequencies?
+This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.
+
