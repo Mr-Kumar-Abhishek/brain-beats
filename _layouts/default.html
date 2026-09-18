@@ -5,14 +5,14 @@ layout: compress
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>{{ page.title }}</title>
+		<title>{{ page.title | default: site.name }}</title>
 		<script async src="/js/serviceLoader.js"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="robots" content="index, follow, noarchive" >
-		<meta name="keywords" content="{{ page.keywords }}" >
-		<meta name="description" content="{{ page.description }}">
-		<meta name='subject' content="{{ page.subject }}">
+		<meta name="keywords" content="{{ page.keywords | default: 'pure tones, solfeggio frequency, brainwave entrainment, binaural beats, isochronic tones' }}" >
+		<meta name="description" content="{{ page.description | default: site.description | default: page.title }}">
+		<meta name='subject' content="{{ page.subject | default: page.title | default: site.name }}">
 		<meta name="author" content="Abhishek Kumar" >
 		<meta name='coverage' content='Worldwide'>
 		<meta name='distribution' content='Global'>
@@ -20,16 +20,16 @@ layout: compress
 		<meta name='HandheldFriendly' content='True'>
         <meta name='MobileOptimized' content='320'>
 		<meta name='target' content='all'>
-		<meta name="apple-mobile-web-app-title" content="{{ page.apple-title }}">
+		<meta name="apple-mobile-web-app-title" content="{{ page.apple-title | default: page.title | default: site.name }}">
 		<meta name='apple-mobile-web-app-capable' content='yes'>
 		<meta name='apple-touch-fullscreen' content='yes'>
-		<meta name='application-name' content="{{ page.app-name }}">
+		<meta name='application-name' content="{{ page.app-name | default: site.name }}">
 		<meta name="twitter:card" content="summary" >
-		<meta name="twitter:title" content="{{ page.tweet-title }}" >
-		<meta name="twitter:description" content="{{ page.tweet-description }}" >
+		<meta name="twitter:title" content="{{ page.tweet-title | default: page.title | default: site.name }}" >
+		<meta name="twitter:description" content="{{ page.tweet-description | default: page.description | default: site.description }}" >
 		<meta name="twitter:image" content="/img/favicon-32x32.png" >
 		<meta property="og:site_name" content="Brain Beats" >
-		<meta property="og:title" content="{{ page.og-title }}" >
+		<meta property="og:title" content="{{ page.og-title | default: page.title | default: site.name }}" >
 		<meta property="og:type" content="website" >
 		<meta property="og:url" content="{{site.url}}{{ page.url|remove:'index.html' }}" >
 		<meta property="og:image" content="/img/favicon-32x32.png" >
