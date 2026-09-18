@@ -1,6 +1,12 @@
 # brain-beats
 This "probably" will induce desired brainwaves in future. 
 
+## Developer Documentation & Testing
+
+* **Developer Guide & Architecture:** [DEVELOPMENT.md](DEVELOPMENT.md)
+* **Test Suite & Verification Report:** [TEST_REPORT.md](TEST_REPORT.md)
+* **Contribution Guidelines:** [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ## License
 
 * **Source Code:** GNU Affero General Public License v3.0 (AGPL-3.0) - see [LICENSE](LICENSE)
