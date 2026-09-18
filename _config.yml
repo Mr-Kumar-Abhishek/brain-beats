@@ -1,4 +1,5 @@
 name: Brain Beats Blog | Brainwave Entrainment
+description: Brain Beats - Free online brainwave entrainment generator for binaural beats, isochronic tones, solfeggio frequencies, and ambient noise.
 markdown: kramdown
 kramdown:
   math_engine: mathjax
