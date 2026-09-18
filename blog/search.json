@@ -5,7 +5,7 @@
     {
 
       "title"    : "{{ post.title | escape }}",
-      "url"      : "/blog{{ post.url }}",
+      "url"      : "{{ post.url }}",
       "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "date"     : "{{ post.date }}",
