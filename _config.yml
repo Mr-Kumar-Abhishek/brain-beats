@@ -1,0 +1,17 @@
+name: Brain Beats Blog | Brainwave Entrainment
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  parse_block_html: true
+  input: GFM
+  syntax_highlighter_opts:
+    disable : true
+
+permalink: /blog/:year/:month/:day/:title.html
+url: "https://brain-beats.in"
+baseurl: ""
+repository: Mr-Kumar-Abhishek/brain-beats-blog
+
+paginate_path: "/blog/page:num/"
+paginate: 5
+exclude: ["node_modules", "package.json", "package-lock.json", "blog/css/main.scss", "scratch"]
