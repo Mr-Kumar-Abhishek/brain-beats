@@ -87,6 +87,11 @@ var boolRife3Dauto = 0;
 var boolALT3dauto = 0;
 var boolBIO3dauto = 0;
 var boolKHZ3Dauto = 0;
+var boolXTRA3Dauto = 0;
+var boolPROV3Dauto = 0;
+var boolCUST3Dauto = 0;
+var boolVEGA3Dauto = 0;
+var boolRIFE_ORIG3Dauto = 0;
 var boolHC3Dauto = 0;
 var boolYellow = 0;
 var boolTurquoise = 0;
@@ -1599,7 +1604,7 @@ function live_volume_set(){
   
   if(solfeggio_flag == 1 || pure_tone_flag  == 1 || single_tone_flag == 1 || 
     angel_flag == 1 || boolSineMonaural == 1 || boolSine3D == 1 || 
-    boolSine3Dauto == 1 || boolRife3Dauto == 1 ||  boolKHZ3Dauto == 1 || boolHC3Dauto == 1 ||boolRifeMonaural == 1 || 
+    boolSine3Dauto == 1 || boolRife3Dauto == 1 ||  boolKHZ3Dauto == 1 || boolHC3Dauto == 1 || boolXTRA3Dauto == 1 || boolPROV3Dauto == 1 || boolCUST3Dauto == 1 || boolVEGA3Dauto == 1 || boolRIFE_ORIG3Dauto == 1 ||boolRifeMonaural == 1 || 
     boolRife3D == 1 || boolBIO3dauto == 1 || boolBIOMonaural == 1 || monaural_flag == 1 || binaural_flag == 1 || 
     sq_monaural_flag == 1 || double_tone_flag == 1 || kundalini_flag == 1 ||  astral_broadcast_flag == 1 ||
     boolALT3dauto == 1 || boolALTMonaural == 1 || bool_mind_machine_binaural == 1){
@@ -1708,6 +1713,11 @@ function stop_all_sine_3d() {
     if (boolRife3Dauto == 1 ) { stop_rife_3d_auto(); }
     if (boolKHZ3Dauto == 1 ) {stop_KHZ_3d(); }
     if (boolHC3Dauto == 1) {stop_HC_3d();}
+    if (boolXTRA3Dauto == 1) {stop_XTRA_3d();}
+    if (boolPROV3Dauto == 1) {stop_PROV_3d();}
+    if (boolCUST3Dauto == 1) {stop_CUST_3d();}
+    if (boolVEGA3Dauto == 1) {stop_VEGA_3d();}
+    if (boolRIFE_ORIG3Dauto == 1) {stop_RIFE_3d();}
     if (boolRife3D ==  1) { stop_rife_3d(); }
     if (boolALT3dauto == 1) { stop_ALT_3d_auto(); }
 }
@@ -1771,3 +1781,73 @@ function warning(whichy){
       
 }
 
+
+function play_XTRA_3d_auto(tone_freq_array){
+  if(boolXTRA3Dauto == 0){
+    boolXTRA3Dauto = 1;
+    play_sine_3d_auto(tone_freq_array);
+  }else{
+    stop_XTRA_3d();
+    play_XTRA_3d_auto(tone_freq_array);
+  }
+}
+function stop_XTRA_3d(){
+  boolXTRA3Dauto = 0;
+  stop_sine_3d_auto();
+}
+
+function play_PROV_3d_auto(tone_freq_array){
+  if(boolPROV3Dauto == 0){
+    boolPROV3Dauto = 1;
+    play_sine_3d_auto(tone_freq_array);
+  }else{
+    stop_PROV_3d();
+    play_PROV_3d_auto(tone_freq_array);
+  }
+}
+function stop_PROV_3d(){
+  boolPROV3Dauto = 0;
+  stop_sine_3d_auto();
+}
+
+function play_CUST_3d_auto(tone_freq_array){
+  if(boolCUST3Dauto == 0){
+    boolCUST3Dauto = 1;
+    play_sine_3d_auto(tone_freq_array);
+  }else{
+    stop_CUST_3d();
+    play_CUST_3d_auto(tone_freq_array);
+  }
+}
+function stop_CUST_3d(){
+  boolCUST3Dauto = 0;
+  stop_sine_3d_auto();
+}
+
+function play_VEGA_3d_auto(tone_freq_array){
+  if(boolVEGA3Dauto == 0){
+    boolVEGA3Dauto = 1;
+    play_sine_3d_auto(tone_freq_array);
+  }else{
+    stop_VEGA_3d();
+    play_VEGA_3d_auto(tone_freq_array);
+  }
+}
+function stop_VEGA_3d(){
+  boolVEGA3Dauto = 0;
+  stop_sine_3d_auto();
+}
+
+function play_RIFE_3d_auto(tone_freq_array){
+  if(boolRIFE_ORIG3Dauto == 0){
+    boolRIFE_ORIG3Dauto = 1;
+    play_sine_3d_auto(tone_freq_array);
+  }else{
+    stop_RIFE_3d();
+    play_RIFE_3d_auto(tone_freq_array);
+  }
+}
+function stop_RIFE_3d(){
+  boolRIFE_ORIG3Dauto = 0;
+  stop_sine_3d_auto();
+}
