@@ -4,7 +4,7 @@ This document provides a rough production-cost estimate for the project using th
 
 ## Assumptions
 
-- Estimated size: 257.231 KLOC
+- Estimated size: 434.536 KLOC (Updated after massive markdown post generation & repository expansion)
 - Average cost rate: $8,000 per person-month
 - Team size estimate: $PM / TDEV$
 
@@ -18,10 +18,10 @@ This document provides a rough production-cost estimate for the project using th
 
 | Model | Effort (person-months) | Development Time (months) | Average Team Size | Estimated Total Cost |
 | --- | ---: | ---: | ---: | ---: |
-| Organic | 814.80 | 31.93 | 25.52 | $6,518,395.39 |
-| Semi-Detached | 1,502.05 | 32.34 | 46.44 | $12,016,371.44 |
-| Embedded | 2,809.90 | 31.73 | 88.55 | $22,479,179.49 |
+| Organic | 1,412.99 | 39.35 | 35.90 | $11,303,899.28 |
+| Semi-Detached | 2,702.15 | 39.72 | 68.03 | $21,617,211.23 |
+| Embedded | 5,271.49 | 38.81 | 135.82 | $42,171,942.34 |
 
 ## Notes
 
-These are high-level estimates based on the current repository size and simplified COCOMO assumptions. Actual costs may vary depending on staffing, tooling, maintenance, hosting, and feature scope.
+These are high-level estimates based on the current repository size (including generated blog content and layout code) and simplified COCOMO assumptions. Actual costs may vary depending on staffing, tooling, maintenance, hosting, and feature scope.

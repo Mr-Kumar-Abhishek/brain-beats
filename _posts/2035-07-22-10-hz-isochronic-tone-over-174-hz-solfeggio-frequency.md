@@ -1,0 +1,19 @@
+---
+layout: post
+title: "10 Hz Isochronic Tone over 174 Hz Solfeggio Frequency"
+description: "Isochronic Tone associated with solar plexus chakra (manipura) [Phase 1]. Spiritual Wisdom [Phase 1], Self-Healing [ Phase 1 ]. Enhanced Body parts Pancreas [Phase 1], Stomach [Phase 1], Liver [Phase 1], Gall Bladder [Phase 1], Nervous System [Phase 1]. Enhanced release of serotonin [Phase 1]. Mood elevator [Phase 1]. Acts as ananalgesic [Phase 1]. Used during nicotine withrawal [Phase 1]. Clarity [Phase 1], Normacy [Phase 1], Anti-Convlelsant [Phase 1], Circadian Rhythm Resync [Phase 1]. Motor impulse co-ordination [ Phase 1 ] (Motor Control Cortex).  Learning a foreign language [Phase 1 ], Sleep Spindles [Phase 1], Centering [ Phase 1 ]. Increased Alertness [ Phase 1 ]. Increased in norepinephrine [ Phase 1 ]. Decreased Melatonin [Phase 1]. Sense of well being [Phase 1]. Decreased Pain [Phase 1]. Increased beta-endorphines [Phase 1]. Adrenal Stimulant [Phase 1]. Treatment of Attention Deficit Disorder [ Phase 1 ] and hyperactivity [ Phase 1 ]. Treatment for closed head injury [ Phase 1 ]. Berger Rhythm. Used on Headaches [Phase 1]. Ligament Healing [ Phase 1] "
+subject: "10 Hz Isochronic Tone over 174 Hz Solfeggio Frequency"
+apple-title: "10 Hz Isochronic Tone over 174 Hz Solfeggio Frequency"
+app-name: "10 Hz Isochronic Tone over 174 Hz Solfeggio Frequency"
+tweet-title: "10 Hz Isochronic Tone over 174 Hz Solfeggio Frequency"
+tweet-description: "Isochronic Tone associated with solar plexus chakra (manipura) [Phase 1]. Spiritual Wisdom [Phase 1], Self-Healing [ Phase 1 ]. Enhanced Body parts Pancreas [Phase 1], Stomach [Phase 1], Liver [Phase 1], Gall Bladder [Phase 1], Nervous System [Phase 1]. Enhanced release of serotonin [Phase 1]. Mood elevator [Phase 1]. Acts as ananalgesic [Phase 1]. Used during nicotine withrawal [Phase 1]. Clarity [Phase 1], Normacy [Phase 1], Anti-Convlelsant [Phase 1], Circadian Rhythm Resync [Phase 1]. Motor impulse co-ordination [ Phase 1 ] (Motor Control Cortex).  Learning a foreign language [Phase 1 ], Sleep Spindles [Phase 1], Centering [ Phase 1 ]. Increased Alertness [ Phase 1 ]. Increased in norepinephrine [ Phase 1 ]. Decreased Melatonin [Phase 1]. Sense of well being [Phase 1]. Decreased Pain [Phase 1]. Increased beta-endorphines [Phase 1]. Adrenal Stimulant [Phase 1]. Treatment of Attention Deficit Disorder [ Phase 1 ] and hyperactivity [ Phase 1 ]. Treatment for closed head injury [ Phase 1 ]. Berger Rhythm. Used on Headaches [Phase 1]. Ligament Healing [ Phase 1] "
+date: 2035-07-22
+keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy"
+---
+
+Isochronic Tone associated with solar plexus chakra (manipura) [Phase 1]. Spiritual Wisdom [Phase 1], Self-Healing [ Phase 1 ]. Enhanced Body parts Pancreas [Phase 1], Stomach [Phase 1], Liver [Phase 1], Gall Bladder [Phase 1], Nervous System [Phase 1]. Enhanced release of serotonin [Phase 1]. Mood elevator [Phase 1]. Acts as ananalgesic [Phase 1]. Used during nicotine withrawal [Phase 1]. Clarity [Phase 1], Normacy [Phase 1], Anti-Convlelsant [Phase 1], Circadian Rhythm Resync [Phase 1]. Motor impulse co-ordination [ Phase 1 ] (Motor Control Cortex).  Learning a foreign language [Phase 1 ], Sleep Spindles [Phase 1], Centering [ Phase 1 ]. Increased Alertness [ Phase 1 ]. Increased in norepinephrine [ Phase 1 ]. Decreased Melatonin [Phase 1]. Sense of well being [Phase 1]. Decreased Pain [Phase 1]. Increased beta-endorphines [Phase 1]. Adrenal Stimulant [Phase 1]. Treatment of Attention Deficit Disorder [ Phase 1 ] and hyperactivity [ Phase 1 ]. Treatment for closed head injury [ Phase 1 ]. Berger Rhythm. Used on Headaches [Phase 1]. Ligament Healing [ Phase 1] 
+
+### What is 10 Hz Isochronic Tone over 174 Hz Solfeggio Frequency?
+This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.
+
