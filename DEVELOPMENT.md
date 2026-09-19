@@ -298,3 +298,15 @@ for branch in $(git branch -r | grep 'upstream/' | grep -v 'HEAD' | sed 's/ *ups
 done
 ```
 
+---
+
+## 13. Dual Licensing Model & Governance
+
+Brain Beats enforces a strict boundary between software engineering, configuration, and server infrastructure logic versus creative/educational content:
+
+* **Software, Programming Mechanics, Configuration Files & Server Configurations ([`LICENSE`](LICENSE)):**
+  - All application code, DSP algorithms, AudioWorklet processors, Web Audio synthesis nodes, generative mechanics, build scripts, configuration files (`package.json`, `.node-version`, `.nvmrc`, `_config.yml`, Workbox configs, CI/CD workflows), and server configurations (`netlify.toml`, web server headers, redirects, proxy rules) are strictly licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+* **Content, Documentation & Presets ([`LICENSE-CONTENT.txt`](LICENSE-CONTENT.txt)):**
+  - All written documentation, research guides, blog articles, and frequency preset catalogs are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+  - *The CC BY 4.0 license applies strictly to content and documentation, and expressly does not license the underlying software, programming, audio synthesis mechanics, configuration files, or server configurations.*
+
