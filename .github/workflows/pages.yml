@@ -48,17 +48,18 @@ jobs:
       - name: Run Audio Engine Test Suite (TDD)
         run: npm test
 
-      - name: Generate Service Worker Precache
-        run: npm run build:sw
+      - name: Generate Sitemap & Service Worker Precache
+        run: npm run build
 
       - name: Build Jekyll Site
         env:
           JEKYLL_ENV: production
         run: bundle exec jekyll build
 
-      - name: Sync Service Worker, Documentation & Bypass Jekyll Processing
+      - name: Sync Sitemap, Service Worker & Bypass Jekyll Processing
         run: |
-          npm run build:sw
+          npm run build
+          cp sitemap.xml _site/sitemap.xml || true
           cp sw-generated.js _site/sw-generated.js || true
           cp README.md _site/README.md || true
           cp DEVELOPMENT.md _site/DEVELOPMENT.md || true

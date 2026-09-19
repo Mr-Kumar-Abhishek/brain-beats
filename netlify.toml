@@ -2,7 +2,7 @@
 # Jekyll static site generator & Web Audio PWA
 
 [build]
-  command = "bundle exec jekyll build && (cp sw-generated.js README.md DEVELOPMENT.md TEST_REPORT.md CONTRIBUTING.md cocomo-cost-estimate.md package.json .node-version .nvmrc netlify.toml _site/ 2>/dev/null || true) && touch _site/.nojekyll"
+  command = "bundle exec jekyll build && (cp sitemap.xml sw-generated.js README.md DEVELOPMENT.md TEST_REPORT.md CONTRIBUTING.md cocomo-cost-estimate.md package.json .node-version .nvmrc netlify.toml _site/ 2>/dev/null || true) && touch _site/.nojekyll"
   publish = "_site"
 
 [build.environment]
