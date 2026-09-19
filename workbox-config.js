@@ -24,6 +24,7 @@ module.exports = {
     	'LICENSE*',
     	'cocomo-cost-estimate.md',
     	'brain/**/*',
+    	'.github/**/*',
     	'.git/**/*'
   	],
 	maximumFileSizeToCacheInBytes: 15 * 1024 * 1024,

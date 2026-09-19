@@ -257,7 +257,22 @@ The application is configured for automated Continuous Deployment via Netlify (b
 
 ---
 
-## 11. Multi-Remote Synchronization Workflow
+## 11. GitHub Pages Automated CI/CD Workflow (`.github/workflows/pages.yml`)
+
+The project includes an automated GitHub Pages deployment workflow using official GitHub Actions (`actions/deploy-pages@v4`):
+
+* **Trigger:** Push to `master`, `main`, or `doctor/master`, and manual dispatch (`workflow_dispatch`).
+* **Pipeline:**
+  1. Sets up Node.js 20 and Ruby 3.3.
+  2. Runs `npm test` (TDD verification of the Web Audio engine and JSON presets).
+  3. Precompiles Workbox service worker precache (`npm run build:sw`).
+  4. Builds Jekyll production site into `_site` via Bundler.
+  5. Bypasses Jekyll backend reprocessing (`.nojekyll`) and publishes artifact directly to GitHub Pages.
+* **Custom Domain:** Configured via root [`CNAME`](file:///var/www/html/CNAME) (`brain-beats.in`).
+
+---
+
+## 12. Multi-Remote Synchronization Workflow
 
 This project maintains synchronized branches across both `origin` (personal) and `upstream` (organization) remotes:
 
