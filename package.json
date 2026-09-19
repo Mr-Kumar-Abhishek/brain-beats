@@ -1,0 +1,25 @@
+{
+  "name": "brain-beats",
+  "version": "1.0.0",
+  "description": "Brainwave entrainment web audio application and research blog",
+  "scripts": {
+    "test": "node tests/audio-engine.test.js",
+    "build:sw": "workbox injectManifest workbox-config.js",
+    "build:jekyll": "bundle exec jekyll build",
+    "serve:jekyll": "bundle exec jekyll serve"
+  },
+  "dependencies": {
+    "glob": "^13.0.6"
+  },
+  "devDependencies": {
+    "inquirer": "^13.4.2",
+    "tmp": "^0.2.6",
+    "workbox-cli": "^7.4.1"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "overrides": {
+    "tmp": "^0.2.6"
+  }
+}
