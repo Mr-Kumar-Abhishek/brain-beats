@@ -315,6 +315,17 @@ async function runTestSuite() {
     assert(global.yellowNoiseNodeGain.gain.value === 0.75, "live_volume_set() dynamically updates yellow noise gain");
     global.stop_yellow_noise();
 
+    // Verify all 38 audio HTML pages contain the volume-box and #volume control
+    const rootFiles = fs.readdirSync(path.join(__dirname, '..')).filter(f => f.endsWith('.html'));
+    let pagesWithVolume = 0;
+    for (const file of rootFiles) {
+      const htmlContent = fs.readFileSync(path.join(__dirname, '..', file), 'utf8');
+      if (htmlContent.includes('id="volume"') && htmlContent.includes('class="volume-box"')) {
+        pagesWithVolume++;
+      }
+    }
+    assert(pagesWithVolume === 38, `All ${pagesWithVolume} audio generator and preset pages contain unified volume-box controls`);
+
     global.testVolumeVal = 100;
   } catch (e) {
     assert(false, `Volume tests threw exception: ${e.message}`);
