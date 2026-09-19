@@ -56,7 +56,7 @@ flowchart TD
 
 | Requirement | Recommended Version | Purpose |
 | :--- | :--- | :--- |
-| **Node.js & npm** | Node v18+ / npm v9+ | Running the TDD test suite, Workbox CLI, and build tools |
+| **Node.js & npm** | Node v24+ / npm v10+ | Running the TDD test suite, Workbox CLI, and build tools |
 | **Ruby & Bundler** | Ruby v3.0+ / Bundler v2.3+ | Building and serving the Jekyll blog engine |
 | **Git** | v2.30+ | Source control and multi-remote branch synchronization |
 
@@ -254,7 +254,7 @@ The application is configured for automated Continuous Deployment via Netlify (b
 
 * **Build Command:** `bundle exec jekyll build && npm test && npm run build:sw`
 * **Publish Directory:** `_site`
-* **Runtime Versions:** Controlled via `.ruby-version` (Ruby 3.3.8) and `.node-version` (Node 20).
+* **Runtime Versions:** Controlled via `.ruby-version` (Ruby 3.3.8) and `.node-version` (Node 24).
 * **Caching & Header Policies:**
   - `sw.js` and `sw-generated.js` are served with `Cache-Control: no-cache, no-store, must-revalidate` to ensure instant client updates.
   - Audio worklets, static icons, and fonts use immutable caching (`max-age=31536000, immutable`).
@@ -269,7 +269,7 @@ The project includes an automated GitHub Pages deployment workflow using officia
 
 * **Trigger:** Push to `master`, `main`, or `doctor/master`, and manual dispatch (`workflow_dispatch`).
 * **Dual Deployment Pipeline:**
-  1. Sets up Node.js 20 and Ruby 3.3.
+  1. Sets up Node.js 24 (via `.node-version`) and Ruby 3.3.
   2. Runs `npm test` (TDD verification of the Web Audio engine and JSON presets).
   3. Precompiles Workbox service worker precache (`npm run build:sw`).
   4. Builds Jekyll production site into `_site` via Bundler.

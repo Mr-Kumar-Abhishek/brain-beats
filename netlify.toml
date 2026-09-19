@@ -7,7 +7,7 @@
 
 [build.environment]
   RUBY_VERSION = "3.3.8"
-  NODE_VERSION = "20"
+  NODE_VERSION = "24"
   JEKYLL_ENV = "production"
   NOKOGIRI_USE_SYSTEM_LIBRARIES = "true"
 
