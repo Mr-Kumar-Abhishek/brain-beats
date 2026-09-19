@@ -45,6 +45,33 @@
 			src="https://www.googletagmanager.com/gtag/js?id=UA-70747360-2"
 			></script>
 		<script async src="./js/google-analytics.js" ></script>
+		<!-- MathJax 3 Configuration for Mathematical Calculations -->
+		<script>
+			window.MathJax = {
+				tex: {
+					inlineMath: [['\\(', '\\)'], ['$', '$']],
+					displayMath: [['\\[', '\\]'], ['$$', '$$']],
+					processEscapes: true,
+					processEnvironments: true,
+					tags: 'ams'
+				},
+				options: {
+					ignoreHtmlClass: 'tex2jax_ignore',
+					processHtmlClass: 'tex2jax_process'
+				},
+				chtml: {
+					scale: 1.0,
+					displayAlign: 'center'
+				}
+			};
+		</script>
+		<script
+			type="text/javascript"
+			id="MathJax-script"
+			async
+			src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+			onerror="this.onerror=null;this.src='/blog/js/tex-mml-chtml.js';"
+		></script>
 	</head>
 	<body>
 		<!--[if lte IE 9]>
@@ -321,15 +348,15 @@
 <p>This document provides a rough production-cost estimate for the project using three COCOMO variants: Organic, Semi-Detached, and Embedded.</p>
 <h2>Assumptions</h2>
 <ul>
-<li>Estimated size: 464.520 KLOC (Updated with new lab preset catalogs, TDD test suites, DRY layouts, CI/CD pipelines &amp; PWA infrastructure)</li>
-<li>Average cost rate: $8,000 per person-month</li>
-<li>Team size estimate: $PM / TDEV$</li>
+<li>Estimated size: <strong>464.520 KLOC</strong> (Updated with new lab preset catalogs, TDD test suites, DRY layouts, CI/CD pipelines &amp; PWA infrastructure)</li>
+<li>Average cost rate: <strong>&#36;8,000</strong> per person-month</li>
+<li>Team size estimate: \( \text{FSP} = \frac{\text{Effort (PM)}}{\text{TDEV}} \)</li>
 </ul>
 <h2>Model Formulas</h2>
 <ul>
-<li>Organic: $PM = 2.4 \times (KLOC^{1.05})$, $TDEV = 2.5 \times (PM^{0.38})$</li>
-<li>Semi-Detached: $PM = 3.0 \times (KLOC^{1.12})$, $TDEV = 2.5 \times (PM^{0.35})$</li>
-<li>Embedded: $PM = 3.6 \times (KLOC^{1.20})$, $TDEV = 2.5 \times (PM^{0.32})$</li>
+<li><strong>Organic:</strong> \( \text{Effort} = 2.4 \times (\text{KLOC})^{1.05} \), \( \text{TDEV} = 2.5 \times (\text{Effort})^{0.38} \)</li>
+<li><strong>Semi-Detached:</strong> \( \text{Effort} = 3.0 \times (\text{KLOC})^{1.12} \), \( \text{TDEV} = 2.5 \times (\text{Effort})^{0.35} \)</li>
+<li><strong>Embedded:</strong> \( \text{Effort} = 3.6 \times (\text{KLOC})^{1.20} \), \( \text{TDEV} = 2.5 \times (\text{Effort})^{0.32} \)</li>
 </ul>
 <h2>Calculated Results</h2>
 <table class="table table-bordered table-striped">
@@ -345,24 +372,24 @@
 <tbody>
 <tr>
 <td>Organic</td>
-<td style="text-align: right;">1,515.53</td>
-<td style="text-align: right;">40.42</td>
-<td style="text-align: right;">37.50</td>
-<td style="text-align: right;">$12,124,277.47</td>
+<td style="text-align: right;">1,515.53 PM</td>
+<td style="text-align: right;">40.42 mos</td>
+<td style="text-align: right;">37.50 devs</td>
+<td style="text-align: right;">&#36;12,124,277.47</td>
 </tr>
 <tr>
 <td>Semi-Detached</td>
-<td style="text-align: right;">2,911.83</td>
-<td style="text-align: right;">40.78</td>
-<td style="text-align: right;">71.41</td>
-<td style="text-align: right;">$23,294,649.98</td>
+<td style="text-align: right;">2,911.83 PM</td>
+<td style="text-align: right;">40.78 mos</td>
+<td style="text-align: right;">71.41 devs</td>
+<td style="text-align: right;">&#36;23,294,649.98</td>
 </tr>
 <tr>
 <td>Embedded</td>
-<td style="text-align: right;">5,710.94</td>
-<td style="text-align: right;">39.82</td>
-<td style="text-align: right;">143.42</td>
-<td style="text-align: right;">$45,687,541.48</td>
+<td style="text-align: right;">5,710.94 PM</td>
+<td style="text-align: right;">39.82 mos</td>
+<td style="text-align: right;">143.42 devs</td>
+<td style="text-align: right;">&#36;45,687,541.48</td>
 </tr>
 </tbody>
 </table>
@@ -374,7 +401,7 @@
 <th>Scope of Work</th>
 <th style="text-align: right;">Estimated Hours</th>
 <th style="text-align: right;">Effort (PM)</th>
-<th style="text-align: right;">Value ($8k/PM)</th>
+<th style="text-align: right;">Value (&#36;8k/PM)</th>
 </tr>
 </thead>
 <tbody>
@@ -383,52 +410,65 @@
 <td>Resolved branch desynchronization across 50+ remotes, realigned local gh-pages tip.</td>
 <td style="text-align: right;">4.5 hrs</td>
 <td style="text-align: right;">0.028 PM</td>
-<td style="text-align: right;">$225.00</td>
+<td style="text-align: right;">&#36;225.00</td>
 </tr>
 <tr>
 <td>WP2: GitHub Actions CI/CD</td>
 <td>Designed .github/workflows/pages.yml with Node.js 20 &amp; Ruby 3.3.8 runtimes.</td>
 <td style="text-align: right;">7.0 hrs</td>
 <td style="text-align: right;">0.044 PM</td>
-<td style="text-align: right;">$350.00</td>
+<td style="text-align: right;">&#36;350.00</td>
 </tr>
 <tr>
 <td>WP3: Dual Deployment Pipeline</td>
 <td>Integrated Actions Artifact upload &amp; automated gh-pages branch publisher.</td>
 <td style="text-align: right;">5.5 hrs</td>
 <td style="text-align: right;">0.034 PM</td>
-<td style="text-align: right;">$275.00</td>
+<td style="text-align: right;">&#36;275.00</td>
 </tr>
 <tr>
 <td>WP4: PWA Precache Integration</td>
 <td>Synced sw-generated.js (201 URLs, 11.1MB) into _site and configured .nojekyll.</td>
 <td style="text-align: right;">4.0 hrs</td>
 <td style="text-align: right;">0.025 PM</td>
-<td style="text-align: right;">$200.00</td>
+<td style="text-align: right;">&#36;200.00</td>
 </tr>
 <tr>
 <td>WP5: Custom Domain Routing</td>
 <td>Root CNAME configuration (brain-beats.in) and DNS canonicalization.</td>
 <td style="text-align: right;">3.0 hrs</td>
 <td style="text-align: right;">0.019 PM</td>
-<td style="text-align: right;">$150.00</td>
+<td style="text-align: right;">&#36;150.00</td>
 </tr>
 <tr>
 <td>WP6: Multi-Remote Verification</td>
 <td>Executed end-to-end build verification and validated push propagation.</td>
 <td style="text-align: right;">4.0 hrs</td>
 <td style="text-align: right;">0.025 PM</td>
-<td style="text-align: right;">$200.00</td>
+<td style="text-align: right;">&#36;200.00</td>
 </tr>
 <tr>
 <td><strong>Total gh-pages Remediation</strong></td>
-<td><strong>Complete GitHub Pages CI/CD &amp; Branch Subsystem (EAF: 1.071)</strong></td>
+<td><strong>Complete GitHub Pages CI/CD &amp; Branch Subsystem</strong></td>
 <td style="text-align: right;"><strong>28.0 hrs</strong></td>
-<td style="text-align: right;"><strong>0.187 PM</strong></td>
-<td style="text-align: right;"><strong>$1,499.40</strong></td>
+<td style="text-align: right;"><strong>0.175 PM</strong></td>
+<td style="text-align: right;"><strong>&#36;1,400.00</strong></td>
 </tr>
 </tbody>
 </table>
+
+<h3>COCOMO Intermediate Cost Driver Adjustments (EAF)</h3>
+<ul>
+<li><strong>RELY (High Reliability / Zero-Downtime Deployment):</strong> \( 1.15 \)</li>
+<li><strong>CPLX (Multi-Cloud / Dual Pipeline Orchestration):</strong> \( 1.15 \)</li>
+<li><strong>TOOL (Modern Automated CI/CD Tooling):</strong> \( 0.90 \)</li>
+<li><strong>MODP (Declarative Workflow Architecture):</strong> \( 0.90 \)</li>
+</ul>
+<p><strong>Effort Adjustment Factor (EAF):</strong></p>
+\[ \text{EAF} = \text{RELY} \times \text{CPLX} \times \text{TOOL} \times \text{MODP} = 1.15 \times 1.15 \times 0.90 \times 0.90 = \mathbf{1.071} \]
+<p><strong>Adjusted Effort &amp; Valuation:</strong></p>
+\[ \text{Effort}_{\text{adjusted}} = 0.175 \times 1.071 = \mathbf{0.187 \text{ Person-Months}} \quad (\mathbf{\$1,499.40 \text{ USD}}) \]
+
 <h2>Notes</h2>
 <p>These are high-level estimates based on the current repository size of 464.520 KLOC across 6,619 source files (including Web Audio DSP algorithms, 25 preset JSON catalogs, automated test suites, PWA service workers, cloud deployment pipelines, and research blog content) using standard Basic COCOMO assumptions. Actual costs may vary depending on staffing, tooling, maintenance, hosting, and feature scope.</p>
 
