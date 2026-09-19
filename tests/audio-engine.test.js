@@ -423,7 +423,7 @@ async function runTestSuite() {
   const legacyLicenseTxt = fs.readFileSync(path.join(__dirname, '../LICENSE.txt'), 'utf8');
   assert(legacyLicenseTxt.includes("Creative Commons Attribution 4.0 International (CC BY 4.0)"), "LICENSE.txt specifies Creative Commons Attribution 4.0 International (CC BY 4.0)");
 
-  assert(contentLicense.includes("configuration files") && devGuideContent.includes("configuration files"), "Licenses and documentation specify GNU AGPL-3.0 strictly covers code and configuration files");
+  assert(contentLicense.includes("server configurations") && devGuideContent.includes("server configurations"), "Licenses and documentation specify GNU AGPL-3.0 strictly covers code, configuration files, and server configurations");
 
   const mainJsContent = fs.readFileSync(path.join(__dirname, '../js/main.js'), 'utf8');
   assert(mainJsContent.includes("play_yellow_noise") && mainJsContent.includes("play_violet_noise") && mainJsContent.includes("live_volume_set"), "js/main.js contains yellow noise, violet noise, and volume dynamics patches");

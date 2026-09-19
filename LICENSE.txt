@@ -9,10 +9,11 @@ articles, educational guides, and audio preset data catalogs (JSON presets).
 
 This Creative Commons license DOES NOT apply to any software source code, 
 programming logic, Web Audio API DSP algorithms, AudioWorklet processors, 
-scripts, interactive application mechanics, or configuration files. All 
-software, code, programming, technical mechanics, and configuration files 
-are strictly licensed under the GNU Affero General Public License v3.0 
-(AGPL-3.0) — see the LICENSE file for software terms.
+scripts, interactive application mechanics, configuration files, or server 
+configurations. All software, code, programming, technical mechanics, 
+configuration files, and server configurations are strictly licensed under 
+the GNU Affero General Public License v3.0 (AGPL-3.0) — see the LICENSE file 
+for software terms.
 
 ================================================================================
 Creative Commons Attribution 4.0 International Public License
