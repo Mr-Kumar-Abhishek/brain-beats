@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Surgery Preop Postop Prevent Infections  Rife Monaural frequencies"
+description: "This is Rife Monaural frequencies healing preset for mental relief for Surgery preop postop prevent infections (see also General antiseptic, Staph, and Strep sets). The frequencies in this preset are: 2170 hz, 1800 hz, 1600 hz, 1550 hz, 802 hz, 1500 hz, 880 hz, 832 hz, 802 hz, 787 hz, 776 hz, 727 hz, 465 hz, 444 hz, 522 hz, 146 hz, 428 hz"
+subject: "Surgery Preop Postop Prevent Infections  Rife Monaural frequencies"
+apple-title: "Surgery Preop Postop Prevent Infections  Rife Monaural frequencies"
+app-name: "Surgery Preop Postop Prevent Infections  Rife Monaural frequencies"
+tweet-title: "Surgery Preop Postop Prevent Infections  Rife Monaural frequencies"
+tweet-description: "This is Rife Monaural frequencies healing preset for mental relief for Surgery preop postop prevent infections (see also General antiseptic, Staph, and Strep sets). The frequencies in this preset are: 2170 hz, 1800 hz, 1600 hz, 1550 hz, 802 hz, 1500 hz, 880 hz, 832 hz, 802 hz, 787 hz, 776 hz, 727 hz, 465 hz, 444 hz, 522 hz, 146 hz, 428 hz"
+date: 2030-04-17
+keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy"
+---
+
+This is Rife Monaural frequencies healing preset for mental relief for Surgery preop postop prevent infections (see also General antiseptic, Staph, and Strep sets). The frequencies in this preset are: 2170 hz, 1800 hz, 1600 hz, 1550 hz, 802 hz, 1500 hz, 880 hz, 832 hz, 802 hz, 787 hz, 776 hz, 727 hz, 465 hz, 444 hz, 522 hz, 146 hz, 428 hz
+
+### What is Surgery Preop Postop Prevent Infections  Rife Monaural frequencies?
+This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.
+
