@@ -433,6 +433,22 @@ async function runTestSuite() {
   const mainJsContent = fs.readFileSync(path.join(__dirname, '../js/main.js'), 'utf8');
   assert(mainJsContent.includes("play_yellow_noise") && mainJsContent.includes("play_violet_noise") && mainJsContent.includes("live_volume_set"), "js/main.js contains yellow noise, violet noise, and volume dynamics patches");
 
+  console.log("\nPhase 14: Cloud CI/CD & Netlify Zero-Exit-Code Hardening Verification");
+  const gemfileContent = fs.readFileSync(path.join(__dirname, '../Gemfile'), 'utf8');
+  assert(!gemfileContent.includes("jekyll-github-metadata"), "Gemfile excludes jekyll-github-metadata to prevent AWS rate-limit exit code 1");
+
+  assert(!netlifyToml.includes("@netlify/plugin-sitemap"), "netlify.toml excludes @netlify/plugin-sitemap to prevent plugin crash exit code 10");
+  assert(netlifyToml.includes("if [ -f Gemfile ]"), "netlify.toml implements conditional build logic for source vs deployment branches");
+  assert(netlifyToml.includes("[context.gh-pages]"), "netlify.toml configures explicit static build context for gh-pages");
+
+  assert(pkgJson.scripts && pkgJson.scripts["build:sitemap"] && pkgJson.scripts["build:sw"] && pkgJson.scripts["build:offline"], "package.json contains automated sitemap and offline build scripts");
+
+  const sitemapXmlContent = fs.readFileSync(path.join(__dirname, '../sitemap.xml'), 'utf8');
+  assert(sitemapXmlContent.includes("https://brain-beats.in"), "sitemap.xml exists and maintains canonical domain integrity (https://brain-beats.in)");
+
+  const codeqlWorkflow = fs.readFileSync(path.join(__dirname, '../.github/workflows/codeql.yml'), 'utf8');
+  assert(codeqlWorkflow.includes("github/codeql-action/analyze"), ".github/workflows/codeql.yml exists and configures automated CodeQL scanning");
+
   console.log(`   Test Results: ${passed} Passed, ${failed} Failed`);
   console.log("==================================================\n");
 
@@ -442,3 +458,4 @@ async function runTestSuite() {
 }
 
 runTestSuite();
+
