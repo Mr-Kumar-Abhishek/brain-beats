@@ -4,7 +4,10 @@
   "description": "Brainwave entrainment web audio application and research blog",
   "scripts": {
     "test": "node tests/audio-engine.test.js",
+    "build:sitemap": "node scripts/generate-sitemap.js",
     "build:sw": "workbox injectManifest workbox-config.js",
+    "build": "npm run build:sitemap && npm run build:sw",
+    "build:offline": "npm run build && npm test",
     "build:jekyll": "bundle exec jekyll build",
     "serve:jekyll": "bundle exec jekyll serve"
   },
