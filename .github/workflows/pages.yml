@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -61,6 +61,15 @@ jobs:
           npm run build:sw
           cp sw-generated.js _site/sw-generated.js || true
           touch _site/.nojekyll
+
+      - name: Deploy to gh-pages Branch
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/doctor/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          keep_files: false
+          cname: brain-beats.in
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
