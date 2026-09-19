@@ -2,19 +2,14 @@
 # Jekyll static site generator & Web Audio PWA
 
 [build]
-  command = "bundle exec jekyll build && npm test && npm run build:sw"
+  command = "npm run build:sw && bundle exec jekyll build && npm test && cp sw-generated.js README.md DEVELOPMENT.md TEST_REPORT.md CONTRIBUTING.md cocomo-cost-estimate.md package.json .node-version .nvmrc netlify.toml _site/ 2>/dev/null || true && touch _site/.nojekyll"
   publish = "_site"
 
 [build.environment]
-  RUBY_VERSION = "3.3.8"
+  RUBY_VERSION = "3.3"
   NODE_VERSION = "24"
+  NPM_FLAGS = "--include=dev"
   JEKYLL_ENV = "production"
-  NOKOGIRI_USE_SYSTEM_LIBRARIES = "true"
-
-[[plugins]]
-  package = "@netlify/plugin-sitemap"
-  [plugins.inputs]
-    prettyURLs = false
 
 # Service Worker & Manifest headers (never cache SW so users get updates instantly)
 [[headers]]
