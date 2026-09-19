@@ -74,7 +74,7 @@ A specific engineering effort estimation was conducted for repairing, configurin
 | Work Package / Task | Scope of Work | Estimated Hours | Effort (PM) | Value (USD @ $8k/PM) |
 | :--- | :--- | :---: | :---: | :---: |
 | **WP1: Branch Divergence & Tip Realignment** | Resolved branch desynchronization across 50+ remote branches, realigned local `gh-pages` tip with `master`/`doctor/master`. | 4.5 hrs | 0.028 PM | $225.00 |
-| **WP2: GitHub Actions CI/CD Architecture** | Designed `.github/workflows/pages.yml` with dual runtime environment (Node.js 20 & Ruby 3.3.8) and automated test gates. | 7.0 hrs | 0.044 PM | $350.00 |
+| **WP2: GitHub Actions CI/CD Architecture** | Designed `.github/workflows/pages.yml` with modern dual runtime environment (Node.js 24 & Ruby 3.3.8) and automated test gates. | 7.0 hrs | 0.044 PM | $350.00 |
 | **WP3: Dual-Mode Deployment Engineering** | Implemented simultaneous GitHub Actions Pages artifact upload (`actions/deploy-pages@v4`) and automated `gh-pages` branch publisher (`peaceiris/actions-gh-pages@v4`). | 5.5 hrs | 0.034 PM | $275.00 |
 | **WP4: PWA Precache & Build Bypass Integration** | Synchronized Workbox `sw-generated.js` (201 URLs, 11.1MB) into `_site`, added `.nojekyll` bypass, and updated ignore rules. | 4.0 hrs | 0.025 PM | $200.00 |
 | **WP5: Custom Domain & Routing Configuration** | Root `CNAME` mapping (`brain-beats.in`), DNS canonicalization, and Netlify/CloudFront header parity. | 3.0 hrs | 0.019 PM | $150.00 |
