@@ -1,4 +1,17 @@
-The written work and content (including documentation, blog posts, audio presets, and research datasets) apart from source code is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) Public License:
+================================================================================
+BRAIN BEATS - CONTENT & DOCUMENTATION LICENSE
+================================================================================
+
+IMPORTANT SCOPE & SEPARATION NOTICE:
+The Creative Commons Attribution 4.0 International (CC BY 4.0) license applies 
+EXCLUSIVELY to written content, including documentation, blog posts, research 
+articles, educational guides, and audio preset data catalogs (JSON presets).
+
+This Creative Commons license DOES NOT apply to any software source code, 
+programming logic, Web Audio API DSP algorithms, AudioWorklet processors, 
+scripts, or interactive application mechanics. All software, code, and 
+technical mechanics are licensed under the GNU Affero General Public License 
+v3.0 (AGPL-3.0) — see the LICENSE file for software terms.
 
 ================================================================================
 Creative Commons Attribution 4.0 International Public License

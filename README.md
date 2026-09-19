@@ -21,8 +21,8 @@ For detailed technical guides, architectural blueprints, test reports, and contr
 | 🧪 **[Test Verification Report](TEST_REPORT.md)** | Test-Driven Development (TDD) verification suite | 53 automated unit & integration tests, 13 test phases, Red-Green-Refactor audit matrix, execution logs |
 | 🤝 **[Contributing Guidelines](CONTRIBUTING.md)** | Contribution standards & code style | PR workflows, bug reporting, XSS prevention, safe DOM handling, branch management |
 | 📊 **[COCOMO Cost Estimation](cocomo-cost-estimate.md)** | Formal software engineering economic analysis | Constructive Cost Model effort estimation, 50+ KSLOC codebase metrics, work packages (also at [cocomo.html](https://brain-beats.in/cocomo.html)) |
-| ⚖️ **[Source Code License (AGPLv3)](LICENSE)** | Open-source software license | GNU Affero General Public License v3.0 permissions and conditions |
-| 📝 **[Content License (CC BY 4.0)](LICENSE-CONTENT.txt)** | Research and preset data license | Creative Commons Attribution 4.0 International license for documentation and audio catalogs |
+| ⚖️ **[Source Code License (AGPLv3)](LICENSE)** | Software, engine & mechanics license | GNU Affero General Public License v3.0 covering all programming code, audio DSP algorithms, worklets, and mechanics |
+| 📝 **[Content License (CC BY 4.0)](LICENSE-CONTENT.txt)** | Content & documentation license | Creative Commons Attribution 4.0 International license covering written articles, documentation, and audio preset datasets (excluding code/mechanics) |
 
 ---
 
@@ -243,7 +243,9 @@ Contributions are welcome! Please review [CONTRIBUTING.md](CONTRIBUTING.md) befo
 
 ---
 
-## 📄 License
+## 📄 Dual Licensing Model & Scope
 
-* **Source Code:** Licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. See [`LICENSE`](LICENSE) for terms.
-* **Content & Documentation:** Licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. See [`LICENSE-CONTENT.txt`](LICENSE-CONTENT.txt) for terms.
+This project is released under a clear dual-licensing structure separating software programming mechanics from written content:
+
+* **Source Code, Audio Engine & Programming Mechanics:** Licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. Covers all application source code, JavaScript synthesis algorithms, AudioWorklet processors, scripts, and interactive generative mechanics. See [`LICENSE`](LICENSE) for complete terms.
+* **Content & Documentation:** Licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. Applies exclusively to written documentation, research guides, blog articles, and audio frequency preset catalogs. Does *not* apply to software programming, audio engines, or technical mechanics. See [`LICENSE-CONTENT.txt`](LICENSE-CONTENT.txt) for complete terms.
