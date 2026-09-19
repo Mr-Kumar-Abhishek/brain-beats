@@ -270,6 +270,11 @@ async function runTestSuite() {
     await global.play_blue_noise();
     assert(global.boolBlue === 1, "play_blue_noise() runs successfully");
     global.stop_blue_noise();
+
+    await global.play_yellow_noise();
+    assert(global.boolYellow === 1, "play_yellow_noise() activates 200Hz lowpass yellow noise");
+    global.stop_yellow_noise();
+    assert(global.boolYellow === 0, "stop_yellow_noise() deactivates yellow noise cleanly");
   } catch (e) {
     assert(false, `Noise synthesizer tests threw exception: ${e.message}`);
   }
