@@ -66,11 +66,36 @@ Based on full codebase analysis (excluding `node_modules`, `.git`, `.jekyll-cach
 
 ---
 
-## 5. Key Architecture Enhancements Driving Added Value
+## 5. Granular Estimation: GitHub Pages & CI/CD Deployment Remediation
+
+A specific engineering effort estimation was conducted for repairing, configuring, and hardening the **`gh-pages`** continuous delivery subsystem:
+
+### Work Breakdown Structure (WBS):
+| Work Package / Task | Scope of Work | Estimated Hours | Effort (PM) | Value (USD @ $8k/PM) |
+| :--- | :--- | :---: | :---: | :---: |
+| **WP1: Branch Divergence & Tip Realignment** | Resolved branch desynchronization across 50+ remote branches, realigned local `gh-pages` tip with `master`/`doctor/master`. | 4.5 hrs | 0.028 PM | $225.00 |
+| **WP2: GitHub Actions CI/CD Architecture** | Designed `.github/workflows/pages.yml` with dual runtime environment (Node.js 20 & Ruby 3.3.8) and automated test gates. | 7.0 hrs | 0.044 PM | $350.00 |
+| **WP3: Dual-Mode Deployment Engineering** | Implemented simultaneous GitHub Actions Pages artifact upload (`actions/deploy-pages@v4`) and automated `gh-pages` branch publisher (`peaceiris/actions-gh-pages@v4`). | 5.5 hrs | 0.034 PM | $275.00 |
+| **WP4: PWA Precache & Build Bypass Integration** | Synchronized Workbox `sw-generated.js` (201 URLs, 11.1MB) into `_site`, added `.nojekyll` bypass, and updated ignore rules. | 4.0 hrs | 0.025 PM | $200.00 |
+| **WP5: Custom Domain & Routing Configuration** | Root `CNAME` mapping (`brain-beats.in`), DNS canonicalization, and Netlify/CloudFront header parity. | 3.0 hrs | 0.019 PM | $150.00 |
+| **WP6: Multi-Remote Propagation & Verification** | Executed end-to-end build verification across all branches and validated automated push propagation. | 4.0 hrs | 0.025 PM | $200.00 |
+| **Total `gh-pages` Remediation Effort** | **Complete GitHub Pages CI/CD & Branch Infrastructure** | **28.0 hrs** | **0.175 PM** | **$1,400.00** |
+
+### COCOMO Intermediate Cost Driver Adjustments (EAF):
+- **RELY (High Reliability / Zero-Downtime Deployment):** $1.15$
+- **CPLX (Multi-Cloud / Dual Pipeline Orchestration):** $1.15$
+- **TOOL (Modern Automated CI/CD Tooling):** $0.90$
+- **MODP (Declarative Workflow Architecture):** $0.90$
+- **Effort Adjustment Factor ($\text{EAF}$):** $1.15 \times 1.15 \times 0.90 \times 0.90 = \mathbf{1.071}$
+- **Adjusted Effort:** $0.175 \times 1.071 = \mathbf{0.187\text{ Person-Months}}\ (\mathbf{\$1,499.40\text{ USD}})$
+
+---
+
+## 6. Key Architecture Enhancements Driving Added Value
 
 1. **Integrated Lab Presets Database:** Expanded frequency databases with 5 major laboratory research sets (`xtra`, `prov`, `cust`, `vega`, `rife`), complete with UI generators, search indexing, and routing.
 2. **Web Audio DSP Engine Hardening:** Singleton `AudioContext` architecture, user interaction unlock listeners, stereo panning nodes, and consolidated multi-color noise generators with multi-tier buffer fallbacks.
 3. **Automated TDD Test Suite:** 24-test multi-phase verification harness (`tests/audio-engine.test.js`) validating synthesis, autoplay policies, octave shifting, database schemas, and precache integrity.
 4. **DRY Jekyll Layout Hierarchy:** Liquid metadata fallback chains for SEO, OpenGraph, Twitter Cards, and Disqus comment integration across 7,400+ generated pages.
 5. **PWA Offline Precache Architecture:** Workbox CLI manifest generation caching 201 critical runtime files (11.1MB) for zero-network execution.
-6. **Dual Cloud CI/CD Pipelines:** Automated deployments configured for **Netlify** (`netlify.toml`) and **GitHub Pages** (`.github/workflows/pages.yml`).
+6. **Dual Cloud CI/CD Deployments:** Automated deployments configured for **Netlify** (`netlify.toml`) and **GitHub Pages** (`.github/workflows/pages.yml`).
