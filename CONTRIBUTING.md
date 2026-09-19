@@ -34,4 +34,6 @@ Enhancement suggestions are welcome! Please create an issue explaining:
 *   Keep functions small and focused on a single task.
 
 ## Licensing
-By contributing, you agree that your contributions will be licensed under the project's AGPL v3 License for source code, and CC BY 4.0 for content, unless explicitly stated otherwise.
+By contributing, you agree that your contributions will be licensed under the project's dual-license framework:
+* **Source Code & Mechanics:** All code, scripts, and DSP audio algorithms are licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+* **Content & Documentation:** All written text, articles, documentation, and preset data are licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)** (which does not apply to programming or software mechanics).
