@@ -1,5 +1,69 @@
-[[plugins]]
-package = "@netlify/plugin-sitemap"
+# Netlify Configuration for Brain Beats
+# Jekyll static site generator & Web Audio PWA
 
+[build]
+  command = "bundle exec jekyll build && npm test && npm run build:sw"
+  publish = "_site"
+
+[build.environment]
+  RUBY_VERSION = "3.3.8"
+  NODE_VERSION = "20"
+  JEKYLL_ENV = "production"
+  NOKOGIRI_USE_SYSTEM_LIBRARIES = "true"
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
   [plugins.inputs]
-  prettyURLs = false
+    prettyURLs = false
+
+# Service Worker & Manifest headers (never cache SW so users get updates instantly)
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+    Content-Type = "application/javascript; charset=utf-8"
+
+[[headers]]
+  for = "/sw-generated.js"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+    Content-Type = "application/javascript; charset=utf-8"
+
+[[headers]]
+  for = "/manifest.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    Content-Type = "application/manifest+json; charset=utf-8"
+
+# Caching for static audio worklets, fonts, images, and JSON presets
+[[headers]]
+  for = "/noise-processor/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/json/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Global security and performance headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+
+# Domain canonicalization / redirects
+[[redirects]]
+  from = "https://brain-beats.netlify.app/*"
+  to = "https://brain-beats.in/:splat"
+  status = 301
+  force = true
