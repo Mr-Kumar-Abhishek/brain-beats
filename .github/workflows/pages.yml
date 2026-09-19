@@ -79,6 +79,7 @@ jobs:
           publish_dir: ./_site
           keep_files: false
           cname: brain-beats.in
+          commit_message: "deploy(pages): update production web application build for ${{ github.sha }}\n\nPublish Jekyll production bundle, audio engine, and static PWA assets to gh-pages branch.\n- Source commit: ${{ github.sha }}\n- Automated deployment via GitHub Actions"
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
