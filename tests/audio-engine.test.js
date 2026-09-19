@@ -417,6 +417,12 @@ async function runTestSuite() {
   const cocomoDoc = fs.readFileSync(path.join(__dirname, '../cocomo-cost-estimate.md'), 'utf8');
   assert(cocomoDoc.includes("COCOMO"), "cocomo-cost-estimate.md contains COCOMO economic valuation");
 
+  const contentLicense = fs.readFileSync(path.join(__dirname, '../LICENSE-CONTENT.txt'), 'utf8');
+  assert(contentLicense.includes("Creative Commons Attribution 4.0 International (CC BY 4.0)"), "LICENSE-CONTENT.txt specifies Creative Commons Attribution 4.0 International (CC BY 4.0)");
+
+  const legacyLicenseTxt = fs.readFileSync(path.join(__dirname, '../LICENSE.txt'), 'utf8');
+  assert(legacyLicenseTxt.includes("Creative Commons Attribution 4.0 International (CC BY 4.0)"), "LICENSE.txt specifies Creative Commons Attribution 4.0 International (CC BY 4.0)");
+
   const mainJsContent = fs.readFileSync(path.join(__dirname, '../js/main.js'), 'utf8');
   assert(mainJsContent.includes("play_yellow_noise") && mainJsContent.includes("play_violet_noise") && mainJsContent.includes("live_volume_set"), "js/main.js contains yellow noise, violet noise, and volume dynamics patches");
 
