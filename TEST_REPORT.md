@@ -3,15 +3,15 @@
 **Project:** Brain Beats  
 **Date:** September 18, 2026  
 **Methodology:** Test-Driven Development (TDD)  
-**Status:** All Tests Passing (31/31)
+**Status:** All Tests Passing (35/35)
 
 ---
 
 ## 1. Executive Summary
 
-This report documents the Test-Driven Development (TDD) verification and stability testing of the Brain Beats audio synthesis engine ([`js/main.js`](file:///var/www/html/js/main.js)), database schemas, offline Service Worker precaching layer ([`sw-generated.js`](file:///var/www/html/sw-generated.js)), and MathJax mathematical typography build infrastructure ([`_includes/mathjax.html`](file:///var/www/html/_includes/mathjax.html)).
+This report documents the Test-Driven Development (TDD) verification and stability testing of the Brain Beats audio synthesis engine ([`js/main.js`](file:///var/www/html/js/main.js)), volume control & gain dynamics algorithm, database schemas, offline Service Worker precaching layer ([`sw-generated.js`](file:///var/www/html/sw-generated.js)), and MathJax mathematical typography build infrastructure ([`_includes/mathjax.html`](file:///var/www/html/_includes/mathjax.html)).
 
-All 31 automated unit and integration tests across 10 evaluation phases execute cleanly with zero runtime failures, confirming offline compliance, browser Autoplay policy compliance, hardware audio context stability, and mathematical calculation rendering integrity.
+All 35 automated unit and integration tests across 11 evaluation phases execute cleanly with zero runtime failures, confirming offline compliance, browser Autoplay policy compliance, hardware audio context stability, gain scaling accuracy, and mathematical calculation rendering integrity.
 
 ---
 
@@ -37,6 +37,7 @@ flowchart LR
 | **Cycle 5** | Search & Routing | Duplicate `/blog/blog/` URL paths in search JSON | Removed redundant `/blog` prefix from `blog/search.json` | Validated search result redirection |
 | **Cycle 6** | Service Worker Precache | Missing precache files causing 404s when offline | Rebuilt precache manifest with Workbox | Validated that all 201 URLs exist on disk |
 | **Cycle 7** | MathJax Typography | Unformatted raw LaTeX strings and currency delimiter collisions | Created `_includes/mathjax.html`, configured TeX options, and added CDN with local fallback | Formatted COCOMO and EAF mathematical equations with `\(` and `\)` |
+| **Cycle 8** | Volume & Gain Scaling | Unverified dynamic gain updates during live playback | Added Phase 7 verification for linear $user\_volume/100$ scaling | Validated `live_volume_set()` across all synthesis modes |
 
 ---
 
@@ -58,13 +59,15 @@ The test suite is automated via Node.js in [`tests/audio-engine.test.js`](file:/
    * Tests multi-oscillator allocation and spatial distribution via `play_sine_3d_auto()` and custom frequency presets (`XTRA`, `PROV`, `CUST`, `VEGA`, `RIFE`).
 6. **Phase 6: Noise Synthesizers & Worklet Fallbacks**
    * Validates White, Pink, Brown, Green, Blue, Red, Black, Violet, Grey, Velvet, Orange, Yellow, and Turquoise noise generation without hardware context exhaustion.
-7. **Phase 7: Frequency Calculation & Octave Range Shifting**
+7. **Phase 7: Volume Control & Gain Dynamics Algorithm**
+   * Validates linear percentage-to-gain conversion ($user\_volume / 100$), dynamic `live_volume_set()` GainNode updates, and isochronic `toggle_volume()` pulse modulation.
+8. **Phase 8: Frequency Calculation & Octave Range Shifting**
    * Validates `adjustFrequency()` logic shifting infrasound ($<20\text{ Hz}$) and ultrasound ($>20\text{ kHz}$) into human hearing range ($20\text{ Hz} - 20,000\text{ Hz}$).
-8. **Phase 8: Preset Database Schema & File Integrity**
+9. **Phase 9: Preset Database Schema & File Integrity**
    * Validates that all 25 JSON database files in `json/` parse as valid arrays containing `data_name`, `data_start`, `data_stop`, and `data_id`.
-9. **Phase 9: Service Worker Offline Precache Verification**
-   * Validates that all 201 files in `sw-generated.js` physically exist on disk and total $\approx 11.1\text{ MB}$.
-10. **Phase 10: MathJax Configuration & Rendering Verification**
+10. **Phase 10: Service Worker Offline Precache Verification**
+    * Validates that all 201 files in `sw-generated.js` physically exist on disk and total $\approx 11.1\text{ MB}$.
+11. **Phase 11: MathJax Configuration & Rendering Verification**
     * Validates `_includes/mathjax.html` presence, TeX configurations, dynamic fallback loader, layout integration, kramdown math engine settings, and COCOMO LaTeX markup.
 
 ---
@@ -115,18 +118,26 @@ Phase 6: Noise Synthesizers & Worklet Fallback
   [PASS] play_yellow_noise() activates 200Hz lowpass yellow noise
   [PASS] stop_yellow_noise() deactivates yellow noise cleanly
 
-Phase 7: Frequency Calculation & Octave Range Shifting
+Phase 7: Volume Control & Gain Dynamics Algorithm
+  [PASS] volume_set() converts 0-100 percentage scale to 0.0-1.0 gain factor (75 -> 0.75)
+live volume ran
+controling volumes
+  [PASS] live_volume_set() dynamically updates active tone volume GainNode
+  [PASS] toggle_volume() enables volume on pulse onset
+  [PASS] toggle_volume() mutes volume on pulse offset
+
+Phase 8: Frequency Calculation & Octave Range Shifting
   [PASS] adjustFrequency shifts infrasound (<20Hz) up into hearing range
   [PASS] adjustFrequency preserves in-range frequencies (440Hz)
   [PASS] adjustFrequency shifts ultrasound (>20kHz) down into hearing range
 
-Phase 8: Preset Database Schema & File Integrity
+Phase 9: Preset Database Schema & File Integrity
   [PASS] All 25 JSON preset database files are valid
 
-Phase 9: Service Worker Offline Precache Verification
+Phase 10: Service Worker Offline Precache Verification
   [PASS] All 201 precached Service Worker URLs physically exist on disk
 
-Phase 10: MathJax Configuration & Rendering Verification
+Phase 11: MathJax Configuration & Rendering Verification
   [PASS] _includes/mathjax.html exists on disk
   [PASS] _includes/mathjax.html contains valid MathJax 3 configuration & CDN/local loader
   [PASS] _layouts/default.html includes mathjax.html
@@ -134,7 +145,7 @@ Phase 10: MathJax Configuration & Rendering Verification
   [PASS] cocomo.html includes MathJax and LaTeX formatted equations
 
 ==================================================
-   Test Results: 31 Passed, 0 Failed
+   Test Results: 35 Passed, 0 Failed
 ==================================================
 ```
 

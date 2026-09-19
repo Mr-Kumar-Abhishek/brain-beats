@@ -167,7 +167,7 @@ global.document = {
 };
 global.$ = (selector) => {
   const obj = {
-    val: () => "100",
+    val: () => (selector === '#volume' && global.testVolumeVal !== undefined ? String(global.testVolumeVal) : "100"),
     click: () => obj,
     change: () => obj,
     on: () => obj,
@@ -279,7 +279,29 @@ async function runTestSuite() {
     assert(false, `Noise synthesizer tests threw exception: ${e.message}`);
   }
 
-  console.log("\nPhase 7: Frequency Calculation & Octave Range Shifting");
+  console.log("\nPhase 7: Volume Control & Gain Dynamics Algorithm");
+  try {
+    global.testVolumeVal = 75;
+    assert(global.volume_set() === 0.75, "volume_set() converts 0-100 percentage scale to 0.0-1.0 gain factor (75 -> 0.75)");
+    
+    global.play_solfeggio(528);
+    global.live_volume_set();
+    assert(global.volume.gain.value === 0.75, "live_volume_set() dynamically updates active tone volume GainNode");
+    global.stop_solfeggio();
+
+    global.isochronic_flag = 1;
+    global.toggle_flag = 0;
+    global.toggle_volume();
+    assert(global.volume.gain.value === 0.75 && global.toggle_flag === 1, "toggle_volume() enables volume on pulse onset");
+    global.toggle_volume();
+    assert(global.volume.gain.value === 0 && global.toggle_flag === 0, "toggle_volume() mutes volume on pulse offset");
+    global.isochronic_flag = 0;
+    global.testVolumeVal = 100;
+  } catch (e) {
+    assert(false, `Volume tests threw exception: ${e.message}`);
+  }
+
+  console.log("\nPhase 8: Frequency Calculation & Octave Range Shifting");
   try {
     assert(global.adjustFrequency(10) === 20 || global.adjustFrequency(10) >= 20, "adjustFrequency shifts infrasound (<20Hz) up into hearing range");
     assert(global.adjustFrequency(440) === 440, "adjustFrequency preserves in-range frequencies (440Hz)");
@@ -288,7 +310,7 @@ async function runTestSuite() {
     assert(false, `Frequency adjustment tests threw exception: ${e.message}`);
   }
 
-  console.log("\nPhase 8: Preset Database Schema & File Integrity");
+  console.log("\nPhase 9: Preset Database Schema & File Integrity");
   const jsonDir = path.join(__dirname, '../json');
   const jsonFiles = fs.readdirSync(jsonDir).filter(f => f.endsWith('.json'));
   let validJsonCount = 0;
@@ -303,7 +325,7 @@ async function runTestSuite() {
   }
   assert(validJsonCount === jsonFiles.length, `All ${jsonFiles.length} JSON preset database files are valid`);
 
-  console.log("\nPhase 9: Service Worker Offline Precache Verification");
+  console.log("\nPhase 10: Service Worker Offline Precache Verification");
   const swCode = fs.readFileSync(path.join(__dirname, '../sw-generated.js'), 'utf8');
   const matches = swCode.match(/"url":"([^"]+)"/g) || [];
   let existingUrls = 0;
@@ -318,7 +340,7 @@ async function runTestSuite() {
   }
   assert(existingUrls === matches.length, `All ${matches.length} precached Service Worker URLs physically exist on disk`);
 
-  console.log("\nPhase 10: MathJax Configuration & Rendering Verification");
+  console.log("\nPhase 11: MathJax Configuration & Rendering Verification");
   const mathjaxIncludePath = path.join(__dirname, '../_includes/mathjax.html');
   assert(fs.existsSync(mathjaxIncludePath), "_includes/mathjax.html exists on disk");
   const mathjaxInclude = fs.readFileSync(mathjaxIncludePath, 'utf8');
