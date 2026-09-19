@@ -40,6 +40,7 @@ flowchart LR
 | **Cycle 8** | Volume & Gain Scaling | Unverified dynamic gain updates during live playback | Added Phase 7 verification for linear $user\_volume/100$ scaling | Validated `live_volume_set()` across all synthesis modes |
 | **Cycle 9** | Node.js 24 Deployment Environment | Outdated Node 20 runtime specifications in CI/CD and deployment configs | Pinned `.node-version` & `.nvmrc` to 24, set `netlify.toml` NODE_VERSION='24', `package.json` engines >=24.0.0 | Verified deployment automation workflow and added Phase 12 test assertions |
 | **Cycle 10** | Developer Docs & Patch Integrity | Documentation excluded from build artifacts & unverified patches | Restored comprehensive `README.md`, developer indexes, and added Phase 13 test gates | Validated `README.md`, `DEVELOPMENT.md`, `CONTRIBUTING.md`, `cocomo-cost-estimate.md`, and DSP patches |
+| **Cycle 11** | Cloud CI/CD & Netlify Hardening | Netlify exit codes 10, 1, and 2 on deployment branches and rate limits | Configured multi-branch dual-mode build handling and context in `netlify.toml`, removed unauthenticated gems, automated local sitemap | Added Phase 14 automated test gates in `tests/audio-engine.test.js` |
 
 ---
 
@@ -68,13 +69,15 @@ The test suite is automated via Node.js in [`tests/audio-engine.test.js`](file:/
 9. **Phase 9: Preset Database Schema & File Integrity**
    * Validates that all 25 JSON database files in `json/` parse as valid arrays containing `data_name`, `data_start`, `data_stop`, and `data_id`.
 10. **Phase 10: Service Worker Offline Precache Verification**
-    * Validates that all 201 files in `sw-generated.js` physically exist on disk and total $\approx 11.1\text{ MB}$.
+    * Validates that all 202 files in `sw-generated.js` physically exist on disk and total $\approx 11.2\text{ MB}$.
 11. **Phase 11: MathJax Configuration & Rendering Verification**
     * Validates `_includes/mathjax.html` presence, TeX configurations, dynamic fallback loader, layout integration, kramdown math engine settings, and COCOMO LaTeX markup.
 12. **Phase 12: Deployment Runtime & Node.js 24 Environment Verification**
     * Validates `.node-version` (24), `.nvmrc` (24), `netlify.toml` (`NODE_VERSION = "24"`), `package.json` (`engines.node >= 24.0.0`), and `.github/workflows/pages.yml` deployment workflow linkage.
 13. **Phase 13: Developer Documentation, README & Patch Integrity Verification**
     * Validates `README.md` (complete feature & developer guide index), `DEVELOPMENT.md`, `TEST_REPORT.md`, `CONTRIBUTING.md`, `cocomo-cost-estimate.md`, and core DSP synthesis patches (`js/main.js`).
+14. **Phase 14: Cloud CI/CD & Netlify Zero-Exit-Code Hardening Verification**
+    * Validates exclusion of `jekyll-github-metadata` (Exit Code 1), exclusion of `@netlify/plugin-sitemap` (Exit Code 10), dual-mode conditional build command in `netlify.toml`, `[context.gh-pages]` static build fallback, automated sitemap generator script, canonical domain integrity (`https://brain-beats.in`), and CodeQL scanning workflow configuration.
 
 ---
 
@@ -150,7 +153,7 @@ Phase 9: Preset Database Schema & File Integrity
   [PASS] All 25 JSON preset database files are valid
 
 Phase 10: Service Worker Offline Precache Verification
-  [PASS] All 201 precached Service Worker URLs physically exist on disk
+  [PASS] All 202 precached Service Worker URLs physically exist on disk
 
 Phase 11: MathJax Configuration & Rendering Verification
   [PASS] _includes/mathjax.html exists on disk
@@ -175,9 +178,18 @@ Phase 13: Developer Documentation, README & Patch Integrity Verification
   [PASS] LICENSE-CONTENT.txt specifies Creative Commons Attribution 4.0 International (CC BY 4.0)
   [PASS] LICENSE.txt specifies Creative Commons Attribution 4.0 International (CC BY 4.0)
   [PASS] Licenses and documentation specify GNU AGPL-3.0 strictly covers code, configuration files, and server configurations
-  [PASS] Web UI templates and pages include Creative Commons content license scope and navigation links
+  [PASS] Web UI templates and pages include Creative Commons content license scope and clean navigation without raw links
   [PASS] js/main.js contains yellow noise, violet noise, and volume dynamics patches
-   Test Results: 55 Passed, 0 Failed
+
+Phase 14: Cloud CI/CD & Netlify Zero-Exit-Code Hardening Verification
+  [PASS] Gemfile excludes jekyll-github-metadata to prevent AWS rate-limit exit code 1
+  [PASS] netlify.toml excludes @netlify/plugin-sitemap to prevent plugin crash exit code 10
+  [PASS] netlify.toml implements conditional build logic for source vs deployment branches
+  [PASS] netlify.toml configures explicit static build context for gh-pages
+  [PASS] package.json contains automated sitemap and offline build scripts
+  [PASS] sitemap.xml exists and maintains canonical domain integrity (https://brain-beats.in)
+  [PASS] .github/workflows/codeql.yml exists and configures automated CodeQL scanning
+   Test Results: 62 Passed, 0 Failed
 ==================================================
 ```
 
