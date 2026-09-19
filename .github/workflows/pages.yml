@@ -56,10 +56,19 @@ jobs:
           JEKYLL_ENV: production
         run: bundle exec jekyll build
 
-      - name: Sync Service Worker & Bypass Jekyll Processing
+      - name: Sync Service Worker, Documentation & Bypass Jekyll Processing
         run: |
           npm run build:sw
           cp sw-generated.js _site/sw-generated.js || true
+          cp README.md _site/README.md || true
+          cp DEVELOPMENT.md _site/DEVELOPMENT.md || true
+          cp TEST_REPORT.md _site/TEST_REPORT.md || true
+          cp CONTRIBUTING.md _site/CONTRIBUTING.md || true
+          cp cocomo-cost-estimate.md _site/cocomo-cost-estimate.md || true
+          cp package.json _site/package.json || true
+          cp .node-version _site/.node-version || true
+          cp .nvmrc _site/.nvmrc || true
+          cp netlify.toml _site/netlify.toml || true
           touch _site/.nojekyll
 
       - name: Deploy to gh-pages Branch
