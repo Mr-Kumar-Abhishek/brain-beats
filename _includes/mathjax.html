@@ -1,0 +1,44 @@
+<!-- MathJax 3 Configuration & Loader for Crisp Mathematical Notation Rendering -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)'], ['$', '$']],
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],
+      processEscapes: true,
+      processEnvironments: true,
+      tags: 'ams',
+      autoload: {
+        color: [],
+        colorV2: ['color']
+      },
+      packages: {'[+]': ['noerrors', 'noundefined']}
+    },
+    options: {
+      ignoreHtmlClass: 'tex2jax_ignore',
+      processHtmlClass: 'tex2jax_process',
+      renderActions: {
+        addMenu: []
+      }
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center'
+    },
+    svg: {
+      fontCache: 'global'
+    },
+    startup: {
+      ready: () => {
+        MathJax.startup.defaultReady();
+      }
+    }
+  };
+</script>
+<!-- MathJax Dynamic Script with CDN and Local Fallback -->
+<script
+  type="text/javascript"
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+  onerror="this.onerror=null;this.src='/blog/js/tex-mml-chtml.js';"
+></script>
