@@ -231,10 +231,13 @@ npm test
 3. **Phase 3: Single Tone Synthesis & Parameter Safety** - Pure tone, Solfeggio, and Angel tone verification.
 4. **Phase 4: Double Tone Synthesis** - Binaural & Monaural beat stereo separation and teardown.
 5. **Phase 5: 3D Spatial Audio & Multi-Frequency Matrices** - PannerNode and 3-point matrix coordination.
-6. **Phase 6: Noise Synthesizers** - White, Pink, Brown, Green, Blue noise pipeline validation.
-7. **Phase 7: Frequency Calculation & Octave Shifting** - Boundary conditions (infrasound <20Hz, ultrasound >20kHz).
-8. **Phase 8: Preset Database Schema & File Integrity** - Parsing and validating all 25 JSON catalogs.
-9. **Phase 9: Service Worker Offline Precache Verification** - Verifying that every URL precached in the service worker physically exists on disk.
+6. **Phase 6: Noise Synthesizers & Worklet Fallbacks** - 13 calibrated noise profiles without hardware context exhaustion.
+7. **Phase 7: Volume Control & Gain Dynamics Algorithm** - Dynamic `live_volume_set()`, `toggle_volume()` modulation, and volume box controls.
+8. **Phase 8: Frequency Calculation & Octave Shifting** - Boundary conditions (infrasound <20Hz, ultrasound >20kHz).
+9. **Phase 9: Preset Database Schema & File Integrity** - Parsing and validating all 25 JSON catalogs.
+10. **Phase 10: Service Worker Offline Precache Verification** - Verifying that every URL precached in the service worker physically exists on disk.
+11. **Phase 11: MathJax Configuration & Rendering Verification** - TeX configuration, dynamic CDN/local fallback loader, and COCOMO LaTeX markup.
+12. **Phase 12: Deployment Runtime & Node.js 24 Environment Verification** - `.node-version`, `.nvmrc`, `netlify.toml`, `package.json`, and GitHub Pages CI/CD workflow verification.
 
 For complete test logs and historical metrics, see [`TEST_REPORT.md`](file:///var/www/html/TEST_REPORT.md).
 
