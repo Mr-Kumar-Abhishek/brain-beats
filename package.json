@@ -9,12 +9,12 @@
     "serve:jekyll": "bundle exec jekyll serve"
   },
   "dependencies": {
-    "glob": "^13.0.6",
-    "workbox-cli": "^7.4.1"
+    "glob": "^13.0.6"
   },
   "devDependencies": {
     "inquirer": "^13.4.2",
-    "tmp": "^0.2.6"
+    "tmp": "^0.2.6",
+    "workbox-cli": "^7.4.1"
   },
   "engines": {
     "node": ">=24.0.0"
