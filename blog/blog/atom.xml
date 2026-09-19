@@ -11,7 +11,7 @@ layout: null
 	<id>{{site.url}}/blog</id>
 	<author>
 		<name>Abhishek Kumar</name>
-		<email>mr.kumar.abhishek@email.com</email>
+		<email>support@brain-beats.in</email>
 	</author>
 
 	{% for post in site.posts %}
