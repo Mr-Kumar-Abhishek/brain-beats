@@ -271,10 +271,18 @@ async function runTestSuite() {
     assert(global.boolBlue === 1, "play_blue_noise() runs successfully");
     global.stop_blue_noise();
 
+    await global.play_violet_noise();
+    assert(global.boolViolet === 1, "play_violet_noise() activates +6dB/oct differentiated violet noise");
+    
+    // Test transition from Violet to Yellow noise
     await global.play_yellow_noise();
-    assert(global.boolYellow === 1, "play_yellow_noise() activates 200Hz lowpass yellow noise");
-    global.stop_yellow_noise();
-    assert(global.boolYellow === 0, "stop_yellow_noise() deactivates yellow noise cleanly");
+    assert(global.boolYellow === 1 && global.boolViolet === 0, "play_yellow_noise() cleanly transitions from violet to yellow noise without conflicts");
+    
+    // Test transition from Yellow to Violet noise
+    await global.play_violet_noise();
+    assert(global.boolViolet === 1 && global.boolYellow === 0, "play_violet_noise() cleanly transitions from yellow to violet noise without conflicts");
+    global.stop_violet_noise();
+    assert(global.boolViolet === 0, "stop_violet_noise() deactivates violet noise cleanly");
   } catch (e) {
     assert(false, `Noise synthesizer tests threw exception: ${e.message}`);
   }
@@ -296,6 +304,17 @@ async function runTestSuite() {
     global.toggle_volume();
     assert(global.volume.gain.value === 0 && global.toggle_flag === 0, "toggle_volume() mutes volume on pulse offset");
     global.isochronic_flag = 0;
+
+    await global.play_violet_noise();
+    global.live_volume_set();
+    assert(global.violetNoiseNodeGain.gain.value === 0.75, "live_volume_set() dynamically updates violet noise gain");
+    global.stop_violet_noise();
+
+    await global.play_yellow_noise();
+    global.live_volume_set();
+    assert(global.yellowNoiseNodeGain.gain.value === 0.75, "live_volume_set() dynamically updates yellow noise gain");
+    global.stop_yellow_noise();
+
     global.testVolumeVal = 100;
   } catch (e) {
     assert(false, `Volume tests threw exception: ${e.message}`);
