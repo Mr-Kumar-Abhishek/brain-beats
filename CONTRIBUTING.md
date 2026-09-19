@@ -35,5 +35,5 @@ Enhancement suggestions are welcome! Please create an issue explaining:
 
 ## Licensing
 By contributing, you agree that your contributions will be licensed under the project's dual-license framework:
-* **Software, Mechanics & Configuration Files:** All code, scripts, DSP audio algorithms, and environment/deployment configuration files are strictly licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
-* **Content & Documentation:** All written text, articles, documentation, and preset data are licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)** (which strictly does not apply to programming, software mechanics, or configuration files).
+* **Software, Mechanics, Configuration Files & Server Configurations:** All code, scripts, DSP audio algorithms, environment/deployment configuration files, and server configurations are strictly licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+* **Content & Documentation:** All written text, articles, documentation, and preset data are licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)** (which strictly does not apply to programming, software mechanics, configuration files, or server configurations).

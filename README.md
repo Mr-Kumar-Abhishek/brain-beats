@@ -18,11 +18,11 @@ For detailed technical guides, architectural blueprints, test reports, and contr
 | Document | Description | Key Topics |
 | :--- | :--- | :--- |
 | 📘 **[Developer Guide](DEVELOPMENT.md)** | Comprehensive developer manual & architecture | Web Audio synthesis pipeline, DRY Jekyll layout inheritance, PWA offline precaching, Netlify & GitHub Pages CI/CD |
-| 🧪 **[Test Verification Report](TEST_REPORT.md)** | Test-Driven Development (TDD) verification suite | 53 automated unit & integration tests, 13 test phases, Red-Green-Refactor audit matrix, execution logs |
+| 🧪 **[Test Verification Report](TEST_REPORT.md)** | Test-Driven Development (TDD) verification suite | 54 automated unit & integration tests, 13 test phases, Red-Green-Refactor audit matrix, execution logs |
 | 🤝 **[Contributing Guidelines](CONTRIBUTING.md)** | Contribution standards & code style | PR workflows, bug reporting, XSS prevention, safe DOM handling, branch management |
 | 📊 **[COCOMO Cost Estimation](cocomo-cost-estimate.md)** | Formal software engineering economic analysis | Constructive Cost Model effort estimation, 50+ KSLOC codebase metrics, work packages (also at [cocomo.html](https://brain-beats.in/cocomo.html)) |
-| ⚖️ **[Source Code & Config License (AGPLv3)](LICENSE)** | Software, mechanics & configuration license | GNU Affero General Public License v3.0 covering all software programming code, audio DSP algorithms, worklets, mechanics, and configuration files |
-| 📝 **[Content License (CC BY 4.0)](LICENSE-CONTENT.txt)** | Content & documentation license | Creative Commons Attribution 4.0 International license covering written articles, documentation, and audio preset datasets (strictly excluding code, mechanics, and configs) |
+| ⚖️ **[Source Code & Config License (AGPLv3)](LICENSE)** | Software, mechanics, configs & server configurations | GNU Affero General Public License v3.0 covering all software programming code, audio DSP algorithms, worklets, mechanics, configuration files, and server configurations |
+| 📝 **[Content License (CC BY 4.0)](LICENSE-CONTENT.txt)** | Content & documentation license | Creative Commons Attribution 4.0 International license covering written articles, documentation, and audio preset datasets (strictly excluding code, mechanics, configuration files, and server configurations) |
 
 ---
 
@@ -245,7 +245,7 @@ Contributions are welcome! Please review [CONTRIBUTING.md](CONTRIBUTING.md) befo
 
 ## 📄 Dual Licensing Model & Governance
 
-This project enforces a strict boundary separating software programming and configuration files from creative and educational content:
+This project enforces a strict boundary separating software programming, configuration files, and server configurations from creative and educational content:
 
-* **Software, Programming Mechanics & Configuration Files:** Strictly licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. Covers all application source code, JavaScript synthesis algorithms, AudioWorklet processors, scripts, interactive generative mechanics, and configuration files (`package.json`, `.node-version`, `.nvmrc`, `netlify.toml`, `_config.yml`, Workbox configs, and CI/CD pipelines). See [`LICENSE`](LICENSE) for complete terms.
-* **Content & Documentation:** Licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. Applies exclusively to written documentation, research guides, blog articles, and audio frequency preset catalogs. Does *not* apply to software programming, audio engines, technical mechanics, or configuration files. See [`LICENSE-CONTENT.txt`](LICENSE-CONTENT.txt) for complete terms.
+* **Software, Programming Mechanics, Configuration Files & Server Configurations:** Strictly licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. Covers all application source code, JavaScript synthesis algorithms, AudioWorklet processors, scripts, interactive generative mechanics, configuration files, and server configurations (`package.json`, `.node-version`, `.nvmrc`, `netlify.toml`, `_config.yml`, Workbox configs, web server headers/redirects, and CI/CD pipelines). See [`LICENSE`](LICENSE) for complete terms.
+* **Content & Documentation:** Licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. Applies exclusively to written documentation, research guides, blog articles, and audio frequency preset catalogs. Does *not* apply to software programming, audio engines, technical mechanics, configuration files, or server configurations. See [`LICENSE-CONTENT.txt`](LICENSE-CONTENT.txt) for complete terms.
