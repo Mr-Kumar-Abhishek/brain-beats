@@ -428,7 +428,7 @@ async function runTestSuite() {
   const licensesHtmlContent = fs.readFileSync(path.join(__dirname, '../licenses.html'), 'utf8');
   const defaultLayoutContent = fs.readFileSync(path.join(__dirname, '../_layouts/default.html'), 'utf8');
   const indexHtmlContent = fs.readFileSync(path.join(__dirname, '../index.html'), 'utf8');
-  assert(licensesHtmlContent.includes("Creative Commons Attribution 4.0 International (CC BY 4.0)") && licensesHtmlContent.includes("Dual Licensing Model &amp; Governance") && defaultLayoutContent.includes("Creative Commons Attribution 4.0 International (CC BY 4.0)") && indexHtmlContent.includes("Content License (CC BY 4.0)"), "Web UI templates and pages include Creative Commons content license scope and navigation links");
+  assert(licensesHtmlContent.includes("Creative Commons Attribution 4.0 International (CC BY 4.0)") && licensesHtmlContent.includes("Dual Licensing Model &amp; Governance") && defaultLayoutContent.includes("Creative Commons Attribution 4.0 International (CC BY 4.0)") && indexHtmlContent.includes("licenses.html") && !indexHtmlContent.includes("raw.githubusercontent.com"), "Web UI templates and pages include Creative Commons content license scope and clean navigation without raw links");
 
   const mainJsContent = fs.readFileSync(path.join(__dirname, '../js/main.js'), 'utf8');
   assert(mainJsContent.includes("play_yellow_noise") && mainJsContent.includes("play_violet_noise") && mainJsContent.includes("live_volume_set"), "js/main.js contains yellow noise, violet noise, and volume dynamics patches");
