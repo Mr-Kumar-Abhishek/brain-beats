@@ -384,6 +384,23 @@ async function runTestSuite() {
 
   const cocomoHtml = fs.readFileSync(path.join(__dirname, '../cocomo.html'), 'utf8');
   assert(cocomoHtml.includes("MathJax") && cocomoHtml.includes("\\text{Effort}"), "cocomo.html includes MathJax and LaTeX formatted equations");
+
+  console.log("\nPhase 12: Deployment Runtime & Node.js 24 Environment Verification");
+  const nodeVersionFile = fs.readFileSync(path.join(__dirname, '../.node-version'), 'utf8').trim();
+  assert(nodeVersionFile === '24', ".node-version is pinned to Node.js 24");
+
+  const nvmrcFile = fs.readFileSync(path.join(__dirname, '../.nvmrc'), 'utf8').trim();
+  assert(nvmrcFile === '24', ".nvmrc is pinned to Node.js 24");
+
+  const netlifyToml = fs.readFileSync(path.join(__dirname, '../netlify.toml'), 'utf8');
+  assert(netlifyToml.includes('NODE_VERSION = "24"'), "netlify.toml configures NODE_VERSION = '24'");
+
+  const pkgJson = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json'), 'utf8'));
+  assert(pkgJson.engines && pkgJson.engines.node === '>=24.0.0', "package.json specifies engines.node >= 24.0.0");
+
+  const pagesWorkflow = fs.readFileSync(path.join(__dirname, '../.github/workflows/pages.yml'), 'utf8');
+  assert(pagesWorkflow.includes("node-version-file: '.node-version'"), ".github/workflows/pages.yml references .node-version (Node 24)");
+
   console.log(`   Test Results: ${passed} Passed, ${failed} Failed`);
   console.log("==================================================\n");
 
