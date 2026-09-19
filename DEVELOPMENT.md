@@ -242,7 +242,22 @@ For complete test logs and historical metrics, see [`TEST_REPORT.md`](file:///va
 
 ---
 
-## 10. Multi-Remote Synchronization Workflow
+## 10. Netlify & Cloud Deployment (`netlify.toml`)
+
+The application is configured for automated Continuous Deployment via Netlify (backed by AWS infrastructure):
+
+* **Build Command:** `bundle exec jekyll build && npm test && npm run build:sw`
+* **Publish Directory:** `_site`
+* **Runtime Versions:** Controlled via `.ruby-version` (Ruby 3.3.8) and `.node-version` (Node 20).
+* **Caching & Header Policies:**
+  - `sw.js` and `sw-generated.js` are served with `Cache-Control: no-cache, no-store, must-revalidate` to ensure instant client updates.
+  - Audio worklets, static icons, and fonts use immutable caching (`max-age=31536000, immutable`).
+  - Strict security headers (`X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy`) applied globally.
+  - Domain canonicalization rules map `https://brain-beats.netlify.app/*` $\to$ `https://brain-beats.in/:splat`.
+
+---
+
+## 11. Multi-Remote Synchronization Workflow
 
 This project maintains synchronized branches across both `origin` (personal) and `upstream` (organization) remotes:
 
@@ -256,3 +271,4 @@ for branch in $(git branch -r | grep 'upstream/' | grep -v 'HEAD' | sed 's/ *ups
   git push upstream HEAD:refs/heads/$branch
 done
 ```
+
