@@ -366,6 +366,69 @@
 </tr>
 </tbody>
 </table>
+<h2>Specific Engineering Breakdown: GitHub Pages &amp; CI/CD Remediation</h2>
+<table class="table table-bordered table-striped">
+<thead>
+<tr>
+<th>Work Package / Task</th>
+<th>Scope of Work</th>
+<th style="text-align: right;">Estimated Hours</th>
+<th style="text-align: right;">Effort (PM)</th>
+<th style="text-align: right;">Value ($8k/PM)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WP1: Branch Alignment</td>
+<td>Resolved branch desynchronization across 50+ remotes, realigned local gh-pages tip.</td>
+<td style="text-align: right;">4.5 hrs</td>
+<td style="text-align: right;">0.028 PM</td>
+<td style="text-align: right;">$225.00</td>
+</tr>
+<tr>
+<td>WP2: GitHub Actions CI/CD</td>
+<td>Designed .github/workflows/pages.yml with Node.js 20 &amp; Ruby 3.3.8 runtimes.</td>
+<td style="text-align: right;">7.0 hrs</td>
+<td style="text-align: right;">0.044 PM</td>
+<td style="text-align: right;">$350.00</td>
+</tr>
+<tr>
+<td>WP3: Dual Deployment Pipeline</td>
+<td>Integrated Actions Artifact upload &amp; automated gh-pages branch publisher.</td>
+<td style="text-align: right;">5.5 hrs</td>
+<td style="text-align: right;">0.034 PM</td>
+<td style="text-align: right;">$275.00</td>
+</tr>
+<tr>
+<td>WP4: PWA Precache Integration</td>
+<td>Synced sw-generated.js (201 URLs, 11.1MB) into _site and configured .nojekyll.</td>
+<td style="text-align: right;">4.0 hrs</td>
+<td style="text-align: right;">0.025 PM</td>
+<td style="text-align: right;">$200.00</td>
+</tr>
+<tr>
+<td>WP5: Custom Domain Routing</td>
+<td>Root CNAME configuration (brain-beats.in) and DNS canonicalization.</td>
+<td style="text-align: right;">3.0 hrs</td>
+<td style="text-align: right;">0.019 PM</td>
+<td style="text-align: right;">$150.00</td>
+</tr>
+<tr>
+<td>WP6: Multi-Remote Verification</td>
+<td>Executed end-to-end build verification and validated push propagation.</td>
+<td style="text-align: right;">4.0 hrs</td>
+<td style="text-align: right;">0.025 PM</td>
+<td style="text-align: right;">$200.00</td>
+</tr>
+<tr>
+<td><strong>Total gh-pages Remediation</strong></td>
+<td><strong>Complete GitHub Pages CI/CD &amp; Branch Subsystem (EAF: 1.071)</strong></td>
+<td style="text-align: right;"><strong>28.0 hrs</strong></td>
+<td style="text-align: right;"><strong>0.187 PM</strong></td>
+<td style="text-align: right;"><strong>$1,499.40</strong></td>
+</tr>
+</tbody>
+</table>
 <h2>Notes</h2>
 <p>These are high-level estimates based on the current repository size of 464.520 KLOC across 6,619 source files (including Web Audio DSP algorithms, 25 preset JSON catalogs, automated test suites, PWA service workers, cloud deployment pipelines, and research blog content) using standard Basic COCOMO assumptions. Actual costs may vary depending on staffing, tooling, maintenance, hosting, and feature scope.</p>
 
