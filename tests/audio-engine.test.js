@@ -401,6 +401,25 @@ async function runTestSuite() {
   const pagesWorkflow = fs.readFileSync(path.join(__dirname, '../.github/workflows/pages.yml'), 'utf8');
   assert(pagesWorkflow.includes("node-version-file: '.node-version'"), ".github/workflows/pages.yml references .node-version (Node 24)");
 
+  console.log("\nPhase 13: Developer Documentation, README & Patch Integrity Verification");
+  const readmeContent = fs.readFileSync(path.join(__dirname, '../README.md'), 'utf8');
+  assert(readmeContent.includes("Developer Documentation & Architecture Index") && readmeContent.includes("Brain Beats"), "README.md exists and contains complete feature guide & developer documentation index");
+
+  const devGuideContent = fs.readFileSync(path.join(__dirname, '../DEVELOPMENT.md'), 'utf8');
+  assert(devGuideContent.includes("System Architecture Overview") && devGuideContent.includes("Web Audio Engine"), "DEVELOPMENT.md contains architecture and developer guidelines");
+
+  const testReportContent = fs.readFileSync(path.join(__dirname, '../TEST_REPORT.md'), 'utf8');
+  assert(testReportContent.includes("Red-Green-Refactor Matrix"), "TEST_REPORT.md contains TDD audit matrix and execution records");
+
+  const contributingContent = fs.readFileSync(path.join(__dirname, '../CONTRIBUTING.md'), 'utf8');
+  assert(contributingContent.includes("Code of Conduct") && contributingContent.includes("Pull Requests"), "CONTRIBUTING.md contains contribution and security rules");
+
+  const cocomoDoc = fs.readFileSync(path.join(__dirname, '../cocomo-cost-estimate.md'), 'utf8');
+  assert(cocomoDoc.includes("COCOMO"), "cocomo-cost-estimate.md contains COCOMO economic valuation");
+
+  const mainJsContent = fs.readFileSync(path.join(__dirname, '../js/main.js'), 'utf8');
+  assert(mainJsContent.includes("play_yellow_noise") && mainJsContent.includes("play_violet_noise") && mainJsContent.includes("live_volume_set"), "js/main.js contains yellow noise, violet noise, and volume dynamics patches");
+
   console.log(`   Test Results: ${passed} Passed, ${failed} Failed`);
   console.log("==================================================\n");
 
