@@ -53,19 +53,7 @@ layout: compress
 			 src="https://www.googletagmanager.com/gtag/js?id=UA-70747360-2"
 		   ></script>
 		   <script async src="/js/google-analytics.js" ></script>
-		   	<!-- MathJax Configuration -->
-			<script>
-				window.MathJax = {
-				tex: {
-					inlineMath: [['$', '$'], ['\\(', '\\)']],
-					displayMath: [['$$', '$$'], ['\\[', '\\]']],
-					processEscapes: true,
-				},
-				svg: { fontCache: 'global' },
-				};
-			</script>
-		<!-- Load MathJax -->
-		<script type="text/javascript" id="MathJax-script" async src="{{site.url}}/blog/js/tex-mml-chtml.js"></script>		  
+		{% include mathjax.html %}		  
 
 	</head>
 	<body>

@@ -186,7 +186,13 @@ Posts and pages only need to define unique frontmatter properties (`title`, `des
 <meta property="og:title" content="{{ page.og-title | default: page.title | default: site.name }}" >
 ```
 
-### 6.2. Generating Posts from Presets
+### 6.2. MathJax 3 Typography Configuration (`_includes/mathjax.html`)
+Mathematical formulas and calculations across Jekyll pages, blog posts, and estimation reports (e.g. [`cocomo.html`](file:///var/www/html/cocomo.html)) are rendered via MathJax 3 with support for both TeX inline `\(` `\)` and display `\[` `\]` / `$$` `$$` delimiters:
+* **Configuration:** Defined modularly in [`_includes/mathjax.html`](file:///var/www/html/_includes/mathjax.html) and included across all layout chains.
+* **Dual CDN & Offline Loader:** Loads primary bundle from CDN (`jsdelivr`) with an instant fallback (`onerror`) to the local precached `/blog/js/tex-mml-chtml.js` for offline PWA operation.
+* **Kramdown Engine:** Configured in `_config.yml` via `kramdown.math_engine: mathjax`.
+
+### 6.3. Generating Posts from Presets
 To regenerate or batch-generate markdown posts from JSON catalogs:
 ```bash
 python3 generate_posts.py

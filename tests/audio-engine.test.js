@@ -313,7 +313,20 @@ async function runTestSuite() {
   }
   assert(existingUrls === matches.length, `All ${matches.length} precached Service Worker URLs physically exist on disk`);
 
-  console.log("\n==================================================");
+  console.log("\nPhase 10: MathJax Configuration & Rendering Verification");
+  const mathjaxIncludePath = path.join(__dirname, '../_includes/mathjax.html');
+  assert(fs.existsSync(mathjaxIncludePath), "_includes/mathjax.html exists on disk");
+  const mathjaxInclude = fs.readFileSync(mathjaxIncludePath, 'utf8');
+  assert(mathjaxInclude.includes("window.MathJax") && mathjaxInclude.includes("inlineMath") && mathjaxInclude.includes("tex-mml-chtml.js"), "_includes/mathjax.html contains valid MathJax 3 configuration & CDN/local loader");
+
+  const defaultLayout = fs.readFileSync(path.join(__dirname, '../_layouts/default.html'), 'utf8');
+  assert(defaultLayout.includes("{% include mathjax.html %}"), "_layouts/default.html includes mathjax.html");
+
+  const configYml = fs.readFileSync(path.join(__dirname, '../_config.yml'), 'utf8');
+  assert(configYml.includes("math_engine: mathjax"), "_config.yml configures math_engine: mathjax for kramdown");
+
+  const cocomoHtml = fs.readFileSync(path.join(__dirname, '../cocomo.html'), 'utf8');
+  assert(cocomoHtml.includes("MathJax") && cocomoHtml.includes("\\text{Effort}"), "cocomo.html includes MathJax and LaTeX formatted equations");
   console.log(`   Test Results: ${passed} Passed, ${failed} Failed`);
   console.log("==================================================\n");
 
