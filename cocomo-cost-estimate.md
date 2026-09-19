@@ -10,7 +10,7 @@ Based on full codebase analysis (excluding `node_modules`, `.git`, `.jekyll-cach
 
 | Language / Format | Files | Source Lines (SLOC) | Percentage | Role in Architecture |
 | :--- | :---: | :---: | :---: | :--- |
-| **JSON Data Schemas** | 49 | 188,282 | 40.5% | 25 Frequency preset databases, lab matrices, CAFL presets |
+| **JSON Data Schemas** | 49 | 188,282 | 40.5% | 25 Frequency preset databases, lab matrices, CAFL indices |
 | **Markdown Knowledge Base** | 6,234 | 118,863 | 25.6% | Research blog posts, documentation, testing reports |
 | **CSS / Styling** | 19 | 44,005 | 9.5% | UI theme, responsive design, animations |
 | **JavaScript (Engine & UI)** | 123 | 43,636 | 9.4% | Web Audio DSP, singleton AudioContext, PWA Service Worker, search |
