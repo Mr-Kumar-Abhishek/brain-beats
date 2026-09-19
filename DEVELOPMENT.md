@@ -262,12 +262,13 @@ The application is configured for automated Continuous Deployment via Netlify (b
 The project includes an automated GitHub Pages deployment workflow using official GitHub Actions (`actions/deploy-pages@v4`):
 
 * **Trigger:** Push to `master`, `main`, or `doctor/master`, and manual dispatch (`workflow_dispatch`).
-* **Pipeline:**
+* **Dual Deployment Pipeline:**
   1. Sets up Node.js 20 and Ruby 3.3.
   2. Runs `npm test` (TDD verification of the Web Audio engine and JSON presets).
   3. Precompiles Workbox service worker precache (`npm run build:sw`).
   4. Builds Jekyll production site into `_site` via Bundler.
-  5. Bypasses Jekyll backend reprocessing (`.nojekyll`) and publishes artifact directly to GitHub Pages.
+  5. Bypasses Jekyll backend reprocessing (`.nojekyll`) and publishes artifact directly to GitHub Pages (`actions/deploy-pages@v4`).
+  6. Automatically syncs and pushes compiled production assets to the `gh-pages` branch (`peaceiris/actions-gh-pages@v4`).
 * **Custom Domain:** Configured via root [`CNAME`](file:///var/www/html/CNAME) (`brain-beats.in`).
 
 ---
