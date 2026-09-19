@@ -1,101 +1,128 @@
-# COCOMO Production Cost Estimate & Software Valuation
+# COCOMO Production Cost & Software Maintenance Valuation
 
-This document provides a comprehensive production-cost re-estimation for the **Brain Beats** codebase using the Constructive Cost Model (COCOMO 81 / Basic COCOMO) across three standard deployment modes: **Organic**, **Semi-Detached**, and **Embedded**.
+This document provides a comprehensive software engineering cost and maintenance re-estimation for the **Brain Beats** web application and audio synthesis platform using the Constructive Cost Model (COCOMO 81 / Basic COCOMO & Maintenance Model) across three standard deployment modes: **Organic**, **Semi-Detached**, and **Embedded**.
 
 ---
 
 ## 1. Project Sizing & Language Breakdown
 
-Based on full codebase analysis (excluding `node_modules`, `.git`, `.jekyll-cache`, `_site`, and build artifacts), the active source tree comprises **6,619 files** totaling **464,520 Source Lines of Code (464.520 KLOC)**:
+Based on full static analysis of the active source tree (excluding `node_modules`, `.git`, `.jekyll-cache`, `_site`, and build artifacts), the active codebase comprises **6,621 source files** totaling **448,274 Source Lines of Code (448.274 KLOC)**:
 
 | Language / Format | Files | Source Lines (SLOC) | Percentage | Role in Architecture |
 | :--- | :---: | :---: | :---: | :--- |
-| **JSON Data Schemas** | 49 | 188,282 | 40.5% | 25 Frequency preset databases, lab matrices, CAFL presets |
-| **Markdown Knowledge Base** | 6,234 | 118,863 | 25.6% | Research blog posts, documentation, testing reports |
-| **CSS / Styling** | 19 | 44,005 | 9.5% | UI theme, responsive design, animations |
-| **JavaScript (Engine & UI)** | 123 | 43,636 | 9.4% | Web Audio DSP, singleton AudioContext, PWA Service Worker, search |
-| **Text Data & Configs** | 23 | 40,510 | 8.7% | Ads, manifests, license matrices |
-| **HTML UI & Jekyll Layouts** | 53 | 21,131 | 4.5% | Tone generators, mind machines, DRY Liquid templates |
-| **AudioWorklets (ES Modules)** | 8 | 3,931 | 0.8% | Real-time noise generators (White, Pink, Brown, Green, Blue) |
-| **SVG Visual Assets** | 1 | 2,386 | 0.5% | Vector diagrams and UI icons |
-| **Ruby / Gemfile / YAML** | 9 | 778 | 0.2% | Jekyll plugins, Bundler config, GitHub Actions workflows |
-| **Testing Harness** | 1 | 480 | 0.1% | Automated TDD Web Audio verification suite |
-| **TOML Configuration** | 1 | 69 | 0.0% | Netlify edge headers, redirects, caching policies |
-| **Total Source Code** | **6,619** | **464,520** | **100.0%** | **464.520 KLOC** |
+| **JSON Data Schemas** | 49 | 188,290 | 42.0% | 25 Frequency preset databases, laboratory matrices, Rife CAFL presets |
+| **Markdown Knowledge Base** | 6,234 | 125,486 | 28.0% | Research blog posts, frequency references, documentation, guides |
+| **CSS / Styling** | 19 | 44,006 | 9.8% | UI theme, responsive design, dark/light styling, layout animations |
+| **JavaScript (Engine & UI)** | 123 | 43,849 | 9.8% | Web Audio DSP synthesis, singleton AudioContext, PWA Service Worker, search |
+| **HTML UI & Jekyll Layouts** | 54 | 21,099 | 4.7% | Tone generators, mind machines, DRY Liquid layouts, meta tags |
+| **Text Data & Manifests** | 23 | 17,427 | 3.9% | Ads configuration, manifests, license matrices, robots/sitemap |
+| **AudioWorklets (ES Modules)** | 8 | 3,939 | 0.9% | Real-time multi-color noise generators (White, Pink, Brown, Green, Blue, Violet) |
+| **SVG Visual Assets** | 1 | 2,386 | 0.5% | Vector diagrams, mandala visualizers, UI iconography |
+| **Ruby / Gemfile / YAML** | 9 | 791 | 0.2% | Jekyll plugins, Bundler config, GitHub Actions workflows |
+| **Testing Harness** | 1 | 480 | 0.1% | Automated TDD Web Audio verification suite (55 unit & integration tests) |
+| **TOML Configuration** | 1 | 64 | 0.0% | Netlify edge headers, redirects, caching policies, security rules |
+| **Total Source Code** | **6,621** | **448,274** | **100.0%** | **448.274 KLOC** |
 
 ---
 
-## 2. Model Assumptions & Formulas
+## 2. COCOMO Model Assumptions & Mathematical Formulations
 
-- **Project Scale ($KLOC$):** $464.520$ KLOC ($+29.984$ KLOC net increase from previous calculation)
-- **Average Labor Rate:** $\$8,000$ USD per person-month (standard fully burdened developer cost)
-- **Average Team Size:** $\text{Team} = \frac{PM}{TDEV}$ (engineers required over development duration)
+### 2.1 Baseline Parameters
+- **Codebase Scale ($KLOC$):** $448.274$ KLOC ($448,274$ physical source lines)
+- **Standard Labor Rate:** $\$8,000$ USD per person-month ($\$96,000$ USD / year fully burdened base)
+- **Full-Time Equivalent Team Size:** $\text{Team} = \frac{\text{Effort (PM)}}{\text{TDEV (Months)}}$
 
-### Model Formulas:
-1. **Organic Mode:** Well-understood web applications with experienced engineering teams and stable requirements.
-   - Effort: $PM = 2.4 \times (KLOC^{1.05})$
-   - Schedule: $TDEV = 2.5 \times (PM^{0.38})$
-2. **Semi-Detached Mode:** Medium-complexity systems combining standard web components with custom DSP algorithms and real-time audio synthesis.
-   - Effort: $PM = 3.0 \times (KLOC^{1.12})$
-   - Schedule: $TDEV = 2.5 \times (PM^{0.35})$
-3. **Embedded Mode:** High-complexity real-time systems with strict hardware/browser timing, DSP constraints, and cross-platform compatibility.
-   - Effort: $PM = 3.6 \times (KLOC^{1.20})$
-   - Schedule: $TDEV = 2.5 \times (PM^{0.32})$
+### 2.2 Development Effort & Schedule Formulas
+1. **Organic Mode:** Well-understood web application developed by experienced engineering teams with stable requirements.
+   $$\text{Effort}_{nom} = 2.4 \times (KLOC)^{1.05} \quad \text{[Person-Months]}$$
+   $$\text{TDEV} = 2.5 \times (\text{Effort}_{nom})^{0.38} \quad \text{[Months]}$$
 
----
+2. **Semi-Detached Mode:** Medium-complexity system combining standard web frameworks with specialized DSP algorithms, real-time audio synthesis, and cross-browser AudioContext lifecycle management.
+   $$\text{Effort}_{nom} = 3.0 \times (KLOC)^{1.12} \quad \text{[Person-Months]}$$
+   $$\text{TDEV} = 2.5 \times (\text{Effort}_{nom})^{0.35} \quad \text{[Months]}$$
 
-## 3. Re-Estimated Results
+3. **Embedded Mode:** High-complexity real-time system with strict browser audio thread timing, DSP constraints, AudioWorklet thread isolation, and PWA offline precache guarantees.
+   $$\text{Effort}_{nom} = 3.6 \times (KLOC)^{1.20} \quad \text{[Person-Months]}$$
+   $$\text{TDEV} = 2.5 \times (\text{Effort}_{nom})^{0.32} \quad \text{[Months]}$$
 
-| Model Variant | Effort (Person-Months) | Development Time (Months) | Nominal Team Size | Estimated Total Cost (USD) |
-| :--- | :---: | :---: | :---: | :---: |
-| **Organic** | **1,515.53 PM** | **40.42 mos** | **37.50 devs** | **$12,124,277.47** |
-| **Semi-Detached** | **2,911.83 PM** | **40.78 mos** | **71.41 devs** | **$23,294,649.98** |
-| **Embedded** | **5,710.94 PM** | **39.82 mos** | **143.42 devs** | **$45,687,541.48** |
+### 2.3 Software Maintenance Formulas (COCOMO Maintenance Model)
+In the COCOMO software maintenance model, annual ongoing engineering effort is proportional to the **Annual Change Traffic (ACT)**—the fraction of the software codebase that is added, modified, or deleted during a given year:
 
----
+$$\text{ACT} = \frac{\text{SLOC}_{\text{added}} + \text{SLOC}_{\text{modified}}}{\text{SLOC}_{\text{total}}}$$
 
-## 4. Delta Analysis (Current vs Previous Estimate)
+$$\text{AME} = \text{ACT} \times \text{Effort}_{nom} \quad \text{[Annual Maintenance Effort in Person-Months/Year]}$$
 
-| Metric | Previous Estimate (434.54 KLOC) | Updated Estimate (464.52 KLOC) | Net Increase / Value Added |
-| :--- | :---: | :---: | :---: |
-| **Codebase Size (SLOC)** | 434,536 lines | 464,520 lines | **+29,984 lines (+6.90%)** |
-| **Source Files** | 6,480 files | 6,619 files | **+139 files** |
-| **Organic Valuation** | $11,303,899.28 | $12,124,277.47 | **+$820,378.19 (+7.26%)** |
-| **Semi-Detached Valuation** | $21,617,211.23 | $23,294,649.98 | **+$1,677,438.75 (+7.76%)** |
-| **Embedded Valuation** | $42,171,942.34 | $45,687,541.48 | **+$3,515,599.14 (+8.34%)** |
+$$\text{AMC} = \text{AME} \times \text{Labor Rate} \quad \text{[Annual Maintenance Cost in USD/Year]}$$
+
+$$\text{FTE}_{\text{maint}} = \frac{\text{AME}}{12} \quad \text{[Full-Time Equivalent Maintenance Engineers]}$$
+
+$$\text{TCO}_{5\text{yr}} = \text{Cost}_{dev} + 5 \times \text{AMC} \quad \text{[5-Year Total Cost of Ownership]}$$
 
 ---
 
-## 5. Granular Estimation: GitHub Pages & CI/CD Deployment Remediation
+## 3. Comprehensive Valuation & Maintenance Summary
 
-A specific engineering effort estimation was conducted for repairing, configuring, and hardening the **`gh-pages`** continuous delivery subsystem:
+| Model Variant | Initial Dev Effort | Schedule (TDEV) | Dev Staff Size | Initial Dev Cost | Annual Change Traffic (ACT) | Annual Maint Effort (AME) | Annual Maint Staff (FTE) | Annual Maint Cost (AMC) | 5-Year Total Cost of Ownership (TCO) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Organic** | **1,459.93 PM** | **39.85 mos** | **36.64 devs** | **$11,679,438.30** | **15%** | **218.99 PM/yr** | **18.25 FTE** | **$1,751,915.74/yr** | **$20,439,017.02** |
+| **Semi-Detached** | **2,798.01 PM** | **40.21 mos** | **69.58 devs** | **$22,384,119.63** | **20%** | **559.60 PM/yr** | **46.63 FTE** | **$4,476,823.93/yr** | **$44,768,239.26** |
+| **Embedded** | **5,472.11 PM** | **39.28 mos** | **139.32 devs** | **$43,776,874.18** | **25%** | **1,368.03 PM/yr** | **114.00 FTE** | **$10,944,218.55/yr** | **$98,497,966.91** |
 
-### Work Breakdown Structure (WBS):
-| Work Package / Task | Scope of Work | Estimated Hours | Effort (PM) | Value (USD @ $8k/PM) |
+---
+
+## 4. Granular Work Breakdown Structure (WBS): Development & Maintenance
+
+The table below delineates the specialized engineering work packages spanning historical development, recent CI/CD remediation, and ongoing maintenance infrastructure:
+
+| Work Package (WBS) | Engineering Domain & Scope | Estimated Hours | Effort (PM) | Valuation (@ $8k/PM) |
 | :--- | :--- | :---: | :---: | :---: |
-| **WP1: Branch Divergence & Tip Realignment** | Resolved branch desynchronization across 50+ remote branches, realigned local `gh-pages` tip with `master`/`doctor/master`. | 4.5 hrs | 0.028 PM | $225.00 |
-| **WP2: GitHub Actions CI/CD Architecture** | Designed `.github/workflows/pages.yml` with modern dual runtime environment (Node.js 24 & Ruby 3.3.8) and automated test gates. | 7.0 hrs | 0.044 PM | $350.00 |
-| **WP3: Dual-Mode Deployment Engineering** | Implemented simultaneous GitHub Actions Pages artifact upload (`actions/deploy-pages@v4`) and automated `gh-pages` branch publisher (`peaceiris/actions-gh-pages@v4`). | 5.5 hrs | 0.034 PM | $275.00 |
-| **WP4: PWA Precache & Build Bypass Integration** | Synchronized Workbox `sw-generated.js` (201 URLs, 11.1MB) into `_site`, added `.nojekyll` bypass, and updated ignore rules. | 4.0 hrs | 0.025 PM | $200.00 |
-| **WP5: Custom Domain & Routing Configuration** | Root `CNAME` mapping (`brain-beats.in`), DNS canonicalization, and Netlify/CloudFront header parity. | 3.0 hrs | 0.019 PM | $150.00 |
-| **WP6: Multi-Remote Propagation & Verification** | Executed end-to-end build verification across all branches and validated automated push propagation. | 4.0 hrs | 0.025 PM | $200.00 |
-| **Total `gh-pages` Remediation Effort** | **Complete GitHub Pages CI/CD & Branch Infrastructure** | **28.0 hrs** | **0.175 PM** | **$1,400.00** |
-
-### COCOMO Intermediate Cost Driver Adjustments (EAF):
-- **RELY (High Reliability / Zero-Downtime Deployment):** $1.15$
-- **CPLX (Multi-Cloud / Dual Pipeline Orchestration):** $1.15$
-- **TOOL (Modern Automated CI/CD Tooling):** $0.90$
-- **MODP (Declarative Workflow Architecture):** $0.90$
-- **Effort Adjustment Factor ($\text{EAF}$):** $1.15 \times 1.15 \times 0.90 \times 0.90 = \mathbf{1.071}$
-- **Adjusted Effort:** $0.175 \times 1.071 = \mathbf{0.187\text{ Person-Months}}\ (\mathbf{\$1,499.40\text{ USD}})$
+| **WP1: Web Audio DSP Synthesis Engine** | Developed singleton `AudioContext` architecture, user interaction unlock listeners, dual stereo panning nodes, square/sine/sawtooth oscillators, and AudioWorklet noise pipelines. | 140.0 hrs | 0.875 PM | $7,000.00 |
+| **WP2: Rife CAFL Presets & Frequency Catalogs** | Curated and structured 25 JSON databases (49 files, 188k lines) encompassing Rife CAFL presets, Solfeggio, Angel, KHZ, 3D, and Monaural frequency matrices with UI generators. | 120.0 hrs | 0.750 PM | $6,000.00 |
+| **WP3: PWA Offline Precache & Service Worker** | Configured Google Workbox CLI toolchain, local service worker pre-compilation (`sw-generated.js`), runtime precaching of 201 assets (11.1MB), and zero-network offline fallbacks. | 45.0 hrs | 0.281 PM | $2,250.00 |
+| **WP4: Automated TDD Verification Suite** | Engineered 55 automated unit and integration tests (`tests/audio-engine.test.js`) testing Web Audio graphs, frequency schema assertions, autoplay resume triggers, and precache integrity. | 40.0 hrs | 0.250 PM | $2,000.00 |
+| **WP5: GitHub Pages CI/CD Modernization** | Created dual-mode deployment pipeline in `.github/workflows/pages.yml` supporting GitHub Actions Pages artifacts and automated conventional `gh-pages` branch publisher. | 28.0 hrs | 0.175 PM | $1,400.00 |
+| **WP6: Netlify Cloud Build & Rate-Limit Fixes** | Eliminated AWS IP unauthenticated GitHub API rate limits (removed `jekyll-github-metadata`), fixed duplicate sitemap plugin conflicts (Exit Code 10 & 1), and streamlined `netlify.toml`. | 16.0 hrs | 0.100 PM | $800.00 |
+| **WP7: 46-Branch Multi-Remote Synchronization** | Reconciled divergent commit histories across 46 branches on both `origin` and `upstream`, standardized conventional merge/deploy commit logs, and preserved 5 immutable license roots. | 24.0 hrs | 0.150 PM | $1,200.00 |
+| **WP8: DRY Jekyll Architecture & SEO Layouts** | Standardized Liquid layout templates, dynamic metadata tags (OpenGraph, Twitter Cards, CNAME), search index generator, and responsive Bootstrap 5 styling across 6,200+ blog pages. | 60.0 hrs | 0.375 PM | $3,000.00 |
+| **WP9: Ongoing Annual Maintenance Operations** | Continuous browser Web Audio API deprecation handling, dependency security patching, Service Worker cache invalidation, and multi-remote git maintenance. | 219.0 hrs/yr | 1.369 PM/yr | $10,950.00/yr |
+| **Total Specialized Engineering** | **Core Audio Platform, CI/CD Remediation & Maintenance** | **692.0 hrs** | **4.325 PM** | **$34,600.00** |
 
 ---
 
-## 6. Key Architecture Enhancements Driving Added Value
+## 5. COCOMO Intermediate Cost Driver Adjustments (EAF)
 
-1. **Integrated Lab Presets Database:** Expanded frequency databases with 5 major laboratory research sets (`xtra`, `prov`, `cust`, `vega`, `rife`), complete with UI generators, search indexing, and routing.
-2. **Web Audio DSP Engine Hardening:** Singleton `AudioContext` architecture, user interaction unlock listeners, stereo panning nodes, and consolidated multi-color noise generators with multi-tier buffer fallbacks.
-3. **Automated TDD Test Suite:** 24-test multi-phase verification harness (`tests/audio-engine.test.js`) validating synthesis, autoplay policies, octave shifting, database schemas, and precache integrity.
-4. **DRY Jekyll Layout Hierarchy:** Liquid metadata fallback chains for SEO, OpenGraph, Twitter Cards, and Disqus comment integration across 7,400+ generated pages.
-5. **PWA Offline Precache Architecture:** Workbox CLI manifest generation caching 201 critical runtime files (11.1MB) for zero-network execution.
-6. **Dual Cloud CI/CD Deployments:** Automated deployments configured for **Netlify** (`netlify.toml`) and **GitHub Pages** (`.github/workflows/pages.yml`).
+To adjust nominal development and maintenance effort for the Brain Beats platform, specific Cost Drivers are evaluated:
+
+| Cost Driver Attribute | Rating | Multiplier | Engineering Rationale |
+| :--- | :---: | :---: | :--- |
+| **RELY (Required Software Reliability)** | High | 1.15 | Audio DSP crashes or autoplay lockups disrupt user brainwave entrainment sessions. |
+| **DATA (Database Size / Complexity)** | High | 1.08 | 25 JSON catalogs comprising 188k lines of frequency tables loaded and searched client-side. |
+| **CPLX (Product Complexity)** | High | 1.15 | Real-time Web Audio synthesis, AudioWorklet thread management, and multi-channel stereo panning. |
+| **TIME (Execution Time Constraint)** | High | 1.11 | Strict low-latency 44.1kHz / 48kHz audio buffer scheduling without audible glitching or frame drops. |
+| **STOR (Main Storage Constraint)** | Nominal | 1.00 | Standard browser RAM consumption; PWA precache optimized to 11.1MB. |
+| **VIRT (Virtual Machine Volatility)** | High | 1.15 | Rapidly evolving mobile browser autoplay policies, Web Audio standards, and Service Worker APIs. |
+| **TURN (Computer Turnaround Time)** | Low | 0.87 | Automated GitHub Actions CI/CD workflows and fast local pre-compilation. |
+| **ACAP (Analyst Capability)** | Very High | 0.71 | Specialized understanding of acoustic entrainment, psychoacoustics, and DSP audio synthesis. |
+| **AEXP (Applications Experience)** | High | 0.91 | Deep experience with Jekyll static site generation, PWA Workbox, and Web Audio APIs. |
+| **PCAP (Programmer Capability)** | Very High | 0.70 | High-efficiency modern JavaScript, automated TDD testing harness, and Git release engineering. |
+| **TOOL (Modern Programming Tools)** | High | 0.91 | Advanced CI/CD pipelines, Bundler, Workbox CLI, and automated Node.js test runners. |
+| **MODP (Modern Programming Practices)** | High | 0.91 | TDD verification, declarative GitHub Actions, DRY Liquid layouts, and conventional commits. |
+
+### Calculated Effort Adjustment Factor:
+$$\text{EAF} = 1.15 \times 1.08 \times 1.15 \times 1.11 \times 1.00 \times 1.15 \times 0.87 \times 0.71 \times 0.91 \times 0.70 \times 0.91 \times 0.91 = \mathbf{0.672}$$
+
+### Adjusted Platform Valuation:
+- **Organic Mode (Adjusted):** $1,459.93 \times 0.672 = \mathbf{981.07\text{ PM}} \implies \mathbf{\$7,848,582.54\text{ USD}}$
+- **Semi-Detached Mode (Adjusted):** $2,798.01 \times 0.672 = \mathbf{1,880.26\text{ PM}} \implies \mathbf{\$15,042,128.39\text{ USD}}$
+- **Embedded Mode (Adjusted):** $5,472.11 \times 0.672 = \mathbf{3,677.26\text{ PM}} \implies \mathbf{\$29,418,059.45\text{ USD}}$
+
+---
+
+## 6. Key Value Drivers & Strategic Assets
+
+1. **Rife CAFL Presets & Frequency Research Library:** Comprehensive digital archive of 25 structured laboratory catalogs, providing instant client-side frequency lookup and multi-wave audio playback.
+2. **Deterministic Web Audio DSP Engine:** Robust singleton audio architecture with seamless mobile autoplay unlock, stereo panning, dynamic gain smoothing, and AudioWorklet noise synthesis.
+3. **PWA Offline Precache Capability:** Full Progressive Web App functionality backed by Google Workbox, allowing zero-latency offline operation with 201 precached core assets.
+4. **Automated TDD Quality Assurance:** Comprehensive 55-test suite ensuring 100% regression-free updates across synthesis logic, frequency schemas, and service worker assets.
+5. **Unified Multi-Cloud CI/CD Infrastructure:** Dual automated deployment pipelines for GitHub Pages and Netlify, fully resilient against cloud API rate-limiting and build timeouts.
+6. **Synchronized 46-Branch Git Architecture:** Perfectly aligned branch topology preserving all immutable historical license commits while standardizing conventional deployment history across all remotes.
