@@ -21,4 +21,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-exclude: ["node_modules", "package-lock.json", "blog/css/main.scss", "scratch", "Gemfile", "Gemfile.lock", "tests", "workbox-config.js", ".github"]
+exclude: ["node_modules", "package-lock.json", "blog/css/main.scss", "scratch", "Gemfile", "Gemfile.lock", "tests", "workbox-config.js", ".github", "DEVELOPMENT.md", "TEST_REPORT.md", "CONTRIBUTING.md", "cocomo-cost-estimate.md", "README.md", "LICENSE.txt", "LICENSE-CONTENT.txt"]
