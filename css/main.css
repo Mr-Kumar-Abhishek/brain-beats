@@ -46,19 +46,22 @@ html, body {
 .volume-box {
   position: fixed;
   padding: 1rem;
-  z-index: 1;
+  z-index: 1030;
   width: 100%;
-  bottom: 1px;
-  right: 1px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
   height: 8rem;
   opacity: 1;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   background: white;
   text-align: center;
-  -webkit-box-shadow: -6px -4px 18px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: -6px -4px 18px 0px rgba(0,0,0,0.75);
-  box-shadow: -6px -4px 18px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px -4px 18px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px -4px 18px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px -4px 18px 0px rgba(0,0,0,0.25);
 }
 
 
@@ -94,6 +97,8 @@ html, body {
   border-radius: 100%;
   width: 400px;
   height: 400px;
+  max-width: 85vw;
+  max-height: 85vw;
   position: relative;
   cursor: pointer;
   -webkit-animation: yin-yang-anim 4s infinite;
@@ -364,8 +369,42 @@ tr:hover {
 }
 
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 576px) {
+  .volume-box {
+    width: 500px;
+    border-radius: 10px;
+    bottom: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .volume-box {
     width: 540px;
+    border-radius: 10px;
+    bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .volume-box {
+    width: 600px;
+    border-radius: 10px;
+    bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .volume-box {
+    width: 640px;
+    border-radius: 10px;
+    bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .volume-box {
+    width: 680px;
+    border-radius: 10px;
+    bottom: 20px;
   }
 }
