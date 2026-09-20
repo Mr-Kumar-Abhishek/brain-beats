@@ -445,6 +445,58 @@ footer p, footer .small p, footer div p {
   text-align: center;
 }
 
+footer ul {
+  text-align: center;
+  margin: 0 auto 0.75rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+footer ul li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+footer ul li a:hover {
+  color: #0000FF;
+  transform: scale(1.12);
+}
+
+footer ul li a i,
+footer .fa-envelope,
+footer .fa-square-rss {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+@media (min-width: 576px) {
+  footer ul li a i,
+  footer .fa-envelope,
+  footer .fa-square-rss {
+    font-size: 2.35rem;
+  }
+}
+
+@media (min-width: 992px) {
+  footer ul li a i,
+  footer .fa-envelope,
+  footer .fa-square-rss {
+    font-size: 2.65rem;
+  }
+}
+
 .footnotes, div.footnotes {
   text-align: center;
   margin: 2rem auto;
