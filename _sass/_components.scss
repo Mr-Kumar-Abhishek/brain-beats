@@ -1,0 +1,353 @@
+@use "variables" as *;
+
+.btn-play-stop {
+  margin-top: 10px;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  width: 80px;
+  height: 40px;
+}
+
+.card {
+  margin-top: 10px;
+  background: inherit;
+}
+
+.card-title {
+  font-size: 1.25rem;
+
+  a {
+    color: $primary-black;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary-black;
+      text-decoration: underline;
+    }
+  }
+}
+
+.privacy-title {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.ad-banner {
+  margin-top: 20px;
+}
+
+@media (max-width: 575.98px) {
+  .card-body {
+    padding: 0.85rem 0.75rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card-body {
+    padding: 1rem 0.85rem;
+  }
+}
+
+.volume-box {
+  position: fixed;
+  padding: 1rem;
+  z-index: 1030;
+  width: 100%;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  height: 8rem;
+  opacity: 1;
+  border-radius: 10px 10px 0 0;
+  background: $primary-white;
+  text-align: center;
+  box-shadow: 0px -4px 18px 0px rgba(0, 0, 0, 0.25);
+
+  @media only screen and (min-width: 576px) {
+    width: 500px;
+    border-radius: 10px;
+    bottom: 12px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    width: 540px;
+    border-radius: 10px;
+    bottom: 15px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    width: 600px;
+    border-radius: 10px;
+    bottom: 20px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    width: 640px;
+    border-radius: 10px;
+    bottom: 20px;
+  }
+
+  @media only screen and (min-width: 1400px) {
+    width: 680px;
+    border-radius: 10px;
+    bottom: 20px;
+  }
+}
+
+.fav, .faved {
+  font-size: 2rem;
+  color: $fav-pink;
+  cursor: pointer;
+}
+
+.fav:before {
+  content: ' \2661';
+}
+
+.faved:before {
+  content: ' \2665';
+}
+
+.centerify {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  margin-top: 0vh;
+}
+
+.yin-yang {
+  background-color: whitesmoke;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  max-width: 85vw;
+  max-height: 85vw;
+  position: relative;
+  cursor: pointer;
+  animation: yin-yang-anim 4s infinite linear;
+}
+
+.yin {
+  background-color: lightgray;
+  border-radius: 100%;
+  position: absolute;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.yin-dot {
+  background-color: gray;
+  border-radius: 100%;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 80px;
+  top: 80px;
+}
+
+.yang-dot {
+  background-color: lightgray;
+  border-radius: 100%;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 80px;
+  top: 80px;
+}
+
+.yin-yang-left {
+  background-color: gray;
+  border-radius: 200px 0 0 200px;
+  position: absolute;
+  width: 200px;
+  height: 400px;
+}
+
+.yin-yang-right {
+  background-color: lightgray;
+  border-radius: 0 200px 200px 0;
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  left: 200px;
+}
+
+.yang {
+  background-color: gray;
+  border-radius: 100%;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+.search-form {
+  margin-bottom: 30px;
+
+  label {
+    margin-bottom: 30px;
+  }
+}
+
+.hilt {
+  height: 25px;
+  margin-top: 33px;
+  margin-left: -2px;
+  border-color: rgba(206, 206, 206, 0.75);
+  border-width: 6px;
+  background: rgba(206, 206, 206, 0.75);
+  width: 5px;
+  position: absolute;
+  transform: rotate(-45deg);
+  transition: 0.5s;
+  border-radius: 50%;
+
+  &.on {
+    margin-top: 13px;
+    margin-left: -24px;
+    cursor: pointer;
+  }
+}
+
+.hilt-back {
+  transition: 0.5s;
+
+  &.on {
+    height: 25px;
+    margin-top: 13px;
+    margin-left: -24px;
+    border-color: rgba(206, 206, 206, 0.75);
+    border-width: 6px;
+    background: rgba(206, 206, 206, 0.75);
+    width: 5px;
+    position: absolute;
+    transform: rotate(45deg);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+.search-me {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border-color: rgb(209, 208, 209);
+  border-width: 6px;
+  border-style: solid;
+  background: rgba(255, 255, 255, 0.82);
+  color: $primary-black;
+  width: 0px;
+  transition: 0.5s;
+  cursor: pointer;
+  outline: none;
+
+  &.on {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: rgba(226, 226, 226, 0.75);
+    border-width: 6px;
+    border-style: solid;
+    background: rgb(255, 255, 255);
+    width: 85%;
+    color: $primary-black;
+    cursor: text;
+
+    @media (min-width: 768px) {
+      width: 70%;
+      padding: 10px 30px;
+    }
+  }
+}
+
+.loading-spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin-top: -60px;
+  margin-left: -60px;
+}
+
+.post {
+  border-bottom: 1px solid $border-light;
+}
+
+ul.posts {
+  margin: 1rem auto 2rem;
+  font-size: 1.1rem;
+
+  li {
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.header-bar {
+  left: 0;
+  top: 0;
+  position: relative;
+  display: block;
+  opacity: 0.75;
+  width: 100%;
+  text-align: center;
+  padding-top: 1.2rem;
+  line-height: 3rem;
+  z-index: 25;
+  margin-bottom: 3rem;
+
+  h1 {
+    color: $links;
+    font-size: 5rem;
+    font-weight: 100;
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+
+@keyframes yin-yang-anim {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg) scaleX(0) scaleY(0);
+  }
+  25% {
+    opacity: 0.5;
+    transform: rotate(-180deg) scaleX(0.5) scaleY(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(-360deg) scaleX(1) scaleY(1);
+  }
+  75% {
+    opacity: 0.5;
+    transform: rotate(-540deg) scaleX(0.5) scaleY(0.5);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(-720deg) scaleX(0) scaleY(0);
+  }
+}
+
+@keyframes flicker {
+  0% { background-color: white; color: black; }
+  50% { background-color: black; color: white; }
+}
+
+.flicker {
+  animation: flicker 0.01s infinite;
+}

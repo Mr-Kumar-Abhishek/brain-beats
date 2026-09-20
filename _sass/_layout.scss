@@ -1,0 +1,95 @@
+@use "variables" as *;
+
+header {
+  border-bottom: 1px solid $border-grey;
+  background-color: $primary-white;
+  opacity: 0.75;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+
+  li {
+    display: inline;
+    margin-right: 0.2rem;
+  }
+}
+
+.fluidaner {
+  margin-bottom: 200px;
+  margin-top: 100px;
+  overflow-x: hidden;
+
+  @media (max-width: 575.98px) {
+    margin-top: 80px;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+.container {
+  padding-top: 8rem;
+}
+
+.data-container {
+  overflow-x: hidden;
+}
+
+.text-white {
+  color: $primary-white;
+}
+
+/* Responsive Table Wrapper */
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid $border-grey;
+  text-align: center;
+  padding: 12px;
+}
+
+th {
+  background-color: $light-grey;
+  color: $dark-grey;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #eaeaea;
+}
+
+.gsc-control-cse {
+  padding: 0 !important;
+  min-width: 240px !important;
+}
+
+form.gsc-search-box,
+table.gsc-search-box {
+  margin-bottom: 0 !important;
+}

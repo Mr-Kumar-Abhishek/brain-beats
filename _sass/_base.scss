@@ -1,0 +1,164 @@
+@use "variables" as *;
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+html {
+  background: $primary-white;
+  color: $primary-black;
+  font-size: 100%;
+}
+
+h1, h2, h3, h4, nav ul, footer ul {
+  font-family: $font-family-base;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: $links;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+p, .post ul li {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: $primary-black;
+  text-align: justify;
+}
+
+time {
+  font-size: 1em;
+  line-height: 2.4rem;
+  color: $primary-black;
+  text-align: justify;
+}
+
+pre {
+  padding: 1rem;
+  overflow: auto;
+  line-height: 1.7;
+  background-color: $primary-black;
+  border-radius: 5px;
+  color: $code-green;
+
+  &.highlight {
+    position: relative;
+    margin: 5px 0;
+    padding: 1.75rem 0 1.75rem 1rem;
+
+    > button {
+      opacity: 0;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+    }
+
+    &:hover > button,
+    > button:active,
+    > button:focus {
+      opacity: 1;
+    }
+  }
+}
+
+code {
+  background-color: $primary-black;
+  color: $code-blue;
+  font-weight: bold;
+}
+
+blockquote {
+  border: 0.1rem solid #b3b3b3;
+  border-left: 0.8rem solid #b3b3b3;
+  border-radius: 0;
+  background: #fafafa;
+  font-size: 1rem;
+  margin: 1.2rem;
+  padding: 1rem 1.2rem;
+
+  p {
+    margin: 0;
+    line-height: 1.8rem;
+    padding-bottom: 1rem;
+  }
+
+  .small {
+    display: block;
+    font-size: 80%;
+    color: brown;
+    text-align: right;
+  }
+}
+
+img {
+  width: 99%;
+  text-align: center;
+}
+
+@media print {
+  html {
+    font-size: 100%;
+  }
+  .row {
+    display: block;
+  }
+  code, pre {
+    color: $primary-black;
+    background: $primary-white;
+  }
+  footer {
+    font-size: 1rem;
+    ul {
+      text-align: justify;
+      li {
+        display: block;
+        a:after {
+          content: " (" attr(href) ") ";
+        }
+      }
+    }
+  }
+  .no-print {
+    display: none;
+  }
+}
