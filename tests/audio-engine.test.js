@@ -369,6 +369,11 @@ async function runTestSuite() {
     }
   }
   assert(existingUrls === matches.length, `All ${matches.length} precached Service Worker URLs physically exist on disk`);
+  assert(!swCode.includes('"url":"blog/') && !swCode.includes('"url":"_posts/'), "Service worker precache strictly excludes all blog posts and blog components");
+  assert(swCode.includes("showOfflineReadyNotification") && swCode.includes("PRECACHE_COMPLETE") && swCode.includes("NetworkOnly"), "Service worker implements offline ready notifications, client broadcasts, and NetworkOnly exclusion for blog posts");
+
+  const serviceLoaderCode = fs.readFileSync(path.join(__dirname, '../js/serviceLoader.js'), 'utf8');
+  assert(serviceLoaderCode.includes("triggerCachedNotification") && serviceLoaderCode.includes("requestNotificationPermission") && serviceLoaderCode.includes("showInAppToast"), "js/serviceLoader.js implements notification handlers, permission requests, and in-app toast feedback");
 
   console.log("\nPhase 11: MathJax Configuration & Rendering Verification");
   const mathjaxIncludePath = path.join(__dirname, '../_includes/mathjax.html');
