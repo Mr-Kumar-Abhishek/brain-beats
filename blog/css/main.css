@@ -92,10 +92,53 @@ time {
   border-bottom: 1px solid #D5D5D5;
 }
 
+.footnotes, div.footnotes {
+  text-align: center;
+  margin: 2rem auto;
+  border-top: 1px solid #d5d5d5;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.footnotes ol {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+}
+
+.footnotes p {
+  text-align: left;
+}
+
 footer {
   border-top: 1px solid #d5d5d5;
-  padding-top: 0.5rem;
-  font-size: 2.8rem;
+  padding-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p, footer .small p, footer div p {
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+footer ul {
+  text-align: center;
+  margin: 0 auto 0.5rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
 }
 
 ul.posts {
