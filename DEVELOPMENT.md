@@ -277,17 +277,26 @@ The build pipeline is wired directly into `npm run build`:
 
 ## 8. Service Worker & PWA Offline Pipeline
 
-### 8.1. Workbox Configuration (`workbox-config.js`)
-Service Worker generation uses `injectManifest` with precise glob patterns:
-* **Precached:** HTML, CSS, JavaScript, Web Audio processors, web fonts, icons, manifest, and all 25 `json/*.json` database files (~209 files, ~11.2MB).
-* **Ignored from precache:** Dynamic markdown posts (`_posts/**/*`, `blog/**/*`), Jekyll cache (`.jekyll-cache/**/*`), site builds (`_site/**/*`), and development scratch directories.
+### 8.1. Workbox Configuration & Caching Boundaries (`workbox-config.js` & `sw.js`)
+Service Worker generation uses `injectManifest` with precise glob patterns and routing policies:
+* **Precached Offline Scope:** All preset pages (`3d-*-presets.html`, `*frequency*.html`, `pure-tones.html`, `favorites.html`, `search.html`, etc.), generator pages (`*-generator.html`, `*machine*.html`, `index.html`), audio synthesis processors (`noise-processor/*.js`), styles, scripts, icons, manifest, and all 25 `json/*.json` database files (209 URLs, ~11.2MB).
+* **Strict Non-Caching Policy for Blog Posts:** Dynamic markdown posts (`_posts/**/*`), compiled blog archives (`blog/**/*`, `_site/blog/**/*`), and post permalinks are strictly excluded from the precache via `globIgnores` in [`workbox-config.js`](workbox-config.js). Furthermore, [`sw.js`](sw.js) registers an explicit `workbox.strategies.NetworkOnly()` routing handler for `/blog/*` and date-based article paths to guarantee blog posts are never stored in PWA offline cache.
 
-### 8.2. Regenerating the Service Worker
+### 8.2. PWA Cache Completion Notification System
+When all preset and generator pages are successfully cached into the browser's Cache Storage:
+1. **Service Worker Activation (`sw.js`):** The Service Worker enters the `activate` phase, claims all clients (`clients.claim()`), issues a native Web Notification (`self.registration.showNotification`) if granted, and broadcasts a `PRECACHE_COMPLETE` message to all active client windows.
+2. **Client-Side Notification Coordinator (`js/serviceLoader.js`):**
+   * Automatically requests desktop notification permissions on load (`requestNotificationPermission()`).
+   * Listens for `PRECACHE_COMPLETE` messages and lifecycle transitions (`updatefound`, `installed`, `activated`).
+   * Displays both native system notifications and an animated in-app toast banner (`#bb-cache-toast`) confirming: *"All preset and generator pages are cached and ready for offline use."*
+
+### 8.3. Regenerating the Service Worker
 Whenever you update static assets or audio processors, recompile the Service Worker manifest:
 ```bash
 npm run build:sw
 # or: npx workbox-cli injectManifest workbox-config.js
 ```
+
 
 ---
 

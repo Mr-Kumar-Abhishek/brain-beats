@@ -1,4 +1,4 @@
-// /var/www/html/sw.js (Your SOURCE file)
+// /var/www/html/sw.js (Source Service Worker)
 importScripts('/js/workbox/workbox-v7.3.0/workbox-sw.js');
 
 workbox.setConfig({
@@ -9,89 +9,120 @@ if (workbox) {
     console.log("Yay! Workbox is loaded !");
 
     // --- INSTALL Phase ---
-    // Precaching happens during install. Workbox handles adding this to event.waitUntil internally.
+    // Precache preset pages, generator pages, audio engines, styles, and databases.
+    // Blog posts and blog directory are strictly ignored via workbox-config.js globIgnores.
     workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
 
-    // Add an install listener primarily to trigger skipWaiting
+    // Force waiting service worker to activate immediately upon install
     self.addEventListener('install', event => {
-        console.log('Service Worker: Installing...');
-        // Force the waiting service worker to become the active service worker.
+        console.log('Service Worker: Installing and caching preset & generator pages...');
         self.skipWaiting();
     });
 
+    // Helper to dispatch offline ready notification if permission is granted
+    const showOfflineReadyNotification = () => {
+        if (self.Notification && self.Notification.permission === 'granted') {
+            return self.registration.showNotification('Brain Beats Ready Offline!', {
+                body: 'All preset and generator pages are cached and ready for offline use.',
+                icon: '/img/128x128-mandala-1757304_1280.png',
+                badge: '/img/favicon-32x32.png',
+                tag: 'brain-beats-offline-ready',
+                renotify: false
+            }).then(() => {
+                console.log('Service Worker: Offline ready notification shown.');
+            }).catch(err => {
+                console.error('Service Worker: Notification failed:', err);
+            });
+        }
+        return Promise.resolve();
+    };
+
+    // Helper to broadcast cache completion message to all open client windows
+    const notifyClientsPrecacheComplete = () => {
+        return self.clients.matchAll({ includeUncontrolled: true, type: 'window' }).then(clients => {
+            clients.forEach(client => {
+                client.postMessage({
+                    type: 'PRECACHE_COMPLETE',
+                    title: 'Brain Beats Ready Offline!',
+                    body: 'All preset and generator pages are cached and ready for offline use.'
+                });
+            });
+        });
+    };
+
     // --- ACTIVATE Phase ---
-    // This runs *after* install is complete and the SW is controlling the page(s)
+    // Runs when caching is complete and the Service Worker takes control
     self.addEventListener('activate', event => {
         console.log('Service Worker: Activating...');
-        // Ensure the SW takes control of clients without waiting for reload
-        event.waitUntil(clients.claim());
-
-        // --- Show Notification Here ---
-        // This requires the user to have granted notification permission via your web app's client-side JS.
-        const notificationPromise = self.registration.showNotification('App Ready!', {
-            body: 'Content is cached and ready for offline use.',
-            icon: 'img/128x128-mandala-1757304_1280.png', // Optional: Specify an icon path relative to the root
-            tag: 'app-ready-notification' // Optional: Give it a tag to prevent multiple similar notifications
-        }).then(() => {
-            console.log('Service Worker: Offline ready notification shown.');
-        }).catch(err => {
-            console.error('Service Worker: Notification failed:', err);
-            // Fail silently if notifications aren't permitted or supported
-        });
-
-        // Optionally, ensure activation waits for the notification attempt
-        event.waitUntil(Promise.all([clients.claim(), notificationPromise]));
+        event.waitUntil(
+            Promise.all([
+                clients.claim(),
+                showOfflineReadyNotification(),
+                notifyClientsPrecacheComplete()
+            ])
+        );
     });
 
+    // Handle incoming client messages (e.g., when notification permission is granted after activation)
+    self.addEventListener('message', event => {
+        if (event.data && event.data.type === 'SHOW_CACHE_NOTIFICATION') {
+            showOfflineReadyNotification();
+        }
+    });
 
-    /* --- Runtime Caching Rules --- */
+    /* --- Routing Rules --- */
 
-    /* Cache images */
+    /* 1. Explicitly ensure blog posts and blog directories are NEVER cached - NetworkOnly */
     workbox.routing.registerRoute(
-        // Match image files based on directory or extension
+        ({ url }) => url.pathname.startsWith('/blog') || /^\/\d{4}\/\d{2}\/\d{2}\//.test(url.pathname),
+        new workbox.strategies.NetworkOnly()
+    );
+
+    /* 2. Cache images */
+    workbox.routing.registerRoute(
         ({ request, url }) => request.destination === 'image' || /\.(?:png|gif|jpg|jpeg|svg)$/.test(url.pathname),
         new workbox.strategies.CacheFirst({
             cacheName: "images",
             plugins: [
                 new workbox.expiration.ExpirationPlugin({
-                    maxEntries: 60, // Increased slightly
+                    maxEntries: 60,
                     maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
-                    purgeOnQuotaError: true, // Automatically clean up if quota is exceeded
+                    purgeOnQuotaError: true,
                 }),
                 new workbox.cacheableResponse.CacheableResponsePlugin({
-                    statuses: [0, 200], // Cache opaque responses too (e.g., CORS images)
+                    statuses: [0, 200],
                 }),
             ]
         })
     );
 
-    /* Cache JS, CSS, JSON */
+    /* 3. Cache JS, CSS, JSON for preset & generator engines */
     workbox.routing.registerRoute(
-        ({ request }) => request.destination === 'script' ||
-                         request.destination === 'style' ||
-                         request.destination === 'manifest' || // Cache the manifest itself
-                         /\.json$/.test(request.url), // Explicitly match .json files
+        ({ request, url }) => (
+            request.destination === 'script' ||
+            request.destination === 'style' ||
+            request.destination === 'manifest' ||
+            /\.json$/.test(request.url)
+        ) && !url.pathname.startsWith('/blog'),
         new workbox.strategies.StaleWhileRevalidate({
             cacheName: "assets",
             plugins: [
                 new workbox.expiration.ExpirationPlugin({
                     maxEntries: 50,
-                    maxAgeSeconds: 7 * 24 * 60 * 60, // Cache assets for 7 days
+                    maxAgeSeconds: 7 * 24 * 60 * 60, // 7 days
                     purgeOnQuotaError: true,
                 })
             ]
         })
     );
 
-    /* Cache Google Fonts */
-    // Cache the font stylesheets (CSS)
+    /* 4. Cache Google Fonts */
     workbox.routing.registerRoute(
         ({url}) => url.origin === 'https://fonts.googleapis.com',
         new workbox.strategies.StaleWhileRevalidate({
             cacheName: 'google-fonts-stylesheets',
         })
     );
-    // Cache the actual font files (WOFF2)
     workbox.routing.registerRoute(
         ({url}) => url.origin === 'https://fonts.gstatic.com',
         new workbox.strategies.CacheFirst({
@@ -102,14 +133,12 @@ if (workbox) {
                 }),
                 new workbox.expiration.ExpirationPlugin({
                     maxEntries: 30,
-                    maxAgeSeconds: 365 * 24 * 60 * 60, // Cache fonts for a year
+                    maxAgeSeconds: 365 * 24 * 60 * 60, // 1 year
                     purgeOnQuotaError: true,
                 }),
             ],
         })
     );
-
-    // Removed explicit skipWaiting() and clientsClaim() from here as they are handled in event listeners
 
 } else {
     console.log("Oops! Workbox didn't load");
