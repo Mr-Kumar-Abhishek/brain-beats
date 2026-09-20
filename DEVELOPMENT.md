@@ -200,14 +200,89 @@ python3 generate_posts.py
 
 ---
 
-## 7. Service Worker & PWA Offline Pipeline
+## 7. Modular SCSS Architecture & Dart Sass Transpiler Subsystem
 
-### 7.1. Workbox Configuration (`workbox-config.js`)
+Brain Beats consolidates all styling across the web audio application and the Jekyll research blog into a unified, modular SCSS architecture located in [`_sass/`](_sass).
+
+```mermaid
+flowchart TD
+    subgraph Partials ["_sass/ (Modular SCSS Partials)"]
+        Vars["_variables.scss\n(Color Tokens, Typography & Breakpoints)"]
+        Base["_base.scss\n(Resets, Headings, Code Blocks & Print)"]
+        Layout["_layout.scss\n(Fixed Header, .fluidaner, Tables, CSE)"]
+        Comp["_components.scss\n(Cards, .volume-box, Favs, Yin-Yang, Search)"]
+        Foot["_footer.scss\n(Centered Footer, .footnotes, Mail/RSS Icons)"]
+    end
+
+    subgraph Entrypoints ["SCSS Entrypoints"]
+        MainSCSS["css/main.scss"]
+        BlogSCSS["blog/css/main.scss"]
+    end
+
+    subgraph Transpiler ["Dart Sass Transpiler (scripts/build-css.js)"]
+        NodeSass["sass.compileString()\n(LoadPaths: [_sass, projectRoot])"]
+    end
+
+    subgraph Targets ["Production CSS Outputs"]
+        AppCSS["css/main.css\n(Audio Generator App)"]
+        BlogCSS["blog/css/main.css\n(Research Blog)"]
+    end
+
+    Vars --> Base & Layout & Comp & Foot
+    Base & Layout & Comp & Foot --> MainSCSS & BlogSCSS
+    MainSCSS & BlogSCSS --> NodeSass
+    NodeSass --> AppCSS & BlogCSS
+```
+
+### 7.1. SCSS Partials Breakdown (`_sass/`)
+* **`_variables.scss`:** Defines global color tokens (`$primary-blue: #0000FF`, `$primary-white`, `$primary-black`, `$dark-grey`, `$fav-pink: rgb(233, 48, 94)`), base font stacks, and responsive breakpoint variables (`$breakpoint-sm: 576px`, `$breakpoint-md: 768px`, `$breakpoint-lg: 992px`, `$breakpoint-xl: 1200px`, `$breakpoint-xxl: 1400px`).
+* **`_base.scss`:** Enforces global boundary rules (`html, body { overflow-x: hidden; max-width: 100vw; }`), typography scale (`h1`–`h6`), dark-themed syntax highlighting code blocks (`pre.highlight` with copy buttons), styled blockquotes, and `@media print` rules.
+* **`_layout.scss`:** Glassmorphic fixed navigation header, `.fluidaner` container responsive margins/paddings, responsive table containers (`.table-wrapper`), and Google Custom Search Engine wrappers.
+* **`_components.scss`:** Standardized action buttons (`.btn-play-stop`: 80px × 40px), preset cards with viewport-specific padding, floating volume dock (`.volume-box`), favorite toggle hearts (`.fav` / `.faved`), animated rotating Yin-Yang canvas, expandable search bar, and post listings.
+* **`_footer.scss`:** Centered footer layout, centered licensing and contact paragraphs, centered Kramdown `.footnotes` section, and responsive FontAwesome email (`.fa-envelope`) and RSS (`.fa-square-rss`) icons.
+
+### 7.2. Dart Sass Build Pipeline (`scripts/build-css.js`)
+The transpilation script compiles the SCSS entrypoint into production CSS for both the main web application and the research blog:
+```bash
+# Transpile SCSS to css/main.css and blog/css/main.css
+npm run build:css
+# or: node scripts/build-css.js
+```
+The build pipeline is wired directly into `npm run build`:
+```json
+"scripts": {
+  "build:css": "node scripts/build-css.js",
+  "build:sitemap": "node scripts/generate-sitemap.js",
+  "build:sw": "workbox injectManifest workbox-config.js",
+  "build": "npm run build:css && npm run build:sitemap && npm run build:sw"
+}
+```
+
+### 7.3. Responsive Layout & Viewport Scaling Specifications
+* **Mobile Viewports (< 576px):**
+  * `.fluidaner` container applies `margin-top: 80px` and compact `0.25rem` side padding to maximize screen utilization.
+  * Cards span full-width `col-12` with reduced internal padding (`0.85rem 0.75rem`).
+  * `.volume-box` docks as a full-width bottom bar (`width: 100%; bottom: 0; border-radius: 10px 10px 0 0;`).
+* **Tablet Viewports (576px – 991px):**
+  * Cards scale to `col-sm-11` (~495px) and `col-md-10` (~600px) with auto-centering margins (`mx-auto mx-sm-auto mx-md-auto mx-lg-auto mx-xl-auto mx-xxl-auto`).
+  * `.volume-box` elevates into a floating pill (`500px` at 576px / `540px` at 768px, `bottom: 12px`/`15px`, `border-radius: 10px`).
+* **Desktop & Ultrawide Viewports (≥ 992px, ≥ 1200px, ≥ 1400px):**
+  * Proportional layout expansion via `col-*-10` to ~800px (at 992px), ~950px (at 1200px), and ~1100px (at 1400px+).
+  * `.volume-box` floats centered (`600px` / `640px` / `680px`, `bottom: 20px`).
+* **Centered Blog Footnotes & Touch Targets:**
+  * Footnotes are centered horizontally via `.footnotes { text-align: center; margin: 2rem auto; border-top: 1px solid #d5d5d5; }` while maintaining left-aligned ordered list items via `ol { display: inline-block; text-align: left; }`.
+  * Footer email and RSS feed icons scale responsively (`2rem` mobile with >44px touch targets, `2.35rem` tablet, `2.65rem` desktop with `1.12×` hover expansion).
+
+---
+
+## 8. Service Worker & PWA Offline Pipeline
+
+### 8.1. Workbox Configuration (`workbox-config.js`)
 Service Worker generation uses `injectManifest` with precise glob patterns:
-* **Precached:** HTML, CSS, JavaScript, Web Audio processors, web fonts, icons, manifest, and all 25 `json/*.json` database files (~200 files, ~11.1MB).
+* **Precached:** HTML, CSS, JavaScript, Web Audio processors, web fonts, icons, manifest, and all 25 `json/*.json` database files (~209 files, ~11.2MB).
 * **Ignored from precache:** Dynamic markdown posts (`_posts/**/*`, `blog/**/*`), Jekyll cache (`.jekyll-cache/**/*`), site builds (`_site/**/*`), and development scratch directories.
 
-### 7.2. Regenerating the Service Worker
+### 8.2. Regenerating the Service Worker
 Whenever you update static assets or audio processors, recompile the Service Worker manifest:
 ```bash
 npm run build:sw
@@ -216,35 +291,36 @@ npm run build:sw
 
 ---
 
-## 8. Automated Testing & TDD Suite
+## 9. Automated Testing & TDD Suite
 
-Brain Beats utilizes a custom Test-Driven Development (TDD) automated test harness in [`tests/audio-engine.test.js`](file:///var/www/html/tests/audio-engine.test.js).
+Brain Beats utilizes a custom Test-Driven Development (TDD) automated test harness in [`tests/audio-engine.test.js`](tests/audio-engine.test.js).
 
-### 8.1. Running Tests
+### 9.1. Running Tests
 ```bash
 npm test
 ```
 
-### 8.2. Test Suite Phases:
+### 9.2. Test Suite Phases (63 Automated Tests):
 1. **Phase 1: Code Parsing & Evaluation** - Syntax checks and mock Web Audio environment evaluation.
 2. **Phase 2: Autoplay & AudioContext Lifecycle** - Singleton instancing, state transitions (`suspended` -> `running`).
 3. **Phase 3: Single Tone Synthesis & Parameter Safety** - Pure tone, Solfeggio, and Angel tone verification.
 4. **Phase 4: Double Tone Synthesis** - Binaural & Monaural beat stereo separation and teardown.
 5. **Phase 5: 3D Spatial Audio & Multi-Frequency Matrices** - PannerNode and 3-point matrix coordination.
 6. **Phase 6: Noise Synthesizers & Worklet Fallbacks** - 13 calibrated noise profiles without hardware context exhaustion.
-7. **Phase 7: Volume Control & Gain Dynamics Algorithm** - Dynamic `live_volume_set()`, `toggle_volume()` modulation, and volume box controls.
+7. **Phase 7: Volume Control & Gain Dynamics Algorithm** - Dynamic `live_volume_set()`, `toggle_volume()` modulation, and volume box controls across all 38 generator pages.
 8. **Phase 8: Frequency Calculation & Octave Shifting** - Boundary conditions (infrasound <20Hz, ultrasound >20kHz).
 9. **Phase 9: Preset Database Schema & File Integrity** - Parsing and validating all 25 JSON catalogs.
-10. **Phase 10: Service Worker Offline Precache Verification** - Verifying that every URL precached in the service worker physically exists on disk.
+10. **Phase 10: Service Worker Offline Precache Verification** - Verifying that every URL precached in the service worker physically exists on disk (209 URLs).
 11. **Phase 11: MathJax Configuration & Rendering Verification** - TeX configuration, dynamic CDN/local fallback loader, and COCOMO LaTeX markup.
 12. **Phase 12: Deployment Runtime & Node.js 24 Environment Verification** - `.node-version`, `.nvmrc`, `netlify.toml`, `package.json`, and GitHub Pages CI/CD workflow verification.
-13. **Phase 13: Developer Documentation, README & Patch Integrity Verification** - Verification of `README.md`, `DEVELOPMENT.md`, `TEST_REPORT.md`, `CONTRIBUTING.md`, `cocomo-cost-estimate.md`, and DSP synthesis programming patches.
+13. **Phase 13: Developer Documentation, README & Patch Integrity Verification** - Verification of `README.md`, `DEVELOPMENT.md`, `TEST_REPORT.md`, `CONTRIBUTING.md`, `cocomo-cost-estimate.md`, dual licensing scopes, and DSP synthesis programming patches.
+14. **Phase 14: Cloud CI/CD & Netlify Zero-Exit-Code Hardening Verification** - Netlify multi-branch build commands, sitemap generator, canonical domain integrity, and CodeQL scanning.
 
-For complete test logs and historical metrics, see [`TEST_REPORT.md`](file:///var/www/html/TEST_REPORT.md).
+For complete test logs and historical metrics, see [`TEST_REPORT.md`](TEST_REPORT.md).
 
 ---
 
-## 9. Code Style & Security Guidelines
+## 10. Code Style & Security Guidelines
 
 * **XSS Prevention:** Never use `innerHTML` when interpolating user input or JSON attributes. Use `textContent` or `DOMParser` for safe rendering.
 * **Safe External Links:** Always ensure external hyperlinks specify `rel="noopener noreferrer"`.
@@ -252,7 +328,7 @@ For complete test logs and historical metrics, see [`TEST_REPORT.md`](file:///va
 
 ---
 
-## 10. Netlify & Cloud Deployment (`netlify.toml`)
+## 11. Netlify & Cloud Deployment (`netlify.toml`)
 
 The application is configured for automated Continuous Deployment via Netlify (backed by AWS infrastructure):
 
@@ -267,7 +343,7 @@ The application is configured for automated Continuous Deployment via Netlify (b
 
 ---
 
-## 11. GitHub Pages Automated CI/CD Workflow (`.github/workflows/pages.yml`)
+## 12. GitHub Pages Automated CI/CD Workflow (`.github/workflows/pages.yml`)
 
 The project includes an automated GitHub Pages deployment workflow using official GitHub Actions (`actions/deploy-pages@v4`):
 
@@ -279,11 +355,11 @@ The project includes an automated GitHub Pages deployment workflow using officia
   4. Builds Jekyll production site into `_site` via Bundler.
   5. Bypasses Jekyll backend reprocessing (`.nojekyll`) and publishes artifact directly to GitHub Pages (`actions/deploy-pages@v4`).
   6. Automatically syncs and pushes compiled production assets to the `gh-pages` branch (`peaceiris/actions-gh-pages@v4`).
-* **Custom Domain:** Configured via root [`CNAME`](file:///var/www/html/CNAME) (`brain-beats.in`).
+* **Custom Domain:** Configured via root [`CNAME`](CNAME) (`brain-beats.in`).
 
 ---
 
-## 12. Multi-Remote Synchronization Workflow
+## 13. Multi-Remote Synchronization Workflow
 
 This project maintains synchronized branches across both `origin` (personal) and `upstream` (organization) remotes:
 
@@ -300,7 +376,7 @@ done
 
 ---
 
-## 13. Dual Licensing Model & Governance
+## 14. Dual Licensing Model & Governance
 
 Brain Beats enforces a strict boundary between software engineering, configuration, and server infrastructure logic versus creative/educational content:
 
@@ -312,7 +388,7 @@ Brain Beats enforces a strict boundary between software engineering, configurati
 
 ---
 
-## 14. Framework Migration & Liquid Templating Continuity Guidelines
+## 15. Framework Migration & Liquid Templating Continuity Guidelines
 
 When evaluating or executing future framework migrations (e.g., modern SSGs, hybridized frontend architectures, or SSR frameworks):
 
