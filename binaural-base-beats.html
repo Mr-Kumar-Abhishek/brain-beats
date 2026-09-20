@@ -18,14 +18,14 @@ og-title: "brain beats | binaural beats"
 		<script async src="./js/serviceLoader.js"></script>
 		<meta charset="utf-8" >
 		<meta http-equiv="x-ua-compatible" content="ie=edge" >
-		<title>Binaural Beats | Brain Beats | Brainwave Entrainment</title>
+		<title>{{ page.title }}</title>
 		<meta
 			name="description"
-			content="Binaural Beats section of brain beats provides a list binaural beats in different frequency which a user can use for brainwave entrainment. So with this a person could induce desired brainwaves depending on which programs he or she chooses."
+			content="{{ page.description }}"
 			>
 		<meta
 			name="keywords"
-			content="brain beats, beats, binaural, binaural beats"
+			content="{{ page.keywords }}"
 			>
 		<meta
 			name="viewport"
@@ -34,9 +34,9 @@ og-title: "brain beats | binaural beats"
 		<meta name="robots" content="index, follow, noarchive" >
 		<meta
 			name="subject"
-			content="Binaural Beats | Brain Beats | Brainwave Entrainment"
+			content="{{ page.subject }}"
 			>
-		<meta name="author" content="Abhishek Kumar" >
+		<meta name="author" content="{{ page.author }}" >
 		<meta name="coverage" content="Worldwide" >
 		<meta name="distribution" content="Global" >
 		<meta name="rating" content="General" >
@@ -45,20 +45,20 @@ og-title: "brain beats | binaural beats"
 		<meta name="target" content="all" >
 		<meta
 			name="apple-mobile-web-app-title"
-			content="Brain Beats | Binaural Beats"
+			content="{{ page.apple-title }}"
 			>
 		<meta name="apple-mobile-web-app-capable" content="yes" >
 		<meta name="apple-touch-fullscreen" content="yes" >
 		<link rel="apple-touch-icon" href="./img/mandala-1757304_1280.png">
-		<meta name="application-name" content="Brain Beats | Binaural Beats" >
+		<meta name="application-name" content="{{ page.app-name }}" >
 		<meta name="twitter:card" content="summary" >
-		<meta name="twitter:title" content="brain beats | binaural beats" >
+		<meta name="twitter:title" content="{{ page.tweet-title }}" >
 		<meta
 			name="twitter:description"
-			content="Binaural Beats section of brain beats provides a list binaural beats in different frequency which a user can use for brainwave entrainment."
+			content="{{ page.tweet-description }}"
 			>
 		<meta property="og:site_name" content="Brain Beats" >
-		<meta property="og:title" content="brain beats | binaural beats" >
+		<meta property="og:title" content="{{ page.og-title }}" >
 		<meta property="og:type" content="website" >
 		<meta
 			property="og:url"
