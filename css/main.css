@@ -6,9 +6,28 @@ html, body {
 .fluidaner {
   margin-bottom: 200px;
   margin-top: 100px;
-  padding-left: calc(var(--bs-gutter-x, 1.5rem) * 0.5);
-  padding-right: calc(var(--bs-gutter-x, 1.5rem) * 0.5);
   overflow-x: hidden;
+}
+
+@media (max-width: 575.98px) {
+  .fluidaner {
+    margin-top: 80px;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+  .card-body {
+    padding: 0.85rem 0.75rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .fluidaner {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .card-body {
+    padding: 1rem 0.85rem;
+  }
 }
 
 .data-container {
@@ -220,15 +239,22 @@ margin-top: 13px;
 
 
 .search-me.on {
-padding: 10px 30px;
+  padding: 10px 20px;
   border-radius: 20px;
   border-color: rgba(226, 226, 226, 0.75);
   border-width: 6px;
   border-style: solid;
   background: rgb(255, 255, 255);
-  width: 70%;
+  width: 85%;
   color: #000000;
   cursor: text;
+}
+
+@media (min-width: 768px) {
+  .search-me.on {
+    width: 70%;
+    padding: 10px 30px;
+  }
 }
 
 /* Add some basic styles for the loading spinner */
