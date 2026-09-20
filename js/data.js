@@ -28,35 +28,43 @@ const setSafeHTML = (element, html) => {
   });
 };
 let dPresets = [];
-searchInput.addEventListener("input", (e)=> {
-  const value  = e.target.value.toLowerCase(); 
+
+const filterPresets = (val) => {
+  const value = (val || '').trim().toLowerCase();
   dPresets.forEach(dPreset => {
-     console.log(dPreset);
-    const isVisible = dPreset.dTitle.toLowerCase().includes(value) || dPreset.dDesc.toLowerCase().includes(value);
+    const isVisible = value.length === 0 || 
+                      (dPreset.dTitle && dPreset.dTitle.toLowerCase().includes(value)) || 
+                      (dPreset.dDesc && dPreset.dDesc.toLowerCase().includes(value));
     dPreset.element.classList.toggle("d-none", !isVisible);
   });
-});
+};
+
+if (searchInput) {
+  searchInput.addEventListener("input", (e) => {
+    filterPresets(e.target.value);
+  });
+}
 
 fetch(jsonData)
 .then(res => res.json())
 .then(data => {
- dPresets = data.map(dataPreset => {
-  const dataNode = dataCards.content.cloneNode(true).children[0];
-  const dataTitle = dataNode.querySelector(".card-title");
-  const dataDescription = dataNode.querySelector(".card-text");
-  const dataPlay = dataNode.querySelector(".play");
-  const dataStop = dataNode.querySelector(".stop");
-  const dataID = dataNode.querySelector(".fav");
-  setSafeHTML(dataTitle, dataPreset.data_name);
-  setSafeHTML(dataDescription, dataPreset.data_description);
-  dataPlay.setAttribute("onclick", dataPreset.data_start);
-  dataStop.setAttribute("onclick", dataPreset.data_stop);
-  dataID.setAttribute("id", dataPreset.data_id);
-  if (favorites.includes(dataID.id)) {
-    dataID.classList.add("faved");
-  }
-  dataContainer.append(dataNode);
-  return {dTitle: dataPreset.data_name, dDesc: dataPreset.data_description, element: dataNode};
+  dPresets = data.map(dataPreset => {
+    const dataNode = dataCards.content.cloneNode(true).children[0];
+    const dataTitle = dataNode.querySelector(".card-title");
+    const dataDescription = dataNode.querySelector(".card-text");
+    const dataPlay = dataNode.querySelector(".play");
+    const dataStop = dataNode.querySelector(".stop");
+    const dataID = dataNode.querySelector(".fav");
+    setSafeHTML(dataTitle, dataPreset.data_name);
+    setSafeHTML(dataDescription, dataPreset.data_description);
+    dataPlay.setAttribute("onclick", dataPreset.data_start);
+    dataStop.setAttribute("onclick", dataPreset.data_stop);
+    dataID.setAttribute("id", dataPreset.data_id);
+    if (favorites.includes(dataID.id)) {
+      dataID.classList.add("faved");
+    }
+    dataContainer.append(dataNode);
+    return {dTitle: dataPreset.data_name, dDesc: dataPreset.data_description, element: dataNode};
   });
 });
 
@@ -67,12 +75,8 @@ $("#search-form").submit(function(e) {
 const eventer = dataContainer;
 const mainSearchInput = document.querySelector(".init_search");
 if (mainSearchInput) {
-  mainSearchInput.addEventListener("input", (e)=> {
-    const value  = e.target.value.toLowerCase(); 
-    dPresets.forEach(dPreset => {
-      const isVisible = dPreset.dTitle.toLowerCase().includes(value) || dPreset.dDesc.toLowerCase().includes(value);
-      dPreset.element.classList.toggle("d-none", !isVisible);
-    });
+  mainSearchInput.addEventListener("input", (e) => {
+    filterPresets(e.target.value);
   });
 
   $("#search-me").click(function() {
@@ -85,6 +89,10 @@ if (mainSearchInput) {
     $("#hilter-front").removeClass("on");
     $("#hilter-back").removeClass("on");
     $("#search-me").removeClass("on");
-    $("#search-me").val("").trigger("input");
+    $("#search-me").val("");
+    if (searchInput) {
+      searchInput.value = "";
+    }
+    filterPresets("");
   });
 }
