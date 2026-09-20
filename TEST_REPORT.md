@@ -69,8 +69,12 @@ The test suite is automated via Node.js in [`tests/audio-engine.test.js`](file:/
    * Validates `adjustFrequency()` logic shifting infrasound ($<20\text{ Hz}$) and ultrasound ($>20\text{ kHz}$) into human hearing range ($20\text{ Hz} - 20,000\text{ Hz}$).
 9. **Phase 9: Preset Database Schema & File Integrity**
    * Validates that all 25 JSON database files in `json/` parse as valid arrays containing `data_name`, `data_start`, `data_stop`, and `data_id`.
-10. **Phase 10: Service Worker Offline Precache Verification**
+10. **Phase 10: Service Worker Offline Precache & Notification Verification**
     * Validates that all 209 files in `sw-generated.js` physically exist on disk and total $\approx 11.2\text{ MB}$.
+    * Validates that all blog posts and dynamic blog archives are strictly excluded from the precache.
+    * Validates that the Service Worker implements offline ready notifications, client broadcasts, and `NetworkOnly` routing for blog routes.
+    * Validates that `js/serviceLoader.js` implements notification handlers, permission requests, and animated in-app toast feedback.
+
 11. **Phase 11: MathJax Configuration & Rendering Verification**
     * Validates `_includes/mathjax.html` presence, TeX configurations, dynamic fallback loader, layout integration, kramdown math engine settings, and COCOMO LaTeX markup.
 12. **Phase 12: Deployment Runtime & Node.js 24 Environment Verification**
@@ -155,6 +159,9 @@ Phase 9: Preset Database Schema & File Integrity
 
 Phase 10: Service Worker Offline Precache Verification
   [PASS] All 209 precached Service Worker URLs physically exist on disk
+  [PASS] Service worker precache strictly excludes all blog posts and blog components
+  [PASS] Service worker implements offline ready notifications, client broadcasts, and NetworkOnly exclusion for blog posts
+  [PASS] js/serviceLoader.js implements notification handlers, permission requests, and in-app toast feedback
 
 Phase 11: MathJax Configuration & Rendering Verification
   [PASS] _includes/mathjax.html exists on disk
@@ -191,8 +198,9 @@ Phase 14: Cloud CI/CD & Netlify Zero-Exit-Code Hardening Verification
   [PASS] package.json contains automated sitemap and offline build scripts
   [PASS] sitemap.xml exists and maintains canonical domain integrity (https://brain-beats.in)
   [PASS] .github/workflows/codeql.yml exists and configures automated CodeQL scanning
-   Test Results: 63 Passed, 0 Failed
+   Test Results: 66 Passed, 0 Failed
 ==================================================
+
 ```
 
 ---
