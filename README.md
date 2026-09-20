@@ -1,7 +1,7 @@
 # Brain Beats - Brainwave Entrainment & Web Audio Synthesis Engine
 
 [![Node.js Version](https://img.shields.io/badge/Node.js-24%20LTS-339933?logo=nodedotjs)](https://nodejs.org/)
-[![Test Suite](https://img.shields.io/badge/Tests-53%20Passed%20(100%25)-success?logo=jest)](TEST_REPORT.md)
+[![Test Suite](https://img.shields.io/badge/Tests-63%20Passed%20(100%25)-success?logo=jest)](TEST_REPORT.md)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 [![Content License: CC BY 4.0](https://img.shields.io/badge/Content_License-CC_BY_4.0-lightgrey.svg)](LICENSE-CONTENT.txt)
 [![PWA: Offline-First](https://img.shields.io/badge/PWA-Offline--First-orange?logo=pwa)](sw.js)
@@ -17,10 +17,10 @@ For detailed technical guides, architectural blueprints, test reports, and contr
 
 | Document | Description | Key Topics |
 | :--- | :--- | :--- |
-| 📘 **[Developer Guide](DEVELOPMENT.md)** | Comprehensive developer manual & architecture | Web Audio synthesis pipeline, DRY Jekyll layout inheritance, PWA offline precaching, Netlify & GitHub Pages CI/CD |
-| 🧪 **[Test Verification Report](TEST_REPORT.md)** | Test-Driven Development (TDD) verification suite | 55 automated unit & integration tests, 13 test phases, Red-Green-Refactor audit matrix, execution logs |
+| 📘 **[Developer Guide](DEVELOPMENT.md)** | Comprehensive developer manual & architecture | Web Audio synthesis pipeline, modular SCSS architecture, Dart Sass compilation, DRY Jekyll layout inheritance, PWA offline precaching, Netlify & GitHub Pages CI/CD |
+| 🧪 **[Test Verification Report](TEST_REPORT.md)** | Test-Driven Development (TDD) verification suite | 63 automated unit & integration tests, 14 test phases, Red-Green-Refactor audit matrix, execution logs |
 | 🤝 **[Contributing Guidelines](CONTRIBUTING.md)** | Contribution standards & code style | PR workflows, bug reporting, XSS prevention, safe DOM handling, branch management |
-| 📊 **[COCOMO Cost Estimation](cocomo-cost-estimate.md)** | Formal software engineering economic analysis | Constructive Cost Model effort estimation, 50+ KSLOC codebase metrics, work packages (also at [cocomo.html](https://brain-beats.in/cocomo.html)) |
+| 📊 **[COCOMO Cost Estimation](cocomo-cost-estimate.md)** | Formal software engineering economic analysis | Constructive Cost Model effort estimation, 469+ KLOC codebase metrics, work packages (also at [cocomo.html](https://brain-beats.in/cocomo.html)) |
 | ⚖️ **[Source Code & Config License (AGPLv3)](LICENSE)** | Software, mechanics, configs & server configurations | GNU Affero General Public License v3.0 covering all software programming code, audio DSP algorithms, worklets, mechanics, configuration files, and server configurations |
 | 📝 **[Content License (CC BY 4.0)](LICENSE-CONTENT.txt)** | Content & documentation license | Creative Commons Attribution 4.0 International license covering written articles, documentation, and audio preset datasets (strictly excluding code, mechanics, configuration files, and server configurations) |
 
@@ -149,12 +149,13 @@ Phase 6: Noise Synthesizers & Worklets ......... [PASS]
 Phase 7: Volume Control & Gain Dynamics ........ [PASS]
 Phase 8: Frequency Range Shifting (20Hz-20kHz) . [PASS]
 Phase 9: Preset Database Schema Integrity ...... [PASS]
-Phase 10: Service Worker Precache (201 files) .. [PASS]
+Phase 10: Service Worker Precache (209 URLs) ... [PASS]
 Phase 11: MathJax Configuration & Rendering .... [PASS]
 Phase 12: Node.js 24 Deployment Verification ... [PASS]
 Phase 13: Developer Docs & Patch Verification .. [PASS]
+Phase 14: Cloud CI/CD & Netlify Hardening ...... [PASS]
 ==================================================
-   Test Results: 53 Passed, 0 Failed
+   Test Results: 63 Passed, 0 Failed
 ==================================================
 ```
 
@@ -162,21 +163,27 @@ For full test reports and architectural history, refer to [`TEST_REPORT.md`](TES
 
 ---
 
-## ⚙️ Service Worker & Offline PWA Pipeline
-
-Precached asset manifests are built using Workbox:
+## ⚙️ Modular SCSS & Offline PWA Pipeline
 
 ```bash
+# Transpile modular SCSS into css/main.css and blog/css/main.css
+npm run build:css
+
+# Rebuild sitemap XML
+npm run build:sitemap
+
 # Rebuild Service Worker precache manifest
 npm run build:sw
-# or: npx workbox-cli injectManifest workbox-config.js
+
+# Complete production build
+npm run build
 ```
 
 ---
 
 ## 🚀 CI/CD & Deployment Architecture
 
-* **GitHub Pages CI/CD ([`.github/workflows/pages.yml`](.github/workflows/pages.yml)):** Automated GitHub Actions pipeline running on Node.js 24 and Ruby 3.3. Executes test gates, builds Jekyll assets, compiles the Service Worker, and deploys directly to GitHub Pages and the [`gh-pages`](https://github.com/Mr-Kumar-Abhishek/brain-beats/tree/gh-pages) branch.
+* **GitHub Pages CI/CD ([`.github/workflows/pages.yml`](.github/workflows/pages.yml)):** Automated GitHub Actions pipeline running on Node.js 24 and Ruby 3.3. Executes test gates, transpiles SCSS, builds Jekyll assets, compiles the Service Worker, and deploys directly to GitHub Pages and the [`gh-pages`](https://github.com/Mr-Kumar-Abhishek/brain-beats/tree/gh-pages) branch.
 * **Netlify Production ([`netlify.toml`](netlify.toml)):** Automated cloud edge deployment with strict HTTP security headers, immutable caching for audio worklets/fonts, and domain canonicalization to `brain-beats.in`.
 * **Multi-Remote Synchronization:** Maintains realigned branch tips across `origin` (`Mr-Kumar-Abhishek/brain-beats`) and `upstream` (`cybernetics-decentral/brain-beats`).
 
@@ -187,7 +194,8 @@ npm run build:sw
 ```
 ├── .github/
 │   └── workflows/
-│       └── pages.yml                   # GitHub Actions Pages CI/CD workflow (Node 24)
+│       ├── pages.yml                   # GitHub Actions Pages CI/CD workflow (Node 24)
+│       └── codeql.yml                  # Automated CodeQL static analysis security scan
 ├── _includes/
 │   └── mathjax.html                    # MathJax 3 typography configuration & offline loader
 ├── _layouts/
@@ -195,7 +203,14 @@ npm run build:sw
 │   ├── default.html                    # DRY parent layout with SEO metadata fallback chain
 │   └── post.html                       # Blog post template with Disqus integration
 ├── _posts/                             # Thousands of Jekyll research blog markdown posts
-├── css/                                # Application stylesheets & Bootstrap 5
+├── _sass/                              # Modular SCSS partials (variables, base, layout, components, footer)
+├── css/
+│   ├── main.scss                       # Main application SCSS entrypoint
+│   └── main.css                        # Transpiled main application stylesheet
+├── blog/
+│   └── css/
+│       ├── main.scss                   # Research blog SCSS entrypoint
+│       └── main.css                    # Transpiled research blog stylesheet
 ├── img/                                # PWA icons, vector artwork, and UI graphics
 ├── js/
 │   ├── main.js                         # Core Web Audio synthesis engine & DSP algorithms
@@ -203,8 +218,11 @@ npm run build:sw
 │   └── webring.js                      # Webring integration script
 ├── json/                               # 25 Structured JSON frequency preset databases
 ├── noise-processor/                    # AudioWorklet processor scripts for noise shaping
+├── scripts/
+│   ├── build-css.js                    # Dart Sass transpilation build script
+│   └── generate-sitemap.js             # Automated sitemap.xml generator
 ├── tests/
-│   └── audio-engine.test.js            # Automated TDD unit/integration test suite (45 tests)
+│   └── audio-engine.test.js            # Automated TDD unit/integration test suite (63 tests)
 ├── .node-version                       # Node.js 24 environment version file
 ├── .nvmrc                              # NVM runtime configuration (Node 24)
 ├── 3d-*.html                           # 3D spatial audio generators & preset pages
