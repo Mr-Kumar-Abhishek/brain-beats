@@ -1,17 +1,17 @@
 # Web Audio Engine & PWA Test Report (TDD)
 
 **Project:** Brain Beats  
-**Date:** September 19, 2026  
+**Date:** September 20, 2026  
 **Methodology:** Test-Driven Development (TDD)  
-**Status:** All Tests Passing (55/55)
+**Status:** All Tests Passing (63/63)
 
 ---
 
 ## 1. Executive Summary
 
-This report documents the Test-Driven Development (TDD) verification and stability testing of the Brain Beats audio synthesis engine ([`js/main.js`](file:///var/www/html/js/main.js)), volume control & gain dynamics algorithm, database schemas, offline Service Worker precaching layer ([`sw-generated.js`](file:///var/www/html/sw-generated.js)), MathJax mathematical typography build infrastructure ([`_includes/mathjax.html`](file:///var/www/html/_includes/mathjax.html)), Node.js 24 deployment runtimes, developer documentation suite ([`README.md`](file:///var/www/html/README.md), [`DEVELOPMENT.md`](file:///var/www/html/DEVELOPMENT.md), [`CONTRIBUTING.md`](file:///var/www/html/CONTRIBUTING.md)), CC BY 4.0 content licensing, web UI license scope integrations, GNU AGPL-3.0 software and configuration licensing scope, and DSP programming patches.
+This report documents the Test-Driven Development (TDD) verification and stability testing of the Brain Beats audio synthesis engine ([`js/main.js`](file:///var/www/html/js/main.js)), volume control & gain dynamics algorithm, modular SCSS build pipeline ([`scripts/build-css.js`](file:///var/www/html/scripts/build-css.js)), database schemas, offline Service Worker precaching layer ([`sw-generated.js`](file:///var/www/html/sw-generated.js)), MathJax mathematical typography build infrastructure ([`_includes/mathjax.html`](file:///var/www/html/_includes/mathjax.html)), Node.js 24 deployment runtimes, developer documentation suite ([`README.md`](file:///var/www/html/README.md), [`DEVELOPMENT.md`](file:///var/www/html/DEVELOPMENT.md), [`CONTRIBUTING.md`](file:///var/www/html/CONTRIBUTING.md)), CC BY 4.0 content licensing, web UI license scope integrations, GNU AGPL-3.0 software and configuration licensing scope, and DSP programming patches.
 
-All 55 automated unit and integration tests across 13 evaluation phases execute cleanly with zero runtime failures, confirming offline compliance, browser Autoplay policy compliance, hardware audio context stability, gain scaling accuracy, mathematical calculation rendering integrity, production-ready Node.js 24 deployment environments, and documentation/patch integrity.
+All 63 automated unit and integration tests across 14 evaluation phases execute cleanly with zero runtime failures, confirming offline compliance, browser Autoplay policy compliance, hardware audio context stability, gain scaling accuracy, mathematical calculation rendering integrity, production-ready Node.js 24 deployment environments, and documentation/patch integrity.
 
 ---
 
@@ -35,12 +35,13 @@ flowchart LR
 | **Cycle 3** | Noise Synthesis | Context exhaustion (`DOMException: >6 hardware contexts`) | Consolidated all 13 noise generators to single `audioCtx` | Implemented `loadedNoiseWorklets` cache & buffer fallbacks |
 | **Cycle 4** | 3D Spatial Panning | `TypeError` on legacy browsers missing `positionX.setValueAtTime` | Added cross-browser checks for `setValueAtTime` & `setPosition` | Safe fallback coordinates `(px, py, pz)` |
 | **Cycle 5** | Search & Routing | Duplicate `/blog/blog/` URL paths in search JSON | Removed redundant `/blog` prefix from `blog/search.json` | Validated search result redirection |
-| **Cycle 6** | Service Worker Precache | Missing precache files causing 404s when offline | Rebuilt precache manifest with Workbox | Validated that all 201 URLs exist on disk |
+| **Cycle 6** | Service Worker Precache | Missing precache files causing 404s when offline | Rebuilt precache manifest with Workbox | Validated that all 209 URLs exist on disk |
 | **Cycle 7** | MathJax Typography | Unformatted raw LaTeX strings and currency delimiter collisions | Created `_includes/mathjax.html`, configured TeX options, and added CDN with local fallback | Formatted COCOMO and EAF mathematical equations with `\(` and `\)` |
 | **Cycle 8** | Volume & Gain Scaling | Unverified dynamic gain updates during live playback | Added Phase 7 verification for linear $user\_volume/100$ scaling | Validated `live_volume_set()` across all synthesis modes |
 | **Cycle 9** | Node.js 24 Deployment Environment | Outdated Node 20 runtime specifications in CI/CD and deployment configs | Pinned `.node-version` & `.nvmrc` to 24, set `netlify.toml` NODE_VERSION='24', `package.json` engines >=24.0.0 | Verified deployment automation workflow and added Phase 12 test assertions |
 | **Cycle 10** | Developer Docs & Patch Integrity | Documentation excluded from build artifacts & unverified patches | Restored comprehensive `README.md`, developer indexes, and added Phase 13 test gates | Validated `README.md`, `DEVELOPMENT.md`, `CONTRIBUTING.md`, `cocomo-cost-estimate.md`, and DSP patches |
 | **Cycle 11** | Cloud CI/CD & Netlify Hardening | Netlify exit codes 10, 1, and 2 on deployment branches and rate limits | Configured multi-branch dual-mode build handling and context in `netlify.toml`, removed unauthenticated gems, automated local sitemap | Added Phase 14 automated test gates in `tests/audio-engine.test.js` |
+| **Cycle 12** | Modular SCSS & Build Pipeline | Fragmented stylesheets across app & blog with manual CSS edits | Consolidated into modular `_sass/` partials with Dart Sass transpiler (`scripts/build-css.js`) | Integrated `"build:css"` into `"build"` pipeline and verified clean Jekyll copy without duplicate destination conflicts |
 
 ---
 
@@ -63,19 +64,19 @@ The test suite is automated via Node.js in [`tests/audio-engine.test.js`](file:/
 6. **Phase 6: Noise Synthesizers & Worklet Fallbacks**
    * Validates White, Pink, Brown, Green, Blue, Red, Black, Violet, Grey, Velvet, Orange, Yellow, and Turquoise noise generation without hardware context exhaustion.
 7. **Phase 7: Volume Control & Gain Dynamics Algorithm**
-   * Validates linear percentage-to-gain conversion ($user\_volume / 100$), dynamic `live_volume_set()` GainNode updates, and isochronic `toggle_volume()` pulse modulation.
+   * Validates linear percentage-to-gain conversion ($user\_volume / 100$), dynamic `live_volume_set()` GainNode updates, and isochronic `toggle_volume()` pulse modulation across all 38 generator pages.
 8. **Phase 8: Frequency Calculation & Octave Range Shifting**
    * Validates `adjustFrequency()` logic shifting infrasound ($<20\text{ Hz}$) and ultrasound ($>20\text{ kHz}$) into human hearing range ($20\text{ Hz} - 20,000\text{ Hz}$).
 9. **Phase 9: Preset Database Schema & File Integrity**
    * Validates that all 25 JSON database files in `json/` parse as valid arrays containing `data_name`, `data_start`, `data_stop`, and `data_id`.
 10. **Phase 10: Service Worker Offline Precache Verification**
-    * Validates that all 202 files in `sw-generated.js` physically exist on disk and total $\approx 11.2\text{ MB}$.
+    * Validates that all 209 files in `sw-generated.js` physically exist on disk and total $\approx 11.2\text{ MB}$.
 11. **Phase 11: MathJax Configuration & Rendering Verification**
     * Validates `_includes/mathjax.html` presence, TeX configurations, dynamic fallback loader, layout integration, kramdown math engine settings, and COCOMO LaTeX markup.
 12. **Phase 12: Deployment Runtime & Node.js 24 Environment Verification**
     * Validates `.node-version` (24), `.nvmrc` (24), `netlify.toml` (`NODE_VERSION = "24"`), `package.json` (`engines.node >= 24.0.0`), and `.github/workflows/pages.yml` deployment workflow linkage.
 13. **Phase 13: Developer Documentation, README & Patch Integrity Verification**
-    * Validates `README.md` (complete feature & developer guide index), `DEVELOPMENT.md`, `TEST_REPORT.md`, `CONTRIBUTING.md`, `cocomo-cost-estimate.md`, and core DSP synthesis patches (`js/main.js`).
+    * Validates `README.md` (complete feature & developer guide index), `DEVELOPMENT.md`, `TEST_REPORT.md`, `CONTRIBUTING.md`, `cocomo-cost-estimate.md`, dual licensing scopes, contact email (`support@brain-beats.in`), and core DSP synthesis patches (`js/main.js`).
 14. **Phase 14: Cloud CI/CD & Netlify Zero-Exit-Code Hardening Verification**
     * Validates exclusion of `jekyll-github-metadata` (Exit Code 1), exclusion of `@netlify/plugin-sitemap` (Exit Code 10), dual-mode conditional build command in `netlify.toml`, `[context.gh-pages]` static build fallback, automated sitemap generator script, canonical domain integrity (`https://brain-beats.in`), and CodeQL scanning workflow configuration.
 
@@ -153,7 +154,7 @@ Phase 9: Preset Database Schema & File Integrity
   [PASS] All 25 JSON preset database files are valid
 
 Phase 10: Service Worker Offline Precache Verification
-  [PASS] All 202 precached Service Worker URLs physically exist on disk
+  [PASS] All 209 precached Service Worker URLs physically exist on disk
 
 Phase 11: MathJax Configuration & Rendering Verification
   [PASS] _includes/mathjax.html exists on disk
@@ -179,6 +180,7 @@ Phase 13: Developer Documentation, README & Patch Integrity Verification
   [PASS] LICENSE.txt specifies Creative Commons Attribution 4.0 International (CC BY 4.0)
   [PASS] Licenses and documentation specify GNU AGPL-3.0 strictly covers code, configuration files, and server configurations
   [PASS] Web UI templates and pages include Creative Commons content license scope and clean navigation without raw links
+  [PASS] Web UI templates and layouts include support@brain-beats.in contact email
   [PASS] js/main.js contains yellow noise, violet noise, and volume dynamics patches
 
 Phase 14: Cloud CI/CD & Netlify Zero-Exit-Code Hardening Verification
@@ -189,7 +191,7 @@ Phase 14: Cloud CI/CD & Netlify Zero-Exit-Code Hardening Verification
   [PASS] package.json contains automated sitemap and offline build scripts
   [PASS] sitemap.xml exists and maintains canonical domain integrity (https://brain-beats.in)
   [PASS] .github/workflows/codeql.yml exists and configures automated CodeQL scanning
-   Test Results: 62 Passed, 0 Failed
+   Test Results: 63 Passed, 0 Failed
 ==================================================
 ```
 
