@@ -317,7 +317,7 @@ Brain Beats enforces a strict boundary between software engineering, configurati
 When evaluating or executing future framework migrations (e.g., modern SSGs, hybridized frontend architectures, or SSR frameworks):
 
 1. **Liquid Template Preservation:** All HTML/JS program files and views that interface with the content or blog engine must preserve and implement standard **Liquid templates** (`_layouts/`, `_includes/`, and front matter bindings).
-2. **Template Modularization:** Shared site headers, navigation bars, footers, MathJax equations (`_includes/mathjax.html`), SEO metadata tags, and volume control matrices must remain modularized via Liquid includes (`{% include filename.html %}`) to uphold the DRY (Don't Repeat Yourself) architectural principle.
+2. **Template Modularization:** Shared site headers, navigation bars, footers, MathJax equations (`_includes/mathjax.html`), SEO metadata tags, and volume control matrices must remain modularized via Liquid includes (`{% raw %}{% include filename.html %}{% endraw %}`) to uphold the DRY (Don't Repeat Yourself) architectural principle.
 3. **Dynamic Pagination & Post Routing:** Blog listings, pagination (`paginator.posts`), search indices, and category permalinks must maintain seamless compatibility with Liquid variables and loop constructs across all target framework environments.
 4. **Client-Side Synthesis & Service Worker Decoupling:** Any migration must keep the Web Audio API synthesis engine (`js/main.js`), audio worklets, preset JSON catalogs, and PWA service worker precaching completely decoupled from server-rendering layers to preserve 100% offline functionality.
 
