@@ -28,38 +28,46 @@ const setSafeHTML = (element, html) => {
   });
 };
 let dPresets = [];
-searchInput.addEventListener("input", (e)=> {
-  const value  = e.target.value.toLowerCase(); 
+
+const filterFavorites = (val) => {
+  const value = (val || '').trim().toLowerCase();
   dPresets.forEach(dPreset => {
-     console.log(dPreset);
-    const isVisible = dPreset.dTitle.toLowerCase().includes(value) || dPreset.dDesc.toLowerCase().includes(value);
-    dPreset.element.classList.toggle("d-none", !isVisible)
+    const isVisible = value.length === 0 || 
+                      (dPreset.dTitle && dPreset.dTitle.toLowerCase().includes(value)) || 
+                      (dPreset.dDesc && dPreset.dDesc.toLowerCase().includes(value));
+    dPreset.element.classList.toggle("d-none", !isVisible);
   });
-});
+};
+
+if (searchInput) {
+  searchInput.addEventListener("input", (e) => {
+    filterFavorites(e.target.value);
+  });
+}
 
 jsonDataArray.forEach(jsonData => {
   fetch(jsonData)
   .then(res => res.json())
   .then(data => {
-    dPresets = dPresets.concat(data.map(dataPreset => {
-      const dataNode = dataCards.content.cloneNode(true).children[0];
-      const dataTitle = dataNode.querySelector(".card-title");
-      const dataDescription = dataNode.querySelector(".card-text");
-      const dataPlay = dataNode.querySelector(".play");
-      const dataStop = dataNode.querySelector(".stop");
-      const dataID = dataNode.querySelector(".fav");
-      setSafeHTML(dataTitle, dataPreset.data_name);
-      setSafeHTML(dataDescription, dataPreset.data_description);
-      dataPlay.setAttribute("onclick", dataPreset.data_start);
-      dataStop.setAttribute("onclick", dataPreset.data_stop);
-      dataID.setAttribute("id", dataPreset.data_id);
-      if (favorites.includes(dataID.id)) {
+    const newFavPresets = data
+      .filter(dataPreset => favorites.includes(dataPreset.data_id))
+      .map(dataPreset => {
+        const dataNode = dataCards.content.cloneNode(true).children[0];
+        const dataTitle = dataNode.querySelector(".card-title");
+        const dataDescription = dataNode.querySelector(".card-text");
+        const dataPlay = dataNode.querySelector(".play");
+        const dataStop = dataNode.querySelector(".stop");
+        const dataID = dataNode.querySelector(".fav");
+        setSafeHTML(dataTitle, dataPreset.data_name);
+        setSafeHTML(dataDescription, dataPreset.data_description);
+        dataPlay.setAttribute("onclick", dataPreset.data_start);
+        dataStop.setAttribute("onclick", dataPreset.data_stop);
+        dataID.setAttribute("id", dataPreset.data_id);
         dataID.classList.add("faved");
-      }
-      return {dTitle: dataPreset.data_name, dDesc: dataPreset.data_description, element: dataNode};
-    }));
-    dPresets = dPresets.filter(dPreset => favorites.includes(dPreset.element.querySelector(".fav").id));
-    dPresets.forEach(dPreset => dataContainer.append(dPreset.element));
+        dataContainer.append(dataNode);
+        return {dTitle: dataPreset.data_name, dDesc: dataPreset.data_description, element: dataNode};
+      });
+    dPresets = dPresets.concat(newFavPresets);
   });
 });
 
@@ -71,12 +79,8 @@ const eventer = dataContainer;
 
 const mainSearchInput = document.querySelector(".init_search");
 if (mainSearchInput) {
-  mainSearchInput.addEventListener("input", (e)=> {
-    const value  = e.target.value.toLowerCase(); 
-    dPresets.forEach(dPreset => {
-      const isVisible = dPreset.dTitle.toLowerCase().includes(value) || dPreset.dDesc.toLowerCase().includes(value);
-      dPreset.element.classList.toggle("d-none", !isVisible);
-    });
+  mainSearchInput.addEventListener("input", (e) => {
+    filterFavorites(e.target.value);
   });
 
   $("#search-me").click(function() {
@@ -89,6 +93,10 @@ if (mainSearchInput) {
     $("#hilter-front").removeClass("on");
     $("#hilter-back").removeClass("on");
     $("#search-me").removeClass("on");
-    $("#search-me").val("").trigger("input");
+    $("#search-me").val("");
+    if (searchInput) {
+      searchInput.value = "";
+    }
+    filterFavorites("");
   });
 }
