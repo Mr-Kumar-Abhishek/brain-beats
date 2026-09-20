@@ -1,0 +1,92 @@
+@use "variables" as *;
+
+footer {
+  border-top: 1px solid $border-light;
+  padding-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  p, .small p, div p {
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    text-align: center;
+    margin: 0 auto 0.75rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    li {
+      display: inline-block;
+      margin: 0 0.5rem;
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: $dark-grey;
+        transition: color 0.2s ease, transform 0.2s ease;
+
+        &:hover {
+          color: $links;
+          transform: scale(1.12);
+        }
+
+        i {
+          font-size: 2rem;
+          line-height: 1;
+        }
+      }
+    }
+  }
+
+  .fa-envelope,
+  .fa-square-rss {
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  @media (min-width: 576px) {
+    ul li a i,
+    .fa-envelope,
+    .fa-square-rss {
+      font-size: 2.35rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    ul li a i,
+    .fa-envelope,
+    .fa-square-rss {
+      font-size: 2.65rem;
+    }
+  }
+}
+
+.footnotes, div.footnotes {
+  text-align: center;
+  margin: 2rem auto;
+  border-top: 1px solid $border-light;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+
+  ol {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+  }
+
+  p {
+    text-align: left;
+  }
+}
