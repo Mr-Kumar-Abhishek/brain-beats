@@ -1,6 +1,7 @@
 /**
  * Brain Beats - Automated Local Sitemap Generator
  * Generates sitemap.xml with full canonical domain integrity (https://brain-beats.in)
+ * Follows build convention: no articles published ahead of current date.
  */
 
 const fs = require('fs');
@@ -43,6 +44,7 @@ function getBlogPostFiles() {
 
   const files = fs.readdirSync(postsDir);
   const urls = [];
+  const today = new Date().toISOString().split('T')[0];
 
   for (const f of files) {
     if (f.endsWith('.md')) {
@@ -50,10 +52,13 @@ function getBlogPostFiles() {
       const match = f.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$/);
       if (match) {
         const [_, year, month, day, slug] = match;
-        const lastmod = `${year}-${month}-${day}`;
+        const postDate = `${year}-${month}-${day}`;
+        // Enforce build convention: do not publish articles ahead of current date
+        if (postDate > today) continue;
+
         urls.push({
           loc: `${DOMAIN}/blog/${year}/${month}/${day}/${slug}.html`,
-          lastmod: lastmod,
+          lastmod: postDate,
           priority: '0.6',
           changefreq: 'yearly'
         });
