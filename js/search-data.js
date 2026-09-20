@@ -36,30 +36,50 @@ let dPresets = [];
 function debounce(func, wait) {
   let timeout;
   return function(...args) {
-    loadingSpinner.classList.remove('d-none');
+    const val = (this && this.value ? this.value : '').trim();
+    if (val.length > 0 && loadingSpinner) {
+      loadingSpinner.classList.remove('d-none');
+    }
     const context = this;
     clearTimeout(timeout);
-    timeout = setTimeout(async () => func.apply(await context, args), wait);
+    timeout = setTimeout(async () => {
+      await func.apply(context, args);
+    }, wait);
   };
 }
 
 const handleSearchInput = (e) => {
-  const value = e.target.value.toLowerCase();
-  dPresets.forEach(dPreset => {
-    const isVisible = dPreset.dTitle.toLowerCase().includes(value) || dPreset.dDesc.toLowerCase().includes(value);
-    dPreset.element.classList.toggle("d-none", !isVisible);
-  });
-  loadingSpinner.classList.add('d-none');
+  const value = (e.target.value || '').trim().toLowerCase();
+  if (value.length === 0) {
+    // By default, all presets are hidden when search input is empty
+    dPresets.forEach(dPreset => {
+      dPreset.element.classList.add("d-none");
+    });
+  } else {
+    // Only show presets that match the search query
+    dPresets.forEach(dPreset => {
+      const isVisible = (dPreset.dTitle && dPreset.dTitle.toLowerCase().includes(value)) ||
+                        (dPreset.dDesc && dPreset.dDesc.toLowerCase().includes(value));
+      dPreset.element.classList.toggle("d-none", !isVisible);
+    });
+  }
+  if (loadingSpinner) {
+    loadingSpinner.classList.add('d-none');
+  }
 };
 
-mainSearchInput.addEventListener("input", debounce(handleSearchInput, 1000));
-searchInput.addEventListener("input", debounce(handleSearchInput, 1000));
+if (mainSearchInput) {
+  mainSearchInput.addEventListener("input", debounce(handleSearchInput, 300));
+}
+if (searchInput) {
+  searchInput.addEventListener("input", debounce(handleSearchInput, 300));
+}
 
 const fetchData = async (jsonData) => {
   try {
     const res = await fetch(jsonData);
     const data = await res.json();
-    dPresets = dPresets.concat(data.map(dataPreset => {
+    const newPresets = data.map(dataPreset => {
       const dataNode = dataCards.content.cloneNode(true).children[0];
       const dataTitle = dataNode.querySelector(".card-title");
       const dataDescription = dataNode.querySelector(".card-text");
@@ -74,20 +94,36 @@ const fetchData = async (jsonData) => {
       if (favorites.includes(dataID.id)) {
         dataID.classList.add("faved");
       }
+      // Preset cards are hidden by default
+      dataNode.classList.add("d-none");
+      dataContainer.append(dataNode);
       return {dTitle: dataPreset.data_name, dDesc: dataPreset.data_description, element: dataNode};
-    }));
-    dPresets.forEach(dPreset => dataContainer.append(dPreset.element));
+    });
+    dPresets = dPresets.concat(newPresets);
   } catch (error) {
     console.error('Error fetching data:', error);
   } finally {
-     loadingSpinner.classList.add('d-none');
+    if (loadingSpinner) {
+      loadingSpinner.classList.add('d-none');
+    }
   }
 };
 
 const loadAllData = async () => {
-  loadingSpinner.classList.remove('d-none');
+  if (loadingSpinner) {
+    loadingSpinner.classList.remove('d-none');
+  }
   for (const jsonData of jsonDataArray) {
     await fetchData(jsonData);
+  }
+  // If search query was entered before all data loaded, apply filter
+  const currentQuery = (mainSearchInput?.value || searchInput?.value || '').trim().toLowerCase();
+  if (currentQuery.length > 0) {
+    dPresets.forEach(dPreset => {
+      const isVisible = (dPreset.dTitle && dPreset.dTitle.toLowerCase().includes(currentQuery)) ||
+                        (dPreset.dDesc && dPreset.dDesc.toLowerCase().includes(currentQuery));
+      dPreset.element.classList.toggle("d-none", !isVisible);
+    });
   }
 };
 
@@ -105,22 +141,19 @@ $("#search-me").click(function() {
   $("#hilter-back").addClass("on");
 });
 
-$("#hilter-back").click(function() {
+$("#hilter-back, #hilter-front").click(function() {
   $("#hilter-front").removeClass("on");
   $("#hilter-back").removeClass("on");
   $("#search-me").removeClass("on");
   $("#search-me").val("");
+  if (searchInput) {
+    searchInput.value = "";
+  }
   $("div.text-center#text-center").removeClass("searched");
   $("h2#searched-for").text("");
   $("div#show-results").html("");
-});
-
-$("#hilter-front").click(function() {
-  $("#hilter-front").removeClass("on");
-  $("#hilter-back").removeClass("on");
-  $("#search-me").removeClass("on");
-  $("#search-me").val("");
-  $("div.text-center#text-center").removeClass("searched");
-  $("h2#searched-for").text("");
-  $("div#show-results").html("");
+  dPresets.forEach(dPreset => dPreset.element.classList.add("d-none"));
+  if (loadingSpinner) {
+    loadingSpinner.classList.add('d-none');
+  }
 });
