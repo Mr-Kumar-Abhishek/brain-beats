@@ -3,8 +3,11 @@ import os
 import re
 from datetime import datetime, timedelta
 
+def strip_html(text):
+    return re.sub(r'<[^>]*>', '', text).strip()
+
 def slugify(text):
-    text = text.lower()
+    text = strip_html(text).lower()
     text = re.sub(r'[^a-z0-9]+', '-', text)
     return text.strip('-')
 
@@ -57,7 +60,7 @@ def main():
         if 'data_name' not in preset:
             continue
             
-        name = preset['data_name']
+        name = strip_html(preset['data_name'])
         slug = slugify(name)
         
         # Some existing posts might have slightly different slugs, let's just check if slug is in existing_slugs
