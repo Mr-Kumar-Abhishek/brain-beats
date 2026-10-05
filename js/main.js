@@ -274,9 +274,11 @@ function start_dreamachine_generator(){
 }
 
 function volume_set(){
-  var user_volume = $("#volume").val();
-//  console.log ("User volume " + user_volume);
-  var prog_volume = user_volume/100;
+  var user_volume = parseFloat($("#volume").val());
+  if (isNaN(user_volume) || user_volume < 0) {
+    user_volume = 60;
+  }
+  var prog_volume = user_volume / 100;
   return prog_volume;
 }
 
