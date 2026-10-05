@@ -59,16 +59,16 @@ hr {
 
 p, .post ul li {
   font-size: 1rem;
-  line-height: 1.4rem;
+  line-height: 1.65rem;
   color: #000000;
-  text-align: justify;
+  text-align: left;
 }
 
 time {
   font-size: 1em;
   line-height: 2.4rem;
   color: #000000;
-  text-align: justify;
+  text-align: left;
 }
 
 pre {
