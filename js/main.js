@@ -337,37 +337,43 @@ function stop_angel(){
 // and ultimately returns the resulted frequency
 
 function adjustFrequency(frequency) {
+  let freq = parseFloat(frequency);
+  if (isNaN(freq) || freq <= 0) {
+    return 440;
+  }
+
   // Define the lower and upper bounds of the hearing range
   const lowerBound = 20;
   const upperBound = 20000;
 
   // Check if the frequency is already in the hearing range
-  if (frequency >= lowerBound && frequency <= upperBound) {
+  if (freq >= lowerBound && freq <= upperBound) {
     // Return the frequency as it is
-    return frequency;
+    return freq;
   }
 
   // Check if the frequency is below the hearing range
-  if (frequency < lowerBound) {
+  if (freq < lowerBound) {
     // Loop until the frequency is in the hearing range
-    while (frequency < lowerBound) {
+    while (freq < lowerBound) {
       // Increase the frequency by one octave (multiply by 2)
-      frequency = frequency * 2;
+      freq = freq * 2;
     }
     // Return the adjusted frequency
-    return frequency;
+    return freq;
   }
 
   // Check if the frequency is above the hearing range
-  if (frequency > upperBound) {
+  if (freq > upperBound) {
     // Loop until the frequency is in the hearing range
-    while (frequency > upperBound) {
+    while (freq > upperBound) {
       // Decrease the frequency by one octave (divide by 2)
-      frequency = frequency / 2;
+      freq = freq / 2;
     }
     // Return the adjusted frequency
-    return frequency;
+    return freq;
   }
+  return freq;
 }
 
 function play_single_tone(freq, oscillator_type = 'sine') {
@@ -1529,9 +1535,7 @@ function stop_sine_3d_auto() {
 function play_monaural_generator(){
   var freq1 = $("#freq1").val();
   var freq2 = $("#freq2").val();
-   if(generator_validator(freq1, freq2, "monaural")){
-    play_binaural(freq1, freq2);
-  } else {
+  if(!generator_validator(freq1, freq2, "monaural")){
     return console.error("Monaural generator validation failed.");
   }
   play_monaural(freq1, freq2);

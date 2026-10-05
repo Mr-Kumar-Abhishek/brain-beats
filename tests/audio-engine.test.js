@@ -336,6 +336,9 @@ async function runTestSuite() {
     assert(global.adjustFrequency(10) === 20 || global.adjustFrequency(10) >= 20, "adjustFrequency shifts infrasound (<20Hz) up into hearing range");
     assert(global.adjustFrequency(440) === 440, "adjustFrequency preserves in-range frequencies (440Hz)");
     assert(global.adjustFrequency(40000) <= 20000, "adjustFrequency shifts ultrasound (>20kHz) down into hearing range");
+    assert(global.adjustFrequency(0) === 440, "adjustFrequency guards against zero inputs (defaults to 440Hz)");
+    assert(global.adjustFrequency("") === 440, "adjustFrequency guards against empty string inputs (defaults to 440Hz)");
+    assert(global.adjustFrequency(-15) === 440, "adjustFrequency guards against negative inputs (defaults to 440Hz)");
   } catch (e) {
     assert(false, `Frequency adjustment tests threw exception: ${e.message}`);
   }
