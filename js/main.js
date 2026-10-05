@@ -181,17 +181,41 @@ function modalDisplayer(modalName = 'instructionModal', focusName = 'search-me')
   // Get the modal element
     const modalElement = document.getElementById(modalName);
     if (!modalElement) {
-        console.error("Modal element #" + modalName + "not found!");
-        return; // Exit if modal doesn't exist
+        const focusElement = document.getElementById(focusName);
+        if (focusElement && focusElement.classList) {
+            focusElement.classList.add('is-invalid');
+            focusElement.focus();
+            setTimeout(() => {
+                if (focusElement && focusElement.classList) {
+                    focusElement.classList.remove('is-invalid');
+                }
+            }, 3000);
+        }
+        return; // Exit gracefully if modal doesn't exist
+    }
+
+    if (modalName === 'instructionModal') {
+      try {
+        if (typeof sessionStorage !== 'undefined' && sessionStorage.getItem('instruction_modal_dismissed') === 'true') {
+          return;
+        }
+      } catch (e) {}
     }
 
     const myModal = new bootstrap.Modal(modalElement, {
-      backdrop: 'static', // Prevents closing by clicking outside
-      keyboard: false    // Prevents closing with the Escape key
+      backdrop: modalName === 'instructionModal' ? true : 'static',
+      keyboard: true
     });
 
-    // --- Add this event listener ---
+    // Add hidden event listener
     modalElement.addEventListener('hidden.bs.modal', function (event) {
+      if (modalName === 'instructionModal') {
+        try {
+          if (typeof sessionStorage !== 'undefined') {
+            sessionStorage.setItem('instruction_modal_dismissed', 'true');
+          }
+        } catch (e) {}
+      }
       // Find the search input element
       const focusElement = document.getElementById(focusName);
       // If the search input exists, set focus to it
@@ -202,10 +226,9 @@ function modalDisplayer(modalName = 'instructionModal', focusName = 'search-me')
         document.body.focus();
       }
     });
-    // --- End of added listener ---
 
     // Show the modal
-    myModal.show();;
+    myModal.show();
 }
 
 function modalCaller(modalName = 'instructionModal', focusName = 'search-me') {
