@@ -109,13 +109,25 @@ To adjust nominal development and maintenance effort for the Brain Beats platfor
 | **TOOL (Modern Programming Tools)** | High | 0.91 | Advanced CI/CD pipelines, Dart Sass compiler, Bundler, Workbox CLI, and automated Node.js test runners. |
 | **MODP (Modern Programming Practices)** | High | 0.91 | TDD verification, declarative GitHub Actions, DRY Liquid layouts, modular SCSS, and conventional commits. |
 
-### Calculated Effort Adjustment Factor:
-$$\text{EAF} = 1.15 \times 1.08 \times 1.15 \times 1.11 \times 1.00 \times 1.15 \times 0.87 \times 0.71 \times 0.91 \times 0.70 \times 0.91 \times 0.91 = \mathbf{0.672}$$
+### Effort Adjustment Factor (EAF) Formulation & Valuation
 
-### Adjusted Platform Valuation:
-- **Organic Mode (Adjusted):** $1,754.28 \times 0.672 = \mathbf{1,178.87\text{ PM}} \implies \mathbf{\$9,430,988.70\text{ USD}}$
-- **Semi-Detached Mode (Adjusted):** $3,403.56 \times 0.672 = \mathbf{2,287.19\text{ PM}} \implies \mathbf{\$18,297,553.22\text{ USD}}$
-- **Embedded Mode (Adjusted):** $6,750.19 \times 0.672 = \mathbf{4,536.13\text{ PM}} \implies \mathbf{\$36,289,013.15\text{ USD}}$
+In the COCOMO 81 Intermediate model, the **Effort Adjustment Factor (EAF)** is computed as the composite product of all cost driver attribute ratings:
+
+$$\text{EAF} = \prod_{i=1}^{15} \text{Cost Driver}_i$$
+
+$$\begin{aligned}
+\text{EAF} &= 1.15 \times 1.08 \times 1.15 \times 1.11 \times 1.00 \times 1.15 \times 0.87 \\
+&\quad \times 0.71 \times 0.91 \times 0.70 \times 0.91 \times 0.91 \\
+&= \mathbf{0.672}
+\end{aligned}$$
+
+### Post-Adjustment Platform Valuation ($\text{Effort}_{\text{adj}} = \text{Effort}_{\text{nominal}} \times \text{EAF}$):
+
+| Deployment Mode | Nominal Effort | Adjusted Effort (EAF 0.672) | Adjusted Dev Cost ($8k/PM) |
+| :--- | :---: | :---: | :---: |
+| **Organic Mode** | 1,754.28 PM | **1,178.87 PM** | **$9,430,988.70 USD** |
+| **Semi-Detached Mode (Baseline)** | 3,403.56 PM | **2,287.19 PM** | **$18,297,553.22 USD** |
+| **Embedded Mode** | 6,750.19 PM | **4,536.13 PM** | **$36,289,013.15 USD** |
 
 ---
 
