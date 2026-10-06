@@ -41,6 +41,12 @@ Welcome to the internal engineering documentation and development workflow knowl
    - Production asset compilation (`npm run build`).
    - GitHub Pages deployment via GitHub Actions and static worktrees.
    - Netlify Edge CDN configuration and zero-exit-code build rules.
+8. **[Contribution Guidelines & Open Source Practices](file:///var/www/brain-beats/wiki/contribution-guidelines.md)**
+   - Open source community standards and Code of Conduct.
+   - Fork, feature branch, PR review, and issue reporting workflow.
+   - Engineering constraints: `/lab` conservation, Vanilla JS/Bootstrap 5 stack, and $O(1)$ static constant optimization.
+   - TDD verification harness (`npm test`) and asset compilation.
+   - Conventional Commits specification and dual-licensing governance (GNU AGPL-3.0 / CC BY 4.0).
 
 ---
 

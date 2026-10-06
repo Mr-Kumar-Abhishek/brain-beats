@@ -21,12 +21,14 @@ Enhancement suggestions are welcome! Please create an issue explaining:
 *   Why it would be beneficial to most users.
 
 ### Pull Requests
-1.  Fork the repository and create your branch from `master`.
-2.  If you've added code that should be tested, add tests.
+1.  Fork the repository and create your branch from `master` or `main`.
+2.  If you've added code that should be tested, add tests to `tests/audio-engine.test.js`.
 3.  Ensure the development setup instructions in `DEVELOPMENT.md` were followed.
 4.  Ensure your code follows the security guidelines (e.g., avoiding `.innerHTML`).
-5.  If you've changed static assets, regenerate the Service Worker (see `DEVELOPMENT.md`).
-6.  Issue that pull request!
+5.  If you've changed static assets, regenerate the Service Worker and CSS (see `DEVELOPMENT.md`).
+6.  Follow conventional commit messages (`feat:`, `fix:`, `docs:`, `perf:`).
+7.  For detailed step-by-step procedures, consult the **[Wiki Contribution Guidelines](wiki/contribution-guidelines.md)**.
+8.  Issue that pull request!
 
 ## Code Style
 *   Use consistent indentation (spaces or tabs as per the surrounding code).
