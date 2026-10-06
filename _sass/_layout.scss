@@ -3,12 +3,12 @@
 header {
   border-bottom: 1px solid $border-grey;
   background-color: $primary-white;
-  opacity: 0.75;
+  opacity: 0.95;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 50;
+  z-index: 1030;
 }
 
 nav ul {
@@ -24,18 +24,27 @@ nav ul {
 
 .fluidaner {
   margin-bottom: 200px;
-  margin-top: 100px;
+  margin-top: 110px;
   overflow-x: hidden;
 
   @media (max-width: 575.98px) {
-    margin-top: 80px;
+    margin-top: 85px;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
   }
 
   @media (min-width: 576px) and (max-width: 767.98px) {
+    margin-top: 95px;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    margin-top: 105px;
+  }
+
+  @media (min-width: 992px) and (max-width: 1250px) {
+    margin-top: 120px;
   }
 }
 

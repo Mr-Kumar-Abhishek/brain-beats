@@ -6,6 +6,26 @@
   margin-right: 0.2rem;
   width: 80px;
   height: 40px;
+  transition: all 0.25s ease-in-out;
+
+  &.is-playing {
+    box-shadow: 0 0 12px rgba(13, 110, 253, 0.75);
+    border-color: #0d6efd;
+    transform: scale(1.04);
+    animation: pulse-playback 1.8s infinite ease-in-out;
+  }
+}
+
+@keyframes pulse-playback {
+  0% {
+    box-shadow: 0 0 4px rgba(13, 110, 253, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 14px rgba(13, 110, 253, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 4px rgba(13, 110, 253, 0.4);
+  }
 }
 
 .card {
@@ -242,11 +262,13 @@
   border-style: solid;
   background: rgba(255, 255, 255, 0.82);
   color: $primary-black;
-  width: 0px;
-  transition: 0.5s;
+  width: 44px;
+  min-width: 44px;
+  transition: width 0.4s ease, border-radius 0.4s ease, border-color 0.4s ease, background 0.4s ease;
   cursor: pointer;
   outline: none;
 
+  &:focus,
   &.on {
     padding: 10px 20px;
     border-radius: 20px;
