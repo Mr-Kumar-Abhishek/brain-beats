@@ -158,12 +158,12 @@ img {
 header {
   border-bottom: 1px solid #dddddd;
   background-color: #ffffff;
-  opacity: 0.75;
+  opacity: 0.95;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 50;
+  z-index: 1030;
 }
 
 nav ul {
@@ -178,20 +178,31 @@ nav ul li {
 
 .fluidaner {
   margin-bottom: 200px;
-  margin-top: 100px;
+  margin-top: 110px;
   overflow-x: hidden;
 }
 @media (max-width: 575.98px) {
   .fluidaner {
-    margin-top: 80px;
+    margin-top: 85px;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .fluidaner {
+    margin-top: 95px;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .fluidaner {
+    margin-top: 105px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1250px) {
+  .fluidaner {
+    margin-top: 120px;
   }
 }
 
@@ -256,8 +267,26 @@ table.gsc-search-box {
   margin-right: 0.2rem;
   width: 80px;
   height: 40px;
+  transition: all 0.25s ease-in-out;
+}
+.btn-play-stop.is-playing {
+  box-shadow: 0 0 12px rgba(13, 110, 253, 0.75);
+  border-color: #0d6efd;
+  transform: scale(1.04);
+  animation: pulse-playback 1.8s infinite ease-in-out;
 }
 
+@keyframes pulse-playback {
+  0% {
+    box-shadow: 0 0 4px rgba(13, 110, 253, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 14px rgba(13, 110, 253, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 4px rgba(13, 110, 253, 0.4);
+  }
+}
 .card {
   margin-top: 10px;
   background: inherit;
@@ -490,12 +519,13 @@ table.gsc-search-box {
   border-style: solid;
   background: rgba(255, 255, 255, 0.82);
   color: #000000;
-  width: 0px;
-  transition: 0.5s;
+  width: 44px;
+  min-width: 44px;
+  transition: width 0.4s ease, border-radius 0.4s ease, border-color 0.4s ease, background 0.4s ease;
   cursor: pointer;
   outline: none;
 }
-.search-me.on {
+.search-me:focus, .search-me.on {
   padding: 10px 20px;
   border-radius: 20px;
   border-color: rgba(226, 226, 226, 0.75);
@@ -507,7 +537,7 @@ table.gsc-search-box {
   cursor: text;
 }
 @media (min-width: 768px) {
-  .search-me.on {
+  .search-me:focus, .search-me.on {
     width: 70%;
     padding: 10px 30px;
   }

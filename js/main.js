@@ -196,6 +196,9 @@ function modalDisplayer(modalName = 'instructionModal', focusName = 'search-me')
 
     if (modalName === 'instructionModal') {
       try {
+        if (typeof localStorage !== 'undefined' && localStorage.getItem('instruction_modal_dismissed') === 'true') {
+          return;
+        }
         if (typeof sessionStorage !== 'undefined' && sessionStorage.getItem('instruction_modal_dismissed') === 'true') {
           return;
         }
@@ -211,6 +214,9 @@ function modalDisplayer(modalName = 'instructionModal', focusName = 'search-me')
     modalElement.addEventListener('hidden.bs.modal', function (event) {
       if (modalName === 'instructionModal') {
         try {
+          if (typeof localStorage !== 'undefined') {
+            localStorage.setItem('instruction_modal_dismissed', 'true');
+          }
           if (typeof sessionStorage !== 'undefined') {
             sessionStorage.setItem('instruction_modal_dismissed', 'true');
           }
