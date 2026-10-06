@@ -1,27 +1,150 @@
----
-layout: feed
----
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brain Beats Blog | Brainwave Entrainment</title>
+    <description>Brain Beats - Free online brainwave entrainment generator for binaural beats, isochronic tones, solfeggio frequencies, and ambient noise.</description>
+    <link>https://brain-beats.in</link>
+    <atom:link href="https://brain-beats.in/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Sorghum Smut BIO 3D frequencies</title>
+        <description>&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Sorghum Smut. The frequencies in this preset are: 294 Hz&lt;/p&gt;
 
-	<title>Abhishek Kumar's Blog</title>
-	<link href="{{site.url}}/atom.xml" rel="self"/>
-	<link href="{{site.url}}/blog"/>
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>{{site.url}}/blog</id>
-	<author>
-		<name>Abhishek Kumar</name>
-		<email>support@brain-beats.in</email>
-	</author>
+&lt;h3 id=&quot;what-is-sorghum-smut-bio-3d-frequencies&quot;&gt;What is Sorghum Smut BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
 
-	{% for post in site.posts %}
-		<entry>
-			<title>{{ post.title }}</title>
-			<link href="{{site.url}}{{ post.url }}"/>
-			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>{{site.url}}{{ post.id }}</id>
-			<content type="html">{{ post.content | xml_escape }}</content>
-		</entry>
-	{% endfor %}
+</description>
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        <link>https://brain-beats.in/blog/2026/10/06/sorghum-smut-bio-3d-frequencies.html</link>
+        <guid isPermaLink="true">https://brain-beats.in/blog/2026/10/06/sorghum-smut-bio-3d-frequencies.html</guid>
+      </item>
+    
+      <item>
+        <title>Solitary Cyst BIO 3D frequencies</title>
+        <description>&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Solitary Cyst. The frequencies in this preset are: 75 Hz, 543 Hz&lt;/p&gt;
 
-</feed>
+&lt;h3 id=&quot;what-is-solitary-cyst-bio-3d-frequencies&quot;&gt;What is Solitary Cyst BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+        <link>https://brain-beats.in/blog/2026/10/05/solitary-cyst-bio-3d-frequencies.html</link>
+        <guid isPermaLink="true">https://brain-beats.in/blog/2026/10/05/solitary-cyst-bio-3d-frequencies.html</guid>
+      </item>
+    
+      <item>
+        <title>Smallpox BIO 3D frequencies</title>
+        <description>&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Smallpox. The frequencies in this preset are: 142 Hz, 476 Hz, 511 Hz, 876 Hz, 1644 Hz, 2132 Hz, 2544 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-smallpox-bio-3d-frequencies&quot;&gt;What is Smallpox BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+        <link>https://brain-beats.in/blog/2026/10/04/smallpox-bio-3d-frequencies.html</link>
+        <guid isPermaLink="true">https://brain-beats.in/blog/2026/10/04/smallpox-bio-3d-frequencies.html</guid>
+      </item>
+    
+      <item>
+        <title>Sinusitis Maxillariss BIO 3D frequencies</title>
+        <description>&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Sinusitis Maxillariss. The frequencies in this preset are: 160 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-sinusitis-maxillariss-bio-3d-frequencies&quot;&gt;What is Sinusitis Maxillariss BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+        <link>https://brain-beats.in/blog/2026/10/03/sinusitis-maxillariss-bio-3d-frequencies.html</link>
+        <guid isPermaLink="true">https://brain-beats.in/blog/2026/10/03/sinusitis-maxillariss-bio-3d-frequencies.html</guid>
+      </item>
+    
+      <item>
+        <title>Sinusitis Frontalis BIO 3D frequencies</title>
+        <description>&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Sinusitis Frontalis. The frequencies in this preset are: 952 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-sinusitis-frontalis-bio-3d-frequencies&quot;&gt;What is Sinusitis Frontalis BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+        <link>https://brain-beats.in/blog/2026/10/02/sinusitis-frontalis-bio-3d-frequencies.html</link>
+        <guid isPermaLink="true">https://brain-beats.in/blog/2026/10/02/sinusitis-frontalis-bio-3d-frequencies.html</guid>
+      </item>
+    
+      <item>
+        <title>Schuman B Cell BIO 3D frequencies</title>
+        <description>&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Schuman B Cell. The frequencies in this preset are: 322 Hz, 425 Hz, 428 Hz, 561 Hz, 600 Hz, 620 Hz, 623 Hz, 780 Hz, 781 Hz, 950 Hz, 952 Hz, 1023 Hz, 1524 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-schuman-b-cell-bio-3d-frequencies&quot;&gt;What is Schuman B Cell BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+        <link>https://brain-beats.in/blog/2026/10/01/schuman-b-cell-bio-3d-frequencies.html</link>
+        <guid isPermaLink="true">https://brain-beats.in/blog/2026/10/01/schuman-b-cell-bio-3d-frequencies.html</guid>
+      </item>
+    
+      <item>
+        <title>Sanguis Menstrualis BIO 3D frequencies</title>
+        <description>&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Sanguis Menstrualis. The frequencies in this preset are: 591 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-sanguis-menstrualis-bio-3d-frequencies&quot;&gt;What is Sanguis Menstrualis BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+        <link>https://brain-beats.in/blog/2026/09/30/sanguis-menstrualis-bio-3d-frequencies.html</link>
+        <guid isPermaLink="true">https://brain-beats.in/blog/2026/09/30/sanguis-menstrualis-bio-3d-frequencies.html</guid>
+      </item>
+    
+      <item>
+        <title>Salmonella Type B BIO 3D frequencies</title>
+        <description>&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Salmonella Type B. The frequencies in this preset are: 546 Hz, 1634 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-salmonella-type-b-bio-3d-frequencies&quot;&gt;What is Salmonella Type B BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+        <link>https://brain-beats.in/blog/2026/09/29/salmonella-type-b-bio-3d-frequencies.html</link>
+        <guid isPermaLink="true">https://brain-beats.in/blog/2026/09/29/salmonella-type-b-bio-3d-frequencies.html</guid>
+      </item>
+    
+      <item>
+        <title>Salivary Gland Virus BIO 3D frequencies</title>
+        <description>&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Salivary Gland Virus. The frequencies in this preset are: 126 Hz, 597 Hz, 1045 Hz, 2145 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-salivary-gland-virus-bio-3d-frequencies&quot;&gt;What is Salivary Gland Virus BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+        <link>https://brain-beats.in/blog/2026/09/28/salivary-gland-virus-bio-3d-frequencies.html</link>
+        <guid isPermaLink="true">https://brain-beats.in/blog/2026/09/28/salivary-gland-virus-bio-3d-frequencies.html</guid>
+      </item>
+    
+      <item>
+        <title>Rubeola BIO 3D frequencies</title>
+        <description>&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Rubeola. The frequencies in this preset are: 342 Hz, 467 Hz, 520 Hz, 1489 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-rubeola-bio-3d-frequencies&quot;&gt;What is Rubeola BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+        <link>https://brain-beats.in/blog/2026/09/27/rubeola-bio-3d-frequencies.html</link>
+        <guid isPermaLink="true">https://brain-beats.in/blog/2026/09/27/rubeola-bio-3d-frequencies.html</guid>
+      </item>
+    
+  </channel>
+</rss>

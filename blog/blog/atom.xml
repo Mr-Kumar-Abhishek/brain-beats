@@ -1,27 +1,716 @@
----
-layout: null
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Abhishek Kumar's Blog</title>
-	<link href="{{ site.url }}/blog/blog/atom.xml" rel="self"/>
-	<link href="{{ site.url }}/blog/"/>
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>{{ site.url }}/blog/</id>
+	<link href="https://brain-beats.in/blog/blog/atom.xml" rel="self"/>
+	<link href="https://brain-beats.in/blog/"/>
+	<updated>2026-10-06T10:45:50+00:00</updated>
+	<id>https://brain-beats.in/blog/</id>
 	<author>
 		<name>Abhishek Kumar</name>
 		<email>support@brain-beats.in</email>
 	</author>
 
-	{% for post in site.posts limit:50 %}
+	
 		<entry>
-			<title>{{ post.title | xml_escape }}</title>
-			<link href="{{ site.url }}{{ post.url }}"/>
-			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>{{ site.url }}{{ post.id }}</id>
-			<content type="html">{{ post.content | xml_escape }}</content>
+			<title>Sorghum Smut BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/10/06/sorghum-smut-bio-3d-frequencies.html"/>
+			<updated>2026-10-06T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/10/06/sorghum-smut-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Sorghum Smut. The frequencies in this preset are: 294 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-sorghum-smut-bio-3d-frequencies&quot;&gt;What is Sorghum Smut BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
 		</entry>
-	{% endfor %}
+	
+		<entry>
+			<title>Solitary Cyst BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/10/05/solitary-cyst-bio-3d-frequencies.html"/>
+			<updated>2026-10-05T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/10/05/solitary-cyst-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Solitary Cyst. The frequencies in this preset are: 75 Hz, 543 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-solitary-cyst-bio-3d-frequencies&quot;&gt;What is Solitary Cyst BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Smallpox BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/10/04/smallpox-bio-3d-frequencies.html"/>
+			<updated>2026-10-04T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/10/04/smallpox-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Smallpox. The frequencies in this preset are: 142 Hz, 476 Hz, 511 Hz, 876 Hz, 1644 Hz, 2132 Hz, 2544 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-smallpox-bio-3d-frequencies&quot;&gt;What is Smallpox BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Sinusitis Maxillariss BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/10/03/sinusitis-maxillariss-bio-3d-frequencies.html"/>
+			<updated>2026-10-03T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/10/03/sinusitis-maxillariss-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Sinusitis Maxillariss. The frequencies in this preset are: 160 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-sinusitis-maxillariss-bio-3d-frequencies&quot;&gt;What is Sinusitis Maxillariss BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Sinusitis Frontalis BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/10/02/sinusitis-frontalis-bio-3d-frequencies.html"/>
+			<updated>2026-10-02T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/10/02/sinusitis-frontalis-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Sinusitis Frontalis. The frequencies in this preset are: 952 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-sinusitis-frontalis-bio-3d-frequencies&quot;&gt;What is Sinusitis Frontalis BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Schuman B Cell BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/10/01/schuman-b-cell-bio-3d-frequencies.html"/>
+			<updated>2026-10-01T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/10/01/schuman-b-cell-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Schuman B Cell. The frequencies in this preset are: 322 Hz, 425 Hz, 428 Hz, 561 Hz, 600 Hz, 620 Hz, 623 Hz, 780 Hz, 781 Hz, 950 Hz, 952 Hz, 1023 Hz, 1524 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-schuman-b-cell-bio-3d-frequencies&quot;&gt;What is Schuman B Cell BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Sanguis Menstrualis BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/30/sanguis-menstrualis-bio-3d-frequencies.html"/>
+			<updated>2026-09-30T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/30/sanguis-menstrualis-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Sanguis Menstrualis. The frequencies in this preset are: 591 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-sanguis-menstrualis-bio-3d-frequencies&quot;&gt;What is Sanguis Menstrualis BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Salmonella Type B BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/29/salmonella-type-b-bio-3d-frequencies.html"/>
+			<updated>2026-09-29T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/29/salmonella-type-b-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Salmonella Type B. The frequencies in this preset are: 546 Hz, 1634 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-salmonella-type-b-bio-3d-frequencies&quot;&gt;What is Salmonella Type B BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Salivary Gland Virus BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/28/salivary-gland-virus-bio-3d-frequencies.html"/>
+			<updated>2026-09-28T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/28/salivary-gland-virus-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Salivary Gland Virus. The frequencies in this preset are: 126 Hz, 597 Hz, 1045 Hz, 2145 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-salivary-gland-virus-bio-3d-frequencies&quot;&gt;What is Salivary Gland Virus BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Rubeola BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/27/rubeola-bio-3d-frequencies.html"/>
+			<updated>2026-09-27T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/27/rubeola-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Rubeola. The frequencies in this preset are: 342 Hz, 467 Hz, 520 Hz, 1489 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-rubeola-bio-3d-frequencies&quot;&gt;What is Rubeola BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Round Worms BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/26/round-worms-bio-3d-frequencies.html"/>
+			<updated>2026-09-26T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/26/round-worms-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Round Worms. The frequencies in this preset are: 240 Hz, 650 Hz, 688 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-round-worms-bio-3d-frequencies&quot;&gt;What is Round Worms BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Rocky Mountain Spotted Fever BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/25/rocky-mountain-spotted-fever-bio-3d-frequencies.html"/>
+			<updated>2026-09-25T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/25/rocky-mountain-spotted-fever-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Rocky Mountain Spotted Fever. The frequencies in this preset are: 375 Hz, 862 Hz, 943 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-rocky-mountain-spotted-fever-bio-3d-frequencies&quot;&gt;What is Rocky Mountain Spotted Fever BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Rickettsia BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/24/rickettsia-bio-3d-frequencies.html"/>
+			<updated>2026-09-24T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/24/rickettsia-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Rickettsia. The frequencies in this preset are: 129 Hz, 632 Hz, 943 Hz, 1062 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-rickettsia-bio-3d-frequencies&quot;&gt;What is Rickettsia BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Rhodococcus BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/23/rhodococcus-bio-3d-frequencies.html"/>
+			<updated>2026-09-23T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/23/rhodococcus-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Rhodococcus. The frequencies in this preset are: 124 Hz, 835 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-rhodococcus-bio-3d-frequencies&quot;&gt;What is Rhodococcus BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Rhodo Torula BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/22/rhodo-torula-bio-3d-frequencies.html"/>
+			<updated>2026-09-22T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/22/rhodo-torula-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Rhodo Torula. The frequencies in this preset are: 833 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-rhodo-torula-bio-3d-frequencies&quot;&gt;What is Rhodo Torula BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Rhizopus Nigricans BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/21/rhizopus-nigricans-bio-3d-frequencies.html"/>
+			<updated>2026-09-21T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/21/rhizopus-nigricans-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Rhizopus Nigricans. The frequencies in this preset are: 132 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-rhizopus-nigricans-bio-3d-frequencies&quot;&gt;What is Rhizopus Nigricans BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Rhinopneumonitis BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/20/rhinopneumonitis-bio-3d-frequencies.html"/>
+			<updated>2026-09-20T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/20/rhinopneumonitis-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Rhinopneumonitis. The frequencies in this preset are: 185 Hz, 367 Hz, 820 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-rhinopneumonitis-bio-3d-frequencies&quot;&gt;What is Rhinopneumonitis BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Rheumaticus BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/19/rheumaticus-bio-3d-frequencies.html"/>
+			<updated>2026-09-19T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/19/rheumaticus-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Rheumaticus. The frequencies in this preset are: 333 Hz, 376 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-rheumaticus-bio-3d-frequencies&quot;&gt;What is Rheumaticus BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Rhesus Gravidatum BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/18/rhesus-gravidatum-bio-3d-frequencies.html"/>
+			<updated>2026-09-18T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/18/rhesus-gravidatum-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Rhesus Gravidatum. The frequencies in this preset are: 684 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-rhesus-gravidatum-bio-3d-frequencies&quot;&gt;What is Rhesus Gravidatum BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Rabies BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/17/rabies-bio-3d-frequencies.html"/>
+			<updated>2026-09-17T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/17/rabies-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Rabies. The frequencies in this preset are: 547 Hz, 793 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-rabies-bio-3d-frequencies&quot;&gt;What is Rabies BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Q Fever BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/16/q-fever-bio-3d-frequencies.html"/>
+			<updated>2026-09-16T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/16/q-fever-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Q Fever. The frequencies in this preset are: 1357 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-q-fever-bio-3d-frequencies&quot;&gt;What is Q Fever BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Pyrogenium Mayo BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/15/pyrogenium-mayo-bio-3d-frequencies.html"/>
+			<updated>2026-09-15T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/15/pyrogenium-mayo-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Pyrogenium Mayo. The frequencies in this preset are: 1625 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-pyrogenium-mayo-bio-3d-frequencies&quot;&gt;What is Pyrogenium Mayo BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Pyocyaneus BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/14/pyocyaneus-bio-3d-frequencies.html"/>
+			<updated>2026-09-14T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/14/pyocyaneus-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Pyocyaneus. The frequencies in this preset are: 437 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-pyocyaneus-bio-3d-frequencies&quot;&gt;What is Pyocyaneus BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Pullularia Pullulans BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/13/pullularia-pullulans-bio-3d-frequencies.html"/>
+			<updated>2026-09-13T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/13/pullularia-pullulans-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Pullularia Pullulans. The frequencies in this preset are: 1364 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-pullularia-pullulans-bio-3d-frequencies&quot;&gt;What is Pullularia Pullulans BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Psorinum BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/12/psorinum-bio-3d-frequencies.html"/>
+			<updated>2026-09-12T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/12/psorinum-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Psorinum. The frequencies in this preset are: 786 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-psorinum-bio-3d-frequencies&quot;&gt;What is Psorinum BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Psittacosis BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/11/psittacosis-bio-3d-frequencies.html"/>
+			<updated>2026-09-11T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/11/psittacosis-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Psittacosis. The frequencies in this preset are: 583 Hz, 1217 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-psittacosis-bio-3d-frequencies&quot;&gt;What is Psittacosis BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Pseudomonas BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/10/pseudomonas-bio-3d-frequencies.html"/>
+			<updated>2026-09-10T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/10/pseudomonas-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Pseudomonas. The frequencies in this preset are: 174 Hz, 482 Hz, 5311 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-pseudomonas-bio-3d-frequencies&quot;&gt;What is Pseudomonas BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Protozoa BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/09/protozoa-bio-3d-frequencies.html"/>
+			<updated>2026-09-09T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/09/protozoa-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Protozoa. The frequencies in this preset are: 432 Hz, 753 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-protozoa-bio-3d-frequencies&quot;&gt;What is Protozoa BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Porphyria BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/08/porphyria-bio-3d-frequencies.html"/>
+			<updated>2026-09-08T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/08/porphyria-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Porphyria. The frequencies in this preset are: 698 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-porphyria-bio-3d-frequencies&quot;&gt;What is Porphyria BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Polio BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/07/polio-bio-3d-frequencies.html"/>
+			<updated>2026-09-07T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/07/polio-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Polio. The frequencies in this preset are: 742 Hz, 1500 Hz, 2632 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-polio-bio-3d-frequencies&quot;&gt;What is Polio BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Pneumonia Mycoplasma BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/06/pneumonia-mycoplasma-bio-3d-frequencies.html"/>
+			<updated>2026-09-06T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/06/pneumonia-mycoplasma-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Pneumonia Mycoplasma. The frequencies in this preset are: 688 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-pneumonia-mycoplasma-bio-3d-frequencies&quot;&gt;What is Pneumonia Mycoplasma BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Pneumocystis BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/05/pneumocystis-bio-3d-frequencies.html"/>
+			<updated>2026-09-05T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/05/pneumocystis-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Pneumocystis. The frequencies in this preset are: 204 Hz, 340 Hz, 742 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-pneumocystis-bio-3d-frequencies&quot;&gt;What is Pneumocystis BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Pneumococcus Mixed Flora BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/04/pneumococcus-mixed-flora-bio-3d-frequencies.html"/>
+			<updated>2026-09-04T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/04/pneumococcus-mixed-flora-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Pneumococcus Mixed Flora. The frequencies in this preset are: 158 Hz, 174 Hz, 645 Hz, 801 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-pneumococcus-mixed-flora-bio-3d-frequencies&quot;&gt;What is Pneumococcus Mixed Flora BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Plague BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/03/plague-bio-3d-frequencies.html"/>
+			<updated>2026-09-03T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/03/plague-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Plague. The frequencies in this preset are: 333 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-plague-bio-3d-frequencies&quot;&gt;What is Plague BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Pertussis BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/02/pertussis-bio-3d-frequencies.html"/>
+			<updated>2026-09-02T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/02/pertussis-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Pertussis. The frequencies in this preset are: 526 Hz, 765 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-pertussis-bio-3d-frequencies&quot;&gt;What is Pertussis BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Perniosis BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/09/01/perniosis-bio-3d-frequencies.html"/>
+			<updated>2026-09-01T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/09/01/perniosis-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Perniosis. The frequencies in this preset are: 232 Hz, 622 Hz, 822 Hz, 4211 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-perniosis-bio-3d-frequencies&quot;&gt;What is Perniosis BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Pepto Streptococcus BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/31/pepto-streptococcus-bio-3d-frequencies.html"/>
+			<updated>2026-08-31T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/31/pepto-streptococcus-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Pepto Streptococcus. The frequencies in this preset are: 201 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-pepto-streptococcus-bio-3d-frequencies&quot;&gt;What is Pepto Streptococcus BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Penicillium Notatum BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/30/penicillium-notatum-bio-3d-frequencies.html"/>
+			<updated>2026-08-30T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/30/penicillium-notatum-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Penicillium Notatum. The frequencies in this preset are: 321 Hz, 555 Hz, 629 Hz, 825 Hz, 942 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-penicillium-notatum-bio-3d-frequencies&quot;&gt;What is Penicillium Notatum BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Penicillium Chrysogenum BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/29/penicillium-chrysogenum-bio-3d-frequencies.html"/>
+			<updated>2026-08-29T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/29/penicillium-chrysogenum-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Penicillium Chrysogenum. The frequencies in this preset are: 344 Hz, 868 Hz, 1070 Hz, 2411 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-penicillium-chrysogenum-bio-3d-frequencies&quot;&gt;What is Penicillium Chrysogenum BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Pasteurella Combination BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/28/pasteurella-combination-bio-3d-frequencies.html"/>
+			<updated>2026-08-28T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/28/pasteurella-combination-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Pasteurella Combination. The frequencies in this preset are: 913 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-pasteurella-combination-bio-3d-frequencies&quot;&gt;What is Pasteurella Combination BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Parvovirus Canine BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/27/parvovirus-canine-bio-3d-frequencies.html"/>
+			<updated>2026-08-27T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/27/parvovirus-canine-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Parvovirus Canine. The frequencies in this preset are: 185 Hz, 323 Hz, 562 Hz, 613 Hz, 622 Hz, 1000 Hz, 4027 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-parvovirus-canine-bio-3d-frequencies&quot;&gt;What is Parvovirus Canine BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Parkinson&apos;s Disease BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/26/parkinson-s-disease-bio-3d-frequencies.html"/>
+			<updated>2026-08-26T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/26/parkinson-s-disease-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Parkinson’s Disease. The frequencies in this preset are: 813 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-parkinsons-disease-bio-3d-frequencies&quot;&gt;What is Parkinson’s Disease BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Paradontose BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/25/paradontose-bio-3d-frequencies.html"/>
+			<updated>2026-08-25T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/25/paradontose-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Paradontose. The frequencies in this preset are: 424 Hz, 1552 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-paradontose-bio-3d-frequencies&quot;&gt;What is Paradontose BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Papillomavirus BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/24/papillomavirus-bio-3d-frequencies.html"/>
+			<updated>2026-08-24T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/24/papillomavirus-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Papillomavirus. The frequencies in this preset are: 907 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-papillomavirus-bio-3d-frequencies&quot;&gt;What is Papillomavirus BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Ox Bile BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/23/ox-bile-bio-3d-frequencies.html"/>
+			<updated>2026-08-23T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/23/ox-bile-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Ox Bile. The frequencies in this preset are: 672 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-ox-bile-bio-3d-frequencies&quot;&gt;What is Ox Bile BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Ovum BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/22/ovum-bio-3d-frequencies.html"/>
+			<updated>2026-08-22T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/22/ovum-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Ovum. The frequencies in this preset are: 752 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-ovum-bio-3d-frequencies&quot;&gt;What is Ovum BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Ovarian Cyst BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/21/ovarian-cyst-bio-3d-frequencies.html"/>
+			<updated>2026-08-21T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/21/ovarian-cyst-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Ovarian Cyst. The frequencies in this preset are: 982 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-ovarian-cyst-bio-3d-frequencies&quot;&gt;What is Ovarian Cyst BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Osteosinusitis Max BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/20/osteosinusitis-max-bio-3d-frequencies.html"/>
+			<updated>2026-08-20T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/20/osteosinusitis-max-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Osteosinusitis Max. The frequencies in this preset are: 243 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-osteosinusitis-max-bio-3d-frequencies&quot;&gt;What is Osteosinusitis Max BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Osteomyelosclerosis BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/19/osteomyelosclerosis-bio-3d-frequencies.html"/>
+			<updated>2026-08-19T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/19/osteomyelosclerosis-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Osteomyelosclerosis. The frequencies in this preset are: 79 Hz, 330 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-osteomyelosclerosis-bio-3d-frequencies&quot;&gt;What is Osteomyelosclerosis BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
+		<entry>
+			<title>Ornithosis BIO 3D frequencies</title>
+			<link href="https://brain-beats.in/blog/2026/08/18/ornithosis-bio-3d-frequencies.html"/>
+			<updated>2026-08-18T00:00:00+00:00</updated>
+			<id>https://brain-beats.in/blog/2026/08/18/ornithosis-bio-3d-frequencies</id>
+			<content type="html">&lt;p&gt;This is BIO 3D frequencies healing preset for mental relief for Ornithosis. The frequencies in this preset are: 331 Hz, 583 Hz, 1217 Hz&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-ornithosis-bio-3d-frequencies&quot;&gt;What is Ornithosis BIO 3D frequencies?&lt;/h3&gt;
+&lt;p&gt;This frequency is part of the Brain Beats presets collection. 
+Listen to this track to experience its reported benefits.&lt;/p&gt;
+
+</content>
+		</entry>
+	
 
 </feed>
