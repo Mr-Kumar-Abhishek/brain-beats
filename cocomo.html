@@ -349,14 +349,49 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 		<div class="container-fluid container-sm container-md container-lg container-xl container-xxl fluidaner mx-auto mx-sm-auto mx-md-auto mx-lg-auto mx-xl-auto mx-xxl-auto px-1 px-sm-2 px-md-3 px-lg-4 px-xl-5 px-xxl-5">
 			<div class="row justify-content-center mx-auto mx-sm-auto mx-md-auto mx-lg-auto mx-xl-auto mx-xxl-auto">
 				<div class="col-12 col-sm-12 col-md-11 col-lg-10 col-xl-10 col-xxl-10 mx-auto mx-sm-auto mx-md-auto mx-lg-auto mx-xl-auto mx-xxl-auto">
-					<div class="card my-4 shadow-sm">
+					<div class="card my-4 shadow-sm border-0">
 						<div class="card-body p-4 p-md-5">
-							<h1 class="card-title mb-3">COCOMO Production Cost &amp; Software Maintenance Valuation</h1>
-							<p class="lead text-muted">A comprehensive software engineering cost, development effort, and annual maintenance re-estimation for the <strong>Brain Beats</strong> audio synthesis and progressive web platform using the Constructive Cost Model (COCOMO 81 / Basic &amp; Maintenance Models).</p>
-							<hr class="my-4">
+							<div class="d-flex flex-wrap align-items-center justify-content-between mb-3 border-bottom pb-3">
+								<div>
+									<h1 class="card-title mb-1 text-primary fw-bold">COCOMO Production Cost &amp; Software Maintenance Valuation</h1>
+									<p class="lead text-muted mb-0">Comprehensive software engineering economics, development effort, and annual maintenance valuation using COCOMO 81 models.</p>
+								</div>
+							</div>
 
-							<h2>1. Codebase Sizing &amp; Composition Breakdown</h2>
-							<p>Based on static analysis of the active production source tree (excluding build artifacts, Jekyll cache, and virtual environments), the repository encompasses <strong>6,713 active source files</strong> totaling <strong>469,816 Source Lines of Code (469.816 KLOC)</strong>:</p>
+							<!-- Metric Highlights Cards -->
+							<div class="row g-3 my-3">
+								<div class="col-12 col-sm-6 col-lg-3">
+									<div class="card h-100 bg-light border-0 shadow-sm text-center p-3">
+										<small class="text-uppercase text-muted fw-semibold">Codebase Scale</small>
+										<div class="fs-3 fw-bold text-dark mt-1">533.96 KLOC</div>
+										<small class="text-secondary">6,706 Clean Source Files</small>
+									</div>
+								</div>
+								<div class="col-12 col-sm-6 col-lg-3">
+									<div class="card h-100 bg-light border-0 shadow-sm text-center p-3">
+										<small class="text-uppercase text-muted fw-semibold">Semi-Detached Valuation</small>
+										<div class="fs-3 fw-bold text-primary mt-1">$27.23M</div>
+										<small class="text-secondary">3,403.56 Person-Months</small>
+									</div>
+								</div>
+								<div class="col-12 col-sm-6 col-lg-3">
+									<div class="card h-100 bg-light border-0 shadow-sm text-center p-3">
+										<small class="text-uppercase text-muted fw-semibold">Adjusted Effort (EAF 0.672)</small>
+										<div class="fs-3 fw-bold text-success mt-1">$18.30M</div>
+										<small class="text-secondary">2,287.19 Person-Months</small>
+									</div>
+								</div>
+								<div class="col-12 col-sm-6 col-lg-3">
+									<div class="card h-100 bg-light border-0 shadow-sm text-center p-3">
+										<small class="text-uppercase text-muted fw-semibold">Specialized WBS Value</small>
+										<div class="fs-3 fw-bold text-info mt-1">$38,700</div>
+										<small class="text-secondary">774.0 Specialized Hours</small>
+									</div>
+								</div>
+							</div>
+
+							<h2 class="mt-4 mb-3">1. Codebase Sizing &amp; Composition Breakdown</h2>
+							<p class="text-secondary">Based on static analysis of the active production source tree (excluding build artifacts, Jekyll cache, and virtual environments), the repository encompasses <strong>6,706 active source files</strong> totaling <strong>533,963 Source Lines of Code (533.963 KLOC)</strong>:</p>
 							<div class="table-responsive my-3">
 								<table class="table table-bordered table-striped table-hover align-middle">
 									<thead class="table-dark">
