@@ -5,21 +5,21 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Abhishek Kumar's Blog</title>
-	<link href="{{site.url}}/atom.xml" rel="self"/>
-	<link href="{{site.url}}/blog"/>
+	<link href="{{ site.url }}/blog/blog/atom.xml" rel="self"/>
+	<link href="{{ site.url }}/blog/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>{{site.url}}/blog</id>
+	<id>{{ site.url }}/blog/</id>
 	<author>
 		<name>Abhishek Kumar</name>
 		<email>support@brain-beats.in</email>
 	</author>
 
-	{% for post in site.posts %}
+	{% for post in site.posts limit:50 %}
 		<entry>
-			<title>{{ post.title }}</title>
-			<link href="{{site.url}}{{ post.url }}"/>
+			<title>{{ post.title | xml_escape }}</title>
+			<link href="{{ site.url }}{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>{{site.url}}{{ post.id }}</id>
+			<id>{{ site.url }}{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
