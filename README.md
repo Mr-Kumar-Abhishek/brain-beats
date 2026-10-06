@@ -250,7 +250,7 @@ npm run build
 
 ## 🤝 Contributing & Community
 
-Contributions are welcome! Please review [CONTRIBUTING.md](CONTRIBUTING.md) before submitting pull requests.
+Contributions are welcome! Please review the comprehensive **[Contribution Guidelines](wiki/contribution-guidelines.md)** in our engineering wiki as well as [CONTRIBUTING.md](CONTRIBUTING.md) before submitting pull requests. All contributions must follow our open-source standards, TDD verification suite, and Conventional Commits specification.
 
 * **Author & Maintainer:** Abhishek Kumar
 * **Official Website:** [brain-beats.in](https://brain-beats.in)
