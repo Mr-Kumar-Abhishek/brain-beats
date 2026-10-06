@@ -31,7 +31,12 @@ Welcome to the internal engineering documentation and development workflow knowl
    - Preset JSON schema validation across 25 databases.
    - Service Worker precache verification (209 URLs).
    - Automated zero-exit-code CI testing and regression prevention.
-6. **[Deployment & Branch Synchronization](file:///var/www/brain-beats/wiki/deployment-and-branch-sync.md)**
+6. **[Static Constant Optimization & Efficiency](file:///var/www/brain-beats/wiki/static-constant-optimization.md)**
+   - Zero-recomputation philosophy for invariant constants.
+   - Pre-computed sub-threshold infrasound octave tables ($<20$ Hz $\rightarrow$ audible spectrum).
+   - $O(1)$ constant-time execution eliminating audio thread jitter and buffer stalls.
+   - Resource and thermal efficiency for in-house server and client devices.
+7. **[Deployment & Branch Synchronization](file:///var/www/brain-beats/wiki/deployment-and-branch-sync.md)**
    - Multi-branch synchronization (`main`, `master`, `dev`, `debug`, `gh-pages`).
    - Production asset compilation (`npm run build`).
    - GitHub Pages deployment via GitHub Actions and static worktrees.
