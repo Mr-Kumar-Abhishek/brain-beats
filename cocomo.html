@@ -782,16 +782,48 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 								</table>
 							</div>
 
-							<p><strong>Effort Adjustment Factor (EAF):</strong></p>
-							\[ \text{EAF} = 1.15 \times 1.08 \times 1.15 \times 1.11 \times 1.00 \times 1.15 \times 0.87 \times 0.71 \times 0.91 \times 0.70 \times 0.91 \times 0.91 = \mathbf{0.672} \]
-
-							<div class="alert alert-info mt-3">
-								<h5 class="alert-heading">Adjusted Platform Valuation:</h5>
-								<ul class="mb-0">
-									<li><strong>Organic Mode (Adjusted):</strong> \( 1,754.28 \times 0.672 = \mathbf{1,178.87 \text{ PM}} \implies \mathbf{\$9,430,988.70 \text{ USD}} \)</li>
-									<li><strong>Semi-Detached Mode (Adjusted):</strong> \( 3,403.56 \times 0.672 = \mathbf{2,287.19 \text{ PM}} \implies \mathbf{\$18,297,553.22 \text{ USD}} \)</li>
-									<li><strong>Embedded Mode (Adjusted):</strong> \( 6,750.19 \times 0.672 = \mathbf{4,536.13 \text{ PM}} \implies \mathbf{\$36,289,013.15 \text{ USD}} \)</li>
-								</ul>
+							<div class="card bg-light border-0 shadow-sm my-4">
+								<div class="card-body p-4">
+									<h4 class="card-title fw-bold text-dark mb-3">Effort Adjustment Factor (EAF) Formulation &amp; Valuation</h4>
+									<p class="card-text text-secondary mb-3">
+										In the COCOMO 81 Intermediate model, the <strong>Effort Adjustment Factor (EAF)</strong> is computed as the composite product of all 15 cost driver attribute ratings:
+									</p>
+									<div class="p-3 bg-white rounded border mb-3 text-center">
+										\[ \text{EAF} = \prod_{i=1}^{15} \text{Cost Driver}_i \]
+										\[ \begin{aligned}
+										\text{EAF} &= 1.15 \times 1.08 \times 1.15 \times 1.11 \times 1.00 \times 1.15 \times 0.87 \\
+										&\quad \times 0.71 \times 0.91 \times 0.70 \times 0.91 \times 0.91 \\
+										&= \mathbf{0.672}
+										\end{aligned} \]
+									</div>
+									<h5 class="fw-semibold text-dark mt-4 mb-3">Post-Adjustment Model Valuations (\( \text{Effort}_{\text{adj}} = \text{Effort}_{\text{nominal}} \times \text{EAF} \)):</h5>
+									<div class="row g-3">
+										<div class="col-md-4">
+											<div class="p-3 bg-white rounded border h-100">
+												<span class="badge bg-primary mb-2">Organic Mode</span>
+												<div class="text-secondary small mb-1">\( 1,754.28 \times 0.672 \)</div>
+												<div class="fs-5 fw-bold text-dark">1,178.87 PM</div>
+												<div class="text-success fw-semibold mt-1">$9,430,988.70 USD</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="p-3 bg-white rounded border h-100 border-primary shadow-xs">
+												<span class="badge bg-primary mb-2">Semi-Detached Mode (Baseline)</span>
+												<div class="text-secondary small mb-1">\( 3,403.56 \times 0.672 \)</div>
+												<div class="fs-5 fw-bold text-primary">2,287.19 PM</div>
+												<div class="text-success fw-semibold mt-1">$18,297,553.22 USD</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="p-3 bg-white rounded border h-100">
+												<span class="badge bg-secondary mb-2">Embedded Mode</span>
+												<div class="text-secondary small mb-1">\( 6,750.19 \times 0.672 \)</div>
+												<div class="fs-5 fw-bold text-dark">4,536.13 PM</div>
+												<div class="text-success fw-semibold mt-1">$36,289,013.15 USD</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 
 							<hr class="my-4">
