@@ -1,5 +1,5 @@
-{"name" : "brain beats",
-    "short_name" : "brain beats",
+{"name" : "Brain Beats Pro",
+    "short_name" : "Brain Beats Pro",
     "description" : "A guided meditation app.",
     "start_url" : "./",
     "display" : "standalone",
