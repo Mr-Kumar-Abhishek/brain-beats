@@ -33,29 +33,57 @@ Based on full static analysis of the active source tree (excluding `node_modules
 
 ### 2.2 Development Effort & Schedule Formulas
 1. **Organic Mode:** Well-understood web application developed by experienced engineering teams with stable requirements.
-   $$\text{Effort}_{nom} = 2.4 \times (KLOC)^{1.05} \quad \text{[Person-Months]}$$
-   $$\text{TDEV} = 2.5 \times (\text{Effort}_{nom})^{0.38} \quad \text{[Months]}$$
+
+   $$
+   \text{Effort}_{nom} = 2.4 \times (KLOC)^{1.05} \quad \text{[Person-Months]}
+   $$
+
+   $$
+   \text{TDEV} = 2.5 \times (\text{Effort}_{nom})^{0.38} \quad \text{[Months]}
+   $$
 
 2. **Semi-Detached Mode:** Medium-complexity system combining standard web frameworks with specialized DSP algorithms, real-time audio synthesis, and cross-browser AudioContext lifecycle management.
-   $$\text{Effort}_{nom} = 3.0 \times (KLOC)^{1.12} \quad \text{[Person-Months]}$$
-   $$\text{TDEV} = 2.5 \times (\text{Effort}_{nom})^{0.35} \quad \text{[Months]}$$
+
+   $$
+   \text{Effort}_{nom} = 3.0 \times (KLOC)^{1.12} \quad \text{[Person-Months]}
+   $$
+
+   $$
+   \text{TDEV} = 2.5 \times (\text{Effort}_{nom})^{0.35} \quad \text{[Months]}
+   $$
 
 3. **Embedded Mode:** High-complexity real-time system with strict browser audio thread timing, DSP constraints, AudioWorklet thread isolation, and PWA offline precache guarantees.
-   $$\text{Effort}_{nom} = 3.6 \times (KLOC)^{1.20} \quad \text{[Person-Months]}$$
-   $$\text{TDEV} = 2.5 \times (\text{Effort}_{nom})^{0.32} \quad \text{[Months]}$$
+
+   $$
+   \text{Effort}_{nom} = 3.6 \times (KLOC)^{1.20} \quad \text{[Person-Months]}
+   $$
+
+   $$
+   \text{TDEV} = 2.5 \times (\text{Effort}_{nom})^{0.32} \quad \text{[Months]}
+   $$
 
 ### 2.3 Software Maintenance Formulas (COCOMO Maintenance Model)
 In the COCOMO software maintenance model, annual ongoing engineering effort is proportional to the **Annual Change Traffic (ACT)**—the fraction of the software codebase that is added, modified, or deleted during a given year:
 
-$$\text{ACT} = \frac{\text{SLOC}_{\text{added}} + \text{SLOC}_{\text{modified}}}{\text{SLOC}_{\text{total}}}$$
+$$
+\text{ACT} = \frac{\text{SLOC}_{\text{added}} + \text{SLOC}_{\text{modified}}}{\text{SLOC}_{\text{total}}}
+$$
 
-$$\text{AME} = \text{ACT} \times \text{Effort}_{nom} \quad \text{[Annual Maintenance Effort in Person-Months/Year]}$$
+$$
+\text{AME} = \text{ACT} \times \text{Effort}_{nom} \quad \text{[Annual Maintenance Effort in Person-Months/Year]}
+$$
 
-$$\text{AMC} = \text{AME} \times \text{Labor Rate} \quad \text{[Annual Maintenance Cost in USD/Year]}$$
+$$
+\text{AMC} = \text{AME} \times \text{Labor Rate} \quad \text{[Annual Maintenance Cost in USD/Year]}
+$$
 
-$$\text{FTE}_{\text{maint}} = \frac{\text{AME}}{12} \quad \text{[Full-Time Equivalent Maintenance Engineers]}$$
+$$
+\text{FTE}_{\text{maint}} = \frac{\text{AME}}{12} \quad \text{[Full-Time Equivalent Maintenance Engineers]}
+$$
 
-$$\text{TCO}_{5\text{yr}} = \text{Cost}_{dev} + 5 \times \text{AMC} \quad \text{[5-Year Total Cost of Ownership]}$$
+$$
+\text{TCO}_{5\text{yr}} = \text{Cost}_{dev} + 5 \times \text{AMC} \quad \text{[5-Year Total Cost of Ownership]}
+$$
 
 ---
 
@@ -113,13 +141,14 @@ To adjust nominal development and maintenance effort for the Brain Beats platfor
 
 In the COCOMO 81 Intermediate model, the **Effort Adjustment Factor (EAF)** is computed as the composite product of all cost driver attribute ratings:
 
-$$\text{EAF} = \prod_{i=1}^{15} \text{Cost Driver}_i$$
-
-$$\begin{aligned}
-\text{EAF} &= 1.15 \times 1.08 \times 1.15 \times 1.11 \times 1.00 \times 1.15 \times 0.87 \\
+$$
+\begin{aligned}
+\text{EAF} &= \prod_{i=1}^{15} \text{Cost Driver}_i \\
+&= 1.15 \times 1.08 \times 1.15 \times 1.11 \times 1.00 \times 1.15 \times 0.87 \\
 &\quad \times 0.71 \times 0.91 \times 0.70 \times 0.91 \times 0.91 \\
 &= \mathbf{0.672}
-\end{aligned}$$
+\end{aligned}
+$$
 
 ### Post-Adjustment Platform Valuation ($\text{Effort}_{\text{adj}} = \text{Effort}_{\text{nominal}} \times \text{EAF}$):
 
@@ -177,7 +206,9 @@ To quantify the computational crunching costs associated with the multi-branch t
 
 **Fully loaded five-year TCO (constant annual run rate):**
 
-$$\text{TCO}_{5yr,\text{loaded}} = \text{COCOMO TCO}_{5yr} + \sum_{y=1}^{5} (\text{AI/tool charges after credits}_y + \text{CI/CD and hosting charges after credits}_y)$$
+$$
+\text{TCO}_{5\text{yr},\text{loaded}} = \text{COCOMO TCO}_{5\text{yr}} + \sum_{y=1}^{5} \left( \text{AI / Tool Charges after Credits}_y + \text{CI/CD \& Hosting Charges after Credits}_y \right)
+$$
 
 For the credit-covered period, the reported direct operating charge is $0. Future-year charges should only be added for usage not covered by available credits. This adds non-labor operating charges to the selected COCOMO scenario, whose existing maintenance estimate already includes maintenance labor. Credit value is excluded from cash TCO; add it separately only when producing an economic-value view. Future charges remain unestimated until credit balances, expiry, usage forecasts, and applicable rates are known.
 
