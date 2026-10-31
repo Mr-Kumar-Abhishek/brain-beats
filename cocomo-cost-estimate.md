@@ -193,16 +193,35 @@ The year-one subtotal combines one-time work ($27,750) with one year of estimate
 
 The $0 figures describe direct cash spend only while the reported credits covered usage; they do not imply that the services have no list-price or economic value, nor that future usage will remain free. For a retrospective economic-value estimate, record each provider's credited amount or usage and apply the relevant rate card. For future budgets, use the applicable post-credit rates and projected usage. For self-hosted models, include inference infrastructure and operating labor if applicable. Do not count a Copilot seat as separate API spend unless billing records show an additional charge.
 
-### Git Commit Patch Analysis (as of 2026-10-31)
+### Lifetime Git Patch and Dependency Add-On Totals
 
-Patch totals are computed from the current `HEAD` history with `git log --no-merges --no-renames --numstat`. They include text changes to all tracked paths, exclude binary line counts and merge commits, and count renamed files as deletions plus additions.
+Patch totals cover all history reachable from the current `HEAD`, computed with `git log --no-merges --no-renames --numstat`. They include text changes to all tracked paths, exclude binary line counts and merge commits, and count renamed files as deletions plus additions.
 
-| Scope | Non-merge commits | File-change rows | Lines added | Lines deleted | Gross patch churn |
+| Lifetime patch scope | Non-merge commits | File-change rows | Added patch lines | Deleted patch lines | Gross patch churn |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| **Full history reachable from HEAD** | 9,451 | 173,438 | 14,909,570 | 3,987,817 | 18,897,387 |
-| **2025-10-31 through 2026-10-31** | 1,028 | 150,284 | 13,133,571 | 3,071,813 | 16,205,384 |
+| **All history reachable from HEAD** | 9,452 | 173,440 | 14,909,599 | 3,987,855 | 18,897,454 |
 
-Using the report's 533,963-SLOC baseline, the past-year gross patch churn is `(13,133,571 + 3,071,813) / 533,963 = 30.35x` (3,034.93%). This is a repository-wide patch activity measure, not the COCOMO Annual Change Traffic (ACT): repeated edits are counted repeatedly, and a modified line can appear as both an addition and a deletion. It therefore must not replace the scenario ACT assumptions in Section 3 or be interpreted as the fraction of unique source lines maintained. Git patch totals alone also do not establish engineering hours, AI token usage, or cloud charges, so no compute cost is inferred here.
+Using the report's 533,963-SLOC baseline, lifetime gross patch churn is `18,897,454 / 533,963 = 35.39x` (3,539.09%). These are cumulative patch operations, not unique source lines or COCOMO Annual Change Traffic (ACT): repeated edits count repeatedly, and a modified line can appear as both an addition and a deletion. Do not substitute this measure for the scenario ACT assumptions in Section 3.
+
+Current dependency add-ons are counted from the committed npm and Ruby lockfiles. Lockfile entries include transitive dependencies and platform-specific variants; the unique-name total counts names separately by ecosystem. These are locked dependency records, not a claim that every package is currently installed or used at runtime.
+
+| Dependency ecosystem | Lockfile entries | Unique ecosystem-package names |
+| :--- | ---: | ---: |
+| **npm** (`package-lock.json`) | 571 | 520 |
+| **Ruby gems** (`Gemfile.lock`) | 75 | 43 |
+| **Total current add-ons** | **646** | **563** |
+
+Under the report's existing assumption that these dependencies have no license fees, direct add-on license cost is **$0 assumed**. Package counts do not establish integration or maintenance labor; that labor is not separately priced here.
+
+### Lifetime Patch-Volume-Equivalent COCOMO Cost
+
+For a volume-based comparison only, the 14,909,599 added patch lines are treated as if they were 14,909.599 KLOC of newly developed, unique source code. The resulting figures are **not actual historical spend or a valuation of unique surviving code**: Git counts repeated additions across commits, including revisions to the same lines. Do not add these alternative estimates to the current-codebase valuation or the WBS/TCO.
+
+| COCOMO mode | Nominal effort | Nominal cost (@ $8,000/PM) | EAF-adjusted effort (0.672) | EAF-adjusted cost |
+| :--- | ---: | ---: | ---: | ---: |
+| **Organic** | 57,856.28 PM | $462,850,236.46 | 38,879.42 PM | $311,035,358.90 |
+| **Semi-Detached** | 141,710.86 PM | $1,133,686,879.27 | 95,229.70 PM | $761,837,582.87 |
+| **Embedded** | 366,827.31 PM | $2,934,618,448.78 | 246,507.95 PM | $1,972,063,597.58 |
 
 **Fully loaded five-year TCO (constant annual run rate):**
 

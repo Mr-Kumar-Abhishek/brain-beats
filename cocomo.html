@@ -959,41 +959,101 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 							</div>
 							<p>The $0 figures describe direct cash spend only while the reported credits covered usage; they do not imply that the services have no list-price or economic value, nor that future usage will remain free. For a retrospective economic-value estimate, record each provider's credited amount or usage and apply the relevant rate card. For future budgets, use the applicable post-credit rates and projected usage. For self-hosted models, include inference infrastructure and operating labor if applicable. Do not count a Copilot seat as separate API spend unless billing records show an additional charge.</p>
 
-							<h3 class="h5 mt-4">Git Commit Patch Analysis (as of 2026-10-31)</h3>
-							<p>Patch totals are computed from the current <code>HEAD</code> history with <code>git log --no-merges --no-renames --numstat</code>. They include text changes to all tracked paths, exclude binary line counts and merge commits, and count renamed files as deletions plus additions.</p>
+							<h3 class="h5 mt-4">Lifetime Git Patch and Dependency Add-On Totals</h3>
+							<p>Patch totals cover all history reachable from the current <code>HEAD</code>, computed with <code>git log --no-merges --no-renames --numstat</code>. They include text changes to all tracked paths, exclude binary line counts and merge commits, and count renamed files as deletions plus additions.</p>
 							<div class="table-responsive my-3">
 								<table class="table table-bordered table-striped align-middle">
 									<thead class="table-primary">
 										<tr>
-											<th>Scope</th>
+											<th>Lifetime patch scope</th>
 											<th style="text-align: right;">Non-merge commits</th>
 											<th style="text-align: right;">File-change rows</th>
-											<th style="text-align: right;">Lines added</th>
-											<th style="text-align: right;">Lines deleted</th>
+											<th style="text-align: right;">Added patch lines</th>
+											<th style="text-align: right;">Deleted patch lines</th>
 											<th style="text-align: right;">Gross patch churn</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
-											<td><strong>Full history reachable from HEAD</strong></td>
-											<td style="text-align: right;">9,451</td>
-											<td style="text-align: right;">173,438</td>
-											<td style="text-align: right;">14,909,570</td>
-											<td style="text-align: right;">3,987,817</td>
-											<td style="text-align: right;">18,897,387</td>
-										</tr>
-										<tr>
-											<td><strong>2025-10-31 through 2026-10-31</strong></td>
-											<td style="text-align: right;">1,028</td>
-											<td style="text-align: right;">150,284</td>
-											<td style="text-align: right;">13,133,571</td>
-											<td style="text-align: right;">3,071,813</td>
-											<td style="text-align: right;">16,205,384</td>
+											<td><strong>All history reachable from HEAD</strong></td>
+											<td style="text-align: right;">9,452</td>
+											<td style="text-align: right;">173,440</td>
+											<td style="text-align: right;">14,909,599</td>
+											<td style="text-align: right;">3,987,855</td>
+											<td style="text-align: right;">18,897,454</td>
 										</tr>
 									</tbody>
 								</table>
 							</div>
-							<p>Against the report's 533,963-SLOC baseline, past-year gross patch churn is <code>(13,133,571 + 3,071,813) / 533,963 = 30.35x</code> (3,034.93%). This is repository-wide patch activity, not COCOMO Annual Change Traffic (ACT): repeated edits count repeatedly, and a modified line can appear as both an addition and a deletion. Do not substitute it for the scenario ACT assumptions in Section 3 or interpret it as the fraction of unique source lines maintained. Git patch totals alone do not establish engineering hours, AI token usage, or cloud charges, so no compute cost is inferred.</p>
+							<p>Using the report's 533,963-SLOC baseline, lifetime gross patch churn is <code>18,897,454 / 533,963 = 35.39x</code> (3,539.09%). These are cumulative patch operations, not unique source lines or COCOMO Annual Change Traffic (ACT): repeated edits count repeatedly, and a modified line can appear as both an addition and a deletion. Do not substitute this measure for the scenario ACT assumptions in Section 3.</p>
+							<p>Current dependency add-ons are counted from the committed npm and Ruby lockfiles. Lockfile entries include transitive dependencies and platform-specific variants; the unique-name total counts names separately by ecosystem. These are locked dependency records, not a claim that every package is currently installed or used at runtime.</p>
+							<div class="table-responsive my-3">
+								<table class="table table-bordered table-striped align-middle">
+									<thead class="table-primary">
+										<tr>
+											<th>Dependency ecosystem</th>
+											<th style="text-align: right;">Lockfile entries</th>
+											<th style="text-align: right;">Unique ecosystem-package names</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><strong>npm (<code>package-lock.json</code>)</strong></td>
+											<td style="text-align: right;">571</td>
+											<td style="text-align: right;">520</td>
+										</tr>
+										<tr>
+											<td><strong>Ruby gems (<code>Gemfile.lock</code>)</strong></td>
+											<td style="text-align: right;">75</td>
+											<td style="text-align: right;">43</td>
+										</tr>
+										<tr class="table-secondary">
+											<td><strong>Total current add-ons</strong></td>
+											<td style="text-align: right;"><strong>646</strong></td>
+											<td style="text-align: right;"><strong>563</strong></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<p>Under the report's existing assumption that these dependencies have no license fees, direct add-on license cost is <strong>$0 assumed</strong>. Package counts do not establish integration or maintenance labor; that labor is not separately priced here.</p>
+							<h3 class="h5 mt-4">Lifetime Patch-Volume-Equivalent COCOMO Cost</h3>
+							<p>For a volume-based comparison only, the 14,909,599 added patch lines are treated as if they were 14,909.599 KLOC of newly developed, unique source code. The resulting figures are <strong>not actual historical spend or a valuation of unique surviving code</strong>: Git counts repeated additions across commits, including revisions to the same lines. Do not add these alternative estimates to the current-codebase valuation or the WBS/TCO.</p>
+							<div class="table-responsive my-3">
+								<table class="table table-bordered table-striped align-middle">
+									<thead class="table-primary">
+										<tr>
+											<th>COCOMO mode</th>
+											<th style="text-align: right;">Nominal effort</th>
+											<th style="text-align: right;">Nominal cost (@ $8,000/PM)</th>
+											<th style="text-align: right;">EAF-adjusted effort (0.672)</th>
+											<th style="text-align: right;">EAF-adjusted cost</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><strong>Organic</strong></td>
+											<td style="text-align: right;">57,856.28 PM</td>
+											<td style="text-align: right;">$462,850,236.46</td>
+											<td style="text-align: right;">38,879.42 PM</td>
+											<td style="text-align: right;">$311,035,358.90</td>
+										</tr>
+										<tr>
+											<td><strong>Semi-Detached</strong></td>
+											<td style="text-align: right;">141,710.86 PM</td>
+											<td style="text-align: right;">$1,133,686,879.27</td>
+											<td style="text-align: right;">95,229.70 PM</td>
+											<td style="text-align: right;">$761,837,582.87</td>
+										</tr>
+										<tr>
+											<td><strong>Embedded</strong></td>
+											<td style="text-align: right;">366,827.31 PM</td>
+											<td style="text-align: right;">$2,934,618,448.78</td>
+											<td style="text-align: right;">246,507.95 PM</td>
+											<td style="text-align: right;">$1,972,063,597.58</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 
 							<div class="card bg-light border-0 shadow-sm my-4">
 								<div class="card-body p-4">
