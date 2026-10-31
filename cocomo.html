@@ -384,8 +384,8 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 								<div class="col-12 col-sm-6 col-lg-3">
 									<div class="card h-100 bg-light border-0 shadow-sm text-center p-3">
 										<small class="text-uppercase text-muted fw-semibold">Specialized WBS Value</small>
-										<div class="fs-3 fw-bold text-info mt-1">$38,700</div>
-										<small class="text-secondary">774.0 Specialized Hours</small>
+										<div class="fs-3 fw-bold text-info mt-1">$38,500</div>
+										<small class="text-secondary">770.0 Specialized Hours</small>
 									</div>
 								</div>
 							</div>
@@ -686,9 +686,9 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 										<tr>
 											<th>Total Specialized Engineering Work</th>
 											<th>Complete Platform Synthesis, Modular SCSS Pipeline, Wiki &amp; Maintenance Operations</th>
-											<th style="text-align: right;">774.0 hrs</th>
-											<th style="text-align: right;">4.838 PM</th>
-											<th style="text-align: right;">$38,700.00</th>
+											<th style="text-align: right;">770.0 hrs</th>
+											<th style="text-align: right;">4.813 PM</th>
+											<th style="text-align: right;">$38,500.00</th>
 										</tr>
 									</tfoot>
 								</table>
@@ -823,6 +823,146 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 											</div>
 										</div>
 									</div>
+								</div>
+							</div>
+
+							<h2 class="mt-4">6. Supply-Chain Cost Segregation</h2>
+							<p>COCOMO estimates engineering labor; it does not price third-party model access, developer seats, hosting, or CI/CD consumption. The <strong>$8,000 per person-month rate is labor only</strong>. The AI and service usage in scope was covered by free credits provided by the respective companies, so the direct cash cost during the credit-covered period was <strong>$0</strong>. Credit consumption and its equivalent list-price value were not provided; that in-kind value is therefore unquantified. Costs after credits expire or are exhausted are not included.</p>
+							<p>The WBS below reorganizes the specialized engineering estimate from Section 4. Its targeted work-package scope is separate from the full-codebase COCOMO scenarios in Sections 3 and 5; <strong>do not add the two labor estimates together</strong>.</p>
+
+							<h3 class="h5 mt-4">Specialized WBS by supply-chain stream</h3>
+							<div class="table-responsive my-3">
+								<table class="table table-bordered table-striped align-middle">
+									<thead class="table-primary">
+										<tr>
+											<th>Supply-chain stream</th>
+											<th>Included scope / dependencies</th>
+											<th>WBS mapping</th>
+											<th style="text-align: right;">Estimated labor</th>
+											<th style="text-align: right;">Labor valuation</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><strong>Product engineering</strong></td>
+											<td>Web Audio DSP, frequency catalogs, Jekyll layouts, modular SCSS</td>
+											<td>WP1, WP2, WP8, WP10</td>
+											<td style="text-align: right;">362 hrs (2.263 PM)</td>
+											<td style="text-align: right;">$18,100 one-time</td>
+										</tr>
+										<tr>
+											<td><strong>Quality assurance</strong></td>
+											<td>Automated TDD and integration verification</td>
+											<td>WP4</td>
+											<td style="text-align: right;">44 hrs (0.275 PM)</td>
+											<td style="text-align: right;">$2,200 one-time</td>
+										</tr>
+										<tr>
+											<td><strong>Build, CI/CD &amp; release</strong></td>
+											<td>Workbox/PWA build, GitHub Pages pipeline, Netlify configuration, branch/release hygiene</td>
+											<td>WP3, WP5, WP6, WP7</td>
+											<td style="text-align: right;">113 hrs (0.706 PM)</td>
+											<td style="text-align: right;">$5,650 one-time</td>
+										</tr>
+										<tr>
+											<td><strong>Engineering documentation</strong></td>
+											<td>Developer wiki and architecture documentation</td>
+											<td>WP11</td>
+											<td style="text-align: right;">32 hrs (0.200 PM)</td>
+											<td style="text-align: right;">$1,600 one-time</td>
+										</tr>
+										<tr>
+											<td><strong>AI-assisted development tools</strong></td>
+											<td>Gemini, Qwen, DeepSeek R1, and GitHub Copilot using selected OpenAI model(s)</td>
+											<td>Not separately estimated in WBS</td>
+											<td style="text-align: right;">Not provided</td>
+											<td style="text-align: right;">$0 direct spend while covered by credits</td>
+										</tr>
+										<tr>
+											<td><strong>Ongoing maintenance</strong></td>
+											<td>Browser/API updates, dependency patches, cache and repository maintenance</td>
+											<td>WP9</td>
+											<td style="text-align: right;">219 hrs/year (1.369 PM/year)</td>
+											<td style="text-align: right;">$10,950/year</td>
+										</tr>
+										<tr class="table-secondary">
+											<td><strong>Specialized WBS subtotal</strong></td>
+											<td>One-time work above plus one year of WP9 maintenance</td>
+											<td>WP1–WP11</td>
+											<td style="text-align: right;">770 hrs in year one</td>
+											<td style="text-align: right;">$38,500 in year one</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<p>The year-one subtotal combines one-time work ($27,550) with one year of estimated maintenance ($10,950). For later years, use the annual maintenance line rather than repeating the one-time WBS work.</p>
+
+							<h3 class="h5 mt-4">External supplier and service cost ledger</h3>
+							<div class="table-responsive my-3">
+								<table class="table table-bordered table-striped align-middle">
+									<thead class="table-primary">
+										<tr>
+											<th>Supplier / service</th>
+											<th>Cost classification</th>
+											<th>Cost driver / credit treatment</th>
+											<th style="text-align: right;">Current estimate</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><strong>Google Gemini</strong></td>
+											<td>AI model access</td>
+											<td>Usage covered by company-provided free credits; token usage and credit value not supplied</td>
+											<td style="text-align: right;">$0 direct spend during covered period</td>
+										</tr>
+										<tr>
+											<td><strong>Qwen</strong></td>
+											<td>AI model access or self-hosted inference</td>
+											<td>Usage covered by company-provided free credits; token usage and credit value not supplied</td>
+											<td style="text-align: right;">$0 direct spend during covered period</td>
+										</tr>
+										<tr>
+											<td><strong>DeepSeek R1</strong></td>
+											<td>AI model access or self-hosted inference</td>
+											<td>Usage covered by company-provided free credits; token usage and credit value not supplied</td>
+											<td style="text-align: right;">$0 direct spend during covered period</td>
+										</tr>
+										<tr>
+											<td><strong>GitHub Copilot / selected OpenAI model(s)</strong></td>
+											<td>Developer-tool seats; model access per the selected Copilot plan</td>
+											<td>Usage covered by company-provided free credits; seat and model usage breakdown not supplied</td>
+											<td style="text-align: right;">$0 direct spend during covered period</td>
+										</tr>
+										<tr>
+											<td><strong>GitHub Actions and Pages</strong></td>
+											<td>CI/CD and hosting</td>
+											<td>Usage covered by company-provided free credits; runner, storage, and bandwidth consumption not supplied</td>
+											<td style="text-align: right;">$0 direct spend during covered period</td>
+										</tr>
+										<tr>
+											<td><strong>Netlify</strong></td>
+											<td>CI/CD and hosting</td>
+											<td>Usage covered by company-provided free credits; build, bandwidth, and hosting consumption not supplied</td>
+											<td style="text-align: right;">$0 direct spend during covered period</td>
+										</tr>
+										<tr>
+											<td><strong>Workbox and other open-source build tools</strong></td>
+											<td>Build tooling</td>
+											<td>Open-source license cost; engineering labor is counted in the WBS</td>
+											<td style="text-align: right;">$0 license cost assumed</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<p>The $0 figures describe direct cash spend only while the reported credits covered usage; they do not imply that the services have no list-price or economic value, nor that future usage will remain free. For a retrospective economic-value estimate, record each provider's credited amount or usage and apply the relevant rate card. For future budgets, use the applicable post-credit rates and projected usage. For self-hosted models, include inference infrastructure and operating labor if applicable. Do not count a Copilot seat as separate API spend unless billing records show an additional charge.</p>
+
+							<div class="card bg-light border-0 shadow-sm my-4">
+								<div class="card-body p-4">
+									<h3 class="h5 card-title fw-bold text-dark mb-3">Fully loaded five-year TCO (constant annual run rate)</h3>
+									<div class="p-3 bg-white rounded border mb-3 text-center">
+										\[ \text{TCO}_{5yr,\text{loaded}} = \text{COCOMO TCO}_{5yr} + \sum_{y=1}^{5} (\text{AI/tool charges after credits}_y + \text{CI/CD and hosting charges after credits}_y) \]
+									</div>
+									<p class="mb-0">For the credit-covered period, the reported direct operating charge is $0. Future-year charges should only be added for usage not covered by available credits. This adds non-labor operating charges to the selected COCOMO scenario, whose existing maintenance estimate already includes maintenance labor. Credit value is excluded from cash TCO; add it separately only when producing an economic-value view. Future charges remain unestimated until credit balances, expiry, usage forecasts, and applicable rates are known.</p>
 								</div>
 							</div>
 

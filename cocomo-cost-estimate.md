@@ -131,7 +131,47 @@ $$\begin{aligned}
 
 ---
 
-## 6. Key Value Drivers & Strategic Assets
+## 6. Supply-Chain Cost Segregation
+
+COCOMO estimates engineering labor; it does not price third-party model access, developer seats, hosting, or CI/CD consumption. The **$8,000 per person-month rate is labor only**. The AI and service usage in scope was covered by free credits provided by the respective companies, so the direct cash cost during the credit-covered period was **$0**. Credit consumption and its equivalent list-price value were not provided; that in-kind value is therefore unquantified. Costs after credits expire or are exhausted are not included.
+
+The WBS below reorganizes the specialized engineering estimate from Section 4. Its targeted work-package scope is separate from the full-codebase COCOMO scenarios in Sections 3 and 5; **do not add the two labor estimates together**.
+
+| Supply-chain stream | Included scope / dependencies | WBS mapping | Estimated labor | Labor valuation |
+| :--- | :--- | :---: | :---: | :---: |
+| **Product engineering** | Web Audio DSP, frequency catalogs, Jekyll layouts, modular SCSS | WP1, WP2, WP8, WP10 | 362 hrs (2.263 PM) | $18,100 one-time |
+| **Quality assurance** | Automated TDD and integration verification | WP4 | 48 hrs (0.300 PM) | $2,400 one-time |
+| **Build, CI/CD & release** | Workbox/PWA build, GitHub Pages pipeline, Netlify configuration, branch/release hygiene | WP3, WP5, WP6, WP7 | 113 hrs (0.706 PM) | $5,650 one-time |
+| **Engineering documentation** | Developer wiki and architecture documentation | WP11 | 32 hrs (0.200 PM) | $1,600 one-time |
+| **AI-assisted development tools** | Gemini, Qwen, DeepSeek R1, and GitHub Copilot using selected OpenAI model(s) | Not separately estimated in WBS | Not provided | $0 direct spend while covered by credits |
+| **Ongoing maintenance** | Browser/API updates, dependency patches, cache and repository maintenance | WP9 | 219 hrs/year (1.369 PM/year) | $10,950/year |
+| **Specialized WBS subtotal** | One-time work above plus one year of WP9 maintenance | WP1–WP11 | 774 hrs in year one | $38,700 in year one |
+
+The year-one subtotal combines one-time work ($27,750) with one year of estimated maintenance ($10,950). For later years, use the annual maintenance line rather than repeating the one-time WBS work.
+
+### External supplier and service cost ledger
+
+| Supplier / service | Cost classification | Cost driver / credit treatment | Current estimate |
+| :--- | :--- | :--- | :---: |
+| **Google Gemini** | AI model access | Usage covered by company-provided free credits; token usage and credit value not supplied | $0 direct spend during covered period |
+| **Qwen** | AI model access or self-hosted inference | Usage covered by company-provided free credits; token usage and credit value not supplied | $0 direct spend during covered period |
+| **DeepSeek R1** | AI model access or self-hosted inference | Usage covered by company-provided free credits; token usage and credit value not supplied | $0 direct spend during covered period |
+| **GitHub Copilot / selected OpenAI model(s)** | Developer-tool seats; model access per the selected Copilot plan | Usage covered by company-provided free credits; seat and model usage breakdown not supplied | $0 direct spend during covered period |
+| **GitHub Actions and Pages** | CI/CD and hosting | Usage covered by company-provided free credits; runner, storage, and bandwidth consumption not supplied | $0 direct spend during covered period |
+| **Netlify** | CI/CD and hosting | Usage covered by company-provided free credits; build, bandwidth, and hosting consumption not supplied | $0 direct spend during covered period |
+| **Workbox and other open-source build tools** | Build tooling | Open-source license cost; engineering labor is counted in the WBS | $0 license cost assumed |
+
+The $0 figures describe direct cash spend only while the reported credits covered usage; they do not imply that the services have no list-price or economic value, nor that future usage will remain free. For a retrospective economic-value estimate, record each provider's credited amount or usage and apply the relevant rate card. For future budgets, use the applicable post-credit rates and projected usage. For self-hosted models, include inference infrastructure and operating labor if applicable. Do not count a Copilot seat as separate API spend unless billing records show an additional charge.
+
+**Fully loaded five-year TCO (constant annual run rate):**
+
+$$\text{TCO}_{5yr,\text{loaded}} = \text{COCOMO TCO}_{5yr} + \sum_{y=1}^{5} (\text{AI/tool charges after credits}_y + \text{CI/CD and hosting charges after credits}_y)$$
+
+For the credit-covered period, the reported direct operating charge is $0. Future-year charges should only be added for usage not covered by available credits. This adds non-labor operating charges to the selected COCOMO scenario, whose existing maintenance estimate already includes maintenance labor. Credit value is excluded from cash TCO; add it separately only when producing an economic-value view. Future charges remain unestimated until credit balances, expiry, usage forecasts, and applicable rates are known.
+
+---
+
+## 7. Key Value Drivers & Strategic Assets
 
 1. **Rife CAFL Presets & Frequency Research Library:** Comprehensive digital archive of 25 structured laboratory catalogs, providing instant client-side frequency lookup and multi-wave audio playback.
 2. **Deterministic Web Audio DSP Engine:** Robust singleton audio architecture with seamless mobile autoplay unlock, stereo panning, dynamic gain smoothing, and AudioWorklet noise synthesis.
