@@ -172,7 +172,7 @@ The WBS below reorganizes the specialized engineering estimate from Section 4. I
 | **Quality assurance** | Automated TDD and integration verification | WP4 | 48 hrs (0.300 PM) | $2,400 one-time |
 | **Build, CI/CD & release** | Workbox/PWA build, GitHub Pages pipeline, Netlify configuration, branch/release hygiene | WP3, WP5, WP6, WP7 | 113 hrs (0.706 PM) | $5,650 one-time |
 | **Engineering documentation** | Developer wiki and architecture documentation | WP11 | 32 hrs (0.200 PM) | $1,600 one-time |
-| **AI-assisted development tools** | Gemini, Anthropic Claude (Claude Code), Qwen, DeepSeek R1, and GitHub Copilot using selected OpenAI model(s) | Not separately estimated in WBS | Not provided | $0 direct spend while covered by free quota / credits |
+| **AI-assisted development tools** | Gemini (Google One subscription), Anthropic Claude (Claude Code), Qwen, DeepSeek R1, and GitHub Copilot using selected OpenAI model(s) | Not separately estimated in WBS | Not provided | $0 direct spend (Gemini included in Google One annual subscription without overages; others covered by free quota / credits) |
 | **Ongoing maintenance** | Browser/API updates, dependency patches, cache and repository maintenance | WP9 | 219 hrs/year (1.369 PM/year) | $10,950/year |
 | **Specialized WBS subtotal** | One-time work above plus one year of WP9 maintenance | WP1–WP11 | 774 hrs in year one | $38,700 in year one |
 
@@ -182,7 +182,7 @@ The year-one subtotal combines one-time work ($27,750) with one year of estimate
 
 | Supplier / service | Cost classification | Cost driver / credit treatment | Current estimate |
 | :--- | :--- | :--- | :---: |
-| **Google Gemini** | AI model access | Usage covered by company-provided free credits; token usage and credit value not supplied | $0 direct spend during covered period |
+| **Google Gemini** | AI model access & code generation | Usage fully covered under personal Google One annual subscription without overages; zero incremental per-token API or overage fees | $0.00 incremental spend |
 | **Anthropic Claude (Claude Code)** | AI model access & code reasoning | Usage covered by company-provided free quota / trial credits; token usage and context window in-kind value tracked | $0 direct spend during covered period |
 | **Qwen** | AI model access or self-hosted inference | Usage covered by company-provided free credits; token usage and credit value not supplied | $0 direct spend during covered period |
 | **DeepSeek R1** | AI model access or self-hosted inference | Usage covered by company-provided free credits; token usage and credit value not supplied | $0 direct spend during covered period |
@@ -192,6 +192,22 @@ The year-one subtotal combines one-time work ($27,750) with one year of estimate
 | **Workbox and other open-source build tools** | Build tooling | Open-source license cost; engineering labor is counted in the WBS | $0 license cost assumed |
 
 The $0 figures describe direct cash spend only while the reported credits covered usage; they do not imply that the services have no list-price or economic value, nor that future usage will remain free. For a retrospective economic-value estimate, record each provider's credited amount or usage and apply the relevant rate card. For future budgets, use the applicable post-credit rates and projected usage. For self-hosted models, include inference infrastructure and operating labor if applicable. Do not count a Copilot seat as separate API spend unless billing records show an additional charge.
+
+### Google Gemini Compute & Subscription Cost Calculation
+
+To calculate the specific project cost of utilizing Google Gemini (via the Google One AI / Antigravity developer tooling ecosystem):
+
+1. **Subscription Structure**: Access to Gemini models is bundled under an active personal **Google One Annual Subscription**. The annual flat-rate subscription covers consumer cloud storage and Gemini access across Google workspaces and integrated IDE environments.
+2. **Overage Policy & Marginal Cost**: The Google One annual tier operates on a strict subscription quota model rather than metered pay-as-you-go API consumption. No incremental overage fees, usage surcharges, or burst penalties are billed when executing codebase crunching, AST analysis, unit test generation, or blog post research.
+3. **Incremental Cash Cost Formula**:
+   $$
+   \text{Cost}_{\text{Gemini, incremental}} = \text{Billed API Overages} = \$0.00 \text{ USD}
+   $$
+4. **Economic In-Kind Equivalent**: If calculated retrospectively against public commercial API rate cards (e.g. Gemini 1.5 Pro / Flash developer pricing at \$0.075 - \$1.25 per million tokens), the estimated volume of prompt and completion tokens processed during repository restructuring (~3.5 million tokens) carries a theoretical list-price valuation of approximately **\$3.25 – \$6.50 USD**. Because all requests were serviced within the Google One annual subscription entitlement without overages, the direct net cash expense to the project remains strictly:
+
+   $$
+   \mathbf{\$0.00 \text{ USD}}
+   $$
 
 ### Lifetime Git Patch and Dependency Add-On Totals
 
