@@ -223,3 +223,9 @@ For the credit-covered period, the reported direct operating charge is $0. Futur
 5. **Automated TDD Quality Assurance:** Comprehensive 69-test suite across 14 phases ensuring 100% regression-free updates across synthesis logic, frequency schemas, and service worker assets.
 6. **Unified Multi-Cloud CI/CD Infrastructure:** Dual automated deployment pipelines for GitHub Pages and Netlify, fully resilient against cloud API rate-limiting and build timeouts.
 7. **Comprehensive Engineering Wiki & Knowledge Base:** Documented 7-part internal technical wiki detailing development workflows, DSP audio pipelines, UI/UX systems, static constant optimization, and QA standards.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. All calculations based on COCOMO 81 software economics and maintenance models.</sub>
+</div>

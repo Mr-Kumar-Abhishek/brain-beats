@@ -387,12 +387,12 @@ done
 
 ## 14. Dual Licensing Model & Governance
 
-Brain Beats enforces a strict boundary between software engineering, configuration, and server infrastructure logic versus creative/educational content:
+Brain Beats Pro enforces a strict boundary between software engineering, configuration, and server infrastructure logic versus creative/educational content:
 
 * **Software, Programming Mechanics, Configuration Files & Server Configurations ([`LICENSE`](LICENSE)):**
-  - All application code, DSP algorithms, AudioWorklet processors, Web Audio synthesis nodes, generative mechanics, build scripts, configuration files (`package.json`, `.node-version`, `.nvmrc`, `_config.yml`, Workbox configs, CI/CD workflows), and server configurations (`netlify.toml`, web server headers, redirects, proxy rules) are strictly licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+  - All application code, DSP algorithms, AudioWorklet processors, Web Audio synthesis nodes, generative mechanics, build scripts, configuration files (`package.json`, `.node-version`, `.nvmrc`, `_config.yml`, Workbox configs, CI/CD workflows), and server configurations (`netlify.toml`, web server headers, redirects, proxy rules) are copyleft protected under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
 * **Content, Documentation & Presets ([`LICENSE-CONTENT.txt`](LICENSE-CONTENT.txt)):**
-  - All written documentation, research guides, blog articles, and frequency preset catalogs are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+  - &copy; Brain Beats Pro. &copy; Brain Beats Pro. All written documentation, research guides, blog articles, and frequency preset catalogs are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
   - *The CC BY 4.0 license applies strictly to content and documentation, and expressly does not license the underlying software, programming, audio synthesis mechanics, configuration files, or server configurations.*
 
 ---
@@ -406,3 +406,8 @@ When evaluating or executing future framework migrations (e.g., modern SSGs, hyb
 3. **Dynamic Pagination & Post Routing:** Blog listings, pagination (`paginator.posts`), search indices, and category permalinks must maintain seamless compatibility with Liquid variables and loop constructs across all target framework environments.
 4. **Client-Side Synthesis & Service Worker Decoupling:** Any migration must keep the Web Audio API synthesis engine (`js/main.js`), audio worklets, preset JSON catalogs, and PWA service worker precaching completely decoupled from server-rendering layers to preserve 100% offline functionality.
 
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and documentation are licensed under <a href="LICENSE-CONTENT.txt">CC BY 4.0</a>. Software code, synthesis mechanics, and configuration files are copyleft protected under <a href="LICENSE">GNU AGPLv3</a>.</sub>
+</div>
