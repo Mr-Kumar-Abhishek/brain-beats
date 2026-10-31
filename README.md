@@ -265,5 +265,11 @@ Contributions are welcome! Please review the comprehensive **[Contribution Guide
 
 This project enforces a strict boundary separating software programming, configuration files, and server configurations from creative and educational content:
 
-* **Software, Programming Mechanics, Configuration Files & Server Configurations:** Strictly licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. Covers all application source code, JavaScript synthesis algorithms, AudioWorklet processors, scripts, interactive generative mechanics, configuration files, and server configurations (`package.json`, `.node-version`, `.nvmrc`, `netlify.toml`, `_config.yml`, Workbox configs, web server headers/redirects, and CI/CD pipelines). See [`LICENSE`](LICENSE) for complete terms.
-* **Content & Documentation:** Licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. Applies exclusively to written documentation, research guides, blog articles, and audio frequency preset catalogs. Does *not* apply to software programming, audio engines, technical mechanics, configuration files, or server configurations. See [`LICENSE-CONTENT.txt`](LICENSE-CONTENT.txt) for complete terms.
+* **Software, Programming Mechanics, Configuration Files & Server Configurations:** Copyleft protected under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. Covers all application source code, JavaScript synthesis algorithms, AudioWorklet processors, scripts, interactive generative mechanics, configuration files, and server configurations (`package.json`, `.node-version`, `.nvmrc`, `netlify.toml`, `_config.yml`, Workbox configs, web server headers/redirects, and CI/CD pipelines). See [`LICENSE`](LICENSE) for complete terms.
+* **Content & Documentation:** &copy; Brain Beats Pro. Licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. Applies exclusively to written documentation, research guides, blog articles, and audio frequency preset catalogs. Does *not* apply to software programming, audio engines, technical mechanics, configuration files, or server configurations. See [`LICENSE-CONTENT.txt`](LICENSE-CONTENT.txt) for complete terms.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and documentation are licensed under <a href="LICENSE-CONTENT.txt">CC BY 4.0</a>. Software code, synthesis mechanics, and configuration files are copyleft protected under <a href="LICENSE">GNU AGPLv3</a>.</sub>
+</div>

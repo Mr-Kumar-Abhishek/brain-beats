@@ -218,3 +218,9 @@ Or run directly via Node.js:
 ```bash
 node tests/audio-engine.test.js
 ```
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and documentation are licensed under <a href="LICENSE-CONTENT.txt">CC BY 4.0</a>. Software code, synthesis mechanics, and configuration files are copyleft protected under <a href="LICENSE">GNU AGPLv3</a>.</sub>
+</div>
