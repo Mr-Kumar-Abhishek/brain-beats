@@ -193,16 +193,16 @@ The year-one subtotal combines one-time work ($27,750) with one year of estimate
 
 The $0 figures describe direct cash spend only while the reported credits covered usage; they do not imply that the services have no list-price or economic value, nor that future usage will remain free. For a retrospective economic-value estimate, record each provider's credited amount or usage and apply the relevant rate card. For future budgets, use the applicable post-credit rates and projected usage. For self-hosted models, include inference infrastructure and operating labor if applicable. Do not count a Copilot seat as separate API spend unless billing records show an additional charge.
 
-### Computational Crunching & Token Processing Analysis (Current Session)
+### Git Commit Patch Analysis (as of 2026-10-31)
 
-To quantify the computational crunching costs associated with the multi-branch topological reconciliation, repository AST analysis, and COCOMO evaluation under free developer quotas:
+Patch totals are computed from the current `HEAD` history with `git log --no-merges --no-renames --numstat`. They include text changes to all tracked paths, exclude binary line counts and merge commits, and count renamed files as deletions plus additions.
 
-| Computational Parameter | Scope & Workload | Rate / Quota Basis | In-Kind List-Price Valuation | Actual Direct Cash Spend |
-| :--- | :--- | :--- | :---: | :---: |
-| **AST Codebase & Repository Crunching** | Full static traversal and analysis of 6,830 clean source files (526.568 KLOC) | ~1,850,000 prompt tokens (Gemini / Claude / DeepSeek) | $9.25 USD | **$0.00** (Free quota) |
-| **Synthesis & Documentation Output** | Synthesis of branch reconciliation, COCOMO tables, and wiki sync | ~320,000 completion tokens | $0.60 USD | **$0.00** (Free quota) |
-| **CI/CD Cloud Test Runner Compute** | Automated 69-phase TDD execution and static Pages artifact build | GitHub Actions Linux runner (Node 24, Ruby 3.3) | $0.08 USD | **$0.00** (Included free tier) |
-| **Total Crunching Cost for this Analysis** | **Complete analysis, reconciliation, and validation cycle** | **In-kind compute equivalent** | **$9.93 USD** | **$0.00 USD** |
+| Scope | Non-merge commits | File-change rows | Lines added | Lines deleted | Gross patch churn |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| **Full history reachable from HEAD** | 9,451 | 173,438 | 14,909,570 | 3,987,817 | 18,897,387 |
+| **2025-10-31 through 2026-10-31** | 1,028 | 150,284 | 13,133,571 | 3,071,813 | 16,205,384 |
+
+Using the report's 533,963-SLOC baseline, the past-year gross patch churn is `(13,133,571 + 3,071,813) / 533,963 = 30.35x` (3,034.93%). This is a repository-wide patch activity measure, not the COCOMO Annual Change Traffic (ACT): repeated edits are counted repeatedly, and a modified line can appear as both an addition and a deletion. It therefore must not replace the scenario ACT assumptions in Section 3 or be interpreted as the fraction of unique source lines maintained. Git patch totals alone also do not establish engineering hours, AI token usage, or cloud charges, so no compute cost is inferred here.
 
 **Fully loaded five-year TCO (constant annual run rate):**
 

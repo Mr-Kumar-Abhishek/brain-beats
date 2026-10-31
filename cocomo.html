@@ -959,50 +959,41 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 							</div>
 							<p>The $0 figures describe direct cash spend only while the reported credits covered usage; they do not imply that the services have no list-price or economic value, nor that future usage will remain free. For a retrospective economic-value estimate, record each provider's credited amount or usage and apply the relevant rate card. For future budgets, use the applicable post-credit rates and projected usage. For self-hosted models, include inference infrastructure and operating labor if applicable. Do not count a Copilot seat as separate API spend unless billing records show an additional charge.</p>
 
-							<h3 class="h5 mt-4">Computational Crunching &amp; Token Processing Analysis (Current Session)</h3>
+							<h3 class="h5 mt-4">Git Commit Patch Analysis (as of 2026-10-31)</h3>
+							<p>Patch totals are computed from the current <code>HEAD</code> history with <code>git log --no-merges --no-renames --numstat</code>. They include text changes to all tracked paths, exclude binary line counts and merge commits, and count renamed files as deletions plus additions.</p>
 							<div class="table-responsive my-3">
 								<table class="table table-bordered table-striped align-middle">
 									<thead class="table-primary">
 										<tr>
-											<th>Computational Parameter</th>
-											<th>Scope &amp; Workload</th>
-											<th>Rate / Quota Basis</th>
-											<th style="text-align: right;">In-Kind List-Price Valuation</th>
-											<th style="text-align: right;">Actual Direct Cash Spend</th>
+											<th>Scope</th>
+											<th style="text-align: right;">Non-merge commits</th>
+											<th style="text-align: right;">File-change rows</th>
+											<th style="text-align: right;">Lines added</th>
+											<th style="text-align: right;">Lines deleted</th>
+											<th style="text-align: right;">Gross patch churn</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
-											<td><strong>AST Codebase &amp; Repository Crunching</strong></td>
-											<td>Full static traversal and analysis of 6,830 clean source files (526.568 KLOC)</td>
-											<td>~1,850,000 prompt tokens (Gemini / Claude / DeepSeek)</td>
-											<td style="text-align: right;">$9.25 USD</td>
-											<td style="text-align: right;"><strong>$0.00</strong> (Free quota)</td>
+											<td><strong>Full history reachable from HEAD</strong></td>
+											<td style="text-align: right;">9,451</td>
+											<td style="text-align: right;">173,438</td>
+											<td style="text-align: right;">14,909,570</td>
+											<td style="text-align: right;">3,987,817</td>
+											<td style="text-align: right;">18,897,387</td>
 										</tr>
 										<tr>
-											<td><strong>Synthesis &amp; Documentation Output</strong></td>
-											<td>Synthesis of branch reconciliation, COCOMO tables, and wiki sync</td>
-											<td>~320,000 completion tokens</td>
-											<td style="text-align: right;">$0.60 USD</td>
-											<td style="text-align: right;"><strong>$0.00</strong> (Free quota)</td>
-										</tr>
-										<tr>
-											<td><strong>CI/CD Cloud Test Runner Compute</strong></td>
-											<td>Automated 69-phase TDD execution and static Pages artifact build</td>
-											<td>GitHub Actions Linux runner (Node 24, Ruby 3.3)</td>
-											<td style="text-align: right;">$0.08 USD</td>
-											<td style="text-align: right;"><strong>$0.00</strong> (Included free tier)</td>
-										</tr>
-										<tr class="table-secondary">
-											<td><strong>Total Crunching Cost for this Analysis</strong></td>
-											<td><strong>Complete analysis, reconciliation, and validation cycle</strong></td>
-											<td><strong>In-kind compute equivalent</strong></td>
-											<td style="text-align: right;"><strong>$9.93 USD</strong></td>
-											<td style="text-align: right;"><strong>$0.00 USD</strong></td>
+											<td><strong>2025-10-31 through 2026-10-31</strong></td>
+											<td style="text-align: right;">1,028</td>
+											<td style="text-align: right;">150,284</td>
+											<td style="text-align: right;">13,133,571</td>
+											<td style="text-align: right;">3,071,813</td>
+											<td style="text-align: right;">16,205,384</td>
 										</tr>
 									</tbody>
 								</table>
 							</div>
+							<p>Against the report's 533,963-SLOC baseline, past-year gross patch churn is <code>(13,133,571 + 3,071,813) / 533,963 = 30.35x</code> (3,034.93%). This is repository-wide patch activity, not COCOMO Annual Change Traffic (ACT): repeated edits count repeatedly, and a modified line can appear as both an addition and a deletion. Do not substitute it for the scenario ACT assumptions in Section 3 or interpret it as the fraction of unique source lines maintained. Git patch totals alone do not establish engineering hours, AI token usage, or cloud charges, so no compute cost is inferred.</p>
 
 							<div class="card bg-light border-0 shadow-sm my-4">
 								<div class="card-body p-4">
