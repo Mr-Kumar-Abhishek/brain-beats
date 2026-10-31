@@ -495,18 +495,18 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 											<h5 class="card-title">Initial Development Equations</h5>
 											<p class="card-text">
 												<strong>Organic:</strong><br>
-												\( \text{Effort} = 2.4 \times (\text{KLOC})^{1.05} \)<br>
-												\( \text{TDEV} = 2.5 \times (\text{Effort})^{0.38} \)
+												\( \text{Effort} = 2.4 \times (\text{KLOC})^{1.05} \quad [\text{Person-Months}] \)<br>
+												\( \text{TDEV} = 2.5 \times (\text{Effort})^{0.38} \quad [\text{Months}] \)
 											</p>
 											<p class="card-text">
 												<strong>Semi-Detached:</strong><br>
-												\( \text{Effort} = 3.0 \times (\text{KLOC})^{1.12} \)<br>
-												\( \text{TDEV} = 2.5 \times (\text{Effort})^{0.35} \)
+												\( \text{Effort} = 3.0 \times (\text{KLOC})^{1.12} \quad [\text{Person-Months}] \)<br>
+												\( \text{TDEV} = 2.5 \times (\text{Effort})^{0.35} \quad [\text{Months}] \)
 											</p>
 											<p class="card-text">
 												<strong>Embedded:</strong><br>
-												\( \text{Effort} = 3.6 \times (\text{KLOC})^{1.20} \)<br>
-												\( \text{TDEV} = 2.5 \times (\text{Effort})^{0.32} \)
+												\( \text{Effort} = 3.6 \times (\text{KLOC})^{1.20} \quad [\text{Person-Months}] \)<br>
+												\( \text{TDEV} = 2.5 \times (\text{Effort})^{0.32} \quad [\text{Months}] \)
 											</p>
 										</div>
 									</div>
@@ -517,7 +517,7 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 											<h5 class="card-title">Software Maintenance Equations</h5>
 											<p class="card-text">
 												<strong>Annual Change Traffic (ACT):</strong><br>
-												\( \text{ACT} = \frac{\text{SLOC}_{\text{added}} + \text{SLOC}_{\text{modified}}}{\text{SLOC}_{\text{total}}} \)
+												\( \text{ACT} = \dfrac{\text{SLOC}_{\text{added}} + \text{SLOC}_{\text{modified}}}{\text{SLOC}_{\text{total}}} \)
 											</p>
 											<p class="card-text">
 												<strong>Annual Maintenance Effort (AME):</strong><br>
@@ -525,7 +525,7 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 											</p>
 											<p class="card-text">
 												<strong>Annual Maintenance Cost (AMC):</strong><br>
-												\( \text{AMC} = \text{AME} \times \text{Labor Rate} \quad [\$/\text{year}] \)
+												\( \text{AMC} = \text{AME} \times \text{Labor Rate} \quad [\text{USD/year}] \)
 											</p>
 											<p class="card-text">
 												<strong>5-Year Total Cost of Ownership (TCO):</strong><br>
@@ -789,12 +789,14 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 										In the COCOMO 81 Intermediate model, the <strong>Effort Adjustment Factor (EAF)</strong> is computed as the composite product of all 15 cost driver attribute ratings:
 									</p>
 									<div class="p-3 bg-white rounded border mb-3 text-center">
-										\[ \text{EAF} = \prod_{i=1}^{15} \text{Cost Driver}_i \]
-										\[ \begin{aligned}
-										\text{EAF} &= 1.15 \times 1.08 \times 1.15 \times 1.11 \times 1.00 \times 1.15 \times 0.87 \\
+										\[
+										\begin{aligned}
+										\text{EAF} &= \prod_{i=1}^{15} \text{Cost Driver}_i \\
+										&= 1.15 \times 1.08 \times 1.15 \times 1.11 \times 1.00 \times 1.15 \times 0.87 \\
 										&\quad \times 0.71 \times 0.91 \times 0.70 \times 0.91 \times 0.91 \\
 										&= \mathbf{0.672}
-										\end{aligned} \]
+										\end{aligned}
+										\]
 									</div>
 									<h5 class="fw-semibold text-dark mt-4 mb-3">Post-Adjustment Model Valuations (\( \text{Effort}_{\text{adj}} = \text{Effort}_{\text{nominal}} \times \text{EAF} \)):</h5>
 									<div class="row g-3">
@@ -1011,7 +1013,7 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 								<div class="card-body p-4">
 									<h3 class="h5 card-title fw-bold text-dark mb-3">Fully loaded five-year TCO (constant annual run rate)</h3>
 									<div class="p-3 bg-white rounded border mb-3 text-center">
-										\[ \text{TCO}_{5yr,\text{loaded}} = \text{COCOMO TCO}_{5yr} + \sum_{y=1}^{5} (\text{AI/tool charges after credits}_y + \text{CI/CD and hosting charges after credits}_y) \]
+										\[ \text{TCO}_{5\text{yr},\text{loaded}} = \text{COCOMO TCO}_{5\text{yr}} + \sum_{y=1}^{5} \left( \text{AI / Tool Charges after Credits}_y + \text{CI/CD \& Hosting Charges after Credits}_y \right) \]
 									</div>
 									<p class="mb-0">For the credit-covered period, the reported direct operating charge is $0. Future-year charges should only be added for usage not covered by available credits. This adds non-labor operating charges to the selected COCOMO scenario, whose existing maintenance estimate already includes maintenance labor. Credit value is excluded from cash TCO; add it separately only when producing an economic-value view. Future charges remain unestimated until credit balances, expiry, usage forecasts, and applicable rates are known.</p>
 								</div>
