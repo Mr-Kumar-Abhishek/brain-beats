@@ -8,7 +8,7 @@ app-name: "844 hz - Rife Frequency"
 tweet-title: "844 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 844 Hz Rife frequency: bio-resonance targeting for Blastocystis hominis, Fasciolopsis buski intestinal flukes, HTLV-1, Bartonella, and dental fistula healing."
 date: 2024-11-13
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 844 hz, rife frequency, blastocystis hominis, fasciolopsis buski, intestinal flukes, htlv-1, bartonella henselae, fistula dentalis, odontogenic abscess, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 844 hz, rife frequency, blastocystis hominis, fasciolopsis buski, intestinal flukes, htlv-1, bartonella henselae, fistula dentalis, odontogenic abscess, CAFL frequencies"
 ---
 
 The **844 Hz Rife Frequency** is a versatile and high-impact antiparasitic, antiviral, and odontogenic bio-resonance frequency documented in the Consolidated Annotated Frequency List (CAFL). Located at approximately **G#5/Ab5 (+87.8 cents)** in the fifth musical octave, 844 Hz is specifically calibrated to eradicate the polymorphic enteric protozoan **Blastocystis hominis**, large trematodes (**Fasciolopsis buski / Parasites flukes intestinal**), oncogenic retroviruses (**Human T-Lymphotropic Virus Type 1 / HTLV-1**), stealth endothelial bacteria (**Bartonella henselae**), and draining odontogenic sinus tracts (**Fistula dentalis**).
@@ -67,6 +67,10 @@ $$\sigma_{\text{tissue}} = G_{\text{matrix}} \cdot \gamma + \alpha_{\text{acoust
 - **Blastocystis Vacuole Rupture:** Sound waves induce resonant volume oscillations in the central vacuole, disrupting organelle distribution and causing protozoan death.
 - **Odontogenic Fistula Healing:** Acoustic micro-streaming cleanses necrotic tracks, promotes neo-vascularization, and stimulates healthy granulation tissue across the fistula lumen.
 - **Intestinal Fluke Detachment:** Forces relaxation of the muscular suckers in *Fasciolopsis buski*, facilitating natural bowel transit and elimination.
+
+> **Interactive Sound Laboratory:** Experience the **844 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -137,3 +141,10 @@ class EntericDentalRetroviral844 {
 2. Rife, R. R. (1953). *History of the Development of a Successful Treatment for Cancer and Other Viruses, Bacteria and Fungi.* Allied Industries.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *Blastocystis Hominis, Flukes, and Dental Fistula: 844 Hz.*
 4. Poiesz, B. J., et al. (1980). *Detection and isolation of type C retrovirus particles from fresh and cultured lymphocytes of a patient with cutaneous T-cell lymphoma.* Proceedings of the National Academy of Sciences, 77(12), 7415–7419.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

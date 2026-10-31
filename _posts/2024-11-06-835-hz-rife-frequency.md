@@ -8,7 +8,7 @@ app-name: "835 hz - Rife Frequency"
 tweet-title: "835 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 835 Hz Rife frequency: bio-resonance targeting for Enterobius pinworms, Ascaris roundworms, Rhodococcus, dental infections, and immune system stabilization."
 date: 2024-11-06
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 835 hz, rife frequency, enterobius vermicularis, pinworms, anal itching, ascaris lumbricoides, roundworms, rhodococcus equi, dental infections, immune stabilization, morgellons, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 835 hz, rife frequency, enterobius vermicularis, pinworms, anal itching, ascaris lumbricoides, roundworms, rhodococcus equi, dental infections, immune stabilization, morgellons, CAFL frequencies"
 ---
 
 The **835 Hz Rife Frequency** is a broad-spectrum antiparasitic, antibacterial, and immunomodulatory bio-resonance frequency documented in the Consolidated Annotated Frequency List (CAFL). Located at approximately **G#5/Ab5 (+69.2 cents)** in the fifth musical octave, 835 Hz is formulated to eradicate intestinal helminths (**Enterobius vermicularis / Pinworms**, **Ascaris / Roundworms**), eliminate nocturnal perineal itching, suppress intracellular actinomycete infections (**Rhodococcus equi**), resolve chronic odontogenic root canal infections (**Dental Infections v**), and provide foundational **Immune System Stabilization** in Morgellons protocols.
@@ -67,6 +67,10 @@ $$\sigma_{\text{wall}} = \frac{P_{\text{hydro}} \cdot r}{2 d} + \gamma_{\text{ac
 - **Helminthic Detachment:** Oscillatory sound pressure induces mechanical fatigue across the cuticular annuli of pinworms and roundworms, preventing muscular burrowing into the cecal and rectal mucosa.
 - **Periodontal Bone Matrix Regeneration:** Sonic micro-vibrations promote capillary angiogenesis in ischemic jawbone cavitational sites, assisting osteoblastic remodeling.
 - **Histamine & Mast Cell Stabilization:** Modulates cutaneous nerve hypersensitivity, suppressing intense nocturnal anal and skin itching.
+
+> **Interactive Sound Laboratory:** Experience the **835 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -137,3 +141,10 @@ class AntiparasiticImmune835 {
 2. Rife, R. R. (1953). *History of the Development of a Successful Treatment for Cancer and Other Viruses, Bacteria and Fungi.* Allied Industries.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *Enterobiasis, Dental, and Immune Stabilization: 835 Hz.*
 4. Prescott, J. F. (1991). *Rhodococcus equi: an animal and human pathogen.* Clinical Microbiology Reviews, 4(1), 20–34.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

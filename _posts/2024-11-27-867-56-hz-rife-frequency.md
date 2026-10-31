@@ -8,7 +8,7 @@ app-name: "867.56 hz - Rife Frequency"
 tweet-title: "867.56 hz - Rife Frequency"
 tweet-description: "Precision biophysical guide to 867.56 Hz Rife / Clark frequency: harmonic resonance protocols for Erwinia amylovora HC and Gaffkya tetragena HC bacterial neutralization."
 date: 2024-11-27
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 867.56 hz, rife frequency, erwinia amylovora, gaffkya tetragena, micrococcus tetragenus, clark frequency, plant-derived enterics, bacterial tetrad resonance"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 867.56 hz, rife frequency, erwinia amylovora, gaffkya tetragena, micrococcus tetragenus, clark frequency, plant-derived enterics, bacterial tetrad resonance"
 ---
 
 The **867.56 Hz Rife / Clark Frequency** is a calibrated bio-energetic node derived from Dr. Hulda Clark's syncrometer bio-resonance catalog and precision electro-therapeutic investigations. Situated at approximately **A5 (+35.4 cents)**, 867.56 Hz is specifically configured to target the molecular and mechanical resonance modes of **Erwinia amylovora** (HC) and **Gaffkya tetragena** (HC, currently classified as *Planococcus* or *Micrococcus tetragenus*).
@@ -81,6 +81,10 @@ Sub-Harmonics (Broncho-Pulmonary Base)         Fundamental              Harmonic
 | **Waveform Type** | Pure sine wave with gentle 0.2 Hz amplitude modulation | Minimizes auditory fatigue while preserving destructive harmonic focus |
 | **Session Duration** | 25 to 35 minutes daily during respiratory congestion episodes | Matches cellular turnover and mucosal clearance timelines |
 | **Post-Session Regimen** | Inhalation of warm saline vapor or eucalyptus mist | Enhances mechanical drainage of loosened microbial secretions |
+
+> **Interactive Sound Laboratory:** Experience the **867.56 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -180,3 +184,10 @@ The **867.56 Hz Rife / Clark Frequency** provides specialized microbial neutrali
 2. **Reimann, H. A.** (1935). *Micrococcus tetragenus infection: Review of the literature, report of a case with bacteremia and necropsy findings*. Journal of Clinical Investigation, 14(3), 311–319.
 3. **Vanneste, J. L.** (2000). *Fire Blight: The Foundation of Phytobacteriology and Management of Erwinia amylovora*. CABI Publishing.
 4. **Kocis, C. A., et al.** (2019). *Mechanical resonance and acoustic lysis in encapsulated coccal bacteria*. Biophysical Chemistry Letters, 28(4), 412–427.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

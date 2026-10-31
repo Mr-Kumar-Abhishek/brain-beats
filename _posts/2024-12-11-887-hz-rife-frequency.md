@@ -8,7 +8,7 @@ app-name: "887 hz - Rife Frequency"
 tweet-title: "887 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 887 Hz Rife frequency: bio-energetic resonance protocols for Actinomycetales (Nocardia asteroides, Streptomyces griseus, Streptothrix), invasive zygomycosis (Mucor racemosus), and sebaceous cysts."
 date: 2024-12-11
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 887 hz, rife frequency, nocardia asteroides, mucor racemosus, streptomyces griseus, streptothrix, actinobacillus, sebaceous cyst, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 887 hz, rife frequency, nocardia asteroides, mucor racemosus, streptomyces griseus, streptothrix, actinobacillus, sebaceous cyst, CAFL frequencies"
 ---
 
 The **887 Hz Rife Frequency** is a specialized actinomycetal, opportunistic fungal, and dermatological resonance node documented in the Consolidated Annotated Frequency List (CAFL). Resonating at **A5 (+73.9 cents)** in the fifth musical octave, 887 Hz is tailored to target branching, filamentous gram-positive bacteria of the order Actinomycetales—specifically **Nocardia asteroides**, **Streptomyces griseus**, and **Streptothrix**—as well as angioinvasive zygomycetes (**Mucor racemosus / Fungus flora 1**) and chronic follicular **sebaceous cysts (Cyst sebaceous TR)**.
@@ -82,6 +82,10 @@ Sub-Harmonics (Deep Tissue Base)               Fundamental              Harmonic
 | **Waveform Dynamic** | Pure sine wave with gentle 0.3 Hz amplitude modulation | Minimizes tissue accommodation while preserving phase coherence |
 | **Exposure Schedule** | 30 to 40 minutes once daily for 14 to 28 days | Granulomatous actinomycetal infections require extended therapy for complete resolution |
 | **Supportive Regimen** | Warm compresses over cysts, 600 mg N-acetylcysteine (NAC), and 500 mL water | Breaks disulfide bonds in mucus/sebum and supports glutathione-dependent antioxidant defenses |
+
+> **Interactive Sound Laboratory:** Experience the **887 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -181,3 +185,10 @@ The **887 Hz Rife Frequency** provides targeted electro-acoustic disruption for 
 2. **Spellberg, B., et al.** (2005). *Novel perspectives on mucormycosis: Pathophysiology, presentation, and management*. Clinical Microbiology Reviews, 18(3), 556–569.
 3. **Flärdh, K., & Buttner, M. J.** (2009). *Streptomyces morphogenetics: dissecting differentiation in a filamentous bacterium*. Nature Reviews Microbiology, 7(1), 36–49.
 4. **Kontoyiannis, D. P., et al.** (2000). *Zygomycosis in the new millennium*. Clinical Infectious Diseases, 30(6), 851–856.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

@@ -8,7 +8,7 @@ app-name: "829 hz - Rife Frequency"
 tweet-title: "829 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 829 Hz Rife frequency: bio-resonance targeting for Giardia lamblia, irritable bowel syndrome, enteric protozoan cleansing, and intestinal mucosal stabilization."
 date: 2024-11-03
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 829 hz, rife frequency, giardia lamblia, giardiasis, irritable bowel syndrome, ibs, protozoan parasite, ventral adhesive disc, fungus ew range, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 829 hz, rife frequency, giardia lamblia, giardiasis, irritable bowel syndrome, ibs, protozoan parasite, ventral adhesive disc, fungus ew range, CAFL frequencies"
 ---
 
 The **829 Hz Rife Frequency** is a specialized gastrointestinal, antiprotozoal, and enteric bio-resonance frequency documented in the Consolidated Annotated Frequency List (CAFL). Located at approximately **G#5/Ab5 (+56.7 cents)** in the fifth musical octave, 829 Hz is engineered to detach and eradicate the flagellated protozoan parasite **Giardia lamblia** (**Giardia duodenalis**), mitigate the symptoms of **Irritable Bowel Syndrome (IBS)**, suppress opportunistic fungal colonies (*Fungus EW range*), and restore healthy intestinal epithelial barrier integrity.
@@ -67,6 +67,10 @@ $$\Delta P_{\text{disc}} = \frac{1}{2} \rho v_{\text{microtubule}}^2 - \kappa_{\
 - **Ventral Disc Mechanical Failure:** Acoustic vibrations at 829 Hz match the resonant frequency of the microribbon-tubulin cytoskeleton, causing loss of negative suction and rapid parasite detachment into the intestinal lumen.
 - **Enteric Nervous System Calming:** Rhythmic sound waves reduce visceral hypersensitivity by modulating myenteric plexus afferent signaling, relieving IBS cramps.
 - **Brush Border Enzyme Restoration:** Alleviates local micro-ischemia, promoting lactase and disaccharidase enzyme recovery on villus tips.
+
+> **Interactive Sound Laboratory:** Experience the **829 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -137,3 +141,10 @@ class GiardiaEntericCleanser829 {
 2. Rife, R. R. (1953). *History of the Development of a Successful Treatment for Cancer and Other Viruses, Bacteria and Fungi.* Allied Industries.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *Giardia Lamblia & IBS Protocols: 829 Hz.*
 4. Farthing, M. J. (1996). *Giardiasis.* Gastroenterology Clinics of North America, 25(3), 493–515.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

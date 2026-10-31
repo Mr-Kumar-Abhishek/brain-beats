@@ -8,7 +8,7 @@ app-name: "836 hz - Rife Frequency"
 tweet-title: "836 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 836 Hz Rife frequency: bio-resonance targeting for Influenza A and B VA2 grippe strains, febrile myalgia relief, and overnight respiratory convalescence."
 date: 2024-11-07
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 836 hz, rife frequency, influenza va2 grippe, influenza overnight, orthomyxovirus, hemagglutinin, neuraminidase, febrile myalgia, tracheobronchitis, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 836 hz, rife frequency, influenza va2 grippe, influenza overnight, orthomyxovirus, hemagglutinin, neuraminidase, febrile myalgia, tracheobronchitis, CAFL frequencies"
 ---
 
 The **836 Hz Rife Frequency** is a precision respiratory antiviral and flu-convalescent bio-resonance frequency documented in the Consolidated Annotated Frequency List (CAFL). Located at approximately **G#5/Ab5 (+71.2 cents)** in the fifth musical octave, 836 Hz is specifically calibrated to neutralize virulent epidemic influenza strains (**Influenza VA2 Grippe**) and serve as a core acoustic frequency in **Influenza Overnight Convalescence Protocols** (**Influenza overnight TR**).
@@ -67,6 +67,10 @@ $$\Delta G_{\text{fusion}} = \Delta H_{\text{conform}} - T \Delta S_{\text{lipid
 - **Envelope Fusion Disruption:** Acoustic vibrations at 836 Hz introduce mechanical oscillation into the viral envelope, preventing the low-pH-dependent conformational hairpin collapse of hemagglutinin required for viral entry.
 - **Somatic Myalgia Soothing:** Relaxes reflex muscle hypertonicity and tension headaches triggered by systemic viremia and interferon release.
 - **Bronchial Epithelial Clearance:** Vibroacoustic energy accelerates the transport of mucus plugs and cellular debris upward toward the pharynx.
+
+> **Interactive Sound Laboratory:** Experience the **836 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -137,3 +141,10 @@ class InfluenzaGrippeConvalescent836 {
 2. Rife, R. R. (1953). *History of the Development of a Successful Treatment for Cancer and Other Viruses, Bacteria and Fungi.* Allied Industries.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *Influenza VA2 Grippe and Overnight Protocols: 836 Hz.*
 4. Skehel, J. J., & Wiley, D. C. (2000). *Receptor binding and membrane fusion in virus entry: the influenza hemagglutinin.* Annual Review of Biochemistry, 69(1), 531–569.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

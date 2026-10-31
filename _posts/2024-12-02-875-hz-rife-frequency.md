@@ -8,7 +8,7 @@ app-name: "875 hz - Rife Frequency"
 tweet-title: "875 hz - Rife Frequency"
 tweet-description: "Scientific guide to 875 Hz Rife frequency: universal master harmonic for acute sore throat, dental infections, Staphylococcus and Streptococcus colonization, and Pseudomonas aeruginosa."
 date: 2024-12-02
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 875 hz, rife frequency, dental infections, sore throat, staphylococcus aureus, streptococcus pyogenes, pseudomonas aeruginosa, crane early frequency, mucor racemosus"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 875 hz, rife frequency, dental infections, sore throat, staphylococcus aureus, streptococcus pyogenes, pseudomonas aeruginosa, crane early frequency, mucor racemosus"
 ---
 
 The **875 Hz Rife Frequency** is a pivotal foundational anchor within early clinical frequency medicine, established in Dr. John Crane's original protocols and expanded in the Consolidated Annotated Frequency List (CAFL). Located at approximately **A5 (+50.3 cents)**, 875 Hz acts as an indispensable **Ear, Nose, Throat (ENT), Odontogenic, and Universal Pyogenic Master Node**, targeting acute pharyngitis (**Sore throat comp**), endodontic and periodontal purulence (**Dental Infections v**), pyogenic cocci (**Staphylococcus & Streptococcus**), opportunistic Gram-negative rods (**Pseudomonas gen & mallei**), and zygomycotic molds (**Mucor racemosus**).
@@ -83,6 +83,10 @@ Sub-Harmonics (Cervico-Facial Base)            Fundamental              Harmonic
 | **Waveform Type** | Sine wave with 5% odd-harmonic saturation | Produces multi-layered acoustic pressure fronts across complex biofilms |
 | **Session Duration** | 30 minutes, 2 times daily for 7 to 10 days | Corresponds to mucosal epithelial repair and resolution of acute pharyngitis |
 | **Synergistic Care** | Warm salt water gargle and adequate hydration (500 mL water 15 min prior) | Mechanical rinsing of loosened tonsillar debris and inflammatory exudate |
+
+> **Interactive Sound Laboratory:** Experience the **875 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -182,3 +186,10 @@ The **875 Hz Rife Frequency** serves as an indispensable electro-acoustic anchor
 2. **Socransky, S. S., et al.** (1998). *Microbial complexes in subgingival plaque*. Journal of Clinical Periodontology, 25(2), 134–144.
 3. **Flemmig, T. F.** (1999). *Periodontitis*. Annals of Periodontology, 4(1), 32–38.
 4. **Costerton, J. W., et al.** (1999). *Bacterial biofilms: A common cause of persistent infections*. Science, 284(5418), 1318–1322.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

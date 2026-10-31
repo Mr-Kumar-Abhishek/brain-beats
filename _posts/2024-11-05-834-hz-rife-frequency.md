@@ -8,7 +8,7 @@ app-name: "834 hz - Rife Frequency"
 tweet-title: "834 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 834 Hz Rife frequency: bio-resonance targeting for Coxsackievirus B1, Fasciola hepatica sheep liver flukes, Proteus mirabilis, and feline zoonoses."
 date: 2024-11-05
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 834 hz, rife frequency, coxsackievirus b1, fasciola hepatica, sheep liver flukes, proteus mirabilis, felis zoonosis, biliary parasites, trematode, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 834 hz, rife frequency, coxsackievirus b1, fasciola hepatica, sheep liver flukes, proteus mirabilis, felis zoonosis, biliary parasites, trematode, CAFL frequencies"
 ---
 
 The **834 Hz Rife Frequency** is a versatile antiviral, antiparasitic, and antibacterial bio-resonance frequency documented in the Consolidated Annotated Frequency List (CAFL). Located at approximately **G#5/Ab5 (+67.1 cents)** in the fifth musical octave, 834 Hz is calibrated to eradicate **Coxsackievirus B1** (an enterovirus implicated in aseptic meningitis, pleurodynia, and epidemic myalgia), the trematode parasite **Fasciola hepatica** (**Sheep Liver Flukes**), feline-transmitted zoonotic pathogens (**Felis**), and **Proteus** bacterial strains.
@@ -67,6 +67,10 @@ $$\sigma_{\text{fluke}} = \frac{F_{\text{sucker}}}{A_{\text{contact}}} - \chi_{\
 - **Tegumental Syncytium Cavitation:** Acoustic micro-streaming causes pore formation and blistering in the fluke tegument, paralyzing muscular contraction and forcing the parasite to detach.
 - **Biliary Peristalsis Stimulation:** Induces gentle oscillatory pressure in the common bile duct, facilitating the flushing of dislodged flukes into the duodenum for elimination.
 - **Myocyte Sarcolemmal Protection:** Reduces Coxsackievirus-induced muscle fiber necrosis and mitigates severe thoracic and diaphragmatic spasm.
+
+> **Interactive Sound Laboratory:** Experience the **834 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -137,3 +141,10 @@ class HepaticParasiticCoxsackie834 {
 2. Rife, R. R. (1953). *History of the Development of a Successful Treatment for Cancer and Other Viruses, Bacteria and Fungi.* Allied Industries.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *Coxsackie B1 & Liver Flukes Protocols: 834 Hz.*
 4. Tracy, S., et al. (2006). *Coxsackievirus B.* The Picornaviruses, 321–340.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

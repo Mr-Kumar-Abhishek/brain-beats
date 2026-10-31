@@ -8,7 +8,7 @@ app-name: "860.13 hz - Rife Frequency"
 tweet-title: "860.13 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 860.13 Hz Rife frequency: precision bio-resonance targeting for Treponema pallidum spirochetes, periplasmic flagellar motility arrest, and vascular endothelial protection."
 date: 2024-11-20
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 860.13 hz, rife frequency, treponema pallidum, syphilis spirochete, endarteritis obliterans, axial filaments, periplasmic flagella, hulda clark frequency, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 860.13 hz, rife frequency, treponema pallidum, syphilis spirochete, endarteritis obliterans, axial filaments, periplasmic flagella, hulda clark frequency, CAFL frequencies"
 ---
 
 The **860.13 Hz Rife Frequency** is a high-precision decimal bio-resonance frequency documented in the Hulda Clark (HC) registers and the Consolidated Annotated Frequency List (CAFL). Calibrated to approximately **A5 (+20.5 cents)** in standard concert pitch, 860.13 Hz specifically targets the invasive, stealth microaerophilic spirochete **Treponema pallidum** (**Treponema pallidum HC**), the etiologic agent of syphilis and chronic systemic treponematoses.
@@ -67,6 +67,10 @@ $$M_{\text{flagella}} = \tau_0 \cdot \left[ 1 - \alpha_{\text{visc}} \left(\frac
 - **Flagellar Motor Stalling:** Sound waves at 860.13 Hz resonate with the structural periodicity of the periplasmic flagella bundled between the inner membrane and the peptidoglycan sacculus, freezing spirochetal rotation.
 - **Endothelial Barrier Preservation:** By arresting bacterial motility, treponemes fail to penetrate vascular endothelial basements, preventing obliterative endarteritis.
 - **Lymphatic Clearance:** Stimulates drainage through regional lymph nodes, assisting in the elimination of neutralized spirochetal debris.
+
+> **Interactive Sound Laboratory:** Experience the **860.13 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -137,3 +141,10 @@ class TreponemaPrecision860_13 {
 2. Clark, H. R. (1995). *The Cure for All Diseases.* New Century Press.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *Treponema Pallidum Series: 860.13 Hz.*
 4. Charon, N. W., et al. (2012). *The unique paradigm of spirochete motility and chemotaxis.* Annual Review of Microbiology, 66, 349–370.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

@@ -8,7 +8,7 @@ app-name: "838 hz - Rife Frequency"
 tweet-title: "838 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 838 Hz Rife frequency: bio-resonance targeting for Mycobacterium bovis (bovine tuberculosis), atypical pulmonary consolidation, and alveolar clearance."
 date: 2024-11-09
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 838 hz, rife frequency, mycobacterium bovis, bovine tuberculosis, pneumonia general, granulomatous pneumonia, acid fast bacilli, mycolic acid, alveolar clearance, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 838 hz, rife frequency, mycobacterium bovis, bovine tuberculosis, pneumonia general, granulomatous pneumonia, acid fast bacilli, mycolic acid, alveolar clearance, CAFL frequencies"
 ---
 
 The **838 Hz Rife Frequency** is a specialized mycobacterial and respiratory bio-resonance frequency documented in the Consolidated Annotated Frequency List (CAFL). Located at approximately **G#5/Ab5 (+75.4 cents)** in the fifth musical octave, 838 Hz is specifically calibrated to neutralize **Mycobacterium bovis** (**Tuberculosis bovine**) and address deep-seated lobar consolidation (**Pneumonia general v**).
@@ -67,6 +67,10 @@ $$\sigma_{\text{wall}} = \frac{E_{\text{wax}}}{1 - \nu^2} \cdot \epsilon_{\text{
 - **Mycolic Acid Shell Destabilization:** Acoustic shear stresses weaken the hydrophobic waxy coat of the bacillus, making it susceptible to host phagolysosomal acidification and destruction.
 - **Liquefaction of Caseous Exudate:** Micro-vibrations promote the reabsorption of stagnant proteinaceous exudates within consolidated lung segments, improving vital capacity.
 - **Thoracic Somatic Mobility:** Sound waves gently loosen intercostal muscle guarding and diaphragmatic stiffness caused by chronic pleurisy.
+
+> **Interactive Sound Laboratory:** Experience the **838 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -137,3 +141,10 @@ class BovineTubercularPulmonary838 {
 2. Rife, R. R. (1953). *History of the Development of a Successful Treatment for Cancer and Other Viruses, Bacteria and Fungi.* Allied Industries.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *Tuberculosis Bovine & Pneumonia Series: 838 Hz.*
 4. Brennan, P. J. (2003). *Structure, function, and biogenesis of the cell wall of Mycobacterium tuberculosis.* Tuberculosis, 83(1-3), 91–97.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

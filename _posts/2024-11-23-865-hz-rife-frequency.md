@@ -8,7 +8,7 @@ app-name: "865 hz - Rife Frequency"
 tweet-title: "865 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 865 Hz Rife frequency: bio-energetic resonance protocols for acute cholecystitis, Mycoplasma general, lymphatic filariasis support, systemic yeast overgrowth, and xenobiotic detox."
 date: 2024-11-23
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 865 hz, rife frequency, acute cholecystitis, biliary tract resonance, elephantiasis lymphatic filariasis, mycoplasma general, candida yeast overgrowth, xenobiotic detoxification"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 865 hz, rife frequency, acute cholecystitis, biliary tract resonance, elephantiasis lymphatic filariasis, mycoplasma general, candida yeast overgrowth, xenobiotic detoxification"
 ---
 
 The **865 Hz Rife Frequency** is a targeted antimicrobial, lymphatic drainage, and biliary decongestion node within electro-acoustical frequency medicine. Positioned at approximately **A5 (+30.3 cents)** in the equal-tempered scale, 865 Hz acts as an acoustic resonance anchor targeted against cell-wall-deficient mollicutes (*Mycoplasma* spp.), acute gallbladder inflammation (*Cholecystitis acute*), persistent systemic fungal and yeast overgrowth (*Candida* / *Yeast general*), lymphatic filarial congestion (*Elephantiasis*), and environmental xenobiotic bioaccumulation.
@@ -87,6 +87,10 @@ Sub-Harmonics (Grounding / Somatic)           Fundamental               Overtone
 | **Carrier Frequency** | Pure sine wave or slight harmonic-enriched square wave (5% pulse modulation) | Square waveforms yield odd harmonics that synergize with microbial membrane rupture |
 | **Session Duration** | 25 to 45 minutes once or twice daily | Prevents acute Jarisch-Herxheimer detoxification overload |
 | **Hydration Support** | 500 mL water with electrolytes 15 min prior | Lowers blood and lymph viscosity, facilitating toxin flushing |
+
+> **Interactive Sound Laboratory:** Experience the **865 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -183,3 +187,10 @@ The **865 Hz Rife Frequency** serves as an indispensable electro-acoustical brid
 2. **Crane, J.** (1971). *Polarized Electromagnetic Wave Interactions with Pleomorphic Microorganisms*. Resonance Quarterly, 12(3), 45–59.
 3. **Pethig, R.** (1984). *Dielectric and Electronic Properties of Biological Materials*. John Wiley & Sons, New York.
 4. **Zimmermann, U.** (1982). *Electric field-mediated cell fusion and electrical breakdown of membranes*. Biochimica et Biophysica Acta (BBA) - Reviews on Biomembranes, 694(3), 227–277.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

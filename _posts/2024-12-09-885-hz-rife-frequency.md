@@ -8,7 +8,7 @@ app-name: "885 hz - Rife Frequency"
 tweet-title: "885 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 885 Hz Rife frequency: resonant acoustic protocols for streptococcal pharyngitis, staphylococcal infections, spirochetal Lyme coinfections, and seasonal influenza."
 date: 2024-12-09
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 885 hz, rife frequency, streptococcus pyogenes, staphylococcus aureus, lyme disease, borrelia burgdorferi, influenza virus, sore throat pharyngitis, actinobacillus, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 885 hz, rife frequency, streptococcus pyogenes, staphylococcus aureus, lyme disease, borrelia burgdorferi, influenza virus, sore throat pharyngitis, actinobacillus, CAFL frequencies"
 ---
 
 The **885 Hz Rife Frequency** is a versatile multi-target antibacterial, antiviral, and spirochetal resonance node cataloged extensively in the Consolidated Annotated Frequency List (CAFL). Occupying a musical placement of **A5 (+69.9 cents)** in the fifth octave, 885 Hz is utilized to dismantle pyogenic bacterial cell envelopes in **Streptococcus pyogenes (Sore throat / pharyngitis)** and **Staphylococcus aureus**, disrupt persistent secondary manifestations of **Lyme borreliosis (Borrelia burgdorferi / Lyme 2)**, accelerate immune clearance of **Influenza strains (aches, respiratory, and overnight protocols)**, and mitigate gram-negative **Actinobacillus** colonizations.
@@ -82,6 +82,10 @@ Sub-Harmonics (Microvascular & Lymphatic Base)  Fundamental             Harmonic
 | **Waveform Dynamic** | Pure sine wave with gentle 0.25 Hz low-frequency amplitude modulation | Prevents tissue sensory adaptation while maintaining continuous resonant pressure |
 | **Session Duration** | 30 to 45 minutes, 1 to 2 times daily for 7 to 14 days | Matches acute phase resolution of upper respiratory tract bacterial colonization |
 | **Hydration & Synergies** | Warm herbal infusion (thyme, sage) with 500 mL water and vitamin C | Moistens mucosal membranes and delivers bioflavonoids for endothelial barrier repair |
+
+> **Interactive Sound Laboratory:** Experience the **885 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -181,3 +185,10 @@ The **885 Hz Rife Frequency** serves as a core bio-acoustic countermeasure again
 2. **Lowy, F. D.** (1998). *Staphylococcus aureus infections*. New England Journal of Medicine, 339(8), 520–532.
 3. **Radolf, J. D., et al.** (2012). *Of microbes and men: The biology and pathogenesis of Borrelia burgdorferi*. Nature Reviews Microbiology, 10(2), 87–99.
 4. **Webster, R. G., et al.** (1992). *Evolution and ecology of influenza A viruses*. Microbiological Reviews, 56(1), 152–179.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

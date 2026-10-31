@@ -8,7 +8,7 @@ app-name: "843 hz - Rife Frequency"
 tweet-title: "843 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 843 Hz Rife frequency: bio-resonance targeting for Vibrio cholerae, Herpes simplex Type 1, Taenia tapeworms, Baker's yeast allergy, and Medorrhinum miasmatic clearance."
 date: 2024-11-12
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 843 hz, rife frequency, vibrio cholerae, cholera, herpes simplex 1, hsv-1, taenia tapeworms, cestodes, bakers yeast allergy, medorrhinum, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 843 hz, rife frequency, vibrio cholerae, cholera, herpes simplex 1, hsv-1, taenia tapeworms, cestodes, bakers yeast allergy, medorrhinum, CAFL frequencies"
 ---
 
 The **843 Hz Rife Frequency** is a multi-spectrum gastrointestinal, antiviral, and antiparasitic bio-resonance frequency documented in the Consolidated Annotated Frequency List (CAFL). Located at approximately **G#5/Ab5 (+85.8 cents)** in the fifth musical octave, 843 Hz is specifically calibrated to neutralize the comma-shaped enteric bacterium **Vibrio cholerae** (**Cholera**), suppress latent cranial neurotropic flares of **Herpes Simplex Virus Type 1 (HSV-1)**, dislodge intestinal cestodes (**Parasites tapeworms / Taenia**), alleviate **Baker's Yeast Allergy** hypersensitivity (*Saccharomyces cerevisiae*), and provide constitutional drainage in **Medorrhinum** sycotic miasmatic protocols.
@@ -67,6 +67,10 @@ $$\dot{V}_{\text{secretion}} = K_{\text{trans}} \cdot \Delta \Pi_{\text{ion}} - 
 - **Cholera Toxin Decoupling:** Acoustic micro-vibrations interfere with the high-affinity binding of cholera toxin B pentamers to intestinal mucosal gangliosides, reducing adenylate cyclase hyperactivation.
 - **Cestode Scolex Relaxation:** Induces mechanical vibration that fatigues the smooth muscle of tapeworm suckers, prompting detachment from the mucosal wall.
 - **HSV-1 Neuronal Stabilization:** Quenches retrograde viral capsid movement along trigeminal nerve axons, shortening the duration of cold sores.
+
+> **Interactive Sound Laboratory:** Experience the **843 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -137,3 +141,10 @@ class CholeraAntiparasitic843 {
 2. Rife, R. R. (1953). *History of the Development of a Successful Treatment for Cancer and Other Viruses, Bacteria and Fungi.* Allied Industries.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *Cholera, Herpes 1, and Tapeworms Protocols: 843 Hz.*
 4. Whitley, R. J., & Roizman, B. (2001). *Herpes simplex viruses.* The Lancet, 357(9267), 1513–1518.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

@@ -8,7 +8,7 @@ app-name: "859 hz - Rife Frequency"
 tweet-title: "859 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 859 Hz Rife frequency: bio-resonance targeting for Chlamydia psittaci (ornithosis / psittacosis), avian zoonotic pneumonitis, and biphasic intracellular developmental arrest."
 date: 2024-11-19
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 859 hz, rife frequency, chlamydia psittaci, ornithosis, psittacosis, parrot fever, avian zoonosis, atypical pneumonia, elementary body, reticulate body, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 859 hz, rife frequency, chlamydia psittaci, ornithosis, psittacosis, parrot fever, avian zoonosis, atypical pneumonia, elementary body, reticulate body, CAFL frequencies"
 ---
 
 The **859 Hz Rife Frequency** is a precision zoonotic, antimicrobial, and respiratory bio-resonance frequency documented in the Consolidated Annotated Frequency List (CAFL). Located at approximately **A5 (+18.2 cents)** in the fifth musical octave, 859 Hz is formulated specifically to target the obligate intracellular bacterium **Chlamydia psittaci** (**Ornithosis / Psittacosis / Parrot Fever**).
@@ -67,6 +67,10 @@ $$\Phi_{\text{inclusion}} = \oint (\vec{\tau}_{\text{shear}} \cdot d\vec{A}) - \
 - **Elementary Body Envelope Weakening:** Acoustic micro-vibrations at 859 Hz induce shear strain across the outer-membrane protein supramolecular complex, rendering infectious EBs fragile prior to host cell internalization.
 - **Inclusion Vacuole Destabilization:** Sound waves disrupt the nutrient-transporting inclusion membrane enclosing intracellular RBs, starving the vegetative bacteria of host ATP.
 - **Frontal Headache & Splenic Relief:** Promotes cranial and splanchnic micro-circulation, rapidly easing the severe splitting headaches and splenic engorgement characteristic of psittacosis.
+
+> **Interactive Sound Laboratory:** Experience the **859 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -137,3 +141,10 @@ class OrnithosisAntimicrobial859 {
 2. Rife, R. R. (1953). *History of the Development of a Successful Treatment for Cancer and Other Viruses, Bacteria and Fungi.* Allied Industries.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *Ornithosis Series: 859 Hz.*
 4. Bavoil, P., et al. (1984). *Role of disulfide bonding in outer membrane structure and permeability in Chlamydia.* Infection and Immunity, 44(2), 479–485.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

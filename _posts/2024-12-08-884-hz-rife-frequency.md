@@ -8,7 +8,7 @@ app-name: "884 hz - Rife Frequency"
 tweet-title: "884 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 884 Hz Rife frequency: bio-energetic resonance protocols for Lyme disease (Borrelia burgdorferi), Rocky Mountain Spotted Fever (Rickettsia rickettsii), Brown recluse spider bites (Loxosceles reclusa), and pyogenic cocci."
 date: 2024-12-08
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 884 hz, rife frequency, lyme disease, borrelia burgdorferi, rocky mountain spotted fever, rickettsia rickettsii, brown recluse spider bite, sphingomyelinase d, staphylococcus, CAFL master frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 884 hz, rife frequency, lyme disease, borrelia burgdorferi, rocky mountain spotted fever, rickettsia rickettsii, brown recluse spider bite, sphingomyelinase d, staphylococcus, CAFL master frequencies"
 ---
 
 The **884 Hz Rife Frequency** is a formidable multi-spectrum vector-borne, spirochetal, rickettsial, and dermatonecrotic resonance anchor in the Consolidated Annotated Frequency List (CAFL). Located at approximately **A5 (+68.0 cents)** in the fifth musical octave, 884 Hz is engineered to address persistent spirochetal **Lyme disease (Borrelia burgdorferi / Lyme 2)**, tick-borne **Rocky Mountain Spotted Fever (Rickettsia rickettsii)**, dermonecrotic venom envenomation from **Brown recluse spider bites (Loxosceles reclusa)**, and refractory pyogenic **Staphylococcus & Streptococcus** coinfections.
@@ -82,6 +82,10 @@ Sub-Harmonics (Deep Connective Base)           Fundamental              Harmonic
 | **Waveform Type** | Sine wave with 8% odd-harmonic saturation | Generates sharp pressure fronts capable of disrupting spirochetal cysts |
 | **Exposure Schedule** | 35 to 45 minutes once daily for 14 to 21 days | Covers the long replication cycle (12–24h) and cystic transformation of *Borrelia* |
 | **Hydration & Detox Support** | 750 mL spring water with lemon, magnesium, and activated charcoal (2h post) | Absorbs released neurotoxins and prevents severe Jarisch-Herxheimer flare-ups |
+
+> **Interactive Sound Laboratory:** Experience the **884 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -181,3 +185,10 @@ The **884 Hz Rife Frequency** serves as a vital clinical frequency targeting spi
 2. **Walker, D. H.** (1996). *Rickettsia rickettsii and Rocky Mountain spotted fever*. Clinical Infectious Diseases, 23(2), 229–236.
 3. **Swanson, D. L., & Vetter, R. S.** (2005). *Bites of brown recluse spiders and suspected envenomation*. The New England Journal of Medicine, 352(7), 700–707.
 4. **Talukder, A., et al.** (2018). *Acoustic and electromagnetic disruption of pathogen membranes: Non-invasive therapeutic frontiers*. Journal of Applied Biophysics, 44(2), 189–205.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

@@ -8,7 +8,7 @@ app-name: "888 hz - Rife Frequency"
 tweet-title: "888 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 888 Hz Rife frequency: bio-energetic resonance protocols for Herpes Simplex Virus Type 2 (HSV-2), recurrent aphthous stomatitis, and acoustic mucosal regeneration."
 date: 2024-12-13
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 888 hz, rife frequency, herpes simplex virus type 2, hsv-2, genital herpes, aphthous stomatitis, canker sores, angel frequency 888, sacral ganglion latency, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 888 hz, rife frequency, herpes simplex virus type 2, hsv-2, genital herpes, aphthous stomatitis, canker sores, angel frequency 888, sacral ganglion latency, CAFL frequencies"
 ---
 
 The **888 Hz Rife Frequency** is a renowned antiviral, mucosal restorative, and harmonic resonance node documented in the Consolidated Annotated Frequency List (CAFL). Resonating at **A5 (+75.8 cents)** in the fifth musical octave, 888 Hz holds a unique dual standing in psychoacoustics and electro-therapeutics: it is an established Rife antiviral frequency engineered to destabilize **Herpes Simplex Virus Type 2 (HSV-2 / Herpes type 2 comp & 2A secondary)** virions and accelerate healing of **Aphthous Stomatitis (canker sores)**, while simultaneously operating as the celebrated **888 Hz Angel Frequency** associated with neuro-harmonic coherence, abundance, and deep somatic grounding.
@@ -81,6 +81,10 @@ Sub-Harmonics (Sensory & Ganglionic Base)       Fundamental              Harmoni
 | **Waveform Dynamic** | Pure sine wave with gentle 0.15 Hz slow breath amplitude breathing | Fosters profound parasympathetic nervous system dominance and pain relief |
 | **Exposure Schedule** | 30 to 45 minutes, 1 to 2 times daily during prodrome or active lesions | Disrupts early viral replication window before vesicle coalescence |
 | **Supportive Regimen** | L-lysine (1000 mg), zinc glycinate, topical propolis, and 600 mL water | Counteracts arginine-dependent viral replication and accelerates wound re-epithelialization |
+
+> **Interactive Sound Laboratory:** Experience the **888 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -180,3 +184,10 @@ The **888 Hz Rife Frequency** bridges clinical virology and acoustic neuromodula
 2. **Corey, L., & Wald, A.** (2009). *Maternal and neonatal herpes simplex virus infections*. New England Journal of Medicine, 361(14), 1376–1385.
 3. **Scully, C., & Felix, D. H.** (2005). *Oral medicine—update for the dental practitioner: Aphthous and other common ulcers*. British Dental Journal, 199(5), 259–264.
 4. **Talukder, A., et al.** (2018). *Acoustic and electromagnetic disruption of pathogen membranes: Non-invasive therapeutic frontiers*. Journal of Applied Biophysics, 44(2), 189–205.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

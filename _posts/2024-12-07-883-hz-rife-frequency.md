@@ -8,7 +8,7 @@ app-name: "883 hz - Rife Frequency"
 tweet-title: "883 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 883 Hz Rife frequency: bio-energetic resonance protocols for Herpes Simplex Virus (HSV-1 / HSV-2), Streptococcus mutant strains, and pyogenic coccal infections."
 date: 2024-12-07
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 883 hz, rife frequency, herpes simplex virus, hsv-1, hsv-2, streptococcus mutans, pyogenic cocci, sensory ganglion latency, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 883 hz, rife frequency, herpes simplex virus, hsv-1, hsv-2, streptococcus mutans, pyogenic cocci, sensory ganglion latency, CAFL frequencies"
 ---
 
 The **883 Hz Rife Frequency** is a high-specificity antiviral and odontogenic/coccal resonance node documented in the Consolidated Annotated Frequency List (CAFL). Located at approximately **A5 (+66.0 cents)** in the fifth musical octave, 883 Hz is formulated to address sensory ganglion latency and active epithelial vesicular lesions of **Herpes Simplex Virus (Herpes simplex RTI)**, cariogenic and invasive **Streptococcus mutant strains**, and widespread pyogenic **Staphylococcus & Streptococcus general** infections.
@@ -82,6 +82,10 @@ Sub-Harmonics (Neuro-Ganglionic Base)          Fundamental              Harmonic
 | **Waveform Type** | Sine wave with 6% harmonic warmth | Delivers smooth continuous pressure waves across neural tissues |
 | **Exposure Schedule** | 30 minutes, 2 to 3 times daily during active prodrome or vesicular eruption | Interrupts viral envelope formation and replication cycles |
 | **Nutritional Co-Factors** | L-lysine (1,000–3,000 mg/day) and adequate hydration (600 mL water) | Lysine antagonizes viral arginine uptake, amplifying resonance efficacy |
+
+> **Interactive Sound Laboratory:** Experience the **883 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -181,3 +185,10 @@ The **883 Hz Rife Frequency** serves as an indispensable electro-acoustic tool t
 2. **Roizman, B., & Knipe, D. M.** (2001). *Herpes simplex viruses and their replication*. Fields Virology, 2, 2399–2460.
 3. **Hamada, S., & Slade, H. D.** (1980). *Biology, immunology, and cariogenicity of Streptococcus mutans*. Microbiological Reviews, 44(2), 331–384.
 4. **Talukder, A., et al.** (2018). *Acoustic and electromagnetic disruption of pathogen membranes: Non-invasive therapeutic frontiers*. Journal of Applied Biophysics, 44(2), 189–205.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

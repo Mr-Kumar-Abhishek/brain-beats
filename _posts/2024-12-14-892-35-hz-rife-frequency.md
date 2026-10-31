@@ -8,7 +8,7 @@ app-name: "892.35 hz - Rife Frequency"
 tweet-title: "892.35 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 892.35 Hz Hulda Clark Rife frequency: resonant acoustic protocols for bacterial polysaccharide capsule degradation, Streptococcus pneumoniae (Diplococcus), and herpesvirus suppression."
 date: 2024-12-14
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 892.35 hz, rife frequency, bacterial capsules, streptococcus pneumoniae, diplococcus pneumoniae, herpes simplex virus 2, hulda clark frequency, pneumococcal pneumonia, glycocalyx shear, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 892.35 hz, rife frequency, bacterial capsules, streptococcus pneumoniae, diplococcus pneumoniae, herpes simplex virus 2, hulda clark frequency, pneumococcal pneumonia, glycocalyx shear, CAFL frequencies"
 ---
 
 The **892.35 Hz Rife Frequency** is a precision bio-energetic resonance node established in the research of Dr. Hulda Clark and indexed in the Consolidated Annotated Frequency List (CAFL). Calibrated to **A5 (+84.3 cents)** in the fifth musical octave, 892.35 Hz is engineered to destabilize the protective **bacterial polysaccharide capsules (Bacterial capsules HC)** of invasive pathogens, dismantle the pathogenic envelope of encapsulated **Streptococcus pneumoniae (Diplococcus pneumoniae HC)**, and provide adjunctive suppression of **Herpes simplex virus type 2 (Herpes simplex II HC)**.
@@ -84,6 +84,10 @@ Sub-Harmonics (Bronchial & Lymphatic Base)      Fundamental              Harmoni
 | **Waveform Dynamic** | Sine wave with 5% odd-harmonic saturation | Produces steep compression fronts that penetrate dense bronchial secretions |
 | **Exposure Schedule** | 30 to 45 minutes, 1 to 2 times daily for 10 to 14 days | Coordinates with acute antibiotic and host neutrophil clearance windows |
 | **Supportive Regimen** | Warm steam inhalations, 600 mg N-acetylcysteine (NAC), and 750 mL electrolyte water | Decreases sputum viscosity and maintains host mucosal epithelial hydration |
+
+> **Interactive Sound Laboratory:** Experience the **892.35 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -183,3 +187,10 @@ The **892.35 Hz Rife Frequency** serves as an effective acoustic protocol specif
 2. **Weiser, J. N., et al.** (2018). *Streptococcus pneumoniae: transmission, colonization and invasion*. Nature Reviews Microbiology, 16(6), 355–367.
 3. **Moxon, E. R., & Kroll, J. S.** (1990). *The role of bacterial polysaccharides in virulence*. In The Bacterial Capsule (pp. 65–85). Springer.
 4. **Austrian, R.** (1981). *Some observations on the pneumococcus and on the current status of pneumococcal disease and its prevention*. Reviews of Infectious Diseases, 3(1), 1–17.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

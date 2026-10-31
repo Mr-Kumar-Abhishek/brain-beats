@@ -8,7 +8,7 @@ app-name: "874 hz - Rife Frequency"
 tweet-title: "874 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 874 Hz Rife frequency: bio-energetic resonance protocols for Human Papillomavirus (HPV), benign cutaneous warts, and Influenza grippe 1989 recovery."
 date: 2024-12-01
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 874 hz, rife frequency, human papillomavirus, verruca vulgaris warts, influenza grippe 1989, viral capsid shear, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 874 hz, rife frequency, human papillomavirus, verruca vulgaris warts, influenza grippe 1989, viral capsid shear, CAFL frequencies"
 ---
 
 The **874 Hz Rife Frequency** is a precision antiviral and dermatological resonance node documented in electro-therapeutic literature and the Consolidated Annotated Frequency List (CAFL). Located at approximately **A5 (+48.3 cents)** in the fifth musical octave, 874 Hz is tailored to disrupt non-enveloped double-stranded DNA virions of **Human Papillomavirus (HPV / Papilloma virus)**, facilitate regression of benign cutaneous verrucae (**Warts general**), and accelerate recovery from seasonal viral pneumonitis (**Influenza grippe 1989**).
@@ -81,6 +81,10 @@ Sub-Harmonics (Cutaneous Base)                 Fundamental              Harmonic
 | **Waveform Dynamic** | Pure sine wave with gentle 0.5 Hz amplitude modulation | Prevents tissue accommodation while maintaining resonant coherence |
 | **Session Duration** | 30 minutes, 1 to 2 times daily for 3 to 4 weeks | Verrucous keratinocyte turnover requires 21 to 28 days for full clinical shedding |
 | **Supportive Regimen** | Topical zinc and hydration with 500 mL water 15 minutes prior | Provides essential cofactors for host epithelial immune response |
+
+> **Interactive Sound Laboratory:** Experience the **874 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -180,3 +184,10 @@ The **874 Hz Rife Frequency** serves as a specialized electro-acoustic protocol 
 2. **Doorbar, J.** (2006). *Molecular biology of human papillomavirus infection and cervical cancer*. Clinical Science, 110(5), 525–541.
 3. **Sterling, J. C., et al.** (2014). *British Association of Dermatologists' guidelines for the management of cutaneous warts*. British Journal of Dermatology, 171(4), 696–712.
 4. **Talukder, A., et al.** (2018). *Acoustic and electromagnetic disruption of pathogen membranes: Non-invasive therapeutic frontiers*. Journal of Applied Biophysics, 44(2), 189–205.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

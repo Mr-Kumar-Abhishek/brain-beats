@@ -8,7 +8,7 @@ app-name: "869 hz - Rife Frequency"
 tweet-title: "869 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 869 Hz Rife frequency: bio-energetic resonance protocols for Hepatitis B hepadnavirus, Salmonella typhi (Typhoid fever), and overnight viral neutralization."
 date: 2024-11-29
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 869 hz, rife frequency, hepatitis b, hepadnavirus, typhoid fever, salmonella enterica serovar typhi, influenza overnight protocol, hepatic resonance"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 869 hz, rife frequency, hepatitis b, hepadnavirus, typhoid fever, salmonella enterica serovar typhi, influenza overnight protocol, hepatic resonance"
 ---
 
 The **869 Hz Rife Frequency** is a formidable hepatotropic antiviral and systemic enteric antimicrobial node cataloged within historic Rife research and the Consolidated Annotated Frequency List (CAFL). Located at approximately **A5 (+38.3 cents)** in the equal-tempered scale, 869 Hz is engineered to address the resilient partially double-stranded DNA envelope of **Hepatitis B virus (HBV)**, systemic invasive enteric fever caused by **Salmonella enterica serovar Typhi (Typhoid fever)**, and broad-spectrum overnight respiratory viral clearing protocols.
@@ -82,6 +82,10 @@ Sub-Harmonics (Hepatic Grounding)              Fundamental              Harmonic
 | **Waveform Type** | Sine wave with 8% odd-harmonic saturation | Maximizes structural resonance across viral capsomers and bacterial envelopes |
 | **Session Duration** | 30 to 45 minutes daytime, or low-volume overnight loop (4 to 6 hours) | Delivers sustained antiviral pressure during regenerative non-REM sleep |
 | **Hepatic Support** | Milk thistle (silymarin), alpha-lipoic acid, and pure spring water | Mitigates endotoxic clearance burden during pathogen die-off |
+
+> **Interactive Sound Laboratory:** Experience the **869 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -181,3 +185,10 @@ The **869 Hz Rife Frequency** stands as an essential hepatotropic and enteric th
 2. **Parry, C. M., et al.** (2002). *Typhoid fever*. The New England Journal of Medicine, 347(22), 1770–1782.
 3. **Wynne, S. A., Crowther, R. A., & Leslie, A. G.** (1999). *The crystal structure of the hepatitis B virus capsid*. Molecular Cell, 3(6), 771–780.
 4. **Talukder, A., et al.** (2018). *Acoustic and electromagnetic disruption of pathogen membranes: Non-invasive therapeutic frontiers*. Journal of Applied Biophysics, 44(2), 189–205.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

@@ -8,7 +8,7 @@ app-name: "887.39 hz - Rife Frequency"
 tweet-title: "887.39 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 887.39 Hz Hulda Clark Rife frequency: resonant acoustic protocols targeting apicomplexan protozoan parasites (Besnoitia besnoiti) and tissue cyst wall destabilization."
 date: 2024-12-12
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 887.39 hz, rife frequency, besnoitia besnoiti, besnoitiosis, hulda clark frequency, apicomplexa, bradyzoite tissue cyst, rhoptries, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 887.39 hz, rife frequency, besnoitia besnoiti, besnoitiosis, hulda clark frequency, apicomplexa, bradyzoite tissue cyst, rhoptries, CAFL frequencies"
 ---
 
 The **887.39 Hz Rife Frequency** is a precision parasitological bio-resonance node originating from the research of Dr. Hulda Clark and documented in the Consolidated Annotated Frequency List (CAFL). Calibrated to **A5 (+74.6 cents)** in the fifth musical octave, 887.39 Hz is tuned specifically to penetrate the protective connective tissue cyst walls of the apicomplexan protozoan parasite **Besnoitia besnoiti (Besnoitia HC)**, inhibiting bradyzoite replication and reducing chronic granulomatous tissue damage.
@@ -84,6 +84,10 @@ Sub-Harmonics (Microvascular & Fascial Base)    Fundamental             Harmonic
 | **Waveform Dynamic** | Pure sine wave with gentle 0.2 Hz amplitude modulation | Maintains continuous pressure while avoiding neuromuscular sensory fatigue |
 | **Session Duration** | 30 to 45 minutes once daily for 21 to 35 days | Necessary to cover the prolonged metabolic lifecycle of chronic cyst-forming apicomplexans |
 | **Supportive Regimen** | High hydration (750 mL spring water), quercetin, and sulfur/MSM (1000 mg) | Facilitates degradation of damaged cyst collagen and supports cellular detoxification |
+
+> **Interactive Sound Laboratory:** Experience the **887.39 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -183,3 +187,10 @@ The **887.39 Hz Rife Frequency** serves as a specialized bio-energetic protocol 
 2. **Dubey, J. P., et al.** (2013). *Bovine besnoitiosis: historical perspective, recent outbreaks, and biology of Besnoitia besnoiti*. Veterinary Parasitology, 195(1-2), 1–25.
 3. **Alvarez-García, G., et al.** (2014). *Pathogenesis of bovine besnoitiosis: from the acute to the chronic stage*. Parasites & Vectors, 7, 310.
 4. **Black, M. W., & Boothroyd, J. C.** (2000). *Lytic cycle of Toxoplasma gondii*. Microbiology and Molecular Biology Reviews, 64(3), 607–623.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

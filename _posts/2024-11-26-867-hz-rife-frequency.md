@@ -8,7 +8,7 @@ app-name: "867 hz - Rife Frequency"
 tweet-title: "867 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 867 Hz Rife frequency: bio-energetic resonance protocols for Schistosoma haematobium blood flukes, Chaetomium mold, Coxsackie B2 enterovirus, and cervical tissue regeneration."
 date: 2024-11-26
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 867 hz, rife frequency, schistosoma haematobium, blood flukes, chaetomium globosum mold, coxsackie b2, cervical polyps, parasitic resonance, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 867 hz, rife frequency, schistosoma haematobium, blood flukes, chaetomium globosum mold, coxsackie b2, cervical polyps, parasitic resonance, CAFL frequencies"
 ---
 
 The **867 Hz Rife Frequency** is a precision anti-parasitic, antimycotic, and mucosal restorative harmonic frequency. Situated at approximately **A5 (+34.3 cents)** in the fifth octave, 867 Hz is documented in electro-therapeutic literature for targeting trematode blood flukes (*Schistosoma haematobium*), toxic environmental mycotoxins (*Chaetomium globosum*), cardiotropic enteroviruses (*Coxsackievirus B2*), and benign cervical mucosal overgrowths (*Cervical polyps*).
@@ -81,6 +81,10 @@ Sub-Harmonics (Pelvic / Vascular Base)         Fundamental              Harmonic
 | **Waveform Dynamic** | Triangle or modified square wave with 15% duty-cycle pulse | Enhances odd-order acoustic strike against resilient parasitic membranes |
 | **Session Length** | 30 minutes, 1–2 times daily for 14-day protocol cycles | Coordinates with parasitic egg-laying cycles and fungal spore turnover |
 | **Systemic Hydration** | 750 mL filtered water enriched with magnesium and potassium | Supports renal clearance of lysed parasitic debris and mycotoxins |
+
+> **Interactive Sound Laboratory:** Experience the **867 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -192,3 +196,10 @@ The **867 Hz Rife Frequency** is a formidable vibrational protocol designed to d
 2. **Nielsen, K. F.** (2003). *Mycotoxin production by indoor molds*. Fungal Genetics and Biology, 39(2), 103–117.
 3. **Baboonian, C., et al.** (1997). *Coxsackie B viruses and human heart muscle disease*. Reviews in Medical Virology, 7(1), 23–34.
 4. **Talukder, A., et al.** (2018). *Acoustic and electromagnetic disruption of pathogen membranes: Non-invasive therapeutic frontiers*. Journal of Applied Biophysics, 44(2), 189–205.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

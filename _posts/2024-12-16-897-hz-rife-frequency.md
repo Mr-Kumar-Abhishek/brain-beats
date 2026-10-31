@@ -8,7 +8,7 @@ app-name: "897 hz - Rife Frequency"
 tweet-title: "897 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 897 Hz Rife frequency: bio-energetic resonance protocols for Legionella pneumophila (Legionnaires' disease & Pontiac fever) and alveolar macrophage defense."
 date: 2024-12-16
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 897 hz, rife frequency, legionella pneumophila, legionnaires disease, pontiac fever, alveolar macrophages, dot/icm type iv secretion, intracellular pathogen, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 897 hz, rife frequency, legionella pneumophila, legionnaires disease, pontiac fever, alveolar macrophages, dot/icm type iv secretion, intracellular pathogen, CAFL frequencies"
 ---
 
 The **897 Hz Rife Frequency** is a dedicated antimicrobial and pulmonary resonance node documented in the Consolidated Annotated Frequency List (CAFL). Positioned at **A5 (+93.3 cents)** in the fifth musical octave, 897 Hz is engineered to disrupt the intracellular evasion tactics of **Legionella pneumophila**, the fastidious Gram-negative pathogen responsible for severe necrotizing pneumonia (**Legionnaires' disease**) and acute self-limiting flulike illness (**Pontiac fever**).
@@ -84,6 +84,10 @@ Sub-Harmonics (Pulmonary & Thoracic Base)       Fundamental              Harmoni
 | **Waveform Dynamic** | Pure sine wave with gentle 0.2 Hz low-frequency amplitude modulation | Minimizes sensory adaptation while sustaining uninterrupted acoustic pressure waves |
 | **Exposure Schedule** | 35 to 45 minutes, 1 to 2 times daily for 10 to 14 days | Coordinates with standard antibiotic and host macrophage resolution kinetics |
 | **Supportive Regimen** | High hydration (1 liter electrolyte water), liposomal vitamin C, and 600 mg N-acetylcysteine | Counteracts alveolar oxidative stress and accelerates elimination of bacterial debris |
+
+> **Interactive Sound Laboratory:** Experience the **897 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -183,3 +187,10 @@ The **897 Hz Rife Frequency** serves as a vital clinical bio-resonance frequency
 2. **Swanson, M. S., & Hammer, B. K.** (2000). *Legionella pneumophila pathogenesis: a fateful journey from amoebae to macrophages*. Annual Review of Microbiology, 54(1), 567–613.
 3. **Newton, H. J., et al.** (2010). *Molecular pathogenesis of infections caused by Legionella pneumophila*. Clinical Microbiology Reviews, 23(2), 274–298.
 4. **Isberg, R. R., et al.** (2009). *The Legionella pneumophila replication vacuole: making a cosy niche inside host cells*. Nature Reviews Microbiology, 7(1), 13–24.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

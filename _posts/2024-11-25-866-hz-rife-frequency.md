@@ -8,7 +8,7 @@ app-name: "866 hz - Rife Frequency"
 tweet-title: "866 hz - Rife Frequency"
 tweet-description: "In-depth scientific guide to 866 Hz Rife frequency: master resonance protocols for Alzheimer's cognitive restoration, Chlamydia trachomatis, Crohn's inflammatory bowel disease, systemic mycosis, and cellular repair."
 date: 2024-11-25
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 866 hz, rife frequency, alzheimers disease, chlamydia trachomatis, crohns bowel inflammation, candida fungal overgrowth, sciatica neuropathy, gulf war syndrome, CAFL master frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 866 hz, rife frequency, alzheimers disease, chlamydia trachomatis, crohns bowel inflammation, candida fungal overgrowth, sciatica neuropathy, gulf war syndrome, CAFL master frequencies"
 ---
 
 The **866 Hz Rife Frequency** stands as one of the most prolific multi-indication master frequencies cataloged across the Consolidated Annotated Frequency List (CAFL) and historic electro-therapeutic research. Positioned at approximately **A5 (+32.3 cents)** in the fifth musical octave, 866 Hz represents a nexus where antineurodegenerative entrainment, obligate intracellular antimicrobial action, mucosal gastrointestinal regeneration, and fungal envelope breakdown intersect.
@@ -86,6 +86,10 @@ Sub-Harmonics (Deep Somatic / Neuro)           Fundamental              Harmonic
 | **Waveform Type** | Sine wave with 10% soft square-wave saturation | Broadens harmonic impact across intracellular targets |
 | **Session Length** | 30 to 45 minutes once daily | Maximizes therapeutic window while minimizing detox fatigue |
 | **Synergistic Hydration** | 600 mL pure spring water with pinch of sea salt | Promotes electrolytic conductivity across nerve and gut barriers |
+
+> **Interactive Sound Laboratory:** Experience the **866 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -200,3 +204,10 @@ The **866 Hz Rife Frequency** serves as an expansive therapeutic frequency acros
 2. **Nedergaard, M.** (2013). *Garbage Truck of the Brain: The Glymphatic System and Protein Clearance*. Science, 340(6139), 1529–1530.
 3. **Schuch, R., et al.** (2002). *A bacteriolytic agent that detects and kills Bacillus anthracis*. Nature, 418(6900), 884–889.
 4. **Neurath, M. F.** (2014). *Cytokines in inflammatory bowel diseases*. Nature Reviews Immunology, 14(5), 329–342.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

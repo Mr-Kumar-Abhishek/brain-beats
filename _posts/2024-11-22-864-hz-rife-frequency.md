@@ -8,7 +8,7 @@ app-name: "864 hz - Rife Frequency"
 tweet-title: "864 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 864 Hz Rife frequency: universal foundational master frequency for ALS motor neuron support, Alzheimer's cognitive restoration, tertiary Lyme disease, and Mycoplasma fermentans."
 date: 2024-11-22
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 864 hz, rife frequency, universal neuro-supportive master frequency, als amyotrophic lateral sclerosis, alzheimers disease, lyme disease tertiary, mycoplasma fermentans, crane frequency, CAFL master frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 864 hz, rife frequency, universal neuro-supportive master frequency, als amyotrophic lateral sclerosis, alzheimers disease, lyme disease tertiary, mycoplasma fermentans, crane frequency, CAFL master frequencies"
 ---
 
 The **864 Hz Rife Frequency** is universally recognized as one of the most vital neuro-supportive, antineurodegenerative, and antimicrobial master frequencies in the Consolidated Annotated Frequency List (CAFL) and historic Crane/Rife clinical protocols. Positioned at approximately **A5 (+28.3 cents)** in the fifth musical octave, 864 Hz is revered as the **Motor Neuron, Cognitive Harmonization, and Chronic Neuroborreliosis Master Anchor**.
@@ -69,6 +69,10 @@ $$\dot{C}_{\text{amyloid}} = -k_{\text{clear}} C_{\text{amyloid}} + \chi_{\text{
 - **Glutamate Excitotoxicity Quenching:** Acoustic micro-vibrations at 864 Hz modulate synaptic glutamate reuptake transporters ($EAAT2$) on surrounding astrocytes, preventing excitotoxic calcium influx in motor neurons.
 - **Glymphatic Waste Drainage:** Promotes low-frequency CSF-ISF fluid exchange throughout the Virchow-Robin spaces, facilitating clearance of amyloid-beta and tau oligomers.
 - **Spirochetal & Mycoplasmal Lysis:** Simultaneously targets the stealth pathogens frequently detected in post-mortem neurodegenerative brains (*Borrelia* and *Mycoplasma*).
+
+> **Interactive Sound Laboratory:** Experience the **864 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -139,3 +143,10 @@ class NeuroSupportiveMaster864 {
 2. Rife, R. R. (1953). *History of the Development of a Successful Treatment for Cancer and Other Viruses, Bacteria and Fungi.* Allied Industries.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *ALS, Alzheimer's, and Tertiary Lyme Master Series: 864 Hz.*
 4. Miklossy, J. (2011). *Alzheimer's disease-a neurospirochetosis. Analysis of the evidence following Koch's and Hill's criteria.* Journal of Neuroinflammation, 8(1), 90.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

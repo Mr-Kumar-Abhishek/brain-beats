@@ -8,7 +8,7 @@ app-name: "877 hz - Rife Frequency"
 tweet-title: "877 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific analysis of 877 Hz Rife frequency: bio-energetic resonance protocols for Candida albicans, bovine tuberculosis (Mycobacterium bovis), pulmonary pneumonia, and verruca warts."
 date: 2024-12-03
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 877 hz, rife frequency, candida albicans, mycobacterium bovis, bovine tuberculosis, pneumonia general, staphylococcus, mucor plumbeus, verruca warts, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 877 hz, rife frequency, candida albicans, mycobacterium bovis, bovine tuberculosis, pneumonia general, staphylococcus, mucor plumbeus, verruca warts, CAFL frequencies"
 ---
 
 The **877 Hz Rife Frequency** is a targeted antimycotic, antimycobacterial, and pulmonary decongestion node cataloged in the Consolidated Annotated Frequency List (CAFL). Residing at approximately **A5 (+54.3 cents)** in the fifth musical octave, 877 Hz acts as a potent electro-acoustic resonator targeted against dimorphic fungi (**Candida & Candida 1**), zygomycetes (**Mucor plumbeus**), slow-growing acid-fast mycobacteria (**Tuberculosis bovine / Mycobacterium bovis**), acute pulmonary consolidations (**Pneumonia general v**), and persistent plantar/cutaneous verrucae (**Warts verruca**).
@@ -83,6 +83,10 @@ Sub-Harmonics (Broncho-Somatic Base)           Fundamental              Harmonic
 | **Waveform Type** | Sine wave with 6% soft-clip odd-order harmonic enrichment | Maximizes structural resonance against mycobacterial wax coats |
 | **Session Duration** | 30 to 45 minutes once daily | Matches host macrophage activation cycles and avoids sudden Herxheimer fatigue |
 | **Hydration Support** | 600 mL water with a squeeze of fresh lemon 15 minutes prior | Provides hydration and bioflavonoids to support hepatic lymph drainage |
+
+> **Interactive Sound Laboratory:** Experience the **877 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -182,3 +186,10 @@ The **877 Hz Rife Frequency** serves as a vital electro-acoustic frequency targe
 2. **Brennan, P. J., & Nikaido, H.** (1995). *The envelope of mycobacteria*. Annual Review of Biochemistry, 64(1), 29–63.
 3. **Mandell, L. A., et al.** (2007). *Infectious Diseases Society of America/American Thoracic Society consensus guidelines on the management of community-acquired pneumonia in adults*. Clinical Infectious Diseases, 44(Suppl 2), S27–S72.
 4. **Talukder, A., et al.** (2018). *Acoustic and electromagnetic disruption of pathogen membranes: Non-invasive therapeutic frontiers*. Journal of Applied Biophysics, 44(2), 189–205.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

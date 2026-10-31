@@ -8,7 +8,7 @@ app-name: "870.04 hz - Rife Frequency"
 tweet-title: "870.04 hz - Rife Frequency"
 tweet-description: "Scientific and biophysical analysis of 870.04 Hz Rife / Clark frequency: harmonic resonance protocols for Serratia marcescens HC, nosocomial biofilm disruption, and prodigiosin pathway targeting."
 date: 2024-11-30
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 870.04 hz, rife frequency, serratia marcescens, nosocomial infection, clark frequency, red pigment prodigiosin, biofilm eradication, catheter associated uti"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 870.04 hz, rife frequency, serratia marcescens, nosocomial infection, clark frequency, red pigment prodigiosin, biofilm eradication, catheter associated uti"
 ---
 
 The **870.04 Hz Rife / Clark Frequency** is a calibrated high-precision bio-energetic node derived from Dr. Hulda Clark's syncrometer research and modern bio-acoustic resonance tables. Residing at **A5 (+40.4 cents)** in the fifth musical octave, 870.04 Hz is tailored to address the opportunistic Gram-negative bacillus **Serratia marcescens** (HC classification), a major culprit in multidrug-resistant nosocomial bacteremia, catheter-associated urinary tract infections (CAUTIs), and persistent medical device biofilms.
@@ -85,6 +85,10 @@ Sub-Harmonics (Pelvic / Renal Axis)            Fundamental              Harmonic
 | **Waveform Type** | Pure sine wave with high spectral purity ($\text{THD} < 0.02\%$) | Delivers continuous, uninterrupted mechanical oscillation into bacterial membranes |
 | **Exposure Schedule** | 30 minutes, 1 to 2 times daily for 10 consecutive days | Covers complete biofilm replenishment cycles and eradicates persistent persister cells |
 | **Synergistic Hydration** | 1 liter water with D-mannose and cranberry proanthocyanidins | Enhances urinary flushing of dislodged *Serratia* cells |
+
+> **Interactive Sound Laboratory:** Experience the **870.04 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -184,3 +188,10 @@ The **870.04 Hz Rife / Clark Frequency** provides targeted bio-acoustic resonanc
 2. **Hejazi, A., & Falkiner, F. R.** (1997). *Serratia marcescens*. Journal of Medical Microbiology, 46(11), 903–912.
 3. **Mahlen, S. D.** (2011). *Serratia infections: from military experiments to current practice*. Clinical Microbiology Reviews, 24(4), 755–791.
 4. **Stoodley, P., et al.** (2002). *Biofilms as complex differentiated communities*. Annual Review of Microbiology, 56(1), 187–209.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

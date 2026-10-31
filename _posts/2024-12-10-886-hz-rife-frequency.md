@@ -8,7 +8,7 @@ app-name: "886 hz - Rife Frequency"
 tweet-title: "886 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 886 Hz Rife frequency: resonant acoustic protocols for fungal dysbiosis (Candida albicans), dermatophytic onychomycosis (Trichophyton), mold-induced asthma, and cellular oxidative balance."
 date: 2024-12-10
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 886 hz, rife frequency, candida albicans, trichophyton rubrum, onychomycosis, fungal asthma, mold and fungus, ergosterol membrane, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 886 hz, rife frequency, candida albicans, trichophyton rubrum, onychomycosis, fungal asthma, mold and fungus, ergosterol membrane, CAFL frequencies"
 ---
 
 The **886 Hz Rife Frequency** is a dedicated antifungal, antimycotic, and respiratory resonance node in the Consolidated Annotated Frequency List (CAFL). Placed at approximately **A5 (+71.9 cents)** in the fifth musical octave, 886 Hz is engineered to disrupt opportunistic polymorphic **Candida albicans** overgrowth, penetrate keratinized nail matrices affected by dermatophytic **Trichophyton onychomycosis (Trichophyton nagel)**, mitigate airborne mold-induced bronchial hyperreactivity (**Asthma v & Mold and fungus general**), and support cellular redox balance.
@@ -82,6 +82,10 @@ Sub-Harmonics (Microvascular & Lymphatic Base)  Fundamental             Harmonic
 | **Waveform Dynamic** | Sine wave with 6% square-wave harmonic saturation | Generates steep pressure rise-times capable of penetrating thick fungal biofilms |
 | **Exposure Schedule** | 30 minutes once or twice daily for 21 to 30 days | Onychomycosis requires sustained protocols over months to match slow nail growth cycles |
 | **Nutritional Synergies** | Caprylic acid, allicin (garlic extract), and 500 mL water with electrolytes | Disrupts fungal membrane lipid synthesis and aids hepatic elimination of mycotoxins |
+
+> **Interactive Sound Laboratory:** Experience the **886 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -181,3 +185,10 @@ The **886 Hz Rife Frequency** serves as a potent clinical bio-resonance protocol
 2. **Weitzman, I., & Summerbell, R. C.** (1995). *The dermatophytes*. Clinical Microbiology Reviews, 8(2), 240–259.
 3. **Denning, D. W., et al.** (2006). *Severe asthma with fungal sensitization*. European Respiratory Journal, 27(3), 615–626.
 4. **Bowman, S. M., & Free, S. J.** (2006). *The structure and synthesis of the fungal cell wall*. BioEssays, 28(8), 799–808.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

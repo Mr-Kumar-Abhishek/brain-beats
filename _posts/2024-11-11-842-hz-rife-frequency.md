@@ -8,7 +8,7 @@ app-name: "842 hz - Rife Frequency"
 tweet-title: "842 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 842 Hz Rife frequency: bio-resonance targeting for Bartonella henselae, cat scratch fever, hepatic micro-circulation, and stealth vascular coinfections."
 date: 2024-11-11
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 842 hz, rife frequency, bartonella henselae, cat scratch disease, hepatitis general v, vascular endothelium, lyme coinfections, bacillary angiomatosis, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 842 hz, rife frequency, bartonella henselae, cat scratch disease, hepatitis general v, vascular endothelium, lyme coinfections, bacillary angiomatosis, CAFL frequencies"
 ---
 
 The **842 Hz Rife Frequency** is a precision vascular, antimicrobial, and hepatoprotective bio-resonance frequency documented in the Consolidated Annotated Frequency List (CAFL). Located at approximately **G#5/Ab5 (+83.7 cents)** in the fifth musical octave, 842 Hz is specifically formulated to eradicate **Bartonella henselae** (the etiologic agent of Cat Scratch Disease and chronic Lyme co-infection) and support liver parenchymal recovery during **Hepatitis general v** protocols.
@@ -67,6 +67,10 @@ $$\tau_{\text{endothelial}} = \mu \frac{\partial u}{\partial y} - \beta_{\text{a
 - **BadA Adhesin Inactivation:** Sonic oscillations at 842 Hz introduce mechanical strain that destabilizes the extended fibrous head of BadA, blocking endothelial attachment and invasion.
 - **Hepatic Sinusoidal Perfusion:** Acoustic waves promote micro-vascular dilation through portal venules, improving oxygenation to damaged hepatocytes in hepatitis.
 - **Plantar & Neuropathic Relief:** Alleviates characteristic burning sole pain and shin tenderness common in chronic neurobartonellosis.
+
+> **Interactive Sound Laboratory:** Experience the **842 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -137,3 +141,10 @@ class BartonellaHepatitis842 {
 2. Rife, R. R. (1953). *History of the Development of a Successful Treatment for Cancer and Other Viruses, Bacteria and Fungi.* Allied Industries.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *Bartonella Henslae & Hepatitis General Series: 842 Hz.*
 4. Dehio, C. (2004). *Molecular and cellular basis of Bartonella pathogenesis.* Annual Review of Microbiology, 58, 365–390.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

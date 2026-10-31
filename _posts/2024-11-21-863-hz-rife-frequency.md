@@ -8,7 +8,7 @@ app-name: "863 hz - Rife Frequency"
 tweet-title: "863 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 863 Hz Rife frequency: bio-resonance targeting for Influenza A Port Chalmers, Borrelia Lyme spirochetes, systemic yeast, and hepatic bilirubin clearance."
 date: 2024-11-21
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 863 hz, rife frequency, influenza a port chalmers, bilirubin clearance, lyme tr a, yeast general v, candida albicans, overnight influenza, hepatic detox, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 863 hz, rife frequency, influenza a port chalmers, bilirubin clearance, lyme tr a, yeast general v, candida albicans, overnight influenza, hepatic detox, CAFL frequencies"
 ---
 
 The **863 Hz Rife Frequency** is a multi-spectrum antiviral, hepatoprotective, and antimycotic bio-resonance frequency documented in the Consolidated Annotated Frequency List (CAFL). Located at approximately **A5 (+26.3 cents)** in the fifth musical octave, 863 Hz is formulated to neutralize pandemic-lineage influenza strains (**Influenza virus A Port Chalmers / H3N2**), accelerate the hepatic clearance of accumulated **Bilirubin**, dismantle refractory spirochetal biofilms (**Lyme TR A**), suppress systemic fungal overgrowth (**Yeast general v / Candida**), and support deep recuperation in **Influenza Overnight Convalescence Protocols**.
@@ -67,6 +67,10 @@ $$\dot{Q}_{\text{bile}} = K_{\text{biliary}} \cdot \Delta P_{\text{duct}} + \chi
 - **Hepatobiliary Conjugation Support:** Vibroacoustic energy stimulates hepatic sinusoidal blood flow and biliary ductular contractility, promoting the excretion of bilirubin glucuronides.
 - **Influenza H3N2 Envelope Disruption:** Mechanical oscillation at 863 Hz introduces shear stress that destabilizes the viral lipid envelope, halting cellular infection.
 - **Antifungal & Antiborrelial Synergy:** Weakens the cell walls of both yeast and spirochetes, allowing immune macrophages to clear coinfections simultaneously.
+
+> **Interactive Sound Laboratory:** Experience the **863 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -137,3 +141,10 @@ class PortChalmersBilirubin863 {
 2. Rife, R. R. (1953). *History of the Development of a Successful Treatment for Cancer and Other Viruses, Bacteria and Fungi.* Allied Industries.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *Influenza A Port Chalmers & Bilirubin: 863 Hz.*
 4. Ostrow, J. D. (1986). *Bile Pigments and Jaundice: Molecular, Metabolic, and Medical Aspects.* Marcel Dekker.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

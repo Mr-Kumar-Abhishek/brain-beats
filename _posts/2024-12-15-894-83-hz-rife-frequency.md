@@ -8,7 +8,7 @@ app-name: "894.83 hz - Rife Frequency"
 tweet-title: "894.83 hz - Rife Frequency"
 tweet-description: "Comprehensive scientific guide to 894.83 Hz Hulda Clark Rife frequency: resonant acoustic protocols for Corynebacterium diphtheriae (Diplococcus diphtheriae) and filarial parasites (Loa loa)."
 date: 2024-12-15
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 894.83 hz, rife frequency, corynebacterium diphtheriae, diplococcus diphtheriae, diphtheria toxin, loa loa filariasis, african eye worm, hulda clark frequency, pseudomembrane, microfilariae, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 894.83 hz, rife frequency, corynebacterium diphtheriae, diplococcus diphtheriae, diphtheria toxin, loa loa filariasis, african eye worm, hulda clark frequency, pseudomembrane, microfilariae, CAFL frequencies"
 ---
 
 The **894.83 Hz Rife Frequency** is a specialized dual-action antibacterial and antiparasitic bio-resonance node originating from the research of Dr. Hulda Clark and indexed in the Consolidated Annotated Frequency List (CAFL). Placed at **A5 (+89.1 cents)** in the fifth musical octave, 894.83 Hz is tuned to destabilize the cellular envelope of **Corynebacterium diphtheriae (Diplococcus diptheriae HC)** and disrupt motility in subcutaneous filarial nematodes (**Loa loa HC / African eye worm**).
@@ -83,6 +83,10 @@ Sub-Harmonics (Deep Subcutaneous Base)         Fundamental              Harmonic
 | **Waveform Dynamic** | Pure sine wave with gentle 0.25 Hz amplitude modulation | Prevents tissue sensory fatigue while preserving mechanical resonance energy |
 | **Exposure Schedule** | 30 to 45 minutes once daily for 14 to 21 days | Addresses the prolonged tissue residency and migration windows of filarial nematodes |
 | **Supportive Regimen** | Adequate hydration (750 mL water with electrolytes), proteolytic enzymes, and bioflavonoids | Supports systemic fibrinolysis and mitigates inflammatory responses to dying parasites |
+
+> **Interactive Sound Laboratory:** Experience the **894.83 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -182,3 +186,10 @@ The **894.83 Hz Rife Frequency** serves as a specialized acoustic protocol targe
 2. **Holmes, R. K.** (2000). *Biology and molecular epidemiology of diphtheria toxin and the tox gene*. Journal of Infectious Diseases, 181(Supplement_1), S156–S167.
 3. **Boussinesq, M.** (2006). *Loiasis*. Annals of Tropical Medicine & Parasitology, 100(8), 715–731.
 4. **Pinder, M.** (1988). *Loa loa: a neglected filaria*. Parasitology Today, 4(10), 279–284.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+

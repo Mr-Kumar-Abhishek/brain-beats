@@ -8,7 +8,7 @@ app-name: "832.86 hz - Rife Frequency"
 tweet-title: "832.86 hz - Rife Frequency"
 tweet-description: "Comprehensive guide to 832.86 Hz Rife frequency: precision bio-resonance targeting for Haemophilus influenzae and Proteus vulgaris, respiratory mucosal and urinary tract stabilization."
 date: 2024-11-04
-keywords: "frequency benefits, Brain Beats, Frequencies, brainwave entrainment, sound therapy, 832.86 hz, rife frequency, haemophilus influenzae, proteus vulgaris, epiglottitis, otitis media, urinary tract infection, urease enzyme, hulda clark frequency, CAFL frequencies"
+keywords: "frequency benefits, Brain Beats Pro, Frequencies, brainwave entrainment, sound therapy, 832.86 hz, rife frequency, haemophilus influenzae, proteus vulgaris, epiglottitis, otitis media, urinary tract infection, urease enzyme, hulda clark frequency, CAFL frequencies"
 ---
 
 The **832.86 Hz Rife Frequency** is a high-precision decimal bio-resonance frequency documented in the Hulda Clark (HC) registers and the Consolidated Annotated Frequency List (CAFL). Located at approximately **G#5/Ab5 (+64.8 cents)** in the fifth musical octave, 832.86 Hz is engineered to simultaneously target two major mucosal bacterial pathogens: the fastidious gram-negative coccobacillus **Haemophilus influenzae** and the flagellated urease-producing enteric bacterium **Proteus vulgaris**.
@@ -67,6 +67,10 @@ $$\tau_{\text{adhesion}} = \sigma_{\text{shear}} - \beta_{\text{acoustic}} \cdot
 - **Haemophilus Membrane Shearing:** Acoustic oscillations at 832.86 Hz mechanically perturb outer membrane lipid leaflets, increasing envelope permeability and facilitating lysozyme destruction.
 - **Proteus Swarming Inhibition:** Disperses coordinated bacterial swarmer rafts, preventing ascending urinary tract colonization into the renal pelvis.
 - **Mucosal Decongestion:** Stimulates micro-capillary flow across the middle ear and Eustachian tube, accelerating the clearance of serous and purulent effusions.
+
+> **Interactive Sound Laboratory:** Experience the **832.86 Hz** frequency live on the **[Brain Beats Pro Pure Tone Generator](/pure-tone-generator.html)**, test multi-wave entrainment with the **[Binaural Beats Generator](/binaural-beats-generator.html)**, or cross-reference complementary microbial targets in the **[Rife Frequencies CAFL Directory](/rife-frequencies-cafl-xref.html)**.
+>
+> **Medical Disclaimer:** The vibrational protocols discussed herein are intended for scientific modeling, psychoacoustic research, and complementary sound therapy. They do not constitute medical diagnosis, clinical advice, or treatment. Always consult licensed healthcare practitioners for medical concerns.
 
 ---
 
@@ -137,3 +141,10 @@ class HaemophilusProteus832_86 {
 2. Clark, H. R. (1995). *The Cure for All Diseases.* New Century Press.
 3. Consolidated Annotated Frequency List (CAFL). (2006). *Haemophilus & Proteus Series: 832.86 Hz.*
 4. Mobley, H. L., & Belas, R. (1995). *Swarming and pathogenicity of Proteus mirabilis and Proteus vulgaris.* Trends in Microbiology, 3(7), 280–284.
+
+---
+
+<div align="center">
+<sub>&copy; Brain Beats Pro. Written content and research documentation are licensed under <a href="/licenses.html" rel="license">CC BY 4.0</a>. Web Audio synthesis mechanics and source code are copyleft protected under <a href="/licenses.html">GNU AGPLv3</a>.</sub>
+</div>
+
