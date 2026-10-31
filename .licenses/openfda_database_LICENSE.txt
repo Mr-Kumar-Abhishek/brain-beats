@@ -1,0 +1,10 @@
+# openFDA API Terms and License Notification
+
+Timestamp: 2026-11-01T03:10:00+05:30
+Notice: Please review the official terms of service and license agreements for openFDA APIs at:
+- https://open.fda.gov/apis/
+- https://open.fda.gov/license/
+
+openFDA is a research and public health service provided by the U.S. Food and Drug Administration.
+Data provided by openFDA is open and available for public use under Creative Commons Attribution standards.
+Do not use FDA's logos or name to endorse or promote products or services.
