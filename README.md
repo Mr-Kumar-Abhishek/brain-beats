@@ -257,7 +257,6 @@ Contributions are welcome! Please review the comprehensive **[Contribution Guide
 * **Research Blog:** [brain-beats-pro.netlify.app/blog/](https://brain-beats-pro.netlify.app/blog/)
 * **Support Email:** `support@brain-beats.in`
 * **Discord Community:** [Join Discord Server](https://discord.gg/JNRPJDFWdY)
-* **Support the Project:** [Buy Me a Coffee](https://ko-fi.com/brainbeats)
 
 ---
 
