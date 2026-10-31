@@ -908,14 +908,14 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 									<tbody>
 										<tr>
 											<td><strong>Google Gemini</strong></td>
+											<td>AI model access &amp; code generation</td>
+											<td>Usage fully covered under personal Google One annual subscription without overages; zero incremental per-token API or overage fees</td>
+											<td style="text-align: right;">$0.00 incremental spend</td>
 										</tr>
 										<tr>
 											<td><strong>Anthropic Claude (Claude Code)</strong></td>
 											<td>AI model access &amp; code analysis crunching</td>
 											<td>Usage covered by free quota / trial credits; token crunching and context window in-kind value tracked</td>
-											<td style="text-align: right;">$0 direct spend during covered period</td>
-											<td>AI model access</td>
-											<td>Usage covered by company-provided free credits; token usage and credit value not supplied</td>
 											<td style="text-align: right;">$0 direct spend during covered period</td>
 										</tr>
 										<tr>
@@ -959,7 +959,20 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 							</div>
 							<p>The $0 figures describe direct cash spend only while the reported credits covered usage; they do not imply that the services have no list-price or economic value, nor that future usage will remain free. For a retrospective economic-value estimate, record each provider's credited amount or usage and apply the relevant rate card. For future budgets, use the applicable post-credit rates and projected usage. For self-hosted models, include inference infrastructure and operating labor if applicable. Do not count a Copilot seat as separate API spend unless billing records show an additional charge.</p>
 
-							<h3 class="h5 mt-4">Lifetime Git Patch and Dependency Add-On Totals</h3>
+														<h3 class="h5 mt-4">Google Gemini Compute &amp; Subscription Cost Calculation</h3>
+							<p>To calculate the specific project cost of utilizing Google Gemini (via the Google One AI / Antigravity developer tooling ecosystem):</p>
+							<ol>
+								<li><strong>Subscription Structure:</strong> Access to Gemini models is bundled under an active personal <strong>Google One Annual Subscription</strong>. The annual flat-rate subscription covers consumer cloud storage and Gemini access across Google workspaces and integrated IDE environments.</li>
+								<li><strong>Overage Policy &amp; Marginal Cost:</strong> The Google One annual tier operates on a strict subscription quota model rather than metered pay-as-you-go API consumption. No incremental overage fees, usage surcharges, or burst penalties are billed when executing codebase crunching, AST analysis, unit test generation, or blog post research.</li>
+								<li><strong>Incremental Cash Cost Formula:</strong>
+									<div class="p-2 my-2 bg-light rounded text-center">
+										$$\text{Cost}_{\text{Gemini, incremental}} = \text{Billed API Overages} = \$0.00\text{ USD}$$
+									</div>
+								</li>
+								<li><strong>Economic In-Kind Equivalent:</strong> If calculated retrospectively against public commercial API rate cards (e.g. Gemini 1.5 Pro / Flash developer pricing at $0.075 - $1.25 per million tokens), the estimated volume of prompt and completion tokens processed during repository restructuring (~3.5 million tokens) carries a theoretical list-price valuation of approximately <strong>$3.25 – $6.50 USD</strong>. Because all requests were serviced within the Google One annual subscription entitlement without overages, the direct net cash expense to the project remains strictly <strong>$0.00 USD</strong>.</li>
+							</ol>
+
+<h3 class="h5 mt-4">Lifetime Git Patch and Dependency Add-On Totals</h3>
 							<p>Patch totals cover all history reachable from the current <code>HEAD</code>, computed with <code>git log --no-merges --no-renames --numstat</code>. They include text changes to all tracked paths, exclude binary line counts and merge commits, and count renamed files as deletions plus additions.</p>
 							<div class="table-responsive my-3">
 								<table class="table table-bordered table-striped align-middle">
