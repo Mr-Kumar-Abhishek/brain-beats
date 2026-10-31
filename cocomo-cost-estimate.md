@@ -215,9 +215,9 @@ Patch totals cover all history reachable from the current `HEAD`, computed with 
 
 | Lifetime patch scope | Non-merge commits | File-change rows | Added patch lines | Deleted patch lines | Gross patch churn |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| **All history reachable from HEAD** | 9,452 | 173,440 | 14,909,599 | 3,987,855 | 18,897,454 |
+| **All history reachable from HEAD** | 9,455 | 173,445 | 14,909,739 | 3,987,885 | 18,897,624 |
 
-Using the report's 533,963-SLOC baseline, lifetime gross patch churn is `18,897,454 / 533,963 = 35.39x` (3,539.09%). These are cumulative patch operations, not unique source lines or COCOMO Annual Change Traffic (ACT): repeated edits count repeatedly, and a modified line can appear as both an addition and a deletion. Do not substitute this measure for the scenario ACT assumptions in Section 3.
+Using the report's 533,963-SLOC baseline, lifetime gross patch churn is `18,897,624 / 533,963 = 35.39x` (3,539.12%). These are cumulative patch operations, not unique source lines or COCOMO Annual Change Traffic (ACT): repeated edits count repeatedly, and a modified line can appear as both an addition and a deletion. Do not substitute this measure for the scenario ACT assumptions in Section 3.
 
 Current dependency add-ons are counted from the committed npm and Ruby lockfiles. Lockfile entries include transitive dependencies and platform-specific variants; the unique-name total counts names separately by ecosystem. These are locked dependency records, not a claim that every package is currently installed or used at runtime.
 
@@ -231,15 +231,15 @@ Under the report's existing assumption that these dependencies have no license f
 
 ### Lifetime Patch-Volume-Equivalent COCOMO Cost
 
-For a volume-based comparison only, the 14,909,599 added patch lines are treated as if they were 14,909.599 KLOC of newly developed, unique source code. The resulting figures are **not actual historical spend or a valuation of unique surviving code**: Git counts repeated additions across commits, including revisions to the same lines. Do not add these alternative estimates to the current-codebase valuation or the WBS/TCO.
+For a volume-based comparison only, the 14,909,739 added patch lines are treated as if they were 14,909.739 KLOC of newly developed, unique source code. The resulting figures are **not actual historical spend or a valuation of unique surviving code**: Git counts repeated additions across commits, including revisions to the same lines. Do not add these alternative estimates to the current-codebase valuation or the WBS/TCO.
 
 | COCOMO mode | Nominal effort | Nominal cost (@ $8,000/PM) | EAF-adjusted effort (0.672) | EAF-adjusted cost |
 | :--- | ---: | ---: | ---: | ---: |
-| **Organic** | 57,856.28 PM | $462,850,236.46 | 38,879.42 PM | $311,035,358.90 |
-| **Semi-Detached** | 141,710.86 PM | $1,133,686,879.27 | 95,229.70 PM | $761,837,582.87 |
-| **Embedded** | 366,827.31 PM | $2,934,618,448.78 | 246,507.95 PM | $1,972,063,597.58 |
+| **Organic** | 57,856.85 PM | $462,854,799.89 | 38,879.80 PM | $311,038,425.53 |
+| **Semi-Detached** | 141,712.35 PM | $1,133,698,801.94 | 95,230.70 PM | $761,845,594.90 |
+| **Embedded** | 366,831.44 PM | $2,934,651,515.82 | 246,510.73 PM | $1,972,085,818.63 |
 
-**Deployment record (2026-10-31):** Source commit `908a0f369` is published on `main` and `master`. GitHub Actions generated `gh-pages` deployment commit `bdbfdf896`, which includes the COCOMO patch-volume cost section.
+**Deployment record (2026-10-31):** Source commit `21db83011` is published on `main`, `master`, `dev`, `debug`, and `claude`. GitHub Actions generated `gh-pages` deployment commit `6750703ab`, which includes the COCOMO patch-volume and Google Gemini zero-overage compute cost sections.
 
 **Fully loaded five-year TCO (constant annual run rate):**
 

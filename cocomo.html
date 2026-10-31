@@ -989,16 +989,16 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 									<tbody>
 										<tr>
 											<td><strong>All history reachable from HEAD</strong></td>
-											<td style="text-align: right;">9,452</td>
-											<td style="text-align: right;">173,440</td>
-											<td style="text-align: right;">14,909,599</td>
-											<td style="text-align: right;">3,987,855</td>
-											<td style="text-align: right;">18,897,454</td>
+											<td style="text-align: right;">9,455</td>
+											<td style="text-align: right;">173,445</td>
+											<td style="text-align: right;">14,909,739</td>
+											<td style="text-align: right;">3,987,885</td>
+											<td style="text-align: right;">18,897,624</td>
 										</tr>
 									</tbody>
 								</table>
 							</div>
-							<p>Using the report's 533,963-SLOC baseline, lifetime gross patch churn is <code>18,897,454 / 533,963 = 35.39x</code> (3,539.09%). These are cumulative patch operations, not unique source lines or COCOMO Annual Change Traffic (ACT): repeated edits count repeatedly, and a modified line can appear as both an addition and a deletion. Do not substitute this measure for the scenario ACT assumptions in Section 3.</p>
+							<p>Using the report's 533,963-SLOC baseline, lifetime gross patch churn is <code>18,897,624 / 533,963 = 35.39x</code> (3,539.12%). These are cumulative patch operations, not unique source lines or COCOMO Annual Change Traffic (ACT): repeated edits count repeatedly, and a modified line can appear as both an addition and a deletion. Do not substitute this measure for the scenario ACT assumptions in Section 3.</p>
 							<p>Current dependency add-ons are counted from the committed npm and Ruby lockfiles. Lockfile entries include transitive dependencies and platform-specific variants; the unique-name total counts names separately by ecosystem. These are locked dependency records, not a claim that every package is currently installed or used at runtime.</p>
 							<div class="table-responsive my-3">
 								<table class="table table-bordered table-striped align-middle">
@@ -1030,7 +1030,7 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 							</div>
 							<p>Under the report's existing assumption that these dependencies have no license fees, direct add-on license cost is <strong>$0 assumed</strong>. Package counts do not establish integration or maintenance labor; that labor is not separately priced here.</p>
 							<h3 class="h5 mt-4">Lifetime Patch-Volume-Equivalent COCOMO Cost</h3>
-							<p>For a volume-based comparison only, the 14,909,599 added patch lines are treated as if they were 14,909.599 KLOC of newly developed, unique source code. The resulting figures are <strong>not actual historical spend or a valuation of unique surviving code</strong>: Git counts repeated additions across commits, including revisions to the same lines. Do not add these alternative estimates to the current-codebase valuation or the WBS/TCO.</p>
+							<p>For a volume-based comparison only, the 14,909,739 added patch lines are treated as if they were 14,909.739 KLOC of newly developed, unique source code. The resulting figures are <strong>not actual historical spend or a valuation of unique surviving code</strong>: Git counts repeated additions across commits, including revisions to the same lines. Do not add these alternative estimates to the current-codebase valuation or the WBS/TCO.</p>
 							<div class="table-responsive my-3">
 								<table class="table table-bordered table-striped align-middle">
 									<thead class="table-primary">
@@ -1045,28 +1045,29 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 									<tbody>
 										<tr>
 											<td><strong>Organic</strong></td>
-											<td style="text-align: right;">57,856.28 PM</td>
-											<td style="text-align: right;">$462,850,236.46</td>
-											<td style="text-align: right;">38,879.42 PM</td>
-											<td style="text-align: right;">$311,035,358.90</td>
+											<td style="text-align: right;">57,856.85 PM</td>
+											<td style="text-align: right;">$462,854,799.89</td>
+											<td style="text-align: right;">38,879.80 PM</td>
+											<td style="text-align: right;">$311,038,425.53</td>
 										</tr>
 										<tr>
 											<td><strong>Semi-Detached</strong></td>
-											<td style="text-align: right;">141,710.86 PM</td>
-											<td style="text-align: right;">$1,133,686,879.27</td>
-											<td style="text-align: right;">95,229.70 PM</td>
-											<td style="text-align: right;">$761,837,582.87</td>
+											<td style="text-align: right;">141,712.35 PM</td>
+											<td style="text-align: right;">$1,133,698,801.94</td>
+											<td style="text-align: right;">95,230.70 PM</td>
+											<td style="text-align: right;">$761,845,594.90</td>
 										</tr>
 										<tr>
 											<td><strong>Embedded</strong></td>
-											<td style="text-align: right;">366,827.31 PM</td>
-											<td style="text-align: right;">$2,934,618,448.78</td>
-											<td style="text-align: right;">246,507.95 PM</td>
-											<td style="text-align: right;">$1,972,063,597.58</td>
+											<td style="text-align: right;">366,831.44 PM</td>
+											<td style="text-align: right;">$2,934,651,515.82</td>
+											<td style="text-align: right;">246,510.73 PM</td>
+											<td style="text-align: right;">$1,972,085,818.63</td>
 										</tr>
 									</tbody>
 								</table>
 							</div>
+							<p class="mt-3"><strong>Deployment record (2026-10-31):</strong> Source commit <code>21db83011</code> is published on <code>main</code>, <code>master</code>, <code>dev</code>, <code>debug</code>, and <code>claude</code>. GitHub Actions generated <code>gh-pages</code> deployment commit <code>6750703ab</code>, which includes the COCOMO patch-volume and Google Gemini zero-overage compute cost sections.</p>
 
 							<div class="card bg-light border-0 shadow-sm my-4">
 								<div class="card-body p-4">
