@@ -8,3 +8,4 @@ Notice: Please review the official terms of service and license agreements for o
 openFDA is a research and public health service provided by the U.S. Food and Drug Administration.
 Data provided by openFDA is open and available for public use under Creative Commons Attribution standards.
 Do not use FDA's logos or name to endorse or promote products or services.
+
