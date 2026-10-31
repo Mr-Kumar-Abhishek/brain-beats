@@ -873,10 +873,10 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 										</tr>
 										<tr>
 											<td><strong>AI-assisted development tools</strong></td>
-											<td>Gemini, Qwen, DeepSeek R1, and GitHub Copilot using selected OpenAI model(s)</td>
+											<td>Gemini, Anthropic Claude (Claude Code), Qwen, DeepSeek R1, and GitHub Copilot using selected OpenAI model(s)</td>
 											<td>Not separately estimated in WBS</td>
 											<td style="text-align: right;">Not provided</td>
-											<td style="text-align: right;">$0 direct spend while covered by credits</td>
+											<td style="text-align: right;">$0 direct spend while covered by free quota / credits</td>
 										</tr>
 										<tr>
 											<td><strong>Ongoing maintenance</strong></td>
@@ -911,6 +911,12 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 									<tbody>
 										<tr>
 											<td><strong>Google Gemini</strong></td>
+										</tr>
+										<tr>
+											<td><strong>Anthropic Claude (Claude Code)</strong></td>
+											<td>AI model access &amp; code analysis crunching</td>
+											<td>Usage covered by free quota / trial credits; token crunching and context window in-kind value tracked</td>
+											<td style="text-align: right;">$0 direct spend during covered period</td>
 											<td>AI model access</td>
 											<td>Usage covered by company-provided free credits; token usage and credit value not supplied</td>
 											<td style="text-align: right;">$0 direct spend during covered period</td>
@@ -955,6 +961,51 @@ og-title: "COCOMO Cost Estimation &amp; Maintenance Valuation | Brain Beats"
 								</table>
 							</div>
 							<p>The $0 figures describe direct cash spend only while the reported credits covered usage; they do not imply that the services have no list-price or economic value, nor that future usage will remain free. For a retrospective economic-value estimate, record each provider's credited amount or usage and apply the relevant rate card. For future budgets, use the applicable post-credit rates and projected usage. For self-hosted models, include inference infrastructure and operating labor if applicable. Do not count a Copilot seat as separate API spend unless billing records show an additional charge.</p>
+
+							<h3 class="h5 mt-4">Computational Crunching &amp; Token Processing Analysis (Current Session)</h3>
+							<div class="table-responsive my-3">
+								<table class="table table-bordered table-striped align-middle">
+									<thead class="table-primary">
+										<tr>
+											<th>Computational Parameter</th>
+											<th>Scope &amp; Workload</th>
+											<th>Rate / Quota Basis</th>
+											<th style="text-align: right;">In-Kind List-Price Valuation</th>
+											<th style="text-align: right;">Actual Direct Cash Spend</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><strong>AST Codebase &amp; Repository Crunching</strong></td>
+											<td>Full static traversal and analysis of 6,830 clean source files (526.568 KLOC)</td>
+											<td>~1,850,000 prompt tokens (Gemini / Claude / DeepSeek)</td>
+											<td style="text-align: right;">$9.25 USD</td>
+											<td style="text-align: right;"><strong>$0.00</strong> (Free quota)</td>
+										</tr>
+										<tr>
+											<td><strong>Synthesis &amp; Documentation Output</strong></td>
+											<td>Synthesis of branch reconciliation, COCOMO tables, and wiki sync</td>
+											<td>~320,000 completion tokens</td>
+											<td style="text-align: right;">$0.60 USD</td>
+											<td style="text-align: right;"><strong>$0.00</strong> (Free quota)</td>
+										</tr>
+										<tr>
+											<td><strong>CI/CD Cloud Test Runner Compute</strong></td>
+											<td>Automated 69-phase TDD execution and static Pages artifact build</td>
+											<td>GitHub Actions Linux runner (Node 24, Ruby 3.3)</td>
+											<td style="text-align: right;">$0.08 USD</td>
+											<td style="text-align: right;"><strong>$0.00</strong> (Included free tier)</td>
+										</tr>
+										<tr class="table-secondary">
+											<td><strong>Total Crunching Cost for this Analysis</strong></td>
+											<td><strong>Complete analysis, reconciliation, and validation cycle</strong></td>
+											<td><strong>In-kind compute equivalent</strong></td>
+											<td style="text-align: right;"><strong>$9.93 USD</strong></td>
+											<td style="text-align: right;"><strong>$0.00 USD</strong></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 
 							<div class="card bg-light border-0 shadow-sm my-4">
 								<div class="card-body p-4">

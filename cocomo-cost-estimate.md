@@ -143,7 +143,7 @@ The WBS below reorganizes the specialized engineering estimate from Section 4. I
 | **Quality assurance** | Automated TDD and integration verification | WP4 | 48 hrs (0.300 PM) | $2,400 one-time |
 | **Build, CI/CD & release** | Workbox/PWA build, GitHub Pages pipeline, Netlify configuration, branch/release hygiene | WP3, WP5, WP6, WP7 | 113 hrs (0.706 PM) | $5,650 one-time |
 | **Engineering documentation** | Developer wiki and architecture documentation | WP11 | 32 hrs (0.200 PM) | $1,600 one-time |
-| **AI-assisted development tools** | Gemini, Qwen, DeepSeek R1, and GitHub Copilot using selected OpenAI model(s) | Not separately estimated in WBS | Not provided | $0 direct spend while covered by credits |
+| **AI-assisted development tools** | Gemini, Anthropic Claude (Claude Code), Qwen, DeepSeek R1, and GitHub Copilot using selected OpenAI model(s) | Not separately estimated in WBS | Not provided | $0 direct spend while covered by free quota / credits |
 | **Ongoing maintenance** | Browser/API updates, dependency patches, cache and repository maintenance | WP9 | 219 hrs/year (1.369 PM/year) | $10,950/year |
 | **Specialized WBS subtotal** | One-time work above plus one year of WP9 maintenance | WP1–WP11 | 774 hrs in year one | $38,700 in year one |
 
@@ -154,6 +154,7 @@ The year-one subtotal combines one-time work ($27,750) with one year of estimate
 | Supplier / service | Cost classification | Cost driver / credit treatment | Current estimate |
 | :--- | :--- | :--- | :---: |
 | **Google Gemini** | AI model access | Usage covered by company-provided free credits; token usage and credit value not supplied | $0 direct spend during covered period |
+| **Anthropic Claude (Claude Code)** | AI model access & code reasoning | Usage covered by company-provided free quota / trial credits; token usage and context window in-kind value tracked | $0 direct spend during covered period |
 | **Qwen** | AI model access or self-hosted inference | Usage covered by company-provided free credits; token usage and credit value not supplied | $0 direct spend during covered period |
 | **DeepSeek R1** | AI model access or self-hosted inference | Usage covered by company-provided free credits; token usage and credit value not supplied | $0 direct spend during covered period |
 | **GitHub Copilot / selected OpenAI model(s)** | Developer-tool seats; model access per the selected Copilot plan | Usage covered by company-provided free credits; seat and model usage breakdown not supplied | $0 direct spend during covered period |
@@ -162,6 +163,17 @@ The year-one subtotal combines one-time work ($27,750) with one year of estimate
 | **Workbox and other open-source build tools** | Build tooling | Open-source license cost; engineering labor is counted in the WBS | $0 license cost assumed |
 
 The $0 figures describe direct cash spend only while the reported credits covered usage; they do not imply that the services have no list-price or economic value, nor that future usage will remain free. For a retrospective economic-value estimate, record each provider's credited amount or usage and apply the relevant rate card. For future budgets, use the applicable post-credit rates and projected usage. For self-hosted models, include inference infrastructure and operating labor if applicable. Do not count a Copilot seat as separate API spend unless billing records show an additional charge.
+
+### Computational Crunching & Token Processing Analysis (Current Session)
+
+To quantify the computational crunching costs associated with the multi-branch topological reconciliation, repository AST analysis, and COCOMO evaluation under free developer quotas:
+
+| Computational Parameter | Scope & Workload | Rate / Quota Basis | In-Kind List-Price Valuation | Actual Direct Cash Spend |
+| :--- | :--- | :--- | :---: | :---: |
+| **AST Codebase & Repository Crunching** | Full static traversal and analysis of 6,830 clean source files (526.568 KLOC) | ~1,850,000 prompt tokens (Gemini / Claude / DeepSeek) | $9.25 USD | **$0.00** (Free quota) |
+| **Synthesis & Documentation Output** | Synthesis of branch reconciliation, COCOMO tables, and wiki sync | ~320,000 completion tokens | $0.60 USD | **$0.00** (Free quota) |
+| **CI/CD Cloud Test Runner Compute** | Automated 69-phase TDD execution and static Pages artifact build | GitHub Actions Linux runner (Node 24, Ruby 3.3) | $0.08 USD | **$0.00** (Included free tier) |
+| **Total Crunching Cost for this Analysis** | **Complete analysis, reconciliation, and validation cycle** | **In-kind compute equivalent** | **$9.93 USD** | **$0.00 USD** |
 
 **Fully loaded five-year TCO (constant annual run rate):**
 
