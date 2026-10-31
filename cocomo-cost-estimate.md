@@ -223,6 +223,8 @@ For a volume-based comparison only, the 14,909,599 added patch lines are treated
 | **Semi-Detached** | 141,710.86 PM | $1,133,686,879.27 | 95,229.70 PM | $761,837,582.87 |
 | **Embedded** | 366,827.31 PM | $2,934,618,448.78 | 246,507.95 PM | $1,972,063,597.58 |
 
+**Deployment record (2026-10-31):** Source commit `908a0f369` is published on `main` and `master`. GitHub Actions generated `gh-pages` deployment commit `bdbfdf896`, which includes the COCOMO patch-volume cost section.
+
 **Fully loaded five-year TCO (constant annual run rate):**
 
 $$
