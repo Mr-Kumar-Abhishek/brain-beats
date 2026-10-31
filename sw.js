@@ -22,7 +22,7 @@ if (workbox) {
     // Helper to dispatch offline ready notification if permission is granted
     const showOfflineReadyNotification = () => {
         if (self.Notification && self.Notification.permission === 'granted') {
-            return self.registration.showNotification('Brain Beats Ready Offline!', {
+            return self.registration.showNotification('Brain Beats Pro Ready Offline!', {
                 body: 'All preset and generator pages are cached and ready for offline use.',
                 icon: '/img/128x128-mandala-1757304_1280.png',
                 badge: '/img/favicon-32x32.png',
@@ -43,7 +43,7 @@ if (workbox) {
             clients.forEach(client => {
                 client.postMessage({
                     type: 'PRECACHE_COMPLETE',
-                    title: 'Brain Beats Ready Offline!',
+                    title: 'Brain Beats Pro Ready Offline!',
                     body: 'All preset and generator pages are cached and ready for offline use.'
                 });
             });

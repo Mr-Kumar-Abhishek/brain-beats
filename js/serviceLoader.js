@@ -1,4 +1,4 @@
-// Service Worker & Notification Loader for Brain Beats PWA
+// Service Worker & Notification Loader for Brain Beats Pro PWA
 
 // Function to display an in-app toast notification
 function showInAppToast(message) {
@@ -38,7 +38,7 @@ function showInAppToast(message) {
 
 // Function to trigger cached notification (both system Web Notification and in-app Toast)
 function triggerCachedNotification() {
-  const title = "Brain Beats Ready Offline!";
+  const title = "Brain Beats Pro Ready Offline!";
   const options = {
     body: "All preset and generator pages are cached and ready for offline use.",
     icon: "/img/128x128-mandala-1757304_1280.png",
