@@ -74,6 +74,6 @@
 # Domain canonicalization / redirects
 [[redirects]]
   from = "https://brain-beats.netlify.app/*"
-  to = "https://brain-beats.in/:splat"
+  to = "https://brain-beats-pro.netlify.app/:splat"
   status = 301
   force = true

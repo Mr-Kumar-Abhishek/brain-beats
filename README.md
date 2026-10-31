@@ -253,8 +253,8 @@ npm run build
 Contributions are welcome! Please review the comprehensive **[Contribution Guidelines](wiki/contribution-guidelines.md)** in our engineering wiki as well as [CONTRIBUTING.md](CONTRIBUTING.md) before submitting pull requests. All contributions must follow our open-source standards, TDD verification suite, and Conventional Commits specification.
 
 * **Author & Maintainer:** Abhishek Kumar
-* **Official Website:** [brain-beats.in](https://brain-beats.in)
-* **Research Blog:** [brain-beats.in/blog/](https://brain-beats.in/blog/)
+* **Official Website:** [brain-beats-pro.netlify.app](https://brain-beats-pro.netlify.app)
+* **Research Blog:** [brain-beats-pro.netlify.app/blog/](https://brain-beats-pro.netlify.app/blog/)
 * **Support Email:** `support@brain-beats.in`
 * **Discord Community:** [Join Discord Server](https://discord.gg/JNRPJDFWdY)
 * **Support the Project:** [Buy Me a Coffee](https://ko-fi.com/brainbeats)

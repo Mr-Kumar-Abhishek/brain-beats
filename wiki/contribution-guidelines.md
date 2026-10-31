@@ -161,7 +161,7 @@ By contributing to Brain Beats, you explicitly agree that your contributions wil
 ## 8. Maintainer Contact & Resources
 
 - **GitHub Repository:** [Mr-Kumar-Abhishek/brain-beats](https://github.com/Mr-Kumar-Abhishek/brain-beats)
-- **Official Website:** [brain-beats.in](https://brain-beats.in)
-- **Research Blog:** [brain-beats.in/blog/](https://brain-beats.in/blog/)
+- **Official Website:** [brain-beats-pro.netlify.app](https://brain-beats-pro.netlify.app)
+- **Research Blog:** [brain-beats-pro.netlify.app/blog/](https://brain-beats-pro.netlify.app/blog/)
 - **Technical Support Email:** `support@brain-beats.in`
 - **Discord Community:** [Join Discord Server](https://discord.gg/JNRPJDFWdY)
