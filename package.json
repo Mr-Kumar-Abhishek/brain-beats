@@ -13,7 +13,7 @@
     "serve:jekyll": "bundle exec jekyll serve"
   },
   "dependencies": {
-    "glob": "^13.0.6"
+    "glob": "^14.0.2"
   },
   "devDependencies": {
     "inquirer": "^13.4.2",
