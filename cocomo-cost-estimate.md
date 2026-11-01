@@ -211,23 +211,27 @@ To calculate the specific project cost of utilizing Google Gemini (via the Googl
 
 ### Lifetime Git Patch and Dependency Add-On Totals
 
-Patch totals cover all history reachable from the analyzed source commit (`5b2c8a6`), computed with `git log --no-merges --no-renames --numstat`. They include text changes to all tracked paths, exclude binary line counts and merge commits, and count renamed files as deletions plus additions.
+Patch totals cover all history reachable from the analyzed source commit (`05301b31b`), computed with `git log --no-merges --no-renames --numstat`. They include text changes to all tracked paths, exclude binary line counts and merge commits, and count renamed files as deletions plus additions.
 
 | Lifetime patch scope | Non-merge commits | File-change rows | Added patch lines | Deleted patch lines | Gross patch churn |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| **All history through `5b2c8a6`** | 9,467 | 173,785 | 14,917,802 | 3,989,549 | 18,907,351 |
+| **All history through `05301b31b`** | 9,469 | 173,840 | 14,918,022 | 3,989,684 | 18,907,706 |
 
-Using the report's 533,963-SLOC baseline, lifetime gross patch churn is `18,907,351 / 533,963 = 35.41x` (3,540.95%). These are cumulative patch operations, not unique source lines or COCOMO Annual Change Traffic (ACT): repeated edits count repeatedly, and a modified line can appear as both an addition and a deletion. Do not substitute this measure for the scenario ACT assumptions in Section 3.
+Using the report's 533,963-SLOC baseline, lifetime gross patch churn is `18,907,706 / 533,963 = 35.41x` (3,541.01%). These are cumulative patch operations, not unique source lines or COCOMO Annual Change Traffic (ACT): repeated edits count repeatedly, and a modified line can appear as both an addition and a deletion. Do not substitute this measure for the scenario ACT assumptions in Section 3.
 
 #### Recent Git Patch Activity Since the Previous Report Update
 
-The recent window is the 10 non-merge commits after report-update commit `2cc4ba6` through analyzed source commit `5b2c8a6`, summed with `git log --no-merges --no-renames --numstat`. Counts are commit-level patch operations, so repeated edits to a path across commits are counted repeatedly; this is intentionally different from a net tree diff.
+The recent window is the 12 non-merge commits after report-update commit `2cc4ba6` through analyzed source commit `05301b31b`, summed with `git log --no-merges --no-renames --numstat`. Counts are commit-level patch operations, so repeated edits to a path across commits are counted repeatedly; this is intentionally different from a net tree diff.
 
 | Recent patch scope | Non-merge commits | File-change rows | Added patch lines | Deleted patch lines | Gross patch churn |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| **Since `2cc4ba6`** | 10 | 247 | 8,036 | 1,637 | 9,673 |
+| **Since `2cc4ba6`** | 12 | 302 | 8,256 | 1,772 | 10,028 |
 
-The activity primarily covers expansion of 40 Rife-frequency stub articles in four batches, refinement of four existing Rife articles, responsive Bootstrap layout updates, branding and navigation changes, link cleanup, and the Dependabot npm lockfile patch upgrades. Against the 533,963-SLOC snapshot, recent gross patch churn is `9,673 / 533,963 = 1.81%`. This is a short-window patch-volume ratio, not annualized ACT or unique code growth.
+The activity primarily covers expansion of 40 Rife-frequency stub articles in four batches, refinement of four existing Rife articles, responsive Bootstrap layout updates, branding and navigation changes, link cleanup, Dependabot npm lockfile patch upgrades, and relative-link updates across Jekyll layouts and frequency catalogs. Against the 533,963-SLOC baseline, recent gross patch churn is `10,028 / 533,963 = 1.88%`. This is a short-window patch-volume ratio, not annualized ACT or unique code growth.
+
+#### Latest Delta Since the Previous Analysis Snapshot
+
+Between analyzed snapshot `5b2c8a6` and current analyzed source commit `05301b31b`, 2 non-merge commits produced 55 file-change rows, 220 additions, 135 deletions, and 355 gross patch lines (`355 / 533,963 = 0.0665%`). The latest source commit, `05301b31b` (`fix(blog): adjust blog links to relative links using Jekyll liquid format`), changed 51 files with 105 additions and 105 deletions. It converts site-wide Jekyll navigation, metadata, feed, and asset links to `relative_url` and changes Angel/Solfeggio catalog article links to root-relative URLs.
 
 Current dependency add-ons are counted from the committed npm and Ruby lockfiles. Lockfile entries include transitive dependencies and platform-specific variants; the unique-name total counts names separately by ecosystem. These are locked dependency records, not a claim that every package is currently installed or used at runtime.
 
@@ -241,23 +245,23 @@ Under the report's existing assumption that these dependencies have no license f
 
 ### Lifetime Patch-Volume-Equivalent COCOMO Cost
 
-For a volume-based comparison only, the 14,917,802 added patch lines are treated as if they were 14,917.802 KLOC of newly developed, unique source code. The resulting figures are **not actual historical spend or a valuation of unique surviving code**: Git counts repeated additions across commits, including revisions to the same lines. Do not add these alternative estimates to the current-codebase valuation or the WBS/TCO.
+For a volume-based comparison only, the 14,918,022 added patch lines are treated as if they were 14,918.022 KLOC of newly developed, unique source code. The resulting figures are **not actual historical spend or a valuation of unique surviving code**: Git counts repeated additions across commits, including revisions to the same lines. Do not add these alternative estimates to the current-codebase valuation or the WBS/TCO.
 
 | COCOMO mode | Nominal effort | Nominal cost (@ $8,000/PM) | EAF-adjusted effort (0.672) | EAF-adjusted cost |
 | :--- | ---: | ---: | ---: | ---: |
-| **Organic** | 57,889.70 PM | $463,117,624.82 | 38,901.88 PM | $311,215,043.88 |
-| **Semi-Detached** | 141,798.19 PM | $1,134,385,485.13 | 95,288.38 PM | $762,307,046.01 |
-| **Embedded** | 367,069.51 PM | $2,936,556,046.11 | 246,670.71 PM | $1,973,365,662.99 |
+| **Organic** | 57,890.60 PM | $463,124,796.14 | 38,902.48 PM | $311,219,863.00 |
+| **Semi-Detached** | 141,800.53 PM | $1,134,404,221.99 | 95,289.95 PM | $762,319,637.18 |
+| **Embedded** | 367,076.00 PM | $2,936,608,014.35 | 246,675.07 PM | $1,973,400,585.64 |
 
 ### Recent Patch-Volume-Equivalent COCOMO Cost
 
-For comparison only, the 8,036 added lines in the recent window are treated as 8.036 KLOC of newly developed source. These estimates count repeated patch additions and are not actual historical spend, unique surviving code, or a cost to add to the lifetime valuation, WBS, or TCO.
+For comparison only, the 8,256 added lines in the recent window are treated as 8.256 KLOC of newly developed source. These estimates count repeated patch additions and are not actual historical spend, unique surviving code, or a cost to add to the lifetime valuation, WBS, or TCO.
 
 | COCOMO mode | Nominal effort | Nominal cost (@ $8,000/PM) | EAF-adjusted effort (0.672) | EAF-adjusted cost |
 | :--- | ---: | ---: | ---: | ---: |
-| **Organic** | 21.40 PM | $171,235.24 | 14.38 PM | $115,070.08 |
-| **Semi-Detached** | 30.96 PM | $247,660.05 | 20.80 PM | $166,427.56 |
-| **Embedded** | 43.89 PM | $351,107.74 | 29.49 PM | $235,944.40 |
+| **Organic** | 22.02 PM | $176,160.85 | 14.80 PM | $118,380.09 |
+| **Semi-Detached** | 31.91 PM | $255,266.19 | 21.44 PM | $171,538.88 |
+| **Embedded** | 45.33 PM | $362,673.74 | 30.46 PM | $243,716.75 |
 
 **Deployment record (2026-10-31):** Source commit `21db83011` is published on `main`, `master`, `dev`, `debug`, and `claude`. GitHub Actions generated `gh-pages` deployment commit `6750703ab`, which includes the COCOMO patch-volume and Google Gemini zero-overage compute cost sections.
 
